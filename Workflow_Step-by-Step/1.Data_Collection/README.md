@@ -1,3 +1,9 @@
+
+
+## Data collection index
+
+- [BLAST workflow](1.Blast_workflow.md)
+- 
 # Step 1. Data Collection
 
 **Aim**  
