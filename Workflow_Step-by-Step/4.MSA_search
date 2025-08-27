@@ -1,1 +1,76 @@
-Aim : to peform msa search.
+# <h2 style="color:darkblue; font:Times New Roman;">MSA_search — Step 04 (Arabidopsis → Rice example)</h2>
+
+---
+
+## **Aim**  
+To perform MSA and prepare a Phylogenetic tree.
+
+## **Objective**
+- Perform MSA using **MAFFT**.  
+- Visualise MAFFT results using **AliView**.  
+- Visualise Phylogenetic tree of the prepared output.  
+
+---
+
+## **Steps:-**
+
+```bash
+#!/bin/bash
+```
+
+>## Step 0: Installations
+```
+brew install hmmer seqkit blast
+
+hmmsearch --version
+blastp -version
+seqkit version
+```
+
+>## Step 1: File check
+```
+pwd
+ls -l
+cd BLAST_project
+ls
+```
+>## Step 2: Shortlist candidates (Extract intersection sequences)
+```
+seqkit grep -f MADS_Kdomain_intersection.txt Blast_final_shortlisted.fa > MADS_Kdomain_intersection.fa
+```
+
+>## Step 3: Combine files for MSA (From shortlisted candidates)
+```
+cat Blast_final_shortlisted.fa MADS_Kdomain_intersection.fa > combined.fa
+```
+
+>## Step 3: Run MAFFT
+```
+mafft --auto combined.fa > MSA_resultsfile.fa
+head MSA_resultsfile.fa
+open -a TextEdit MSA_resultsfile.fa
+```
+
+>## Step 4: AliView Installation
+```
+brew --version
+conda --version
+
+conda activate base
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+conda install aliview
+```
+
+>## Step 5: Visualise with AliView 
+```
+aliview ~/Desktop/NIPGR-data/BLAST_project/MSA_resultsfile.fa
+```
+<br>
+
+<p align="center">------MAFFT complete------</p>
+<br><br>
+
+
+
