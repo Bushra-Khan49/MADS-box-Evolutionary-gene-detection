@@ -1,0 +1,8 @@
+## Step-by-Step Workflow
+
+Run commands sequentially in your terminal. Each step includes the command, input/output files, and notes. Inspection commands (e.g., `ls -l`, `head`) are optional for verification.
+
+### Step 1: Inspect Initial Directory
+```bash
+pwd
+ls -l
