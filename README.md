@@ -129,8 +129,7 @@ Angiosperms (Flowering plants)
 ## Expected Outcomes
 - A **catalog of MADS-box genes** across all selected angiosperm genomes. 
 - **Phylogenetic insights and clade classification** revealing gene duplication, expansion, and lineage-specific diversification.
-- Contribution to understanding the **evolution of floral organ identity genes**.
-- Comparative insights into the evolution of **floral organ identity networks** across major plant lineages.
+- Comparative insights into the evolution of **floral organ identity networks and genes** across major plant lineages.
 - Detection of **conserved and novel domain architectures** associated with functional specialization.
 
 ---
