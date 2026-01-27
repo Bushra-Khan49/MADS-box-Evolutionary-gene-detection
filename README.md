@@ -55,6 +55,9 @@ These genes are central to **plant development and floral organ identity (ABCDE 
 ---
 
 ## Species Studied
+
+(To investigate the evolutionary diversification of MADS-box genes across flowering plants, we selected species representing major angiosperm lineages. Amborella trichopoda and Nymphaea colorata represent basal angiosperms, providing insight into ancestral gene architectures. Cinnamomum kanehirae (magnoliid) bridges early and derived angiosperms, while Oryza sativa represents monocots. Multiple eudicot species spanning rosids (Glycine max, Medicago truncatula, Prunus persica) and asterids (Helianthus annuus) were included to capture lineage-specific duplication, divergence, and functional specialization. Arabidopsis thaliana was used as a reference model for gene annotation and clade classification.)
+
 - *Medicago truncatula*  
 - *Glycine max*  
 - *Helianthus annuus*  
@@ -65,6 +68,41 @@ These genes are central to **plant development and floral organ identity (ABCDE 
 - *Amborella trichopoda*  
 - *Nymphaea colorata*  
 
+### Phylogenetic distribution of angiosperm species selected for comparative analysis of MADS-box genes. Species were chosen to represent key evolutionary transitions from basal angiosperms to derived eudicots ###
+
+Angiosperms (Flowering plants)
+│
+├── Basal Angiosperms
+│   ├── Amborella trichopoda
+│   │   └─ Represents ancestral angiosperm MADS-box architecture
+│   │
+│   └── Nymphaea colorata
+│       └─ Early aquatic angiosperm; tests conservation vs adaptation
+│
+├── Magnoliids
+│   └── Cinnamomum kanehirae
+│       └─ Transitional lineage between basal angiosperms and eudicots
+│
+├── Monocots
+│   └── Oryza sativa
+│       └─ Independent flower evolution; tests lineage-specific divergence
+│
+└── Eudicots
+    ├── Rosids
+    │   ├── Glycine max
+    │   │   └─ Legume model; gene family expansion & duplication
+    │   │
+    │   ├── Medicago truncatula
+    │   │   └─ Model legume; comparative orthology
+    │   │
+    │   └── Prunus persica
+    │       └─ Woody perennial; structural genome contrast
+    │
+    └── Asterids
+        └── Helianthus annuus
+            └─ Distant dicot lineage; avoids rosid-only bias
+
+          
 ---
 
 ## Expected Outcomes
