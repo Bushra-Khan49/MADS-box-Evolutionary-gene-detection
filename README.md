@@ -68,7 +68,9 @@ To investigate the evolutionary diversification of MADS-box genes across floweri
 - *Amborella trichopoda*  
 - *Nymphaea colorata*  
 
-### Phylogenetic distribution of angiosperm species selected for comparative analysis of MADS-box genes. Species were chosen to represent key evolutionary transitions from basal angiosperms to derived eudicots ###
+#### Phylogenetic distribution of angiosperm species selected for comparative analysis of MADS-box genes. Species were chosen to represent key evolutionary transitions from basal angiosperms to derived eudicots ####
+
+```bash
 
 Angiosperms (Flowering plants)
 │
@@ -101,10 +103,9 @@ Angiosperms (Flowering plants)
     └── Asterids
         └── Helianthus annuus
             └─ Distant dicot lineage; avoids rosid-only bias
+```
 
-          
 ---
-
 ## Expected Outcomes
 - A **catalog of MADS-box genes** across nine plant species  
 - **Phylogenetic insights** into duplication and diversification events  
