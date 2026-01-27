@@ -56,7 +56,7 @@ These genes are central to **plant development and floral organ identity (ABCDE 
 
 ## Species Studied
 
-(To investigate the evolutionary diversification of MADS-box genes across flowering plants, we selected species representing major angiosperm lineages. Amborella trichopoda and Nymphaea colorata represent basal angiosperms, providing insight into ancestral gene architectures. Cinnamomum kanehirae (magnoliid) bridges early and derived angiosperms, while Oryza sativa represents monocots. Multiple eudicot species spanning rosids (Glycine max, Medicago truncatula, Prunus persica) and asterids (Helianthus annuus) were included to capture lineage-specific duplication, divergence, and functional specialization. Arabidopsis thaliana was used as a reference model for gene annotation and clade classification.)
+To investigate the evolutionary diversification of MADS-box genes across flowering plants, we selected species representing major angiosperm lineages. Amborella trichopoda and Nymphaea colorata represent basal angiosperms, providing insight into ancestral gene architectures. Cinnamomum kanehirae (magnoliid) bridges early and derived angiosperms, while Oryza sativa represents monocots. Multiple eudicot species spanning rosids (Glycine max, Medicago truncatula, Prunus persica) and asterids (Helianthus annuus) were included to capture lineage-specific duplication, divergence, and functional specialization. Arabidopsis thaliana was used as a reference model for gene annotation and clade classification.
 
 - *Medicago truncatula*  
 - *Glycine max*  
