@@ -156,6 +156,13 @@ def draw_tree(species, nwk_path, species_ann):
         raw = leaf.name
         key = re.sub(r'[.\-\s]', '_', raw) if raw else ""
         info = species_ann.get(raw) or species_ann.get(key)
+        
+        # Substring fallback for concatenated MASTER tree strings
+        if not info and raw:
+            for ann_key, ann_val in species_ann.items():
+                if len(ann_key) > 5 and re.sub(r'[.\-\s]', '_', ann_key) in key:
+                    info = ann_val
+                    break
 
         clade = "Unknown"
         if raw and raw.startswith("AT"):
