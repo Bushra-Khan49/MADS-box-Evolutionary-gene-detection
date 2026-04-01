@@ -1,0 +1,954 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa -m LG+G -bb 1000 -T 2 --redo
+Seed:    684876 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Mar 29 17:45:35 2026
+Kernel:  SSE2 - 2 threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa ... Fasta format detected
+Reading fasta file: done in 0.00403214 secs using 83.36% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00155711 secs using 73.21% CPU
+Alignment has 168 sequences with 310 columns, 300 distinct patterns
+203 parsimony-informative, 70 singleton sites, 37 constant sites
+WARNING: Some sequence names are changed as follows:
+AT2G45650.1|PACid:19638787_10_57 -> AT2G45650.1|PACid_19638787_10_57
+AT4G11880.1|PACid:19643844_10_57 -> AT4G11880.1|PACid_19643844_10_57
+AT4G09960.1|PACid:19648309_10_57 -> AT4G09960.1|PACid_19648309_10_57
+AT4G09960.4|PACid:19648308_10_57 -> AT4G09960.4|PACid_19648308_10_57
+AT4G18960.1|PACid:19647337_26_73 -> AT4G18960.1|PACid_19647337_26_73
+AT4G09960.3|PACid:19648307_36_83 -> AT4G09960.3|PACid_19648307_36_83
+AT4G09960.2|PACid:19648310_10_57 -> AT4G09960.2|PACid_19648310_10_57
+AT2G45660.1|PACid:19641052_10_57 -> AT2G45660.1|PACid_19641052_10_57
+AT4G22950.1|PACid:19647692_10_57 -> AT4G22950.1|PACid_19647692_10_57
+AT4G22950.1|PACid:19647692_94_105 -> AT4G22950.1|PACid_19647692_94_105
+AT1G24260.3|PACid:19651405_10_57 -> AT1G24260.3|PACid_19651405_10_57
+AT5G15800.1|PACid:19670123_10_57 -> AT5G15800.1|PACid_19670123_10_57
+AT1G24260.1|PACid:19651404_10_57 -> AT1G24260.1|PACid_19651404_10_57
+AT1G24260.2|PACid:19651403_10_57 -> AT1G24260.2|PACid_19651403_10_57
+AT5G15800.2|PACid:19670122_10_57 -> AT5G15800.2|PACid_19670122_10_57
+AT2G22540.1|PACid:19641563_10_57 -> AT2G22540.1|PACid_19641563_10_57
+AT3G57390.1|PACid:19659472_10_57 -> AT3G57390.1|PACid_19659472_10_57
+AT5G13790.1|PACid:19669343_10_57 -> AT5G13790.1|PACid_19669343_10_57
+AT5G51870.2|PACid:19672301_10_57 -> AT5G51870.2|PACid_19672301_10_57
+AT5G51870.1|PACid:19672300_10_57 -> AT5G51870.1|PACid_19672300_10_57
+AT5G51870.3|PACid:19672299_10_57 -> AT5G51870.3|PACid_19672299_10_57
+AT3G58780.2|PACid:19662660_25_72 -> AT3G58780.2|PACid_19662660_25_72
+AT2G42830.1|PACid:19643528_25_72 -> AT2G42830.1|PACid_19643528_25_72
+AT3G58780.1|PACid:19662659_25_72 -> AT3G58780.1|PACid_19662659_25_72
+AT2G42830.2|PACid:19643527_25_72 -> AT2G42830.2|PACid_19643527_25_72
+AT3G58780.3|PACid:19662658_25_72 -> AT3G58780.3|PACid_19662658_25_72
+AT3G02310.1|PACid:19661943_10_57 -> AT3G02310.1|PACid_19661943_10_57
+AT2G14210.1|PACid:19638394_10_57 -> AT2G14210.1|PACid_19638394_10_57
+AT2G03710.3|PACid:19640310_10_57 -> AT2G03710.3|PACid_19640310_10_57
+AT1G69120.1|PACid:19653480_10_57 -> AT1G69120.1|PACid_19653480_10_57
+AT5G60910.1|PACid:19670614_10_57 -> AT5G60910.1|PACid_19670614_10_57
+AT5G51860.2|PACid:19671372_10_57 -> AT5G51860.2|PACid_19671372_10_57
+AT5G51860.1|PACid:19671371_10_57 -> AT5G51860.1|PACid_19671371_10_57
+AT2G03710.2|PACid:19640309_10_57 -> AT2G03710.2|PACid_19640309_10_57
+AT2G03710.1|PACid:19640308_10_57 -> AT2G03710.1|PACid_19640308_10_57
+AT3G30260.1|PACid:19662130_10_57 -> AT3G30260.1|PACid_19662130_10_57
+AT2G24840.1|PACid:19642372_71_118 -> AT2G24840.1|PACid_19642372_71_118
+AT2G22540.2|PACid:19641564_10_55 -> AT2G22540.2|PACid_19641564_10_55
+AT3G57230.1|PACid:19665060_10_57 -> AT3G57230.1|PACid_19665060_10_57
+AT3G57230.2|PACid:19665061_10_57 -> AT3G57230.2|PACid_19665061_10_57
+AT4G37940.1|PACid:19644309_10_57 -> AT4G37940.1|PACid_19644309_10_57
+AT4G24540.1|PACid:19648389_10_57 -> AT4G24540.1|PACid_19648389_10_57
+AT3G61120.1|PACid:19662463_10_57 -> AT3G61120.1|PACid_19662463_10_57
+AT3G54340.1|PACid:19659884_10_57 -> AT3G54340.1|PACid_19659884_10_57
+AT1G26310.1|PACid:19650942_10_57 -> AT1G26310.1|PACid_19650942_10_57
+AT1G22130.1|PACid:19651829_10_55 -> AT1G22130.1|PACid_19651829_10_55
+AT5G62165.4|PACid:19672598_10_57 -> AT5G62165.4|PACid_19672598_10_57
+AT5G60440.1|PACid:19665878_15_62 -> AT5G60440.1|PACid_19665878_15_62
+AT5G62165.1|PACid:19672595_10_57 -> AT5G62165.1|PACid_19672595_10_57
+AT5G62165.2|PACid:19672596_10_57 -> AT5G62165.2|PACid_19672596_10_57
+AT5G62165.3|PACid:19672597_10_57 -> AT5G62165.3|PACid_19672597_10_57
+AT2G22630.1|PACid:19642313_10_57 -> AT2G22630.1|PACid_19642313_10_57
+AT1G77980.1|PACid:19650219_10_55 -> AT1G77980.1|PACid_19650219_10_55
+AT1G71692.1|PACid:19653064_10_56 -> AT1G71692.1|PACid_19653064_10_56
+AT1G01530.1|PACid:19655032_15_62 -> AT1G01530.1|PACid_19655032_15_62
+AT1G65360.1|PACid:19652033_15_62 -> AT1G65360.1|PACid_19652033_15_62
+AT5G10140.2|PACid:19672042_10_57 -> AT5G10140.2|PACid_19672042_10_57
+AT5G10140.4|PACid:19672041_10_57 -> AT5G10140.4|PACid_19672041_10_57
+AT5G10140.3|PACid:19672040_10_57 -> AT5G10140.3|PACid_19672040_10_57
+AT5G10140.1|PACid:19672039_10_57 -> AT5G10140.1|PACid_19672039_10_57
+AT3G66656.1|PACid:19662106_10_57 -> AT3G66656.1|PACid_19662106_10_57
+AT5G23260.2|PACid:19667542_10_57 -> AT5G23260.2|PACid_19667542_10_57
+AT5G23260.3|PACid:19667544_10_57 -> AT5G23260.3|PACid_19667544_10_57
+AT5G23260.1|PACid:19667543_10_57 -> AT5G23260.1|PACid_19667543_10_57
+AT4G36590.1|PACid:19644661_15_62 -> AT4G36590.1|PACid_19644661_15_62
+AT2G34440.1|PACid:19639540_12_57 -> AT2G34440.1|PACid_19639540_12_57
+AT5G65070.1|PACid:19666742_10_57 -> AT5G65070.1|PACid_19666742_10_57
+AT1G77950.1|PACid:19656697_10_55 -> AT1G77950.1|PACid_19656697_10_55
+AT1G77950.2|PACid:19656698_10_55 -> AT1G77950.2|PACid_19656698_10_55
+AT5G65070.3|PACid:19666740_10_57 -> AT5G65070.3|PACid_19666740_10_57
+AT5G65070.2|PACid:19666741_10_57 -> AT5G65070.2|PACid_19666741_10_57
+AT1G77080.5|PACid:19652600_10_55 -> AT1G77080.5|PACid_19652600_10_55
+AT1G77080.2|PACid:19652599_10_55 -> AT1G77080.2|PACid_19652599_10_55
+AT1G77080.4|PACid:19652598_10_55 -> AT1G77080.4|PACid_19652598_10_55
+AT5G65080.2|PACid:19670373_10_55 -> AT5G65080.2|PACid_19670373_10_55
+AT1G31140.1|PACid:19657778_10_57 -> AT1G31140.1|PACid_19657778_10_57
+AT1G31140.2|PACid:19657777_10_57 -> AT1G31140.2|PACid_19657777_10_57
+AT5G65080.1|PACid:19670372_17_62 -> AT5G65080.1|PACid_19670372_17_62
+AT1G47760.1|PACid:19657551_10_57 -> AT1G47760.1|PACid_19657551_10_57
+AT5G20240.1|PACid:19673101_10_57 -> AT5G20240.1|PACid_19673101_10_57
+AT1G18750.1|PACid:19654582_10_57 -> AT1G18750.1|PACid_19654582_10_57
+AT1G72350.1|PACid:19656010_55_98 -> AT1G72350.1|PACid_19656010_55_98
+AT5G65050.2|PACid:19667307_10_55 -> AT5G65050.2|PACid_19667307_10_55
+AT5G65050.1|PACid:19667306_10_55 -> AT5G65050.1|PACid_19667306_10_55
+AT5G65050.3|PACid:19667305_10_55 -> AT5G65050.3|PACid_19667305_10_55
+AT5G65060.2|PACid:19668929_10_55 -> AT5G65060.2|PACid_19668929_10_55
+AT5G65060.1|PACid:19668928_10_55 -> AT5G65060.1|PACid_19668928_10_55
+AT1G17310.1|PACid:19656321_56_103 -> AT1G17310.1|PACid_19656321_56_103
+AT1G28460.1|PACid:19649164_16_63 -> AT1G28460.1|PACid_19649164_16_63
+AT2G03060.2|PACid:19640478_10_53 -> AT2G03060.2|PACid_19640478_10_53
+AT2G03060.1|PACid:19640479_10_53 -> AT2G03060.1|PACid_19640479_10_53
+AT3G04100.1|PACid:19663352_22_69 -> AT3G04100.1|PACid_19663352_22_69
+AT3G04100.1|PACid:19663352_104_117 -> AT3G04100.1|PACid_19663352_104_117
+AT1G29962.1|PACid:19658277_16_63 -> AT1G29962.1|PACid_19658277_16_63
+AT5G48670.1|PACid:19672717_10_51 -> AT5G48670.1|PACid_19672717_10_51
+AT2G26320.1|PACid:19638466_26_73 -> AT2G26320.1|PACid_19638466_26_73
+AT1G69540.1|PACid:19658298_11_53 -> AT1G69540.1|PACid_19658298_11_53
+AT3G05860.2|PACid:19660459_10_51 -> AT3G05860.2|PACid_19660459_10_51
+AT3G05860.3|PACid:19660458_10_51 -> AT3G05860.3|PACid_19660458_10_51
+AT3G05860.1|PACid:19660457_10_51 -> AT3G05860.1|PACid_19660457_10_51
+AT5G27960.1|PACid:19666678_9_48 -> AT5G27960.1|PACid_19666678_9_48
+AT1G65330.1|PACid:19653684_9_53 -> AT1G65330.1|PACid_19653684_9_53
+AT5G55690.1|PACid:19665481_10_51 -> AT5G55690.1|PACid_19665481_10_51
+AT5G55690.1|PACid:19665481_137_148 -> AT5G55690.1|PACid_19665481_137_148
+AT1G65300.1|PACid:19652716_10_51 -> AT1G65300.1|PACid_19652716_10_51
+AT5G26630.1|PACid:19667105_10_50 -> AT5G26630.1|PACid_19667105_10_50
+AT5G26650.1|PACid:19669215_9_48 -> AT5G26650.1|PACid_19669215_9_48
+AT1G28450.1|PACid:19650560_16_63 -> AT1G28450.1|PACid_19650560_16_63
+AT3G18650.1|PACid:19661489_5_23 -> AT3G18650.1|PACid_19661489_5_23
+AT3G18650.1|PACid:19661489_30_72 -> AT3G18650.1|PACid_19661489_30_72
+AT5G58890.1|PACid:19667567_10_52 -> AT5G58890.1|PACid_19667567_10_52
+AT5G26580.1|PACid:19673075_11_50 -> AT5G26580.1|PACid_19673075_11_50
+AT4G02235.1|PACid:19647863_9_54 -> AT4G02235.1|PACid_19647863_9_54
+AT1G22590.2|PACid:19655507_11_50 -> AT1G22590.2|PACid_19655507_11_50
+AT5G65330.1|PACid:19672137_7_52 -> AT5G65330.1|PACid_19672137_7_52
+AT5G39750.1|PACid:19667213_25_64 -> AT5G39750.1|PACid_19667213_25_64
+AT5G40120.1|PACid:19671880_17_56 -> AT5G40120.1|PACid_19671880_17_56
+AT5G38740.1|PACid:19668168_26_65 -> AT5G38740.1|PACid_19668168_26_65
+AT5G41200.1|PACid:19667742_19_57 -> AT5G41200.1|PACid_19667742_19_57
+AT5G40220.1|PACid:19669238_18_57 -> AT5G40220.1|PACid_19669238_18_57
+AT1G46408.1|PACid:19654736_12_53 -> AT1G46408.1|PACid_19654736_12_53
+AT5G39810.1|PACid:19670065_25_64 -> AT5G39810.1|PACid_19670065_25_64
+AT1G31630.1|PACid:19652269_10_56 -> AT1G31630.1|PACid_19652269_10_56
+AT4G11250.1|PACid:19648763_10_51 -> AT4G11250.1|PACid_19648763_10_51
+AT5G27090.2|PACid:19670535_29_70 -> AT5G27090.2|PACid_19670535_29_70
+AT5G27090.1|PACid:19670534_29_70 -> AT5G27090.1|PACid_19670534_29_70
+AT5G06500.1|PACid:19671199_10_53 -> AT5G06500.1|PACid_19671199_10_53
+AT5G27070.1|PACid:19671195_30_71 -> AT5G27070.1|PACid_19671195_30_71
+AT5G26950.1|PACid:19666538_30_71 -> AT5G26950.1|PACid_19666538_30_71
+AT5G26880.1|PACid:19668576_156_166 -> AT5G26880.1|PACid_19668576_156_166
+AT5G26880.1|PACid:19668576_241_274 -> AT5G26880.1|PACid_19668576_241_274
+AT5G27944.1|PACid:19666623_30_71 -> AT5G27944.1|PACid_19666623_30_71
+AT5G27580.1|PACid:19672891_30_71 -> AT5G27580.1|PACid_19672891_30_71
+AT2G40210.1|PACid:19638131_10_51 -> AT2G40210.1|PACid_19638131_10_51
+AT1G31640.1|PACid:19651329_12_56 -> AT1G31640.1|PACid_19651329_12_56
+AT5G04640.1|PACid:19673003_13_53 -> AT5G04640.1|PACid_19673003_13_53
+AT5G49490.1|PACid:19668119_54_95 -> AT5G49490.1|PACid_19668119_54_95
+AT1G60920.1|PACid:19654635_12_50 -> AT1G60920.1|PACid_19654635_12_50
+AT1G48150.1|PACid:19654851_28_67 -> AT1G48150.1|PACid_19654851_28_67
+AT5G38620.1|PACid:19667041_14_55 -> AT5G38620.1|PACid_19667041_14_55
+AT5G27130.1|PACid:19666602_23_63 -> AT5G27130.1|PACid_19666602_23_63
+AT1G60040.1|PACid:19653511_20_62 -> AT1G60040.1|PACid_19653511_20_62
+AT5G49420.1|PACid:19672206_16_57 -> AT5G49420.1|PACid_19672206_16_57
+AT2G28700.1|PACid:19641128_11_50 -> AT2G28700.1|PACid_19641128_11_50
+AT5G27050.1|PACid:19667506_1_28 -> AT5G27050.1|PACid_19667506_1_28
+AT1G59810.1|PACid:19650751_19_61 -> AT1G59810.1|PACid_19650751_19_61
+AT1G60880.1|PACid:19658292_12_41 -> AT1G60880.1|PACid_19658292_12_41
+AT1G54760.1|PACid:19656422_19_43 -> AT1G54760.1|PACid_19656422_19_43
+AT5G37415.1|PACid:19671670_85_109 -> AT5G37415.1|PACid_19671670_85_109
+AT5G27810.1|PACid:19666054_1_26 -> AT5G27810.1|PACid_19666054_1_26
+AT1G33070.1|PACid:19656210_4_24 -> AT1G33070.1|PACid_19656210_4_24
+AT2G15660.1|PACid:19640579_30_44 -> AT2G15660.1|PACid_19640579_30_44
+
+                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000874996 secs using 94.4% CPU
+   1  evm_27.model.AmTr_v1.0_scaffold00089.36    31.61%    passed      6.06%
+   2  evm_27.model.AmTr_v1.0_scaffold00013.60    44.52%    passed     90.78%
+   3  evm_27.model.AmTr_v1.0_scaffold00013.53    22.26%    failed      4.76%
+   4  evm_27.model.AmTr_v1.0_scaffold00001.409   28.06%    passed     53.89%
+   5  evm_27.model.AmTr_v1.0_scaffold00001.461   25.48%    failed      0.10%
+   6  evm_27.model.AmTr_v1.0_scaffold00001.225   25.81%    failed      3.45%
+   7  evm_27.model.AmTr_v1.0_scaffold00001.413   26.13%    passed     13.74%
+   8  evm_27.model.AmTr_v1.0_scaffold00046.134   28.39%    passed     12.40%
+   9  evm_27.model.AmTr_v1.0_scaffold00053.185   39.35%    passed      5.62%
+  10  evm_27.model.AmTr_v1.0_scaffold00095.150   26.45%    failed      1.31%
+  11  evm_27.model.AmTr_v1.0_scaffold00071.203   28.39%    passed      6.41%
+  12  evm_27.model.AmTr_v1.0_scaffold00021.296   24.52%    passed     35.48%
+  13  evm_27.model.AmTr_v1.0_scaffold00047.121   21.61%    passed     10.39%
+  14  evm_27.model.AmTr_v1.0_scaffold00047.105   21.94%    failed      0.18%
+  15  evm_27.model.AmTr_v1.0_scaffold00066.97    29.03%    passed      8.06%
+  16  evm_27.model.AmTr_v1.0_scaffold00127.17    29.35%    failed      0.50%
+  17  AT2G45650.1|PACid_19638787_10_57           84.52%    passed     98.55%
+  18  AT4G11880.1|PACid_19643844_10_57           84.52%    passed     99.26%
+  19  AT4G09960.1|PACid_19648309_10_57           84.52%    passed     95.49%
+  20  AT4G09960.4|PACid_19648308_10_57           84.52%    passed     95.49%
+  21  AT4G18960.1|PACid_19647337_26_73           84.52%    passed     95.49%
+  22  AT4G09960.3|PACid_19648307_36_83           84.52%    passed     95.49%
+  23  AT4G09960.2|PACid_19648310_10_57           84.52%    passed     95.49%
+  24  AT2G45660.1|PACid_19641052_10_57           84.52%    passed     99.53%
+  25  AT4G22950.1|PACid_19647692_10_57           84.52%    passed     96.95%
+  26  AT4G22950.1|PACid_19647692_94_105          96.13%    passed     90.03%
+  27  AT1G24260.3|PACid_19651405_10_57           84.52%    passed     93.21%
+  28  AT5G15800.1|PACid_19670123_10_57           84.52%    passed     93.21%
+  29  AT1G24260.1|PACid_19651404_10_57           84.52%    passed     93.21%
+  30  AT1G24260.2|PACid_19651403_10_57           84.52%    passed     93.21%
+  31  AT5G15800.2|PACid_19670122_10_57           84.52%    passed     93.21%
+  32  AT2G22540.1|PACid_19641563_10_57           84.52%    passed     81.14%
+  33  AT3G57390.1|PACid_19659472_10_57           84.52%    passed     85.69%
+  34  AT5G13790.1|PACid_19669343_10_57           84.52%    passed     92.08%
+  35  AT5G51870.2|PACid_19672301_10_57           84.52%    passed     93.45%
+  36  AT5G51870.1|PACid_19672300_10_57           84.52%    passed     93.45%
+  37  AT5G51870.3|PACid_19672299_10_57           84.52%    passed     93.45%
+  38  AT3G58780.2|PACid_19662660_25_72           84.52%    passed     91.05%
+  39  AT2G42830.1|PACid_19643528_25_72           84.52%    passed     91.05%
+  40  AT3G58780.1|PACid_19662659_25_72           84.52%    passed     91.05%
+  41  AT2G42830.2|PACid_19643527_25_72           84.52%    passed     91.05%
+  42  AT3G58780.3|PACid_19662658_25_72           84.52%    passed     91.05%
+  43  AT3G02310.1|PACid_19661943_10_57           84.52%    passed     95.67%
+  44  AT2G14210.1|PACid_19638394_10_57           84.52%    passed     95.23%
+  45  AT2G03710.3|PACid_19640310_10_57           84.52%    passed     90.20%
+  46  AT1G69120.1|PACid_19653480_10_57           84.52%    passed     93.23%
+  47  AT5G60910.1|PACid_19670614_10_57           84.52%    passed     98.81%
+  48  AT5G51860.2|PACid_19671372_10_57           84.52%    passed     99.16%
+  49  AT5G51860.1|PACid_19671371_10_57           84.52%    passed     99.16%
+  50  AT2G03710.2|PACid_19640309_10_57           84.52%    passed     90.20%
+  51  AT2G03710.1|PACid_19640308_10_57           84.52%    passed     90.20%
+  52  AT3G30260.1|PACid_19662130_10_57           84.52%    passed     97.60%
+  53  AT2G24840.1|PACid_19642372_71_118          84.52%    passed     47.25%
+  54  AT2G22540.2|PACid_19641564_10_55           85.16%    passed     87.86%
+  55  AT3G57230.1|PACid_19665060_10_57           84.52%    passed     99.19%
+  56  AT3G57230.2|PACid_19665061_10_57           84.52%    passed     99.19%
+  57  AT4G37940.1|PACid_19644309_10_57           84.52%    passed     80.74%
+  58  AT4G24540.1|PACid_19648389_10_57           84.52%    passed     53.65%
+  59  AT3G61120.1|PACid_19662463_10_57           84.52%    passed     98.23%
+  60  AT3G54340.1|PACid_19659884_10_57           84.52%    passed     99.17%
+  61  AT1G26310.1|PACid_19650942_10_57           84.52%    passed     99.66%
+  62  AT1G22130.1|PACid_19651829_10_55           85.16%    passed     92.30%
+  63  AT5G62165.4|PACid_19672598_10_57           84.52%    passed     99.24%
+  64  AT5G60440.1|PACid_19665878_15_62           84.52%    passed     69.64%
+  65  AT5G62165.1|PACid_19672595_10_57           84.52%    passed     99.24%
+  66  AT5G62165.2|PACid_19672596_10_57           84.52%    passed     99.24%
+  67  AT5G62165.3|PACid_19672597_10_57           84.52%    passed     99.24%
+  68  AT2G22630.1|PACid_19642313_10_57           84.52%    passed     60.91%
+  69  AT1G77980.1|PACid_19650219_10_55           85.16%    passed     96.32%
+  70  AT1G71692.1|PACid_19653064_10_56           84.84%    passed     95.57%
+  71  AT1G01530.1|PACid_19655032_15_62           84.52%    passed     98.39%
+  72  AT1G65360.1|PACid_19652033_15_62           84.52%    passed     30.11%
+  73  AT5G10140.2|PACid_19672042_10_57           84.52%    passed     79.51%
+  74  AT5G10140.4|PACid_19672041_10_57           84.52%    passed     79.51%
+  75  AT5G10140.3|PACid_19672040_10_57           84.52%    passed     79.51%
+  76  AT5G10140.1|PACid_19672039_10_57           84.52%    passed     79.51%
+  77  AT3G66656.1|PACid_19662106_10_57           84.52%    passed     85.03%
+  78  AT5G23260.2|PACid_19667542_10_57           84.52%    passed     94.72%
+  79  AT5G23260.3|PACid_19667544_10_57           84.52%    passed     94.72%
+  80  AT5G23260.1|PACid_19667543_10_57           84.52%    passed     94.72%
+  81  AT4G36590.1|PACid_19644661_15_62           84.52%    passed     58.33%
+  82  AT2G34440.1|PACid_19639540_12_57           85.16%    passed     97.18%
+  83  AT5G65070.1|PACid_19666742_10_57           84.52%    passed     93.17%
+  84  AT1G77950.1|PACid_19656697_10_55           85.16%    passed     91.48%
+  85  AT1G77950.2|PACid_19656698_10_55           85.16%    passed     91.48%
+  86  AT5G65070.3|PACid_19666740_10_57           84.52%    passed     93.17%
+  87  AT5G65070.2|PACid_19666741_10_57           84.52%    passed     93.17%
+  88  AT1G77080.5|PACid_19652600_10_55           85.16%    passed     64.61%
+  89  AT1G77080.2|PACid_19652599_10_55           85.16%    passed     64.61%
+  90  AT1G77080.4|PACid_19652598_10_55           85.16%    passed     64.61%
+  91  AT5G65080.2|PACid_19670373_10_55           85.16%    passed     97.30%
+  92  AT1G31140.1|PACid_19657778_10_57           84.52%    passed     80.16%
+  93  AT1G31140.2|PACid_19657777_10_57           84.52%    passed     80.16%
+  94  AT5G65080.1|PACid_19670372_17_62           85.16%    passed     97.30%
+  95  AT1G47760.1|PACid_19657551_10_57           84.52%    passed     88.25%
+  96  AT5G20240.1|PACid_19673101_10_57           84.52%    passed     58.37%
+  97  AT1G18750.1|PACid_19654582_10_57           84.52%    passed     99.65%
+  98  AT1G72350.1|PACid_19656010_55_98           85.81%    passed     83.23%
+  99  AT5G65050.2|PACid_19667307_10_55           85.16%    passed     77.94%
+ 100  AT5G65050.1|PACid_19667306_10_55           85.16%    passed     77.94%
+ 101  AT5G65050.3|PACid_19667305_10_55           85.16%    passed     77.94%
+ 102  AT5G65060.2|PACid_19668929_10_55           85.16%    passed     73.96%
+ 103  AT5G65060.1|PACid_19668928_10_55           85.16%    passed     73.96%
+ 104  AT1G17310.1|PACid_19656321_56_103          84.52%    passed     76.04%
+ 105  AT1G28460.1|PACid_19649164_16_63           84.52%    passed     67.23%
+ 106  AT2G03060.2|PACid_19640478_10_53           85.81%    passed     93.90%
+ 107  AT2G03060.1|PACid_19640479_10_53           85.81%    passed     93.90%
+ 108  AT3G04100.1|PACid_19663352_22_69           84.52%    passed     60.86%
+ 109  AT3G04100.1|PACid_19663352_104_117         95.48%    passed     63.86%
+ 110  AT1G29962.1|PACid_19658277_16_63           84.52%    passed     96.77%
+ 111  AT5G48670.1|PACid_19672717_10_51           86.45%    passed     82.43%
+ 112  AT2G26320.1|PACid_19638466_26_73           84.52%    passed     64.22%
+ 113  AT1G69540.1|PACid_19658298_11_53           86.13%    passed     74.35%
+ 114  AT3G05860.2|PACid_19660459_10_51           86.45%    passed     98.62%
+ 115  AT3G05860.3|PACid_19660458_10_51           86.45%    passed     98.62%
+ 116  AT3G05860.1|PACid_19660457_10_51           86.45%    passed     98.62%
+ 117  AT5G27960.1|PACid_19666678_9_48            87.10%    passed     99.94%
+ 118  AT1G65330.1|PACid_19653684_9_53            85.48%    passed     96.95%
+ 119  AT5G55690.1|PACid_19665481_10_51           86.45%    passed     47.91%
+ 120  AT5G55690.1|PACid_19665481_137_148         96.13%    passed     57.45%
+ 121  AT1G65300.1|PACid_19652716_10_51           86.45%    passed     52.77%
+ 122  AT5G26630.1|PACid_19667105_10_50           86.77%    passed     84.11%
+ 123  AT5G26650.1|PACid_19669215_9_48            87.10%    passed     99.84%
+ 124  AT1G28450.1|PACid_19650560_16_63           84.52%    passed     93.84%
+ 125  AT3G18650.1|PACid_19661489_5_23            93.87%    failed      0.10%
+ 126  AT3G18650.1|PACid_19661489_30_72           86.13%    passed     96.61%
+ 127  AT5G58890.1|PACid_19667567_10_52           86.13%    passed     64.51%
+ 128  AT5G26580.1|PACid_19673075_11_50           87.10%    passed     98.71%
+ 129  AT4G02235.1|PACid_19647863_9_54            85.16%    passed     95.22%
+ 130  AT1G22590.2|PACid_19655507_11_50           87.10%    passed     98.13%
+ 131  AT5G65330.1|PACid_19672137_7_52            85.16%    passed     94.18%
+ 132  AT5G39750.1|PACid_19667213_25_64           87.10%    passed     86.90%
+ 133  AT5G40120.1|PACid_19671880_17_56           87.10%    passed     86.90%
+ 134  AT5G38740.1|PACid_19668168_26_65           87.10%    passed     86.90%
+ 135  AT5G41200.1|PACid_19667742_19_57           87.42%    passed     86.12%
+ 136  AT5G40220.1|PACid_19669238_18_57           87.10%    passed     86.90%
+ 137  AT1G46408.1|PACid_19654736_12_53           86.45%    passed     89.03%
+ 138  AT5G39810.1|PACid_19670065_25_64           87.10%    passed     88.89%
+ 139  AT1G31630.1|PACid_19652269_10_56           84.84%    passed     73.66%
+ 140  AT4G11250.1|PACid_19648763_10_51           86.45%    passed     81.69%
+ 141  AT5G27090.2|PACid_19670535_29_70           86.45%    passed     99.04%
+ 142  AT5G27090.1|PACid_19670534_29_70           86.45%    passed     99.04%
+ 143  AT5G06500.1|PACid_19671199_10_53           85.81%    passed     50.90%
+ 144  AT5G27070.1|PACid_19671195_30_71           86.45%    passed     95.61%
+ 145  AT5G26950.1|PACid_19666538_30_71           86.45%    passed     95.61%
+ 146  AT5G26880.1|PACid_19668576_156_166         96.45%    passed     89.02%
+ 147  AT5G26880.1|PACid_19668576_241_274         89.03%    passed     74.92%
+ 148  AT5G27944.1|PACid_19666623_30_71           86.45%    passed     94.19%
+ 149  AT5G27580.1|PACid_19672891_30_71           86.45%    passed     86.77%
+ 150  AT2G40210.1|PACid_19638131_10_51           86.45%    passed     96.77%
+ 151  AT1G31640.1|PACid_19651329_12_56           85.48%    passed     75.15%
+ 152  AT5G04640.1|PACid_19673003_13_53           86.77%    passed     47.05%
+ 153  AT5G49490.1|PACid_19668119_54_95           86.45%    passed     80.17%
+ 154  AT1G60920.1|PACid_19654635_12_50           87.42%    passed     99.05%
+ 155  AT1G48150.1|PACid_19654851_28_67           87.10%    passed     87.53%
+ 156  AT5G38620.1|PACid_19667041_14_55           86.45%    passed     58.83%
+ 157  AT5G27130.1|PACid_19666602_23_63           86.77%    passed     84.70%
+ 158  AT1G60040.1|PACid_19653511_20_62           86.13%    passed     50.77%
+ 159  AT5G49420.1|PACid_19672206_16_57           86.45%    passed     69.49%
+ 160  AT2G28700.1|PACid_19641128_11_50           87.10%    passed     58.59%
+ 161  AT5G27050.1|PACid_19667506_1_28            90.97%    passed     96.54%
+ 162  AT1G59810.1|PACid_19650751_19_61           86.13%    passed     44.32%
+ 163  AT1G60880.1|PACid_19658292_12_41           90.32%    passed     96.87%
+ 164  AT1G54760.1|PACid_19656422_19_43           91.94%    passed     77.61%
+ 165  AT5G37415.1|PACid_19671670_85_109          91.94%    passed     29.50%
+ 166  AT5G27810.1|PACid_19666054_1_26            91.61%    passed     67.95%
+ 167  AT1G33070.1|PACid_19656210_4_24            93.23%    passed     71.26%
+ 168  AT2G15660.1|PACid_19640579_30_44           95.16%    passed     26.75%
+WARNING: 152 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                      80.45%  7 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: AT4G09960.4|PACid_19648308_10_57 is identical to AT4G09960.1|PACid_19648309_10_57 but kept for subsequent analysis
+NOTE: AT5G15800.1|PACid_19670123_10_57 is identical to AT1G24260.3|PACid_19651405_10_57 but kept for subsequent analysis
+NOTE: AT5G51870.1|PACid_19672300_10_57 is identical to AT5G51870.2|PACid_19672301_10_57 but kept for subsequent analysis
+NOTE: AT2G42830.1|PACid_19643528_25_72 is identical to AT3G58780.2|PACid_19662660_25_72 but kept for subsequent analysis
+NOTE: AT2G03710.2|PACid_19640309_10_57 is identical to AT2G03710.3|PACid_19640310_10_57 but kept for subsequent analysis
+NOTE: AT5G51860.1|PACid_19671371_10_57 is identical to AT5G51860.2|PACid_19671372_10_57 but kept for subsequent analysis
+NOTE: AT3G57230.2|PACid_19665061_10_57 is identical to AT3G57230.1|PACid_19665060_10_57 but kept for subsequent analysis
+NOTE: AT5G62165.1|PACid_19672595_10_57 is identical to AT5G62165.4|PACid_19672598_10_57 but kept for subsequent analysis
+NOTE: AT5G10140.4|PACid_19672041_10_57 is identical to AT5G10140.2|PACid_19672042_10_57 but kept for subsequent analysis
+NOTE: AT5G23260.3|PACid_19667544_10_57 is identical to AT5G23260.2|PACid_19667542_10_57 but kept for subsequent analysis
+NOTE: AT5G65070.3|PACid_19666740_10_57 is identical to AT5G65070.1|PACid_19666742_10_57 but kept for subsequent analysis
+NOTE: AT1G77950.2|PACid_19656698_10_55 is identical to AT1G77950.1|PACid_19656697_10_55 but kept for subsequent analysis
+NOTE: AT1G77080.2|PACid_19652599_10_55 is identical to AT1G77080.5|PACid_19652600_10_55 but kept for subsequent analysis
+NOTE: AT5G65080.1|PACid_19670372_17_62 is identical to AT5G65080.2|PACid_19670373_10_55 but kept for subsequent analysis
+NOTE: AT1G31140.2|PACid_19657777_10_57 is identical to AT1G31140.1|PACid_19657778_10_57 but kept for subsequent analysis
+NOTE: AT5G65050.1|PACid_19667306_10_55 is identical to AT5G65050.2|PACid_19667307_10_55 but kept for subsequent analysis
+NOTE: AT5G65060.1|PACid_19668928_10_55 is identical to AT5G65060.2|PACid_19668929_10_55 but kept for subsequent analysis
+NOTE: AT2G03060.1|PACid_19640479_10_53 is identical to AT2G03060.2|PACid_19640478_10_53 but kept for subsequent analysis
+NOTE: AT3G05860.3|PACid_19660458_10_51 is identical to AT3G05860.2|PACid_19660459_10_51 but kept for subsequent analysis
+NOTE: AT5G40120.1|PACid_19671880_17_56 is identical to AT5G39750.1|PACid_19667213_25_64 but kept for subsequent analysis
+NOTE: AT5G27090.1|PACid_19670534_29_70 is identical to AT5G27090.2|PACid_19670535_29_70 but kept for subsequent analysis
+NOTE: AT5G26950.1|PACid_19666538_30_71 is identical to AT5G27070.1|PACid_19671195_30_71 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000808001 secs using 100.2% CPU
+Identifying sites to remove: done in 0.00120306 secs using 105% CPU
+NOTE: 21 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AT4G09960.3|PACid_19648307_36_83 (identical to AT4G09960.1|PACid_19648309_10_57) is ignored but added at the end
+NOTE: AT4G09960.2|PACid_19648310_10_57 (identical to AT4G09960.1|PACid_19648309_10_57) is ignored but added at the end
+NOTE: AT1G24260.1|PACid_19651404_10_57 (identical to AT1G24260.3|PACid_19651405_10_57) is ignored but added at the end
+NOTE: AT1G24260.2|PACid_19651403_10_57 (identical to AT1G24260.3|PACid_19651405_10_57) is ignored but added at the end
+NOTE: AT5G15800.2|PACid_19670122_10_57 (identical to AT1G24260.3|PACid_19651405_10_57) is ignored but added at the end
+NOTE: AT5G51870.3|PACid_19672299_10_57 (identical to AT5G51870.2|PACid_19672301_10_57) is ignored but added at the end
+NOTE: AT3G58780.1|PACid_19662659_25_72 (identical to AT3G58780.2|PACid_19662660_25_72) is ignored but added at the end
+NOTE: AT2G42830.2|PACid_19643527_25_72 (identical to AT3G58780.2|PACid_19662660_25_72) is ignored but added at the end
+NOTE: AT3G58780.3|PACid_19662658_25_72 (identical to AT3G58780.2|PACid_19662660_25_72) is ignored but added at the end
+NOTE: AT2G03710.1|PACid_19640308_10_57 (identical to AT2G03710.3|PACid_19640310_10_57) is ignored but added at the end
+NOTE: AT5G62165.2|PACid_19672596_10_57 (identical to AT5G62165.4|PACid_19672598_10_57) is ignored but added at the end
+NOTE: AT5G62165.3|PACid_19672597_10_57 (identical to AT5G62165.4|PACid_19672598_10_57) is ignored but added at the end
+NOTE: AT5G10140.3|PACid_19672040_10_57 (identical to AT5G10140.2|PACid_19672042_10_57) is ignored but added at the end
+NOTE: AT5G10140.1|PACid_19672039_10_57 (identical to AT5G10140.2|PACid_19672042_10_57) is ignored but added at the end
+NOTE: AT5G23260.1|PACid_19667543_10_57 (identical to AT5G23260.2|PACid_19667542_10_57) is ignored but added at the end
+NOTE: AT5G65070.2|PACid_19666741_10_57 (identical to AT5G65070.1|PACid_19666742_10_57) is ignored but added at the end
+NOTE: AT1G77080.4|PACid_19652598_10_55 (identical to AT1G77080.5|PACid_19652600_10_55) is ignored but added at the end
+NOTE: AT5G65050.3|PACid_19667305_10_55 (identical to AT5G65050.2|PACid_19667307_10_55) is ignored but added at the end
+NOTE: AT3G05860.1|PACid_19660457_10_51 (identical to AT3G05860.2|PACid_19660459_10_51) is ignored but added at the end
+NOTE: AT5G38740.1|PACid_19668168_26_65 (identical to AT5G39750.1|PACid_19667213_25_64) is ignored but added at the end
+NOTE: AT5G40220.1|PACid_19669238_18_57 (identical to AT5G39750.1|PACid_19667213_25_64) is ignored but added at the end
+Alignment was printed to /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.066 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 684876)...
+
+NOTE: 30 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -11414.517
+2. Current log-likelihood: -10380.287
+3. Current log-likelihood: -10340.003
+4. Current log-likelihood: -10336.643
+5. Current log-likelihood: -10336.275
+Optimal log-likelihood: -10336.141
+Gamma shape alpha: 0.834
+Parameters optimization took 5 rounds (3.952 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.61387 secs using 184.5% CPU
+Computing ML distances took 1.614348 sec (of wall-clock time) 2.978376 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000390768 secs using 244.9% CPU
+Constructing RapidNJ tree: done in 0.00187397 secs using 287.3% CPU
+Computing RapidNJ tree took 0.002400 sec (of wall-clock time) 0.006617 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -10498.630
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4.361 second
+Computing log-likelihood of 98 initial trees ... 12.983 seconds
+Current best score: -10336.141
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 5.15763 secs using 193.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -10272.976
+Optimizing NNI: done in 7.37585 secs using 196% CPU
+Optimizing NNI: done in 4.79271 secs using 198.2% CPU
+Optimizing NNI: done in 18.3621 secs using 192.3% CPU
+Optimizing NNI: done in 9.76604 secs using 191.6% CPU
+Optimizing NNI: done in 7.25596 secs using 188% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -10272.053
+Optimizing NNI: done in 10.7528 secs using 188.9% CPU
+Optimizing NNI: done in 4.97526 secs using 184.6% CPU
+Optimizing NNI: done in 6.72246 secs using 190.1% CPU
+Optimizing NNI: done in 7.51344 secs using 185.6% CPU
+Iteration 10 / LogL: -10285.425 / Time: 0h:1m:51s
+Optimizing NNI: done in 13.8218 secs using 189.2% CPU
+Optimizing NNI: done in 11.3755 secs using 186.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -10262.758
+Optimizing NNI: done in 10.3681 secs using 186.7% CPU
+Optimizing NNI: done in 15.7932 secs using 187.5% CPU
+Optimizing NNI: done in 9.9254 secs using 188.7% CPU
+Optimizing NNI: done in 9.43558 secs using 187.6% CPU
+Optimizing NNI: done in 9.87757 secs using 182.2% CPU
+Optimizing NNI: done in 12.6014 secs using 181.7% CPU
+Optimizing NNI: done in 7.01846 secs using 187.9% CPU
+Optimizing NNI: done in 9.79654 secs using 187.5% CPU
+Iteration 20 / LogL: -10277.779 / Time: 0h:3m:44s
+Finish initializing candidate tree set (20)
+Current best tree score: -10262.758 / CPU time: 215.733
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 6.92577 secs using 181.6% CPU
+Optimizing NNI: done in 5.92658 secs using 181.5% CPU
+Optimizing NNI: done in 7.29349 secs using 187.9% CPU
+Optimizing NNI: done in 7.58437 secs using 166.1% CPU
+Optimizing NNI: done in 5.53091 secs using 192% CPU
+Optimizing NNI: done in 5.45595 secs using 193.3% CPU
+Optimizing NNI: done in 5.5084 secs using 195.1% CPU
+Optimizing NNI: done in 6.44756 secs using 194.9% CPU
+Optimizing NNI: done in 6.63617 secs using 195.1% CPU
+Optimizing NNI: done in 5.00515 secs using 195% CPU
+Iteration 30 / LogL: -10265.342 / Time: 0h:4m:47s (0h:13m:32s left)
+Optimizing NNI: done in 7.01253 secs using 193.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -10260.498
+Optimizing NNI: done in 5.95549 secs using 193.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -10256.255
+Optimizing NNI: done in 5.98381 secs using 191.9% CPU
+Optimizing NNI: done in 6.34288 secs using 194.3% CPU
+Optimizing NNI: done in 7.05773 secs using 193.2% CPU
+Optimizing NNI: done in 5.49871 secs using 195% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -10254.707
+Optimizing NNI: done in 6.63468 secs using 188.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -10253.501
+Optimizing NNI: done in 5.71631 secs using 193% CPU
+Optimizing NNI: done in 6.09337 secs using 194.5% CPU
+Optimizing NNI: done in 5.11825 secs using 194.9% CPU
+Iteration 40 / LogL: -10261.599 / Time: 0h:5m:51s (0h:14m:32s left)
+Optimizing NNI: done in 7.63513 secs using 178.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -10250.860
+Optimizing NNI: done in 7.57555 secs using 184.9% CPU
+Optimizing NNI: done in 6.45332 secs using 192% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -10250.816
+Optimizing NNI: done in 8.71739 secs using 189.8% CPU
+Optimizing NNI: done in 7.08156 secs using 185.1% CPU
+Optimizing NNI: done in 6.00847 secs using 187% CPU
+Optimizing NNI: done in 6.99702 secs using 193.6% CPU
+Optimizing NNI: done in 5.82647 secs using 193.4% CPU
+Optimizing NNI: done in 6.29399 secs using 187.9% CPU
+Optimizing NNI: done in 6.27815 secs using 191.8% CPU
+Iteration 50 / LogL: -10254.527 / Time: 0h:7m:1s (0h:13m:19s left)
+Log-likelihood cutoff on original alignment: -10334.085
+Optimizing NNI: done in 8.26153 secs using 188.7% CPU
+Optimizing NNI: done in 8.78773 secs using 184.2% CPU
+Optimizing NNI: done in 3.7707 secs using 184.5% CPU
+Optimizing NNI: done in 6.25837 secs using 188.1% CPU
+Optimizing NNI: done in 5.59867 secs using 193.3% CPU
+Optimizing NNI: done in 7.90392 secs using 186.2% CPU
+Optimizing NNI: done in 5.37586 secs using 193.6% CPU
+Optimizing NNI: done in 7.9447 secs using 187.4% CPU
+Optimizing NNI: done in 6.92633 secs using 175.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -10248.744
+Optimizing NNI: done in 7.5961 secs using 178.8% CPU
+Iteration 60 / LogL: -10255.779 / Time: 0h:8m:11s (0h:13m:44s left)
+Optimizing NNI: done in 6.95094 secs using 185.7% CPU
+Optimizing NNI: done in 6.94726 secs using 182% CPU
+Optimizing NNI: done in 15.5761 secs using 165.7% CPU
+Optimizing NNI: done in 6.47959 secs using 166.2% CPU
+Optimizing NNI: done in 7.31233 secs using 170% CPU
+Optimizing NNI: done in 6.69955 secs using 158.8% CPU
+Optimizing NNI: done in 5.52463 secs using 178.2% CPU
+Optimizing NNI: done in 6.01774 secs using 180.2% CPU
+Optimizing NNI: done in 5.08167 secs using 192.9% CPU
+Optimizing NNI: done in 5.70004 secs using 192.6% CPU
+Iteration 70 / LogL: -10258.571 / Time: 0h:9m:24s (0h:12m:7s left)
+Optimizing NNI: done in 11.5924 secs using 193.3% CPU
+Optimizing NNI: done in 6.53922 secs using 190.2% CPU
+Optimizing NNI: done in 5.54594 secs using 191.3% CPU
+Optimizing NNI: done in 6.03102 secs using 191.8% CPU
+Optimizing NNI: done in 7.83941 secs using 181.2% CPU
+Optimizing NNI: done in 7.22395 secs using 189.6% CPU
+Optimizing NNI: done in 5.63897 secs using 191.9% CPU
+Optimizing NNI: done in 6.54544 secs using 188.8% CPU
+Optimizing NNI: done in 6.59969 secs using 191.1% CPU
+Optimizing NNI: done in 5.96675 secs using 189.6% CPU
+Iteration 80 / LogL: -10254.271 / Time: 0h:10m:34s (0h:10m:34s left)
+Optimizing NNI: done in 6.17089 secs using 187.9% CPU
+Optimizing NNI: done in 5.78069 secs using 179% CPU
+Optimizing NNI: done in 6.50419 secs using 185% CPU
+Optimizing NNI: done in 7.2527 secs using 190.7% CPU
+Optimizing NNI: done in 4.62644 secs using 192.6% CPU
+Optimizing NNI: done in 6.09015 secs using 189.8% CPU
+Optimizing NNI: done in 7.04221 secs using 193.8% CPU
+Optimizing NNI: done in 5.50698 secs using 192% CPU
+Optimizing NNI: done in 4.99506 secs using 191.4% CPU
+Optimizing NNI: done in 5.42382 secs using 184.6% CPU
+Iteration 90 / LogL: -10258.943 / Time: 0h:11m:34s (0h:8m:58s left)
+Optimizing NNI: done in 7.17859 secs using 188.9% CPU
+Optimizing NNI: done in 6.12557 secs using 187.5% CPU
+Optimizing NNI: done in 6.41975 secs using 188.3% CPU
+Optimizing NNI: done in 5.05967 secs using 192.6% CPU
+Optimizing NNI: done in 7.02099 secs using 189.8% CPU
+Optimizing NNI: done in 7.33549 secs using 177.8% CPU
+Optimizing NNI: done in 8.09738 secs using 187.5% CPU
+Optimizing NNI: done in 9.24451 secs using 189.8% CPU
+Optimizing NNI: done in 6.33201 secs using 191.4% CPU
+Optimizing NNI: done in 7.87682 secs using 190% CPU
+Iteration 100 / LogL: -10253.152 / Time: 0h:12m:45s (0h:7m:36s left)
+Log-likelihood cutoff on original alignment: -10305.566
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.981
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 7.10516 secs using 189.7% CPU
+Optimizing NNI: done in 5.45345 secs using 193.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 102: -10248.474
+Optimizing NNI: done in 6.99208 secs using 188.3% CPU
+Optimizing NNI: done in 6.77655 secs using 188% CPU
+Optimizing NNI: done in 5.97152 secs using 191.4% CPU
+Optimizing NNI: done in 5.41114 secs using 191.9% CPU
+Optimizing NNI: done in 6.82603 secs using 187.4% CPU
+Optimizing NNI: done in 8.63205 secs using 187.7% CPU
+Optimizing NNI: done in 5.88687 secs using 190% CPU
+Optimizing NNI: done in 6.31146 secs using 191.5% CPU
+Iteration 110 / LogL: -10253.152 / Time: 0h:13m:52s (0h:11m:42s left)
+Optimizing NNI: done in 8.99214 secs using 192% CPU
+Optimizing NNI: done in 5.88765 secs using 186.4% CPU
+Optimizing NNI: done in 5.3862 secs using 182.4% CPU
+Optimizing NNI: done in 6.36783 secs using 187.4% CPU
+Optimizing NNI: done in 6.85447 secs using 189.3% CPU
+Optimizing NNI: done in 5.88139 secs using 171% CPU
+Optimizing NNI: done in 7.36449 secs using 168.3% CPU
+Optimizing NNI: done in 6.98862 secs using 160.2% CPU
+Optimizing NNI: done in 6.04482 secs using 188.2% CPU
+Optimizing NNI: done in 6.28452 secs using 184.2% CPU
+Iteration 120 / LogL: -10252.646 / Time: 0h:14m:59s (0h:10m:19s left)
+Optimizing NNI: done in 8.80789 secs using 182.7% CPU
+Optimizing NNI: done in 7.23059 secs using 186.1% CPU
+Optimizing NNI: done in 7.01095 secs using 189.1% CPU
+Optimizing NNI: done in 6.49293 secs using 187.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 124: -10247.430
+Optimizing NNI: done in 5.3683 secs using 185.5% CPU
+Optimizing NNI: done in 7.29278 secs using 192% CPU
+Optimizing NNI: done in 6.78489 secs using 154.7% CPU
+Optimizing NNI: done in 5.79554 secs using 181.6% CPU
+Optimizing NNI: done in 6.1867 secs using 181.7% CPU
+Optimizing NNI: done in 6.44077 secs using 181.9% CPU
+Iteration 130 / LogL: -10248.826 / Time: 0h:16m:8s (0h:11m:45s left)
+Optimizing NNI: done in 6.13581 secs using 174.7% CPU
+Optimizing NNI: done in 13.4095 secs using 97.31% CPU
+Optimizing NNI: done in 8.0868 secs using 162.1% CPU
+Optimizing NNI: done in 7.27935 secs using 176.3% CPU
+Optimizing NNI: done in 5.37705 secs using 183.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 135: -10246.985
+Optimizing NNI: done in 6.28885 secs using 180.4% CPU
+Optimizing NNI: done in 11.7484 secs using 128.9% CPU
+Optimizing NNI: done in 12.7955 secs using 92.48% CPU
+Optimizing NNI: done in 6.78621 secs using 180.9% CPU
+Optimizing NNI: done in 6.51321 secs using 181.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 140: -10246.603
+Iteration 140 / LogL: -10246.603 / Time: 0h:17m:34s (0h:12m:38s left)
+Optimizing NNI: done in 5.47685 secs using 178.9% CPU
+Optimizing NNI: done in 7.61291 secs using 153% CPU
+Optimizing NNI: done in 14.2259 secs using 89.05% CPU
+Optimizing NNI: done in 12.9099 secs using 107.6% CPU
+Optimizing NNI: done in 5.87216 secs using 177.2% CPU
+Optimizing NNI: done in 7.50196 secs using 178.1% CPU
+Optimizing NNI: done in 8.56112 secs using 181.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -10246.238
+Optimizing NNI: done in 6.67257 secs using 150.9% CPU
+Optimizing NNI: done in 13.4917 secs using 94.37% CPU
+Optimizing NNI: done in 19.8794 secs using 146.9% CPU
+Iteration 150 / LogL: -10247.905 / Time: 0h:19m:17s (0h:12m:33s left)
+Log-likelihood cutoff on original alignment: -10300.804
+Optimizing NNI: done in 10.8839 secs using 161.8% CPU
+Optimizing NNI: done in 13.2359 secs using 93.26% CPU
+Optimizing NNI: done in 10.3693 secs using 147.4% CPU
+Optimizing NNI: done in 5.07187 secs using 181.9% CPU
+Optimizing NNI: done in 6.37285 secs using 181.5% CPU
+Optimizing NNI: done in 15.7754 secs using 97.2% CPU
+Optimizing NNI: done in 6.05565 secs using 182.3% CPU
+Optimizing NNI: done in 6.89615 secs using 181.7% CPU
+Optimizing NNI: done in 6.4918 secs using 180.2% CPU
+Optimizing NNI: done in 15.3848 secs using 94.07% CPU
+Iteration 160 / LogL: -10247.709 / Time: 0h:20m:55s (0h:11m:27s left)
+Optimizing NNI: done in 6.83727 secs using 129.5% CPU
+Optimizing NNI: done in 7.90001 secs using 181.3% CPU
+Optimizing NNI: done in 6.90268 secs using 180.7% CPU
+Optimizing NNI: done in 7.05368 secs using 182.8% CPU
+Optimizing NNI: done in 7.34274 secs using 154.6% CPU
+Optimizing NNI: done in 13.2597 secs using 98.2% CPU
+Optimizing NNI: done in 10.7716 secs using 112.5% CPU
+Optimizing NNI: done in 6.72173 secs using 181.8% CPU
+Optimizing NNI: done in 7.3435 secs using 180.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 169: -10246.040
+Optimizing NNI: done in 6.46625 secs using 180.7% CPU
+Iteration 170 / LogL: -10248.285 / Time: 0h:22m:17s (0h:13m:3s left)
+Optimizing NNI: done in 15.2819 secs using 103.9% CPU
+Optimizing NNI: done in 14.27 secs using 118% CPU
+Optimizing NNI: done in 6.52509 secs using 169.5% CPU
+Optimizing NNI: done in 11.9502 secs using 181.7% CPU
+Optimizing NNI: done in 15.1033 secs using 102.6% CPU
+Optimizing NNI: done in 12.5503 secs using 108.2% CPU
+Optimizing NNI: done in 6.3292 secs using 181.3% CPU
+Optimizing NNI: done in 6.47324 secs using 162.2% CPU
+Optimizing NNI: done in 6.33315 secs using 181.1% CPU
+Optimizing NNI: done in 8.782 secs using 180.5% CPU
+Iteration 180 / LogL: -10248.740 / Time: 0h:24m:1s (0h:11m:56s left)
+Optimizing NNI: done in 14.7358 secs using 90.34% CPU
+Optimizing NNI: done in 8.70877 secs using 139.2% CPU
+Optimizing NNI: done in 6.42792 secs using 180.8% CPU
+Optimizing NNI: done in 5.73844 secs using 181.2% CPU
+Optimizing NNI: done in 5.5547 secs using 181.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 185: -10244.938
+Optimizing NNI: done in 10.7765 secs using 104.4% CPU
+Optimizing NNI: done in 10.1121 secs using 108.5% CPU
+Optimizing NNI: done in 6.14129 secs using 181.5% CPU
+Optimizing NNI: done in 5.28248 secs using 182.6% CPU
+Optimizing NNI: done in 4.60201 secs using 181.7% CPU
+Iteration 190 / LogL: -10253.254 / Time: 0h:25m:21s (0h:12m:44s left)
+Optimizing NNI: done in 11.1048 secs using 126.4% CPU
+Optimizing NNI: done in 11.7389 secs using 92.5% CPU
+Optimizing NNI: done in 8.43746 secs using 181.5% CPU
+Optimizing NNI: done in 7.25126 secs using 181.7% CPU
+Optimizing NNI: done in 6.99366 secs using 180.7% CPU
+Optimizing NNI: done in 8.83372 secs using 133.9% CPU
+Optimizing NNI: done in 12.4211 secs using 96.76% CPU
+Optimizing NNI: done in 7.0992 secs using 177.4% CPU
+Optimizing NNI: done in 6.06037 secs using 173.3% CPU
+Optimizing NNI: done in 5.11554 secs using 173.3% CPU
+Iteration 200 / LogL: -10251.844 / Time: 0h:26m:47s (0h:11m:26s left)
+Log-likelihood cutoff on original alignment: -10300.804
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 7.28136 secs using 181.8% CPU
+Optimizing NNI: done in 5.85512 secs using 182.5% CPU
+Optimizing NNI: done in 7.28644 secs using 150.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 203: -10244.382
+Optimizing NNI: done in 12.1633 secs using 94.22% CPU
+Optimizing NNI: done in 11.5889 secs using 120.8% CPU
+Optimizing NNI: done in 8.30511 secs using 180.6% CPU
+Optimizing NNI: done in 6.29872 secs using 181.6% CPU
+Optimizing NNI: done in 9.66328 secs using 102.8% CPU
+Optimizing NNI: done in 12.2075 secs using 91.64% CPU
+Optimizing NNI: done in 6.96774 secs using 180.1% CPU
+Iteration 210 / LogL: -10245.235 / Time: 0h:28m:17s (0h:12m:35s left)
+Optimizing NNI: done in 7.11218 secs using 180.6% CPU
+Optimizing NNI: done in 6.81848 secs using 181.3% CPU
+Optimizing NNI: done in 9.15799 secs using 113.5% CPU
+Optimizing NNI: done in 13.3996 secs using 98.1% CPU
+Optimizing NNI: done in 9.6636 secs using 143.6% CPU
+Optimizing NNI: done in 5.3797 secs using 181% CPU
+Optimizing NNI: done in 6.7045 secs using 182.2% CPU
+Optimizing NNI: done in 10.1645 secs using 118.2% CPU
+Optimizing NNI: done in 10.6321 secs using 96.56% CPU
+Optimizing NNI: done in 5.99256 secs using 179.4% CPU
+Iteration 220 / LogL: -10247.413 / Time: 0h:29m:43s (0h:11m:15s left)
+Optimizing NNI: done in 5.47797 secs using 179.4% CPU
+Optimizing NNI: done in 7.85279 secs using 181.8% CPU
+Optimizing NNI: done in 10.6967 secs using 107% CPU
+Optimizing NNI: done in 12.6143 secs using 93.49% CPU
+Optimizing NNI: done in 16.8106 secs using 171% CPU
+Optimizing NNI: done in 5.78916 secs using 180.7% CPU
+Optimizing NNI: done in 3.85533 secs using 181.4% CPU
+Optimizing NNI: done in 6.38879 secs using 182.5% CPU
+Optimizing NNI: done in 11.4562 secs using 95.5% CPU
+Optimizing NNI: done in 6.4078 secs using 128% CPU
+Iteration 230 / LogL: -10245.844 / Time: 0h:31m:11s (0h:9m:56s left)
+Optimizing NNI: done in 7.78797 secs using 181.6% CPU
+Optimizing NNI: done in 6.29957 secs using 181.3% CPU
+Optimizing NNI: done in 6.69128 secs using 180.7% CPU
+Optimizing NNI: done in 7.0197 secs using 151.9% CPU
+Optimizing NNI: done in 14.532 secs using 90.14% CPU
+Optimizing NNI: done in 7.96132 secs using 144.7% CPU
+Optimizing NNI: done in 7.23669 secs using 168.5% CPU
+Optimizing NNI: done in 6.29387 secs using 181.4% CPU
+Optimizing NNI: done in 6.09577 secs using 181.4% CPU
+Optimizing NNI: done in 16.6415 secs using 121.7% CPU
+Iteration 240 / LogL: -10248.036 / Time: 0h:32m:39s (0h:8m:36s left)
+Optimizing NNI: done in 10.3871 secs using 90.61% CPU
+Optimizing NNI: done in 5.34393 secs using 183.1% CPU
+Optimizing NNI: done in 5.17352 secs using 180.5% CPU
+Optimizing NNI: done in 5.63048 secs using 181.3% CPU
+Optimizing NNI: done in 7.54709 secs using 150.7% CPU
+Optimizing NNI: done in 16.047 secs using 84.9% CPU
+Optimizing NNI: done in 5.56011 secs using 182% CPU
+Optimizing NNI: done in 5.4699 secs using 181.9% CPU
+Optimizing NNI: done in 7.82454 secs using 180.1% CPU
+Optimizing NNI: done in 9.38227 secs using 117.1% CPU
+Iteration 250 / LogL: -10251.333 / Time: 0h:33m:58s (0h:7m:13s left)
+Log-likelihood cutoff on original alignment: -10300.804
+Optimizing NNI: done in 13.08 secs using 83.21% CPU
+Optimizing NNI: done in 7.00264 secs using 180.1% CPU
+Optimizing NNI: done in 6.41937 secs using 181.7% CPU
+Optimizing NNI: done in 6.25768 secs using 178.5% CPU
+Optimizing NNI: done in 6.33682 secs using 183.1% CPU
+Optimizing NNI: done in 9.7241 secs using 117.2% CPU
+Optimizing NNI: done in 11.9686 secs using 84.62% CPU
+Optimizing NNI: done in 5.267 secs using 177% CPU
+Optimizing NNI: done in 5.59571 secs using 177.1% CPU
+Optimizing NNI: done in 8.11498 secs using 176.2% CPU
+Iteration 260 / LogL: -10256.431 / Time: 0h:35m:19s (0h:5m:51s left)
+Optimizing NNI: done in 6.64496 secs using 179.8% CPU
+Optimizing NNI: done in 5.45672 secs using 182.3% CPU
+Optimizing NNI: done in 9.36779 secs using 117.2% CPU
+Optimizing NNI: done in 9.52894 secs using 127.8% CPU
+Optimizing NNI: done in 6.14989 secs using 180.3% CPU
+Optimizing NNI: done in 6.98122 secs using 181.1% CPU
+Optimizing NNI: done in 8.47379 secs using 156.4% CPU
+Optimizing NNI: done in 12.8066 secs using 87.97% CPU
+Optimizing NNI: done in 8.99972 secs using 99.82% CPU
+Optimizing NNI: done in 8.26896 secs using 182% CPU
+Iteration 270 / LogL: -10250.364 / Time: 0h:36m:43s (0h:4m:30s left)
+Optimizing NNI: done in 5.57102 secs using 180.9% CPU
+Optimizing NNI: done in 4.9829 secs using 182.7% CPU
+Optimizing NNI: done in 6.75987 secs using 150.5% CPU
+Optimizing NNI: done in 14.6413 secs using 89.53% CPU
+Optimizing NNI: done in 7.04708 secs using 182.2% CPU
+Optimizing NNI: done in 6.04876 secs using 181% CPU
+Optimizing NNI: done in 7.25537 secs using 179.2% CPU
+Optimizing NNI: done in 10.6428 secs using 101.2% CPU
+BETTER TREE FOUND at iteration 278: -10244.380
+Optimizing NNI: done in 13.2544 secs using 94.4% CPU
+Optimizing NNI: done in 7.25118 secs using 180.6% CPU
+Iteration 280 / LogL: -10255.799 / Time: 0h:38m:8s (0h:13m:23s left)
+Optimizing NNI: done in 7.49888 secs using 181.5% CPU
+Optimizing NNI: done in 7.21723 secs using 166.9% CPU
+Optimizing NNI: done in 6.70913 secs using 148.9% CPU
+Optimizing NNI: done in 12.146 secs using 85.98% CPU
+Optimizing NNI: done in 11.4518 secs using 133.2% CPU
+Optimizing NNI: done in 5.40446 secs using 181.1% CPU
+Optimizing NNI: done in 5.74731 secs using 178.9% CPU
+Optimizing NNI: done in 6.68556 secs using 148.8% CPU
+Optimizing NNI: done in 17.6767 secs using 97.21% CPU
+Optimizing NNI: done in 7.82051 secs using 181.9% CPU
+Iteration 290 / LogL: -10254.411 / Time: 0h:39m:37s (0h:12m:3s left)
+Optimizing NNI: done in 5.64443 secs using 181.9% CPU
+Optimizing NNI: done in 6.10396 secs using 182.3% CPU
+Optimizing NNI: done in 6.60736 secs using 182.5% CPU
+Optimizing NNI: done in 8.22526 secs using 135.2% CPU
+Optimizing NNI: done in 11.1373 secs using 95.86% CPU
+Optimizing NNI: done in 10.624 secs using 146.2% CPU
+BETTER TREE FOUND at iteration 296: -10244.374
+Optimizing NNI: done in 6.65463 secs using 178.9% CPU
+Optimizing NNI: done in 8.3517 secs using 179.4% CPU
+Optimizing NNI: done in 10.3541 secs using 96.01% CPU
+Optimizing NNI: done in 13.0133 secs using 97.46% CPU
+Iteration 300 / LogL: -10249.671 / Time: 0h:41m:5s (0h:13m:11s left)
+Log-likelihood cutoff on original alignment: -10300.804
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Optimizing NNI: done in 5.23929 secs using 183.7% CPU
+Optimizing NNI: done in 6.43311 secs using 181.3% CPU
+Optimizing NNI: done in 6.15503 secs using 179.7% CPU
+Optimizing NNI: done in 5.95378 secs using 182.3% CPU
+Optimizing NNI: done in 6.72643 secs using 182.6% CPU
+Optimizing NNI: done in 12.4881 secs using 84.52% CPU
+Optimizing NNI: done in 9.42182 secs using 119.3% CPU
+Optimizing NNI: done in 6.8704 secs using 165.9% CPU
+Optimizing NNI: done in 5.11086 secs using 182% CPU
+Optimizing NNI: done in 6.63022 secs using 182.2% CPU
+Iteration 310 / LogL: -10248.028 / Time: 0h:42m:18s (0h:12m:19s left)
+Optimizing NNI: done in 12.5192 secs using 94.07% CPU
+Optimizing NNI: done in 7.30528 secs using 146.9% CPU
+Optimizing NNI: done in 5.90349 secs using 181.3% CPU
+Optimizing NNI: done in 5.2546 secs using 181% CPU
+Optimizing NNI: done in 5.54546 secs using 182.2% CPU
+Optimizing NNI: done in 10.5954 secs using 119.1% CPU
+Optimizing NNI: done in 12.1411 secs using 83.4% CPU
+Optimizing NNI: done in 8.90899 secs using 138.1% CPU
+Optimizing NNI: done in 7.0236 secs using 176.6% CPU
+Optimizing NNI: done in 6.65231 secs using 173.9% CPU
+Iteration 320 / LogL: -10254.191 / Time: 0h:43m:41s (0h:10m:57s left)
+Optimizing NNI: done in 7.75192 secs using 180.6% CPU
+Optimizing NNI: done in 9.80025 secs using 161.2% CPU
+Optimizing NNI: done in 13.7564 secs using 95.29% CPU
+Optimizing NNI: done in 7.4009 secs using 180.5% CPU
+Optimizing NNI: done in 7.64388 secs using 180.4% CPU
+Optimizing NNI: done in 6.55662 secs using 181.9% CPU
+Optimizing NNI: done in 6.26484 secs using 150.2% CPU
+Optimizing NNI: done in 13.2583 secs using 97.89% CPU
+Optimizing NNI: done in 6.70034 secs using 159.6% CPU
+Optimizing NNI: done in 4.97333 secs using 180.7% CPU
+Iteration 330 / LogL: -10244.810 / Time: 0h:45m:6s (0h:9m:35s left)
+Optimizing NNI: done in 6.82096 secs using 181.4% CPU
+Optimizing NNI: done in 5.39628 secs using 182.4% CPU
+Optimizing NNI: done in 8.65416 secs using 114.8% CPU
+Optimizing NNI: done in 14.0938 secs using 97.85% CPU
+Optimizing NNI: done in 6.8318 secs using 181.9% CPU
+Optimizing NNI: done in 6.05608 secs using 182.6% CPU
+Optimizing NNI: done in 10.5886 secs using 162.4% CPU
+Optimizing NNI: done in 10.5878 secs using 93.9% CPU
+Optimizing NNI: done in 5.48799 secs using 182.5% CPU
+Optimizing NNI: done in 5.86369 secs using 180.6% CPU
+Iteration 340 / LogL: -10245.996 / Time: 0h:46m:27s (0h:8m:13s left)
+Optimizing NNI: done in 7.19151 secs using 163.9% CPU
+Optimizing NNI: done in 10.9995 secs using 109.1% CPU
+Optimizing NNI: done in 10.8296 secs using 116% CPU
+Optimizing NNI: done in 5.7245 secs using 181.4% CPU
+Optimizing NNI: done in 5.48465 secs using 181% CPU
+Optimizing NNI: done in 8.55639 secs using 156.7% CPU
+Optimizing NNI: done in 14.809 secs using 85.09% CPU
+Optimizing NNI: done in 10.1919 secs using 126.6% CPU
+Optimizing NNI: done in 7.4837 secs using 180% CPU
+Optimizing NNI: done in 5.74951 secs using 180.6% CPU
+Iteration 350 / LogL: -10250.372 / Time: 0h:47m:55s (0h:6m:52s left)
+Log-likelihood cutoff on original alignment: -10300.804
+Optimizing NNI: done in 7.29676 secs using 127.8% CPU
+Optimizing NNI: done in 11.6583 secs using 96.34% CPU
+Optimizing NNI: done in 8.7795 secs using 140% CPU
+Optimizing NNI: done in 5.92067 secs using 181.3% CPU
+Optimizing NNI: done in 6.13429 secs using 181.2% CPU
+Optimizing NNI: done in 7.18483 secs using 152.9% CPU
+Optimizing NNI: done in 14.2654 secs using 99.84% CPU
+Optimizing NNI: done in 9.33131 secs using 141.9% CPU
+Optimizing NNI: done in 9.24869 secs using 175.9% CPU
+Optimizing NNI: done in 6.0291 secs using 176.9% CPU
+Iteration 360 / LogL: -10246.710 / Time: 0h:49m:23s (0h:5m:30s left)
+Optimizing NNI: done in 6.36914 secs using 181.1% CPU
+Optimizing NNI: done in 7.40346 secs using 153.2% CPU
+Optimizing NNI: done in 14.4897 secs using 84.07% CPU
+Optimizing NNI: done in 8.95405 secs using 152.6% CPU
+Optimizing NNI: done in 6.31598 secs using 180.5% CPU
+Optimizing NNI: done in 7.24611 secs using 182% CPU
+Optimizing NNI: done in 8.9955 secs using 136.8% CPU
+Optimizing NNI: done in 13.1448 secs using 77.57% CPU
+Optimizing NNI: done in 6.34693 secs using 178.2% CPU
+Optimizing NNI: done in 5.76799 secs using 178.7% CPU
+Iteration 370 / LogL: -10247.291 / Time: 0h:50m:50s (0h:4m:7s left)
+Optimizing NNI: done in 6.33023 secs using 181.5% CPU
+Optimizing NNI: done in 9.57714 secs using 115.8% CPU
+Optimizing NNI: done in 12.2531 secs using 88.12% CPU
+Optimizing NNI: done in 7.6322 secs using 131.1% CPU
+Optimizing NNI: done in 5.10406 secs using 180.7% CPU
+Optimizing NNI: done in 5.82032 secs using 182.3% CPU
+Optimizing NNI: done in 6.63636 secs using 181.7% CPU
+Optimizing NNI: done in 6.78835 secs using 150.1% CPU
+Optimizing NNI: done in 26.5176 secs using 112.2% CPU
+Optimizing NNI: done in 5.82388 secs using 180.4% CPU
+Iteration 380 / LogL: -10248.796 / Time: 0h:52m:23s (0h:2m:45s left)
+Optimizing NNI: done in 6.4026 secs using 181.5% CPU
+Optimizing NNI: done in 5.76374 secs using 183.1% CPU
+Optimizing NNI: done in 13.7286 secs using 90.35% CPU
+Optimizing NNI: done in 9.53147 secs using 172.8% CPU
+Optimizing NNI: done in 7.29945 secs using 181.3% CPU
+Optimizing NNI: done in 5.28201 secs using 181.4% CPU
+Optimizing NNI: done in 13.0204 secs using 117.1% CPU
+Optimizing NNI: done in 12.1664 secs using 107.1% CPU
+Optimizing NNI: done in 10.1569 secs using 181.9% CPU
+Optimizing NNI: done in 5.45827 secs using 181.4% CPU
+Iteration 390 / LogL: -10244.385 / Time: 0h:53m:53s (0h:1m:23s left)
+Optimizing NNI: done in 7.19744 secs using 151.9% CPU
+Optimizing NNI: done in 12.7095 secs using 90.49% CPU
+Optimizing NNI: done in 9.87381 secs using 121.3% CPU
+Optimizing NNI: done in 6.95234 secs using 182.1% CPU
+Optimizing NNI: done in 5.54714 secs using 180% CPU
+Optimizing NNI: done in 5.82004 secs using 182.9% CPU
+Optimizing NNI: done in 8.65012 secs using 135.8% CPU
+TREE SEARCH COMPLETED AFTER 397 ITERATIONS / Time: 0h:54m:51s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -10244.374
+Optimal log-likelihood: -10244.373
+Gamma shape alpha: 0.845
+Parameters optimization took 1 rounds (0.515 sec)
+BEST SCORE FOUND : -10244.373
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.splits.nex
+Total tree length: 66.928
+
+Total number of iterations: 397
+CPU time used for tree search: 5073.817 sec (1h:24m:33s)
+Wall-clock time used for tree search: 3282.656 sec (0h:54m:42s)
+Total CPU time used: 5091.986 sec (1h:24m:51s)
+Total wall-clock time used: 3292.980 sec (0h:54m:52s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.splits.nex...
+147 taxa and 1458 splits.
+Consensus tree written to /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.contree
+Reading input trees file /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.contree
+Log-likelihood of consensus tree: -10245.438
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.splits.nex
+  Consensus tree:                /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.contree
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.fa.log
+
+Date and Time: Sun Mar 29 18:40:32 2026

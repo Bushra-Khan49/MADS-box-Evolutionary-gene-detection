@@ -1,0 +1,2162 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00847.AP2.hmm
+# target sequence database:        NIPGR-Plants/Prunus_persica/Ppersica_298_v2.1.protein.fa
+# per-dom hits tabular output:     NIPGR_WORK/Prunus_persica/Prunus_persica_AP2.domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       AP2  [M=54]
+Accession:   PF00847.25
+Description: AP2 domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+    1.7e-23   84.0  12.0    3.4e-11   44.6   1.8    2.4  2  Prupe.2G060200.1.p  pacid=32074920 transcript=Prupe.2G060200.
+    1.8e-23   83.9  13.5    3.8e-11   44.5   1.8    2.6  2  Prupe.3G104100.1.p  pacid=32108650 transcript=Prupe.3G104100.
+    2.4e-23   83.5  12.7    3.7e-11   44.5   1.8    2.4  2  Prupe.1G101600.1.p  pacid=32113840 transcript=Prupe.1G101600.
+      4e-22   79.6  12.6    1.3e-11   45.9   3.9    2.8  2  Prupe.1G418600.1.p  pacid=32115342 transcript=Prupe.1G418600.
+    5.8e-22   79.1   9.7    3.2e-11   44.7   3.8    3.1  2  Prupe.1G084900.1.p  pacid=32120214 transcript=Prupe.1G084900.
+    9.1e-22   78.5  10.6    7.7e-12   46.7   3.1    2.8  2  Prupe.6G216400.3.p  pacid=32085326 transcript=Prupe.6G216400.
+    9.4e-22   78.4  10.4    4.4e-11   44.2   4.2    2.5  2  Prupe.3G042000.1.p  pacid=32107800 transcript=Prupe.3G042000.
+    2.5e-21   77.1  11.1      1e-11   46.3   3.1    2.8  2  Prupe.6G216400.2.p  pacid=32085325 transcript=Prupe.6G216400.
+      3e-21   76.8  10.1    8.2e-11   43.4   4.7    2.5  2  Prupe.6G023000.1.p  pacid=32087907 transcript=Prupe.6G023000.
+    3.2e-21   76.7  10.0    1.1e-10   42.9   4.7    3.0  2  Prupe.6G364100.1.p  pacid=32085478 transcript=Prupe.6G364100.
+    3.5e-21   76.6  10.0    2.8e-10   41.7   3.9    2.5  2  Prupe.6G203000.1.p  pacid=32088263 transcript=Prupe.6G203000.
+      2e-20   74.1  13.4    3.9e-11   44.4   2.3    2.8  2  Prupe.3G271200.1.p  pacid=32106214 transcript=Prupe.3G271200.
+    2.6e-20   73.8   9.4    1.4e-09   39.5   3.0    2.7  2  Prupe.6G231700.2.p  pacid=32085907 transcript=Prupe.6G231700.
+    2.6e-20   73.8   9.4    1.4e-09   39.5   3.0    2.7  2  Prupe.6G231700.1.p  pacid=32085906 transcript=Prupe.6G231700.
+    2.9e-20   73.6   9.5    8.4e-10   40.1   2.9    2.3  2  Prupe.6G242400.1.p  pacid=32090203 transcript=Prupe.6G242400.
+    5.5e-20   72.7  13.8    3.9e-11   44.4   2.3    2.5  2  Prupe.3G271400.1.p  pacid=32108430 transcript=Prupe.3G271400.
+      6e-20   72.6  10.2    6.6e-10   40.5   3.0    2.4  2  Prupe.6G091100.2.p  pacid=32086896 transcript=Prupe.6G091100.
+    1.6e-19   71.3  10.2    1.1e-09   39.7   3.0    2.4  2  Prupe.6G091100.1.p  pacid=32086894 transcript=Prupe.6G091100.
+    5.3e-19   69.6  10.7      1e-11   46.3   3.1    2.8  2  Prupe.6G216400.1.p  pacid=32085324 transcript=Prupe.6G216400.
+    2.2e-17   64.4  12.9    4.9e-09   37.7   0.4    2.7  2  Prupe.1G268800.1.p  pacid=32119614 transcript=Prupe.1G268800.
+    1.7e-16   61.6   0.4    3.3e-16   60.7   0.4    1.5  1  Prupe.2G289500.1.p  pacid=32074207 transcript=Prupe.2G289500.
+    2.7e-16   60.9   0.9    4.6e-16   60.2   0.9    1.4  1  Prupe.6G348700.1.p  pacid=32087503 transcript=Prupe.6G348700.
+    2.9e-16   60.8   1.4    4.8e-16   60.1   1.4    1.4  1  Prupe.1G037800.1.p  pacid=32117058 transcript=Prupe.1G037800.
+    3.2e-16   60.7   2.3    6.1e-16   59.8   2.3    1.5  1  Prupe.5G062000.1.p  pacid=32097546 transcript=Prupe.5G062000.
+    4.9e-16   60.1   5.2    6.9e-16   59.6   5.2    1.2  1  Prupe.1G037700.1.p  pacid=32110844 transcript=Prupe.1G037700.
+    5.7e-16   59.9   0.8    5.7e-16   59.9   0.8    1.8  1  Prupe.1G084800.1.p  pacid=32119034 transcript=Prupe.1G084800.
+    6.3e-16   59.7   1.9    6.3e-16   59.7   1.9    1.9  1  Prupe.2G272400.1.p  pacid=32078735 transcript=Prupe.2G272400.
+    1.4e-15   58.7   0.9    2.2e-15   58.0   0.9    1.4  1  Prupe.3G223300.1.p  pacid=32109454 transcript=Prupe.3G223300.
+    1.4e-15   58.6   3.3    3.3e-15   57.4   3.3    1.7  1  Prupe.4G055600.1.p  pacid=32093936 transcript=Prupe.4G055600.
+    1.8e-15   58.3   5.7    4.1e-15   57.1   1.4    2.2  2  Prupe.3G009400.1.p  pacid=32108295 transcript=Prupe.3G009400.
+    1.8e-15   58.3   0.5    1.8e-15   58.3   0.5    1.7  1  Prupe.5G090000.1.p  pacid=32098929 transcript=Prupe.5G090000.
+    2.4e-15   57.9   0.1    3.7e-15   57.3   0.1    1.3  1  Prupe.1G448600.1.p  pacid=32118293 transcript=Prupe.1G448600.
+    2.8e-15   57.7   4.3    4.9e-15   56.9   4.3    1.4  1  Prupe.4G176200.1.p  pacid=32095302 transcript=Prupe.4G176200.
+    3.7e-15   57.3   1.3    5.7e-15   56.7   1.3    1.3  1  Prupe.8G224800.1.p  pacid=32084140 transcript=Prupe.8G224800.
+    3.7e-15   57.3   2.6    5.6e-15   56.7   2.6    1.3  1  Prupe.2G129300.1.p  pacid=32077097 transcript=Prupe.2G129300.
+    3.8e-15   57.3   0.2    7.5e-15   56.3   0.2    1.5  1  Prupe.5G065300.1.p  pacid=32099994 transcript=Prupe.5G065300.
+    3.9e-15   57.2   3.0    7.4e-15   56.3   3.0    1.5  1  Prupe.8G125100.1.p  pacid=32083624 transcript=Prupe.8G125100.
+    3.9e-15   57.2   4.4    5.6e-15   56.7   4.4    1.2  1  Prupe.4G055500.1.p  pacid=32095533 transcript=Prupe.4G055500.
+    4.4e-15   57.1   4.7    6.8e-15   56.4   4.7    1.3  1  Prupe.7G134100.1.p  pacid=32101862 transcript=Prupe.7G134100.
+    4.9e-15   56.9   5.1    9.5e-15   56.0   5.1    1.5  1  Prupe.3G094700.1.p  pacid=32109711 transcript=Prupe.3G094700.
+    5.1e-15   56.8   2.7    5.1e-15   56.8   2.7    2.0  1  Prupe.2G272300.1.p  pacid=32076007 transcript=Prupe.2G272300.
+    5.5e-15   56.7   1.1    8.4e-15   56.1   1.1    1.3  1  Prupe.1G037900.1.p  pacid=32118623 transcript=Prupe.1G037900.
+    5.7e-15   56.7   0.2    9.3e-15   56.0   0.2    1.4  1  Prupe.7G222700.1.p  pacid=32101005 transcript=Prupe.7G222700.
+      6e-15   56.6   1.4      1e-14   55.9   1.4    1.4  1  Prupe.6G182200.1.p  pacid=32090625 transcript=Prupe.6G182200.
+    6.4e-15   56.5   1.0    1.2e-14   55.6   1.0    1.5  1  Prupe.6G354000.1.p  pacid=32084904 transcript=Prupe.6G354000.
+    6.8e-15   56.4   1.4      1e-14   55.9   1.4    1.3  1  Prupe.1G513600.1.p  pacid=32111207 transcript=Prupe.1G513600.
+      7e-15   56.4   0.7      7e-15   56.4   0.7    2.2  1  Prupe.5G090100.1.p  pacid=32098685 transcript=Prupe.5G090100.
+    7.3e-15   56.3   0.3    7.3e-15   56.3   0.3    1.9  1  Prupe.3G263000.1.p  pacid=32108467 transcript=Prupe.3G263000.
+    8.3e-15   56.2   0.3    1.5e-14   55.3   0.3    1.5  1  Prupe.2G256900.1.p  pacid=32077467 transcript=Prupe.2G256900.
+    9.3e-15   56.0   0.9    1.4e-14   55.4   0.9    1.3  1  Prupe.2G129700.1.p  pacid=32075056 transcript=Prupe.2G129700.
+    1.3e-14   55.5   1.6    2.1e-14   54.9   1.6    1.3  1  Prupe.8G224600.1.p  pacid=32082335 transcript=Prupe.8G224600.
+    1.4e-14   55.5   1.6    2.5e-14   54.6   1.6    1.5  1  Prupe.1G008400.1.p  pacid=32115808 transcript=Prupe.1G008400.
+    1.4e-14   55.4   0.8    1.4e-14   55.4   0.8    2.2  1  Prupe.2G123200.1.p  pacid=32074080 transcript=Prupe.2G123200.
+    1.5e-14   55.4   1.8    2.2e-14   54.8   1.8    1.3  1  Prupe.1G372100.1.p  pacid=32117455 transcript=Prupe.1G372100.
+    1.5e-14   55.4   1.6    2.2e-14   54.8   1.6    1.3  1  Prupe.4G051200.1.p  pacid=32095588 transcript=Prupe.4G051200.
+    1.5e-14   55.3   2.1    2.3e-14   54.7   2.1    1.3  1  Prupe.5G061800.1.p  pacid=32097972 transcript=Prupe.5G061800.
+    1.6e-14   55.2   1.2    1.6e-14   55.2   1.2    1.7  1  Prupe.7G060700.1.p  pacid=32103524 transcript=Prupe.7G060700.
+    1.7e-14   55.2   1.2    3.5e-14   54.2   1.2    1.6  1  Prupe.6G039700.1.p  pacid=32086232 transcript=Prupe.6G039700.
+    1.7e-14   55.1   1.1    2.9e-14   54.4   1.1    1.4  1  Prupe.2G129500.1.p  pacid=32079511 transcript=Prupe.2G129500.
+    1.7e-14   55.1   1.3    2.6e-14   54.6   1.3    1.3  1  Prupe.8G230600.1.p  pacid=32082894 transcript=Prupe.8G230600.
+    2.1e-14   54.9   1.8    3.2e-14   54.3   1.8    1.3  1  Prupe.2G129400.1.p  pacid=32077982 transcript=Prupe.2G129400.
+    2.3e-14   54.8   2.5    3.9e-14   54.0   2.5    1.4  1  Prupe.2G129600.1.p  pacid=32076177 transcript=Prupe.2G129600.
+    2.4e-14   54.7   0.4    3.9e-14   54.0   0.4    1.4  1  Prupe.6G004400.1.p  pacid=32086116 transcript=Prupe.6G004400.
+    2.4e-14   54.7   0.2      4e-14   54.0   0.2    1.4  1  Prupe.7G004900.1.p  pacid=32102585 transcript=Prupe.7G004900.
+    2.5e-14   54.6   2.6    4.6e-14   53.8   2.6    1.4  1  Prupe.2G272500.1.p  pacid=32074738 transcript=Prupe.2G272500.
+    2.5e-14   54.6   0.6    2.5e-14   54.6   0.6    1.6  1  Prupe.3G019900.1.p  pacid=32108216 transcript=Prupe.3G019900.
+    2.5e-14   54.6   0.7    2.5e-14   54.6   0.7    1.9  1  Prupe.5G090500.1.p  pacid=32097672 transcript=Prupe.5G090500.
+      3e-14   54.4   2.9    5.3e-14   53.6   2.9    1.4  1  Prupe.5G141300.1.p  pacid=32099148 transcript=Prupe.5G141300.
+    3.6e-14   54.1   2.6    5.7e-14   53.5   2.6    1.3  1  Prupe.4G051400.1.p  pacid=32092094 transcript=Prupe.4G051400.
+    3.6e-14   54.1   3.0    6.5e-14   53.3   3.0    1.4  1  Prupe.1G130300.2.p  pacid=32114291 transcript=Prupe.1G130300.
+    3.7e-14   54.1   0.2    6.1e-14   53.4   0.2    1.4  1  Prupe.3G062800.1.p  pacid=32106526 transcript=Prupe.3G062800.
+    3.7e-14   54.1   3.0    6.6e-14   53.3   3.0    1.4  1  Prupe.1G130300.1.p  pacid=32114290 transcript=Prupe.1G130300.
+    4.2e-14   53.9   0.6    4.2e-14   53.9   0.6    1.8  1  Prupe.5G090200.1.p  pacid=32098694 transcript=Prupe.5G090200.
+    4.4e-14   53.8   0.7    8.1e-14   53.0   0.7    1.5  1  Prupe.1G212700.1.p  pacid=32119509 transcript=Prupe.1G212700.
+    4.9e-14   53.7   0.3    4.9e-14   53.7   0.3    1.6  1  Prupe.5G089900.1.p  pacid=32099549 transcript=Prupe.5G089900.
+    5.2e-14   53.6   2.3    7.7e-14   53.1   2.3    1.3  1  Prupe.7G066700.1.p  pacid=32103539 transcript=Prupe.7G066700.
+    5.9e-14   53.4   5.2    1.2e-13   52.4   4.2    2.0  1  Prupe.5G117800.1.p  pacid=32098491 transcript=Prupe.5G117800.
+    6.4e-14   53.3   3.7    9.6e-14   52.8   3.7    1.3  1  Prupe.2G183200.1.p  pacid=32079334 transcript=Prupe.2G183200.
+    6.8e-14   53.2   1.9      1e-13   52.7   1.9    1.3  1  Prupe.5G141200.1.p  pacid=32098711 transcript=Prupe.5G141200.
+    8.4e-14   52.9   1.8    1.2e-13   52.4   1.8    1.2  1  Prupe.3G209100.1.p  pacid=32106832 transcript=Prupe.3G209100.
+    8.7e-14   52.9   1.1    1.7e-13   51.9   1.1    1.5  1  Prupe.2G190200.1.p  pacid=32075400 transcript=Prupe.2G190200.
+    8.9e-14   52.9   2.6    1.3e-13   52.3   2.6    1.3  1  Prupe.8G224700.1.p  pacid=32082402 transcript=Prupe.8G224700.
+    9.9e-14   52.7   1.5    2.1e-13   51.7   1.5    1.6  1  Prupe.6G284400.2.p  pacid=32085215 transcript=Prupe.6G284400.
+      1e-13   52.7   0.3      1e-13   52.7   0.3    2.0  1  Prupe.5G114100.1.p  pacid=32099842 transcript=Prupe.5G114100.
+    1.1e-13   52.5   1.5    2.5e-13   51.4   1.5    1.6  1  Prupe.6G284400.1.p  pacid=32085214 transcript=Prupe.6G284400.
+    1.8e-13   51.9   3.0    3.2e-13   51.1   3.0    1.4  1  Prupe.1G545400.1.p  pacid=32113356 transcript=Prupe.1G545400.
+    1.8e-13   51.9   1.2    3.4e-13   51.0   1.2    1.5  1  Prupe.3G157100.1.p  pacid=32108303 transcript=Prupe.3G157100.
+    1.9e-13   51.8   2.0    3.6e-13   50.9   2.0    1.5  1  Prupe.4G222300.1.p  pacid=32091593 transcript=Prupe.4G222300.
+    2.2e-13   51.6   6.5    1.1e-06   30.1   0.6    3.2  2  Prupe.7G069100.1.p  pacid=32103289 transcript=Prupe.7G069100.
+    2.2e-13   51.6   0.3    2.2e-13   51.6   0.3    1.9  1  Prupe.5G136200.1.p  pacid=32098181 transcript=Prupe.5G136200.
+    2.4e-13   51.5   2.0    5.7e-13   50.3   2.0    1.7  1  Prupe.8G264900.1.p  pacid=32081432 transcript=Prupe.8G264900.
+    2.5e-13   51.4   4.4      4e-13   50.8   4.4    1.3  1  Prupe.6G165700.1.p  pacid=32090076 transcript=Prupe.6G165700.
+    2.8e-13   51.3   2.6    4.1e-13   50.7   2.6    1.3  1  Prupe.1G214900.1.p  pacid=32120223 transcript=Prupe.1G214900.
+    2.9e-13   51.2   1.3    2.9e-13   51.2   1.3    1.9  1  Prupe.1G545700.1.p  pacid=32118297 transcript=Prupe.1G545700.
+      3e-13   51.2   5.1    5.9e-13   50.2   5.1    1.5  1  Prupe.2G253000.1.p  pacid=32076087 transcript=Prupe.2G253000.
+    3.2e-13   51.1   0.9    5.1e-13   50.4   0.9    1.3  1  Prupe.2G306400.1.p  pacid=32075262 transcript=Prupe.2G306400.
+    7.4e-13   49.9   0.3    1.3e-12   49.2   0.3    1.4  1  Prupe.1G139600.1.p  pacid=32120662 transcript=Prupe.1G139600.
+    7.7e-13   49.9   1.0    1.7e-12   48.8   1.0    1.6  1  Prupe.3G084600.1.p  pacid=32109800 transcript=Prupe.3G084600.
+    1.2e-12   49.3   2.4    2.1e-12   48.5   2.4    1.4  1  Prupe.1G245500.1.p  pacid=32114849 transcript=Prupe.1G245500.
+    1.2e-12   49.3   0.2    2.1e-12   48.5   0.2    1.4  1  Prupe.5G213800.1.p  pacid=32098493 transcript=Prupe.5G213800.
+    1.8e-12   48.7   3.1      5e-12   47.3   3.1    1.8  1  Prupe.7G058300.1.p  pacid=32104105 transcript=Prupe.7G058300.
+      2e-12   48.5   0.0    3.8e-12   47.6   0.0    1.5  1  Prupe.7G116300.1.p  pacid=32101413 transcript=Prupe.7G116300.
+    2.7e-12   48.1   0.8    4.4e-12   47.4   0.8    1.4  1  Prupe.6G231500.1.p  pacid=32089242 transcript=Prupe.6G231500.
+    3.1e-12   47.9   0.8    3.1e-12   47.9   0.8    2.0  1  Prupe.1G480400.1.p  pacid=32119127 transcript=Prupe.1G480400.
+    3.4e-12   47.8   3.3    6.4e-12   46.9   3.3    1.5  1  Prupe.3G032300.1.p  pacid=32108838 transcript=Prupe.3G032300.
+    3.4e-12   47.8   3.3    6.4e-12   46.9   3.3    1.5  1  Prupe.3G032300.2.p  pacid=32108839 transcript=Prupe.3G032300.
+    3.4e-12   47.8   3.3    6.4e-12   46.9   3.3    1.5  1  Prupe.3G032300.3.p  pacid=32108840 transcript=Prupe.3G032300.
+    3.6e-12   47.7   1.2    5.8e-12   47.1   1.2    1.3  1  Prupe.1G500900.1.p  pacid=32112038 transcript=Prupe.1G500900.
+    4.9e-12   47.3   2.5    1.1e-11   46.2   2.5    1.6  1  Prupe.7G194400.1.p  pacid=32101514 transcript=Prupe.7G194400.
+    5.2e-12   47.2   0.2    8.8e-12   46.5   0.2    1.4  1  Prupe.1G390800.1.p  pacid=32110898 transcript=Prupe.1G390800.
+    5.5e-12   47.1  10.2      8e-10   40.2   2.9    2.7  2  Prupe.6G242400.2.p  pacid=32090204 transcript=Prupe.6G242400.
+    5.9e-12   47.0   1.1    5.9e-12   47.0   1.1    2.1  1  Prupe.7G243600.1.p  pacid=32104465 transcript=Prupe.7G243600.
+    6.2e-12   47.0   0.5    6.2e-12   47.0   0.5    1.9  1  Prupe.3G096000.1.p  pacid=32108726 transcript=Prupe.3G096000.
+    8.8e-12   46.5   1.9    1.4e-11   45.8   1.9    1.4  1  Prupe.1G432000.1.p  pacid=32119680 transcript=Prupe.1G432000.
+    1.1e-11   46.2  10.5    1.1e-09   39.8   3.0    2.8  2  Prupe.6G091100.3.p  pacid=32086895 transcript=Prupe.6G091100.
+    1.5e-11   45.8   0.3    2.6e-11   45.0   0.3    1.4  1  Prupe.5G090800.1.p  pacid=32098886 transcript=Prupe.5G090800.
+    2.8e-11   44.9   0.3      5e-11   44.1   0.3    1.4  1  Prupe.1G310100.1.p  pacid=32112343 transcript=Prupe.1G310100.
+    7.2e-11   43.6   1.1    1.1e-10   43.0   1.1    1.3  1  Prupe.1G001700.1.p  pacid=32111515 transcript=Prupe.1G001700.
+      9e-11   43.2   0.7    1.5e-10   42.5   0.7    1.4  1  Prupe.6G064700.1.p  pacid=32090557 transcript=Prupe.6G064700.
+      9e-11   43.2   0.7    1.5e-10   42.5   0.7    1.4  1  Prupe.6G064700.2.p  pacid=32090560 transcript=Prupe.6G064700.
+      9e-11   43.2   0.7    1.5e-10   42.5   0.7    1.4  1  Prupe.6G064700.3.p  pacid=32090559 transcript=Prupe.6G064700.
+      9e-11   43.2   0.7    1.5e-10   42.5   0.7    1.4  1  Prupe.6G064700.4.p  pacid=32090558 transcript=Prupe.6G064700.
+      9e-11   43.2   0.7    1.5e-10   42.5   0.7    1.4  1  Prupe.6G064700.5.p  pacid=32090561 transcript=Prupe.6G064700.
+    1.2e-10   42.8   0.2    1.2e-10   42.8   0.2    1.6  1  Prupe.2G289600.1.p  pacid=32074448 transcript=Prupe.2G289600.
+    1.2e-10   42.8   0.4    2.4e-10   41.9   0.4    1.5  1  Prupe.5G090600.1.p  pacid=32097834 transcript=Prupe.5G090600.
+    1.4e-10   42.7   0.0    2.7e-10   41.7   0.0    1.5  1  Prupe.7G115900.1.p  pacid=32100503 transcript=Prupe.7G115900.
+    2.1e-10   42.1   0.2    2.1e-10   42.1   0.2    1.9  1  Prupe.5G090700.1.p  pacid=32096434 transcript=Prupe.5G090700.
+      4e-10   41.2   1.1      4e-10   41.2   1.1    1.6  1  Prupe.5G090300.1.p  pacid=32096939 transcript=Prupe.5G090300.
+    4.6e-10   41.0   0.6    4.6e-10   41.0   0.6    1.9  1  Prupe.5G090400.1.p  pacid=32099440 transcript=Prupe.5G090400.
+    1.8e-09   39.1   2.4    1.8e-09   39.1   2.4    2.3  2  Prupe.2G220100.1.p  pacid=32079650 transcript=Prupe.2G220100.
+    2.4e-09   38.7   0.8    5.2e-09   37.6   0.8    1.6  1  Prupe.1G305900.1.p  pacid=32118336 transcript=Prupe.1G305900.
+      1e-08   36.7   0.3      2e-08   35.8   0.3    1.5  1  Prupe.3G240000.1.p  pacid=32108760 transcript=Prupe.3G240000.
+    1.1e-08   36.6   2.5    2.8e-08   35.3   2.5    1.7  1  Prupe.5G220700.3.p  pacid=32099545 transcript=Prupe.5G220700.
+    1.5e-08   36.2   2.5    3.6e-08   34.9   2.5    1.7  1  Prupe.5G220700.1.p  pacid=32099544 transcript=Prupe.5G220700.
+    5.2e-08   34.4   1.7    8.4e-08   33.7   1.7    1.3  1  Prupe.5G220700.2.p  pacid=32099546 transcript=Prupe.5G220700.
+    9.4e-08   33.6   0.7    1.3e-07   33.1   0.7    1.3  1  Prupe.1G546100.1.p  pacid=32114002 transcript=Prupe.1G546100.
+    1.8e-07   32.7   0.7    3.5e-07   31.8   0.7    1.5  1  Prupe.6G176400.1.p  pacid=32085729 transcript=Prupe.6G176400.
+    5.4e-07   31.1   0.3    1.6e-06   29.6   0.3    1.9  1  Prupe.6G015000.1.p  pacid=32087406 transcript=Prupe.6G015000.
+    5.4e-06   27.9   1.0    9.1e-06   27.2   1.0    1.3  1  Prupe.1G464400.1.p  pacid=32115115 transcript=Prupe.1G464400.
+    1.1e-05   27.0   0.1    2.3e-05   25.9   0.1    1.6  1  Prupe.7G261000.2.p  pacid=32100528 transcript=Prupe.7G261000.
+    1.1e-05   27.0   0.1    2.3e-05   25.9   0.1    1.6  1  Prupe.7G261000.3.p  pacid=32100529 transcript=Prupe.7G261000.
+    1.1e-05   27.0   0.1    2.3e-05   25.9   0.1    1.6  1  Prupe.7G261000.4.p  pacid=32100527 transcript=Prupe.7G261000.
+    1.2e-05   26.9   0.1    2.5e-05   25.8   0.1    1.6  1  Prupe.7G261000.1.p  pacid=32100526 transcript=Prupe.7G261000.
+    8.1e-05   24.2   1.9    0.00012   23.7   0.7    1.9  1  Prupe.5G061400.1.p  pacid=32096127 transcript=Prupe.5G061400.
+    0.00014   23.4   0.1    0.00014   23.4   0.1    1.9  1  Prupe.8G198700.1.p  pacid=32083473 transcript=Prupe.8G198700.
+    0.00014   23.4   0.1    0.00014   23.4   0.1    1.9  1  Prupe.8G198700.4.p  pacid=32083475 transcript=Prupe.8G198700.
+    0.00014   23.4   0.1    0.00014   23.4   0.1    1.9  1  Prupe.8G198700.5.p  pacid=32083474 transcript=Prupe.8G198700.
+    0.00044   21.8   0.5    0.00084   20.9   0.0    1.7  1  Prupe.8G198700.2.p  pacid=32083477 transcript=Prupe.8G198700.
+    0.00044   21.8   0.5    0.00084   20.9   0.0    1.7  1  Prupe.8G198700.3.p  pacid=32083476 transcript=Prupe.8G198700.
+  ------ inclusion threshold ------
+       0.26   12.9   0.2       0.36   12.5   0.2    1.2  1  Prupe.3G108800.1.p  pacid=32105389 transcript=Prupe.3G108800.
+
+
+Domain annotation for each sequence (and alignments):
+>> Prupe.2G060200.1.p  pacid=32074920 transcript=Prupe.2G060200.1 locus=Prupe.2G060200 ID=Prupe.2G060200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.6   1.8   1.1e-13   3.4e-11       3      53 ..      68     125 ..      66     126 .. 0.86
+   2 !   44.5   2.9   1.2e-13   3.6e-11       1      53 [.     168     219 ..     168     220 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 44.6 bits;  conditional E-value: 1.1e-13
+                 AP2   3 irGVrydkkwgrWvAe.wse...ngkrkk..krfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV++++++gr++A+ w +   n+++ k  ++++lg y++ e Aa+ +++a+lk++g
+  Prupe.2G060200.1.p  68 YRGVTRHRWTGRFEAHlWDKsswNNIQNKkgRQVYLGAYDSeEAAAHTYDLAALKYWG 125
+                         9****************55555655544446*************************98 PP
+
+  == domain 2  score: 44.5 bits;  conditional E-value: 1.2e-13
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +k+rGV ++ + grW+A+   +++++ k+ +lg+y+t eeAa a+++a+ +++g
+  Prupe.2G060200.1.p 168 SKYRGVARHHHNGRWEARI--GRVFGNKYLYLGTYNTqEEAAAAYDMAAIEYRG 219
+                         69****************8..566777*************************98 PP
+
+>> Prupe.3G104100.1.p  pacid=32108650 transcript=Prupe.3G104100.1 locus=Prupe.3G104100 ID=Prupe.3G104100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.4   4.3   1.2e-13   3.9e-11       3      53 ..      50     107 ..      48     108 .. 0.93
+   2 !   44.5   1.8   1.2e-13   3.8e-11       1      53 [.     150     201 ..     150     202 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 44.4 bits;  conditional E-value: 1.2e-13
+                 AP2   3 irGVrydkkwgrWvAe......wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV++++++gr++A+      w+e++ +k ++++lg y+  e Aara+++a+lk++g
+  Prupe.3G104100.1.p  50 YRGVTRHRWTGRYEAHlwdkncWNESQNKKGRQVYLGAYDDeEAAARAYDLAALKYWG 107
+                         9****************99999999666888*************************98 PP
+
+  == domain 2  score: 44.5 bits;  conditional E-value: 1.2e-13
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +k+rGV ++ + grW+A+   +++++ k+ +lg+y t eeAa a+++a+ +++g
+  Prupe.3G104100.1.p 150 SKYRGVARHHHNGRWEARI--GRVFGNKYLYLGTYATqEEAATAYDMAAIEYRG 201
+                         69****************8..566777*************************98 PP
+
+>> Prupe.1G101600.1.p  pacid=32113840 transcript=Prupe.1G101600.1 locus=Prupe.1G101600 ID=Prupe.1G101600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.2   3.5   1.4e-13   4.5e-11       3      53 ..      49     106 ..      47     107 .. 0.93
+   2 !   44.5   1.8   1.2e-13   3.7e-11       1      53 [.     149     200 ..     149     201 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 44.2 bits;  conditional E-value: 1.4e-13
+                 AP2   3 irGVrydkkwgrWvAe......wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV++++++gr++A+      w+e++ +k ++++lg y+  e Aa+a+++a+lk++g
+  Prupe.1G101600.1.p  49 YRGVTRHRWTGRYEAHlwdkncWNESQNKKGRQVYLGAYDDeEAAAHAYDLAALKYWG 106
+                         9****************99999999666888*************************98 PP
+
+  == domain 2  score: 44.5 bits;  conditional E-value: 1.2e-13
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +k+rGV ++ + grW+A+   +++++ k+ +lg+y t eeAa a+++a+ +++g
+  Prupe.1G101600.1.p 149 SKYRGVARHHHNGRWEARI--GRVFGNKYLYLGTYATqEEAATAYDMAAIEYRG 200
+                         69****************8..566777*************************98 PP
+
+>> Prupe.1G418600.1.p  pacid=32115342 transcript=Prupe.1G418600.1 locus=Prupe.1G418600 ID=Prupe.1G418600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.9   3.9   4.2e-14   1.3e-11       2      53 ..     310     368 ..     309     369 .. 0.87
+   2 !   39.0   0.4   6.1e-12   1.9e-09       3      53 ..     413     462 ..     411     463 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 45.9 bits;  conditional E-value: 4.2e-14
+                 AP2   2 kirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++gr++A+ w +     ++ rk ++++lg y++ e+Aara+++a+lk++g
+  Prupe.1G418600.1.p 310 QYRGVTRHRWTGRYEAHlWDNsckkeGQTRKGRQVYLGGYDMeEKAARAYDLAALKYWG 368
+                         7*****************65543454555777*************************99 PP
+
+  == domain 2  score: 39.0 bits;  conditional E-value: 6.1e-12
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV+++   grW A+    ++ + k  +lg++gt eeAa+a++ a+ k +g
+  Prupe.1G418600.1.p 413 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFGTqEEAAEAYDIAAIKFRG 462
+                         9***************73..33335***********************9987 PP
+
+>> Prupe.1G084900.1.p  pacid=32120214 transcript=Prupe.1G084900.1 locus=Prupe.1G084900 ID=Prupe.1G084900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.7   3.8     1e-13   3.2e-11       3      53 ..     176     233 ..     174     234 .. 0.85
+   2 !   36.5   0.2   3.7e-11   1.2e-08       3      53 ..     278     327 ..     276     328 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 44.7 bits;  conditional E-value: 1e-13
+                 AP2   3 irGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  Prupe.1G084900.1.p 176 YRGVTRHRWTGRYEAHlWDNscrreGQSRKGRQVYLGGYDKeEKAARAYDLAALKYWG 233
+                         9****************66644453444555*************************98 PP
+
+  == domain 2  score: 36.5 bits;  conditional E-value: 3.7e-11
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  Prupe.1G084900.1.p 278 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 327
+                         9***************73..33335************************998 PP
+
+>> Prupe.6G216400.3.p  pacid=32085326 transcript=Prupe.6G216400.3 locus=Prupe.6G216400 ID=Prupe.6G216400.3.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.7   3.1   2.5e-14   7.7e-12       2      53 ..     237     295 ..     236     296 .. 0.84
+   2 !   36.2   0.2   4.6e-11   1.5e-08       3      53 ..     340     389 ..     338     390 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 46.7 bits;  conditional E-value: 2.5e-14
+                 AP2   2 kirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++gr++A+ w +     ++ rk ++++lg y++ e+Aara+++a+lk++g
+  Prupe.6G216400.3.p 237 QYRGVTRHRWTGRYEAHlWDNsckkeGQSRKGRQVYLGGYDMeEKAARAYDLAALKYWG 295
+                         7*****************66643353333555*************************98 PP
+
+  == domain 2  score: 36.2 bits;  conditional E-value: 4.6e-11
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  Prupe.6G216400.3.p 340 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 389
+                         9***************73..33335************************998 PP
+
+>> Prupe.3G042000.1.p  pacid=32107800 transcript=Prupe.3G042000.1 locus=Prupe.3G042000 ID=Prupe.3G042000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.2   4.2   1.4e-13   4.4e-11       2      53 ..     263     321 ..     262     322 .. 0.87
+   2 !   37.5   0.4   1.8e-11   5.5e-09       1      53 [.     364     415 ..     364     416 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 44.2 bits;  conditional E-value: 1.4e-13
+                 AP2   2 kirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  Prupe.3G042000.1.p 263 QFRGVTRHRWTGRYEAHlWDNscrkeGQTRKGRQVYLGGYDKeEKAARAYDLAALKYWG 321
+                         79****************55544454666777*************************99 PP
+
+  == domain 2  score: 37.5 bits;  conditional E-value: 1.8e-11
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +++rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  Prupe.3G042000.1.p 364 SVYRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 415
+                         68****************73..33335***********************9987 PP
+
+>> Prupe.6G216400.2.p  pacid=32085325 transcript=Prupe.6G216400.2 locus=Prupe.6G216400 ID=Prupe.6G216400.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.3   3.1   3.2e-14     1e-11       2      53 ..     358     416 ..     357     417 .. 0.84
+   2 !   35.8   0.2   5.9e-11   1.9e-08       3      53 ..     461     510 ..     459     511 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 46.3 bits;  conditional E-value: 3.2e-14
+                 AP2   2 kirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++gr++A+ w +     ++ rk ++++lg y++ e+Aara+++a+lk++g
+  Prupe.6G216400.2.p 358 QYRGVTRHRWTGRYEAHlWDNsckkeGQSRKGRQVYLGGYDMeEKAARAYDLAALKYWG 416
+                         7*****************66643353333555*************************98 PP
+
+  == domain 2  score: 35.8 bits;  conditional E-value: 5.9e-11
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  Prupe.6G216400.2.p 461 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 510
+                         9***************73..33335************************998 PP
+
+>> Prupe.6G023000.1.p  pacid=32087907 transcript=Prupe.6G023000.1 locus=Prupe.6G023000 ID=Prupe.6G023000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.4   4.7   2.6e-13   8.2e-11       3      53 ..     171     228 ..     169     229 .. 0.85
+   2 !   36.2   0.2   4.5e-11   1.4e-08       3      53 ..     273     322 ..     271     323 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 43.4 bits;  conditional E-value: 2.6e-13
+                 AP2   3 irGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  Prupe.6G023000.1.p 171 YRGVTRHRWTGRYEAHlWDNscrreGQSRKGRQVYLGGYDKeEKAARAYDLAALKYWG 228
+                         9****************66644453444555*************************98 PP
+
+  == domain 2  score: 36.2 bits;  conditional E-value: 4.5e-11
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  Prupe.6G023000.1.p 273 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTeEEAAEAYDIAAIKFRG 322
+                         9***************73..33335************************998 PP
+
+>> Prupe.6G364100.1.p  pacid=32085478 transcript=Prupe.6G364100.1 locus=Prupe.6G364100 ID=Prupe.6G364100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.9   4.7   3.6e-13   1.1e-10       3      53 ..     351     408 ..     349     409 .. 0.87
+   2 !   35.7   0.2   6.6e-11   2.1e-08       3      53 ..     453     502 ..     451     503 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 42.9 bits;  conditional E-value: 3.6e-13
+                 AP2   3 irGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  Prupe.6G364100.1.p 351 YRGVTRHRWTGRYEAHlWDNscrreGQTRKGRQVYLGGYDKeEKAARAYDLAALKYWG 408
+                         9****************65544454666777*************************98 PP
+
+  == domain 2  score: 35.7 bits;  conditional E-value: 6.6e-11
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  Prupe.6G364100.1.p 453 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 502
+                         9***************73..33335************************998 PP
+
+>> Prupe.6G203000.1.p  pacid=32088263 transcript=Prupe.6G203000.1 locus=Prupe.6G203000 ID=Prupe.6G203000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.7   3.9   8.9e-13   2.8e-10       3      53 ..     237     294 ..     235     295 .. 0.87
+   2 !   38.3   0.4   9.8e-12   3.1e-09       3      53 ..     339     388 ..     337     389 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 41.7 bits;  conditional E-value: 8.9e-13
+                 AP2   3 irGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV++++++gr++A+ w +     ++ rk ++++lg y+   +Aara+++a+lk++g
+  Prupe.6G203000.1.p 237 YRGVTRHRWTGRYEAHlWDNscrreGQARKGRQVYLGGYDKeDKAARAYDLAALKYWG 294
+                         9****************65544454666777*************************98 PP
+
+  == domain 2  score: 38.3 bits;  conditional E-value: 9.8e-12
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV+++  +grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  Prupe.6G203000.1.p 339 YRGVTRHHQQGRWQARIG--RVAGNKDLYLGTFATeEEAAEAYDIAAIKFRG 388
+                         9***************73..33335***********************9987 PP
+
+>> Prupe.3G271200.1.p  pacid=32106214 transcript=Prupe.3G271200.1 locus=Prupe.3G271200 ID=Prupe.3G271200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.6   4.4     3e-10   9.4e-08       1      53 [.      67     123 ..      67     124 .. 0.86
+   2 !   44.4   2.3   1.2e-13   3.9e-11       1      53 [.     166     217 ..     166     218 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 33.6 bits;  conditional E-value: 3e-10
+                 AP2   1 pkirGVrydkkwgrWvAe.wse...ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +++rGV++++++gr++A+ w +   n  +kkk    + y+  e Aara+++a+lk++g
+  Prupe.3G271200.1.p  67 SRFRGVSRHRWTGRFEAHlWDKlswNATQKKKGKQGA-YDEeESAARAYDLAALKYWG 123
+                         589****************777776776666666666.******************98 PP
+
+  == domain 2  score: 44.4 bits;  conditional E-value: 1.2e-13
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +k+rGV ++ + grW+A+   +++++ k+ +lg+y t eeAara++ a+ +++g
+  Prupe.3G271200.1.p 166 SKYRGVARHHHNGRWEARI--GRVFGNKYLYLGTYSTqEEAARAYDIAAIEYRG 217
+                         69****************8..566777************************998 PP
+
+>> Prupe.6G231700.2.p  pacid=32085907 transcript=Prupe.6G231700.2 locus=Prupe.6G231700 ID=Prupe.6G231700.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.5   3.0   4.3e-12   1.4e-09       2      53 ..     180     228 ..     179     229 .. 0.93
+   2 !   37.5   0.5   1.7e-11   5.4e-09       1      53 [.     271     321 ..     271     322 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.5 bits;  conditional E-value: 4.3e-12
+                 AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  Prupe.6G231700.2.p 180 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 228
+                         7****************992.....36***********************9987 PP
+
+  == domain 2  score: 37.5 bits;  conditional E-value: 1.7e-11
+                 AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +k+rGV+ +k  grW+A+  +  g   kk+++lg ++t  +Aara+++a+ k +g
+  Prupe.6G231700.2.p 271 SKYRGVTLHK-CGRWEARMGQfLG---KKYVYLGLFDTeIDAARAYDKAAIKCNG 321
+                         69********.6******755544...8**********************98765 PP
+
+>> Prupe.6G231700.1.p  pacid=32085906 transcript=Prupe.6G231700.1 locus=Prupe.6G231700 ID=Prupe.6G231700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.5   3.0   4.3e-12   1.4e-09       2      53 ..     180     228 ..     179     229 .. 0.93
+   2 !   37.5   0.5   1.7e-11   5.4e-09       1      53 [.     271     321 ..     271     322 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.5 bits;  conditional E-value: 4.3e-12
+                 AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  Prupe.6G231700.1.p 180 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 228
+                         7****************992.....36***********************9987 PP
+
+  == domain 2  score: 37.5 bits;  conditional E-value: 1.7e-11
+                 AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +k+rGV+ +k  grW+A+  +  g   kk+++lg ++t  +Aara+++a+ k +g
+  Prupe.6G231700.1.p 271 SKYRGVTLHK-CGRWEARMGQfLG---KKYVYLGLFDTeIDAARAYDKAAIKCNG 321
+                         69********.6******755544...8**********************98765 PP
+
+>> Prupe.6G242400.1.p  pacid=32090203 transcript=Prupe.6G242400.1 locus=Prupe.6G242400 ID=Prupe.6G242400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.1   2.9   2.7e-12   8.4e-10       2      53 ..     138     186 ..     137     187 .. 0.93
+   2 !   37.5   0.5   1.8e-11   5.6e-09       1      53 [.     229     279 ..     229     280 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 40.1 bits;  conditional E-value: 2.7e-12
+                 AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  Prupe.6G242400.1.p 138 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 186
+                         7****************992.....36***********************9987 PP
+
+  == domain 2  score: 37.5 bits;  conditional E-value: 1.8e-11
+                 AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +k+rGV+ +k  grW+A+  +  g   kk+++lg +++  eAara+++a+ k +g
+  Prupe.6G242400.1.p 229 SKYRGVTLHK-CGRWEARMGQfLG---KKYIYLGLFDSeIEAARAYDKAAIKCNG 279
+                         69********.6******755544...8**********************99776 PP
+
+>> Prupe.3G271400.1.p  pacid=32108430 transcript=Prupe.3G271400.1 locus=Prupe.3G271400 ID=Prupe.3G271400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.5   3.9   3.1e-10   9.8e-08       1      53 [.      70     126 ..      70     127 .. 0.84
+   2 !   44.4   2.3   1.2e-13   3.9e-11       1      53 [.     169     220 ..     169     221 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 33.5 bits;  conditional E-value: 3.1e-10
+                 AP2   1 pkirGVrydkkwgrWvAe.wse...ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +++rGV++++++gr++A+ w +   n + +kk    g y+  e Aara+++a+lk++g
+  Prupe.3G271400.1.p  70 SRFRGVSRHRWTGRFEAHlWDKlswN-VTQKKKGKQGAYDEeESAARAYDLAALKYWG 126
+                         589****************6666633.55566666677******************98 PP
+
+  == domain 2  score: 44.4 bits;  conditional E-value: 1.2e-13
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +k+rGV ++ + grW+A+   +++++ k+ +lg+y t eeAara++ a+ +++g
+  Prupe.3G271400.1.p 169 SKYRGVARHHHNGRWEARI--GRVFGNKYLYLGTYSTqEEAARAYDIAAIEYRG 220
+                         69****************8..566777************************998 PP
+
+>> Prupe.6G091100.2.p  pacid=32086896 transcript=Prupe.6G091100.2 locus=Prupe.6G091100 ID=Prupe.6G091100.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   3.0   2.1e-12   6.6e-10       2      53 ..     155     203 ..     154     204 .. 0.93
+   2 !   36.5   0.7   3.6e-11   1.1e-08       1      53 [.     246     296 ..     246     297 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 40.5 bits;  conditional E-value: 2.1e-12
+                 AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  Prupe.6G091100.2.p 155 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 203
+                         7****************992.....36***********************9987 PP
+
+  == domain 2  score: 36.5 bits;  conditional E-value: 3.6e-11
+                 AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +++rGV+ +k  grW+A+  +  g   kk+++lg +++  eAara+++a+ k +g
+  Prupe.6G091100.2.p 246 SRYRGVTLHK-CGRWEARMGQfLG---KKYIYLGLFDSeVEAARAYDKAAIKCNG 296
+                         68********.6******755544...8**********************99776 PP
+
+>> Prupe.6G091100.1.p  pacid=32086894 transcript=Prupe.6G091100.1 locus=Prupe.6G091100 ID=Prupe.6G091100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.7   3.0   3.6e-12   1.1e-09       2      53 ..     155     203 ..     154     204 .. 0.93
+   2 !   35.8   0.7   6.1e-11   1.9e-08       1      53 [.     246     296 ..     246     297 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.7 bits;  conditional E-value: 3.6e-12
+                 AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  Prupe.6G091100.1.p 155 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 203
+                         7****************992.....36***********************9987 PP
+
+  == domain 2  score: 35.8 bits;  conditional E-value: 6.1e-11
+                 AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +++rGV+ +k  grW+A+  +  g   kk+++lg +++  eAara+++a+ k +g
+  Prupe.6G091100.1.p 246 SRYRGVTLHK-CGRWEARMGQfLG---KKYIYLGLFDSeVEAARAYDKAAIKCNG 296
+                         68********.6******755544...8**********************99776 PP
+
+>> Prupe.6G216400.1.p  pacid=32085324 transcript=Prupe.6G216400.1 locus=Prupe.6G216400 ID=Prupe.6G216400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.3   3.1   3.2e-14     1e-11       2      53 ..     358     416 ..     357     417 .. 0.84
+   2 !   28.0   0.2   1.7e-08   5.2e-06       3      53 ..     461     511 ..     459     512 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 46.3 bits;  conditional E-value: 3.2e-14
+                 AP2   2 kirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++gr++A+ w +     ++ rk ++++lg y++ e+Aara+++a+lk++g
+  Prupe.6G216400.1.p 358 QYRGVTRHRWTGRYEAHlWDNsckkeGQSRKGRQVYLGGYDMeEKAARAYDLAALKYWG 416
+                         7*****************66643353333555*************************98 PP
+
+  == domain 2  score: 28.0 bits;  conditional E-value: 1.7e-08
+                 AP2   3 irGVr.ydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV+ ++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  Prupe.6G216400.1.p 461 YRGVTsRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 511
+                         889952667789*****73..33335************************998 PP
+
+>> Prupe.1G268800.1.p  pacid=32119614 transcript=Prupe.1G268800.1 locus=Prupe.1G268800 ID=Prupe.1G268800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.7   4.6   1.2e-09   3.6e-07       1      53 [.      79     135 ..      79     136 .. 0.85
+   2 !   37.7   0.4   1.6e-11   4.9e-09       8      53 ..     193     237 ..     190     238 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 31.7 bits;  conditional E-value: 1.2e-09
+                 AP2   1 pkirGVrydkkwgrWvAe.wse...ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +++rGV++++++gr++A+ w +   n  ++kk    + y+  e Aara+++a+lk++g
+  Prupe.1G268800.1.p  79 SRFRGVSRHRWTGRYEAHlWDKgswNPTQRKKGKQGA-YDEeESAARAYDLAALKYWG 135
+                         589****************777666665666666655.******************98 PP
+
+  == domain 2  score: 37.7 bits;  conditional E-value: 1.6e-11
+                 AP2   8 ydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++ + grW+A+   +++++ k+ +lg+ygt eeAa+a++ a+ +++g
+  Prupe.1G268800.1.p 193 RHHHNGRWEARI--GRVFGNKYLYLGTYGTqEEAAHAYDIAAIEYRG 237
+                         56678******8..566777************************998 PP
+
+>> Prupe.2G289500.1.p  pacid=32074207 transcript=Prupe.2G289500.1 locus=Prupe.2G289500 ID=Prupe.2G289500.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.7   0.4   1.1e-18   3.3e-16       1      53 [.      66     116 ..      66     117 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 60.7 bits;  conditional E-value: 1.1e-18
+                 AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         p++rGVr++  +g+Wv+e +e n+   k+r++lg++ t e+Aara++ a+ kl+g
+  Prupe.2G289500.1.p  66 PVYRGVRRRN-SGKWVCEVREpNK---KTRIWLGTFPTaEMAARAHDVAAIKLRG 116
+                         79********.9******999665...9*************************98 PP
+
+>> Prupe.6G348700.1.p  pacid=32087503 transcript=Prupe.6G348700.1 locus=Prupe.6G348700 ID=Prupe.6G348700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.2   0.9   1.5e-18   4.6e-16       3      54 .]     115     165 ..     113     165 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 60.2 bits;  conditional E-value: 1.5e-18
+                 AP2   3 irGVrydkkwgrWvAewse...ngkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                         +rGVr+++ wg+++Ae ++   n      r++lg+++t eeAa+a+++a+++++gs
+  Prupe.6G348700.1.p 115 YRGVRRRP-WGKFAAEIRDstrN----GVRVWLGTFDTaEEAALAYDQAAFAMRGS 165
+                         9*******.*******7663324....5*************************995 PP
+
+>> Prupe.1G037800.1.p  pacid=32117058 transcript=Prupe.1G037800.1 locus=Prupe.1G037800 ID=Prupe.1G037800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.1   1.4   1.5e-18   4.8e-16       2      54 .]      24      75 ..      23      75 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 60.1 bits;  conditional E-value: 1.5e-18
+                 AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                        ++rGVr+++ wg++++e ++ +  r+ +r +lg+++t eeAara+++a+++l+g+
+  Prupe.1G037800.1.p 24 RYRGVRRRP-WGKFASEIRDpS--RQGARLWLGTFDTaEEAARAYDRAAFNLRGH 75
+                        7********.*******65532..345**************************96 PP
+
+>> Prupe.5G062000.1.p  pacid=32097546 transcript=Prupe.5G062000.1 locus=Prupe.5G062000 ID=Prupe.5G062000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.8   2.3     2e-18   6.1e-16       2      54 .]     199     250 ..     198     250 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 59.8 bits;  conditional E-value: 2e-18
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                         ++rGVr+++ wg+++Ae ++ n  r+ +r++lg+++t  eAa+a+++a++kl+gs
+  Prupe.5G062000.1.p 199 HYRGVRQRP-WGKYAAEIRDpN--RRGSRVWLGTFDTaIEAAKAYDRAAFKLRGS 250
+                         8********.*******88855..688*************************995 PP
+
+>> Prupe.1G037700.1.p  pacid=32110844 transcript=Prupe.1G037700.1 locus=Prupe.1G037700 ID=Prupe.1G037700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.6   5.2   2.2e-18   6.9e-16       2      53 ..      17      67 ..      16      68 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 59.6 bits;  conditional E-value: 2.2e-18
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++rGVr ++ wg+++Ae ++++ r+ +r++lg+++t eeAara+++a+++++g
+  Prupe.1G037700.1.p 17 RYRGVRKRP-WGKYAAEIRDSN-RHGARVWLGTFNTaEEAARAYDQAAYAMRG 67
+                        7********.*******99976.888*************************98 PP
+
+>> Prupe.1G084800.1.p  pacid=32119034 transcript=Prupe.1G084800.1 locus=Prupe.1G084800 ID=Prupe.1G084800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.9   0.8   1.8e-18   5.7e-16       2      53 ..      37      86 ..      36      87 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 59.9 bits;  conditional E-value: 1.8e-18
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++ GVr+++ +grWvAe +++   ++ r +lg+y+t eeAara++ea+++l+g
+  Prupe.1G084800.1.p 37 RYVGVRQRP-SGRWVAEIKDSS--QRVRLWLGTYDTpEEAARAYDEAARALRG 86
+                        79*******.9******99854..69*************************98 PP
+
+>> Prupe.2G272400.1.p  pacid=32078735 transcript=Prupe.2G272400.1 locus=Prupe.2G272400 ID=Prupe.2G272400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.7   1.9     2e-18   6.3e-16       2      54 .]     137     188 ..     136     188 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 59.7 bits;  conditional E-value: 2e-18
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                         ++rGVr+++ wg+++Ae ++ n  r+ +r++lg+++t  eAa+a+++a++kl+gs
+  Prupe.2G272400.1.p 137 HYRGVRRRP-WGKYAAEIRDpN--RRGSRVWLGTFDTaIEAAKAYDLAAFKLRGS 188
+                         8********.*******88855..688*************************995 PP
+
+>> Prupe.3G223300.1.p  pacid=32109454 transcript=Prupe.3G223300.1 locus=Prupe.3G223300 ID=Prupe.3G223300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.0   0.9   7.1e-18   2.2e-15       2      53 ..      66     115 ..      65     116 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 58.0 bits;  conditional E-value: 7.1e-18
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr++  wg+WvAe ++ n   + +r +lg++ t  eAa+a++ea+++++g
+  Prupe.3G223300.1.p  66 NYRGVRQRT-WGKWVAEIRTpN---RGSRLWLGTFPTaIEAALAYDEAARAMYG 115
+                         7********.*******98864...46*************************98 PP
+
+>> Prupe.4G055600.1.p  pacid=32093936 transcript=Prupe.4G055600.1 locus=Prupe.4G055600 ID=Prupe.4G055600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.4   3.3   1.1e-17   3.3e-15       2      53 ..     126     176 ..     125     177 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.4 bits;  conditional E-value: 1.1e-17
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++ wg+++Ae +++  rk +r++lg++ t eeAa+a+++a+l+++g
+  Prupe.4G055600.1.p 126 HYRGVRRRP-WGKYAAEIRDS-TRKGARVWLGTFETaEEAALAYDKAALRIRG 176
+                         8********.*******9885.4889*************************98 PP
+
+>> Prupe.3G009400.1.p  pacid=32108295 transcript=Prupe.3G009400.1 locus=Prupe.3G009400 ID=Prupe.3G009400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.1   1.4   1.3e-17   4.1e-15       2      53 ..      16      65 ..      15      66 .. 0.91
+   2 ?    3.3   0.2      0.87   2.7e+02      29      50 ..     187     208 ..     179     212 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 57.1 bits;  conditional E-value: 1.3e-17
+                 AP2  2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                         +rGVr++  wg+WvAe   +  ++   ++r +lg+++t eeAa+a+++a++kl+g
+  Prupe.3G009400.1.p 16 LYRGVRQRH-WGKWVAEirlP--KN---RTRLWLGTFDTaEEAALAYDKAAYKLRG 65
+                        59*******.*******7666..34...7*************************98 PP
+
+  == domain 2  score: 3.3 bits;  conditional E-value: 0.87
+                 AP2  29 rfslgkygteeAaraAiearlk 50 
+                          f++g +    Aa a+ ++ l+
+  Prupe.3G009400.1.p 187 IFWVGPFVGALAAAAYHQYILR 208
+                         59*****99*******999876 PP
+
+>> Prupe.5G090000.1.p  pacid=32098929 transcript=Prupe.5G090000.1 locus=Prupe.5G090000 ID=Prupe.5G090000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.3   0.5   5.7e-18   1.8e-15       1      53 [.      59     110 ..      59     111 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 58.3 bits;  conditional E-value: 5.7e-18
+                 AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         p++rGVr++   ++Wv+e +e n+  kk+r++lg+y t e+Aara++ a+l+ +g
+  Prupe.5G090000.1.p  59 PVYRGVRRRN-NNKWVCELREpNN--KKSRIWLGTYPTaEMAARAHDVAALAFRG 110
+                         79********.7******888787..89***********************9987 PP
+
+>> Prupe.1G448600.1.p  pacid=32118293 transcript=Prupe.1G448600.1 locus=Prupe.1G448600 ID=Prupe.1G448600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.3   0.1   1.2e-17   3.7e-15       1      53 [.      67     117 ..      67     118 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 57.3 bits;  conditional E-value: 1.2e-17
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         p++rGVr +  wg+Wv+e +e   rkk+r++lg++ t e+Aara++ a+l++ g
+  Prupe.1G448600.1.p  67 PVYRGVRMRN-WGKWVSEIRE--PRKKSRIWLGTFPTpEMAARAHDVAALSIKG 117
+                         79********.*******876..3579***********************9988 PP
+
+>> Prupe.4G176200.1.p  pacid=32095302 transcript=Prupe.4G176200.1 locus=Prupe.4G176200 ID=Prupe.4G176200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.9   4.3   1.5e-17   4.9e-15       2      53 ..      25      74 ..      24      75 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.9 bits;  conditional E-value: 1.5e-17
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++rGVr ++ wgr++Ae ++ g  kk+r++lg+++t eeAara+++a+++ +g
+  Prupe.4G176200.1.p 25 RYRGVRKRP-WGRYAAEIRDPG--KKTRVWLGTFDTaEEAARAYDKAAREFRG 74
+                        79*******.*******99956..79***********************9998 PP
+
+>> Prupe.8G224800.1.p  pacid=32084140 transcript=Prupe.8G224800.1 locus=Prupe.8G224800 ID=Prupe.8G224800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.7   1.3   1.8e-17   5.7e-15       2      53 ..      19      69 ..      18      70 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.7 bits;  conditional E-value: 1.8e-17
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        k+rGVr ++ wg+++Ae +++  r+ +r +lg+++t  eAara+++a+++++g
+  Prupe.8G224800.1.p 19 KYRGVRIRP-WGKFAAEIRDS-TRQGARLWLGTFNTaQEAARAYDRAAFSMRG 69
+                        8********.*******9884.4778*************************98 PP
+
+>> Prupe.2G129300.1.p  pacid=32077097 transcript=Prupe.2G129300.1 locus=Prupe.2G129300 ID=Prupe.2G129300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.7   2.6   1.8e-17   5.6e-15       2      54 .]     127     178 ..     126     178 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 56.7 bits;  conditional E-value: 1.8e-17
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                         ++rGVr+++ wg+++Ae   +++ng    +r++lg+y t e+Aa+a+++a++k++gs
+  Prupe.2G129300.1.p 127 HFRGVRRRP-WGKYAAEirdPKKNG----ARVWLGTYETaEDAALAYDKAAFKMRGS 178
+                         79*******.*******87777788....**************************95 PP
+
+>> Prupe.5G065300.1.p  pacid=32099994 transcript=Prupe.5G065300.1 locus=Prupe.5G065300 ID=Prupe.5G065300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   0.2   2.4e-17   7.5e-15       1      53 [.      83     133 ..      83     134 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 2.4e-17
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         p++rGVr +  wg+Wv+e +e   rkk+r++lg++ t e+Aara++ a+l++ g
+  Prupe.5G065300.1.p  83 PVYRGVRMRQ-WGKWVSEIRE--PRKKSRIWLGTFPTpEMAARAHDVAALTIKG 133
+                         79********.*******876..3579***********************9987 PP
+
+>> Prupe.8G125100.1.p  pacid=32083624 transcript=Prupe.8G125100.1 locus=Prupe.8G125100 ID=Prupe.8G125100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   3.0   2.4e-17   7.4e-15       2      53 ..     131     180 ..     130     181 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 2.4e-17
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++ wg+W+Ae ++   r+ +r++lg++ t eeAara+++a+ + +g
+  Prupe.8G125100.1.p 131 NYRGVRQRP-WGKWAAEIRDP--RRATRVWLGTFTTaEEAARAYDKAAIEFRG 180
+                         79*******.*******8762..568***********************9998 PP
+
+>> Prupe.4G055500.1.p  pacid=32095533 transcript=Prupe.4G055500.1 locus=Prupe.4G055500 ID=Prupe.4G055500.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.7   4.4   1.8e-17   5.6e-15       2      53 ..      60     110 ..      59     111 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.7 bits;  conditional E-value: 1.8e-17
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++ wg+++Ae +++  r+ +r++lg++ t eeAa+a+++a+++++g
+  Prupe.4G055500.1.p  60 HYRGVRRRP-WGKYAAEIRDSA-RHGARVWLGTFSTaEEAALAYDRAAFRMRG 110
+                         8********.*******99865.888*************************98 PP
+
+>> Prupe.7G134100.1.p  pacid=32101862 transcript=Prupe.7G134100.1 locus=Prupe.7G134100 ID=Prupe.7G134100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.4   4.7   2.2e-17   6.8e-15       2      53 ..     122     171 ..     121     172 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.4 bits;  conditional E-value: 2.2e-17
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         k+rGVr+++ wg+W+Ae ++   r+ +r++lg++ t eeAara+++a+ + +g
+  Prupe.7G134100.1.p 122 KYRGVRQRP-WGKWAAEIRDP--RRAARVWLGTFETaEEAARAYDKAAIAFRG 171
+                         8********.*******8762..568**********************99887 PP
+
+>> Prupe.3G094700.1.p  pacid=32109711 transcript=Prupe.3G094700.1 locus=Prupe.3G094700 ID=Prupe.3G094700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   5.1     3e-17   9.5e-15       2      53 ..     148     197 ..     147     198 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 3e-17
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr ++ wgrW Ae +++   +++r +lg+++t eeAara++ a+++l+g
+  Prupe.3G094700.1.p 148 NYRGVRKRP-WGRWSAEIRDR--IGRCRHWLGTFDTaEEAARAYDSAARRLRG 197
+                         79*******.*******9874..579*************************98 PP
+
+>> Prupe.2G272300.1.p  pacid=32076007 transcript=Prupe.2G272300.1 locus=Prupe.2G272300 ID=Prupe.2G272300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.8   2.7   1.6e-17   5.1e-15       2      54 .]     125     176 ..     124     176 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 56.8 bits;  conditional E-value: 1.6e-17
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                         ++rGVr+++ wg+++Ae   + +ng    +r++lg+y t eeAa+a+++a+++++gs
+  Prupe.2G272300.1.p 125 HYRGVRQRP-WGKFAAEirdPAKNG----ARVWLGTYETsEEAALAYDRAAYRMRGS 176
+                         8********.*******55555588....*************************995 PP
+
+>> Prupe.1G037900.1.p  pacid=32118623 transcript=Prupe.1G037900.1 locus=Prupe.1G037900 ID=Prupe.1G037900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.1   1.1   2.7e-17   8.4e-15       2      54 .]      92     143 ..      91     143 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 56.1 bits;  conditional E-value: 2.7e-17
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                          +rGVr+++ wg+++Ae +++  r+  r++lg++++ e Aa+a+++a+++++gs
+  Prupe.1G037900.1.p  92 SYRGVRRRP-WGKFAAEIRDS-TRHGIRVWLGTFDSaEAAALAYDQAAFSMRGS 143
+                         69*******.*******9885.4888*************************995 PP
+
+>> Prupe.7G222700.1.p  pacid=32101005 transcript=Prupe.7G222700.1 locus=Prupe.7G222700 ID=Prupe.7G222700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   0.2     3e-17   9.3e-15       1      53 [.      63     113 ..      63     114 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 3e-17
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         p++rGVr +  wg+Wv+e +e   rkk r++lg++ t e+Aara++ a+l++ g
+  Prupe.7G222700.1.p  63 PVYRGVRMRT-WGKWVSEIRE--PRKKNRIWLGTFSTpEMAARAHDVAALCIKG 113
+                         79********.*******876..3579************************998 PP
+
+>> Prupe.6G182200.1.p  pacid=32090625 transcript=Prupe.6G182200.1 locus=Prupe.6G182200 ID=Prupe.6G182200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   1.4   3.2e-17     1e-14       2      53 ..     179     228 ..     178     229 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.2e-17
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGVr++  wg+WvAe   +  ++   ++r +lg+++t eeAa+a+++a++kl+g
+  Prupe.6G182200.1.p 179 LYRGVRQRH-WGKWVAEirlP--KN---RTRLWLGTFDTaEEAALAYDKAAYKLRG 228
+                         59*******.*******7666..34...7*************************98 PP
+
+>> Prupe.6G354000.1.p  pacid=32084904 transcript=Prupe.6G354000.1 locus=Prupe.6G354000 ID=Prupe.6G354000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.6   1.0   3.9e-17   1.2e-14       2      53 ..      36      85 ..      35      86 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.6 bits;  conditional E-value: 3.9e-17
+                 AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                         +rGVr++  wg+WvAe +e n   + +r +lg+++t  eAa+a++ea++kl+g
+  Prupe.6G354000.1.p 36 SFRGVRQRT-WGKWVAEIREpN---RGARLWLGTFNTsTEAALAYDEAARKLYG 85
+                        69*******.*******99974...46*************************98 PP
+
+>> Prupe.1G513600.1.p  pacid=32111207 transcript=Prupe.1G513600.1 locus=Prupe.1G513600 ID=Prupe.1G513600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   1.4   3.3e-17     1e-14       2      53 ..     196     245 ..     195     246 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 3.3e-17
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGVr++  wg+WvAe   +  ++   ++r +lg+++t eeAa+a+++a++kl+g
+  Prupe.1G513600.1.p 196 LYRGVRQRH-WGKWVAEirlP--KN---RTRLWLGTFDTaEEAALAYDKAAYKLRG 245
+                         59*******.*******7666..34...7*************************98 PP
+
+>> Prupe.5G090100.1.p  pacid=32098685 transcript=Prupe.5G090100.1 locus=Prupe.5G090100 ID=Prupe.5G090100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.4   0.7   2.2e-17     7e-15       1      53 [.      57     108 ..      57     109 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 56.4 bits;  conditional E-value: 2.2e-17
+                 AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         p++rGVr++    +Wv+e +e n  +kk+r++lg+y t e+Aara++ a+l+ +g
+  Prupe.5G090100.1.p  57 PVYRGVRRRN-NDKWVCEMREpN--KKKSRIWLGTYPTaEMAARAHDVAALAFRG 108
+                         79********.7******88866..599***********************9987 PP
+
+>> Prupe.3G263000.1.p  pacid=32108467 transcript=Prupe.3G263000.1 locus=Prupe.3G263000 ID=Prupe.3G263000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   0.3   2.3e-17   7.3e-15       2      53 ..      45      94 ..      44      95 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 2.3e-17
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++ GVr+++ +grWvAe +++   +k r++lg+++t eeAara++ea++ l+g
+  Prupe.3G263000.1.p 45 RFVGVRQRP-SGRWVAEIKDT--IQKIRVWLGTFDTaEEAARAYDEAACLLRG 94
+                        789******.9******9886..478**********************99987 PP
+
+>> Prupe.2G256900.1.p  pacid=32077467 transcript=Prupe.2G256900.1 locus=Prupe.2G256900 ID=Prupe.2G256900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.3   0.3   4.9e-17   1.5e-14       2      53 ..      80     129 ..      79     130 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.3 bits;  conditional E-value: 4.9e-17
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr++  wg+WvAe +e n   + +r +lg++ t  +Aa+a++ea+++++g
+  Prupe.2G256900.1.p  80 NYRGVRQRT-WGKWVAEIREpN---RGSRLWLGTFPTaLDAALAYDEAAKAMYG 129
+                         7********.*******99974...46*************************98 PP
+
+>> Prupe.2G129700.1.p  pacid=32075056 transcript=Prupe.2G129700.1 locus=Prupe.2G129700 ID=Prupe.2G129700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   0.9   4.5e-17   1.4e-14       2      53 ..     107     157 ..     106     158 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 4.5e-17
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++ wg+++Ae   + +ng    +r++lg+y t e+A +a+++a++k++g
+  Prupe.2G129700.1.p 107 HYRGVRRRP-WGKFAAEirdPAKNG----ARVWLGTYETpEDAGLAYDQAAFKIRG 157
+                         8********.*******55555588....*************************98 PP
+
+>> Prupe.8G224600.1.p  pacid=32082335 transcript=Prupe.8G224600.1 locus=Prupe.8G224600 ID=Prupe.8G224600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   1.6   6.8e-17   2.1e-14       2      53 ..     113     163 ..     112     164 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 6.8e-17
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGVr+++ wg+++Ae +++  r+  r++lg++++ e Aa+a+++a+++l+g
+  Prupe.8G224600.1.p 113 SYRGVRRRP-WGKYAAEIRDS-TRHGIRVWLGTFDSaEAAALAYDQAAFALRG 163
+                         69*******.*******9885.4888*************************98 PP
+
+>> Prupe.1G008400.1.p  pacid=32115808 transcript=Prupe.1G008400.1 locus=Prupe.1G008400 ID=Prupe.1G008400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.6   1.6   7.9e-17   2.5e-14       3      53 ..     220     268 ..     218     269 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 54.6 bits;  conditional E-value: 7.9e-17
+                 AP2   3 irGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGVr++  wg+WvAe   +  ++   ++r++lg+++t eeAa+a++ a+++l+g
+  Prupe.1G008400.1.p 220 FRGVRQRH-WGKWVAEirlP--RN---RARVWLGTFDTaEEAAMAYDTAAYMLRG 268
+                         8*******.*******6555..45...8*************************98 PP
+
+>> Prupe.2G123200.1.p  pacid=32074080 transcript=Prupe.2G123200.1 locus=Prupe.2G123200 ID=Prupe.2G123200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   0.8   4.6e-17   1.4e-14       2      53 ..      90     139 ..      89     140 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 4.6e-17
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGVr +  wg+Wv+e +e   rkk+r++lg+y t e+Aara++ a+l++ g
+  Prupe.2G123200.1.p  90 TYRGVRMRS-WGKWVSEIRE--PRKKSRIWLGTYPTaEMAARAHDVAALAIKG 139
+                         69*******.*******876..3579************************987 PP
+
+>> Prupe.1G372100.1.p  pacid=32117455 transcript=Prupe.1G372100.1 locus=Prupe.1G372100 ID=Prupe.1G372100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   1.8   7.1e-17   2.2e-14       3      53 ..      43      91 ..      41      92 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 7.1e-17
+                 AP2  3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++GVr++  wg+WvAe +e n   + +r +lg+++t +eAa a+++a++kl+g
+  Prupe.1G372100.1.p 43 YKGVRQRT-WGKWVAEIREpN---RGARLWLGTFDTsHEAASAYDAAARKLYG 91
+                        9*******.*******99974...46*************************98 PP
+
+>> Prupe.4G051200.1.p  pacid=32095588 transcript=Prupe.4G051200.1 locus=Prupe.4G051200 ID=Prupe.4G051200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   1.6     7e-17   2.2e-14       2      53 ..      11      60 ..      10      61 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 7e-17
+                 AP2  2 kirGVrydkkwgrWvAe....wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++rGVr ++ wgr++Ae    w      kk+r++lg+++t eeAa+a++ a+++l+g
+  Prupe.4G051200.1.p 11 HYRGVRKRP-WGRYAAEirdpW------KKTRVWLGTFDTpEEAALAYDGAARSLRG 60
+                        7********.*******77766......58************************998 PP
+
+>> Prupe.5G061800.1.p  pacid=32097972 transcript=Prupe.5G061800.1 locus=Prupe.5G061800 ID=Prupe.5G061800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.7   2.1   7.4e-17   2.3e-14       2      54 .]     148     199 ..     147     199 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.7 bits;  conditional E-value: 7.4e-17
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                         ++rGVr+++ wg+++Ae   + +ng    +r++lg++ t e+Aa+a+++a+++++gs
+  Prupe.5G061800.1.p 148 HYRGVRQRP-WGKFAAEirdPAKNG----ARVWLGTFETaEDAALAYDRAAYRMRGS 199
+                         8********.*******55555588....*************************995 PP
+
+>> Prupe.7G060700.1.p  pacid=32103524 transcript=Prupe.7G060700.1 locus=Prupe.7G060700 ID=Prupe.7G060700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   1.2   5.2e-17   1.6e-14       2      48 ..      77     121 ..      76     127 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 5.2e-17
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiear 48 
+                         k+rGVr+++ wgrW+Ae ++ +   ++kr++lg+++t eeAa  +++a+
+  Prupe.7G060700.1.p  77 KFRGVRRRP-WGRWAAEIRDpT---RRKRVWLGTFDTaEEAATVYDRAA 121
+                         89*******.*******87755...59********************98 PP
+
+>> Prupe.6G039700.1.p  pacid=32086232 transcript=Prupe.6G039700.1 locus=Prupe.6G039700 ID=Prupe.6G039700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.2   1.2   1.1e-16   3.5e-14       2      48 ..     152     196 ..     151     202 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 54.2 bits;  conditional E-value: 1.1e-16
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiear 48 
+                         k+rGVr+++ wgrW+Ae ++ +   ++kr++lg+++t eeAa  +++a+
+  Prupe.6G039700.1.p 152 KFRGVRRRP-WGRWAAEIRDpT---RRKRVWLGTFDTaEEAATVYDRAA 196
+                         89*******.*******87755...59********************98 PP
+
+>> Prupe.2G129500.1.p  pacid=32079511 transcript=Prupe.2G129500.1 locus=Prupe.2G129500 ID=Prupe.2G129500.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.4   1.1   9.2e-17   2.9e-14       2      53 ..     107     157 ..     106     158 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.4 bits;  conditional E-value: 9.2e-17
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++ wg+++Ae   + +ng    +r++lg+y t e+A +a+++a++kl+g
+  Prupe.2G129500.1.p 107 HYRGVRRRP-WGKFAAEirdPAKNG----ARVWLGTYETpEDAGLAYDRAAFKLRG 157
+                         8********.*******55555588....*************************98 PP
+
+>> Prupe.8G230600.1.p  pacid=32082894 transcript=Prupe.8G230600.1 locus=Prupe.8G230600 ID=Prupe.8G230600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.6   1.3   8.4e-17   2.6e-14       2      53 ..      46      95 ..      45      96 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 54.6 bits;  conditional E-value: 8.4e-17
+                 AP2  2 kirGVrydkkwgrWvAe....wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++rGVr ++ wgr++Ae    w      kk+r +lg+++t eeAa+a++ea+++l+g
+  Prupe.8G230600.1.p 46 HFRGVRKRP-WGRFAAEirdpW------KKTRKWLGTFDTaEEAALAYDEAARSLRG 95
+                        79*******.*******77766......489************************98 PP
+
+>> Prupe.2G129400.1.p  pacid=32077982 transcript=Prupe.2G129400.1 locus=Prupe.2G129400 ID=Prupe.2G129400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.3   1.8     1e-16   3.2e-14       2      54 .]     109     160 ..     108     160 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.3 bits;  conditional E-value: 1e-16
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                         ++rGVr+++ wg+++Ae   + +ng    +r +lg+y t e+Aa+a+++a++k++gs
+  Prupe.2G129400.1.p 109 NYRGVRQRP-WGKYAAEirdPAKNG----ARMWLGTYETaEDAALAYDRAAFKIRGS 160
+                         69*******.*******55555588....*************************995 PP
+
+>> Prupe.2G129600.1.p  pacid=32076177 transcript=Prupe.2G129600.1 locus=Prupe.2G129600 ID=Prupe.2G129600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   2.5   1.2e-16   3.9e-14       2      54 .]      91     142 ..      90     142 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 1.2e-16
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                         ++rGVr+++ wg+++Ae   +++ng    +r++lg+y t e+A +a+++a++k++gs
+  Prupe.2G129600.1.p  91 HFRGVRRRP-WGKYAAEirdPKKNG----ARVWLGTYETaEDAGLAYDRAAFKMRGS 142
+                         79*******.*******87777788....**************************95 PP
+
+>> Prupe.6G004400.1.p  pacid=32086116 transcript=Prupe.6G004400.1 locus=Prupe.6G004400 ID=Prupe.6G004400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   0.4   1.2e-16   3.9e-14       1      53 [.      31      81 ..      31      82 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 1.2e-16
+                 AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        +k+ GVr+++ +g+WvAe +++   kk r +lg++ t eeAara++ea++ l+g
+  Prupe.6G004400.1.p 31 CKFVGVRQRP-SGKWVAEIKDTT--KKIRMWLGTFETaEEAARAYDEAAYLLRG 81
+                        589*******.9******99864..79**********************99987 PP
+
+>> Prupe.7G004900.1.p  pacid=32102585 transcript=Prupe.7G004900.1 locus=Prupe.7G004900 ID=Prupe.7G004900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   0.2   1.3e-16     4e-14       2      53 ..      42      91 ..      41      92 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 1.3e-16
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        k+ GVr+++ +grWvAe +++   +k r +lg++ t eeAara++ea++ l+g
+  Prupe.7G004900.1.p 42 KFVGVRQRP-SGRWVAEIKDTT--QKIRMWLGTFETaEEAARAYDEAACLLRG 91
+                        799******.9******98843..58**********************99988 PP
+
+>> Prupe.2G272500.1.p  pacid=32074738 transcript=Prupe.2G272500.1 locus=Prupe.2G272500 ID=Prupe.2G272500.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.8   2.6   1.5e-16   4.6e-14       2      53 ..     147     197 ..     146     198 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.8 bits;  conditional E-value: 1.5e-16
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++ wg+++Ae ++   rk +r++lg+++t  +Aa+a++ a++kl+g
+  Prupe.2G272500.1.p 147 HYRGVRRRP-WGKYAAEIRDP-ARKGTRVWLGTFDTdVDAAKAYDCAAFKLRG 197
+                         8********.*******8873.3678*************************98 PP
+
+>> Prupe.3G019900.1.p  pacid=32108216 transcript=Prupe.3G019900.1 locus=Prupe.3G019900 ID=Prupe.3G019900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.6   0.6   8.1e-17   2.5e-14       2      53 ..      95     144 ..      94     145 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 54.6 bits;  conditional E-value: 8.1e-17
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         k++GVr ++ wgr++Ae ++ ++   +kr++lg+y+t eeAa  +++a+lkl g
+  Prupe.3G019900.1.p  95 KFIGVRKRP-WGRYAAEIRDpTQ---RKRVWLGTYDTaEEAAAVYDRAALKLKG 144
+                         89*******.*******877665...8************************988 PP
+
+>> Prupe.5G090500.1.p  pacid=32097672 transcript=Prupe.5G090500.1 locus=Prupe.5G090500 ID=Prupe.5G090500.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.6   0.7   8.1e-17   2.5e-14       1      53 [.      59     110 ..      59     111 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.6 bits;  conditional E-value: 8.1e-17
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         p++rGVr++    +Wv+e +e  k++k+r++lg+y t e+Aara++ a+l+ +g
+  Prupe.5G090500.1.p  59 PVYRGVRRRN-NDKWVCEMRE-PKKTKSRIWLGTYPTaEMAARAHDVAALAFRG 110
+                         79********.7******666.35789***********************9987 PP
+
+>> Prupe.5G141300.1.p  pacid=32099148 transcript=Prupe.5G141300.1 locus=Prupe.5G141300 ID=Prupe.5G141300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   2.9   1.7e-16   5.3e-14       2      53 ..      59     108 ..      58     109 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 1.7e-16
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++ wg+W+Ae ++ n+    +r++lg++ t e Aa+a+++a+l+  g
+  Prupe.5G141300.1.p  59 HYRGVRQRP-WGKWAAEIRDpNK---AARVWLGTFETaEAAALAYDAAALRFKG 108
+                         8********.*******999664...8**********************99876 PP
+
+>> Prupe.4G051400.1.p  pacid=32092094 transcript=Prupe.4G051400.1 locus=Prupe.4G051400 ID=Prupe.4G051400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.5   2.6   1.8e-16   5.7e-14       2      53 ..      23      72 ..      22      73 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 53.5 bits;  conditional E-value: 1.8e-16
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++rGVr ++ wgr++Ae ++ g  kk+r++lg+++t  eAara+++a+++ +g
+  Prupe.4G051400.1.p 23 HFRGVRKRP-WGRYAAEIRDPG--KKSRVWLGTFDTaVEAARAYDAAAREFRG 72
+                        79*******.*******99956..79************************998 PP
+
+>> Prupe.1G130300.2.p  pacid=32114291 transcript=Prupe.1G130300.2 locus=Prupe.1G130300 ID=Prupe.1G130300.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.3   3.0   2.1e-16   6.5e-14       2      53 ..     110     159 ..     109     160 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.3 bits;  conditional E-value: 2.1e-16
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rG+r+++ wg+W+Ae ++ +   k  r++lg+y+t eeAara++ a+++++g
+  Prupe.1G130300.2.p 110 VYRGIRQRP-WGKWAAEIRDpQ---KGVRVWLGTYNTaEEAARAYDDAARRIRG 159
+                         7********.*******88753...46************************998 PP
+
+>> Prupe.3G062800.1.p  pacid=32106526 transcript=Prupe.3G062800.1 locus=Prupe.3G062800 ID=Prupe.3G062800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.4   0.2   1.9e-16   6.1e-14       1      53 [.      69     119 ..      69     120 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.4 bits;  conditional E-value: 1.9e-16
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         p++rGVr +  wg+Wv+e +e   rkk+r++lg++ t  +Aara++ a+l++ g
+  Prupe.3G062800.1.p  69 PVYRGVRMRS-WGKWVSEIRE--PRKKSRIWLGTFSTpDMAARAHDVAALSIKG 119
+                         79********.*******876..3579***********************9988 PP
+
+>> Prupe.1G130300.1.p  pacid=32114290 transcript=Prupe.1G130300.1 locus=Prupe.1G130300 ID=Prupe.1G130300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.3   3.0   2.1e-16   6.6e-14       2      53 ..     112     161 ..     111     162 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.3 bits;  conditional E-value: 2.1e-16
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rG+r+++ wg+W+Ae ++ +   k  r++lg+y+t eeAara++ a+++++g
+  Prupe.1G130300.1.p 112 VYRGIRQRP-WGKWAAEIRDpQ---KGVRVWLGTYNTaEEAARAYDDAARRIRG 161
+                         7********.*******88753...46************************998 PP
+
+>> Prupe.5G090200.1.p  pacid=32098694 transcript=Prupe.5G090200.1 locus=Prupe.5G090200 ID=Prupe.5G090200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.9   0.6   1.3e-16   4.2e-14       1      53 [.      61     112 ..      61     113 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 53.9 bits;  conditional E-value: 1.3e-16
+                 AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         p++rGVr++    +Wv+e ++ n+  kk+r++lg+y   e+Aara++ a+l+ +g
+  Prupe.5G090200.1.p  61 PVYRGVRRRN-NDKWVCELRDpNN--KKARIWLGTYPKaEMAARAHDVAALAFRG 112
+                         79********.7******777777..89***********************9987 PP
+
+>> Prupe.1G212700.1.p  pacid=32119509 transcript=Prupe.1G212700.1 locus=Prupe.1G212700 ID=Prupe.1G212700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   0.7   2.6e-16   8.1e-14       2      54 .]      43      93 ..      42      93 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 53.0 bits;  conditional E-value: 2.6e-16
+                 AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                        ++ GVr+++ wgr++Ae ++ +   +k r +lg+++t eeAa+a+++a+++++gs
+  Prupe.1G212700.1.p 43 RFLGVRRRP-WGRYAAEIRDpS---TKERHWLGTFDTaEEAALAYDRAARSMRGS 93
+                        566******.*******77643...48*************************995 PP
+
+>> Prupe.5G089900.1.p  pacid=32099549 transcript=Prupe.5G089900.1 locus=Prupe.5G089900 ID=Prupe.5G089900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.7   0.3   1.6e-16   4.9e-14       1      53 [.      48      99 ..      48     100 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 53.7 bits;  conditional E-value: 1.6e-16
+                 AP2  1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        p++rGVr++   ++Wv+e ++ n  +kk+ ++lg+y t e+Aara++ a+l+  g
+  Prupe.5G089900.1.p 48 PVYRGVRRRD-NNKWVCELRQpN--KKKSGIWLGTYPTaEMAARAHDVAALAFKG 99
+                        79********.7******66645..599**********************98765 PP
+
+>> Prupe.7G066700.1.p  pacid=32103539 transcript=Prupe.7G066700.1 locus=Prupe.7G066700 ID=Prupe.7G066700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.1   2.3   2.4e-16   7.7e-14       2      53 ..      29      78 ..      28      79 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 53.1 bits;  conditional E-value: 2.4e-16
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                         +rGVr++  wg+WvAe +e   +k++r +lg + t eeAa+a++ a+++l+g
+  Prupe.7G066700.1.p 29 EYRGVRQRT-WGKWVAEIREP--KKRTRLWLGSFATaEEAAMAYDDAARRLYG 78
+                        59*******.*******8773..479***********************9998 PP
+
+>> Prupe.5G117800.1.p  pacid=32098491 transcript=Prupe.5G117800.1 locus=Prupe.5G117800 ID=Prupe.5G117800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.4   4.2     4e-16   1.2e-13       2      53 ..     112     161 ..     111     162 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 52.4 bits;  conditional E-value: 4e-16
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGVr++  wg+WvAe   +  ++   + r++lg+y+t e Aa+a+++a++kl+g
+  Prupe.5G117800.1.p 112 LYRGVRQRH-WGKWVAEirlP--QN---RMRVWLGTYDTaEAAAYAYDRAAYKLRG 161
+                         59*******.*******6555..55...8*************************98 PP
+
+>> Prupe.2G183200.1.p  pacid=32079334 transcript=Prupe.2G183200.1 locus=Prupe.2G183200 ID=Prupe.2G183200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.8   3.7     3e-16   9.6e-14       2      54 .]      99     149 ..      98     149 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 52.8 bits;  conditional E-value: 3e-16
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                         k+rGVr+++ wgrW+Ae ++ +    ++r++lg+++t eeA +a+++a+ +  g+
+  Prupe.2G183200.1.p  99 KFRGVRQRR-WGRWAAEIRNpTS---RARVWLGTFDTaEEAGLAYDRAAIAFKGH 149
+                         89*******.*******755444...8**********************998875 PP
+
+>> Prupe.5G141200.1.p  pacid=32098711 transcript=Prupe.5G141200.1 locus=Prupe.5G141200 ID=Prupe.5G141200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.7   1.9   3.2e-16     1e-13       2      49 ..      51      96 ..      50     101 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 52.7 bits;  conditional E-value: 3.2e-16
+                 AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearl 49
+                         +rGVr++k wg+W+Ae ++ n+     r +lg+y+t e Aa+a++ea+l
+  Prupe.5G141200.1.p 51 QYRGVRQRK-WGKWAAEIRDpNK---AVRLWLGTYDTaEAAALAYDEAAL 96
+                        59*******.*******999664...8*********************97 PP
+
+>> Prupe.3G209100.1.p  pacid=32106832 transcript=Prupe.3G209100.1 locus=Prupe.3G209100 ID=Prupe.3G209100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.4   1.8   3.8e-16   1.2e-13       2      53 ..      34      83 ..      33      84 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 52.4 bits;  conditional E-value: 3.8e-16
+                 AP2  2 kirGVrydkkwgrWvAe....wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++rGVr ++ wgr++Ae    w      kk+r++lg++++ e+Aara+++a+++l+g
+  Prupe.3G209100.1.p 34 RFRGVRKRP-WGRFAAEirdpW------KKTRVWLGTFDSaEDAARAYDAAARSLRG 83
+                        69*******.*******77766......58*************************98 PP
+
+>> Prupe.2G190200.1.p  pacid=32075400 transcript=Prupe.2G190200.1 locus=Prupe.2G190200 ID=Prupe.2G190200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.9   1.1   5.5e-16   1.7e-13       1      53 [.      35      85 ..      35      86 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 51.9 bits;  conditional E-value: 5.5e-16
+                 AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        p++rGVr ++ wg+Wv+e +e   rkk+r++lg +   e+Aa+a++ a+++l g
+  Prupe.2G190200.1.p 35 PVYRGVRKRR-WGKWVSEIRE--PRKKSRIWLGSFPVpEMAAKAYDVAAYCLKG 85
+                        79********.*******876..3579***********************9987 PP
+
+>> Prupe.8G224700.1.p  pacid=32082402 transcript=Prupe.8G224700.1 locus=Prupe.8G224700 ID=Prupe.8G224700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.3   2.6   4.1e-16   1.3e-13       1      53 [.      47      98 ..      47      99 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 52.3 bits;  conditional E-value: 4.1e-16
+                 AP2  1 pkirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        +++rG+r+++ wg+++Ae   +s ng    +r +lg++ t eeAara+++a++  +g
+  Prupe.8G224700.1.p 47 TRYRGIRRRP-WGKFAAEirdPSRNG----ARLWLGTFETaEEAARAYDRAAFGFRG 98
+                        68********.*******66666687....**********************98777 PP
+
+>> Prupe.6G284400.2.p  pacid=32085215 transcript=Prupe.6G284400.2 locus=Prupe.6G284400 ID=Prupe.6G284400.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.7   1.5   6.7e-16   2.1e-13       1      53 [.      12      69 ..      12      70 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 51.7 bits;  conditional E-value: 6.7e-16
+                 AP2  1 pkirGVrydkkwgrWvAe...wse.ngkrkk.krfslgkygt.eeAaraAiearlkleg 53
+                        +++rGVr++  wg+WvAe   +++ +g++kk +r +lg++ t  +Aa a++ea+++++g
+  Prupe.6G284400.2.p 12 CVYRGVRQRT-WGKWVAEirePNNfSGVSKKnSRLWLGTFPTaYDAAFAYDEAARAMYG 69
+                        58********.*******66655588999999*************************97 PP
+
+>> Prupe.5G114100.1.p  pacid=32099842 transcript=Prupe.5G114100.1 locus=Prupe.5G114100 ID=Prupe.5G114100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.7   0.3   3.3e-16     1e-13       2      53 ..     117     166 ..     116     167 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 52.7 bits;  conditional E-value: 3.3e-16
+                 AP2   2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         k+rGVr+++ wg+W+Ae ++  +    + r +lg+y+t eeAa+ ++ a+ +l+g
+  Prupe.5G114100.1.p 117 KFRGVRQRP-WGKWAAEIRDplR----RVRLWLGTYDTaEEAAMVYDNAAIQLRG 166
+                         89*******.*******988644....7*************************98 PP
+
+>> Prupe.6G284400.1.p  pacid=32085214 transcript=Prupe.6G284400.1 locus=Prupe.6G284400 ID=Prupe.6G284400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.4   1.5   7.9e-16   2.5e-13       1      53 [.      70     127 ..      70     128 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 51.4 bits;  conditional E-value: 7.9e-16
+                 AP2   1 pkirGVrydkkwgrWvAe...wse.ngkrkk.krfslgkygt.eeAaraAiearlkleg 53 
+                         +++rGVr++  wg+WvAe   +++ +g++kk +r +lg++ t  +Aa a++ea+++++g
+  Prupe.6G284400.1.p  70 CVYRGVRQRT-WGKWVAEirePNNfSGVSKKnSRLWLGTFPTaYDAAFAYDEAARAMYG 127
+                         58********.*******66655588999999*************************97 PP
+
+>> Prupe.1G545400.1.p  pacid=32113356 transcript=Prupe.1G545400.1 locus=Prupe.1G545400 ID=Prupe.1G545400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.1   3.0     1e-15   3.2e-13       2      53 ..      16      65 ..      15      66 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 51.1 bits;  conditional E-value: 1e-15
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++rGVr +k wg+Wv+e +e g  kk+r++lg y   e+Aa a+++a+l l+g
+  Prupe.1G545400.1.p 16 RYRGVRKRK-WGKWVSEIREPG--KKTRIWLGSYEEpEMAAAAYDAAALHLRG 65
+                        8********.*******99966..79***********************9998 PP
+
+>> Prupe.3G157100.1.p  pacid=32108303 transcript=Prupe.3G157100.1 locus=Prupe.3G157100 ID=Prupe.3G157100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.0   1.2   1.1e-15   3.4e-13       2      53 ..     217     266 ..     216     267 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 51.0 bits;  conditional E-value: 1.1e-15
+                 AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGVr++  wg+WvAe   +  ++   ++r +lg+++t e+Aa+a+++ ++kl+g
+  Prupe.3G157100.1.p 217 LYRGVRQRH-WGKWVAEirlP--RN---RTRLWLGTFDTaEDAAMAYDREAFKLRG 266
+                         59*******.*******6555..45...8*************************98 PP
+
+>> Prupe.4G222300.1.p  pacid=32091593 transcript=Prupe.4G222300.1 locus=Prupe.4G222300 ID=Prupe.4G222300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.9   2.0   1.1e-15   3.6e-13       2      53 ..      31      80 ..      30      81 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 50.9 bits;  conditional E-value: 1.1e-15
+                 AP2  2 kirGVrydkkwgrWvAe....wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++rGVr ++ wgr++Ae    w      kk+r++lg++++ e+Aara+++a++ l+g
+  Prupe.4G222300.1.p 31 RYRGVRKRP-WGRFAAEirdpW------KKTRVWLGTFDSaEDAARAYDAAAHILRG 80
+                        7********.*******77766......58**********************98876 PP
+
+>> Prupe.7G069100.1.p  pacid=32103289 transcript=Prupe.7G069100.1 locus=Prupe.7G069100 ID=Prupe.7G069100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.2   0.2     5e-07   0.00016       4      53 ..      69     117 ..      66     118 .. 0.87
+   2 !   30.1   0.6   3.5e-09   1.1e-06       7      53 ..     149     194 ..     148     195 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 23.2 bits;  conditional E-value: 5e-07
+                 AP2   4 rGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          GV+++   gr++A  w +    k+k  + g + t eeAara+++a+lkl+g
+  Prupe.7G069100.1.p  69 YGVSRYT-GGRYEAFlWDN-TEPKSKGKTGG-FETeEEAARAHDLAALKLWG 117
+                         59*****.9*******955.34677888888.******************98 PP
+
+  == domain 2  score: 30.1 bits;  conditional E-value: 3.5e-09
+                 AP2   7 rydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         r++   ++W A+  ++g  + k ++lg++ t eeAara++ a+ ++ g
+  Prupe.7G069100.1.p 149 RRNSYHKKWQARLGKGG--GLKGVYLGTFATeEEAARAYDVAAIRMKG 194
+                         77777899****76655..37***********************9987 PP
+
+>> Prupe.5G136200.1.p  pacid=32098181 transcript=Prupe.5G136200.1 locus=Prupe.5G136200 ID=Prupe.5G136200.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.6   0.3   7.1e-16   2.2e-13       2      53 ..      23      72 ..      22      73 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 51.6 bits;  conditional E-value: 7.1e-16
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++ GVr+++ +grWvAe +++   +k r +lg+++t e+Aara++ a+++l+g
+  Prupe.5G136200.1.p 23 RFVGVRQRP-SGRWVAEIKDSL--QKVRLWLGTFDTaEDAARAYDDAARALRG 72
+                        689******.9******99943..47*************************98 PP
+
+>> Prupe.8G264900.1.p  pacid=32081432 transcript=Prupe.8G264900.1 locus=Prupe.8G264900 ID=Prupe.8G264900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.3   2.0   1.8e-15   5.7e-13       3      53 ..      78     126 ..      76     127 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 50.3 bits;  conditional E-value: 1.8e-15
+                 AP2   3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rG+r+++ wg+W+Ae ++ +   k  r++lg+++t eeAara+++ ++k++g
+  Prupe.8G264900.1.p  78 YRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTFNTpEEAARAYDREARKIRG 126
+                         9*******.*******87642...57********************9999997 PP
+
+>> Prupe.6G165700.1.p  pacid=32090076 transcript=Prupe.6G165700.1 locus=Prupe.6G165700 ID=Prupe.6G165700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.8   4.4   1.3e-15     4e-13       2      53 ..     193     242 ..     192     243 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 50.8 bits;  conditional E-value: 1.3e-15
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++ wg+W+Ae ++   +k +r++lg++ t e Aa+a++ea+l+ +g
+  Prupe.6G165700.1.p 193 RYRGVRQRP-WGKWAAEIRD--PFKAARVWLGTFETaEAAAQAYDEAALRFRG 242
+                         79*******.*******765..2668***********************9998 PP
+
+>> Prupe.1G214900.1.p  pacid=32120223 transcript=Prupe.1G214900.1 locus=Prupe.1G214900 ID=Prupe.1G214900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.7   2.6   1.3e-15   4.1e-13       2      53 ..      56     105 ..      55     106 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 50.7 bits;  conditional E-value: 1.3e-15
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++ wg+W+Ae ++   +k +r++lg++ t e+Aa a++ a+l+  g
+  Prupe.1G214900.1.p  56 HYRGVRQRP-WGKWAAEIRDP--KKAARVWLGTFETaEDAAIAYDNAALRFKG 105
+                         8********.*******8773..367**********************98765 PP
+
+>> Prupe.1G545700.1.p  pacid=32118297 transcript=Prupe.1G545700.1 locus=Prupe.1G545700 ID=Prupe.1G545700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.2   1.3   9.3e-16   2.9e-13       2      53 ..      16      65 ..      15      66 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 51.2 bits;  conditional E-value: 9.3e-16
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                         +rGVr +k wg+Wv+e +e g  +k+r++lg + t e+Aa a++ a+l  +g
+  Prupe.1G545700.1.p 16 SYRGVRKRK-WGKWVSEIREPG--TKTRIWLGSFETpEMAAAAYDVAALHFRG 65
+                        79*******.*******99955..69**********************98887 PP
+
+>> Prupe.2G253000.1.p  pacid=32076087 transcript=Prupe.2G253000.1 locus=Prupe.2G253000 ID=Prupe.2G253000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.2   5.1   1.9e-15   5.9e-13       2      53 ..      59     108 ..      58     109 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 50.2 bits;  conditional E-value: 1.9e-15
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr++  wg+WvAe +e   rk++r +lg++ t e+Aara+++a+  l+g
+  Prupe.2G253000.1.p  59 RYRGVRQRS-WGKWVAEIRE--PRKRTRKWLGTFATaEDAARAYDRAAIILYG 108
+                         79*******.*******876..3579*********************987665 PP
+
+>> Prupe.2G306400.1.p  pacid=32075262 transcript=Prupe.2G306400.1 locus=Prupe.2G306400 ID=Prupe.2G306400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.4   0.9   1.6e-15   5.1e-13       2      53 ..     117     166 ..     116     167 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 50.4 bits;  conditional E-value: 1.6e-15
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         k+rGVr+++ wg+W+Ae ++     ++ r +lg++ t eeAa+ ++ a+ kl+g
+  Prupe.2G306400.1.p 117 KFRGVRQRP-WGKWAAEIRDpA---RRVRLWLGTFETaEEAAMVYDNAAIKLRG 166
+                         79*******.*******88842...68*************************98 PP
+
+>> Prupe.1G139600.1.p  pacid=32120662 transcript=Prupe.1G139600.1 locus=Prupe.1G139600 ID=Prupe.1G139600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   0.3     4e-15   1.3e-12       4      53 ..      52      99 ..      49     100 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 4e-15
+                 AP2  4 rGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                         GVr+++ wgr++Ae ++ +   +k r +lg+++t  eAa+a+++a+l++ g
+  Prupe.1G139600.1.p 52 LGVRRRP-WGRYAAEIRDpS---TKERHWLGTFDTaQEAALAYDRAALSMKG 99
+                        5******.*******77643...48*************************98 PP
+
+>> Prupe.3G084600.1.p  pacid=32109800 transcript=Prupe.3G084600.1 locus=Prupe.3G084600 ID=Prupe.3G084600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.8   1.0   5.3e-15   1.7e-12       2      51 ..       6      53 ..       5      56 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 48.8 bits;  conditional E-value: 5.3e-15
+                 AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkl 51
+                        k+rGVr++  wg+Wv+e +        k+r++lg++ t eeAara++ea+  +
+  Prupe.3G084600.1.p  6 KFRGVRQRH-WGSWVSEIRHplL----KRRVWLGTFETaEEAARAYDEAAILM 53
+                        89*******.*******743321....5*********************9876 PP
+
+>> Prupe.1G245500.1.p  pacid=32114849 transcript=Prupe.1G245500.1 locus=Prupe.1G245500 ID=Prupe.1G245500.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.5   2.4   6.6e-15   2.1e-12       2      53 ..      55     104 ..      54     105 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 48.5 bits;  conditional E-value: 6.6e-15
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++ wgr++Ae ++ +    k r +lg+++t eeAa a++ a+++++g
+  Prupe.1G245500.1.p  55 RYRGVRRRP-WGRYAAEIRDpQS---KERRWLGTFDTaEEAACAYDCAARAMRG 104
+                         79*******.*******988665...89************************98 PP
+
+>> Prupe.5G213800.1.p  pacid=32098493 transcript=Prupe.5G213800.1 locus=Prupe.5G213800 ID=Prupe.5G213800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.5   0.2   6.6e-15   2.1e-12       3      53 ..      43      91 ..      41      92 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 48.5 bits;  conditional E-value: 6.6e-15
+                 AP2  3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        + GVr+++ +grWvAe +++   +k r +lg+++  eeAa+a+++a++ l+g
+  Prupe.5G213800.1.p 43 FLGVRQRP-SGRWVAEIKDSS--QKLRLWLGTFDKaEEAALAYDKAARLLRG 91
+                        56******.9******99854..69**********************99887 PP
+
+>> Prupe.7G058300.1.p  pacid=32104105 transcript=Prupe.7G058300.1 locus=Prupe.7G058300 ID=Prupe.7G058300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.3   3.1   1.6e-14     5e-12       3      53 ..      70     127 ..      68     128 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 47.3 bits;  conditional E-value: 1.6e-14
+                 AP2   3 irGVrydkkwgrWvAe......wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGV++++++gr++A+      w++n+ +k k+++lg y+  e Aara+++a+lk++g
+  Prupe.7G058300.1.p  70 YRGVTRHRWTGRYEAHlwdkstWNQNQNKKGKQVYLGAYDDeEAAARAYDLAALKYWG 127
+                         9****************99888888888999*************************98 PP
+
+>> Prupe.7G116300.1.p  pacid=32101413 transcript=Prupe.7G116300.1 locus=Prupe.7G116300 ID=Prupe.7G116300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.6   0.0   1.2e-14   3.8e-12       2      53 ..      27      76 ..      26      77 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 47.6 bits;  conditional E-value: 1.2e-14
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                         +rGVr++  +g+Wv+e +e   rk  r++lg++ t e+Aa a++ a+ +l g
+  Prupe.7G116300.1.p 27 TYRGVRRRS-SGKWVSEIREP--RKPNRIWLGTFPTpEMAAVAYDVAAIALKG 76
+                        69*******.9******8662..3569**********************9987 PP
+
+>> Prupe.6G231500.1.p  pacid=32089242 transcript=Prupe.6G231500.1 locus=Prupe.6G231500 ID=Prupe.6G231500.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.4   0.8   1.4e-14   4.4e-12       3      53 ..      22      70 ..      20      71 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 47.4 bits;  conditional E-value: 1.4e-14
+                 AP2  3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++G+r +k wg+WvAe +e n+   ++r++lg y t   Aara++ a ++l+g
+  Prupe.6G231500.1.p 22 YKGIRMRK-WGKWVAEIREpNK---RSRIWLGSYSTpIAAARAYDTAVFYLRG 70
+                        9*******.*******999665...9*************************98 PP
+
+>> Prupe.1G480400.1.p  pacid=32119127 transcript=Prupe.1G480400.1 locus=Prupe.1G480400 ID=Prupe.1G480400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.9   0.8     1e-14   3.1e-12       2      53 ..       6      55 ..       5      56 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 47.9 bits;  conditional E-value: 1e-14
+                 AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        k+rGVr++  wg+Wv+e +        k+r++lg++ t e Aara+++a+  ++g
+  Prupe.1G480400.1.p  6 KFRGVRQRQ-WGSWVSEIRHplL----KRRVWLGTFETaEAAARAYDQAAILMNG 55
+                        79*******.*******743321....5**********************98876 PP
+
+>> Prupe.3G032300.1.p  pacid=32108838 transcript=Prupe.3G032300.1 locus=Prupe.3G032300 ID=Prupe.3G032300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   3.3     2e-14   6.4e-12       2      53 ..     112     161 ..     111     162 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 2e-14
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rG+r+++ wg+W+Ae ++ +   k  r++lg+++t eeAara++  +++++g
+  Prupe.3G032300.1.p 112 QYRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTFNTaEEAARAYDSEARRIRG 161
+                         69*******.*******87642...57*******************98888886 PP
+
+>> Prupe.3G032300.2.p  pacid=32108839 transcript=Prupe.3G032300.2 locus=Prupe.3G032300 ID=Prupe.3G032300.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   3.3     2e-14   6.4e-12       2      53 ..     112     161 ..     111     162 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 2e-14
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rG+r+++ wg+W+Ae ++ +   k  r++lg+++t eeAara++  +++++g
+  Prupe.3G032300.2.p 112 QYRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTFNTaEEAARAYDSEARRIRG 161
+                         69*******.*******87642...57*******************98888886 PP
+
+>> Prupe.3G032300.3.p  pacid=32108840 transcript=Prupe.3G032300.3 locus=Prupe.3G032300 ID=Prupe.3G032300.3.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   3.3     2e-14   6.4e-12       2      53 ..     112     161 ..     111     162 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 2e-14
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rG+r+++ wg+W+Ae ++ +   k  r++lg+++t eeAara++  +++++g
+  Prupe.3G032300.3.p 112 QYRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTFNTaEEAARAYDSEARRIRG 161
+                         69*******.*******87642...57*******************98888886 PP
+
+>> Prupe.1G500900.1.p  pacid=32112038 transcript=Prupe.1G500900.1 locus=Prupe.1G500900 ID=Prupe.1G500900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.1   1.2   1.8e-14   5.8e-12       2      53 ..      36      85 ..      35      86 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 47.1 bits;  conditional E-value: 1.8e-14
+                 AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        k++GVr +  wg+Wv+e +  n+   k+r++lg y t e Aara+++a l+l g
+  Prupe.1G500900.1.p 36 KYKGVRMRS-WGSWVSEIRApNQ---KTRIWLGSYSTaEAAARAYDAALLCLKG 85
+                        8********.*******877676...9***********************9988 PP
+
+>> Prupe.7G194400.1.p  pacid=32101514 transcript=Prupe.7G194400.1 locus=Prupe.7G194400 ID=Prupe.7G194400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.2   2.5   3.5e-14   1.1e-11       2      53 ..      18      67 ..      17      68 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 46.2 bits;  conditional E-value: 3.5e-14
+                 AP2  2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        k++GVr +k wg+Wv+e   +  n    + r++lg y++ e+Aara ++a ++l+g
+  Prupe.7G194400.1.p 18 KYKGVRKRK-WGKWVSEirlP--NS---RERIWLGSYDSaEKAARAFDAALFCLRG 67
+                        8********.*******6555..65...8*************************98 PP
+
+>> Prupe.1G390800.1.p  pacid=32110898 transcript=Prupe.1G390800.1 locus=Prupe.1G390800 ID=Prupe.1G390800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.5   0.2   2.8e-14   8.8e-12       2      53 ..       7      56 ..       6      57 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 46.5 bits;  conditional E-value: 2.8e-14
+                 AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++rGVr++  wg+Wv+e +        k+r++lg++ t e+Aara++ea++ ++g
+  Prupe.1G390800.1.p  7 RFRGVRQRH-WGSWVSEIRHplL----KTRIWLGTFETaEDAARAYDEAARLMCG 56
+                        69*******.*******743321....4**********************99987 PP
+
+>> Prupe.6G242400.2.p  pacid=32090204 transcript=Prupe.6G242400.2 locus=Prupe.6G242400 ID=Prupe.6G242400.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.2   2.9   2.5e-12     8e-10       2      53 ..     138     186 ..     137     187 .. 0.93
+   2 !   10.6   0.8    0.0044       1.4       1      21 [.     229     248 ..     229     278 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 40.2 bits;  conditional E-value: 2.5e-12
+                 AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  Prupe.6G242400.2.p 138 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 186
+                         7****************992.....36***********************9987 PP
+
+  == domain 2  score: 10.6 bits;  conditional E-value: 0.0044
+                 AP2   1 pkirGVrydkkwgrWvAewse 21 
+                         +k+rGV+ +k  grW+A+  +
+  Prupe.6G242400.2.p 229 SKYRGVTLHK-CGRWEARMGQ 248
+                         69********.6*****9433 PP
+
+>> Prupe.7G243600.1.p  pacid=32104465 transcript=Prupe.7G243600.1 locus=Prupe.7G243600 ID=Prupe.7G243600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.0   1.1   1.9e-14   5.9e-12       2      48 ..       6      50 ..       5      56 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 47.0 bits;  conditional E-value: 1.9e-14
+                 AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiear 48
+                        k+rGVr++  wg+Wv+e +        k+r++lg++ t eeAara++ea+
+  Prupe.7G243600.1.p  6 KFRGVRQRH-WGSWVSEIRHplL----KRRVWLGTFETaEEAARAYDEAA 50
+                        89*******.*******743321....5*********************8 PP
+
+>> Prupe.3G096000.1.p  pacid=32108726 transcript=Prupe.3G096000.1 locus=Prupe.3G096000 ID=Prupe.3G096000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.0   0.5     2e-14   6.2e-12       2      53 ..       7      56 ..       6      57 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 47.0 bits;  conditional E-value: 2e-14
+                 AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++rGVr++  wg+Wv+e +        k+r++lg++ t e+Aara++ea++ ++g
+  Prupe.3G096000.1.p  7 RYRGVRQRH-WGSWVSEIRHplL----KTRIWLGTFETaEDAARAYDEAARLMCG 56
+                        79*******.*******743321....4**********************98876 PP
+
+>> Prupe.1G432000.1.p  pacid=32119680 transcript=Prupe.1G432000.1 locus=Prupe.1G432000 ID=Prupe.1G432000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.8   1.9   4.6e-14   1.4e-11       2      53 ..      48      97 ..      47      98 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 45.8 bits;  conditional E-value: 4.6e-14
+                 AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                         +rG+r +k wg+WvAe +e n+   ++r++lg y t   Aara++ a ++l+g
+  Prupe.1G432000.1.p 48 QYRGIRMRK-WGKWVAEIREpNK---RSRIWLGSYTTpVAAARAYDTAVFYLRG 97
+                        69*******.*******999665...9*************************98 PP
+
+>> Prupe.6G091100.3.p  pacid=32086895 transcript=Prupe.6G091100.3 locus=Prupe.6G091100 ID=Prupe.6G091100.3.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.8   3.0   3.5e-12   1.1e-09       2      53 ..     155     203 ..     154     204 .. 0.93
+   2 !   10.2   0.9    0.0058       1.8       1      19 [.     246     272 ..     246     297 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 39.8 bits;  conditional E-value: 3.5e-12
+                 AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  Prupe.6G091100.3.p 155 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 203
+                         7****************992.....36***********************9987 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.0058
+                 AP2   1 pkirGVrydkkwgrWvAe.........w 19 
+                         +++rGV+ +k  grW+A+         +
+  Prupe.6G091100.3.p 246 SRYRGVTLHK-CGRWEARmgqflgkkaY 272
+                         68********.6*****95544433332 PP
+
+>> Prupe.5G090800.1.p  pacid=32098886 transcript=Prupe.5G090800.1 locus=Prupe.5G090800 ID=Prupe.5G090800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.0   0.3   8.2e-14   2.6e-11       2      53 ..      11      59 ..      10      60 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 45.0 bits;  conditional E-value: 8.2e-14
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                         +rG+r +   g+Wv+e +e   rk+kr++lg++ t e+Aa a++ a+l+l g
+  Prupe.5G090800.1.p 11 TYRGIRCRG--GKWVSEIRE--PRKTKRIWLGTFPTaEMAAAAYDVAALALKG 59
+                        699999999..******876..3579************************987 PP
+
+>> Prupe.1G310100.1.p  pacid=32112343 transcript=Prupe.1G310100.1 locus=Prupe.1G310100 ID=Prupe.1G310100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.1   0.3   1.6e-13     5e-11       3      53 ..     119     167 ..     117     168 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 44.1 bits;  conditional E-value: 1.6e-13
+                 AP2   3 irGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +rGVr++k wg+W+Ae ++  +g    +r +lg++ t e+A +a+++ rl+le+
+  Prupe.1G310100.1.p 119 FRGVRQRK-WGKWAAEIRDpfKG----RRTWLGTFSTpEDASKAYEAKRLELEE 167
+                         79******.*******8775555....***********************9986 PP
+
+>> Prupe.1G001700.1.p  pacid=32111515 transcript=Prupe.1G001700.1 locus=Prupe.1G001700 ID=Prupe.1G001700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.0   1.1   3.3e-13   1.1e-10       2      53 ..      20      69 ..      19      70 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 43.0 bits;  conditional E-value: 3.3e-13
+                 AP2  2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        +++GVr ++ wg+Wv+e   +++ g     r++lg y+   +Aara+++a++++ g
+  Prupe.1G001700.1.p 20 RYKGVRMRA-WGKWVSEirlPKS-G----DRIWLGSYDApDKAARAHDAAAYCIHG 69
+                        79*******.*******887744.4....9***********************987 PP
+
+>> Prupe.6G064700.1.p  pacid=32090557 transcript=Prupe.6G064700.1 locus=Prupe.6G064700 ID=Prupe.6G064700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.5   0.7   4.8e-13   1.5e-10       2      53 ..     643     695 ..     642     696 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 42.5 bits;  conditional E-value: 4.8e-13
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++  g++ Ae ++  +k  +kr+slg y t eeAa+a++ a++++ g
+  Prupe.6G064700.1.p 643 HYRGVRQRR-FGKFTAEIRDpAKKVSRKRVSLGCYETsEEAALAYDSAAQRIHG 695
+                         8********.*******9885554555************************988 PP
+
+>> Prupe.6G064700.2.p  pacid=32090560 transcript=Prupe.6G064700.2 locus=Prupe.6G064700 ID=Prupe.6G064700.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.5   0.7   4.8e-13   1.5e-10       2      53 ..     643     695 ..     642     696 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 42.5 bits;  conditional E-value: 4.8e-13
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++  g++ Ae ++  +k  +kr+slg y t eeAa+a++ a++++ g
+  Prupe.6G064700.2.p 643 HYRGVRQRR-FGKFTAEIRDpAKKVSRKRVSLGCYETsEEAALAYDSAAQRIHG 695
+                         8********.*******9885554555************************988 PP
+
+>> Prupe.6G064700.3.p  pacid=32090559 transcript=Prupe.6G064700.3 locus=Prupe.6G064700 ID=Prupe.6G064700.3.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.5   0.7   4.8e-13   1.5e-10       2      53 ..     643     695 ..     642     696 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 42.5 bits;  conditional E-value: 4.8e-13
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++  g++ Ae ++  +k  +kr+slg y t eeAa+a++ a++++ g
+  Prupe.6G064700.3.p 643 HYRGVRQRR-FGKFTAEIRDpAKKVSRKRVSLGCYETsEEAALAYDSAAQRIHG 695
+                         8********.*******9885554555************************988 PP
+
+>> Prupe.6G064700.4.p  pacid=32090558 transcript=Prupe.6G064700.4 locus=Prupe.6G064700 ID=Prupe.6G064700.4.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.5   0.7   4.8e-13   1.5e-10       2      53 ..     643     695 ..     642     696 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 42.5 bits;  conditional E-value: 4.8e-13
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++  g++ Ae ++  +k  +kr+slg y t eeAa+a++ a++++ g
+  Prupe.6G064700.4.p 643 HYRGVRQRR-FGKFTAEIRDpAKKVSRKRVSLGCYETsEEAALAYDSAAQRIHG 695
+                         8********.*******9885554555************************988 PP
+
+>> Prupe.6G064700.5.p  pacid=32090561 transcript=Prupe.6G064700.5 locus=Prupe.6G064700 ID=Prupe.6G064700.5.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.5   0.7   4.8e-13   1.5e-10       2      53 ..     643     695 ..     642     696 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 42.5 bits;  conditional E-value: 4.8e-13
+                 AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         ++rGVr+++  g++ Ae ++  +k  +kr+slg y t eeAa+a++ a++++ g
+  Prupe.6G064700.5.p 643 HYRGVRQRR-FGKFTAEIRDpAKKVSRKRVSLGCYETsEEAALAYDSAAQRIHG 695
+                         8********.*******9885554555************************988 PP
+
+>> Prupe.2G289600.1.p  pacid=32074448 transcript=Prupe.2G289600.1 locus=Prupe.2G289600 ID=Prupe.2G289600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8   0.2   3.9e-13   1.2e-10       1      53 [.      67     116 ..      67     117 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 3.9e-13
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         p++rG+r +   g+Wv+e +e   rk++r++lg+y   e+Aa a++ a+ +l g
+  Prupe.2G289600.1.p  67 PVYRGIRSRS--GKWVSEIRE--PRKTTRIWLGTYAKpEMAAAAYDVAAIALKG 116
+                         7899999999..******876..3579***********************9987 PP
+
+>> Prupe.5G090600.1.p  pacid=32097834 transcript=Prupe.5G090600.1 locus=Prupe.5G090600 ID=Prupe.5G090600.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.9   0.4   7.7e-13   2.4e-10       2      52 ..      11      58 ..      10      60 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 41.9 bits;  conditional E-value: 7.7e-13
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkle 52
+                        ++ G+r +   g+Wv+e +e   rk++r++lg+y t e+Aa a++ a+l+l 
+  Prupe.5G090600.1.p 11 RYHGIRCRG--GKWVSEIRE--PRKTRRIWLGTYPTpEMAAAAYDVAALALK 58
+                        677888887..******876..3579**********************9986 PP
+
+>> Prupe.7G115900.1.p  pacid=32100503 transcript=Prupe.7G115900.1 locus=Prupe.7G115900 ID=Prupe.7G115900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.7   0.0   8.7e-13   2.7e-10       2      53 ..      44      93 ..      43      94 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 41.7 bits;  conditional E-value: 8.7e-13
+                 AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                         ++GVr++   g+Wv+e ++ +  +kk+r++lg++ +  +Aara++ a+l+l g
+  Prupe.7G115900.1.p 44 IYKGVRQRC--GKWVCELRQpD--QKKSRIWLGTFTCpDMAARAYDVAALALKG 93
+                        69*******..******55544..479***********************9987 PP
+
+>> Prupe.5G090700.1.p  pacid=32096434 transcript=Prupe.5G090700.1 locus=Prupe.5G090700 ID=Prupe.5G090700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.1   0.2   6.7e-13   2.1e-10       2      53 ..      11      59 ..      10      60 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 42.1 bits;  conditional E-value: 6.7e-13
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++ G+r +   g+Wv+e +e   rk++r++lg+y t e+Aa a++ a+l+l g
+  Prupe.5G090700.1.p 11 RYHGIRCRG--GKWVSEIRE--PRKTRRIWLGTYPTpEMAASAYDVAALALKG 59
+                        677888877..******876..3579***********************9987 PP
+
+>> Prupe.5G090300.1.p  pacid=32096939 transcript=Prupe.5G090300.1 locus=Prupe.5G090300 ID=Prupe.5G090300.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.2   1.1   1.3e-12     4e-10       3      52 ..      12      58 ..      10      60 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 41.2 bits;  conditional E-value: 1.3e-12
+                 AP2  3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkle 52
+                        + G+r +   g+Wv+e +e   rk++r++lg++ t e+Aa a+++a+l+l 
+  Prupe.5G090300.1.p 12 YHGIRSRG--GKWVSEIRE--PRKTRRIWLGTFPTaEMAAAAYDAAALALK 58
+                        66666666..******876..3579**********************9986 PP
+
+>> Prupe.5G090400.1.p  pacid=32099440 transcript=Prupe.5G090400.1 locus=Prupe.5G090400 ID=Prupe.5G090400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.0   0.6   1.5e-12   4.6e-10       3      52 ..      12      58 ..      10      60 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 41.0 bits;  conditional E-value: 1.5e-12
+                 AP2  3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkle 52
+                        + G+r +   g+Wv+e +e   rk++r++lg++ t e+Aa a++ a+l+l 
+  Prupe.5G090400.1.p 12 YHGIRSRG--GKWVSEIRE--PRKTRRIWLGTFPTaEMAAAAYDVAALALK 58
+                        66666666..******876..3579**********************9986 PP
+
+>> Prupe.2G220100.1.p  pacid=32079650 transcript=Prupe.2G220100.1 locus=Prupe.2G220100 ID=Prupe.2G220100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.1   2.4   5.6e-12   1.8e-09       2      53 ..     176     224 ..     175     225 .. 0.93
+   2 ?    0.1   0.1       8.4   2.6e+03       2      19 ..     268     292 ..     267     312 .. 0.53
+
+  Alignments for each domain:
+  == domain 1  score: 39.1 bits;  conditional E-value: 5.6e-12
+                 AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                          +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  Prupe.2G220100.1.p 176 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHSAARAYDRAAIKFRG 224
+                         7****************992.....36***********************9987 PP
+
+  == domain 2  score: 0.1 bits;  conditional E-value: 8.4
+                 AP2   2 kirGVrydkk...wgrWvAe....w 19 
+                         k+rGV   k+    grW+A+    +
+  Prupe.2G220100.1.p 268 KYRGVALPKCggaGGRWEARmaqfP 292
+                         5666666555111367888855543 PP
+
+>> Prupe.1G305900.1.p  pacid=32118336 transcript=Prupe.1G305900.1 locus=Prupe.1G305900 ID=Prupe.1G305900.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.6   0.8   1.7e-11   5.2e-09       1      53 [.      80     128 ..      80     129 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 37.6 bits;  conditional E-value: 1.7e-11
+                 AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         +k++GV   +  grW A+ +e    k++r++lg+++   eAa+a++ a+++ +g
+  Prupe.1G305900.1.p  80 SKYKGVVPQP-NGRWGAQIYE----KHQRVWLGTFNEeDEAAKAYDVAAQRFRG 128
+                         69********.7******877....58***********************9998 PP
+
+>> Prupe.3G240000.1.p  pacid=32108760 transcript=Prupe.3G240000.1 locus=Prupe.3G240000 ID=Prupe.3G240000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   0.3   6.2e-11     2e-08       1      53 [.      20      68 ..      20      69 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 6.2e-11
+                 AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        ++++GV   +  grW A+ +e    k++r++lg+++  eeAa+a++ a  k +g
+  Prupe.3G240000.1.p 20 SRYKGVVPQP-NGRWGAQIYE----KHQRVWLGTFNAeEEAAKAYDIASIKFRG 68
+                        68********.7******877....58*********************999987 PP
+
+>> Prupe.5G220700.3.p  pacid=32099545 transcript=Prupe.5G220700.3 locus=Prupe.5G220700 ID=Prupe.5G220700.3.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.3   2.5   8.9e-11   2.8e-08       3      44 ..     114     153 ..     112     162 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 35.3 bits;  conditional E-value: 8.9e-11
+                 AP2   3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraA 44 
+                         ++GVr++k wgr++Ae ++     +++r +lg++ t eeAa  +
+  Prupe.5G220700.3.p 114 YKGVRRRK-WGRYAAEIRDpI---QRRRKWLGTFATaEEAAAVY 153
+                         9*******.*******87741...57**************9877 PP
+
+>> Prupe.5G220700.1.p  pacid=32099544 transcript=Prupe.5G220700.1 locus=Prupe.5G220700 ID=Prupe.5G220700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.9   2.5   1.2e-10   3.6e-08       3      44 ..     188     227 ..     186     236 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 34.9 bits;  conditional E-value: 1.2e-10
+                 AP2   3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraA 44 
+                         ++GVr++k wgr++Ae ++     +++r +lg++ t eeAa  +
+  Prupe.5G220700.1.p 188 YKGVRRRK-WGRYAAEIRDpI---QRRRKWLGTFATaEEAAAVY 227
+                         9*******.*******87741...57**************9877 PP
+
+>> Prupe.5G220700.2.p  pacid=32099546 transcript=Prupe.5G220700.2 locus=Prupe.5G220700 ID=Prupe.5G220700.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.7   1.7   2.7e-10   8.4e-08       4      44 ..      16      54 ..      13      63 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 33.7 bits;  conditional E-value: 2.7e-10
+                 AP2  4 rGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraA 44
+                        +GVr++k wgr++Ae ++     +++r +lg++ t eeAa  +
+  Prupe.5G220700.2.p 16 MGVRRRK-WGRYAAEIRDpI---QRRRKWLGTFATaEEAAAVY 54
+                        7******.*******87741...57**************9877 PP
+
+>> Prupe.1G546100.1.p  pacid=32114002 transcript=Prupe.1G546100.1 locus=Prupe.1G546100 ID=Prupe.1G546100.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.1   0.7   4.3e-10   1.3e-07       2      52 ..      18      66 ..      17      68 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 33.1 bits;  conditional E-value: 4.3e-10
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkle 52
+                        k++GVr++k wg+Wv+e +  g  ++ r +lg + + e Aa a + a ++l+
+  Prupe.1G546100.1.p 18 KFKGVRQRK-WGKWVSEIRVPG--TQDRLWLGSFSSpEAAAVARDVAYYCLR 66
+                        79*******.*******76645..57**********9988877777666665 PP
+
+>> Prupe.6G176400.1.p  pacid=32085729 transcript=Prupe.6G176400.1 locus=Prupe.6G176400 ID=Prupe.6G176400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.8   0.7   1.1e-09   3.5e-07       2      45 ..      48      89 ..      47      93 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 31.8 bits;  conditional E-value: 1.1e-09
+                 AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAi 45
+                         +rG+r +k  g+WvAe +e n+   ++r++lg y t   A ra++
+  Prupe.6G176400.1.p 48 QYRGIRMRK-EGKWVAEIREpNK---RSRIWLGSYTTpVAATRAYE 89
+                        69*******.9******999665...9****************997 PP
+
+>> Prupe.6G015000.1.p  pacid=32087406 transcript=Prupe.6G015000.1 locus=Prupe.6G015000 ID=Prupe.6G015000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   0.3   5.2e-09   1.6e-06       2      53 ..      48      95 ..      47      96 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 29.6 bits;  conditional E-value: 5.2e-09
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        k++GV      g W A+ + n    ++r++lg++ + +eAa+a++ a+ kl++
+  Prupe.6G015000.1.p 48 KFKGVVPQQ-NGHWGAQIYAN----HQRIWLGTFKSeKEAAMAYDSAAIKLRN 95
+                        577777777.699****8887....7************************997 PP
+
+>> Prupe.1G464400.1.p  pacid=32115115 transcript=Prupe.1G464400.1 locus=Prupe.1G464400 ID=Prupe.1G464400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2   1.0   2.9e-08   9.1e-06       2      52 ..      45      90 ..      44      91 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 27.2 bits;  conditional E-value: 2.9e-08
+                 AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkle 52
+                         +rG+r +k    WvAe +e n+   ++r++lg y t    ara++ a ++l+
+  Prupe.1G464400.1.p 45 QYRGIRMRK----WVAEIKEpNK---RSRIWLGSYTTlVATARAYDTAVFYLR 90
+                        588888888....****999775...9********************999886 PP
+
+>> Prupe.7G261000.2.p  pacid=32100528 transcript=Prupe.7G261000.2 locus=Prupe.7G261000 ID=Prupe.7G261000.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.9   0.1   7.3e-08   2.3e-05       2      53 ..      43      90 ..      42      91 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 25.9 bits;  conditional E-value: 7.3e-08
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        k++GV   +  g W A+ + n    + r++lg++++  +Aa+ ++ a+lkl+g
+  Prupe.7G261000.2.p 43 KFKGVVEQP-NGHWGAQIYAN----HERVWLGTFNSeIDAAMGYDSAALKLRG 90
+                        899******.7******9887....7*************************98 PP
+
+>> Prupe.7G261000.3.p  pacid=32100529 transcript=Prupe.7G261000.3 locus=Prupe.7G261000 ID=Prupe.7G261000.3.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.9   0.1   7.3e-08   2.3e-05       2      53 ..      43      90 ..      42      91 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 25.9 bits;  conditional E-value: 7.3e-08
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        k++GV   +  g W A+ + n    + r++lg++++  +Aa+ ++ a+lkl+g
+  Prupe.7G261000.3.p 43 KFKGVVEQP-NGHWGAQIYAN----HERVWLGTFNSeIDAAMGYDSAALKLRG 90
+                        899******.7******9887....7*************************98 PP
+
+>> Prupe.7G261000.4.p  pacid=32100527 transcript=Prupe.7G261000.4 locus=Prupe.7G261000 ID=Prupe.7G261000.4.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.9   0.1   7.3e-08   2.3e-05       2      53 ..      43      90 ..      42      91 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 25.9 bits;  conditional E-value: 7.3e-08
+                 AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                        k++GV   +  g W A+ + n    + r++lg++++  +Aa+ ++ a+lkl+g
+  Prupe.7G261000.4.p 43 KFKGVVEQP-NGHWGAQIYAN----HERVWLGTFNSeIDAAMGYDSAALKLRG 90
+                        899******.7******9887....7*************************98 PP
+
+>> Prupe.7G261000.1.p  pacid=32100526 transcript=Prupe.7G261000.1 locus=Prupe.7G261000 ID=Prupe.7G261000.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   0.1   8.1e-08   2.5e-05       2      53 ..      73     120 ..      72     121 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 25.8 bits;  conditional E-value: 8.1e-08
+                 AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                         k++GV   +  g W A+ + n    + r++lg++++  +Aa+ ++ a+lkl+g
+  Prupe.7G261000.1.p  73 KFKGVVEQP-NGHWGAQIYAN----HERVWLGTFNSeIDAAMGYDSAALKLRG 120
+                         899******.7******9887....7*************************98 PP
+
+>> Prupe.5G061400.1.p  pacid=32096127 transcript=Prupe.5G061400.1 locus=Prupe.5G061400 ID=Prupe.5G061400.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.7   0.7   3.8e-07   0.00012       1      51 [.       9      55 ..       9      57 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 23.7 bits;  conditional E-value: 3.8e-07
+                 AP2  1 pkirGVrydkkwgrWvAe..wsengkrkkkrfslgkygt.eeAaraAiearlkl 51
+                        ++++GV+  k +g+W A+  +      ++k ++lg y + eeAa a+++a+ kl
+  Prupe.5G061400.1.p  9 SRFKGVSLLK-SGNWGARisY------MYKPYWLGAYQMeEEAAIAYDRAAVKL 55
+                        589*******.9******543......68*********************9776 PP
+
+>> Prupe.8G198700.1.p  pacid=32083473 transcript=Prupe.8G198700.1 locus=Prupe.8G198700 ID=Prupe.8G198700.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.1   4.4e-07   0.00014       3      50 ..     108     150 ..     106     153 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 23.4 bits;  conditional E-value: 4.4e-07
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlk 50 
+                          rGV+++   ++W A  + +    kk+++lg+ g+ eeAar++++a+++
+  Prupe.8G198700.1.p 108 MRGVYFKN--MKWQAAIKVD----KKQIHLGTVGSqEEAARLYDRAAFM 150
+                         59****99..******9776....5*********************986 PP
+
+>> Prupe.8G198700.4.p  pacid=32083475 transcript=Prupe.8G198700.4 locus=Prupe.8G198700 ID=Prupe.8G198700.4.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.1   4.4e-07   0.00014       3      50 ..     108     150 ..     106     153 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 23.4 bits;  conditional E-value: 4.4e-07
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlk 50 
+                          rGV+++   ++W A  + +    kk+++lg+ g+ eeAar++++a+++
+  Prupe.8G198700.4.p 108 MRGVYFKN--MKWQAAIKVD----KKQIHLGTVGSqEEAARLYDRAAFM 150
+                         59****99..******9776....5*********************986 PP
+
+>> Prupe.8G198700.5.p  pacid=32083474 transcript=Prupe.8G198700.5 locus=Prupe.8G198700 ID=Prupe.8G198700.5.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.1   4.4e-07   0.00014       3      50 ..     108     150 ..     106     153 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 23.4 bits;  conditional E-value: 4.4e-07
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlk 50 
+                          rGV+++   ++W A  + +    kk+++lg+ g+ eeAar++++a+++
+  Prupe.8G198700.5.p 108 MRGVYFKN--MKWQAAIKVD----KKQIHLGTVGSqEEAARLYDRAAFM 150
+                         59****99..******9776....5*********************986 PP
+
+>> Prupe.8G198700.2.p  pacid=32083477 transcript=Prupe.8G198700.2 locus=Prupe.8G198700 ID=Prupe.8G198700.2.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.9   0.0   2.7e-06   0.00084       3      47 ..     108     147 ..     106     150 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 20.9 bits;  conditional E-value: 2.7e-06
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiea 47 
+                          rGV+++   ++W A  + +    kk+++lg+ g+ eeAar+++++
+  Prupe.8G198700.2.p 108 MRGVYFKN--MKWQAAIKVD----KKQIHLGTVGSqEEAARLYDRY 147
+                         59****99..******9776....5*******************98 PP
+
+>> Prupe.8G198700.3.p  pacid=32083476 transcript=Prupe.8G198700.3 locus=Prupe.8G198700 ID=Prupe.8G198700.3.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.9   0.0   2.7e-06   0.00084       3      47 ..     108     147 ..     106     150 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 20.9 bits;  conditional E-value: 2.7e-06
+                 AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiea 47 
+                          rGV+++   ++W A  + +    kk+++lg+ g+ eeAar+++++
+  Prupe.8G198700.3.p 108 MRGVYFKN--MKWQAAIKVD----KKQIHLGTVGSqEEAARLYDRY 147
+                         59****99..******9776....5*******************98 PP
+
+>> Prupe.3G108800.1.p  pacid=32105389 transcript=Prupe.3G108800.1 locus=Prupe.3G108800 ID=Prupe.3G108800.1.v2.1 annot-ve
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.2    0.0011      0.36       2      18 ..      95     110 ..      94     113 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.0011
+                 AP2   2 kirGVrydkkwgrWvAe 18 
+                         ++rGVr+++ +g +v+e
+  Prupe.3G108800.1.p  95 HYRGVRQRP-QGEFVVE 110
+                         8********.*****98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (54 nodes)
+Target sequences:                      47089  (21638327 residues searched)
+Passed MSV filter:                      1527  (0.032428); expected 941.8 (0.02)
+Passed bias filter:                     1258  (0.0267154); expected 941.8 (0.02)
+Passed Vit filter:                       247  (0.00524539); expected 47.1 (0.001)
+Passed Fwd filter:                       152  (0.00322793); expected 0.5 (1e-05)
+Initial search space (Z):              47089  [actual number of targets]
+Domain search space  (domZ):             150  [number of targets reported over threshold]
+# CPU time: 0.29u 0.03s 00:00:00.31 Elapsed: 00:00:00.56
+# Mc/sec: 2071.26
+//
+[ok]

@@ -1,0 +1,2027 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00319.MADS.hmm
+# target sequence database:        NIPGR-Plants/Medicago_truncatula/Mtruncatula_285_Mt4.0v1.protein_primaryTranscriptOnly.fa
+# per-dom hits tabular output:     PILOT_MEDICAGO/Mtrunc_MADS.domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SRF-TF  [M=48]
+Accession:   PF00319.23
+Description: SRF-type transcription factor (DNA-binding and dimerisation domain)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+      1e-27   96.7   0.3      1e-27   96.7   0.3    1.9  1  Medtr4g102530.1   pacid=31107910 transcript=Medtr4g102530.1 l
+    1.1e-27   96.7   0.6    1.8e-27   96.0   0.6    1.4  1  Medtr1g041615.1   pacid=31098682 transcript=Medtr1g041615.1 l
+    1.8e-27   96.0   0.4      2e-27   95.8   0.4    1.0  1  Medtr2g461710.1   pacid=31063908 transcript=Medtr2g461710.1 l
+    2.4e-27   95.6   0.4    3.7e-27   94.9   0.4    1.3  1  Medtr8g033270.1   pacid=31071096 transcript=Medtr8g033270.1 l
+    4.5e-27   94.7   0.9    6.4e-27   94.2   0.1    1.7  1  Medtr7g075870.1   pacid=31079700 transcript=Medtr7g075870.1 l
+    5.1e-27   94.5   0.1    9.4e-27   93.7   0.1    1.5  1  Medtr8g033220.1   pacid=31070818 transcript=Medtr8g033220.1 l
+    5.1e-27   94.5   0.1      9e-27   93.7   0.1    1.4  1  Medtr8g033250.1   pacid=31074960 transcript=Medtr8g033250.1 l
+    9.7e-27   93.6   0.2    1.9e-26   92.7   0.2    1.5  1  Medtr3g005530.1   pacid=31055301 transcript=Medtr3g005530.1 l
+    1.3e-26   93.2   0.3    2.1e-26   92.5   0.3    1.4  1  Medtr3g084980.1   pacid=31054706 transcript=Medtr3g084980.1 l
+    1.4e-26   93.1   0.2    2.4e-26   92.4   0.2    1.4  1  Medtr2g017865.1   pacid=31063598 transcript=Medtr2g017865.1 l
+    1.8e-26   92.7   0.3    3.1e-26   92.0   0.3    1.4  1  Medtr5g032520.1   pacid=31088793 transcript=Medtr5g032520.1 l
+    1.8e-26   92.7   0.3    3.2e-26   92.0   0.3    1.4  1  Medtr5g032150.1   pacid=31089510 transcript=Medtr5g032150.1 l
+    2.1e-26   92.5   0.3    3.2e-26   92.0   0.3    1.3  1  Medtr8g097090.1   pacid=31073452 transcript=Medtr8g097090.1 l
+    2.1e-26   92.5   0.3    3.4e-26   91.9   0.3    1.3  1  Medtr6g015975.1   pacid=31105425 transcript=Medtr6g015975.1 l
+    2.4e-26   92.3   0.2    4.1e-26   91.6   0.2    1.4  1  Medtr8g087860.1   pacid=31075006 transcript=Medtr8g087860.1 l
+    2.5e-26   92.3   0.8    1.1e-25   90.2   0.2    2.1  2  Medtr3g052920.1   pacid=31061184 transcript=Medtr3g052920.1 l
+      3e-26   92.1   0.3    4.7e-26   91.4   0.3    1.3  1  Medtr7g016600.1   pacid=31080256 transcript=Medtr7g016600.1 l
+    3.1e-26   92.0   0.3    5.1e-26   91.3   0.3    1.4  1  Medtr3g452380.3   pacid=31055468 transcript=Medtr3g452380.3 l
+    3.8e-26   91.7   0.2      7e-26   90.9   0.2    1.5  1  Medtr1g053070.1   pacid=31094386 transcript=Medtr1g053070.1 l
+    4.2e-26   91.6   0.2    7.4e-26   90.8   0.2    1.4  1  Medtr0003s0590.1  pacid=31105791 transcript=Medtr0003s0590.1 
+    4.7e-26   91.4   0.2      8e-26   90.7   0.2    1.4  1  Medtr8g066260.1   pacid=31069559 transcript=Medtr8g066260.1 l
+      5e-26   91.3   1.4      8e-26   90.7   0.1    1.9  1  Medtr2g009890.1   pacid=31062649 transcript=Medtr2g009890.1 l
+    5.7e-26   91.1   0.1    8.7e-26   90.6   0.1    1.3  1  Medtr1g054265.1   pacid=31099781 transcript=Medtr1g054265.1 l
+    6.8e-26   90.9   0.2    9.7e-26   90.4   0.2    1.2  1  Medtr5g046870.1   pacid=31088280 transcript=Medtr5g046870.1 l
+    7.9e-26   90.7   0.4    1.2e-25   90.1   0.4    1.3  1  Medtr7g075850.1   pacid=31078699 transcript=Medtr7g075850.1 l
+    9.1e-26   90.5   0.4    5.7e-25   88.0   0.1    2.1  2  Medtr3g102570.1   pacid=31057975 transcript=Medtr3g102570.1 l
+      1e-25   90.4   0.2    1.6e-25   89.8   0.2    1.3  1  Medtr3g113030.1   pacid=31055493 transcript=Medtr3g113030.1 l
+    1.1e-25   90.2   0.6    2.6e-25   89.1   0.6    1.7  1  Medtr6g464720.1   pacid=31101537 transcript=Medtr6g464720.1 l
+    1.4e-25   89.9   0.3    2.2e-25   89.3   0.3    1.3  1  Medtr5g046790.1   pacid=31091499 transcript=Medtr5g046790.1 l
+    1.5e-25   89.8   0.0    3.4e-25   88.7   0.0    1.5  1  Medtr1g047550.1   pacid=31094111 transcript=Medtr1g047550.1 l
+    1.5e-25   89.8   2.0      5e-24   84.9   0.1    2.3  2  Medtr1g106070.1   pacid=31094011 transcript=Medtr1g106070.1 l
+    1.5e-25   89.8   0.2    2.4e-25   89.2   0.2    1.3  1  Medtr5g066180.1   pacid=31091263 transcript=Medtr5g066180.1 l
+    1.6e-25   89.7   0.5    1.6e-25   89.7   0.5    2.6  2  Medtr2g030740.1   pacid=31065208 transcript=Medtr2g030740.1 l
+    1.6e-25   89.7   0.4    2.5e-25   89.1   0.4    1.3  1  Medtr4g109810.1   pacid=31114076 transcript=Medtr4g109810.1 l
+    1.9e-25   89.5   0.0    4.1e-25   88.4   0.0    1.5  1  Medtr4g131030.1   pacid=31111192 transcript=Medtr4g131030.1 l
+    2.3e-25   89.2   0.1    3.8e-25   88.5   0.1    1.4  1  Medtr5g021270.2   pacid=31087810 transcript=Medtr5g021270.2 l
+    2.5e-25   89.1   0.5    4.7e-25   88.2   0.5    1.5  1  Medtr4g109830.1   pacid=31111060 transcript=Medtr4g109830.1 l
+    2.5e-25   89.1   0.2    2.8e-25   88.9   0.2    1.0  1  Medtr5g066960.1   pacid=31085264 transcript=Medtr5g066960.1 l
+    2.5e-25   89.1   1.1    6.1e-25   87.9   0.2    1.9  2  Medtr3g052870.1   pacid=31057347 transcript=Medtr3g052870.1 l
+    2.5e-25   89.1   0.2    2.5e-25   89.1   0.2    2.0  2  Medtr1g108510.1   pacid=31100431 transcript=Medtr1g108510.1 l
+    2.5e-25   89.1   0.2    2.5e-25   89.1   0.2    2.1  2  Medtr3g030770.1   pacid=31058035 transcript=Medtr3g030770.1 l
+    2.7e-25   89.0   0.0    4.6e-25   88.2   0.0    1.4  1  Medtr8g079502.1   pacid=31071191 transcript=Medtr8g079502.1 l
+    2.8e-25   88.9   0.4    4.7e-25   88.2   0.4    1.4  1  Medtr4g036915.1   pacid=31110654 transcript=Medtr4g036915.1 l
+    2.8e-25   88.9   0.4    4.7e-25   88.2   0.4    1.4  1  Medtr7g028448.1   pacid=31083394 transcript=Medtr7g028448.1 l
+    6.3e-25   87.8   0.1    6.3e-25   87.8   0.1    1.9  1  Medtr1g108580.1   pacid=31094723 transcript=Medtr1g108580.1 l
+      7e-25   87.7   0.2      7e-25   87.7   0.2    1.8  1  Medtr1g105910.1   pacid=31096889 transcript=Medtr1g105910.1 l
+      7e-25   87.7   0.2      7e-25   87.7   0.2    2.3  1  Medtr1g105920.1   pacid=31095474 transcript=Medtr1g105920.1 l
+      7e-25   87.7   0.2      7e-25   87.7   0.2    2.1  1  Medtr8g043650.1   pacid=31072572 transcript=Medtr8g043650.1 l
+    8.5e-25   87.4   0.2    1.2e-24   86.9   0.2    1.2  1  Medtr4g093030.1   pacid=31112758 transcript=Medtr4g093030.1 l
+    8.8e-25   87.3   0.2    8.8e-25   87.3   0.2    1.8  1  Medtr1g012570.1   pacid=31098052 transcript=Medtr1g012570.1 l
+    1.3e-24   86.8   0.0    2.8e-24   85.7   0.0    1.6  1  Medtr1g063160.1   pacid=31096652 transcript=Medtr1g063160.1 l
+    1.4e-24   86.7   0.3    2.5e-24   85.9   0.3    1.4  1  Medtr5g031000.1   pacid=31087838 transcript=Medtr5g031000.1 l
+    2.2e-24   86.0   0.3    4.7e-24   85.0   0.3    1.6  1  Medtr1g101970.1   pacid=31093367 transcript=Medtr1g101970.1 l
+    2.3e-24   86.0   0.0    3.5e-24   85.4   0.0    1.3  1  Medtr4g084740.1   pacid=31109540 transcript=Medtr4g084740.1 l
+    2.5e-24   85.9   0.0      5e-24   84.9   0.0    1.5  1  Medtr8g051580.1   pacid=31072539 transcript=Medtr8g051580.1 l
+    2.6e-24   85.8   0.4    2.6e-24   85.8   0.4    1.8  1  Medtr4g093970.1   pacid=31109139 transcript=Medtr4g093970.1 l
+    2.9e-24   85.7   0.3    4.7e-24   85.0   0.3    1.4  1  Medtr1g077360.1   pacid=31096560 transcript=Medtr1g077360.1 l
+    4.7e-24   85.0   0.3    4.7e-24   85.0   0.3    1.9  1  Medtr1g075600.1   pacid=31096523 transcript=Medtr1g075600.1 l
+    5.4e-24   84.8   0.3      9e-24   84.1   0.3    1.4  1  Medtr3g080940.1   pacid=31058495 transcript=Medtr3g080940.1 l
+    9.9e-24   84.0   0.3    9.9e-24   84.0   0.3    1.6  1  Medtr2g085250.1   pacid=31066353 transcript=Medtr2g085250.1 l
+    9.9e-24   84.0   0.3    9.9e-24   84.0   0.3    1.6  1  Medtr2g085280.1   pacid=31062700 transcript=Medtr2g085280.1 l
+      1e-23   84.0   0.2      1e-23   84.0   0.2    1.8  1  Medtr5g045560.1   pacid=31087571 transcript=Medtr5g045560.1 l
+      1e-23   83.9   0.4      1e-23   83.9   0.4    2.1  2  Medtr2g093190.1   pacid=31063641 transcript=Medtr2g093190.1 l
+    1.4e-23   83.6   0.3    2.5e-23   82.7   0.1    1.6  1  Medtr8g046350.1   pacid=31070317 transcript=Medtr8g046350.1 l
+    1.5e-23   83.4   0.0    2.5e-23   82.7   0.0    1.4  1  Medtr4g036050.1   pacid=31110199 transcript=Medtr4g036050.1 l
+    1.8e-23   83.1   0.2    1.8e-23   83.1   0.2    1.6  1  Medtr8g086290.1   pacid=31075345 transcript=Medtr8g086290.1 l
+      2e-23   83.0   0.2      2e-23   83.0   0.2    1.8  1  Medtr1g105905.1   pacid=31095405 transcript=Medtr1g105905.1 l
+    2.4e-23   82.8   0.4    3.9e-23   82.1   0.4    1.4  1  Medtr7g016630.1   pacid=31080056 transcript=Medtr7g016630.1 l
+    2.4e-23   82.8   0.2      3e-23   82.5   0.2    1.1  1  Medtr3g067875.1   pacid=31055434 transcript=Medtr3g067875.1 l
+    2.7e-23   82.6   3.3    9.9e-23   80.8   0.8    2.2  2  Medtr3g030780.1   pacid=31056871 transcript=Medtr3g030780.1 l
+    3.3e-23   82.3   0.4    6.1e-23   81.4   0.4    1.5  1  Medtr5g053390.1   pacid=31089020 transcript=Medtr5g053390.1 l
+    4.9e-23   81.8   0.3    4.9e-23   81.8   0.3    1.6  1  Medtr5g055100.1   pacid=31085138 transcript=Medtr5g055100.1 l
+    5.2e-23   81.7   3.8    1.1e-22   80.7   0.7    2.4  2  Medtr0121s0080.1  pacid=31105949 transcript=Medtr0121s0080.1 
+      6e-23   81.5   0.1      1e-22   80.7   0.1    1.4  1  Medtr3g088615.1   pacid=31054823 transcript=Medtr3g088615.1 l
+    6.8e-23   81.3   0.1    1.1e-22   80.7   0.1    1.3  1  Medtr0121s0100.1  pacid=31105946 transcript=Medtr0121s0100.1 
+    1.3e-22   80.4   0.2    2.2e-22   79.6   0.2    1.4  1  Medtr1g038300.1   pacid=31093410 transcript=Medtr1g038300.1 l
+    1.6e-22   80.1   0.3    3.3e-22   79.1   0.3    1.6  1  Medtr4g127140.1   pacid=31114252 transcript=Medtr4g127140.1 l
+    4.5e-22   78.7   0.2    9.7e-22   77.6   0.2    1.6  1  Medtr2g105290.1   pacid=31062139 transcript=Medtr2g105290.1 l
+    5.9e-22   78.3   0.1    1.2e-21   77.3   0.1    1.5  1  Medtr4g094638.1   pacid=31106374 transcript=Medtr4g094638.1 l
+    1.2e-21   77.3   0.1    2.4e-21   76.4   0.1    1.5  1  Medtr4g094632.1   pacid=31109119 transcript=Medtr4g094632.1 l
+    1.5e-21   77.0   0.1      3e-21   76.0   0.1    1.5  1  Medtr1g029670.1   pacid=31096544 transcript=Medtr1g029670.1 l
+    2.3e-21   76.4   0.9    4.4e-21   75.5   0.9    1.4  1  Medtr1g108500.1   pacid=31094434 transcript=Medtr1g108500.1 l
+    6.3e-21   75.0   0.5    1.1e-20   74.2   0.0    1.7  1  Medtr4g108720.3   pacid=31108465 transcript=Medtr4g108720.3 l
+    2.7e-20   73.0   0.1    6.3e-20   71.8   0.1    1.6  1  Medtr1g075570.1   pacid=31098814 transcript=Medtr1g075570.1 l
+    1.6e-19   70.5   0.0    3.4e-19   69.4   0.0    1.5  1  Medtr5g041650.1   pacid=31086259 transcript=Medtr5g041650.1 l
+    2.3e-19   70.0   0.5    2.3e-19   70.0   0.5    2.1  1  Medtr7g062350.1   pacid=31077229 transcript=Medtr7g062350.1 l
+    7.8e-19   68.3   0.2    1.3e-18   67.6   0.2    1.4  1  Medtr6g018920.1   pacid=31101548 transcript=Medtr6g018920.1 l
+    1.6e-18   67.3   0.0    2.9e-18   66.5   0.0    1.4  1  Medtr3g065100.1   pacid=31055457 transcript=Medtr3g065100.1 l
+    2.9e-18   66.5   0.0    5.6e-18   65.6   0.0    1.5  1  Medtr3g031100.1   pacid=31054563 transcript=Medtr3g031100.1 l
+    1.2e-17   64.5   0.3    2.2e-17   63.6   0.3    1.4  1  Medtr1g114730.1   pacid=31096483 transcript=Medtr1g114730.1 l
+      5e-17   62.5   0.1    9.3e-17   61.7   0.1    1.4  1  Medtr6g005440.1   pacid=31104433 transcript=Medtr6g005440.1 l
+    7.5e-17   62.0   0.0    1.1e-16   61.4   0.0    1.2  1  Medtr4g028800.1   pacid=31107796 transcript=Medtr4g028800.1 l
+    2.3e-16   60.4   0.1    3.5e-16   59.8   0.1    1.3  1  Medtr3g067910.1   pacid=31059536 transcript=Medtr3g067910.1 l
+    4.8e-16   59.4   0.0    1.3e-15   58.0   0.0    1.7  1  Medtr8g036130.1   pacid=31075647 transcript=Medtr8g036130.1 l
+    7.9e-16   58.7   0.1    1.3e-15   58.0   0.1    1.3  1  Medtr2g016210.1   pacid=31067176 transcript=Medtr2g016210.1 l
+    1.1e-15   58.2   0.2    1.7e-15   57.6   0.2    1.3  1  Medtr3g109930.1   pacid=31054520 transcript=Medtr3g109930.1 l
+    1.5e-15   57.8   0.1    3.1e-15   56.8   0.1    1.5  1  Medtr3g466980.1   pacid=31057255 transcript=Medtr3g466980.1 l
+      2e-15   57.4   0.0    3.5e-15   56.6   0.0    1.4  1  Medtr4g031910.1   pacid=31106950 transcript=Medtr4g031910.1 l
+    2.6e-15   57.1   0.2    2.6e-15   57.1   0.2    1.9  1  Medtr8g022970.1   pacid=31074301 transcript=Medtr8g022970.1 l
+    5.4e-15   56.0   0.1    9.1e-15   55.3   0.1    1.3  1  Medtr4g063790.1   pacid=31106508 transcript=Medtr4g063790.1 l
+    8.1e-15   55.5   0.2    1.4e-14   54.7   0.2    1.4  1  Medtr1g090783.1   pacid=31097497 transcript=Medtr1g090783.1 l
+    8.4e-15   55.4   0.1    1.4e-14   54.7   0.1    1.3  1  Medtr3g467080.1   pacid=31056765 transcript=Medtr3g467080.1 l
+    1.1e-14   55.1   0.1      2e-14   54.2   0.1    1.4  1  Medtr1g090697.1   pacid=31095514 transcript=Medtr1g090697.1 l
+    1.5e-14   54.6   1.6    1.5e-14   54.6   0.4    1.6  1  Medtr3g067870.1   pacid=31061284 transcript=Medtr3g067870.1 l
+    1.6e-14   54.5   0.2    3.2e-14   53.6   0.2    1.5  1  Medtr1g084950.1   pacid=31100328 transcript=Medtr1g084950.1 l
+      2e-14   54.2   0.1    3.5e-14   53.4   0.1    1.3  1  Medtr3g031240.1   pacid=31055801 transcript=Medtr3g031240.1 l
+    2.2e-14   54.0   0.2    4.2e-14   53.2   0.2    1.5  1  Medtr5g047580.1   pacid=31090527 transcript=Medtr5g047580.1 l
+    3.2e-14   53.5   0.1    5.9e-14   52.7   0.1    1.4  1  Medtr4g032260.1   pacid=31114068 transcript=Medtr4g032260.1 l
+    3.7e-14   53.3   0.0    6.4e-14   52.6   0.0    1.4  1  Medtr1g090710.1   pacid=31100747 transcript=Medtr1g090710.1 l
+    7.3e-14   52.4   0.0    1.4e-13   51.4   0.0    1.5  1  Medtr2g035580.1   pacid=31068917 transcript=Medtr2g035580.1 l
+    7.7e-14   52.3   0.0    1.2e-13   51.7   0.0    1.3  1  Medtr4g051538.1   pacid=31111938 transcript=Medtr4g051538.1 l
+    1.4e-13   51.5   0.0    2.5e-13   50.7   0.0    1.4  1  Medtr4g032620.1   pacid=31114179 transcript=Medtr4g032620.1 l
+    2.1e-13   50.9   0.0    4.1e-13   50.0   0.0    1.5  1  Medtr2g035610.1   pacid=31063711 transcript=Medtr2g035610.1 l
+    2.5e-13   50.7   0.1    4.8e-13   49.8   0.1    1.4  1  Medtr4g032290.1   pacid=31113392 transcript=Medtr4g032290.1 l
+    2.6e-13   50.6   0.9      1e-12   48.8   0.1    2.1  2  Medtr3g466830.1   pacid=31056391 transcript=Medtr3g466830.1 l
+    3.2e-13   50.3   0.2    6.5e-13   49.3   0.2    1.5  1  Medtr4g028720.1   pacid=31106678 transcript=Medtr4g028720.1 l
+    3.9e-13   50.1   0.1    7.2e-13   49.2   0.1    1.4  1  Medtr1g077390.1   pacid=31093838 transcript=Medtr1g077390.1 l
+    4.5e-13   49.9   0.3    8.5e-13   49.0   0.3    1.4  1  Medtr1g077300.1   pacid=31095667 transcript=Medtr1g077300.1 l
+    6.1e-13   49.4   0.1    1.1e-12   48.6   0.1    1.4  1  Medtr3g437790.1   pacid=31055667 transcript=Medtr3g437790.1 l
+    7.7e-13   49.1   0.1    7.7e-13   49.1   0.1    1.6  1  Medtr5g075380.1   pacid=31086008 transcript=Medtr5g075380.1 l
+      1e-12   48.8   0.0    1.7e-12   48.0   0.0    1.4  1  Medtr3g466890.1   pacid=31058250 transcript=Medtr3g466890.1 l
+    4.1e-12   46.8   0.1    7.1e-12   46.0   0.1    1.3  1  Medtr6g005450.1   pacid=31102721 transcript=Medtr6g005450.1 l
+      5e-12   46.5   0.1    9.5e-12   45.6   0.1    1.4  1  Medtr4g019670.1   pacid=31108529 transcript=Medtr4g019670.1 l
+    7.3e-12   46.0   0.2    1.3e-11   45.2   0.2    1.4  1  Medtr1g077320.1   pacid=31099833 transcript=Medtr1g077320.1 l
+    8.2e-12   45.8   0.3    1.6e-11   44.9   0.3    1.5  1  Medtr7g011950.1   pacid=31081346 transcript=Medtr7g011950.1 l
+    1.8e-10   41.5   0.0    3.1e-10   40.8   0.0    1.4  1  Medtr2g049610.1   pacid=31063706 transcript=Medtr2g049610.1 l
+      2e-10   41.4   0.0      4e-10   40.4   0.0    1.5  1  Medtr7g106510.1   pacid=31079821 transcript=Medtr7g106510.1 l
+    2.3e-09   38.0   0.1    3.9e-09   37.3   0.1    1.3  1  Medtr4g107170.1   pacid=31112340 transcript=Medtr4g107170.1 l
+    2.8e-09   37.7   0.0    5.5e-09   36.8   0.0    1.4  1  Medtr3g093900.1   pacid=31056152 transcript=Medtr3g093900.1 l
+    6.3e-09   36.6   0.1    8.2e-09   36.2   0.1    1.1  1  Medtr3g014350.1   pacid=31060625 transcript=Medtr3g014350.1 l
+    5.5e-08   33.6   0.1    5.5e-08   33.6   0.1    1.6  1  Medtr2g045020.1   pacid=31067251 transcript=Medtr2g045020.1 l
+    6.3e-08   33.4   0.1    2.2e-07   31.6   0.0    1.9  1  Medtr2g049630.1   pacid=31064504 transcript=Medtr2g049630.1 l
+    7.7e-08   33.1   0.3    1.3e-07   32.4   0.3    1.4  1  Medtr4g045977.1   pacid=31114436 transcript=Medtr4g045977.1 l
+    1.2e-07   32.5   0.5    1.2e-07   32.5   0.5    2.1  1  Medtr7g055790.1   pacid=31080482 transcript=Medtr7g055790.1 l
+    2.8e-07   31.3   0.1    4.7e-07   30.6   0.1    1.4  1  Medtr2g049530.1   pacid=31066746 transcript=Medtr2g049530.1 l
+    5.8e-07   30.3   0.1    9.7e-07   29.6   0.1    1.3  1  Medtr0061s0010.1  pacid=31069283 transcript=Medtr0061s0010.1 
+    1.7e-06   28.8   0.1    5.1e-06   27.3   0.0    1.8  2  Medtr5g061740.1   pacid=31087470 transcript=Medtr5g061740.1 l
+    2.8e-05   24.9   0.0    4.6e-05   24.2   0.0    1.3  1  Medtr5g024430.1   pacid=31087859 transcript=Medtr5g024430.1 l
+    3.2e-05   24.7   0.5    0.00015   22.6   0.0    1.9  2  Medtr7g055940.1   pacid=31083776 transcript=Medtr7g055940.1 l
+    3.2e-05   24.7   0.3    0.00019   22.2   0.0    2.0  2  Medtr7g055800.1   pacid=31078204 transcript=Medtr7g055800.1 l
+    4.4e-05   24.3   0.0    7.9e-05   23.5   0.0    1.4  1  Medtr3g465410.1   pacid=31053612 transcript=Medtr3g465410.1 l
+    0.00037   21.3   0.2    0.00071   20.4   0.2    1.5  1  Medtr3g466930.1   pacid=31056399 transcript=Medtr3g466930.1 l
+    0.00094   20.0   0.2     0.0018   19.2   0.2    1.4  1  Medtr3g466900.1   pacid=31060914 transcript=Medtr3g466900.1 l
+  ------ inclusion threshold ------
+       0.14   13.1   0.2       0.34   11.8   0.2    1.7  1  Medtr5g047560.1   pacid=31090853 transcript=Medtr5g047560.1 l
+        3.1    8.8   4.8         19    6.2   0.6    2.7  2  Medtr4g089080.1   pacid=31111619 transcript=Medtr4g089080.1 l
+
+
+Domain annotation for each sequence (and alignments):
+>> Medtr4g102530.1  pacid=31107910 transcript=Medtr4g102530.1 locus=Medtr4g102530 ID=Medtr4g102530.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.7   0.3   2.9e-30     1e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 96.7 bits;  conditional E-value: 2.9e-30
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien+s+RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfs tgkly+f
+  Medtr4g102530.1 10 RIENESNRQVTFSKRRNGLLKKAFELSVLCDAEVALIVFSTTGKLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr1g041615.1  pacid=31098682 transcript=Medtr1g041615.1 locus=Medtr1g041615 ID=Medtr1g041615.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.0   0.6   5.1e-30   1.8e-27       1      48 []      14      61 ..      14      61 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 96.0 bits;  conditional E-value: 5.1e-30
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kIen ++R+vtFsKRr+GLfKKA+ELsiLC+aevavivfs tgkly+f
+  Medtr1g041615.1 14 KIENLNNRKVTFSKRRNGLFKKAQELSILCDAEVAVIVFSTTGKLYEF 61
+                     7*********************************************99 PP
+
+>> Medtr2g461710.1  pacid=31063908 transcript=Medtr2g461710.1 locus=Medtr2g461710 ID=Medtr2g461710.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.8   0.4   5.8e-30     2e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.8 bits;  conditional E-value: 5.8e-30
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kIenk +RqvtFsKRr+GL+KKA+E+s+LC+aeva+ivfs++gkly++
+  Medtr2g461710.1 10 KIENKINRQVTFSKRRSGLLKKAHEISVLCDAEVALIVFSNKGKLYEY 57
+                     8*********************************************98 PP
+
+>> Medtr8g033270.1  pacid=31071096 transcript=Medtr8g033270.1 locus=Medtr8g033270 ID=Medtr8g033270.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.9   0.4   1.1e-29   3.7e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.9 bits;  conditional E-value: 1.1e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtFsKRr+GL+KKA+ELs+LC+aeva+i+fs+ gkly+f
+  Medtr8g033270.1 10 RIENKINRQVTFSKRRNGLLKKAYELSVLCDAEVALIIFSSRGKLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr7g075870.1  pacid=31079700 transcript=Medtr7g075870.1 locus=Medtr7g075870 ID=Medtr7g075870.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.2   0.1   1.8e-29   6.4e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.2 bits;  conditional E-value: 1.8e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien ++RqvtFsKRr+GL+KKA ELs+LC+aeva+i+fsp gkly+f
+  Medtr7g075870.1 10 RIENATSRQVTFSKRRNGLLKKAFELSVLCDAEVALIIFSPRGKLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr8g033220.1  pacid=31070818 transcript=Medtr8g033220.1 locus=Medtr8g033220 ID=Medtr8g033220.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.7   0.1   2.7e-29   9.4e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 93.7 bits;  conditional E-value: 2.7e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien ++RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfsp g+ly+f
+  Medtr8g033220.1 10 RIENATSRQVTFSKRRNGLLKKAFELSVLCDAEVALIVFSPRGRLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr8g033250.1  pacid=31074960 transcript=Medtr8g033250.1 locus=Medtr8g033250 ID=Medtr8g033250.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.7   0.1   2.6e-29     9e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 93.7 bits;  conditional E-value: 2.6e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien ++RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfsp g+ly+f
+  Medtr8g033250.1 10 RIENATSRQVTFSKRRNGLLKKAFELSVLCDAEVALIVFSPRGRLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr3g005530.1  pacid=31055301 transcript=Medtr3g005530.1 locus=Medtr3g005530 ID=Medtr3g005530.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.7   0.2   5.3e-29   1.9e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.7 bits;  conditional E-value: 5.3e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  Medtr3g005530.1 10 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSSRGRLYEY 57
+                     7*********************************************98 PP
+
+>> Medtr3g084980.1  pacid=31054706 transcript=Medtr3g084980.1 locus=Medtr3g084980 ID=Medtr3g084980.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.5   0.3     6e-29   2.1e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.5 bits;  conditional E-value: 6e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtF KRr+GL+KKA+ELs+LC+aeva+ivfs+ gkly+f
+  Medtr3g084980.1 10 RIENKINRQVTFAKRRNGLLKKAYELSVLCDAEVALIVFSNRGKLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr2g017865.1  pacid=31063598 transcript=Medtr2g017865.1 locus=Medtr2g017865 ID=Medtr2g017865.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.4   0.2   6.8e-29   2.4e-26       1      48 []      25      72 ..      25      72 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.4 bits;  conditional E-value: 6.8e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  Medtr2g017865.1 25 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSSRGRLYEY 72
+                     7*********************************************98 PP
+
+>> Medtr5g032520.1  pacid=31088793 transcript=Medtr5g032520.1 locus=Medtr5g032520 ID=Medtr5g032520.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.0   0.3   8.9e-29   3.1e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.0 bits;  conditional E-value: 8.9e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kIen++aRqvtFsKRr GL+KKA+ELs+LC+a+va+i+fs+tgkl+++
+  Medtr5g032520.1 10 KIENSTARQVTFSKRRRGLIKKAEELSVLCDADVALIIFSSTGKLFEY 57
+                     7*********************************************98 PP
+
+>> Medtr5g032150.1  pacid=31089510 transcript=Medtr5g032150.1 locus=Medtr5g032150 ID=Medtr5g032150.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.0   0.3     9e-29   3.2e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.0 bits;  conditional E-value: 9e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kIen++aRqvtFsKRr GL+KKA+ELs+LC+a+va+i+fs+tgkl+++
+  Medtr5g032150.1 10 KIENSTARQVTFSKRRRGLIKKAEELSVLCDADVALIIFSSTGKLFEY 57
+                     7*********************************************98 PP
+
+>> Medtr8g097090.1  pacid=31073452 transcript=Medtr8g097090.1 locus=Medtr8g097090 ID=Medtr8g097090.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.0   0.3   9.2e-29   3.2e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.0 bits;  conditional E-value: 9.2e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtF KRr+GL+KKA+ELs+LC+aeva+i+fs+ gkly+f
+  Medtr8g097090.1 10 RIENKINRQVTFAKRRNGLLKKAYELSVLCDAEVALIIFSNRGKLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr6g015975.1  pacid=31105425 transcript=Medtr6g015975.1 locus=Medtr6g015975 ID=Medtr6g015975.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.9   0.3   9.7e-29   3.4e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.9 bits;  conditional E-value: 9.7e-29
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtF KRr+GL+KKA+ELs+LC+aeva+i+fs+ gkly+f
+  Medtr6g015975.1 10 RIENKINRQVTFAKRRNGLLKKAYELSVLCDAEVALIIFSNRGKLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr8g087860.1  pacid=31075006 transcript=Medtr8g087860.1 locus=Medtr8g087860 ID=Medtr8g087860.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.6   0.2   1.2e-28   4.1e-26       1      48 []      26      73 ..      26      73 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.6 bits;  conditional E-value: 1.2e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs  g+ly++
+  Medtr8g087860.1 26 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSTRGRLYEY 73
+                     7*********************************************98 PP
+
+>> Medtr3g052920.1  pacid=31061184 transcript=Medtr3g052920.1 locus=Medtr3g052920 ID=Medtr3g052920.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.2   0.2   3.1e-28   1.1e-25       1      48 []      17      64 ..      17      64 .. 0.99
+   2 ?   -0.2   0.0       5.4   1.9e+03      19      23 ..     150     154 ..     147     173 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 90.2 bits;  conditional E-value: 3.1e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kI+n+s+ qvtFsKRr+GLfKKAsEL++LCga+va+ivfsp  k+++f
+  Medtr3g052920.1 17 KISNESNLQVTFSKRRSGLFKKASELCTLCGADVALIVFSPGEKVFSF 64
+                     7**********************************************9 PP
+
+  == domain 2  score: -0.2 bits;  conditional E-value: 5.4
+           SRF-TF  19 LfKKA 23 
+                      LfKKA
+  Medtr3g052920.1 150 LFKKA 154
+                      9***9 PP
+
+>> Medtr7g016600.1  pacid=31080256 transcript=Medtr7g016600.1 locus=Medtr7g016600 ID=Medtr7g016600.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.4   0.3   1.3e-28   4.7e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.4 bits;  conditional E-value: 1.3e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtF KRr+GL+KKA+ELs+LC+aeva+i+fs  gkly+f
+  Medtr7g016600.1 10 RIENKINRQVTFAKRRNGLLKKAYELSVLCDAEVALIIFSTRGKLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr3g452380.3  pacid=31055468 transcript=Medtr3g452380.3 locus=Medtr3g452380 ID=Medtr3g452380.3.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.3   0.3   1.5e-28   5.1e-26       1      48 []      25      72 ..      25      72 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.3 bits;  conditional E-value: 1.5e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva++vfs  g+ly++
+  Medtr3g452380.3 25 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALVVFSTRGRLYEY 72
+                     7*********************************************98 PP
+
+>> Medtr1g053070.1  pacid=31094386 transcript=Medtr1g053070.1 locus=Medtr1g053070 ID=Medtr1g053070.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.9   0.2     2e-28     7e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.9 bits;  conditional E-value: 2e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kIen ++RqvtFsKRr+GL+KKA+ELs+LC+aevavi++s tgkly+f
+  Medtr1g053070.1 10 KIENLNNRQVTFSKRRNGLLKKAKELSVLCDAEVAVIIYSGTGKLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr0003s0590.1  pacid=31105791 transcript=Medtr0003s0590.1 locus=Medtr0003s0590 ID=Medtr0003s0590.1.JCVIMt4.0v1 ann
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.8   0.2   2.1e-28   7.4e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.8 bits;  conditional E-value: 2.1e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtFsKRr+GL+KKA+EL+iLC+aevavi+fs+tgkl++f
+  Medtr0003s0590.1 10 RIENANSRQVTFSKRRSGLLKKAQELAILCDAEVAVIIFSNTGKLFEF 57
+                      7*********************************************98 PP
+
+>> Medtr8g066260.1  pacid=31069559 transcript=Medtr8g066260.1 locus=Medtr8g066260 ID=Medtr8g066260.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.7   0.2   2.3e-28     8e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.7 bits;  conditional E-value: 2.3e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+aeva+ivfs++gkl+++
+  Medtr8g066260.1 10 RIENKINRQVTFSKRRAGLLKKAHEISVLCDAEVALIVFSHKGKLFEY 57
+                     7*********************************************98 PP
+
+>> Medtr2g009890.1  pacid=31062649 transcript=Medtr2g009890.1 locus=Medtr2g009890 ID=Medtr2g009890.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.7   0.1   2.3e-28     8e-26       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 90.7 bits;  conditional E-value: 2.3e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +I+n+++RqvtFsKRr+GL+KKA+ELsiLC+aev++ivfs+tgkly +
+  Medtr2g009890.1 10 RIDNSTSRQVTFSKRRNGLLKKAKELSILCDAEVGLIVFSSTGKLYDY 57
+                     79********************************************87 PP
+
+>> Medtr1g054265.1  pacid=31099781 transcript=Medtr1g054265.1 locus=Medtr1g054265 ID=Medtr1g054265.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.6   0.1   2.5e-28   8.7e-26       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 90.6 bits;  conditional E-value: 2.5e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     ++++++ RqvtFsKRr+GLfKKA+ELsiLCg+eva++vfsp +++y+f
+  Medtr1g054265.1 10 RVKDSNTRQVTFSKRRTGLFKKANELSILCGVEVAIVVFSPGNNPYSF 57
+                     6899*******************************************9 PP
+
+>> Medtr5g046870.1  pacid=31088280 transcript=Medtr5g046870.1 locus=Medtr5g046870 ID=Medtr5g046870.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.4   0.2   2.8e-28   9.7e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.4 bits;  conditional E-value: 2.8e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtF KRr+G++KKA+ELs LC+aeva+i+fs+ gkly+f
+  Medtr5g046870.1 10 RIENKINRQVTFAKRRNGMLKKAYELSLLCDAEVALIIFSSRGKLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr7g075850.1  pacid=31078699 transcript=Medtr7g075850.1 locus=Medtr7g075850 ID=Medtr7g075850.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.1   0.4   3.5e-28   1.2e-25       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 90.1 bits;  conditional E-value: 3.5e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtFsKRr+GL+KKA+ELs+LC+ae+a+i+fs+ gkl +f
+  Medtr7g075850.1 10 RIENKINRQVTFSKRRNGLLKKAYELSVLCDAEIALIIFSSRGKLSEF 57
+                     7********************************************988 PP
+
+>> Medtr3g102570.1  pacid=31057975 transcript=Medtr3g102570.1 locus=Medtr3g102570 ID=Medtr3g102570.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.0   0.1   1.6e-27   5.7e-25       1      46 [.      10      55 ..      10      57 .. 0.96
+   2 ?    0.1   0.0       4.4   1.5e+03      24      33 ..     143     152 ..     142     153 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 88.0 bits;  conditional E-value: 1.6e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgkly 46
+                     kIen ++RqvtFsKRr+GL+KKA+ELs+LC+++v++i+fsp+g+ +
+  Medtr3g102570.1 10 KIENITNRQVTFSKRRNGLIKKAYELSVLCDVDVGLIMFSPSGRAT 55
+                     7******************************************976 PP
+
+  == domain 2  score: 0.1 bits;  conditional E-value: 4.4
+           SRF-TF  24 sELsiLCgae 33 
+                      sE+ +LC ae
+  Medtr3g102570.1 143 SEITTLCEAE 152
+                      79*****997 PP
+
+>> Medtr3g113030.1  pacid=31055493 transcript=Medtr3g113030.1 locus=Medtr3g113030 ID=Medtr3g113030.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.8   0.2   4.4e-28   1.6e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.8 bits;  conditional E-value: 4.4e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien ++Rqvt+sKRr+GLfKKA+EL +LC+a+v +i+fs+tgkl+++
+  Medtr3g113030.1 10 RIENTTNRQVTYSKRRNGLFKKANELTVLCDAKVSIIMFSSTGKLHEY 57
+                     7*********************************************98 PP
+
+>> Medtr6g464720.1  pacid=31101537 transcript=Medtr6g464720.1 locus=Medtr6g464720 ID=Medtr6g464720.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.1   0.6   7.3e-28   2.6e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.1 bits;  conditional E-value: 7.3e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtFsKRr+GL+KKA EL++LC+aeva+i+fs+ gkl+++
+  Medtr6g464720.1 10 RIENKINRQVTFSKRRSGLLKKAFELCVLCDAEVALIIFSSRGKLFQY 57
+                     7*********************************************98 PP
+
+>> Medtr5g046790.1  pacid=31091499 transcript=Medtr5g046790.1 locus=Medtr5g046790 ID=Medtr5g046790.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   0.3   6.3e-28   2.2e-25       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 6.3e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtFsKR++GL+KKA+E+s+LC+aeva+i+fs++gkl+ +
+  Medtr5g046790.1 10 RIENKINRQVTFSKRKTGLLKKAKEISVLCDAEVALIIFSHNGKLFDY 57
+                     7********************************************987 PP
+
+>> Medtr1g047550.1  pacid=31094111 transcript=Medtr1g047550.1 locus=Medtr1g047550 ID=Medtr1g047550.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   0.0   9.6e-28   3.4e-25       3      48 .]      12      57 ..      11      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 9.6e-28
+           SRF-TF  3 enksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     ++++ RqvtFsKRr+GLfKKA+ELsiLCgaeva++vfsp +++y+f
+  Medtr1g047550.1 12 KDPNTRQVTFSKRRTGLFKKANELSILCGAEVAIVVFSPGDRPYSF 57
+                     799******************************************9 PP
+
+>> Medtr1g106070.1  pacid=31094011 transcript=Medtr1g106070.1 locus=Medtr1g106070 ID=Medtr1g106070.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.9   0.1   1.4e-26     5e-24       1      48 []      17      64 ..      17      64 .. 0.98
+   2 ?    4.3   0.2      0.22        78      21      31 ..     118     128 ..     117     130 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 84.9 bits;  conditional E-value: 1.4e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s  qvtFsKRr+GLfKKAsEL++LCga+va++v+sp  k+++f
+  Medtr1g106070.1 17 KMSNESHLQVTFSKRRSGLFKKASELCTLCGADVALVVYSPGEKVFSF 64
+                     689********************************************9 PP
+
+  == domain 2  score: 4.3 bits;  conditional E-value: 0.22
+           SRF-TF  21 KKAsELsiLCg 31 
+                      K A+ELs LC 
+  Medtr1g106070.1 118 KRAEELSHLCK 128
+                      88********7 PP
+
+>> Medtr5g066180.1  pacid=31091263 transcript=Medtr5g066180.1 locus=Medtr5g066180 ID=Medtr5g066180.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.2   0.2   6.7e-28   2.4e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.2 bits;  conditional E-value: 6.7e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kI+n +aRqvtFsKRr G+fKKA+ELsiLC+aev++++fs tgkly++
+  Medtr5g066180.1 10 KIDNATARQVTFSKRRRGIFKKAEELSILCDAEVGLVIFSTTGKLYEY 57
+                     79********************************************98 PP
+
+>> Medtr2g030740.1  pacid=31065208 transcript=Medtr2g030740.1 locus=Medtr2g030740 ID=Medtr2g030740.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.7   0.5   4.6e-28   1.6e-25       1      48 []      17      64 ..      17      64 .. 0.99
+   2 ?    0.2   0.0       4.2   1.5e+03      19      28 ..     150     160 ..     147     176 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 89.7 bits;  conditional E-value: 4.6e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kI+n+s+ qvtFsKRr+GLfKKAsEL++LCga+va++vfsp  k+++f
+  Medtr2g030740.1 17 KITNESNLQVTFSKRRSGLFKKASELCTLCGADVALVVFSPREKVFSF 64
+                     7**********************************************9 PP
+
+  == domain 2  score: 0.2 bits;  conditional E-value: 4.2
+           SRF-TF  19 LfKKA.sELsi 28 
+                      LfKKA +EL  
+  Medtr2g030740.1 150 LFKKAlDELKK 160
+                      9***9556655 PP
+
+>> Medtr4g109810.1  pacid=31114076 transcript=Medtr4g109810.1 locus=Medtr4g109810 ID=Medtr4g109810.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.1   0.4   7.1e-28   2.5e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.1 bits;  conditional E-value: 7.1e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtF KRr+G +KKA+ELs+LC+aeva+i+fs+ gkly+f
+  Medtr4g109810.1 10 RIENKVNRQVTFAKRRNGVLKKAYELSVLCDAEVALIIFSNRGKLYEF 57
+                     7*********************************************99 PP
+
+>> Medtr4g131030.1  pacid=31111192 transcript=Medtr4g131030.1 locus=Medtr4g131030 ID=Medtr4g131030.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.4   0.0   1.2e-27   4.1e-25       3      48 .]      12      57 ..      11      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 88.4 bits;  conditional E-value: 1.2e-27
+           SRF-TF  3 enksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     ++++ RqvtFsKRr+GLfKKA+ELsiLCg+e+a++vfsp +++y+f
+  Medtr4g131030.1 12 KDPNTRQVTFSKRRTGLFKKANELSILCGVEIAIVVFSPGNRPYSF 57
+                     799******************************************9 PP
+
+>> Medtr5g021270.2  pacid=31087810 transcript=Medtr5g021270.2 locus=Medtr5g021270 ID=Medtr5g021270.2.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.5   0.1   1.1e-27   3.8e-25       2      48 .]      11      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 88.5 bits;  conditional E-value: 1.1e-27
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     Ien+++Rqvt+sKRr+G+fKKA+ELs+LC+a+v +i+fs+++k++++
+  Medtr5g021270.2 11 IENPTNRQVTYSKRRNGIFKKAHELSVLCDAKVSLIMFSKNNKMHEY 57
+                     9********************************************98 PP
+
+>> Medtr4g109830.1  pacid=31111060 transcript=Medtr4g109830.1 locus=Medtr4g109830 ID=Medtr4g109830.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   0.5   1.3e-27   4.7e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 1.3e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+aeva+i+fs +gkl+++
+  Medtr4g109830.1 10 RIENKINRQVTFSKRRSGLLKKAQEISVLCDAEVALIIFSTKGKLFEY 57
+                     7*********************************************98 PP
+
+>> Medtr5g066960.1  pacid=31085264 transcript=Medtr5g066960.1 locus=Medtr5g066960 ID=Medtr5g066960.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.9   0.2     8e-28   2.8e-25       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 88.9 bits;  conditional E-value: 8e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +I+n+++RqvtFsKRr+GL+KKA+EL+iLC+aev+v++fs+t kly f
+  Medtr5g066960.1 10 RIDNSTSRQVTFSKRRNGLLKKAKELAILCDAEVGVMIFSSTAKLYDF 57
+                     79********************************************98 PP
+
+>> Medtr3g052870.1  pacid=31057347 transcript=Medtr3g052870.1 locus=Medtr3g052870 ID=Medtr3g052870.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.9   0.2   1.7e-27   6.1e-25       1      48 []      17      64 ..      17      64 .. 0.98
+   2 ?   -0.9   0.0         9   3.2e+03      21      29 ..     118     126 ..     117     129 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 87.9 bits;  conditional E-value: 1.7e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga+va++vfsp  k+++f
+  Medtr3g052870.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGADVALVVFSPGEKVFSF 64
+                     689********************************************9 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 9
+           SRF-TF  21 KKAsELsiL 29 
+                      K A+ELs L
+  Medtr3g052870.1 118 KRAEELSHL 126
+                      88****987 PP
+
+>> Medtr1g108510.1  pacid=31100431 transcript=Medtr1g108510.1 locus=Medtr1g108510 ID=Medtr1g108510.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.1   0.2   7.2e-28   2.5e-25       1      48 []      17      64 ..      17      64 .. 0.98
+   2 ?   -0.2   0.6       5.5   1.9e+03      18      25 ..     149     156 ..     145     161 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 89.1 bits;  conditional E-value: 7.2e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga++a++vfsp+gk+++f
+  Medtr1g108510.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGADAALVVFSPSGKVFSF 64
+                     689********************************************9 PP
+
+  == domain 2  score: -0.2 bits;  conditional E-value: 5.5
+           SRF-TF  18 GLfKKAsE 25 
+                       LfKKA E
+  Medtr1g108510.1 149 ELFKKALE 156
+                      59***965 PP
+
+>> Medtr3g030770.1  pacid=31058035 transcript=Medtr3g030770.1 locus=Medtr3g030770 ID=Medtr3g030770.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.1   0.2   7.2e-28   2.5e-25       1      48 []      17      64 ..      17      64 .. 0.98
+   2 ?   -0.2   0.6       5.5   1.9e+03      18      25 ..     149     156 ..     145     161 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 89.1 bits;  conditional E-value: 7.2e-28
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga++a++vfsp+gk+++f
+  Medtr3g030770.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGADAALVVFSPSGKVFSF 64
+                     689********************************************9 PP
+
+  == domain 2  score: -0.2 bits;  conditional E-value: 5.5
+           SRF-TF  18 GLfKKAsE 25 
+                       LfKKA E
+  Medtr3g030770.1 149 ELFKKALE 156
+                      59***965 PP
+
+>> Medtr8g079502.1  pacid=31071191 transcript=Medtr8g079502.1 locus=Medtr8g079502 ID=Medtr8g079502.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   0.0   1.3e-27   4.6e-25       2      48 .]      11      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 1.3e-27
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +++++ RqvtFsKRr+GLfKKA+ELsiLCgaeva++vfsp  ++y+f
+  Medtr8g079502.1 11 VKDPNTRQVTFSKRRTGLFKKANELSILCGAEVAIVVFSPGSRPYSF 57
+                     5899******************************************9 PP
+
+>> Medtr4g036915.1  pacid=31110654 transcript=Medtr4g036915.1 locus=Medtr4g036915 ID=Medtr4g036915.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   0.4   1.3e-27   4.7e-25       1      48 []      20      67 ..      20      67 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 1.3e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kI++ s+RqvtFsKRr+GLfKKAsEL++LC+a+va++vfsp++kl+ f
+  Medtr4g036915.1 20 KIDKASNRQVTFSKRRQGLFKKASELCVLCDAHVAMVVFSPSDKLFCF 67
+                     799******************************************976 PP
+
+>> Medtr7g028448.1  pacid=31083394 transcript=Medtr7g028448.1 locus=Medtr7g028448 ID=Medtr7g028448.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   0.4   1.3e-27   4.7e-25       1      48 []      20      67 ..      20      67 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 1.3e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kI++ s+RqvtFsKRr+GLfKKAsEL++LC+a+va++vfsp++kl+ f
+  Medtr7g028448.1 20 KIDKASNRQVTFSKRRQGLFKKASELCVLCDAHVAMVVFSPSDKLFCF 67
+                     799******************************************976 PP
+
+>> Medtr1g108580.1  pacid=31094723 transcript=Medtr1g108580.1 locus=Medtr1g108580 ID=Medtr1g108580.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.8   0.1   1.8e-27   6.3e-25       1      48 []      17      64 ..      17      64 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.8 bits;  conditional E-value: 1.8e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kI+n+s+ qvtFsK  +GLfKKAsEL++LCga+va++vfsp+gk+++f
+  Medtr1g108580.1 17 KISNESNLQVTFSKHHNGLFKKASELCTLCGADVALVVFSPSGKVFSF 64
+                     7**********************************************9 PP
+
+>> Medtr1g105910.1  pacid=31096889 transcript=Medtr1g105910.1 locus=Medtr1g105910 ID=Medtr1g105910.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.7   0.2     2e-27     7e-25       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 87.7 bits;  conditional E-value: 2e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga+va++vfsp  k+++f
+  Medtr1g105910.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGADVALVVFSPGEKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr1g105920.1  pacid=31095474 transcript=Medtr1g105920.1 locus=Medtr1g105920 ID=Medtr1g105920.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.7   0.2     2e-27     7e-25       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 87.7 bits;  conditional E-value: 2e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga+va++vfsp  k+++f
+  Medtr1g105920.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGADVALVVFSPGEKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr8g043650.1  pacid=31072572 transcript=Medtr8g043650.1 locus=Medtr8g043650 ID=Medtr8g043650.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.7   0.2     2e-27     7e-25       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 87.7 bits;  conditional E-value: 2e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga+va++vfsp  k+++f
+  Medtr8g043650.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGADVALVVFSPGEKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr4g093030.1  pacid=31112758 transcript=Medtr4g093030.1 locus=Medtr4g093030 ID=Medtr4g093030.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.9   0.2   3.5e-27   1.2e-24       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 86.9 bits;  conditional E-value: 3.5e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien ++RqvtFsKRrkGL+KKA+ELsiLC+a+v++i+fs+t kly +
+  Medtr4g093030.1 10 RIENLTSRQVTFSKRRKGLMKKAKELSILCDAQVGLILFSSTHKLYDY 57
+                     7*********************************************87 PP
+
+>> Medtr1g012570.1  pacid=31098052 transcript=Medtr1g012570.1 locus=Medtr1g012570 ID=Medtr1g012570.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.3   0.2   2.5e-27   8.8e-25       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 87.3 bits;  conditional E-value: 2.5e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga+va+i+fsp  k+++f
+  Medtr1g012570.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGADVALIIFSPGEKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr1g063160.1  pacid=31096652 transcript=Medtr1g063160.1 locus=Medtr1g063160 ID=Medtr1g063160.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.7   0.0     8e-27   2.8e-24       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 85.7 bits;  conditional E-value: 8e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     ++++++ Rq+tFsKRr+GLfKKA+ELsiLCgae+a++vfsp +++y+f
+  Medtr1g063160.1 10 RVKDPNTRQITFSKRRTGLFKKANELSILCGAEAAIVVFSPGNNPYSF 57
+                     6899*******************************************9 PP
+
+>> Medtr5g031000.1  pacid=31087838 transcript=Medtr5g031000.1 locus=Medtr5g031000 ID=Medtr5g031000.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.9   0.3   7.3e-27   2.5e-24       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 85.9 bits;  conditional E-value: 7.3e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +I+n ++RqvtFsKRrkGL+KKA+EL+iLC+a+v++++fs+tgkly++
+  Medtr5g031000.1 10 RIDNCTSRQVTFSKRRKGLIKKAKELAILCDAQVGLVIFSSTGKLYEY 57
+                     799*******************************************98 PP
+
+>> Medtr1g101970.1  pacid=31093367 transcript=Medtr1g101970.1 locus=Medtr1g101970 ID=Medtr1g101970.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.0   0.3   1.4e-26   4.7e-24       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 85.0 bits;  conditional E-value: 1.4e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +I nk +RqvtFsKRr+GL+KKA ELs+LC+aeva+i+fs+ gkl+++
+  Medtr1g101970.1 10 RIHNKINRQVTFSKRRSGLLKKAFELSVLCDAEVALIIFSSLGKLFQY 57
+                     799*******************************************98 PP
+
+>> Medtr4g084740.1  pacid=31109540 transcript=Medtr4g084740.1 locus=Medtr4g084740 ID=Medtr4g084740.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.4   0.0     1e-26   3.5e-24       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 85.4 bits;  conditional E-value: 1e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien  +Rqvt+sKRr+GL+KKA+ELsiLC++++a+i+fsp+++l +f
+  Medtr4g084740.1 10 RIENTVNRQVTYSKRRNGLIKKAYELSILCDIDIALIMFSPSNRLNHF 57
+                     7*******************************************9876 PP
+
+>> Medtr8g051580.1  pacid=31072539 transcript=Medtr8g051580.1 locus=Medtr8g051580 ID=Medtr8g051580.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.9   0.0   1.4e-26     5e-24       3      48 .]      12      57 ..      10      57 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 84.9 bits;  conditional E-value: 1.4e-26
+           SRF-TF  3 enksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      ++  RqvtFsKRr+GLfKKA+EL+iLCgae+a++vfsp +k+y+f
+  Medtr8g051580.1 12 RDPVIRQVTFSKRRTGLFKKANELAILCGAEIAIVVFSPGNKPYSF 57
+                     56777****************************************9 PP
+
+>> Medtr4g093970.1  pacid=31109139 transcript=Medtr4g093970.1 locus=Medtr4g093970 ID=Medtr4g093970.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.8   0.4   7.5e-27   2.6e-24       1      48 []      36      83 ..      36      83 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 85.8 bits;  conditional E-value: 7.5e-27
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kI+n s+RqvtFsKRrkGLfKKA+ELs+LC+a++a++vfs t kl+++
+  Medtr4g093970.1 36 KIDNISSRQVTFSKRRKGLFKKAQELSTLCDADIALMVFSATSKLFEY 83
+                     79********************************************98 PP
+
+>> Medtr1g077360.1  pacid=31096560 transcript=Medtr1g077360.1 locus=Medtr1g077360 ID=Medtr1g077360.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.0   0.3   1.3e-26   4.7e-24       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 85.0 bits;  conditional E-value: 1.3e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga +a+ivfsp++k+++f
+  Medtr1g077360.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGAYIALIVFSPSDKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr1g075600.1  pacid=31096523 transcript=Medtr1g075600.1 locus=Medtr1g075600 ID=Medtr1g075600.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.0   0.3   1.3e-26   4.7e-24       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 85.0 bits;  conditional E-value: 1.3e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga +a+ivfsp++k+++f
+  Medtr1g075600.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGAYIALIVFSPSDKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr3g080940.1  pacid=31058495 transcript=Medtr3g080940.1 locus=Medtr3g080940 ID=Medtr3g080940.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.1   0.3   2.6e-26     9e-24       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 84.1 bits;  conditional E-value: 2.6e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kI +ks  qvtFsKRr+GLfKKAsEL++LCg+e+a++vfsp++k ++f
+  Medtr3g080940.1 17 KIPKKSHLQVTFSKRRSGLFKKASELCTLCGVEIAIVVFSPANKAFSF 64
+                     7899******************************************99 PP
+
+>> Medtr2g085250.1  pacid=31066353 transcript=Medtr2g085250.1 locus=Medtr2g085250 ID=Medtr2g085250.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.0   0.3   2.8e-26   9.9e-24       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 84.0 bits;  conditional E-value: 2.8e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga +a+i+fsp+ k+++f
+  Medtr2g085250.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGAYIALIIFSPSEKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr2g085280.1  pacid=31062700 transcript=Medtr2g085280.1 locus=Medtr2g085280 ID=Medtr2g085280.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.0   0.3   2.8e-26   9.9e-24       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 84.0 bits;  conditional E-value: 2.8e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga +a+i+fsp+ k+++f
+  Medtr2g085280.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGAYIALIIFSPSEKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr5g045560.1  pacid=31087571 transcript=Medtr5g045560.1 locus=Medtr5g045560 ID=Medtr5g045560.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.0   0.2   2.9e-26     1e-23       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 84.0 bits;  conditional E-value: 2.9e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL++LCga va+i+fsp  k+++f
+  Medtr5g045560.1 17 KMSNESNLQVTFSKRRSGLFKKASELCTLCGAYVALIIFSPGEKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr2g093190.1  pacid=31063641 transcript=Medtr2g093190.1 locus=Medtr2g093190 ID=Medtr2g093190.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.9   0.4   2.9e-26     1e-23       1      48 []      17      64 ..      17      64 .. 0.98
+   2 ?   -0.3   0.6         6   2.1e+03      18      25 ..     149     156 ..     147     161 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 83.9 bits;  conditional E-value: 2.9e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s  qvtFsKRr+GLfKKAsEL++LCga++a++vfs +gk+++f
+  Medtr2g093190.1 17 KMSNESHLQVTFSKRRSGLFKKASELCTLCGADAALVVFSTSGKVFSF 64
+                     689********************************************9 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 6
+           SRF-TF  18 GLfKKAsE 25 
+                       LfKKA E
+  Medtr2g093190.1 149 ELFKKALE 156
+                      59***965 PP
+
+>> Medtr8g046350.1  pacid=31070317 transcript=Medtr8g046350.1 locus=Medtr8g046350 ID=Medtr8g046350.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.7   0.1   7.2e-26   2.5e-23       3      48 .]      12      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 82.7 bits;  conditional E-value: 7.2e-26
+           SRF-TF  3 enksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     ++++aRqvtFsKRr GLfKKA+EL+iLCg++++++vfsp +k+y+f
+  Medtr8g046350.1 12 KKPEARQVTFSKRRMGLFKKANELAILCGTKIVIVVFSPGNKPYSF 57
+                     7899*****************************************9 PP
+
+>> Medtr4g036050.1  pacid=31110199 transcript=Medtr4g036050.1 locus=Medtr4g036050 ID=Medtr4g036050.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.7   0.0   7.1e-26   2.5e-23       1      47 [.      10      56 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 82.7 bits;  conditional E-value: 7.1e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47
+                     +Ien+  RqvtF+KRr+GL+KKA+ELs+LC+ae+++++fs +gkly+
+  Medtr4g036050.1 10 RIENPVHRQVTFCKRRAGLLKKAKELSVLCDAEIGLVIFSAHGKLYE 56
+                     7*********************************************7 PP
+
+>> Medtr8g086290.1  pacid=31075345 transcript=Medtr8g086290.1 locus=Medtr8g086290 ID=Medtr8g086290.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.1   0.2   5.2e-26   1.8e-23       1      48 []      20      67 ..      20      67 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 83.1 bits;  conditional E-value: 5.2e-26
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k e+++++qvtFsKRr+GLf+KAsEL++LC++++a+ivfsp+gkl+ f
+  Medtr8g086290.1 20 KLEKETNKQVTFSKRRQGLFRKASELCTLCDVHAAIIVFSPAGKLHCF 67
+                     579******************************************977 PP
+
+>> Medtr1g105905.1  pacid=31095405 transcript=Medtr1g105905.1 locus=Medtr1g105905 ID=Medtr1g105905.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.0   0.2   5.8e-26     2e-23       3      48 .]       2      47 ..       1      47 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 83.0 bits;  conditional E-value: 5.8e-26
+           SRF-TF  3 enksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +n+s+ qvtFsKRr+GLfKKAsEL++ Cga+va++vfsp  k+++f
+  Medtr1g105905.1  2 SNESNLQVTFSKRRSGLFKKASELCTICGADVALVVFSPGEKVFSF 47
+                     79*******************************************9 PP
+
+>> Medtr7g016630.1  pacid=31080056 transcript=Medtr7g016630.1 locus=Medtr7g016630 ID=Medtr7g016630.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.1   0.4   1.1e-25   3.9e-23       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 82.1 bits;  conditional E-value: 1.1e-25
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ienk++ qvtF KRr+GL+KKA+E+s+LC+a+va+i+fs +gkl+++
+  Medtr7g016630.1 10 RIENKTSQQVTFFKRRTGLLKKANEISVLCDAQVALIMFSTKGKLFEY 57
+                     7*********************************************98 PP
+
+>> Medtr3g067875.1  pacid=31055434 transcript=Medtr3g067875.1 locus=Medtr3g067875 ID=Medtr3g067875.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.5   0.2   8.5e-26     3e-23       3      48 .]       2      47 ..       1      47 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 82.5 bits;  conditional E-value: 8.5e-26
+           SRF-TF  3 enksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +n+s+ qvtFsKR +GLfKKAsEL++LCga v +i+fsp+ k+++f
+  Medtr3g067875.1  2 SNESNLQVTFSKRHSGLFKKASELCTLCGAYVTLIIFSPSEKVFSF 47
+                     79*******************************************9 PP
+
+>> Medtr3g030780.1  pacid=31056871 transcript=Medtr3g030780.1 locus=Medtr3g030780 ID=Medtr3g030780.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.8   0.8   2.8e-25   9.9e-23       1      48 []      17      64 ..      17      64 .. 0.98
+   2 ?    2.1   0.1       1.1   3.7e+02      24      32 ..     121     129 ..     117     130 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 80.8 bits;  conditional E-value: 2.8e-25
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k+ n+++ qvtFsK r+GLfKK+sE+++LCg++va++vfsp++k+++f
+  Medtr3g030780.1 17 KMNNERNLQVTFSKCRSGLFKKVSEFCTLCGVDVALVVFSPSQKVFSF 64
+                     678********************************************9 PP
+
+  == domain 2  score: 2.1 bits;  conditional E-value: 1.1
+           SRF-TF  24 sELsiLCga 32 
+                      +ELs LC a
+  Medtr3g030780.1 121 DELSLLCKA 129
+                      6******86 PP
+
+>> Medtr5g053390.1  pacid=31089020 transcript=Medtr5g053390.1 locus=Medtr5g053390 ID=Medtr5g053390.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.4   0.4   1.7e-25   6.1e-23       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 81.4 bits;  conditional E-value: 1.7e-25
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr+GLfKKAsEL+ LCga va+i+fsp+ k+++f
+  Medtr5g053390.1 17 KMSNESSLQVTFSKRRSGLFKKASELCSLCGAYVALIIFSPSEKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr5g055100.1  pacid=31085138 transcript=Medtr5g055100.1 locus=Medtr5g055100 ID=Medtr5g055100.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.8   0.3   1.4e-25   4.9e-23       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 81.8 bits;  conditional E-value: 1.4e-25
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k++n+s+ qvtFsKRr GLfKKAsEL++LCga +a+i+fsp+ k+++f
+  Medtr5g055100.1 17 KMSNESNLQVTFSKRRIGLFKKASELCTLCGAYIALIIFSPSEKVFSF 64
+                     689********************************************9 PP
+
+>> Medtr0121s0080.1  pacid=31105949 transcript=Medtr0121s0080.1 locus=Medtr0121s0080 ID=Medtr0121s0080.1.JCVIMt4.0v1 ann
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.7   0.7   3.1e-25   1.1e-22       1      48 []      17      64 ..      17      64 .. 0.98
+   2 ?    1.4   0.1       1.7     6e+02      24      32 ..     121     129 ..     117     130 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 80.7 bits;  conditional E-value: 3.1e-25
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      k++nks+ qvt sKRr GLfKK++EL++LCg++va++vfsp+ k+++f
+  Medtr0121s0080.1 17 KMSNKSNLQVTLSKRRRGLFKKVNELCTLCGVDVALVVFSPSEKVFSF 64
+                      689********************************************9 PP
+
+  == domain 2  score: 1.4 bits;  conditional E-value: 1.7
+            SRF-TF  24 sELsiLCga 32 
+                       +ELs LC a
+  Medtr0121s0080.1 121 DELSLLCKA 129
+                       7******86 PP
+
+>> Medtr3g088615.1  pacid=31054823 transcript=Medtr3g088615.1 locus=Medtr3g088615 ID=Medtr3g088615.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.7   0.1     3e-25     1e-22       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 80.7 bits;  conditional E-value: 3e-25
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien+s+Rqvt+sKR++G++KKA+E+s+LC+a+v +i+f+ +gk++++
+  Medtr3g088615.1 10 RIENSSNRQVTYSKRKNGILKKAKEISVLCDAQVSLILFGASGKMHEY 57
+                     7*********************************************98 PP
+
+>> Medtr0121s0100.1  pacid=31105946 transcript=Medtr0121s0100.1 locus=Medtr0121s0100 ID=Medtr0121s0100.1.JCVIMt4.0v1 ann
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.7   0.1   3.1e-25   1.1e-22       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 80.7 bits;  conditional E-value: 3.1e-25
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      k++++s+ qvtFsK r+GLfKKA E+++LCga++a++vfsp+gkl++f
+  Medtr0121s0100.1 17 KMSDESNLQVTFSKCRSGLFKKAGEICTLCGADAALVVFSPSGKLFSF 64
+                      689********************************************9 PP
+
+>> Medtr1g038300.1  pacid=31093410 transcript=Medtr1g038300.1 locus=Medtr1g038300 ID=Medtr1g038300.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.6   0.2   6.4e-25   2.2e-22       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 79.6 bits;  conditional E-value: 6.4e-25
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kI+nk+ RqvtFsKRr+GL+KK +ELs+LC a++++i+fs+tgkl ++
+  Medtr1g038300.1 10 KIQNKTTRQVTFSKRRTGLLKKTHELSVLCEAQIGLIIFSSTGKLSQY 57
+                     7*******************************************9876 PP
+
+>> Medtr4g127140.1  pacid=31114252 transcript=Medtr4g127140.1 locus=Medtr4g127140 ID=Medtr4g127140.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.1   0.3   9.5e-25   3.3e-22       1      48 []      20      67 ..      20      67 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 79.1 bits;  conditional E-value: 9.5e-25
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k+e++s++qvtFsKRr+GLf+KAsEL++LC++++a+ivfsp +kl+ f
+  Medtr4g127140.1 20 KVEKESQKQVTFSKRRQGLFRKASELCVLCDVHAAIIVFSPGDKLFCF 67
+                     68*******************************************976 PP
+
+>> Medtr2g105290.1  pacid=31062139 transcript=Medtr2g105290.1 locus=Medtr2g105290 ID=Medtr2g105290.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.6   0.2   2.8e-24   9.7e-22       1      48 []      20      67 ..      20      67 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 77.6 bits;  conditional E-value: 2.8e-24
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     k+e++s++ vtFsKRr+GLf+KAsEL++LC++++a+ivfsp +kly f
+  Medtr2g105290.1 20 KVEKDSNKLVTFSKRRQGLFRKASELCVLCDVHAAIIVFSPGDKLYCF 67
+                     689*******************************************77 PP
+
+>> Medtr4g094638.1  pacid=31106374 transcript=Medtr4g094638.1 locus=Medtr4g094638 ID=Medtr4g094638.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.3   0.1   3.3e-24   1.2e-21       2      48 .]      11      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 77.3 bits;  conditional E-value: 3.3e-24
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +en+saR+vtFsKR++G+fKKAsELsiLC+a v+++ f p+g++++f
+  Medtr4g094638.1 11 VENRSARYVTFSKRKSGIFKKASELSILCNARVGIVGFTPSGNPFAF 57
+                     79*******************************************98 PP
+
+>> Medtr4g094632.1  pacid=31109119 transcript=Medtr4g094632.1 locus=Medtr4g094632 ID=Medtr4g094632.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.4   0.1   6.7e-24   2.4e-21       2      48 .]      11      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 76.4 bits;  conditional E-value: 6.7e-24
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     ++nk+aR+vtFsKRr+GLfKKAs+LsiLC+a v+++ f p gk+++f
+  Medtr4g094632.1 11 VDNKKARNVTFSKRRSGLFKKASDLSILCNARVGIVGFTPGGKPFAF 57
+                     579******************************************98 PP
+
+>> Medtr1g029670.1  pacid=31096544 transcript=Medtr1g029670.1 locus=Medtr1g029670 ID=Medtr1g029670.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.0   0.1   8.6e-24     3e-21       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 76.0 bits;  conditional E-value: 8.6e-24
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     +Ien+s+Rqvt+sKR++G++KKA+E+ +LC+a+v  i++ p+gk++++
+  Medtr1g029670.1 10 RIENSSNRQVTYSKRKSGILKKAKEINVLCDAQVSTIIIAPSGKMHEY 57
+                     7*********************************************98 PP
+
+>> Medtr1g108500.1  pacid=31094434 transcript=Medtr1g108500.1 locus=Medtr1g108500 ID=Medtr1g108500.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.5   0.9   1.3e-23   4.4e-21       7      48 .]     111     152 ..     109     152 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 75.5 bits;  conditional E-value: 1.3e-23
+           SRF-TF   7 aRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48 
+                      + qvtFsKRr+GLfKK+sE+++LCg++va++vfsp+ k+++f
+  Medtr1g108500.1 111 NLQVTFSKRRSGLFKKVSEFCTLCGVDVALVVFSPSEKVFSF 152
+                      89***************************************9 PP
+
+>> Medtr4g108720.3  pacid=31108465 transcript=Medtr4g108720.3 locus=Medtr4g108720 ID=Medtr4g108720.3.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.2   0.0   3.1e-23   1.1e-20       1      45 [.      10      54 ..      10      56 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 74.2 bits;  conditional E-value: 3.1e-23
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgkl 45
+                     k e+ s+R+vt+sKR++G++KKA+ELsiLC++++ +++fsptgk+
+  Medtr4g108720.3 10 KLESTSNRHVTYSKRKSGILKKAKELSILCDIDILLLMFSPTGKP 54
+                     5799****************************************8 PP
+
+>> Medtr1g075570.1  pacid=31098814 transcript=Medtr1g075570.1 locus=Medtr1g075570 ID=Medtr1g075570.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.8   0.1   1.8e-22   6.3e-20       3      45 ..       2      44 ..       1      46 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 71.8 bits;  conditional E-value: 1.8e-22
+           SRF-TF  3 enksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgkl 45
+                     +n+s+ qvtFsK  +GLfKKAsEL++LCga +a+ivfsp+ k+
+  Medtr1g075570.1  2 SNESNLQVTFSKHCNGLFKKASELCTLCGAYIALIVFSPSEKI 44
+                     79**************************************996 PP
+
+>> Medtr5g041650.1  pacid=31086259 transcript=Medtr5g041650.1 locus=Medtr5g041650 ID=Medtr5g041650.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.4   0.0   9.8e-22   3.4e-19       1      45 [.      47      91 ..      47      93 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 69.4 bits;  conditional E-value: 9.8e-22
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgkl 45
+                     + en + Rq+t+ KR++G++KKAsELsiLC++++ +++fsp gk+
+  Medtr5g041650.1 47 RLENTNGRQATYAKRKNGIMKKASELSILCDIDIILLMFSPGGKP 91
+                     579*****************************************8 PP
+
+>> Medtr7g062350.1  pacid=31077229 transcript=Medtr7g062350.1 locus=Medtr7g062350 ID=Medtr7g062350.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.0   0.5   6.7e-22   2.3e-19       9      48 .]      37      76 ..      31      76 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 70.0 bits;  conditional E-value: 6.7e-22
+           SRF-TF  9 qvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     qvtF K r+GLfKK++EL++LCg++va++vfsp++k+++f
+  Medtr7g062350.1 37 QVTFLKHRSGLFKKVNELCTLCGVDVALVVFSPSKKVFSF 76
+                     9**************************************9 PP
+
+>> Medtr6g018920.1  pacid=31101548 transcript=Medtr6g018920.1 locus=Medtr6g018920 ID=Medtr6g018920.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.6   0.2   3.6e-21   1.3e-18       2      42 ..      11      51 ..      10      57 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 67.6 bits;  conditional E-value: 3.6e-21
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     I+++++R++tF+KR++GL+KK++E+siLC+++v+vi++ p+
+  Medtr6g018920.1 11 IQKEKSRKTTFQKRKNGLMKKVNEFSILCDVDVCVILYAPN 51
+                     99************************************998 PP
+
+>> Medtr3g065100.1  pacid=31055457 transcript=Medtr3g065100.1 locus=Medtr3g065100 ID=Medtr3g065100.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.5   0.0   8.1e-21   2.9e-18       2      42 ..      11      51 ..      10      53 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 66.5 bits;  conditional E-value: 8.1e-21
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     I n+saR++tF+KR+kGL+KK+sELs+LCg++++ i++sp 
+  Medtr3g065100.1 11 IINDSARKATFKKRKKGLMKKVSELSTLCGIDACAIIYSPY 51
+                     88*************************************95 PP
+
+>> Medtr3g031100.1  pacid=31054563 transcript=Medtr3g031100.1 locus=Medtr3g031100 ID=Medtr3g031100.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.6   0.0   1.6e-20   5.6e-18       1      42 [.      10      51 ..      10      58 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 65.6 bits;  conditional E-value: 1.6e-20
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     +I nks+R++tF KR +G++KKA+ELs+LCg+ev+ i+++++
+  Medtr3g031100.1 10 YIINKSKRMATFRKRTEGIMKKANELSTLCGVEVCAIIYGEN 51
+                     689************************************976 PP
+
+>> Medtr1g114730.1  pacid=31096483 transcript=Medtr1g114730.1 locus=Medtr1g114730 ID=Medtr1g114730.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.6   0.3   6.4e-20   2.2e-17       2      42 ..      11      51 ..      10      52 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 63.6 bits;  conditional E-value: 6.4e-20
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     I+++++R+ tF+KR++GL+KK++E+siLC+++v+v+++ p+
+  Medtr1g114730.1 11 IQKEKSRKSTFQKRKDGLMKKVNEFSILCDVDVCVVLYAPN 51
+                     99************************************986 PP
+
+>> Medtr6g005440.1  pacid=31104433 transcript=Medtr6g005440.1 locus=Medtr6g005440 ID=Medtr6g005440.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.7   0.1   2.6e-19   9.3e-17       2      42 ..      11      51 ..      10      54 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 61.7 bits;  conditional E-value: 2.6e-19
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     I+++++R++t +KR++GL+KKA+E+siLC+++v++i++ p+
+  Medtr6g005440.1 11 IQKERSRKITLQKRKDGLIKKAKEFSILCDVDVCLILYAPN 51
+                     99************************************997 PP
+
+>> Medtr4g028800.1  pacid=31107796 transcript=Medtr4g028800.1 locus=Medtr4g028800 ID=Medtr4g028800.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.4   0.0   3.1e-19   1.1e-16       6      41 ..      13      48 ..      12      51 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 61.4 bits;  conditional E-value: 3.1e-19
+           SRF-TF  6 saRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     +aR++t++KR+kGLfKK++ELs+LCg+e++ iv++p
+  Medtr4g028800.1 13 NARKTTYNKRQKGLFKKVYELSTLCGVEACAIVYGP 48
+                     79********************************98 PP
+
+>> Medtr3g067910.1  pacid=31059536 transcript=Medtr3g067910.1 locus=Medtr3g067910 ID=Medtr3g067910.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.8   0.1   9.8e-19   3.5e-16       5      48 .]       2      45 ..       1      45 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 59.8 bits;  conditional E-value: 9.8e-19
+           SRF-TF  5 ksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     ks+ qvtF K  +GLfK AsEL++LCga va+i+fs+  k+++f
+  Medtr3g067910.1  2 KSNLQVTFLKLHSGLFKIASELCTLCGAYVALIIFSHGEKVFSF 45
+                     799****************************************9 PP
+
+>> Medtr8g036130.1  pacid=31075647 transcript=Medtr8g036130.1 locus=Medtr8g036130 ID=Medtr8g036130.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.0   0.0   3.7e-18   1.3e-15       2      41 ..      11      50 ..      10      52 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 58.0 bits;  conditional E-value: 3.7e-18
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     I n++aR+vt++KR kGL+KK +ELs+LCg+e++ iv++p
+  Medtr8g036130.1 11 IVNDAARKVTYKKRMKGLLKKIDELSTLCGIEACAIVYGP 50
+                     889***********************************98 PP
+
+>> Medtr2g016210.1  pacid=31067176 transcript=Medtr2g016210.1 locus=Medtr2g016210 ID=Medtr2g016210.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.0   0.1   3.7e-18   1.3e-15       1      43 [.      10      52 ..      10      55 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 58.0 bits;  conditional E-value: 3.7e-18
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                     +I n+s+R+++++KR++GL+KK++E+s+LCg+e++ i+f++++
+  Medtr2g016210.1 10 YIANSSSRKASYKKRKTGLLKKVNEISTLCGIEACAIIFGENN 52
+                     699*************************************987 PP
+
+>> Medtr3g109930.1  pacid=31054520 transcript=Medtr3g109930.1 locus=Medtr3g109930 ID=Medtr3g109930.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.6   0.2   4.8e-18   1.7e-15       5      47 ..      14      56 ..      10      57 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 57.6 bits;  conditional E-value: 4.8e-18
+           SRF-TF  5 ksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47
+                     +++R+ tFsKR+ GLf K+ ELsiLC+a+ a+i+ sp+++l++
+  Medtr3g109930.1 14 SNKRRDTFSKRKLGLFNKVTELSILCNAKTALIITSPNKNLHA 56
+                     689*************************************996 PP
+
+>> Medtr3g466980.1  pacid=31057255 transcript=Medtr3g466980.1 locus=Medtr3g466980 ID=Medtr3g466980.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.8   0.1   8.8e-18   3.1e-15       1      42 [.      10      51 ..      10      53 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 56.8 bits;  conditional E-value: 8.8e-18
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     +I+++++R+ tF+KR++GL+KK +E+s+LCg+e++ i+f+++
+  Medtr3g466980.1 10 YITSDAKRKGTFKKRKNGLIKKIDEISTLCGIEACAIIFDQN 51
+                     699************************************987 PP
+
+>> Medtr4g031910.1  pacid=31106950 transcript=Medtr4g031910.1 locus=Medtr4g031910 ID=Medtr4g031910.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.6   0.0     1e-17   3.5e-15       2      41 ..      11      50 ..      10      53 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 56.6 bits;  conditional E-value: 1e-17
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     I n++aR++t++KR+kGL+KK+ ELs+LCg++++ +v++p
+  Medtr4g031910.1 11 IVNDAARKATYKKRKKGLLKKVAELSTLCGIDACAMVYGP 50
+                     889***********************************98 PP
+
+>> Medtr8g022970.1  pacid=31074301 transcript=Medtr8g022970.1 locus=Medtr8g022970 ID=Medtr8g022970.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.1   0.2   7.3e-18   2.6e-15      11      47 ..      36      72 ..      26      73 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.1 bits;  conditional E-value: 7.3e-18
+           SRF-TF 11 tFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47
+                     tFsKR+ GLf K+ ELsiLC+a+ a+i+ sp+gkly 
+  Medtr8g022970.1 36 TFSKRKLGLFNKVTELSILCNAKTAMIITSPNGKLYV 72
+                     9**********************************96 PP
+
+>> Medtr4g063790.1  pacid=31106508 transcript=Medtr4g063790.1 locus=Medtr4g063790 ID=Medtr4g063790.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.3   0.1   2.6e-17   9.1e-15       1      41 [.      10      50 ..      10      55 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.3 bits;  conditional E-value: 2.6e-17
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     +I+ +s+R++tF KR++G++KK +E+s+LCg+e++ i+  +
+  Medtr4g063790.1 10 YITGDSKRSITFRKRKNGIMKKINEISTLCGVEACAIISEQ 50
+                     58889*******************************99765 PP
+
+>> Medtr1g090783.1  pacid=31097497 transcript=Medtr1g090783.1 locus=Medtr1g090783 ID=Medtr1g090783.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.7   0.2     4e-17   1.4e-14       1      41 [.       9      49 ..       9      54 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 54.7 bits;  conditional E-value: 4e-17
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     +I+n +aR++t++KR+kG++KK+sELs+LCg+ ++ i+ +p
+  Medtr1g090783.1  9 FISNGAARKATYNKRKKGIIKKVSELSTLCGVSACAIISNP 49
+                     5999*********************************9887 PP
+
+>> Medtr3g467080.1  pacid=31056765 transcript=Medtr3g467080.1 locus=Medtr3g467080 ID=Medtr3g467080.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.7   0.1     4e-17   1.4e-14       2      43 ..      11      52 ..      10      57 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 54.7 bits;  conditional E-value: 4e-17
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                     I+ +s+R+ tF KR++G++KK +E+s+LCg+e++ i++ +++
+  Medtr3g467080.1 11 ITCDSKRRMTFRKRKNGIMKKINEISTLCGIEAGAIIYEQNN 52
+                     77799*********************************9876 PP
+
+>> Medtr1g090697.1  pacid=31095514 transcript=Medtr1g090697.1 locus=Medtr1g090697 ID=Medtr1g090697.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.2   0.1   5.7e-17     2e-14       1      43 [.      10      52 ..      10      55 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 54.2 bits;  conditional E-value: 5.7e-17
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                     +I++++aR+++F+KR+kGL+KK+ EL +LC++ ++ i+ sp g
+  Medtr1g090697.1 10 FISDNAARKASFNKRKKGLIKKVTELTTLCDIPACAIISSPFG 52
+                     699*************************************976 PP
+
+>> Medtr3g067870.1  pacid=31061284 transcript=Medtr3g067870.1 locus=Medtr3g067870 ID=Medtr3g067870.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.6   0.4   4.4e-17   1.5e-14       3      45 ..      86     128 ..      85     130 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.6 bits;  conditional E-value: 4.4e-17
+           SRF-TF   3 enksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgkl 45 
+                      +++s+ qvtFsKRr+GLfKKAs +++ C a  a+i+fs   k+
+  Medtr3g067870.1  86 SSESNLQVTFSKRRSGLFKKASKFCTRCRAYLALIIFSLGEKV 128
+                      579***********************************87776 PP
+
+>> Medtr1g084950.1  pacid=31100328 transcript=Medtr1g084950.1 locus=Medtr1g084950 ID=Medtr1g084950.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   0.2     9e-17   3.2e-14       1      41 [.      10      50 ..      10      57 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 9e-17
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     +I+++saR++t++KR+kG++KK+sEL iLCg+ ++ i+ +p
+  Medtr1g084950.1 10 FISDDSARKATYKKRKKGIIKKVSELTILCGIPACAIISNP 50
+                     69***********************************9887 PP
+
+>> Medtr3g031240.1  pacid=31055801 transcript=Medtr3g031240.1 locus=Medtr3g031240 ID=Medtr3g031240.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.4   0.1   9.9e-17   3.5e-14       1      42 [.      10      51 ..      10      54 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 53.4 bits;  conditional E-value: 9.9e-17
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     +I+n+s+R+ tF +R++G++K+ +ELsiLCg+e++ i+ +++
+  Medtr3g031240.1 10 YITNNSNRRLTFRRRKNGIMKMIKELSILCGIEACAIISDEN 51
+                     69***********************************98876 PP
+
+>> Medtr5g047580.1  pacid=31090527 transcript=Medtr5g047580.1 locus=Medtr5g047580 ID=Medtr5g047580.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.2   0.2   1.2e-16   4.2e-14       1      41 [.      10      50 ..      10      56 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 53.2 bits;  conditional E-value: 1.2e-16
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     +I+n+saR++t++KR+kG++KK++EL iLCg+ ++ i+ +p
+  Medtr5g047580.1 10 FISNDSARKATYNKRKKGIIKKVRELTILCGIPACAIISNP 50
+                     69***********************************9876 PP
+
+>> Medtr4g032260.1  pacid=31114068 transcript=Medtr4g032260.1 locus=Medtr4g032260 ID=Medtr4g032260.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.7   0.1   1.7e-16   5.9e-14       2      41 ..      11      50 ..      10      52 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 52.7 bits;  conditional E-value: 1.7e-16
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     I n++aR++ ++KR+k LfKK+ ELs+LCg+e++ iv++p
+  Medtr4g032260.1 11 IVNDAARKAAYKKRKKSLFKKVVELSTLCGIEACAIVYGP 50
+                     889***********************************98 PP
+
+>> Medtr1g090710.1  pacid=31100747 transcript=Medtr1g090710.1 locus=Medtr1g090710 ID=Medtr1g090710.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.6   0.0   1.8e-16   6.4e-14       2      41 ..      11      50 ..      10      55 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 52.6 bits;  conditional E-value: 1.8e-16
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     I ++saR+++++KR+kGL+KK+sEL iLC++ ++ i+ sp
+  Medtr1g090710.1 11 IPDDSARKASYNKRKKGLLKKVSELTILCDVPACAIISSP 50
+                     789**********************************998 PP
+
+>> Medtr2g035580.1  pacid=31068917 transcript=Medtr2g035580.1 locus=Medtr2g035580 ID=Medtr2g035580.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.4   0.0   4.1e-16   1.4e-13       1      43 [.      10      52 ..      10      56 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 51.4 bits;  conditional E-value: 4.1e-16
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                     +I ++ +R++tF+KR++G+ KK +E+ +LCg++++ i++++++
+  Medtr2g035580.1 10 YIADDLKRKTTFNKRKHGITKKINEITTLCGIDACGIIYDENN 52
+                     6999***********************************9997 PP
+
+>> Medtr4g051538.1  pacid=31111938 transcript=Medtr4g051538.1 locus=Medtr4g051538 ID=Medtr4g051538.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.7   0.0   3.3e-16   1.2e-13       1      48 []      17      64 ..      17      64 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 51.7 bits;  conditional E-value: 3.3e-16
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     kIe+k+   v F+ R++G+f KAsEL +L+ga v +++ sptgk++ +
+  Medtr4g051538.1 17 KIEKKDDLFVAFTTRKSGIFNKASELTTLTGASVDILMLSPTGKPFCY 64
+                     7********************************************976 PP
+
+>> Medtr4g032620.1  pacid=31114179 transcript=Medtr4g032620.1 locus=Medtr4g032620 ID=Medtr4g032620.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.7   0.0   7.1e-16   2.5e-13       2      41 ..      11      50 ..      10      52 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 50.7 bits;  conditional E-value: 7.1e-16
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     I n+++R++t+++R  GL+KK++ELs+LCg+e++ iv++p
+  Medtr4g032620.1 11 IVNDASRKATYNNRWRGLLKKVYELSTLCGVEACAIVYGP 50
+                     889***********************************98 PP
+
+>> Medtr2g035610.1  pacid=31063711 transcript=Medtr2g035610.1 locus=Medtr2g035610 ID=Medtr2g035610.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.0   0.0   1.2e-15   4.1e-13       2      42 ..      11      51 ..      10      53 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 50.0 bits;  conditional E-value: 1.2e-15
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     I n++a ++t++KR++ L+KK++ELs+LCg+e++ iv +p+
+  Medtr2g035610.1 11 IVNDAAQKATYKKRKNNLLKKVDELSTLCGIEACAIVQGPH 51
+                     889**********************************8875 PP
+
+>> Medtr4g032290.1  pacid=31113392 transcript=Medtr4g032290.1 locus=Medtr4g032290 ID=Medtr4g032290.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.8   0.1   1.4e-15   4.8e-13       2      41 ..      11      50 ..      10      52 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 49.8 bits;  conditional E-value: 1.4e-15
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     I n++aR++ ++KR+k LfKK+ ELs+LCg+e++ i+++p
+  Medtr4g032290.1 11 IVNDAARKAAYKKRKKSLFKKVVELSTLCGIEACAILYGP 50
+                     889***********************************98 PP
+
+>> Medtr3g466830.1  pacid=31056391 transcript=Medtr3g466830.1 locus=Medtr3g466830 ID=Medtr3g466830.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.8   0.1   2.9e-15     1e-12       4      41 ..      12      49 ..       9      53 .. 0.95
+   2 ?   -0.4   0.1       6.5   2.3e+03      19      28 ..     148     157 ..     144     158 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 48.8 bits;  conditional E-value: 2.9e-15
+           SRF-TF  4 nksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     ++saR++t++KR++ L+KK++EL +LCg++ + iv+s+
+  Medtr3g466830.1 12 SDSARKITYNKRKTSLIKKVNELTTLCGIDGCAIVYSE 49
+                     689*********************************96 PP
+
+  == domain 2  score: -0.4 bits;  conditional E-value: 6.5
+           SRF-TF  19 LfKKAsELsi 28 
+                      +  KA+EL +
+  Medtr3g466830.1 148 ITSKANELDT 157
+                      667****965 PP
+
+>> Medtr4g028720.1  pacid=31106678 transcript=Medtr4g028720.1 locus=Medtr4g028720 ID=Medtr4g028720.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.3   0.2   1.9e-15   6.5e-13       1      41 [.      10      50 ..      10      55 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 49.3 bits;  conditional E-value: 1.9e-15
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     +I+n+s R++t+++R+kG++KK++EL iLCg+ ++ i+ +p
+  Medtr4g028720.1 10 FISNDSTRKATYKRRKKGIIKKVRELTILCGIPACAIISDP 50
+                     69***********************************9876 PP
+
+>> Medtr1g077390.1  pacid=31093838 transcript=Medtr1g077390.1 locus=Medtr1g077390 ID=Medtr1g077390.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   0.1   2.1e-15   7.2e-13       2      41 ..      11      50 ..      10      56 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 2.1e-15
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     I n+saR+ t++KR+kG++KK++EL +LC++ ++ i+ +p
+  Medtr1g077390.1 11 ILNDSARKRTYNKRKKGIIKKVRELTTLCDIPACAIISNP 50
+                     88**********************************9887 PP
+
+>> Medtr1g077300.1  pacid=31095667 transcript=Medtr1g077300.1 locus=Medtr1g077300 ID=Medtr1g077300.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.0   0.3   2.4e-15   8.5e-13       1      41 [.      10      50 ..      10      55 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 49.0 bits;  conditional E-value: 2.4e-15
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     +I+n s+R+ t++KR+kG++KK++EL iLCg+ ++ i+ +p
+  Medtr1g077300.1 10 FISNASRRKETYKKRKKGIIKKVRELTILCGIPACAIISDP 50
+                     69***********************************9876 PP
+
+>> Medtr3g437790.1  pacid=31055667 transcript=Medtr3g437790.1 locus=Medtr3g437790 ID=Medtr3g437790.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.6   0.1   3.1e-15   1.1e-12       2      47 ..      22      68 ..      21      69 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 48.6 bits;  conditional E-value: 3.1e-15
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfs.ptgklyt 47
+                     I+++++ + tFsK + G+f KA ELsiLC +e a+iv+s + +kly+
+  Medtr3g437790.1 22 IKKDEKPNMTFSKQKLGIFNKAIELSILCESETALIVISpDENKLYE 68
+                     8999999********************************44678886 PP
+
+>> Medtr5g075380.1  pacid=31086008 transcript=Medtr5g075380.1 locus=Medtr5g075380 ID=Medtr5g075380.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   0.1   2.2e-15   7.7e-13       1      42 [.      10      51 ..      10      53 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 2.2e-15
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     +I+n +aR++t++KR + L+KK +E+ +LCg++++ ivf p+
+  Medtr5g075380.1 10 FITNHTARRATYKKRVQSLMKKLNEITTLCGVKACGIVFKPD 51
+                     699************************************997 PP
+
+>> Medtr3g466890.1  pacid=31058250 transcript=Medtr3g466890.1 locus=Medtr3g466890 ID=Medtr3g466890.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.0   0.0   4.9e-15   1.7e-12       4      40 ..      12      48 ..       9      54 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 48.0 bits;  conditional E-value: 4.9e-15
+           SRF-TF  4 nksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfs 40
+                     n+saR++t++KR+k L K+++EL +LCg++v+ i++s
+  Medtr3g466890.1 12 NDSARKITYNKRKKSLKKMVDELITLCGIDVCAILYS 48
+                     99**********************************9 PP
+
+>> Medtr6g005450.1  pacid=31102721 transcript=Medtr6g005450.1 locus=Medtr6g005450 ID=Medtr6g005450.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.0   0.1     2e-14   7.1e-12       1      42 [.      10      51 ..      10      54 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 46.0 bits;  conditional E-value: 2e-14
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     +I+++++R+++ + R+ GL+ K++ELsiLC+++++vi++ p+
+  Medtr6g005450.1 10 FIQKEKSRKISLQTRKIGLMTKVEELSILCDVDACVILYAPN 51
+                     699************************************997 PP
+
+>> Medtr4g019670.1  pacid=31108529 transcript=Medtr4g019670.1 locus=Medtr4g019670 ID=Medtr4g019670.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.6   0.1   2.7e-14   9.5e-12       2      43 ..      14      55 ..      13      58 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 45.6 bits;  conditional E-value: 2.7e-14
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                     Ienk++R++++++R kGLf K +   iLCg+e++ ivf+p++
+  Medtr4g019670.1 14 IENKTRRKACYKRRLKGLFTKIEHMTILCGIEACAIVFGPSD 55
+                     9*************************************9975 PP
+
+>> Medtr1g077320.1  pacid=31099833 transcript=Medtr1g077320.1 locus=Medtr1g077320 ID=Medtr1g077320.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.2   0.2   3.6e-14   1.3e-11       2      41 ..      11      50 ..      10      55 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 45.2 bits;  conditional E-value: 3.6e-14
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     ++n+saR+++++KR+k ++KK++EL iLCg+ ++ i+ +p
+  Medtr1g077320.1 11 MSNDSARKASYKKRKKSIIKKVRELTILCGIPACAIISDP 50
+                     78**********************************9876 PP
+
+>> Medtr7g011950.1  pacid=31081346 transcript=Medtr7g011950.1 locus=Medtr7g011950 ID=Medtr7g011950.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.9   0.3   4.5e-14   1.6e-11       2      41 ..      11      50 ..      10      55 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 44.9 bits;  conditional E-value: 4.5e-14
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     I n+s R+++++KR+k+++KK++EL iLCg+ ++ i+ +p
+  Medtr7g011950.1 11 IINDSTRKASYKKRKKTIIKKVRELTILCGIPACAIISDP 50
+                     88**********************************9876 PP
+
+>> Medtr2g049610.1  pacid=31063706 transcript=Medtr2g049610.1 locus=Medtr2g049610 ID=Medtr2g049610.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.8   0.0   8.9e-13   3.1e-10       2      48 .]      11      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 40.8 bits;  conditional E-value: 8.9e-13
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                     I++ +aR+ +F+ R +GL KK+sE+s   g+e+++iv++ +g+l t+
+  Medtr2g049610.1 11 IQDWKARKSSFNQRSNGLAKKVSEFSSKFGVEACLIVYDGDGRLLTW 57
+                     88999***************************************998 PP
+
+>> Medtr7g106510.1  pacid=31079821 transcript=Medtr7g106510.1 locus=Medtr7g106510 ID=Medtr7g106510.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.4   0.0   1.1e-12     4e-10       2      42 ..      14      54 ..      13      58 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 40.4 bits;  conditional E-value: 1.1e-12
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     Ien+++R++ +++R kGLf K++   iLCg+e++ +vf+p 
+  Medtr7g106510.1 14 IENNTRRKAVYKRRLKGLFTKMKHVTILCGIEACAVVFGPG 54
+                     9*************************************996 PP
+
+>> Medtr4g107170.1  pacid=31112340 transcript=Medtr4g107170.1 locus=Medtr4g107170 ID=Medtr4g107170.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3   0.1   1.1e-11   3.9e-09       1      42 [.      10      51 ..      10      57 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 37.3 bits;  conditional E-value: 1.1e-11
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     +I++ ++R++tF+ R++GL KK sE++   ga++++iv++ +
+  Medtr4g107170.1 10 YIQSAKSRKITFKQRKQGLEKKISEFCKKSGAKACFIVYDGD 51
+                     699************************************744 PP
+
+>> Medtr3g093900.1  pacid=31056152 transcript=Medtr3g093900.1 locus=Medtr3g093900 ID=Medtr3g093900.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.8   0.0   1.6e-11   5.5e-09       2      42 ..      14      54 ..      13      59 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 36.8 bits;  conditional E-value: 1.6e-11
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                     Ien ++R++ + +R +GLf K+++  +LCg+e++ ivf+p 
+  Medtr3g093900.1 14 IENATQRKIRYMNRVEGLFTKMEQVKTLCGIEACAIVFGPG 54
+                     9*************************************996 PP
+
+>> Medtr3g014350.1  pacid=31060625 transcript=Medtr3g014350.1 locus=Medtr3g014350 ID=Medtr3g014350.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2   0.1   2.3e-11   8.2e-09      16      39 ..      20      43 ..      20      48 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 36.2 bits;  conditional E-value: 2.3e-11
+           SRF-TF 16 rkGLfKKAsELsiLCgaevavivf 39
+                     r+GL+KKA++Ls LC+aev +i+f
+  Medtr3g014350.1 20 RNGLLKKANDLSFLCDAEVSIILF 43
+                     89********************99 PP
+
+>> Medtr2g045020.1  pacid=31067251 transcript=Medtr2g045020.1 locus=Medtr2g045020 ID=Medtr2g045020.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.6   0.1   1.6e-10   5.5e-08      15      44 ..      37      66 ..      35      71 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 33.6 bits;  conditional E-value: 1.6e-10
+           SRF-TF 15 RrkGLfKKAsELsiLCgaevavivfsptgk 44
+                     Rr G+f KA ELsiLC+++ a+iv sp+++
+  Medtr2g045020.1 37 RRLGIFNKAIELSILCQSKTAIIVKSPNKN 66
+                     9*************************8754 PP
+
+>> Medtr2g049630.1  pacid=31064504 transcript=Medtr2g049630.1 locus=Medtr2g049630 ID=Medtr2g049630.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.6   0.0   6.3e-10   2.2e-07       1      41 [.      12      52 ..      12      60 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 31.6 bits;  conditional E-value: 6.3e-10
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                     +I++++aR+  F+ R + L KK+s+Ls   g+e+++iv++ 
+  Medtr2g049630.1 12 PIQDERARKFAFNQRNNNLAKKVSDLSRKFGVEACLIVYDG 52
+                     59*************************************74 PP
+
+>> Medtr4g045977.1  pacid=31114436 transcript=Medtr4g045977.1 locus=Medtr4g045977 ID=Medtr4g045977.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4   0.3   3.8e-10   1.3e-07       1      44 [.      10      53 ..      10      55 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 32.4 bits;  conditional E-value: 3.8e-10
+           SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgk 44
+                     +I+n ++R++ F+ R++GL +K s +   +ga +++iv++++g+
+  Medtr4g045977.1 10 YIQNVKSRKTAFKERKNGLARKLSKFVSKTGARACLIVYDEDGN 53
+                     69**************************************9996 PP
+
+>> Medtr7g055790.1  pacid=31080482 transcript=Medtr7g055790.1 locus=Medtr7g055790 ID=Medtr7g055790.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.5   0.5   3.4e-10   1.2e-07       4      34 ..      71     101 ..      70     102 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 32.5 bits;  conditional E-value: 3.4e-10
+           SRF-TF   4 nksaRqvtFsKRrkGLfKKAsELsiLCgaev 34 
+                      n++aR+ t++K +kGL+ K++ELsiLC +ev
+  Medtr7g055790.1  71 NDAARKETYKKTKKGLLNKVEELSILCRIEV 101
+                      899**************************98 PP
+
+>> Medtr2g049530.1  pacid=31066746 transcript=Medtr2g049530.1 locus=Medtr2g049530 ID=Medtr2g049530.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.6   0.1   1.3e-09   4.7e-07       2      44 ..      13      55 ..      12      60 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 30.6 bits;  conditional E-value: 1.3e-09
+           SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgk 44
+                     I++k+aR+  F+ R k L KK+s +s   g+e+++iv++ +g+
+  Medtr2g049530.1 13 IQDKRARKLAFNHRSKRLAKKVSKFSNKFGVEACLIVYDGSGE 55
+                     9*************************************77664 PP
+
+>> Medtr0061s0010.1  pacid=31069283 transcript=Medtr0061s0010.1 locus=Medtr0061s0010 ID=Medtr0061s0010.1.JCVIMt4.0v1 ann
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   0.1   2.8e-09   9.7e-07      20      42 ..       1      23 [.       1      26 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 29.6 bits;  conditional E-value: 2.8e-09
+            SRF-TF 20 fKKAsELsiLCgaevavivfspt 42
+                      +KK++E+siLC+++v+v+++ p+
+  Medtr0061s0010.1  1 MKKVNEFSILCNVDVCVVLYAPN 23
+                      8*******************997 PP
+
+>> Medtr5g061740.1  pacid=31087470 transcript=Medtr5g061740.1 locus=Medtr5g061740 ID=Medtr5g061740.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   0.0       5.1   1.8e+03       1       9 [.      10      18 ..      10      18 .. 0.94
+   2 !   27.3   0.0   1.5e-08   5.1e-06      24      48 .]      17      41 ..      14      41 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -0.1 bits;  conditional E-value: 5.1
+           SRF-TF  1 kIenksaRq 9 
+                     +Ien ++Rq
+  Medtr5g061740.1 10 RIENTTNRQ 18
+                     7*******8 PP
+
+  == domain 2  score: 27.3 bits;  conditional E-value: 1.5e-08
+           SRF-TF 24 sELsiLCgaevavivfsptgklytf 48
+                     ++LsiLC++++a+i+fsp+++l +f
+  Medtr5g061740.1 17 RQLSILCDIDIALIMFSPSKRLSHF 41
+                     58*******************9876 PP
+
+>> Medtr5g024430.1  pacid=31087859 transcript=Medtr5g024430.1 locus=Medtr5g024430 ID=Medtr5g024430.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   0.0   1.3e-07   4.6e-05      17      41 ..      48      72 ..      47      77 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 1.3e-07
+           SRF-TF 17 kGLfKKAsELsiLCgaevavivfsp 41
+                     kG++KK++ELs+  g++++ i++++
+  Medtr5g024430.1 48 KGIIKKMNELSTVSGIDACAIIYDK 72
+                     8*********************985 PP
+
+>> Medtr7g055940.1  pacid=31083776 transcript=Medtr7g055940.1 locus=Medtr7g055940 ID=Medtr7g055940.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.6   0.0   4.2e-07   0.00015      22      41 ..      18      37 ..      17      39 .. 0.93
+   2 ?    0.1   0.1       4.6   1.6e+03       4      22 ..      53      71 ..      51      72 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 22.6 bits;  conditional E-value: 4.2e-07
+           SRF-TF 22 KAsELsiLCgaevavivfsp 41
+                     K +ELs+LCg+e++ i+++p
+  Medtr7g055940.1 18 KFDELSTLCGIEACAIMYGP 37
+                     889***************98 PP
+
+  == domain 2  score: 0.1 bits;  conditional E-value: 4.6
+           SRF-TF  4 nksaRqvtFsKRrkGLfKK 22
+                     +k a q tF K    + KK
+  Medtr7g055940.1 53 SKMANQETFMKQSVMMAKK 71
+                     5678899999976655555 PP
+
+>> Medtr7g055800.1  pacid=31078204 transcript=Medtr7g055800.1 locus=Medtr7g055800 ID=Medtr7g055800.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   0.0   5.5e-07   0.00019      22      41 ..      18      37 ..      17      39 .. 0.93
+   2 ?    0.1   0.1       4.6   1.6e+03       4      22 ..      53      71 ..      51      72 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 22.2 bits;  conditional E-value: 5.5e-07
+           SRF-TF 22 KAsELsiLCgaevavivfsp 41
+                     K +ELs+LCg+e++ i+++p
+  Medtr7g055800.1 18 KFDELSTLCGIEACAIMYGP 37
+                     889***************98 PP
+
+  == domain 2  score: 0.1 bits;  conditional E-value: 4.6
+           SRF-TF  4 nksaRqvtFsKRrkGLfKK 22
+                     +k a q tF K    + KK
+  Medtr7g055800.1 53 SKMANQETFMKQSVMMAKK 71
+                     6778999**9976655555 PP
+
+>> Medtr3g465410.1  pacid=31053612 transcript=Medtr3g465410.1 locus=Medtr3g465410 ID=Medtr3g465410.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.5   0.0   2.2e-07   7.9e-05      20      43 ..       1      24 [.       1      28 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 23.5 bits;  conditional E-value: 2.2e-07
+           SRF-TF 20 fKKAsELsiLCgaevavivfsptg 43
+                     +KK +E+s+LCg+e++ i+  +++
+  Medtr3g465410.1  1 MKKINEISTLCGVEACAIISEQNN 24
+                     8*****************987665 PP
+
+>> Medtr3g466930.1  pacid=31056399 transcript=Medtr3g466930.1 locus=Medtr3g466930 ID=Medtr3g466930.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.4   0.2     2e-06   0.00071      23      41 ..       2      20 ..       1      23 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 20.4 bits;  conditional E-value: 2e-06
+           SRF-TF 23 AsELsiLCgaevavivfsp 41
+                     ++EL +LCg++v+ i+fs+
+  Medtr3g466930.1  2 VDELTTLCGIDVCAILFSE 20
+                     58***************96 PP
+
+>> Medtr3g466900.1  pacid=31060914 transcript=Medtr3g466900.1 locus=Medtr3g466900 ID=Medtr3g466900.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.2   0.2     5e-06    0.0018      23      41 ..       2      20 ..       1      24 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 19.2 bits;  conditional E-value: 5e-06
+           SRF-TF 23 AsELsiLCgaevavivfsp 41
+                     ++EL +LCg++v+ i++s+
+  Medtr3g466900.1  2 VDELTTLCGIDVCAILYSE 20
+                     58***************96 PP
+
+>> Medtr5g047560.1  pacid=31090853 transcript=Medtr5g047560.1 locus=Medtr5g047560 ID=Medtr5g047560.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.2   0.00096      0.34       1      17 [.      10      26 ..      10      27 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00096
+           SRF-TF  1 kIenksaRqvtFsKRrk 17
+                     +I+n+saR++t++KR k
+  Medtr5g047560.1 10 FISNDSARKATYNKREK 26
+                     69*************86 PP
+
+>> Medtr4g089080.1  pacid=31111619 transcript=Medtr4g089080.1 locus=Medtr4g089080 ID=Medtr4g089080.1.JCVIMt4.0v1 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.5   0.3      0.38   1.3e+02      16      28 ..      90     102 ..      76     106 .. 0.81
+   2 ?    6.2   0.6     0.055        19      16      29 ..     109     122 ..     109     125 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 3.5 bits;  conditional E-value: 0.38
+           SRF-TF  16 rkGLfKKAsELsi 28 
+                      ++GL+ KA+E+ +
+  Medtr4g089080.1  90 KAGLLSKAEEFGV 102
+                      89********976 PP
+
+  == domain 2  score: 6.2 bits;  conditional E-value: 0.055
+           SRF-TF  16 rkGLfKKAsELsiL 29 
+                      + GLf KA+EL  L
+  Medtr4g089080.1 109 KLGLFSKAEELGLL 122
+                      569********887 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (48 nodes)
+Target sequences:                      50894  (16709164 residues searched)
+Passed MSV filter:                      1369  (0.026899); expected 1017.9 (0.02)
+Passed bias filter:                     1128  (0.0221637); expected 1017.9 (0.02)
+Passed Vit filter:                       199  (0.00391009); expected 50.9 (0.001)
+Passed Fwd filter:                       145  (0.00284906); expected 0.5 (1e-05)
+Initial search space (Z):              50894  [actual number of targets]
+Domain search space  (domZ):             145  [number of targets reported over threshold]
+# CPU time: 0.17u 0.01s 00:00:00.18 Elapsed: 00:00:00.11
+# Mc/sec: 6756.03
+//
+[ok]

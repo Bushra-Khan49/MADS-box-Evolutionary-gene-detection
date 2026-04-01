@@ -1,0 +1,27 @@
+Error executing command: megacc -a /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/nj_tree_100.mao -d /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_aligned.meg -o /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Amborella_trichopoda/NJ_Tree
+Stderr: 
+Error executing command: megacc -a /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/nj_tree_100.mao -d /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Cinnamomum_kanehirae/Cinnamomum_kanehirae_aligned.meg -o /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Cinnamomum_kanehirae/NJ_Tree
+Stderr: 
+Error executing command: megacc -a /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/nj_tree_100.mao -d /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Glycine_max/Glycine_max_aligned.meg -o /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Glycine_max/NJ_Tree
+Stderr: 
+Error executing command: megacc -a /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/nj_tree_100.mao -d /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Helianthus_annuuss/Helianthus_annuuss_aligned.meg -o /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Helianthus_annuuss/NJ_Tree
+Stderr: 
+Error executing command: megacc -a /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/nj_tree_100.mao -d /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Medicago_truncatula/Medicago_truncatula_aligned.meg -o /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Medicago_truncatula/NJ_Tree
+Stderr: 
+Error executing command: megacc -a /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/nj_tree_100.mao -d /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Nelumbo_nucifera/Nelumbo_nucifera_aligned.meg -o /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Nelumbo_nucifera/NJ_Tree
+Stderr: 
+Error executing command: megacc -a /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/nj_tree_100.mao -d /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Nymphaea_colorata/Nymphaea_colorata_aligned.meg -o /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Nymphaea_colorata/NJ_Tree
+Stderr: 
+Error executing command: megacc -a /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/nj_tree_100.mao -d /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Oryza_sativa/Oryza_sativa_aligned.meg -o /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Oryza_sativa/NJ_Tree
+Stderr: 
+Error executing command: megacc -a /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/nj_tree_100.mao -d /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Prunus_persica/Prunus_persica_aligned.meg -o /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Prunus_persica/NJ_Tree
+Stderr: 
+--- Building individual tree for Amborella_trichopoda ---
+--- Building individual tree for Cinnamomum_kanehirae ---
+--- Building individual tree for Glycine_max ---
+--- Building individual tree for Helianthus_annuuss ---
+--- Building individual tree for Medicago_truncatula ---
+--- Building individual tree for Nelumbo_nucifera ---
+--- Building individual tree for Nymphaea_colorata ---
+--- Building individual tree for Oryza_sativa ---
+--- Building individual tree for Prunus_persica ---

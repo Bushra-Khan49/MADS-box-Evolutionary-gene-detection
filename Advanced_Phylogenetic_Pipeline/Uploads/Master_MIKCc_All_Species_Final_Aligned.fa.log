@@ -1,0 +1,908 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Master_MIKCc_All_Species_Final_Aligned.fa -m LG+G -bb 1000 -T 4 --redo
+Seed:    230794 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Mar 29 17:44:11 2026
+Kernel:  SSE2 - 4 threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Master_MIKCc_All_Species_Final_Aligned.fa ... Fasta format detected
+Reading fasta file: done in 0.0207622 secs using 92.94% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00953412 secs using 327% CPU
+Alignment has 533 sequences with 1383 columns, 1178 distinct patterns
+592 parsimony-informative, 364 singleton sites, 427 constant sites
+WARNING: Some sequence names are changed as follows:
+AT2G45650.1|PACid:19638787_10_57 -> AT2G45650.1|PACid_19638787_10_57
+AT4G11880.1|PACid:19643844_10_57 -> AT4G11880.1|PACid_19643844_10_57
+AT4G09960.1|PACid:19648309_10_57 -> AT4G09960.1|PACid_19648309_10_57
+AT4G09960.4|PACid:19648308_10_57 -> AT4G09960.4|PACid_19648308_10_57
+AT4G18960.1|PACid:19647337_26_73 -> AT4G18960.1|PACid_19647337_26_73
+AT4G09960.3|PACid:19648307_36_83 -> AT4G09960.3|PACid_19648307_36_83
+AT4G09960.2|PACid:19648310_10_57 -> AT4G09960.2|PACid_19648310_10_57
+AT2G45660.1|PACid:19641052_10_57 -> AT2G45660.1|PACid_19641052_10_57
+AT4G22950.1|PACid:19647692_10_57 -> AT4G22950.1|PACid_19647692_10_57
+AT4G22950.1|PACid:19647692_94_105 -> AT4G22950.1|PACid_19647692_94_105
+AT1G24260.3|PACid:19651405_10_57 -> AT1G24260.3|PACid_19651405_10_57
+AT5G15800.1|PACid:19670123_10_57 -> AT5G15800.1|PACid_19670123_10_57
+AT1G24260.1|PACid:19651404_10_57 -> AT1G24260.1|PACid_19651404_10_57
+AT1G24260.2|PACid:19651403_10_57 -> AT1G24260.2|PACid_19651403_10_57
+AT5G15800.2|PACid:19670122_10_57 -> AT5G15800.2|PACid_19670122_10_57
+AT2G22540.1|PACid:19641563_10_57 -> AT2G22540.1|PACid_19641563_10_57
+AT3G57390.1|PACid:19659472_10_57 -> AT3G57390.1|PACid_19659472_10_57
+AT5G13790.1|PACid:19669343_10_57 -> AT5G13790.1|PACid_19669343_10_57
+AT5G51870.2|PACid:19672301_10_57 -> AT5G51870.2|PACid_19672301_10_57
+AT5G51870.1|PACid:19672300_10_57 -> AT5G51870.1|PACid_19672300_10_57
+AT5G51870.3|PACid:19672299_10_57 -> AT5G51870.3|PACid_19672299_10_57
+AT3G58780.2|PACid:19662660_25_72 -> AT3G58780.2|PACid_19662660_25_72
+AT2G42830.1|PACid:19643528_25_72 -> AT2G42830.1|PACid_19643528_25_72
+AT3G58780.1|PACid:19662659_25_72 -> AT3G58780.1|PACid_19662659_25_72
+AT2G42830.2|PACid:19643527_25_72 -> AT2G42830.2|PACid_19643527_25_72
+AT3G58780.3|PACid:19662658_25_72 -> AT3G58780.3|PACid_19662658_25_72
+AT3G02310.1|PACid:19661943_10_57 -> AT3G02310.1|PACid_19661943_10_57
+AT2G14210.1|PACid:19638394_10_57 -> AT2G14210.1|PACid_19638394_10_57
+AT2G03710.3|PACid:19640310_10_57 -> AT2G03710.3|PACid_19640310_10_57
+AT1G69120.1|PACid:19653480_10_57 -> AT1G69120.1|PACid_19653480_10_57
+AT5G60910.1|PACid:19670614_10_57 -> AT5G60910.1|PACid_19670614_10_57
+AT5G51860.2|PACid:19671372_10_57 -> AT5G51860.2|PACid_19671372_10_57
+AT5G51860.1|PACid:19671371_10_57 -> AT5G51860.1|PACid_19671371_10_57
+AT2G03710.2|PACid:19640309_10_57 -> AT2G03710.2|PACid_19640309_10_57
+AT2G03710.1|PACid:19640308_10_57 -> AT2G03710.1|PACid_19640308_10_57
+AT3G30260.1|PACid:19662130_10_57 -> AT3G30260.1|PACid_19662130_10_57
+AT2G24840.1|PACid:19642372_71_118 -> AT2G24840.1|PACid_19642372_71_118
+AT2G22540.2|PACid:19641564_10_55 -> AT2G22540.2|PACid_19641564_10_55
+AT3G57230.1|PACid:19665060_10_57 -> AT3G57230.1|PACid_19665060_10_57
+AT3G57230.2|PACid:19665061_10_57 -> AT3G57230.2|PACid_19665061_10_57
+AT4G37940.1|PACid:19644309_10_57 -> AT4G37940.1|PACid_19644309_10_57
+AT4G24540.1|PACid:19648389_10_57 -> AT4G24540.1|PACid_19648389_10_57
+AT3G61120.1|PACid:19662463_10_57 -> AT3G61120.1|PACid_19662463_10_57
+AT3G54340.1|PACid:19659884_10_57 -> AT3G54340.1|PACid_19659884_10_57
+AT1G26310.1|PACid:19650942_10_57 -> AT1G26310.1|PACid_19650942_10_57
+AT1G22130.1|PACid:19651829_10_55 -> AT1G22130.1|PACid_19651829_10_55
+AT5G62165.4|PACid:19672598_10_57 -> AT5G62165.4|PACid_19672598_10_57
+AT5G60440.1|PACid:19665878_15_62 -> AT5G60440.1|PACid_19665878_15_62
+AT5G62165.1|PACid:19672595_10_57 -> AT5G62165.1|PACid_19672595_10_57
+AT5G62165.2|PACid:19672596_10_57 -> AT5G62165.2|PACid_19672596_10_57
+AT5G62165.3|PACid:19672597_10_57 -> AT5G62165.3|PACid_19672597_10_57
+AT2G22630.1|PACid:19642313_10_57 -> AT2G22630.1|PACid_19642313_10_57
+AT1G77980.1|PACid:19650219_10_55 -> AT1G77980.1|PACid_19650219_10_55
+AT1G71692.1|PACid:19653064_10_56 -> AT1G71692.1|PACid_19653064_10_56
+AT1G01530.1|PACid:19655032_15_62 -> AT1G01530.1|PACid_19655032_15_62
+AT1G65360.1|PACid:19652033_15_62 -> AT1G65360.1|PACid_19652033_15_62
+AT5G10140.2|PACid:19672042_10_57 -> AT5G10140.2|PACid_19672042_10_57
+AT5G10140.4|PACid:19672041_10_57 -> AT5G10140.4|PACid_19672041_10_57
+AT5G10140.3|PACid:19672040_10_57 -> AT5G10140.3|PACid_19672040_10_57
+AT5G10140.1|PACid:19672039_10_57 -> AT5G10140.1|PACid_19672039_10_57
+AT3G66656.1|PACid:19662106_10_57 -> AT3G66656.1|PACid_19662106_10_57
+AT5G23260.2|PACid:19667542_10_57 -> AT5G23260.2|PACid_19667542_10_57
+AT5G23260.3|PACid:19667544_10_57 -> AT5G23260.3|PACid_19667544_10_57
+AT5G23260.1|PACid:19667543_10_57 -> AT5G23260.1|PACid_19667543_10_57
+AT4G36590.1|PACid:19644661_15_62 -> AT4G36590.1|PACid_19644661_15_62
+AT2G34440.1|PACid:19639540_12_57 -> AT2G34440.1|PACid_19639540_12_57
+AT5G65070.1|PACid:19666742_10_57 -> AT5G65070.1|PACid_19666742_10_57
+AT1G77950.1|PACid:19656697_10_55 -> AT1G77950.1|PACid_19656697_10_55
+AT1G77950.2|PACid:19656698_10_55 -> AT1G77950.2|PACid_19656698_10_55
+AT5G65070.3|PACid:19666740_10_57 -> AT5G65070.3|PACid_19666740_10_57
+AT5G65070.2|PACid:19666741_10_57 -> AT5G65070.2|PACid_19666741_10_57
+AT1G77080.5|PACid:19652600_10_55 -> AT1G77080.5|PACid_19652600_10_55
+AT1G77080.2|PACid:19652599_10_55 -> AT1G77080.2|PACid_19652599_10_55
+AT1G77080.4|PACid:19652598_10_55 -> AT1G77080.4|PACid_19652598_10_55
+AT5G65080.2|PACid:19670373_10_55 -> AT5G65080.2|PACid_19670373_10_55
+AT1G31140.1|PACid:19657778_10_57 -> AT1G31140.1|PACid_19657778_10_57
+AT1G31140.2|PACid:19657777_10_57 -> AT1G31140.2|PACid_19657777_10_57
+AT5G65080.1|PACid:19670372_17_62 -> AT5G65080.1|PACid_19670372_17_62
+AT1G47760.1|PACid:19657551_10_57 -> AT1G47760.1|PACid_19657551_10_57
+AT5G20240.1|PACid:19673101_10_57 -> AT5G20240.1|PACid_19673101_10_57
+AT1G18750.1|PACid:19654582_10_57 -> AT1G18750.1|PACid_19654582_10_57
+AT1G72350.1|PACid:19656010_55_98 -> AT1G72350.1|PACid_19656010_55_98
+AT5G65050.2|PACid:19667307_10_55 -> AT5G65050.2|PACid_19667307_10_55
+AT5G65050.1|PACid:19667306_10_55 -> AT5G65050.1|PACid_19667306_10_55
+AT5G65050.3|PACid:19667305_10_55 -> AT5G65050.3|PACid_19667305_10_55
+AT5G65060.2|PACid:19668929_10_55 -> AT5G65060.2|PACid_19668929_10_55
+AT5G65060.1|PACid:19668928_10_55 -> AT5G65060.1|PACid_19668928_10_55
+AT1G17310.1|PACid:19656321_56_103 -> AT1G17310.1|PACid_19656321_56_103
+AT1G28460.1|PACid:19649164_16_63 -> AT1G28460.1|PACid_19649164_16_63
+AT2G03060.2|PACid:19640478_10_53 -> AT2G03060.2|PACid_19640478_10_53
+AT2G03060.1|PACid:19640479_10_53 -> AT2G03060.1|PACid_19640479_10_53
+AT3G04100.1|PACid:19663352_22_69 -> AT3G04100.1|PACid_19663352_22_69
+AT3G04100.1|PACid:19663352_104_117 -> AT3G04100.1|PACid_19663352_104_117
+AT1G29962.1|PACid:19658277_16_63 -> AT1G29962.1|PACid_19658277_16_63
+AT5G48670.1|PACid:19672717_10_51 -> AT5G48670.1|PACid_19672717_10_51
+AT2G26320.1|PACid:19638466_26_73 -> AT2G26320.1|PACid_19638466_26_73
+AT1G69540.1|PACid:19658298_11_53 -> AT1G69540.1|PACid_19658298_11_53
+AT3G05860.2|PACid:19660459_10_51 -> AT3G05860.2|PACid_19660459_10_51
+AT3G05860.3|PACid:19660458_10_51 -> AT3G05860.3|PACid_19660458_10_51
+AT3G05860.1|PACid:19660457_10_51 -> AT3G05860.1|PACid_19660457_10_51
+AT5G27960.1|PACid:19666678_9_48 -> AT5G27960.1|PACid_19666678_9_48
+AT1G65330.1|PACid:19653684_9_53 -> AT1G65330.1|PACid_19653684_9_53
+AT5G55690.1|PACid:19665481_10_51 -> AT5G55690.1|PACid_19665481_10_51
+AT5G55690.1|PACid:19665481_137_148 -> AT5G55690.1|PACid_19665481_137_148
+AT1G65300.1|PACid:19652716_10_51 -> AT1G65300.1|PACid_19652716_10_51
+AT5G26630.1|PACid:19667105_10_50 -> AT5G26630.1|PACid_19667105_10_50
+AT5G26650.1|PACid:19669215_9_48 -> AT5G26650.1|PACid_19669215_9_48
+AT1G28450.1|PACid:19650560_16_63 -> AT1G28450.1|PACid_19650560_16_63
+AT3G18650.1|PACid:19661489_5_23 -> AT3G18650.1|PACid_19661489_5_23
+AT3G18650.1|PACid:19661489_30_72 -> AT3G18650.1|PACid_19661489_30_72
+AT5G58890.1|PACid:19667567_10_52 -> AT5G58890.1|PACid_19667567_10_52
+AT5G26580.1|PACid:19673075_11_50 -> AT5G26580.1|PACid_19673075_11_50
+AT4G02235.1|PACid:19647863_9_54 -> AT4G02235.1|PACid_19647863_9_54
+AT1G22590.2|PACid:19655507_11_50 -> AT1G22590.2|PACid_19655507_11_50
+AT5G65330.1|PACid:19672137_7_52 -> AT5G65330.1|PACid_19672137_7_52
+AT5G39750.1|PACid:19667213_25_64 -> AT5G39750.1|PACid_19667213_25_64
+AT5G40120.1|PACid:19671880_17_56 -> AT5G40120.1|PACid_19671880_17_56
+AT5G38740.1|PACid:19668168_26_65 -> AT5G38740.1|PACid_19668168_26_65
+AT5G41200.1|PACid:19667742_19_57 -> AT5G41200.1|PACid_19667742_19_57
+AT5G40220.1|PACid:19669238_18_57 -> AT5G40220.1|PACid_19669238_18_57
+AT1G46408.1|PACid:19654736_12_53 -> AT1G46408.1|PACid_19654736_12_53
+AT5G39810.1|PACid:19670065_25_64 -> AT5G39810.1|PACid_19670065_25_64
+AT1G31630.1|PACid:19652269_10_56 -> AT1G31630.1|PACid_19652269_10_56
+AT4G11250.1|PACid:19648763_10_51 -> AT4G11250.1|PACid_19648763_10_51
+AT5G27090.2|PACid:19670535_29_70 -> AT5G27090.2|PACid_19670535_29_70
+AT5G27090.1|PACid:19670534_29_70 -> AT5G27090.1|PACid_19670534_29_70
+AT5G06500.1|PACid:19671199_10_53 -> AT5G06500.1|PACid_19671199_10_53
+AT5G27070.1|PACid:19671195_30_71 -> AT5G27070.1|PACid_19671195_30_71
+AT5G26950.1|PACid:19666538_30_71 -> AT5G26950.1|PACid_19666538_30_71
+AT5G26880.1|PACid:19668576_156_166 -> AT5G26880.1|PACid_19668576_156_166
+AT5G26880.1|PACid:19668576_241_274 -> AT5G26880.1|PACid_19668576_241_274
+AT5G27944.1|PACid:19666623_30_71 -> AT5G27944.1|PACid_19666623_30_71
+AT5G27580.1|PACid:19672891_30_71 -> AT5G27580.1|PACid_19672891_30_71
+AT2G40210.1|PACid:19638131_10_51 -> AT2G40210.1|PACid_19638131_10_51
+AT1G31640.1|PACid:19651329_12_56 -> AT1G31640.1|PACid_19651329_12_56
+AT5G04640.1|PACid:19673003_13_53 -> AT5G04640.1|PACid_19673003_13_53
+AT5G49490.1|PACid:19668119_54_95 -> AT5G49490.1|PACid_19668119_54_95
+AT1G60920.1|PACid:19654635_12_50 -> AT1G60920.1|PACid_19654635_12_50
+AT1G48150.1|PACid:19654851_28_67 -> AT1G48150.1|PACid_19654851_28_67
+AT5G38620.1|PACid:19667041_14_55 -> AT5G38620.1|PACid_19667041_14_55
+AT5G27130.1|PACid:19666602_23_63 -> AT5G27130.1|PACid_19666602_23_63
+AT1G60040.1|PACid:19653511_20_62 -> AT1G60040.1|PACid_19653511_20_62
+AT5G49420.1|PACid:19672206_16_57 -> AT5G49420.1|PACid_19672206_16_57
+AT2G28700.1|PACid:19641128_11_50 -> AT2G28700.1|PACid_19641128_11_50
+AT5G27050.1|PACid:19667506_1_28 -> AT5G27050.1|PACid_19667506_1_28
+AT1G59810.1|PACid:19650751_19_61 -> AT1G59810.1|PACid_19650751_19_61
+AT1G60880.1|PACid:19658292_12_41 -> AT1G60880.1|PACid_19658292_12_41
+AT1G54760.1|PACid:19656422_19_43 -> AT1G54760.1|PACid_19656422_19_43
+AT5G37415.1|PACid:19671670_85_109 -> AT5G37415.1|PACid_19671670_85_109
+AT5G27810.1|PACid:19666054_1_26 -> AT5G27810.1|PACid_19666054_1_26
+AT1G33070.1|PACid:19656210_4_24 -> AT1G33070.1|PACid_19656210_4_24
+AT2G15660.1|PACid:19640579_30_44 -> AT2G15660.1|PACid_19640579_30_44
+
+                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000571966 secs using 321.3% CPU
+   1  HanXRQChr00c0029g0571181                   81.71%    failed      4.53%
+   2  HanXRQChr10g0299591                        80.04%    failed      0.04%
+   3  HanXRQChr10g0291191                        83.88%    passed     28.13%
+   4  HanXRQChr16g0519321                        82.79%    passed     14.78%
+   5  HanXRQChr16g0501741                        83.44%    passed     88.80%
+   6  HanXRQChr16g0523531                        84.24%    passed     11.78%
+   7  HanXRQChr16g0501381                        83.44%    passed     88.80%
+   8  HanXRQChr16g0507561                        82.94%    failed      4.26%
+   9  HanXRQChr16g0530971                        83.95%    passed      6.83%
+  10  HanXRQChr16g0503081                        83.59%    passed     20.67%
+  11  HanXRQChr07g0200001                        82.94%    passed     17.57%
+  12  HanXRQChr07g0200321                        81.71%    passed     78.64%
+  13  HanXRQChr04g0122131                        84.45%    failed      2.10%
+  14  HanXRQChr04g0110101                        82.86%    passed     50.94%
+  15  HanXRQChr09g0266391                        79.75%    passed     73.73%
+  16  HanXRQChr09g0270311                        78.45%    passed     85.32%
+  17  HanXRQChr09g0267081                        85.54%    passed     19.99%
+  18  HanXRQChr09g0269421                        83.44%    passed     80.00%
+  19  HanXRQChr09g0270841                        83.51%    passed      9.10%
+  20  HanXRQChr09g0262151                        85.61%    passed      9.04%
+  21  HanXRQChr09g0265001                        82.00%    passed     22.53%
+  22  HanXRQChr09g0273361                        85.18%    passed     17.80%
+  23  HanXRQChr05g0151331                        83.01%    passed     70.99%
+  24  HanXRQChr05g0150661                        83.51%    passed     23.09%
+  25  HanXRQChr05g0163521                        82.57%    passed     34.17%
+  26  HanXRQChr05g0150571                        74.48%    failed      0.43%
+  27  HanXRQChr05g0154261                        82.94%    passed      7.05%
+  28  HanXRQChr05g0149341                        81.85%    failed      0.01%
+  29  HanXRQChr05g0147261                        80.84%    passed     17.79%
+  30  HanXRQChr05g0156101                        68.40%    failed      1.09%
+  31  HanXRQChr05g0163381                        76.57%    failed      3.22%
+  32  HanXRQChr13g0405061                        83.51%    failed      4.99%
+  33  HanXRQChr12g0364981                        81.85%    passed     81.57%
+  34  HanXRQChr12g0358711                        81.63%    passed     56.48%
+  35  HanXRQChr12g0375471                        84.74%    passed     31.39%
+  36  HanXRQChr12g0361321                        82.07%    passed     52.84%
+  37  HanXRQChr12g0358781                        85.83%    passed     39.97%
+  38  HanXRQChr12g0358721                        85.10%    passed     26.73%
+  39  HanXRQChr14g0452461                        83.30%    passed      7.73%
+  40  HanXRQChr01g0015681                        81.13%    passed     43.43%
+  41  HanXRQChr01g0007431                        78.74%    passed     17.79%
+  42  HanXRQChr17g0538691                        84.67%    passed      6.93%
+  43  HanXRQChr17g0550551                        86.98%    failed      2.96%
+  44  HanXRQChr17g0560051                        84.38%    passed      8.16%
+  45  HanXRQChr06g0174721                        82.21%    passed     65.87%
+  46  HanXRQChr06g0169281                        85.18%    failed      1.39%
+  47  HanXRQChr03g0091451                        76.72%    passed     33.34%
+  48  HanXRQChr15g0483111                        78.74%    passed     12.50%
+  49  HanXRQChr15g0474011                        88.94%    passed     70.01%
+  50  HanXRQChr15g0489071                        81.92%    passed     63.70%
+  51  HanXRQChr15g0484901                        83.15%    failed      1.41%
+  52  HanXRQChr15g0495861                        83.80%    failed      3.49%
+  53  HanXRQChr02g0043891                        81.20%    passed      5.69%
+  54  HanXRQChr02g0045511                        85.83%    passed     14.80%
+  55  HanXRQChr02g0040221                        86.12%    passed     13.17%
+  56  HanXRQChr02g0042981                        82.07%    passed     15.93%
+  57  HanXRQChr08g0223671                        88.00%    passed     22.32%
+  58  HanXRQChr08g0223681                        82.07%    passed     94.90%
+  59  Prupe.2G151000.1.p                         82.36%    passed     77.36%
+  60  Prupe.2G287500.1.p                         84.31%    passed      5.29%
+  61  Prupe.2G287000.1.p                         82.72%    failed      3.79%
+  62  Prupe.2G023100.1.p                         81.63%    failed      1.17%
+  63  Prupe.2G151200.1.p                         84.45%    passed      9.65%
+  64  Prupe.8G069300.1.p                         83.88%    passed      5.83%
+  65  Prupe.8G073700.1.p                         82.28%    passed     11.03%
+  66  Prupe.6G208900.1.p                         84.82%    passed     25.67%
+  67  Prupe.6G199000.1.p                         83.51%    failed      0.98%
+  68  Prupe.4G113500.1.p                         79.97%    passed     10.67%
+  69  Prupe.4G070500.1.p                         82.43%    failed      1.84%
+  70  Prupe.5G208500.1.p                         81.56%    passed     34.32%
+  71  Prupe.5G087500.1.p                         84.24%    passed     29.34%
+  72  Prupe.5G208400.1.p                         81.85%    passed     27.18%
+  73  Prupe.5G149400.1.p                         85.39%    passed     14.53%
+  74  Prupe.7G055900.1.p                         82.94%    passed     27.30%
+  75  Prupe.7G164100.1.p                         82.79%    passed     10.85%
+  76  Prupe.3G307800.1.p                         82.94%    passed      8.19%
+  77  Prupe.3G170600.1.p                         82.36%    failed      2.79%
+  78  Prupe.3G249400.1.p                         82.21%    passed     15.33%
+  79  Prupe.3G249300.1.p                         76.79%    failed      3.42%
+  80  Prupe.1G531400.1.p                         82.86%    failed      1.09%
+  81  Prupe.1G427500.1.p                         77.30%    passed     27.90%
+  82  Prupe.1G223600.1.p                         82.65%    passed     62.28%
+  83  Prupe.1G290500.1.p                         82.00%    passed     42.99%
+  84  Prupe.1G290600.1.p                         82.79%    passed     25.42%
+  85  Prupe.1G531600.1.p                         83.08%    failed      0.11%
+  86  Prupe.1G276600.1.p                         74.69%    passed      5.10%
+  87  Prupe.1G371300.1.p                         85.32%    passed     61.70%
+  88  Prupe.1G549600.1.p                         83.95%    passed      9.61%
+  89  Prupe.1G511300.1.p                         74.40%    failed      1.49%
+  90  Prupe.1G548000.1.p                         85.25%    passed     20.55%
+  91  Prupe.1G531700.1.p                         82.79%    failed      1.11%
+  92  Prupe.1G531100.1.p                         74.33%    failed      0.07%
+  93  Prupe.1G489400.1.p                         84.82%    passed     41.93%
+  94  XP_010240899.1                             83.37%    passed     21.00%
+  95  XP_010244698.1                             82.72%    passed     27.91%
+  96  XP_010244699.1                             82.79%    passed     25.97%
+  97  XP_010244700.1                             83.73%    passed     36.40%
+  98  XP_010245525.1                             85.54%    passed      7.16%
+  99  XP_010249055.1                             85.25%    passed      8.34%
+ 100  XP_010249056.1                             85.32%    passed      8.34%
+ 101  XP_010249057.1                             85.32%    passed      7.79%
+ 102  XP_010250667.1                             82.72%    passed     59.17%
+ 103  XP_010254524.1                             83.66%    failed      3.87%
+ 104  XP_010254525.1                             83.80%    failed      4.45%
+ 105  XP_010254615.1                             82.65%    passed     29.33%
+ 106  XP_010254616.1                             82.72%    passed     30.83%
+ 107  XP_010254617.1                             83.66%    passed     50.76%
+ 108  XP_010255589.1                             83.80%    passed     35.24%
+ 109  XP_010255590.1                             83.80%    passed     35.24%
+ 110  XP_010255596.1                             82.57%    passed     92.82%
+ 111  XP_010257792.1                             75.78%    passed     31.43%
+ 112  XP_010257957.1                             82.07%    passed     10.42%
+ 113  XP_010257958.1                             82.43%    passed      9.77%
+ 114  XP_010258314.1                             73.75%    passed      5.83%
+ 115  XP_010258315.1                             74.48%    passed      9.66%
+ 116  XP_010258316.1                             82.86%    passed     19.50%
+ 117  XP_010260833.1                             82.43%    passed     22.79%
+ 118  XP_010260844.1                             81.92%    passed     12.83%
+ 119  XP_010263856.1                             83.73%    passed     62.35%
+ 120  XP_010269077.1                             84.74%    passed     43.01%
+ 121  XP_010269101.1                             68.33%    failed      3.16%
+ 122  XP_010269745.1                             81.56%    failed      2.54%
+ 123  XP_010271509.1                             83.73%    passed     33.86%
+ 124  XP_010272601.1                             84.31%    passed     44.18%
+ 125  XP_010272608.1                             82.50%    passed     54.28%
+ 126  XP_010272685.1                             83.80%    passed     11.26%
+ 127  XP_010273432.1                             83.73%    passed     38.64%
+ 128  XP_010273433.1                             83.73%    passed     38.64%
+ 129  XP_010274370.1                             78.45%    passed      8.27%
+ 130  XP_010275495.1                             81.85%    failed      2.32%
+ 131  XP_010277487.1                             83.44%    failed      1.23%
+ 132  XP_010277488.1                             83.44%    failed      1.23%
+ 133  XP_010277489.1                             83.59%    failed      1.50%
+ 134  XP_010279516.1                             81.56%    failed      3.11%
+ 135  XP_019051694.1                             82.72%    passed     27.91%
+ 136  XP_019053529.1                             82.57%    failed      3.64%
+ 137  XP_019053922.1                             82.43%    passed     22.79%
+ 138  XP_019055004.1                             87.20%    passed     11.10%
+ 139  XP_019056050.1                             81.56%    failed      3.11%
+ 140  XP_019056051.1                             82.57%    passed      5.56%
+ 141  Nycol.F00329.1.p                           91.61%    passed     65.21%
+ 142  Nycol.F00337.1.p                           84.89%    passed     19.27%
+ 143  Nycol.F00482.1.p                           82.21%    passed     63.25%
+ 144  Nycol.F00306.1.p                           86.33%    passed     11.32%
+ 145  Nycol.F00318.1.p                           85.03%    passed     40.23%
+ 146  Nycol.A00172.1.p                           85.54%    passed     30.83%
+ 147  Nycol.A03014.1.p                           83.08%    passed     10.07%
+ 148  Nycol.A00432.1.p                           84.31%    passed     36.70%
+ 149  Nycol.A01976.1.p                           83.22%    passed     44.35%
+ 150  Nycol.B01084.1.p                           85.47%    passed      5.47%
+ 151  Nycol.G00206.1.p                           84.24%    passed     25.35%
+ 152  Nycol.G00190.1.p                           85.39%    passed     17.73%
+ 153  Nycol.H00870.1.p                           82.07%    passed      8.38%
+ 154  Nycol.H00296.1.p                           82.28%    passed     61.00%
+ 155  Nycol.H00297.1.p                           80.55%    failed      3.93%
+ 156  Nycol.M00404.1.p                           82.43%    passed     42.25%
+ 157  Nycol.I00043.1.p                           83.80%    passed     11.58%
+ 158  Nycol.I00993.1.p                           83.66%    passed      8.26%
+ 159  Nycol.I01691.1.p                           82.28%    passed     35.88%
+ 160  Nycol.I01697.1.p                           84.45%    passed     24.28%
+ 161  Nycol.I01732.1.p                           84.02%    passed     66.58%
+ 162  Nycol.C02244.1.p                           84.09%    passed     16.38%
+ 163  Glyma.16G091300.1.p                        82.94%    passed     61.73%
+ 164  Glyma.16G200700.1.p                        82.94%    failed      1.50%
+ 165  Glyma.04G027200.1.p                        83.59%    passed     88.63%
+ 166  Glyma.04G245500.2.p                        86.91%    passed     20.06%
+ 167  Glyma.04G159300.1.p                        82.36%    passed     44.11%
+ 168  Glyma.04G257100.1.p                        83.95%    passed     39.99%
+ 169  Glyma.17G081200.1.p                        82.72%    passed     31.59%
+ 170  Glyma.17G132700.5.p                        83.88%    failed      1.06%
+ 171  Glyma.17G080900.1.p                        82.43%    passed     28.34%
+ 172  Glyma.20G034000.3.p                        74.62%    passed     13.79%
+ 173  Glyma.20G154200.3.p                        84.53%    failed      4.89%
+ 174  Glyma.20G153700.3.p                        82.94%    passed      5.83%
+ 175  Glyma.20G001900.1.p                        82.28%    passed     23.95%
+ 176  Glyma.02G216600.13.p                       81.06%    passed     21.04%
+ 177  Glyma.02G041500.1.p                        83.59%    passed     11.82%
+ 178  Glyma.02G121500.1.p                        82.36%    passed     30.11%
+ 179  Glyma.02G185500.3.p                        82.14%    failed      2.94%
+ 180  Glyma.02G287700.3.p                        82.21%    passed      5.98%
+ 181  Glyma.02G121600.1.p                        82.43%    passed     79.86%
+ 182  Glyma.12G005000.1.p                        85.25%    passed     30.85%
+ 183  Glyma.10G240500.1.p                        84.53%    failed      2.55%
+ 184  Glyma.10G240900.1.p                        83.22%    passed     22.33%
+ 185  Glyma.08G068200.8.p                        85.03%    failed      2.36%
+ 186  Glyma.08G250700.1.p                        81.85%    passed     77.06%
+ 187  Glyma.08G105400.1.p                        86.55%    passed     46.31%
+ 188  Glyma.08G120600.1.p                        82.43%    passed      5.72%
+ 189  Glyma.08G269800.1.p                        82.94%    passed     73.52%
+ 190  Glyma.08G105500.1.p                        82.36%    passed      9.40%
+ 191  Glyma.08G310100.1.p                        82.14%    passed     17.50%
+ 192  Glyma.08G065300.1.p                        82.57%    passed     29.43%
+ 193  Glyma.08G250800.3.p                        82.07%    passed     11.91%
+ 194  Glyma.08G065400.2.p                        84.02%    passed     43.50%
+ 195  Glyma.01G023500.1.p                        83.59%    passed      7.53%
+ 196  Glyma.01G020500.3.p                        83.51%    passed     71.75%
+ 197  Glyma.01G064100.1.p                        82.21%    passed     32.89%
+ 198  Glyma.01G169600.1.p                        82.43%    passed     10.49%
+ 199  Glyma.01G064200.1.p                        82.43%    passed     73.89%
+ 200  Glyma.15G059600.2.p                        82.72%    passed     20.65%
+ 201  Glyma.15G058000.2.p                        84.74%    passed     45.51%
+ 202  Glyma.15G057900.2.p                        84.96%    failed      1.01%
+ 203  Glyma.15G088600.1.p                        82.43%    passed     23.31%
+ 204  Glyma.07G080900.4.p                        83.66%    passed     25.44%
+ 205  Glyma.07G181600.7.p                        83.37%    passed     36.28%
+ 206  Glyma.07G081300.1.p                        82.28%    passed     78.63%
+ 207  Glyma.07G228900.1.p                        74.55%    passed      9.38%
+ 208  Glyma.11G158812.1.p                        82.50%    passed      5.17%
+ 209  Glyma.11G252300.1.p                        82.43%    passed     20.71%
+ 210  Glyma.11G073700.5.p                        82.14%    passed     11.06%
+ 211  Glyma.09G149000.1.p                        82.36%    passed      9.02%
+ 212  Glyma.09G231600.4.p                        84.16%    failed      3.26%
+ 213  Glyma.09G266200.6.p                        84.74%    passed     13.46%
+ 214  Glyma.09G201700.1.p                        84.02%    passed     45.23%
+ 215  Glyma.09G283800.3.p                        82.21%    passed     58.94%
+ 216  Glyma.09G266400.4.p                        82.72%    passed     35.11%
+ 217  Glyma.13G052700.1.p                        82.00%    passed     33.27%
+ 218  Glyma.13G257000.7.p                        84.82%    passed      8.76%
+ 219  Glyma.13G223300.1.p                        82.43%    passed      9.43%
+ 220  Glyma.13G255200.6.p                        82.57%    passed     14.99%
+ 221  Glyma.13G086400.1.p                        75.85%    failed      0.25%
+ 222  Glyma.13G256900.1.p                        82.07%    passed     40.02%
+ 223  Glyma.13G034100.2.p                        84.96%    passed     50.53%
+ 224  Glyma.13G052100.1.p                        82.36%    passed     13.36%
+ 225  Glyma.05G018900.1.p                        82.43%    passed     37.12%
+ 226  Glyma.05G018800.1.p                        82.36%    passed     15.19%
+ 227  Glyma.05G050700.1.p                        83.59%    failed      2.11%
+ 228  Glyma.05G163200.1.p                        82.43%    failed      4.17%
+ 229  Glyma.05G148700.2.p                        85.68%    passed     23.57%
+ 230  Glyma.05G148800.1.p                        82.36%    passed     13.33%
+ 231  Glyma.14G027251.1.p                        82.50%    passed     38.46%
+ 232  Glyma.14G155100.1.p                        84.96%    passed     61.87%
+ 233  Glyma.14G183800.2.p                        82.72%    passed     19.37%
+ 234  Glyma.14G168700.1.p                        74.91%    failed      0.18%
+ 235  Glyma.06G205800.1.p                        82.36%    passed     56.32%
+ 236  Glyma.06G095700.1.p                        83.08%    failed      0.15%
+ 237  Glyma.06G027200.1.p                        83.59%    passed     78.41%
+ 238  Glyma.06G324400.2.p                        83.95%    passed     40.52%
+ 239  Glyma.06G117600.1.p                        86.91%    passed     22.45%
+ 240  Glyma.03G019400.1.p                        82.28%    passed     65.98%
+ 241  Glyma.03G019300.1.p                        82.86%    passed     33.33%
+ 242  Glyma.19G034600.1.p                        82.36%    passed     22.61%
+ 243  Glyma.19G034500.1.p                        82.00%    passed     41.74%
+ 244  Glyma.18G004700.4.p                        82.43%    passed     23.29%
+ 245  Glyma.18G224300.2.p                        82.43%    passed     56.10%
+ 246  Glyma.18G224500.1.p                        84.89%    passed     22.33%
+ 247  Glyma.18G273500.1.p                        81.56%    passed     82.98%
+ 248  Glyma.18G105800.1.p                        82.21%    passed     14.99%
+ 249  Glyma.18G273600.2.p                        79.25%    passed     15.42%
+ 250  Medtr3g084980.1                            82.36%    passed     48.93%
+ 251  Medtr3g088615.1                            86.91%    passed     14.42%
+ 252  Medtr3g005530.1                            83.88%    passed     34.41%
+ 253  Medtr3g452380.3                            82.36%    passed     27.94%
+ 254  Medtr3g113030.1                            83.44%    passed     72.18%
+ 255  Medtr3g102570.1                            77.01%    passed     24.96%
+ 256  Medtr2g009890.1                            79.90%    passed     54.31%
+ 257  Medtr2g017865.1                            81.20%    failed      2.48%
+ 258  Medtr8g066260.1                            82.65%    passed     57.78%
+ 259  Medtr8g033220.1                            83.37%    failed      1.15%
+ 260  Medtr8g033270.1                            81.85%    passed     53.42%
+ 261  Medtr8g097090.1                            82.50%    failed      2.98%
+ 262  Medtr8g033250.1                            83.80%    failed      2.07%
+ 263  Medtr8g087860.1                            82.36%    passed      7.99%
+ 264  Medtr7g075850.1                            81.92%    passed     56.08%
+ 265  Medtr7g075870.1                            84.60%    passed     21.45%
+ 266  Medtr7g016630.1                            81.49%    passed     23.16%
+ 267  Medtr7g016600.1                            82.00%    passed     16.52%
+ 268  Medtr5g041650.1                            70.93%    failed      0.62%
+ 269  Medtr5g061740.1                            76.07%    failed      0.01%
+ 270  Medtr5g021270.2                            83.22%    passed     11.60%
+ 271  Medtr5g031000.1                            82.72%    passed     24.80%
+ 272  Medtr5g032520.1                            83.59%    failed      3.32%
+ 273  Medtr5g032150.1                            83.51%    failed      2.01%
+ 274  Medtr5g066180.1                            83.73%    passed      7.86%
+ 275  Medtr5g046790.1                            84.74%    passed     62.01%
+ 276  Medtr1g101970.1                            86.33%    passed     45.56%
+ 277  Medtr1g038300.1                            83.22%    passed     21.67%
+ 278  Medtr1g053070.1                            82.00%    passed     22.59%
+ 279  Medtr1g029670.1                            86.98%    failed      2.48%
+ 280  Medtr6g464720.1                            81.92%    passed     64.10%
+ 281  Medtr6g015975.1                            81.92%    passed     67.27%
+ 282  Medtr0003s0590.1                           81.49%    passed     17.55%
+ 283  Medtr4g102530.1                            85.18%    failed      0.27%
+ 284  Medtr4g093970.1                            82.72%    failed      0.57%
+ 285  Medtr4g084740.1                            75.85%    failed      0.22%
+ 286  Medtr4g036050.1                            85.39%    passed     12.06%
+ 287  Medtr4g109830.1                            83.22%    passed     36.02%
+ 288  Medtr4g109810.1                            82.50%    passed     69.12%
+ 289  LOC_Os10g39130.1                           83.15%    failed      1.83%
+ 290  LOC_Os08g41950.1                           77.58%    passed     31.81%
+ 291  LOC_Os08g41960.1                           86.77%    passed     15.65%
+ 292  LOC_Os08g33488.1                           88.50%    passed     48.13%
+ 293  LOC_Os08g02070.1                           83.95%    passed     19.57%
+ 294  LOC_Os04g31804.1                           82.00%    failed      0.06%
+ 295  LOC_Os04g23910.1                           83.59%    passed     35.28%
+ 296  LOC_Os04g49150.1                           81.63%    passed     49.26%
+ 297  LOC_Os04g52410.2                           82.65%    passed     13.75%
+ 298  LOC_Os07g41370.1                           82.00%    passed     10.71%
+ 299  LOC_Os07g01820.1                           78.60%    failed      3.98%
+ 300  LOC_Os01g10504.1                           79.25%    failed      1.41%
+ 301  LOC_Os01g66290.1                           80.84%    failed      0.11%
+ 302  LOC_Os01g52680.1                           85.83%    passed     40.88%
+ 303  LOC_Os01g66030.1                           84.89%    passed     49.99%
+ 304  LOC_Os03g54170.1                           82.72%    passed      7.21%
+ 305  LOC_Os03g11614.1                           81.42%    passed      7.50%
+ 306  LOC_Os03g54160.1                           81.71%    passed     38.31%
+ 307  LOC_Os03g08754.1                           81.92%    failed      0.07%
+ 308  LOC_Os02g52340.1                           83.51%    failed      3.01%
+ 309  LOC_Os02g07430.1                           81.20%    passed     33.41%
+ 310  LOC_Os02g49840.1                           82.57%    passed     10.90%
+ 311  LOC_Os02g45770.1                           81.92%    passed     25.56%
+ 312  LOC_Os02g01355.1                           80.40%    failed      0.28%
+ 313  LOC_Os02g36924.1                           82.65%    passed     63.37%
+ 314  LOC_Os02g01365.1                           65.08%    failed      0.00%
+ 315  LOC_Os09g32948.1                           82.07%    passed     49.69%
+ 316  LOC_Os06g49840.1                           83.80%    passed     15.21%
+ 317  LOC_Os06g01890.1                           84.60%    passed     22.66%
+ 318  LOC_Os06g45650.1                           84.02%    passed     12.56%
+ 319  LOC_Os06g11330.1                           85.61%    passed     11.57%
+ 320  LOC_Os06g06750.1                           83.73%    passed     50.51%
+ 321  LOC_Os12g10520.1                           85.39%    passed      8.10%
+ 322  LOC_Os12g31748.2                           82.14%    passed     70.98%
+ 323  LOC_Os12g10540.3                           80.48%    failed      0.00%
+ 324  LOC_Os05g11414.1                           79.18%    passed     24.66%
+ 325  LOC_Os05g34940.1                           84.45%    passed     79.54%
+ 326  LOC_Os05g11380.1                           89.30%    passed     40.90%
+ 327  LOC_Os11g43740.1                           71.66%    failed      0.00%
+ 328  CKAN_01596700                              85.10%    passed     54.71%
+ 329  CKAN_01533600                              73.32%    passed     13.66%
+ 330  CKAN_02447300                              82.79%    passed      8.94%
+ 331  CKAN_01942000                              89.59%    passed     11.48%
+ 332  CKAN_01906900                              86.70%    passed     17.21%
+ 333  CKAN_01942500                              84.09%    passed     22.80%
+ 334  CKAN_01894500                              75.49%    failed      4.13%
+ 335  CKAN_01821800                              80.98%    passed     43.88%
+ 336  CKAN_01848800                              82.57%    passed     73.14%
+ 337  CKAN_02317200                              74.62%    passed     53.56%
+ 338  CKAN_02742500                              85.25%    passed     14.68%
+ 339  CKAN_00565900                              83.73%    passed     65.71%
+ 340  CKAN_00566000                              81.78%    passed      8.07%
+ 341  CKAN_00958900                              82.65%    passed     87.65%
+ 342  CKAN_00861800                              80.40%    failed      0.64%
+ 343  CKAN_00958800                              84.45%    passed     19.09%
+ 344  CKAN_01290200                              84.09%    passed     27.59%
+ 345  CKAN_01352300                              85.54%    failed      0.47%
+ 346  CKAN_00283400                              82.86%    passed     60.63%
+ 347  CKAN_00109600                              81.92%    passed     70.31%
+ 348  CKAN_02197200                              68.33%    failed      0.00%
+ 349  CKAN_02109000                              84.74%    passed     71.63%
+ 350  CKAN_02199500                              84.89%    passed     68.94%
+ 351  CKAN_02189300                              83.88%    passed      8.75%
+ 352  CKAN_02189800                              84.60%    passed     14.21%
+ 353  CKAN_02117700                              86.04%    failed      4.88%
+ 354  CKAN_02189500                              84.24%    passed     11.95%
+ 355  CKAN_02562300                              83.88%    passed     26.93%
+ 356  CKAN_01187700                              85.10%    passed     30.88%
+ 357  CKAN_01046400                              82.94%    passed     32.28%
+ 358  CKAN_01065400                              84.16%    passed     19.21%
+ 359  evm_27.model.AmTr_v1.0_scaffold00089.36    84.67%    passed     84.46%
+ 360  evm_27.model.AmTr_v1.0_scaffold00013.60    87.56%    passed     54.83%
+ 361  evm_27.model.AmTr_v1.0_scaffold00013.53    82.57%    passed     69.40%
+ 362  evm_27.model.AmTr_v1.0_scaffold00001.409   83.88%    passed     25.14%
+ 363  evm_27.model.AmTr_v1.0_scaffold00001.461   83.30%    passed     26.65%
+ 364  evm_27.model.AmTr_v1.0_scaffold00001.225   83.37%    passed     11.92%
+ 365  evm_27.model.AmTr_v1.0_scaffold00001.413   83.44%    passed     32.88%
+ 366  evm_27.model.AmTr_v1.0_scaffold00046.134   83.95%    passed     40.57%
+ 367  evm_27.model.AmTr_v1.0_scaffold00053.185   86.41%    passed      5.85%
+ 368  evm_27.model.AmTr_v1.0_scaffold00095.150   83.51%    failed      1.18%
+ 369  evm_27.model.AmTr_v1.0_scaffold00071.203   83.95%    passed     17.72%
+ 370  evm_27.model.AmTr_v1.0_scaffold00021.296   83.08%    passed     58.63%
+ 371  evm_27.model.AmTr_v1.0_scaffold00047.121   82.43%    passed     61.70%
+ 372  evm_27.model.AmTr_v1.0_scaffold00047.105   82.50%    passed      5.02%
+ 373  evm_27.model.AmTr_v1.0_scaffold00066.97    84.09%    passed     15.56%
+ 374  evm_27.model.AmTr_v1.0_scaffold00127.17    84.16%    passed      8.50%
+ 375  scaffold-MUNP-2001384-Piper_auritum        83.59%    passed     95.73%
+ 376  scaffold-MUNP-2001472-Piper_auritum        82.21%    passed     59.46%
+ 377  scaffold-MUNP-2001867-Piper_auritum        83.59%    passed      8.18%
+ 378  scaffold-MUNP-2004874-Piper_auritum        84.96%    passed     23.05%
+ 379  scaffold-MUNP-2004875-Piper_auritum        84.96%    passed     23.05%
+ 380  scaffold-MUNP-2011315-Piper_auritum        88.86%    passed     88.59%
+ 381  scaffold-MUNP-2011435-Piper_auritum        84.82%    passed      5.67%
+ 382  AT2G45650.1|PACid_19638787_10_57           96.53%    passed     81.10%
+ 383  AT4G11880.1|PACid_19643844_10_57           96.53%    passed     83.77%
+ 384  AT4G09960.1|PACid_19648309_10_57           96.53%    passed     75.10%
+ 385  AT4G09960.4|PACid_19648308_10_57           96.53%    passed     75.10%
+ 386  AT4G18960.1|PACid_19647337_26_73           96.53%    passed     75.10%
+ 387  AT4G09960.3|PACid_19648307_36_83           96.53%    passed     75.10%
+ 388  AT4G09960.2|PACid_19648310_10_57           96.53%    passed     75.10%
+ 389  AT2G45660.1|PACid_19641052_10_57           96.53%    passed     85.58%
+ 390  AT4G22950.1|PACid_19647692_10_57           96.53%    passed     68.62%
+ 391  AT4G22950.1|PACid_19647692_94_105          99.13%    passed     84.12%
+ 392  AT1G24260.3|PACid_19651405_10_57           96.53%    passed     68.34%
+ 393  AT5G15800.1|PACid_19670123_10_57           96.53%    passed     68.34%
+ 394  AT1G24260.1|PACid_19651404_10_57           96.53%    passed     68.34%
+ 395  AT1G24260.2|PACid_19651403_10_57           96.53%    passed     68.34%
+ 396  AT5G15800.2|PACid_19670122_10_57           96.53%    passed     68.34%
+ 397  AT2G22540.1|PACid_19641563_10_57           96.53%    passed     33.31%
+ 398  AT3G57390.1|PACid_19659472_10_57           96.53%    passed     40.85%
+ 399  AT5G13790.1|PACid_19669343_10_57           96.53%    passed     51.04%
+ 400  AT5G51870.2|PACid_19672301_10_57           96.53%    passed     77.44%
+ 401  AT5G51870.1|PACid_19672300_10_57           96.53%    passed     77.44%
+ 402  AT5G51870.3|PACid_19672299_10_57           96.53%    passed     77.44%
+ 403  AT3G58780.2|PACid_19662660_25_72           96.53%    passed     64.60%
+ 404  AT2G42830.1|PACid_19643528_25_72           96.53%    passed     64.60%
+ 405  AT3G58780.1|PACid_19662659_25_72           96.53%    passed     64.60%
+ 406  AT2G42830.2|PACid_19643527_25_72           96.53%    passed     64.60%
+ 407  AT3G58780.3|PACid_19662658_25_72           96.53%    passed     64.60%
+ 408  AT3G02310.1|PACid_19661943_10_57           96.53%    passed     74.63%
+ 409  AT2G14210.1|PACid_19638394_10_57           96.53%    passed     66.41%
+ 410  AT2G03710.3|PACid_19640310_10_57           96.53%    passed     63.65%
+ 411  AT1G69120.1|PACid_19653480_10_57           96.53%    passed     69.38%
+ 412  AT5G60910.1|PACid_19670614_10_57           96.53%    passed     78.13%
+ 413  AT5G51860.2|PACid_19671372_10_57           96.53%    passed     87.21%
+ 414  AT5G51860.1|PACid_19671371_10_57           96.53%    passed     87.21%
+ 415  AT2G03710.2|PACid_19640309_10_57           96.53%    passed     63.65%
+ 416  AT2G03710.1|PACid_19640308_10_57           96.53%    passed     63.65%
+ 417  AT3G30260.1|PACid_19662130_10_57           96.53%    passed     69.90%
+ 418  AT2G24840.1|PACid_19642372_71_118          96.53%    passed     10.80%
+ 419  AT2G22540.2|PACid_19641564_10_55           96.67%    passed     44.50%
+ 420  AT3G57230.1|PACid_19665060_10_57           96.53%    passed     84.34%
+ 421  AT3G57230.2|PACid_19665061_10_57           96.53%    passed     84.34%
+ 422  AT4G37940.1|PACid_19644309_10_57           96.53%    passed     40.85%
+ 423  AT4G24540.1|PACid_19648389_10_57           96.53%    passed     14.39%
+ 424  AT3G61120.1|PACid_19662463_10_57           96.53%    passed     74.48%
+ 425  AT3G54340.1|PACid_19659884_10_57           96.53%    passed     97.87%
+ 426  AT1G26310.1|PACid_19650942_10_57           96.53%    passed     89.52%
+ 427  AT1G22130.1|PACid_19651829_10_55           96.67%    passed     70.35%
+ 428  AT5G62165.4|PACid_19672598_10_57           96.53%    passed     90.68%
+ 429  AT5G60440.1|PACid_19665878_15_62           96.53%    passed     21.37%
+ 430  AT5G62165.1|PACid_19672595_10_57           96.53%    passed     90.68%
+ 431  AT5G62165.2|PACid_19672596_10_57           96.53%    passed     90.68%
+ 432  AT5G62165.3|PACid_19672597_10_57           96.53%    passed     90.68%
+ 433  AT2G22630.1|PACid_19642313_10_57           96.53%    passed     24.52%
+ 434  AT1G77980.1|PACid_19650219_10_55           96.67%    passed     82.14%
+ 435  AT1G71692.1|PACid_19653064_10_56           96.60%    passed     81.24%
+ 436  AT1G01530.1|PACid_19655032_15_62           96.53%    passed     77.06%
+ 437  AT1G65360.1|PACid_19652033_15_62           96.53%    failed      3.71%
+ 438  AT5G10140.2|PACid_19672042_10_57           96.53%    passed     33.98%
+ 439  AT5G10140.4|PACid_19672041_10_57           96.53%    passed     33.98%
+ 440  AT5G10140.3|PACid_19672040_10_57           96.53%    passed     33.98%
+ 441  AT5G10140.1|PACid_19672039_10_57           96.53%    passed     33.98%
+ 442  AT3G66656.1|PACid_19662106_10_57           96.53%    passed     53.36%
+ 443  AT5G23260.2|PACid_19667542_10_57           96.53%    passed     64.36%
+ 444  AT5G23260.3|PACid_19667544_10_57           96.53%    passed     64.36%
+ 445  AT5G23260.1|PACid_19667543_10_57           96.53%    passed     64.36%
+ 446  AT4G36590.1|PACid_19644661_15_62           96.53%    passed     19.62%
+ 447  AT2G34440.1|PACid_19639540_12_57           96.67%    passed     88.16%
+ 448  AT5G65070.1|PACid_19666742_10_57           96.53%    passed     60.44%
+ 449  AT1G77950.1|PACid_19656697_10_55           96.67%    passed     60.62%
+ 450  AT1G77950.2|PACid_19656698_10_55           96.67%    passed     60.62%
+ 451  AT5G65070.3|PACid_19666740_10_57           96.53%    passed     60.44%
+ 452  AT5G65070.2|PACid_19666741_10_57           96.53%    passed     60.44%
+ 453  AT1G77080.5|PACid_19652600_10_55           96.67%    passed     20.76%
+ 454  AT1G77080.2|PACid_19652599_10_55           96.67%    passed     20.76%
+ 455  AT1G77080.4|PACid_19652598_10_55           96.67%    passed     20.76%
+ 456  AT5G65080.2|PACid_19670373_10_55           96.67%    passed     75.83%
+ 457  AT1G31140.1|PACid_19657778_10_57           96.53%    passed     41.88%
+ 458  AT1G31140.2|PACid_19657777_10_57           96.53%    passed     41.88%
+ 459  AT5G65080.1|PACid_19670372_17_62           96.67%    passed     75.83%
+ 460  AT1G47760.1|PACid_19657551_10_57           96.53%    passed     62.81%
+ 461  AT5G20240.1|PACid_19673101_10_57           96.53%    passed     24.15%
+ 462  AT1G18750.1|PACid_19654582_10_57           96.53%    passed     89.99%
+ 463  AT1G72350.1|PACid_19656010_55_98           96.82%    passed     38.38%
+ 464  AT5G65050.2|PACid_19667307_10_55           96.67%    passed     37.73%
+ 465  AT5G65050.1|PACid_19667306_10_55           96.67%    passed     37.73%
+ 466  AT5G65050.3|PACid_19667305_10_55           96.67%    passed     37.73%
+ 467  AT5G65060.2|PACid_19668929_10_55           96.67%    passed     29.38%
+ 468  AT5G65060.1|PACid_19668928_10_55           96.67%    passed     29.38%
+ 469  AT1G17310.1|PACid_19656321_56_103          96.53%    passed     21.99%
+ 470  AT1G28460.1|PACid_19649164_16_63           96.53%    passed     32.12%
+ 471  AT2G03060.2|PACid_19640478_10_53           96.82%    passed     80.06%
+ 472  AT2G03060.1|PACid_19640479_10_53           96.82%    passed     80.06%
+ 473  AT3G04100.1|PACid_19663352_22_69           96.53%    passed     40.59%
+ 474  AT3G04100.1|PACid_19663352_104_117         98.99%    passed     62.48%
+ 475  AT1G29962.1|PACid_19658277_16_63           96.53%    passed     81.98%
+ 476  AT5G48670.1|PACid_19672717_10_51           96.96%    passed     45.30%
+ 477  AT2G26320.1|PACid_19638466_26_73           96.53%    passed     26.25%
+ 478  AT1G69540.1|PACid_19658298_11_53           96.89%    passed     91.94%
+ 479  AT3G05860.2|PACid_19660459_10_51           96.96%    passed     85.51%
+ 480  AT3G05860.3|PACid_19660458_10_51           96.96%    passed     85.51%
+ 481  AT3G05860.1|PACid_19660457_10_51           96.96%    passed     85.51%
+ 482  AT5G27960.1|PACid_19666678_9_48            97.11%    passed     97.88%
+ 483  AT1G65330.1|PACid_19653684_9_53            96.75%    passed     73.05%
+ 484  AT5G55690.1|PACid_19665481_10_51           96.96%    passed     13.14%
+ 485  AT5G55690.1|PACid_19665481_137_148         99.13%    passed     67.02%
+ 486  AT1G65300.1|PACid_19652716_10_51           96.96%    passed     16.21%
+ 487  AT5G26630.1|PACid_19667105_10_50           97.04%    passed     54.07%
+ 488  AT5G26650.1|PACid_19669215_9_48            97.11%    passed     94.04%
+ 489  AT1G28450.1|PACid_19650560_16_63           96.53%    passed     70.44%
+ 490  AT3G18650.1|PACid_19661489_5_23            98.63%    failed      0.00%
+ 491  AT3G18650.1|PACid_19661489_30_72           96.89%    passed     76.94%
+ 492  AT5G58890.1|PACid_19667567_10_52           96.89%    passed     23.20%
+ 493  AT5G26580.1|PACid_19673075_11_50           97.11%    passed     95.12%
+ 494  AT4G02235.1|PACid_19647863_9_54            96.67%    passed     77.60%
+ 495  AT1G22590.2|PACid_19655507_11_50           97.11%    passed     83.22%
+ 496  AT5G65330.1|PACid_19672137_7_52            96.67%    passed     75.22%
+ 497  AT5G39750.1|PACid_19667213_25_64           97.11%    passed     71.36%
+ 498  AT5G40120.1|PACid_19671880_17_56           97.11%    passed     71.36%
+ 499  AT5G38740.1|PACid_19668168_26_65           97.11%    passed     71.36%
+ 500  AT5G41200.1|PACid_19667742_19_57           97.18%    passed     71.87%
+ 501  AT5G40220.1|PACid_19669238_18_57           97.11%    passed     71.36%
+ 502  AT1G46408.1|PACid_19654736_12_53           96.96%    passed     61.59%
+ 503  AT5G39810.1|PACid_19670065_25_64           97.11%    passed     75.41%
+ 504  AT1G31630.1|PACid_19652269_10_56           96.60%    passed     48.78%
+ 505  AT4G11250.1|PACid_19648763_10_51           96.96%    passed     72.26%
+ 506  AT5G27090.2|PACid_19670535_29_70           96.96%    passed     95.41%
+ 507  AT5G27090.1|PACid_19670534_29_70           96.96%    passed     95.41%
+ 508  AT5G06500.1|PACid_19671199_10_53           96.82%    passed     32.17%
+ 509  AT5G27070.1|PACid_19671195_30_71           96.96%    passed     84.20%
+ 510  AT5G26950.1|PACid_19666538_30_71           96.96%    passed     84.20%
+ 511  AT5G26880.1|PACid_19668576_156_166         99.20%    passed     82.54%
+ 512  AT5G26880.1|PACid_19668576_241_274         97.54%    passed     73.17%
+ 513  AT5G27944.1|PACid_19666623_30_71           96.96%    passed     84.26%
+ 514  AT5G27580.1|PACid_19672891_30_71           96.96%    passed     75.20%
+ 515  AT2G40210.1|PACid_19638131_10_51           96.96%    passed     78.67%
+ 516  AT1G31640.1|PACid_19651329_12_56           96.75%    passed     62.28%
+ 517  AT5G04640.1|PACid_19673003_13_53           97.04%    passed     15.63%
+ 518  AT5G49490.1|PACid_19668119_54_95           96.96%    passed     65.16%
+ 519  AT1G60920.1|PACid_19654635_12_50           97.18%    passed     89.09%
+ 520  AT1G48150.1|PACid_19654851_28_67           97.11%    passed     70.49%
+ 521  AT5G38620.1|PACid_19667041_14_55           96.96%    passed     38.19%
+ 522  AT5G27130.1|PACid_19666602_23_63           97.04%    passed     49.72%
+ 523  AT1G60040.1|PACid_19653511_20_62           96.89%    passed     31.27%
+ 524  AT5G49420.1|PACid_19672206_16_57           96.96%    passed     51.46%
+ 525  AT2G28700.1|PACid_19641128_11_50           97.11%    passed     35.03%
+ 526  AT5G27050.1|PACid_19667506_1_28            97.98%    passed     90.55%
+ 527  AT1G59810.1|PACid_19650751_19_61           96.89%    passed     23.63%
+ 528  AT1G60880.1|PACid_19658292_12_41           97.83%    passed     76.67%
+ 529  AT1G54760.1|PACid_19656422_19_43           98.19%    passed     65.07%
+ 530  AT5G37415.1|PACid_19671670_85_109          98.19%    passed     26.97%
+ 531  AT5G27810.1|PACid_19666054_1_26            98.12%    passed     53.92%
+ 532  AT1G33070.1|PACid_19656210_4_24            98.48%    passed     41.41%
+ 533  AT2G15660.1|PACid_19640579_30_44           98.92%    passed     21.97%
+WARNING: 533 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                      86.70%  80 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: HanXRQChr16g0501381 is identical to HanXRQChr16g0501741 but kept for subsequent analysis
+NOTE: XP_019051694.1 is identical to XP_010244698.1 but kept for subsequent analysis
+NOTE: XP_010255590.1 is identical to XP_010255589.1 but kept for subsequent analysis
+NOTE: XP_019053922.1 is identical to XP_010260833.1 but kept for subsequent analysis
+NOTE: XP_010273433.1 is identical to XP_010273432.1 but kept for subsequent analysis
+NOTE: XP_010277488.1 is identical to XP_010277487.1 but kept for subsequent analysis
+NOTE: XP_019056050.1 is identical to XP_010279516.1 but kept for subsequent analysis
+NOTE: scaffold-MUNP-2004875-Piper_auritum is identical to scaffold-MUNP-2004874-Piper_auritum but kept for subsequent analysis
+NOTE: AT4G09960.4|PACid_19648308_10_57 is identical to AT4G09960.1|PACid_19648309_10_57 but kept for subsequent analysis
+NOTE: AT5G15800.1|PACid_19670123_10_57 is identical to AT1G24260.3|PACid_19651405_10_57 but kept for subsequent analysis
+NOTE: AT5G51870.1|PACid_19672300_10_57 is identical to AT5G51870.2|PACid_19672301_10_57 but kept for subsequent analysis
+NOTE: AT2G42830.1|PACid_19643528_25_72 is identical to AT3G58780.2|PACid_19662660_25_72 but kept for subsequent analysis
+NOTE: AT2G03710.2|PACid_19640309_10_57 is identical to AT2G03710.3|PACid_19640310_10_57 but kept for subsequent analysis
+NOTE: AT5G51860.1|PACid_19671371_10_57 is identical to AT5G51860.2|PACid_19671372_10_57 but kept for subsequent analysis
+NOTE: AT3G57230.2|PACid_19665061_10_57 is identical to AT3G57230.1|PACid_19665060_10_57 but kept for subsequent analysis
+NOTE: AT5G62165.1|PACid_19672595_10_57 is identical to AT5G62165.4|PACid_19672598_10_57 but kept for subsequent analysis
+NOTE: AT5G10140.4|PACid_19672041_10_57 is identical to AT5G10140.2|PACid_19672042_10_57 but kept for subsequent analysis
+NOTE: AT5G23260.3|PACid_19667544_10_57 is identical to AT5G23260.2|PACid_19667542_10_57 but kept for subsequent analysis
+NOTE: AT5G65070.3|PACid_19666740_10_57 is identical to AT5G65070.1|PACid_19666742_10_57 but kept for subsequent analysis
+NOTE: AT1G77950.2|PACid_19656698_10_55 is identical to AT1G77950.1|PACid_19656697_10_55 but kept for subsequent analysis
+NOTE: AT1G77080.2|PACid_19652599_10_55 is identical to AT1G77080.5|PACid_19652600_10_55 but kept for subsequent analysis
+NOTE: AT5G65080.1|PACid_19670372_17_62 is identical to AT5G65080.2|PACid_19670373_10_55 but kept for subsequent analysis
+NOTE: AT1G31140.2|PACid_19657777_10_57 is identical to AT1G31140.1|PACid_19657778_10_57 but kept for subsequent analysis
+NOTE: AT5G65050.1|PACid_19667306_10_55 is identical to AT5G65050.2|PACid_19667307_10_55 but kept for subsequent analysis
+NOTE: AT5G65060.1|PACid_19668928_10_55 is identical to AT5G65060.2|PACid_19668929_10_55 but kept for subsequent analysis
+NOTE: AT2G03060.1|PACid_19640479_10_53 is identical to AT2G03060.2|PACid_19640478_10_53 but kept for subsequent analysis
+NOTE: AT3G05860.3|PACid_19660458_10_51 is identical to AT3G05860.2|PACid_19660459_10_51 but kept for subsequent analysis
+NOTE: AT5G40120.1|PACid_19671880_17_56 is identical to AT5G39750.1|PACid_19667213_25_64 but kept for subsequent analysis
+NOTE: AT5G27090.1|PACid_19670534_29_70 is identical to AT5G27090.2|PACid_19670535_29_70 but kept for subsequent analysis
+NOTE: AT5G26950.1|PACid_19666538_30_71 is identical to AT5G27070.1|PACid_19671195_30_71 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00208807 secs using 321.2% CPU
+Identifying sites to remove: done in 0.00812197 secs using 373.5% CPU
+NOTE: 21 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AT4G09960.3|PACid_19648307_36_83 (identical to AT4G09960.1|PACid_19648309_10_57) is ignored but added at the end
+NOTE: AT4G09960.2|PACid_19648310_10_57 (identical to AT4G09960.1|PACid_19648309_10_57) is ignored but added at the end
+NOTE: AT1G24260.1|PACid_19651404_10_57 (identical to AT1G24260.3|PACid_19651405_10_57) is ignored but added at the end
+NOTE: AT1G24260.2|PACid_19651403_10_57 (identical to AT1G24260.3|PACid_19651405_10_57) is ignored but added at the end
+NOTE: AT5G15800.2|PACid_19670122_10_57 (identical to AT1G24260.3|PACid_19651405_10_57) is ignored but added at the end
+NOTE: AT5G51870.3|PACid_19672299_10_57 (identical to AT5G51870.2|PACid_19672301_10_57) is ignored but added at the end
+NOTE: AT3G58780.1|PACid_19662659_25_72 (identical to AT3G58780.2|PACid_19662660_25_72) is ignored but added at the end
+NOTE: AT2G42830.2|PACid_19643527_25_72 (identical to AT3G58780.2|PACid_19662660_25_72) is ignored but added at the end
+NOTE: AT3G58780.3|PACid_19662658_25_72 (identical to AT3G58780.2|PACid_19662660_25_72) is ignored but added at the end
+NOTE: AT2G03710.1|PACid_19640308_10_57 (identical to AT2G03710.3|PACid_19640310_10_57) is ignored but added at the end
+NOTE: AT5G62165.2|PACid_19672596_10_57 (identical to AT5G62165.4|PACid_19672598_10_57) is ignored but added at the end
+NOTE: AT5G62165.3|PACid_19672597_10_57 (identical to AT5G62165.4|PACid_19672598_10_57) is ignored but added at the end
+NOTE: AT5G10140.3|PACid_19672040_10_57 (identical to AT5G10140.2|PACid_19672042_10_57) is ignored but added at the end
+NOTE: AT5G10140.1|PACid_19672039_10_57 (identical to AT5G10140.2|PACid_19672042_10_57) is ignored but added at the end
+NOTE: AT5G23260.1|PACid_19667543_10_57 (identical to AT5G23260.2|PACid_19667542_10_57) is ignored but added at the end
+NOTE: AT5G65070.2|PACid_19666741_10_57 (identical to AT5G65070.1|PACid_19666742_10_57) is ignored but added at the end
+NOTE: AT1G77080.4|PACid_19652598_10_55 (identical to AT1G77080.5|PACid_19652600_10_55) is ignored but added at the end
+NOTE: AT5G65050.3|PACid_19667305_10_55 (identical to AT5G65050.2|PACid_19667307_10_55) is ignored but added at the end
+NOTE: AT3G05860.1|PACid_19660457_10_51 (identical to AT3G05860.2|PACid_19660459_10_51) is ignored but added at the end
+NOTE: AT5G38740.1|PACid_19668168_26_65 (identical to AT5G39750.1|PACid_19667213_25_64) is ignored but added at the end
+NOTE: AT5G40220.1|PACid_19669238_18_57 (identical to AT5G39750.1|PACid_19667213_25_64) is ignored but added at the end
+Alignment was printed to /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Master_MIKCc_All_Species_Final_Aligned.fa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/Master_MIKCc_All_Species_Final_Aligned.fa.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.340 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 230794)...
+
+NOTE: 383 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -117908.687
+2. Current log-likelihood: -102716.296
+3. Current log-likelihood: -102561.589
+4. Current log-likelihood: -102557.607
+5. Current log-likelihood: -102557.259
+Optimal log-likelihood: -102557.179
+Gamma shape alpha: 0.994
+Parameters optimization took 5 rounds (17.301 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 9.2771 secs using 318.7% CPU
+Computing ML distances took 9.279924 sec (of wall-clock time) 29.569943 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.00169802 secs using 462% CPU
+Constructing RapidNJ tree: done in 0.026638 secs using 474.1% CPU
+Computing RapidNJ tree took 0.028427 sec (of wall-clock time) 0.134547 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -104369.466
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 44.262 second
+Computing log-likelihood of 98 initial trees ... 127.808 seconds
+Current best score: -102557.179
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 44.1595 secs using 366.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -102312.181
+Optimizing NNI: done in 80.7537 secs using 376.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -102255.476
+Optimizing NNI: done in 70.4179 secs using 375.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -102235.173
+Optimizing NNI: done in 66.4253 secs using 374.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -102205.357
+Optimizing NNI: done in 86.8844 secs using 346.6% CPU
+Optimizing NNI: done in 74.7787 secs using 376.1% CPU
+Optimizing NNI: done in 61.5236 secs using 374.3% CPU
+Optimizing NNI: done in 103.86 secs using 373.1% CPU
+Optimizing NNI: done in 42.5729 secs using 375.6% CPU
+Optimizing NNI: done in 70.1633 secs using 358.8% CPU
+Iteration 10 / LogL: -102263.560 / Time: 0h:16m:27s
+Optimizing NNI: done in 95.9715 secs using 330.3% CPU
+Optimizing NNI: done in 77.3991 secs using 279% CPU
+Optimizing NNI: done in 94.9553 secs using 272.3% CPU
+Optimizing NNI: done in 93.7938 secs using 263.8% CPU
+Optimizing NNI: done in 75.3123 secs using 293.6% CPU
+Optimizing NNI: done in 82.0694 secs using 256.5% CPU
+Optimizing NNI: done in 98.9988 secs using 285.7% CPU
+Optimizing NNI: done in 218.529 secs using 272.1% CPU
+Optimizing NNI: done in 102.934 secs using 285.8% CPU
+Optimizing NNI: done in 71.4272 secs using 270.6% CPU
+Iteration 20 / LogL: -102327.746 / Time: 0h:33m:21s
+Finish initializing candidate tree set (20)
+Current best tree score: -102205.357 / CPU time: 1905.987
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 70.448 secs using 296% CPU
+Optimizing NNI: done in 78.1363 secs using 262.7% CPU
+Optimizing NNI: done in 191.72 secs using 288.2% CPU
+Optimizing NNI: done in 83.4043 secs using 260.3% CPU
+Optimizing NNI: done in 92.13 secs using 282% CPU
+Optimizing NNI: done in 80.6134 secs using 264.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -102191.624
+Optimizing NNI: done in 64.119 secs using 297.9% CPU
+Optimizing NNI: done in 61.5899 secs using 268.7% CPU
+Optimizing NNI: done in 73.8085 secs using 300.4% CPU
+Optimizing NNI: done in 72.4904 secs using 277.2% CPU
+Iteration 30 / LogL: -102217.419 / Time: 0h:47m:56s (2h:38m:41s left)
+Optimizing NNI: done in 49.7627 secs using 267.6% CPU
+Optimizing NNI: done in 74.9265 secs using 269.6% CPU
+Optimizing NNI: done in 70.6683 secs using 271.3% CPU
+Optimizing NNI: done in 93.981 secs using 260.7% CPU
+Optimizing NNI: done in 56.8273 secs using 283.5% CPU
+Optimizing NNI: done in 56.7289 secs using 307.5% CPU
+Optimizing NNI: done in 57.5443 secs using 247.6% CPU
+Optimizing NNI: done in 71.5622 secs using 276.4% CPU
+Optimizing NNI: done in 200.388 secs using 280.5% CPU
+Optimizing NNI: done in 55.1881 secs using 284.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -102167.631
+Iteration 40 / LogL: -102167.631 / Time: 1h:1m:12s (2h:36m:56s left)
+Optimizing NNI: done in 75.196 secs using 276.9% CPU
+Optimizing NNI: done in 72.4203 secs using 261.3% CPU
+Optimizing NNI: done in 76.5691 secs using 283% CPU
+Optimizing NNI: done in 73.0179 secs using 274.7% CPU
+Optimizing NNI: done in 66.0115 secs using 298.7% CPU
+Optimizing NNI: done in 117.421 secs using 270.5% CPU
+Optimizing NNI: done in 78.0037 secs using 263.8% CPU
+Optimizing NNI: done in 80.0778 secs using 296.9% CPU
+Optimizing NNI: done in 63.035 secs using 244.3% CPU
+Optimizing NNI: done in 53.8281 secs using 288.5% CPU
+Iteration 50 / LogL: -102186.022 / Time: 1h:13m:52s (2h:15m:40s left)
+Log-likelihood cutoff on original alignment: -102339.449
+Optimizing NNI: done in 204.243 secs using 282.2% CPU
+Optimizing NNI: done in 91.2473 secs using 275.6% CPU
+Optimizing NNI: done in 62.4794 secs using 312.1% CPU
+Optimizing NNI: done in 72.8702 secs using 269.8% CPU
+Optimizing NNI: done in 82.1078 secs using 279.6% CPU
+Optimizing NNI: done in 168.64 secs using 273.3% CPU
+Optimizing NNI: done in 53.8812 secs using 303.7% CPU
+Optimizing NNI: done in 93.4018 secs using 267.9% CPU
+Optimizing NNI: done in 53.0054 secs using 283.8% CPU
+Optimizing NNI: done in 118.98 secs using 276.9% CPU
+Iteration 60 / LogL: -102199.546 / Time: 1h:30m:39s (2h:2m:54s left)
+Optimizing NNI: done in 73.5753 secs using 272.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -102161.730
+Optimizing NNI: done in 61.123 secs using 284.1% CPU
+Optimizing NNI: done in 77.431 secs using 293.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -102155.871
+Optimizing NNI: done in 74.4957 secs using 271.6% CPU
+Optimizing NNI: done in 121.688 secs using 282.9% CPU
+Optimizing NNI: done in 115.034 secs using 317.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 66: -102150.841
+Optimizing NNI: done in 46.5751 secs using 357.7% CPU
+Optimizing NNI: done in 81.3853 secs using 366.8% CPU
+Optimizing NNI: done in 45.8354 secs using 379.5% CPU
+Optimizing NNI: done in 61.9456 secs using 380.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 70: -102150.517
+Iteration 70 / LogL: -102150.517 / Time: 1h:43m:42s (2h:30m:17s left)
+Optimizing NNI: done in 48.1148 secs using 371.7% CPU
+Optimizing NNI: done in 50.4665 secs using 376.8% CPU
+Optimizing NNI: done in 67.3118 secs using 376.8% CPU
+Optimizing NNI: done in 61.3546 secs using 367.5% CPU
+Optimizing NNI: done in 56.1253 secs using 366.7% CPU
+Optimizing NNI: done in 43.1034 secs using 381.7% CPU
+Optimizing NNI: done in 49.7475 secs using 378.7% CPU
+Optimizing NNI: done in 127.36 secs using 382% CPU
+Optimizing NNI: done in 92.157 secs using 338.6% CPU

@@ -1,0 +1,24 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                       accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#               ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold-MUNP-2004874-Piper_auritum -            208 SRF-TF               PF00319.23    48   6.3e-28   95.8   0.1   1   1   6.8e-31   1.2e-27   94.9   0.1     1    48    10    57    10    57 0.99 -
+scaffold-MUNP-2004875-Piper_auritum -            208 SRF-TF               PF00319.23    48   6.3e-28   95.8   0.1   1   1   6.8e-31   1.2e-27   94.9   0.1     1    48    10    57    10    57 0.99 -
+scaffold-MUNP-2001472-Piper_auritum -            246 SRF-TF               PF00319.23    48   9.4e-27   92.0   0.3   1   1   9.4e-30   1.6e-26   91.2   0.3     1    48    10    57    10    57 0.99 -
+scaffold-MUNP-2011435-Piper_auritum -            210 SRF-TF               PF00319.23    48   1.5e-26   91.4   0.1   1   1   1.7e-29   2.9e-26   90.4   0.1     1    48    10    57    10    57 0.99 -
+scaffold-MUNP-2001867-Piper_auritum -            227 SRF-TF               PF00319.23    48   1.6e-26   91.2   0.3   1   1   1.5e-29   2.6e-26   90.6   0.3     1    48    10    57    10    57 0.99 -
+scaffold-MUNP-2011315-Piper_auritum -            154 SRF-TF               PF00319.23    48   1.2e-24   85.3   0.5   1   2   1.6e-27   2.7e-24   84.1   0.1     2    48    11    57    10    57 0.98 -
+scaffold-MUNP-2011315-Piper_auritum -            154 SRF-TF               PF00319.23    48   1.2e-24   85.3   0.5   2   2         1   1.8e+03   -1.7   0.0    22    28   114   120   114   126 0.76 -
+scaffold-MUNP-2007266-Piper_auritum -             70 SRF-TF               PF00319.23    48   4.5e-22   77.0   0.0   1   1   3.2e-25   5.5e-22   76.7   0.0     2    48    11    57    10    57 0.97 -
+scaffold-MUNP-2001384-Piper_auritum -            227 SRF-TF               PF00319.23    48   5.6e-22   76.7   0.2   1   1   7.2e-25   1.2e-21   75.6   0.2     9    48     1    40     1    40 0.99 -
+scaffold-MUNP-2013360-Piper_auritum -            295 SRF-TF               PF00319.23    48     0.033   13.4   0.0   1   2   0.00013      0.22   10.8   0.0    18    34    16    32    15    38 0.89 -
+scaffold-MUNP-2013360-Piper_auritum -            295 SRF-TF               PF00319.23    48     0.033   13.4   0.0   2   2       2.6   4.5e+03   -3.0   0.0    21    25   285   289   282   293 0.80 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      PF00319.MADS.hmm
+# Target file:     NIPGR-Plants/Piper_auritum/MUNP-translated-protein.fa
+# Option settings: hmmsearch --domtblout NIPGR_WORK/Piper_auritum/Piper_auritum_MADS.domtblout PF00319.MADS.hmm NIPGR-Plants/Piper_auritum/MUNP-translated-protein.fa 
+# Current dir:     /Users/bushrakhan/Desktop/NIPGR-data
+# Date:            Sat Mar 28 02:27:14 2026
+# [ok]

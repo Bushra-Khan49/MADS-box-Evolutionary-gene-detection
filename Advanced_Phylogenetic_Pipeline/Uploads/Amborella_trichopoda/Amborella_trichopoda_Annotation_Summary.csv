@@ -1,0 +1,17 @@
+Species_Gene_ID,Homologous_Arabidopsis_Symbol,Top_Arabidopsis_Hit,E-value,Bit-score,%_Identity,Alignment_Length
+evm_27.model.AmTr_v1.0_scaffold00001.225,AT3G54340.1,"AP3, ATAP3",7.98e-57,173,46.479,213
+evm_27.model.AmTr_v1.0_scaffold00001.409,AT2G45660.1,"AGL20, SOC1, ATSOC1",3.50e-87,249,63.380,213
+evm_27.model.AmTr_v1.0_scaffold00001.413,AT2G45650.1,"AGL6, RSB1",5.57e-105,296,61.024,254
+evm_27.model.AmTr_v1.0_scaffold00001.461,AT5G23260.4,"TT16, ABS, AGL32",6.60e-63,190,45.344,247
+evm_27.model.AmTr_v1.0_scaffold00013.53,AT1G24260.2,"AGL9, SEP3",6.71e-105,296,62.745,255
+evm_27.model.AmTr_v1.0_scaffold00013.60,AT2G45650.1,"AGL6, RSB1",1.02e-36,120,41.935,155
+evm_27.model.AmTr_v1.0_scaffold00021.296,AT4G18960.1,AG,3.85e-115,322,68.803,234
+evm_27.model.AmTr_v1.0_scaffold00046.134,AT4G37940.1,AGL21,7.04e-96,272,60.965,228
+evm_27.model.AmTr_v1.0_scaffold00047.105,AT1G69120.1,"AP1, AtAP1, AGL7",1.16e-88,256,68.715,179
+evm_27.model.AmTr_v1.0_scaffold00047.121,AT3G02310.1,"AGL4, SEP2",1.89e-113,318,64.940,251
+evm_27.model.AmTr_v1.0_scaffold00053.185,AT5G13790.2,AGL15,4.33e-59,179,52.432,185
+evm_27.model.AmTr_v1.0_scaffold00066.97,AT3G54340.1,"AP3, ATAP3",9.46e-55,167,48.515,202
+evm_27.model.AmTr_v1.0_scaffold00071.203,AT4G18960.1,AG,7.84e-105,296,63.830,235
+evm_27.model.AmTr_v1.0_scaffold00089.36,AT5G20240.1,PI,1.14e-67,199,49.048,210
+evm_27.model.AmTr_v1.0_scaffold00095.150,AT5G48670.1,"FEM111, AGL80",7.06e-41,135,46.203,158
+evm_27.model.AmTr_v1.0_scaffold00127.17,AT2G22540.1,"AGL22, FAQ1, SVP",6.21e-82,237,55.882,238

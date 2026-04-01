@@ -1,0 +1,5 @@
+"filename","file_id","JGI Grouping ID","directory/path","Short Organism Name","Genome/Metagenome Name","md5 checksum","file size"
+"Gmax_508_Wm82.a4.v1.protein_primaryTranscriptOnly.fa.gz","5bfc65da46d1e61e989e5771","Phytozome-508","Phytozome/PhytozomeV13/Gmax/Wm82.a4.v1/annotation","Gmax","Glycine max Wm82.a4.v1","6704cb18569b6fa974ba30a4899af01d","13686259"
+"Gmax_508_Wm82.a4.v1.gene.gff3.gz","5bfc64e746d1e61e989e5766","Phytozome-508","Phytozome/PhytozomeV13/Gmax/Wm82.a4.v1/annotation","Gmax","Glycine max Wm82.a4.v1","e89cae68470e0c73687b6974bb14eac1","11346155"
+"Gmax_508_v4.0.fa.gz","5bfc65db46d1e61e989e5774","Phytozome-508","Phytozome/PhytozomeV13/Gmax/Wm82.a4.v1/assembly","Gmax","Glycine max Wm82.a4.v1","18b563bb32e12bfc9513f46ddaac6092","282364800"
+"Gmax_508_Wm82.a4.v1.transcript_primaryTranscriptOnly.fa.gz","5bfc64eb46d1e61e989e576f","Phytozome-508","Phytozome/PhytozomeV13/Gmax/Wm82.a4.v1/annotation","Gmax","Glycine max Wm82.a4.v1","f0ee03516ec396ebe84bdae66127373a","30450192"
