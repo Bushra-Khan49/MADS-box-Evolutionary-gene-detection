@@ -146,8 +146,6 @@ Angiosperms (Flowering plants)
 - **Theissen, G., et al. (2016).** MADS-box genes and the evolution of flowers. *Journal of Experimental Botany*, 67(1), 35-49.
 - **Rodríguez-Pelayo et al. (2022).** Genomic insights into MADS-box gene evolution.
 - **Thangavel & Nayar (2018).** Computational identification of plant transcription factors.
-
-### NIPGR Laboratory Contributions (Prabhakaran Lab)
-- **Soundararajan, P., et al. (2025).** Pangenome-wide identification, evolutionary analysis, and characterization of WOX gene family among Brassica Triangle of U's genomes. *Plant Gene*, 42, 100497. (Seminal evolutionary genomics study from NIPGR).
-- **Soundararajan, P., Singh, P., Letro, A., Singh, G., & Manivannan, A. (2025, In Press).** Transcriptome-wide identification and expression analysis of expansin genes in *Adhatoda vasica*. *Plant Physiology Reports*. (Includes contributions from Awele Letro and Abinaya Manivannan).
-- **Agarwal, Y., Shukla, B., Manivannan, A., & Soundararajan, P. (2022).** Paradigm and Framework of WUS-CLV Feedback Loop in Stem Cell Niche for SAM Maintenance and Cell Identity Transition. *Agronomy*, 12(12), 3132. (Foundational developmental genetics including Abinaya Manivannan).
+- **Soundararajan, P., et al. (2025).** Pangenome-wide identification and characterization of WOX gene family among *Brassica Triangle of U's* genomes. *Plant Gene*, 42, 100497.
+- **Soundararajan, P., et al. (2025).** Transcriptome-wide identification and expression analysis of expansin genes in *Adhatoda vasica*. *Plant Physiology Reports*.
+- **Agarwal, Y., et al. (2022).** Paradigm and Framework of WUS-CLV Feedback Loop in Stem Cell Niche for SAM Maintenance and Cell Identity Transition. *Agronomy*, 12(12), 3132.
