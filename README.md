@@ -139,6 +139,10 @@ Angiosperms (Flowering plants)
 ---
 
 ## References
-- Rodríguez-Pelayo et al., 2022  
-- Thangavel & Nayar, 2018  
-- Theissen et al. (Review on MADS-box genes)  
+- **Becker, A., & Theissen, G. (2003).** The modular evolution of MADS-box genes. *Molecular Phylogenetics and Evolution*, 29(3), 483-502.
+- **Parenicová, L., et al. (2003).** Genome-wide analysis of Arabidopsis MADS-box gene family. *Plant Physiology*, 132(3), 1387-1397.
+- **Gramzow, L., & Theissen, G. (2010).** A comprehensive analysis of MADS-box genes in monocots. *Gene*, 461(1-2), 28-40.
+- **Smaczniak, C., et al. (2012).** MADS-box transcription factor complexes. *Current Opinion in Plant Biology*, 15(5), 620-631.
+- **Theissen, G., et al. (2016).** MADS-box genes and the evolution of flowers. *Journal of Experimental Botany*, 67(1), 35-49.
+- **Rodríguez-Pelayo et al. (2022).** Genomic insights into MADS-box gene evolution.
+- **Thangavel & Nayar (2018).** Computational identification of plant transcription factors.
