@@ -1,0 +1,1394 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF01486.K_domain.hmm
+# target sequence database:        NIPGR-Plants/Glycine_max/Gmax_508_Wm82.a4.v1.protein_primaryTranscriptOnly.fa
+# per-dom hits tabular output:     NIPGR_WORK/Glycine_max/Glycine_max_Kbox.domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       K-box  [M=93]
+Accession:   PF01486.22
+Description: K-box region
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    1.6e-31  109.8  11.7    3.4e-31  108.7  11.7    1.5  1  Glyma.16G091300.1.p   pacid=41078730 transcript=Glyma.16G0913
+    5.6e-31  108.1   9.4    1.2e-30  106.9   9.4    1.6  1  Glyma.01G064200.1.p   pacid=41117973 transcript=Glyma.01G0642
+    6.5e-31  107.8  11.4    1.3e-30  106.9  11.4    1.5  1  Glyma.08G269800.1.p   pacid=41110240 transcript=Glyma.08G2698
+      8e-31  107.6  11.6    1.7e-30  106.5  11.6    1.6  1  Glyma.02G121600.1.p   pacid=41097035 transcript=Glyma.02G1216
+      2e-30  106.3  12.9    4.6e-30  105.1  12.9    1.6  1  Glyma.06G205800.1.p   pacid=41152115 transcript=Glyma.06G2058
+      3e-30  105.7  12.6    7.7e-30  104.4  12.6    1.7  1  Glyma.04G159300.1.p   pacid=41083802 transcript=Glyma.04G1593
+    1.8e-29  103.2  13.2    2.1e-29  103.0  12.1    1.6  1  Glyma.07G081300.1.p   pacid=41123648 transcript=Glyma.07G0813
+    4.4e-29  102.0   8.4    1.1e-28  100.8   8.4    1.6  1  Glyma.15G088600.1.p   pacid=41122732 transcript=Glyma.15G0886
+      5e-29  101.8   8.9    1.1e-28  100.7   8.9    1.6  1  Glyma.13G223300.1.p   pacid=41139301 transcript=Glyma.13G2233
+    5.4e-29  101.7  13.5    6.2e-29  101.5  12.4    1.6  1  Glyma.03G019400.1.p   pacid=41156432 transcript=Glyma.03G0194
+      7e-29  101.3  13.9      7e-29  101.3  13.9    1.9  2  Glyma.14G183800.2.p   pacid=41149869 transcript=Glyma.14G1838
+    4.2e-28   98.8  12.9    4.2e-28   98.8  12.9    2.7  2  Glyma.13G255200.6.p   pacid=41140030 transcript=Glyma.13G2552
+    8.6e-28   97.8   9.6    8.6e-28   97.8   9.6    1.7  1  Glyma.18G273500.1.p   pacid=41168569 transcript=Glyma.18G2735
+    1.1e-27   97.5   9.4    1.1e-27   97.5   9.4    1.7  1  Glyma.13G052700.1.p   pacid=41136959 transcript=Glyma.13G0527
+    1.1e-27   97.5   9.4    1.1e-27   97.5   9.4    1.7  1  Glyma.19G034500.1.p   pacid=41162726 transcript=Glyma.19G0345
+    1.2e-27   97.4  11.0    2.3e-27   96.5  11.0    1.4  1  Glyma.06G324400.2.p   pacid=41154407 transcript=Glyma.06G3244
+    1.2e-27   97.4  11.0    2.3e-27   96.5  11.0    1.4  1  Glyma.04G257100.1.p   pacid=41085109 transcript=Glyma.04G2571
+    1.3e-27   97.2  12.9    1.3e-27   97.2  12.9    2.9  3  Glyma.15G059600.2.p   pacid=41118243 transcript=Glyma.15G0596
+    2.1e-27   96.6   9.6    2.1e-27   96.6   9.6    1.7  1  Glyma.08G250700.1.p   pacid=41108461 transcript=Glyma.08G2507
+    2.3e-27   96.5   8.4    4.8e-27   95.4   8.4    1.5  1  Glyma.08G120600.1.p   pacid=41110204 transcript=Glyma.08G1206
+    3.2e-27   96.0  14.6    3.2e-27   96.0  14.6    1.9  2  Glyma.18G224500.1.p   pacid=41168214 transcript=Glyma.18G2245
+    3.8e-27   95.8  14.3    3.8e-27   95.8  14.3    1.9  2  Glyma.09G266200.6.p   pacid=41135016 transcript=Glyma.09G2662
+    4.2e-27   95.6   4.8    4.2e-27   95.6   4.8    1.7  1  Glyma.19G034600.1.p   pacid=41162217 transcript=Glyma.19G0346
+    4.9e-27   95.4   8.2      1e-26   94.4   8.2    1.5  1  Glyma.02G287700.3.p   pacid=41096792 transcript=Glyma.02G2877
+    5.4e-27   95.3  11.8    5.4e-27   95.3  11.8    1.9  1  Glyma.08G105500.1.p   pacid=41110475 transcript=Glyma.08G1055
+    7.5e-27   94.8  11.6    7.5e-27   94.8  11.6    1.9  1  Glyma.05G148800.1.p   pacid=41147027 transcript=Glyma.05G1488
+    7.5e-27   94.8  12.5    1.1e-26   94.2  11.4    1.8  1  Glyma.17G081200.1.p   pacid=41085293 transcript=Glyma.17G0812
+    1.1e-26   94.3   8.7    2.1e-26   93.4   8.7    1.4  1  Glyma.14G027251.1.p   pacid=41147510 transcript=Glyma.14G0272
+    1.1e-26   94.3   5.9    2.2e-26   93.3   5.9    1.5  1  Glyma.08G250800.3.p   pacid=41113090 transcript=Glyma.08G2508
+    3.5e-26   92.7   3.8    3.5e-26   92.7   3.8    1.6  1  Glyma.13G052100.1.p   pacid=41142191 transcript=Glyma.13G0521
+    3.5e-26   92.7   7.0    9.8e-26   91.2   7.0    1.8  1  Glyma.18G105800.1.p   pacid=41168941 transcript=Glyma.18G1058
+    3.8e-26   92.6   7.0    9.9e-26   91.2   7.0    1.7  1  Glyma.08G310100.1.p   pacid=41111908 transcript=Glyma.08G3101
+    5.9e-26   91.9  10.6    5.9e-26   91.9  10.6    1.7  1  Glyma.18G004700.4.p   pacid=41167083 transcript=Glyma.18G0047
+    2.3e-25   90.1   9.7    2.3e-25   90.1   9.7    1.7  1  Glyma.11G252300.1.p   pacid=41128414 transcript=Glyma.11G2523
+    5.2e-25   88.9  12.9    5.2e-25   88.9  12.9    1.6  1  Glyma.09G266400.4.p   pacid=41136260 transcript=Glyma.09G2664
+    5.6e-25   88.8  13.3    5.6e-25   88.8  13.3    1.8  1  Glyma.07G080900.4.p   pacid=41123354 transcript=Glyma.07G0809
+    5.7e-25   88.8  13.9    1.1e-24   87.9  13.7    1.6  1  Glyma.09G201700.1.p   pacid=41135060 transcript=Glyma.09G2017
+    7.1e-25   88.5  10.8    7.1e-25   88.5  10.8    1.7  1  Glyma.05G018900.1.p   pacid=41142865 transcript=Glyma.05G0189
+    7.1e-25   88.5  18.7    7.1e-25   88.5  18.7    1.7  1  Glyma.02G121500.1.p   pacid=41096285 transcript=Glyma.02G1215
+    7.8e-25   88.4   9.5    7.8e-25   88.4   9.5    1.9  1  Glyma.05G163200.1.p   pacid=41146362 transcript=Glyma.05G1632
+    8.4e-25   88.3  11.0    8.4e-25   88.3  11.0    2.3  1  Glyma.05G018800.1.p   pacid=41143734 transcript=Glyma.05G0188
+    1.4e-24   87.6  13.6    1.4e-24   87.6  13.6    2.1  2  Glyma.08G065300.1.p   pacid=41113016 transcript=Glyma.08G0653
+    1.4e-24   87.6  18.8    1.4e-24   87.6  18.8    1.7  1  Glyma.01G064100.1.p   pacid=41117256 transcript=Glyma.01G0641
+    1.7e-24   87.3  10.2    1.7e-24   87.3  10.2    1.7  1  Glyma.17G080900.1.p   pacid=41089477 transcript=Glyma.17G0809
+    2.3e-24   86.9  10.8    2.3e-24   86.9  10.8    1.9  2  Glyma.08G065400.2.p   pacid=41113688 transcript=Glyma.08G0654
+    2.6e-24   86.7  14.4      5e-24   85.8  14.4    1.5  1  Glyma.01G020500.3.p   pacid=41116806 transcript=Glyma.01G0205
+    2.8e-23   83.4  14.2    5.2e-19   69.7   7.3    2.5  2  Glyma.02G216600.13.p  pacid=41094510 transcript=Glyma.02G2166
+      7e-23   82.1   1.1    1.2e-22   81.3   1.1    1.3  1  Glyma.18G273600.2.p   pacid=41168955 transcript=Glyma.18G2736
+    9.3e-23   81.7   1.1    1.3e-22   81.2   1.1    1.1  1  Glyma.14G019650.1.p   pacid=41147232 transcript=Glyma.14G0196
+    1.4e-22   81.1   3.7    2.2e-22   80.5   3.7    1.3  1  Glyma.12G005000.1.p   pacid=41099676 transcript=Glyma.12G0050
+    1.5e-22   81.0   8.6      3e-22   80.1   8.6    1.5  1  Glyma.10G240500.1.p   pacid=41106723 transcript=Glyma.10G2405
+    2.5e-22   80.3   7.8    4.6e-22   79.5   7.8    1.4  1  Glyma.20G154200.3.p   pacid=41093416 transcript=Glyma.20G1542
+    6.4e-22   79.0  17.8    2.5e-21   77.1  16.2    2.2  2  Glyma.17G132700.5.p   pacid=41086832 transcript=Glyma.17G1327
+    1.1e-21   78.3   8.6    3.2e-21   76.8   8.6    1.7  1  Glyma.09G149000.1.p   pacid=41132180 transcript=Glyma.09G1490
+      3e-21   76.9  17.1    3.3e-21   76.7  16.1    1.6  1  Glyma.18G224300.2.p   pacid=41167260 transcript=Glyma.18G2243
+    3.1e-21   76.8  16.9    4.2e-21   76.4  15.7    1.8  1  Glyma.05G050700.1.p   pacid=41146074 transcript=Glyma.05G0507
+    4.2e-21   76.4   8.0    4.2e-21   76.4   8.0    1.6  1  Glyma.06G117600.1.p   pacid=41154588 transcript=Glyma.06G1176
+    1.3e-20   74.8   8.4    1.3e-20   74.8   8.4    1.6  1  Glyma.04G245500.2.p   pacid=41083065 transcript=Glyma.04G2455
+    1.6e-20   74.6   8.1    3.6e-20   73.4   8.1    1.6  1  Glyma.03G019300.1.p   pacid=41159746 transcript=Glyma.03G0193
+    2.3e-20   74.0   5.8    2.3e-20   74.0   5.8    1.6  1  Glyma.14G155100.1.p   pacid=41148950 transcript=Glyma.14G1551
+    3.1e-20   73.6  10.0    5.7e-20   72.8  10.0    1.4  1  Glyma.06G027200.1.p   pacid=41153025 transcript=Glyma.06G0272
+      7e-20   72.5   7.4      7e-20   72.5   7.4    1.6  1  Glyma.13G034100.2.p   pacid=41140783 transcript=Glyma.13G0341
+      7e-20   72.5  13.8    1.6e-19   71.3  13.8    1.6  1  Glyma.10G240900.1.p   pacid=41107522 transcript=Glyma.10G2409
+      1e-19   71.9  11.5    1.8e-19   71.1  11.5    1.3  1  Glyma.04G027200.1.p   pacid=41082569 transcript=Glyma.04G0272
+    2.6e-19   70.6  11.0      1e-18   68.7  10.8    1.9  2  Glyma.20G001900.1.p   pacid=41093665 transcript=Glyma.20G0019
+    3.1e-19   70.4  14.2    6.5e-19   69.4  14.2    1.5  1  Glyma.20G153700.3.p   pacid=41093480 transcript=Glyma.20G1537
+    7.8e-19   69.1  12.3    1.5e-18   68.2  12.3    1.5  1  Glyma.16G200700.1.p   pacid=41080413 transcript=Glyma.16G2007
+    2.1e-18   67.7  15.6    5.3e-18   66.5  14.3    2.0  2  Glyma.09G283800.3.p   pacid=41135767 transcript=Glyma.09G2838
+    1.2e-17   65.3   5.3    1.9e-17   64.7   5.3    1.3  1  Glyma.09G231600.4.p   pacid=41132860 transcript=Glyma.09G2316
+    1.5e-17   65.0   6.7    2.9e-17   64.1   6.7    1.4  1  Glyma.01G169600.1.p   pacid=41117740 transcript=Glyma.01G1696
+    1.6e-17   64.9  17.5    2.5e-17   64.3  17.5    1.3  1  Glyma.11G158812.1.p   pacid=41127879 transcript=Glyma.11G1588
+    4.5e-17   63.5  12.4    5.9e-17   63.1  11.9    1.5  1  Glyma.02G041500.1.p   pacid=41094723 transcript=Glyma.02G0415
+    5.3e-17   63.3  13.8    7.3e-17   62.8  13.8    1.2  1  Glyma.04G142500.2.p   pacid=41081048 transcript=Glyma.04G1425
+    5.8e-17   63.1  12.4    7.8e-17   62.7  11.9    1.5  1  Glyma.01G023500.1.p   pacid=41115835 transcript=Glyma.01G0235
+    2.7e-16   61.0  10.6    5.8e-16   59.9  10.6    1.5  1  Glyma.07G181600.7.p   pacid=41123455 transcript=Glyma.07G1816
+    9.8e-16   59.2  10.1    1.9e-15   58.3  10.1    1.5  1  Glyma.06G095700.1.p   pacid=41152371 transcript=Glyma.06G0957
+    1.1e-15   59.0   7.7    2.2e-15   58.1   7.7    1.5  1  Glyma.13G256900.1.p   pacid=41140477 transcript=Glyma.13G2569
+    1.1e-15   59.0  13.5    1.1e-15   59.0  13.5    1.7  1  Glyma.08G068200.8.p   pacid=41108013 transcript=Glyma.08G0682
+    3.2e-15   57.6  12.2    3.2e-15   57.6  12.2    1.8  1  Glyma.02G185500.3.p   pacid=41096376 transcript=Glyma.02G1855
+    3.7e-15   57.3   6.3      1e-12   49.5   6.3    2.4  1  Glyma.11G073700.5.p   pacid=41130526 transcript=Glyma.11G0737
+      1e-14   56.0   2.8      1e-14   56.0   2.8    1.6  1  Glyma.05G148700.2.p   pacid=41146929 transcript=Glyma.05G1487
+    4.1e-14   54.0   8.4    6.9e-14   53.3   8.4    1.4  1  Glyma.15G058000.2.p   pacid=41118399 transcript=Glyma.15G0580
+    4.6e-13   50.6  10.6    1.1e-12   49.4  10.6    1.6  1  Glyma.13G257000.7.p   pacid=41138158 transcript=Glyma.13G2570
+    9.1e-12   46.5   0.2    9.1e-12   46.5   0.2    1.5  1  Glyma.08G105400.1.p   pacid=41109930 transcript=Glyma.08G1054
+    1.2e-11   46.1   3.0      2e-11   45.4   3.0    1.4  1  Glyma.10G113400.1.p   pacid=41104437 transcript=Glyma.10G1134
+    1.3e-11   46.0  11.5    3.5e-11   44.6  11.5    1.6  1  Glyma.15G057900.2.p   pacid=41120906 transcript=Glyma.15G0579
+    1.2e-05   26.9   2.0    2.7e-05   25.8   2.0    1.5  1  Glyma.13G086400.1.p   pacid=41140360 transcript=Glyma.13G0864
+    1.4e-05   26.7   2.3    3.5e-05   25.4   2.3    1.6  1  Glyma.14G168700.1.p   pacid=41150284 transcript=Glyma.14G1687
+    0.00032   22.3   0.1    0.00038   22.0   0.1    1.1  1  Glyma.04G153000.1.p   pacid=41082785 transcript=Glyma.04G1530
+  ------ inclusion threshold ------
+        0.2   13.3  11.4       0.19   13.4   9.0    2.1  2  Glyma.07G228900.1.p   pacid=41123828 transcript=Glyma.07G2289
+       0.25   13.0   2.1         32    6.2   0.2    2.4  2  Glyma.02G042700.1.p   pacid=41094524 transcript=Glyma.02G0427
+        1.4   10.6   2.7          3    9.6   0.1    2.6  2  Glyma.13G254500.3.p   pacid=41136628 transcript=Glyma.13G2545
+        1.7   10.3   8.2        2.4    9.9   6.5    2.1  1  Glyma.20G034000.3.p   pacid=41090309 transcript=Glyma.20G0340
+        1.8   10.3   3.6        1.1   11.0   0.1    2.3  1  Glyma.15G060200.3.p   pacid=41122127 transcript=Glyma.15G0602
+        2.8    9.7  13.0        5.2    8.8   3.0    2.7  2  Glyma.19G021100.1.p   pacid=41160538 transcript=Glyma.19G0211
+
+
+Domain annotation for each sequence (and alignments):
+>> Glyma.16G091300.1.p  pacid=41078730 transcript=Glyma.16G091300.1 locus=Glyma.16G091300 ID=Glyma.16G091300.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.7  11.7   6.2e-34   3.4e-31       4      92 ..      84     172 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 108.7 bits;  conditional E-value: 6.2e-34
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++++q +++ e+++Lk++i+ lqr++R+++Gedl+s+slkeLq+LeqqL+++lk+iR+r+nql+ e+i+el+kkek ++e+n++L kk+
+  Glyma.16G091300.1.p  84 DSESQGNWTIEYTRLKAKIDLLQRNHRHYMGEDLGSMSLKELQSLEQQLDTALKQIRTRRNQLMYESISELQKKEKVIQEQNNMLAKKI 172
+                          5567889********************************************************************************98 PP
+
+>> Glyma.01G064200.1.p  pacid=41117973 transcript=Glyma.01G064200.1 locus=Glyma.01G064200 ID=Glyma.01G064200.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.9   9.4   2.2e-33   1.2e-30       4      92 ..      84     172 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 106.9 bits;  conditional E-value: 2.2e-33
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++++q +++ e+++Lk++i+ lqr++R+++Gedl s+slkeLq+LeqqL++++k+iR+r+n+l+ ++i+el+kkek+++e+n+ L kk+
+  Glyma.01G064200.1.p  84 DSETQGNWTIEYTRLKAKIDLLQRNHRHYMGEDLASMSLKELQSLEQQLDTAIKNIRTRRNDLMYASISELQKKEKMIQEQNNILAKKI 172
+                          4556889********************************************************************************98 PP
+
+>> Glyma.08G269800.1.p  pacid=41110240 transcript=Glyma.08G269800.1 locus=Glyma.08G269800 ID=Glyma.08G269800.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.9  11.4   2.3e-33   1.3e-30       4      92 ..      84     172 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 106.9 bits;  conditional E-value: 2.3e-33
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++++q +++ e+++Lk++i+ lqr++R+++Gedl+s+slkeLq+LeqqL+++lk+iR+r+nql+ e+i+el kkek ++e+n++L kk+
+  Glyma.08G269800.1.p  84 DSETQGNWTIEYTRLKAKIDLLQRNHRHYMGEDLGSMSLKELQSLEQQLDTALKQIRTRRNQLMYESISELEKKEKVIQEQNNMLAKKI 172
+                          4556889********************************************************************************98 PP
+
+>> Glyma.02G121600.1.p  pacid=41097035 transcript=Glyma.02G121600.1 locus=Glyma.02G121600 ID=Glyma.02G121600.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.5  11.6   3.1e-33   1.7e-30       4      92 ..      84     172 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 106.5 bits;  conditional E-value: 3.1e-33
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++++qe+++ e+++Lk++i+ lqr++R+++Gedl s+slkeLq+LeqqL +++k+iR+r+n+l++e+i+el+kkek+++een++L kk+
+  Glyma.02G121600.1.p  84 DSETQENWTIEYTRLKAKIDLLQRNHRHYMGEDLASMSLKELQSLEQQLVTGIKNIRTRRNDLMSESISELQKKEKRIQEENNTLAKKI 172
+                          566789*********************************************************************************98 PP
+
+>> Glyma.06G205800.1.p  pacid=41152115 transcript=Glyma.06G205800.1 locus=Glyma.06G205800 ID=Glyma.06G205800.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.1  12.9   8.2e-33   4.6e-30       3      92 ..      83     172 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 105.1 bits;  conditional E-value: 8.2e-33
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          s++ + e+++ e+akLk+++e lq++qR+++G+dl++ls+keLq+Le+qL+++lk+iRsrKnq+++e+i+el+kk+k l+e+n++L kk+
+  Glyma.06G205800.1.p  83 SDQPQTENWTLEHAKLKARLEVLQKNQRNFMGQDLEGLSIKELQNLEHQLDSALKHIRSRKNQIMHESISELHKKDKVLQEQNNTLAKKI 172
+                          5667899*********************************************************************************98 PP
+
+>> Glyma.04G159300.1.p  pacid=41083802 transcript=Glyma.04G159300.1 locus=Glyma.04G159300 ID=Glyma.04G159300.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.4  12.6   1.4e-32   7.7e-30       7      92 ..      87     172 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 104.4 bits;  conditional E-value: 1.4e-32
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                            e+++ e+akLk+++e lq++qR+++G+dl++ls+keLq+Le+qLe++lk+iRsrKnql+ e+i+el+kk+k l+e+n++L kk+
+  Glyma.04G159300.1.p  87 LTENWTLEHAKLKARLEVLQKNQRNFMGQDLEGLSIKELQNLEHQLESALKHIRSRKNQLMYESISELHKKDKALQEQNNTLAKKI 172
+                          5689********************************************************************************98 PP
+
+>> Glyma.07G081300.1.p  pacid=41123648 transcript=Glyma.07G081300.1 locus=Glyma.07G081300 ID=Glyma.07G081300.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.0  12.1   3.8e-32   2.1e-29       7      92 ..      84     169 ..      76     170 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 103.0 bits;  conditional E-value: 3.8e-32
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e ++++qe++kLk+++++lqr+qR+llGedl++l++keLq+Le+qLe +l + R+rK+q++ eq+eel+++e++l + nk+Lr kl
+  Glyma.07G081300.1.p  84 ETQSWYQEVSKLKAKYDSLQRTQRHLLGEDLGPLNIKELQNLEKQLEGALAQARQRKTQIMIEQMEELRRRERHLGDMNKQLRLKL 169
+                          6799*******************************************************************************998 PP
+
+>> Glyma.15G088600.1.p  pacid=41122732 transcript=Glyma.15G088600.1 locus=Glyma.15G088600 ID=Glyma.15G088600.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.8   8.4   1.9e-31   1.1e-28       4      92 ..      99     186 ..      96     187 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 100.8 bits;  conditional E-value: 1.9e-31
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e+ + +++qqe++kL+++i++lq+++Rq++Ge+l++l+ keL++Le +Lek++++iRs+Kn+ll+++ie+++k+e  l+++n+ Lr k+
+  Glyma.15G088600.1.p  99 EA-NAQFYQQEADKLRAQISSLQNNNRQMMGESLGPLTAKELKNLETKLEKGISRIRSKKNELLFAEIEYMQKREIDLHNNNQLLRAKI 186
+                          44.4689*******************************************************************************998 PP
+
+>> Glyma.13G223300.1.p  pacid=41139301 transcript=Glyma.13G223300.1 locus=Glyma.13G223300 ID=Glyma.13G223300.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.7   8.9   1.9e-31   1.1e-28       5      92 ..      99     186 ..      95     187 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 100.7 bits;  conditional E-value: 1.9e-31
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e + +++qqe++kL+++i+nlq+++Rq++G++l+sl+ k+L++Le +Lek++++iRs+Kn+ll+++ie+++k+e  l+++n+ Lr k+
+  Glyma.13G223300.1.p  99 EANAQFYQQEADKLRQQISNLQNNNRQMMGDSLGSLTAKDLKNLETKLEKGISRIRSKKNELLFAEIEYMQKREIDLHNNNQLLRAKI 186
+                          345789*******************************************************************************998 PP
+
+>> Glyma.03G019400.1.p  pacid=41156432 transcript=Glyma.03G019400.1 locus=Glyma.03G019400 ID=Glyma.03G019400.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.5  12.4   1.1e-31   6.2e-29       7      92 ..      84     169 ..      76     170 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 101.5 bits;  conditional E-value: 1.1e-31
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e ++++qe++kLk+++e+lqr+qR+llGedl++l++keLq++e+qLe +l + R+rK+q++ eq+eel+++e++l + nk+Lr kl
+  Glyma.03G019400.1.p  84 ETQSWYQEVSKLKAKYESLQRTQRHLLGEDLGPLNIKELQNIEKQLEGALAQARQRKTQIMIEQMEELRRRERHLGDMNKQLRLKL 169
+                          6799*******************************************************************************998 PP
+
+>> Glyma.14G183800.2.p  pacid=41149869 transcript=Glyma.14G183800.2 locus=Glyma.14G183800 ID=Glyma.14G183800.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.3  13.9   1.3e-31     7e-29       5      92 ..      83     170 ..      80     171 .. 0.96
+   2 ?   -0.2   0.1       6.1   3.4e+03      77      92 ..     169     184 ..     168     185 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 101.3 bits;  conditional E-value: 1.3e-31
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +se +++q+e+a+L+++++nlq+s+R+++Ge+ls+l++keLq+Le+qLe sl+ +R++K+qll+++i+el++k + +++en eL +k+
+  Glyma.14G183800.2.p  83 ASEIKFWQREAAMLRQQLHNLQESHRKMMGEELSGLTVKELQNLENQLEISLRGVRMKKDQLLMDEIQELNRKGNLIHQENVELYQKV 170
+                          567899********************************************************************************98 PP
+
+  == domain 2  score: -0.2 bits;  conditional E-value: 6.1
+                K-box  77 kekeleeenkeLrkkl 92 
+                          k + + +en+eL+kk+
+  Glyma.14G183800.2.p 169 KVNLICQENMELKKKV 184
+                          5667788999999986 PP
+
+>> Glyma.13G255200.6.p  pacid=41140030 transcript=Glyma.13G255200.6 locus=Glyma.13G255200 ID=Glyma.13G255200.6.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.8  12.9   7.5e-31   4.2e-28       5      93 .]      83     171 ..      79     171 .. 0.97
+   2 ?    4.2   0.9      0.26   1.4e+02      74      92 ..     166     184 ..     165     185 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 98.8 bits;  conditional E-value: 7.5e-31
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          +se++++q e+a+L+++++ lq+ +Rql+Ge+l +l +keLq+Le+qLe+slk +R++K+q+l+++i+el++k +++++en eL +k+e
+  Glyma.13G255200.6.p  83 ASEEKFWQTEAASLRQQLQYLQECHRQLMGEELTGLGIKELQNLENQLEMSLKGVRMKKDQILTNEIKELRQKGNIIHQENVELYQKME 171
+                          67889*********************************************************************************985 PP
+
+  == domain 2  score: 4.2 bits;  conditional E-value: 0.26
+                K-box  74 lkkkekeleeenkeLrkkl 92 
+                          l +k +++++en+eL+kk+
+  Glyma.13G255200.6.p 166 LYQKMEQIQKENAELQKKV 184
+                          6688999999999999997 PP
+
+>> Glyma.18G273500.1.p  pacid=41168569 transcript=Glyma.18G273500.1 locus=Glyma.18G273500 ID=Glyma.18G273500.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.8   9.6   1.6e-30   8.6e-28       8      92 ..      88     172 ..      81     173 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 97.8 bits;  conditional E-value: 1.6e-30
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++ ++e+ kLk+++e+lqr+qR+llGedl++l++keL++Le+qL++slk++Rs+K+q++l+q+++l+ ke++l e+n+ L+ kl
+  Glyma.18G273500.1.p  88 EQSSYREYLKLKARFESLQRTQRNLLGEDLGPLNIKELEHLERQLDSSLKQVRSTKTQFMLDQLSDLQTKEQMLVEANRSLTVKL 172
+                          57899****************************************************************************9987 PP
+
+>> Glyma.13G052700.1.p  pacid=41136959 transcript=Glyma.13G052700.1 locus=Glyma.13G052700 ID=Glyma.13G052700.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.5   9.4     2e-30   1.1e-27       8      92 ..      88     172 ..      81     173 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 97.5 bits;  conditional E-value: 2e-30
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++ ++e+ kLk+++e+lqr+qR+llGedl++l+ k+L+qLe+qL++slk++Rs+K+q++l+q+++l++ke++l e+n+ L+ kl
+  Glyma.13G052700.1.p  88 EQSSYREYLKLKARFESLQRTQRNLLGEDLGPLNTKDLEQLERQLDSSLKQVRSTKTQFMLDQLADLQNKEHMLVEANRSLTMKL 172
+                          57899****************************************************************************9997 PP
+
+>> Glyma.19G034500.1.p  pacid=41162726 transcript=Glyma.19G034500.1 locus=Glyma.19G034500 ID=Glyma.19G034500.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.5   9.4     2e-30   1.1e-27       8      92 ..      88     172 ..      81     173 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 97.5 bits;  conditional E-value: 2e-30
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++ ++e+ kLk+++e+lqr+qR+llGedl++l+ k+L+qLe+qL++slk++Rs+K+q++l+q+++l++ke++l e+n+ L+ kl
+  Glyma.19G034500.1.p  88 EQSSYREYLKLKARFESLQRTQRNLLGEDLGPLNTKDLEQLERQLDSSLKQVRSTKTQFMLDQLADLQNKEHMLVEANRSLTMKL 172
+                          57899****************************************************************************9997 PP
+
+>> Glyma.06G324400.2.p  pacid=41154407 transcript=Glyma.06G324400.2 locus=Glyma.06G324400 ID=Glyma.06G324400.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.5  11.0   4.1e-30   2.3e-27       6      92 ..      85     171 ..      78     172 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 96.5 bits;  conditional E-value: 4.1e-30
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           + +++qqe akL+++i+ lq+s+R+l+G+ ls+l++keL+qLe++Le+++++iRs+K+++ll++ie+++k+e ele+en  Lr k+
+  Glyma.06G324400.2.p  85 INAQYYQQESAKLRQQIQMLQNSNRHLMGDALSTLTVKELKQLENRLERGITRIRSKKHEMLLAEIEYFQKREIELENENLCLRTKI 171
+                          35689*******************************************************************************997 PP
+
+>> Glyma.04G257100.1.p  pacid=41085109 transcript=Glyma.04G257100.1 locus=Glyma.04G257100 ID=Glyma.04G257100.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.5  11.0   4.1e-30   2.3e-27       6      92 ..      85     171 ..      78     172 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 96.5 bits;  conditional E-value: 4.1e-30
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           + +++qqe akL+++i+ lq+s+R+l+G+ ls+l++keL+qLe++Le+++++iRs+K+++ll++ie+++k+e ele+en  Lr k+
+  Glyma.04G257100.1.p  85 INAQYYQQESAKLRQQIQMLQNSNRHLMGDALSTLTVKELKQLENRLERGITRIRSKKHEMLLAEIEYFQKREIELENENLCLRTKI 171
+                          35689*******************************************************************************997 PP
+
+>> Glyma.15G059600.2.p  pacid=41118243 transcript=Glyma.15G059600.2 locus=Glyma.15G059600 ID=Glyma.15G059600.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.0   0.1       5.1   2.8e+03      16      33 ..      63      80 ..      55      82 .. 0.56
+   2 !   97.2  12.9   2.4e-30   1.3e-27       5      93 .]      83     171 ..      79     171 .. 0.97
+   3 ?    2.6   0.7      0.79   4.4e+02      77      92 ..     169     184 ..     168     185 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 0.0 bits;  conditional E-value: 5.1
+                K-box 16 akLkkeienlqrsqRqll 33
+                         +++ +++++l++++ +l+
+  Glyma.15G059600.2.p 63 KSVIERYNKLKEEHHHLM 80
+                         444455555555555555 PP
+
+  == domain 2  score: 97.2 bits;  conditional E-value: 2.4e-30
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          +se +++q e+a+L+++++ lq+ +Rql+Ge+l +l +keLq+Le+qLe+slk +R++K+q+l+++ieel++k + +++en eL +k+e
+  Glyma.15G059600.2.p  83 ASEAKFWQTEAASLRQQLQYLQECHRQLMGEELMGLGIKELQSLENQLEMSLKGVRMKKDQILTNEIEELRQKGNLIHQENVELYQKME 171
+                          67889*********************************************************************************985 PP
+
+  == domain 3  score: 2.6 bits;  conditional E-value: 0.79
+                K-box  77 kekeleeenkeLrkkl 92 
+                          k +++++en+eL+kk+
+  Glyma.15G059600.2.p 169 KMEQIQKENAELQKKV 184
+                          6789999999999997 PP
+
+>> Glyma.08G250700.1.p  pacid=41108461 transcript=Glyma.08G250700.1 locus=Glyma.08G250700 ID=Glyma.08G250700.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.6   9.6   3.8e-30   2.1e-27       8      92 ..      88     172 ..      81     173 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 96.6 bits;  conditional E-value: 3.8e-30
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++ ++e+ kLk+++e+lqr+qR+llGedl++l+ keL++Le+qL++slk++Rs+K+q++l+q+++l+ ke++l e+n+ L+ kl
+  Glyma.08G250700.1.p  88 EQSSYREYLKLKARFESLQRTQRNLLGEDLGPLNTKELEHLERQLDSSLKQVRSTKTQFMLDQLSDLQTKEQMLVEANRSLTVKL 172
+                          57899****************************************************************************9987 PP
+
+>> Glyma.08G120600.1.p  pacid=41110204 transcript=Glyma.08G120600.1 locus=Glyma.08G120600 ID=Glyma.08G120600.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.4   8.4   8.7e-30   4.8e-27       5      92 ..     101     188 ..      97     189 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 95.4 bits;  conditional E-value: 8.7e-30
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e + +++qqe+akL+ +i+nlq+++Rq++Ge+ls+++ k+L++Le +Lek++++iRs+Kn++l+++ie++kk+e  l+++n+ Lr k+
+  Glyma.08G120600.1.p 101 EANAQFYQQEAAKLRVQISNLQNHNRQMMGEGLSTMNGKDLKNLETKLEKGISRIRSKKNEMLFAEIEHMKKREIYLHNDNQLLRAKI 188
+                          445789*******************************************************************************997 PP
+
+>> Glyma.18G224500.1.p  pacid=41168214 transcript=Glyma.18G224500.1 locus=Glyma.18G224500 ID=Glyma.18G224500.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.0       5.9   3.3e+03      67      85 ..      62      80 ..      58      82 .. 0.61
+   2 !   96.0  14.6   5.8e-30   3.2e-27       3      91 ..      83     170 ..      80     172 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 5.9
+                K-box 67 lleqieelkkkekeleeen 85
+                         +++ ie +++ +++ +  n
+  Glyma.18G224500.1.p 62 MQDTIERYRRHNRSAQTVN 80
+                         5666666666666666555 PP
+
+  == domain 2  score: 96.0 bits;  conditional E-value: 5.8e-30
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          +e++  ++l+qe+a+L k+ie l++s+R+llGe+l+s+sl+eLqq+eqqLe+s++++R+rKnq+++eqi++lk+ke+ l +en++L+++
+  Glyma.18G224500.1.p  83 DEQN-MQHLKQETANLMKKIELLEASKRKLLGEGLGSCSLEELQQIEQQLERSVSNVRARKNQVYKEQIDQLKEKERALYAENARLCEQ 170
+                          3444.678******************************************************************************998 PP
+
+>> Glyma.09G266200.6.p  pacid=41135016 transcript=Glyma.09G266200.6 locus=Glyma.09G266200 ID=Glyma.09G266200.6.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.0         6   3.3e+03      67      85 ..      62      80 ..      58      82 .. 0.61
+   2 !   95.8  14.3   6.8e-30   3.8e-27       3      91 ..      83     170 ..      80     172 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 6
+                K-box 67 lleqieelkkkekeleeen 85
+                         +++ ie +++ +++ +  n
+  Glyma.09G266200.6.p 62 MQDTIERYRRHNRSAQTVN 80
+                         5666666666666666555 PP
+
+  == domain 2  score: 95.8 bits;  conditional E-value: 6.8e-30
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          +e++  ++l+qe+a+L k+ie l++s+R+llGe+l+s+sl+eLqq+eqqLe+s++++R+rKnq+++eqi++lk+ke+ l +en++L+++
+  Glyma.09G266200.6.p  83 DEQN-MQHLKQETANLMKKIELLEASKRKLLGEGLGSCSLEELQQIEQQLERSVSSVRARKNQVYKEQIDQLKEKERALYAENARLCEQ 170
+                          3444.678******************************************************************************998 PP
+
+>> Glyma.19G034600.1.p  pacid=41162217 transcript=Glyma.19G034600.1 locus=Glyma.19G034600 ID=Glyma.19G034600.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.6   4.8   7.5e-30   4.2e-27       5      92 ..      84     171 ..      81     172 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 95.6 bits;  conditional E-value: 7.5e-30
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++q +++ +  kL+ ++e l+r++R+++Gedl++l+l+eLq+Le+qLe+++k+iR+rKnq++ e+i++l+kk ++l+e+n  L+kk+
+  Glyma.19G034600.1.p  84 DESQGNWSLQCFKLTGKVEVLERNLRNFVGEDLDPLNLRELQSLEHQLETAIKRIRTRKNQVMNESISDLQKKARQLQEQNGILTKKI 171
+                          456789********************************************************************************98 PP
+
+>> Glyma.02G287700.3.p  pacid=41096792 transcript=Glyma.02G287700.3 locus=Glyma.02G287700 ID=Glyma.02G287700.3.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.4   8.2   1.9e-29     1e-26       4      92 ..     102     189 ..      98     190 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 94.4 bits;  conditional E-value: 1.9e-29
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e+ + +++qqe++kLk++i+++q+ +R++lGe+lsslslkeL++Le++Lek+l+++RsrK++ l++ ie ++k+e el+++n+ Lr k+
+  Glyma.02G287700.3.p 102 EA-NTQFYQQEASKLKRQIRDIQNLNRHILGEGLSSLSLKELKNLESRLEKGLSRVRSRKHETLFADIEFMQKREIELQNHNNFLRAKI 189
+                          44.4689*******************************************************************************998 PP
+
+>> Glyma.08G105500.1.p  pacid=41110475 transcript=Glyma.08G105500.1 locus=Glyma.08G105500 ID=Glyma.08G105500.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.3  11.8   9.8e-30   5.4e-27      10      91 ..      93     174 ..      83     186 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 95.3 bits;  conditional E-value: 9.8e-30
+                K-box  10 elqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          + qqe+ kLk+++e+lqrsqR+l+Gedl++ls keL++Le+qL++slk+iRs+++q++l+q+++l++ke+ l e+n+ Lr++
+  Glyma.08G105500.1.p  93 SSQQEYLKLKARYESLQRSQRNLMGEDLGPLSSKELESLERQLDSSLKQIRSTRTQFMLDQLSDLQRKEHLLSEANRSLRQR 174
+                          579****************************************************************************986 PP
+
+>> Glyma.05G148800.1.p  pacid=41147027 transcript=Glyma.05G148800.1 locus=Glyma.05G148800 ID=Glyma.05G148800.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.8  11.6   1.3e-29   7.5e-27      10      91 ..      93     174 ..      83     186 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 94.8 bits;  conditional E-value: 1.3e-29
+                K-box  10 elqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          + qqe+ kLk+++e lqrsqR+l+Gedl++ls keL++Le+qL++slk+iRs+++q++l+q+++l++ke+ l e+n+ Lr++
+  Glyma.05G148800.1.p  93 SSQQEYLKLKARYEALQRSQRNLMGEDLGPLSSKELESLERQLDSSLKQIRSTRTQFMLDQLSDLQRKEHLLSEANRSLRQR 174
+                          579****************************************************************************986 PP
+
+>> Glyma.17G081200.1.p  pacid=41085293 transcript=Glyma.17G081200.1 locus=Glyma.17G081200 ID=Glyma.17G081200.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.2  11.4     2e-29   1.1e-26       6      92 ..      86     172 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 94.2 bits;  conditional E-value: 2e-29
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                            +e++  e++kLk+++e lqr+qR+++Gedl+sl+l+ Lq+LeqqL+++lk iRsrKnq + e+i+ l+kk+k+l+e+n+ L+kk+
+  Glyma.17G081200.1.p  86 APNENWVIEHEKLKARVEVLQRNQRNFMGEDLDSLNLRGLQSLEQQLDSALKLIRSRKNQAMNESISALQKKDKSLREHNNLLSKKI 172
+                          45799********************************************************************************98 PP
+
+>> Glyma.14G027251.1.p  pacid=41147510 transcript=Glyma.14G027251.1 locus=Glyma.14G027251 ID=Glyma.14G027251.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.4   8.7   3.8e-29   2.1e-26       4      92 ..     100     187 ..      96     188 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 93.4 bits;  conditional E-value: 3.8e-29
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e+ + +++qqe++kLk++i+++q+ +R++lGe lsslslkeL++Le++Lek+l+++RsrK++ l++ ie ++k+e el+++n+ Lr k+
+  Glyma.14G027251.1.p 100 EA-NTQFYQQEASKLKRQIRDIQNLNRHILGEALSSLSLKELKNLESRLEKGLSRVRSRKHETLFADIEFMQKREIELQNHNNFLRAKI 187
+                          44.4689*******************************************************************************998 PP
+
+>> Glyma.08G250800.3.p  pacid=41113090 transcript=Glyma.08G250800.3 locus=Glyma.08G250800 ID=Glyma.08G250800.3.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.3   5.9     4e-29   2.2e-26       5      91 ..      84     170 ..      80     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 93.3 bits;  conditional E-value: 4e-29
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          +++q +++ e+ kL++++e l r+ R++lG+dl++lslkeLq+LeqqL+++lk+iR+rKnq++ e+i++l+k+ + l+e+n++L k+
+  Glyma.08G250800.3.p  84 NESQGNWSFEYIKLTAKVEVLDRNVRNFLGNDLDPLSLKELQSLEQQLDTALKRIRTRKNQVMNESISDLHKRARTLQEQNSKLAKM 170
+                          456789******************************************************************************975 PP
+
+>> Glyma.13G052100.1.p  pacid=41142191 transcript=Glyma.13G052100.1 locus=Glyma.13G052100 ID=Glyma.13G052100.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.7   3.8   6.2e-29   3.5e-26       5      93 .]      84     172 ..      81     172 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 92.7 bits;  conditional E-value: 6.2e-29
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          +++q +++ +  kL+ ++e l+r++R+++G+dl++l+l+eLq+Le+qL++++k+iR+r+nq++ e+i++l+kk ++l+e+n +L+kk++
+  Glyma.13G052100.1.p  84 DDSQGNWSLQCFKLTGKVEVLERNLRNFVGQDLDPLNLRELQSLEHQLDTAIKRIRTRQNQVMNESISDLQKKARQLQEQNGTLTKKIK 172
+                          567889********************************************************************************985 PP
+
+>> Glyma.18G105800.1.p  pacid=41168941 transcript=Glyma.18G105800.1 locus=Glyma.18G105800 ID=Glyma.18G105800.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.2   7.0   1.8e-28   9.8e-26       4      92 ..     103     190 ..      98     191 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 91.2 bits;  conditional E-value: 1.8e-28
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e+ + +++qqe +kL+++i+++q+ +R++lGe l+slslkeL++Le +Lek+l+++RsrK++ l++ +e ++k+e el+++n++Lr k+
+  Glyma.18G105800.1.p 103 EA-NTQFYQQESSKLRRQIRDIQNLNRHILGEALGSLSLKELKNLEGRLEKGLSRVRSRKHETLFADVEFMQKREIELQNHNNYLRAKI 190
+                          44.4689********************************************************************************98 PP
+
+>> Glyma.08G310100.1.p  pacid=41111908 transcript=Glyma.08G310100.1 locus=Glyma.08G310100 ID=Glyma.08G310100.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.2   7.0   1.8e-28   9.9e-26       4      92 ..     103     190 ..      98     191 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 91.2 bits;  conditional E-value: 1.8e-28
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e+ + +++qqe +kL+++i+++q+ +R++lGe l+slslkeL++Le +Lek+l+++RsrK++ l++ +e ++k+e el+++n++Lr k+
+  Glyma.08G310100.1.p 103 EA-NTQFYQQESSKLRRQIRDIQNLNRHILGEALGSLSLKELKNLEGRLEKGLSRVRSRKHETLFADVEFMQKREIELQNHNNYLRAKI 190
+                          44.4689********************************************************************************98 PP
+
+>> Glyma.18G004700.4.p  pacid=41167083 transcript=Glyma.18G004700.4 locus=Glyma.18G004700 ID=Glyma.18G004700.4.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.9  10.6   1.1e-28   5.9e-26      10      92 ..      93     175 ..      84     176 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 91.9 bits;  conditional E-value: 1.1e-28
+                K-box  10 elqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          + qqe+ +Lk+++e lqrsqR+l+Gedl++ls keL++Le+qL++slk+iRs ++q++l+q+++l++ke+ l e n+ Lr++l
+  Glyma.18G004700.4.p  93 SSQQEYLRLKARYEALQRSQRNLMGEDLGPLSSKELESLERQLDSSLKQIRSIRTQFMLDQLSDLQRKEHFLGESNRDLRQRL 175
+                          579*****************************************************************************997 PP
+
+>> Glyma.11G252300.1.p  pacid=41128414 transcript=Glyma.11G252300.1 locus=Glyma.11G252300 ID=Glyma.11G252300.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.1   9.7   4.1e-28   2.3e-25      10      92 ..      93     175 ..      84     176 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 90.1 bits;  conditional E-value: 4.1e-28
+                K-box  10 elqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          + qqe+ +Lk+++e lqrsqR+l+Gedl++ls keL++Le+qL++slk+iRs ++q++l+q+++l++ke+ l e n+ L ++l
+  Glyma.11G252300.1.p  93 SSQQEYLRLKARYEALQRSQRNLMGEDLGPLSSKELESLERQLDSSLKQIRSIRTQFMLDQLSDLQRKEHFLGESNRDLIQRL 175
+                          579****************************************************************************9887 PP
+
+>> Glyma.09G266400.4.p  pacid=41136260 transcript=Glyma.09G266400.4 locus=Glyma.09G266400 ID=Glyma.09G266400.4.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.9  12.9   9.4e-28   5.2e-25       7      91 ..      84     168 ..      75     169 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 88.9 bits;  conditional E-value: 9.4e-28
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          e++ ++qe++kL++++e +q++qR+l Gedl++ls+keLq Le+qLek+l++ R+rK+ql+ e++eel++ke++le+ nk Lr k
+  Glyma.09G266400.4.p  84 ENQGWYQEMSKLNEKYEAVQKTQRRLHGEDLGPLSIKELQILEEQLEKALSQARQRKTQLIIEHVEELRQKERHLEDLNKDLRLK 168
+                          6789******************************************************************************976 PP
+
+>> Glyma.07G080900.4.p  pacid=41123354 transcript=Glyma.07G080900.4 locus=Glyma.07G080900 ID=Glyma.07G080900.4.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.8  13.3     1e-27   5.6e-25       4      91 ..      85     171 ..      82     173 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 88.8 bits;  conditional E-value: 1e-27
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          e++  ++l+qe++++ k+i+ l++ +R++lGe+l+ +s++eLq +eqqLe+sl+++R+rK q+++eqie+lk+kek l +en++L+++
+  Glyma.07G080900.4.p  85 EQN-MQHLKQEAENMMKKIDLLEAAKRKFLGEGLGACSIEELQRIEQQLERSLSNVRARKVQVFKEQIEQLKEKEKALLDENAKLTEN 171
+                          455.567******************************************************************************975 PP
+
+>> Glyma.09G201700.1.p  pacid=41135060 transcript=Glyma.09G201700.1 locus=Glyma.09G201700 ID=Glyma.09G201700.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.9  13.7   1.9e-27   1.1e-24       3      92 ..      81     170 ..      73     171 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 87.9 bits;  conditional E-value: 1.9e-27
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          + ese +++q+e++ L+++++nlq+++Rql+Ge+l +l++++Lq+Le+qLe sl+ +R++K+q+l+++i+el++k + + +en eL kk+
+  Glyma.09G201700.1.p  81 NPESEVKFWQREAEILTQQLQNLQENHRQLMGEQLYGLTVRNLQDLENQLELSLQGVRMKKEQILKDEIQELNRKGNLIFQENVELYKKV 170
+                          5677999********************************************************************************997 PP
+
+>> Glyma.05G018900.1.p  pacid=41142865 transcript=Glyma.05G018900.1 locus=Glyma.05G018900 ID=Glyma.05G018900.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.5  10.8   1.3e-27   7.1e-25       9      93 .]      87     171 ..      79     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 88.5 bits;  conditional E-value: 1.3e-27
+                K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                           + +qe+ +Lk+++e lqrsqR+llGedl +++ +eL+qLe+qLe++l++iRs+K+q++l+q+++l+ +e  l e n+ Lr+kle
+  Glyma.05G018900.1.p  87 TQNYQEYLRLKARVEVLQRSQRNLLGEDLAQMNTNELEQLENQLEAALRNIRSTKTQFMLDQLSDLHHRETLLIETNNVLRSKLE 171
+                          4589******************************************************************************985 PP
+
+>> Glyma.02G121500.1.p  pacid=41096285 transcript=Glyma.02G121500.1 locus=Glyma.02G121500 ID=Glyma.02G121500.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.5  18.7   1.3e-27   7.1e-25       6      93 .]      86     173 ..      80     173 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 88.5 bits;  conditional E-value: 1.3e-27
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                           e ++ +qe+ kLk+++e lq++qR+llGe+l++l++k+L+qLe+qL++slk+iRs K+q +l+q+++l++ke++l e n+ Lr+kle
+  Glyma.02G121500.1.p  86 IETQRRYQEYLKLKSRVEALQQTQRNLLGEELEHLDVKDLEQLERQLDSSLKQIRSNKTQQMLDQLADLHRKEEMLLETNNILRNKLE 173
+                          467899*******************************************************************************985 PP
+
+>> Glyma.05G163200.1.p  pacid=41146362 transcript=Glyma.05G163200.1 locus=Glyma.05G163200 ID=Glyma.05G163200.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.4   9.5   1.4e-27   7.8e-25       4      92 ..     100     188 ..      97     189 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 88.4 bits;  conditional E-value: 1.4e-27
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +e + +++ qe+akL+ +i+nlq+++ q++Ge+ls+++ k+L++Le +Lek++++iRs+Kn++l+++ie++kk+e +l+++n+ Lr k+
+  Glyma.05G163200.1.p 100 SEANAQFYHQEAAKLRVQISNLQNHNSQMMGEGLSTMNGKDLKNLETKLEKGISRIRSKKNEMLFAEIEHMKKREIHLNNDNQLLRAKI 188
+                          4445789*******************************************************************************998 PP
+
+>> Glyma.05G018800.1.p  pacid=41143734 transcript=Glyma.05G018800.1 locus=Glyma.05G018800 ID=Glyma.05G018800.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.3  11.0   1.5e-27   8.4e-25       7      92 ..      87     177 ..      81     178 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 88.3 bits;  conditional E-value: 1.5e-27
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkk.....ekeleeenkeLrkk 91 
+                           +e++  e++kLk+++e lqr+qR+++Gedl+sl+l+ Lq+LeqqL+++lk+iRsrKnq + e+i+el+kk     ++ l+e+n+ L+kk
+  Glyma.05G018800.1.p  87 PNENWVIEHEKLKARVEVLQRNQRNFMGEDLDSLNLRGLQSLEQQLDSALKHIRSRKNQAMNESISELQKKyfimqDRTLREHNNLLSKK 176
+                          4789*******************************************************************9999999***********9 PP
+
+                K-box  92 l 92 
+                          +
+  Glyma.05G018800.1.p 177 I 177
+                          8 PP
+
+>> Glyma.08G065300.1.p  pacid=41113016 transcript=Glyma.08G065300.1 locus=Glyma.08G065300 ID=Glyma.08G065300.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.6  13.6   2.4e-27   1.4e-24       6      92 ..      84     170 ..      73     171 .. 0.96
+   2 ?    3.4   0.2      0.45   2.5e+02      72      92 ..     164     184 ..     164     185 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 87.6 bits;  conditional E-value: 2.4e-27
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          s+ +++q e+a+L++++++lq+++Rql+Ge+ls+l ++ L++Le+qL++sl+++R++K+++++++i+el++k   ++++n+eL+kk+
+  Glyma.08G065300.1.p  84 SAIKFWQGEAASLRQQLQHLQENHRQLMGEELSGLGINQLKHLENQLQMSLNNVRNKKDHIFSDEIKELQQKGSLIRRQNEELHKKI 170
+                          56789********************************************************************************98 PP
+
+  == domain 2  score: 3.4 bits;  conditional E-value: 0.45
+                K-box  72 eelkkkekeleeenkeLrkkl 92 
+                          eel+kk   +++en+eL+k +
+  Glyma.08G065300.1.p 164 EELHKKIDLIHNENAELKKVI 184
+                          6899*************9876 PP
+
+>> Glyma.01G064100.1.p  pacid=41117256 transcript=Glyma.01G064100.1 locus=Glyma.01G064100 ID=Glyma.01G064100.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.6  18.8   2.5e-27   1.4e-24       6      93 .]      86     173 ..      80     173 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 87.6 bits;  conditional E-value: 2.5e-27
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                           e ++ +qe+ kLk+++e lq++qR+llGe+l++l++++L+qLe+qL++slk+iRs K+q +l+q+++l++ke++l e n+ Lr+kle
+  Glyma.01G064100.1.p  86 IETQRRYQEYLKLKSRVEALQQTQRNLLGEELEHLDVNDLEQLERQLDSSLKQIRSNKTQQMLDQLSDLHRKEEMLLETNNILRNKLE 173
+                          467899*******************************************************************************985 PP
+
+>> Glyma.17G080900.1.p  pacid=41089477 transcript=Glyma.17G080900.1 locus=Glyma.17G080900 ID=Glyma.17G080900.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.3  10.2     3e-27   1.7e-24       9      93 .]      87     171 ..      79     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 87.3 bits;  conditional E-value: 3e-27
+                K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                           + +qe+ +Lk+++e lq sqR+llGedl +++ +eL+qLe+qLe++lk+iRs+K+q++l+q+++l+ +e  l e n+ Lr+kle
+  Glyma.17G080900.1.p  87 SQNYQEYLRLKARVEVLQCSQRNLLGEDLAQMNTNELEQLENQLETALKNIRSTKTQFMLDQLSDLHHRETLLIETNNVLRSKLE 171
+                          4589******************************************************************************985 PP
+
+>> Glyma.08G065400.2.p  pacid=41113688 transcript=Glyma.08G065400.2 locus=Glyma.08G065400 ID=Glyma.08G065400.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.9  10.8   4.1e-27   2.3e-24       5      92 ..      83     170 ..      73     171 .. 0.96
+   2 ?    2.4   0.2      0.93   5.2e+02      73      92 ..     165     184 ..     165     185 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 86.9 bits;  conditional E-value: 4.1e-27
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +se + +q+e+a+L+++++ +q+ +Rq++G++ls+l ++eL +Le++Le+slk +R++K+q+l ++++el++k    ++en eL++k+
+  Glyma.08G065400.2.p  83 ASEVKLWQREVASLRQQVQYMQECHRQMMGQELSGLGIEELGNLEKRLEMSLKGVRMKKDQILIDEVKELHQKGSLAHQENVELNRKI 170
+                          457889********************************************************************************98 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.93
+                K-box  73 elkkkekeleeenkeLrkkl 92 
+                          el++k + +++en+eL+k +
+  Glyma.08G065400.2.p 165 ELNRKINLIRKENEELQKVI 184
+                          57889999999999998865 PP
+
+>> Glyma.01G020500.3.p  pacid=41116806 transcript=Glyma.01G020500.3 locus=Glyma.01G020500 ID=Glyma.01G020500.3.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.8  14.4   8.9e-27     5e-24       3      92 ..      87     176 ..      80     177 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 85.8 bits;  conditional E-value: 8.9e-27
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          + ese +++q+e++ L+++++nlq+++Rql+Ge+l +ls+++Lq+Le+qLe  l+ +R++K+q+l+++i+el++k + + +en eL kk+
+  Glyma.01G020500.3.p  87 NPESEVKFWQREAEILRQQLQNLQENHRQLMGEQLYGLSVRNLQDLENQLELNLQGVRMKKEQILKDEIQELNRKGNLIFQENVELYKKV 176
+                          5678999********************************************************************************997 PP
+
+>> Glyma.02G216600.13.p  pacid=41094510 transcript=Glyma.02G216600.13 locus=Glyma.02G216600 ID=Glyma.02G216600.13.Wm82.a
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.5   0.6   1.8e-05      0.01       5      31 ..      83     109 ..      80     120 .. 0.89
+   2 !   69.7   7.3   9.3e-22   5.2e-19      31      92 ..     128     189 ..     119     190 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 17.5 bits;  conditional E-value: 1.8e-05
+                 K-box   5 eseqeelqqelakLkkeienlqrsqRq 31 
+                           +se +++q+e+a+L+++++nlq+s+R 
+  Glyma.02G216600.13.p  83 ASEIKFWQREAAMLRQQLHNLQESHRT 109
+                           567899*******************95 PP
+
+  == domain 2  score: 69.7 bits;  conditional E-value: 9.3e-22
+                 K-box  31 qllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           +++Ge+ls+l++keLq+Le+qLe sl+ +R++K+qll+ +i+el++k + +++en eL kk+
+  Glyma.02G216600.13.p 128 KMMGEELSGLTVKELQNLENQLEISLHGVRMKKDQLLMGEIQELNRKGNLIHQENVELYKKV 189
+                           89**********************************************************97 PP
+
+>> Glyma.18G273600.2.p  pacid=41168955 transcript=Glyma.18G273600.2 locus=Glyma.18G273600 ID=Glyma.18G273600.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.3   1.1   2.2e-25   1.2e-22       9      90 ..     122     203 ..     115     206 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 81.3 bits;  conditional E-value: 2.2e-25
+                K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrk 90 
+                           +++ e+ kL++++e l+r++ ++ G+dl++lslkeL++Leqq+e+slk+iR+rKnq++ +++++l+kk + l+ +n+ L k
+  Glyma.18G273600.2.p 122 GFWSFEHIKLTAKVEVLERNIMNFFGNDLDPLSLKELHSLEQQIETSLKRIRTRKNQVMNQSVSDLHKKARTLQVQNRWLGK 203
+                          57999************************************************************************98866 PP
+
+>> Glyma.14G019650.1.p  pacid=41147232 transcript=Glyma.14G019650.1 locus=Glyma.14G019650 ID=Glyma.14G019650.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.2   1.1   2.3e-25   1.3e-22       7      77 ..       6      76 ..       2      82 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 81.2 bits;  conditional E-value: 2.3e-25
+                K-box  7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkk 77
+                         +++++qqe++k k++i+++q+ +R++lGe lsslslkeL++Le++Lek+l+++RsrK++ l++ ie ++k+
+  Glyma.14G019650.1.p  6 SHQFYQQEASKFKRQIRDIQNLNRHILGEALSSLSLKELKNLESRLEKGLSRVRSRKHETLFADIEFMQKR 76
+                         5899*****************************************************************98 PP
+
+>> Glyma.12G005000.1.p  pacid=41099676 transcript=Glyma.12G005000.1 locus=Glyma.12G005000 ID=Glyma.12G005000.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.5   3.7     4e-25   2.2e-22      11      92 ..      91     172 ..      84     173 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 80.5 bits;  conditional E-value: 4e-25
+                K-box  11 lqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           ++e+++Lk+ei++lq+ +R+l G + ++++++eLq Le++Le+++ +iRs K++++l++i+ lk ke  l+++nk+L++k+
+  Glyma.12G005000.1.p  91 AKEETNMLKQEIQTLQKGIRHLFGGGNKTMTIDELQVLEKNLETWIYHIRSMKMNIMLQEIQALKDKEGTLKAANKYLHDKI 172
+                          589****************************************************************************997 PP
+
+>> Glyma.10G240500.1.p  pacid=41106723 transcript=Glyma.10G240500.1 locus=Glyma.10G240500 ID=Glyma.10G240500.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.1   8.6   5.4e-25     3e-22       9      92 ..      87     170 ..      80     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 80.1 bits;  conditional E-value: 5.4e-25
+                K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++l+ + a+L k+ie l++s+R+llG+++ss+s++eL+ +e+qL+ sl+++R+rK+ql++eqi++l+ +e +l +en++L+ ++
+  Glyma.10G240500.1.p  87 QQLKLDSASLAKKIELLEHSKRELLGQSVSSCSYDELKGIEEQLQISLQRVRQRKTQLYTEQIDQLRSQESNLLKENAKLSAMW 170
+                          679999**************************************************************************9865 PP
+
+>> Glyma.20G154200.3.p  pacid=41093416 transcript=Glyma.20G154200.3 locus=Glyma.20G154200 ID=Glyma.20G154200.3.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.5   7.8   8.2e-25   4.6e-22       9      91 ..      87     169 ..      80     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 79.5 bits;  conditional E-value: 8.2e-25
+                K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          ++l+ +  +++k+ie l++s+R+llG+++ss+s++eL+ +e+qL +sl+++R+rK+ql++eqi+ l+ +e +l +en++L+ +
+  Glyma.20G154200.3.p  87 QQLKLDSVSMTKKIELLEHSKRKLLGQSVSSCSFDELKGIEEQLRTSLQRVRQRKTQLYTEQIDRLRSQESNLLKENAKLSAM 169
+                          678889999***********************************************************************976 PP
+
+>> Glyma.17G132700.5.p  pacid=41086832 transcript=Glyma.17G132700.5 locus=Glyma.17G132700 ID=Glyma.17G132700.5.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.1      0.85   4.7e+02       6      33 ..      67      94 ..      60      99 .. 0.81
+   2 !   77.1  16.2   4.6e-24   2.5e-21      10      92 ..      92     174 ..      86     175 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 2.5 bits;  conditional E-value: 0.85
+                K-box  6 seqeelqqelakLkkeienlqrsqRqll 33
+                         ++ e++q+ ++ L   ++ + ++ R+l+
+  Glyma.17G132700.5.p 67 KTVERYQRKIKDLGVSNKGIHENTRHLK 94
+                         4678899999999999999999999986 PP
+
+  == domain 2  score: 77.1 bits;  conditional E-value: 4.6e-24
+                K-box  10 elqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +l++   ++ k+ie+l++s R+llG++l+++s++eLqqLe+qLe+sl kiR+rKnql+ e+ie+lk++ek l e nk+Lr+++
+  Glyma.17G132700.5.p  92 HLKEGDMSMAKKIEHLEDSRRKLLGDELDKCSIDELQQLENQLERSLDKIRARKNQLFRERIENLKQEEKCLLEVNKRLREQY 174
+                          466677899***********************************************************************985 PP
+
+>> Glyma.09G149000.1.p  pacid=41132180 transcript=Glyma.09G149000.1 locus=Glyma.09G149000 ID=Glyma.09G149000.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.8   8.6   5.7e-24   3.2e-21       6      92 ..      85     171 ..      80     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 76.8 bits;  conditional E-value: 5.7e-24
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++++ ++e  kL++++e+l+r+qR++ Gedl++ls+k+Lq+Le+qL+ +l   R+++++ l+++ +el++k ++le+ nk+L++k+
+  Glyma.09G149000.1.p  85 HDSQSAYHEFLKLRAKYESLERTQRHFQGEDLEPLSFKDLQSLEKQLDITLALTRQHQTKKLMARADELREKVHKLEDLNKQLESKV 171
+                          456789*****************************************************************************9986 PP
+
+>> Glyma.18G224300.2.p  pacid=41167260 transcript=Glyma.18G224300.2 locus=Glyma.18G224300 ID=Glyma.18G224300.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.7  16.1   5.9e-24   3.3e-21       7      91 ..      85     173 ..      76     174 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 76.7 bits;  conditional E-value: 5.9e-24
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrK....nqllleqieelkkkekeleeenkeLrkk 91 
+                          e++ ++qe+ kL++++e+lqr+qR l Gedl++ls+keL  Le+qLek+l++ R+rK    +ql+ +q+eel++ke++le+ nkeLr k
+  Glyma.18G224300.2.p  85 ENQDWYQEMLKLNEKCESLQRTQRLLHGEDLGPLSIKELLILEEQLEKALSQARQRKvrvnTQLMIKQMEELRQKERHLEDLNKELRLK 173
+                          7899*****************************************************99999************************976 PP
+
+>> Glyma.05G050700.1.p  pacid=41146074 transcript=Glyma.05G050700.1 locus=Glyma.05G050700 ID=Glyma.05G050700.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.4  15.7   7.5e-24   4.2e-21       8      92 ..      90     174 ..      81     175 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 76.4 bits;  conditional E-value: 7.5e-24
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           ++l++   ++ k+ie+l++s R+llG++l+++s++eLqqLe+qLe+sl kiR++Knql+ ++ie+lk++ek l e nk+Lr+++
+  Glyma.05G050700.1.p  90 TQHLKEVDMSMAKKIEHLEDSRRKLLGDELDKCSIDELQQLENQLERSLDKIRATKNQLFRKRIEKLKEEEKCLLEVNKRLREQY 174
+                          4557777789************************************************************************985 PP
+
+>> Glyma.06G117600.1.p  pacid=41154588 transcript=Glyma.06G117600.1 locus=Glyma.06G117600 ID=Glyma.06G117600.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.4   8.0   7.6e-24   4.2e-21       5      90 ..      81     162 ..      75     165 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 76.4 bits;  conditional E-value: 7.6e-24
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrk 90 
+                          + ++e+l++e+++Lkke++++q ++R+l+Ged+ sl++keL++Le+ Le++l+ +R++K+++     +++k++ k+lee+nkeL+ 
+  Glyma.06G117600.1.p  81 DAKHENLSNEIDRLKKENDSMQIELRHLKGEDITSLNYKELMALEDALENGLSGVREKKMEVH----RMFKRNGKILEEQNKELSF 162
+                          56899**********************************************************....*****************85 PP
+
+>> Glyma.04G245500.2.p  pacid=41083065 transcript=Glyma.04G245500.2 locus=Glyma.04G245500 ID=Glyma.04G245500.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.8   8.4   2.3e-23   1.3e-20       5      90 ..      81     162 ..      75     165 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 74.8 bits;  conditional E-value: 2.3e-23
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrk 90 
+                          + ++e+l++e++++kke++++q ++R+l+Ged+ sl++keL++Le+ Le++l+ +R++K+++     +++k+++k+lee+nkeL+ 
+  Glyma.04G245500.2.p  81 DAKHENLSNEIDRIKKENDSMQIELRHLKGEDITSLNYKELMALEDALENGLSGVREKKMEVH----RMFKRNDKILEEQNKELNF 162
+                          56899**********************************************************....*****************85 PP
+
+>> Glyma.03G019300.1.p  pacid=41159746 transcript=Glyma.03G019300.1 locus=Glyma.03G019300 ID=Glyma.03G019300.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.4   8.1   6.4e-23   3.6e-20       4      83 ..      85     164 ..      82     172 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 73.4 bits;  conditional E-value: 6.4e-23
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkeke.lee 83 
+                          e++  ++l+qe+a++ k+i  l++ +R++lGe+l+ +s++eLq +eqqLe+sl+++R+rK q+++eqie+lk k+ + l+ 
+  Glyma.03G019300.1.p  85 EQN-MQHLKQEAANMMKKIGLLEAAKRKFLGEGLGACSIEELQWIEQQLERSLSNVRTRKIQVFKEQIEQLKGKHGInLQT 164
+                          455.567*****************************************************************997541444 PP
+
+>> Glyma.14G155100.1.p  pacid=41148950 transcript=Glyma.14G155100.1 locus=Glyma.14G155100 ID=Glyma.14G155100.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.0   5.8   4.2e-23   2.3e-20       6      89 ..      82     161 ..      73     165 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 74.0 bits;  conditional E-value: 4.2e-23
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLr 89 
+                           ++e+l+ e+++Lkke++++q ++R+l+Ged++sl++keL++Le+ Le++l ++R+++++++    +++++++k+leeen+eL+
+  Glyma.14G155100.1.p  82 AKHENLNGEIERLKKENDSMQIELRHLKGEDINSLNYKELMALEDALETGLVSVREKQMDVY----RMFRRNDKILEEENRELT 161
+                          4799**********************************************************....****************97 PP
+
+>> Glyma.06G027200.1.p  pacid=41153025 transcript=Glyma.06G027200.1 locus=Glyma.06G027200 ID=Glyma.06G027200.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.8  10.0     1e-22   5.7e-20       5      91 ..      81     167 ..      78     169 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 72.8 bits;  conditional E-value: 1e-22
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          +s++e++q++l+kLk+ ++nl++++Rq++G++l++l +++L+ Le++++k+ k +R+rK++++++qi++ +kk ++ +e +++L + 
+  Glyma.06G027200.1.p  81 NSHYENMQENLKKLKDVNRNLRKEIRQRMGDCLNDLGMEDLKLLEEEMDKAAKVVRERKYKVITNQIDTQRKKFNNEKEVHNRLLRD 167
+                          5799***************************************************************************99999876 PP
+
+>> Glyma.13G034100.2.p  pacid=41140783 transcript=Glyma.13G034100.2 locus=Glyma.13G034100 ID=Glyma.13G034100.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.5   7.4   1.3e-22     7e-20       6      89 ..      82     161 ..      73     165 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 72.5 bits;  conditional E-value: 1.3e-22
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLr 89 
+                           ++e+l+ e+++Lkke++++q ++R+l+G+d++sl++keL++Le+ Le++l ++R+++++++    ++l++++k+leeen+eL+
+  Glyma.13G034100.2.p  82 AKHENLNGEIERLKKENDSMQIELRHLKGDDINSLNYKELMALEDALETGLVSVREKQMDVY----RMLRRNDKILEEENRELN 161
+                          5799**********************************************************....****************97 PP
+
+>> Glyma.10G240900.1.p  pacid=41107522 transcript=Glyma.10G240900.1 locus=Glyma.10G240900 ID=Glyma.10G240900.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.3  13.8   2.9e-22   1.6e-19       4      91 ..      84     171 ..      81     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 71.3 bits;  conditional E-value: 2.9e-22
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          e+++++ l+qel  L+ + e+lqr+qR+llGe+l++ls+keL++Le+qL+++l + R++ +q l  +i+el+ k ++le++nk+L+++
+  Glyma.10G240900.1.p  84 EHQSEQCLYQELLVLRVKHESLQRTQRNLLGEELEPLSMKELHSLEKQLDRTLAQARKHLTQKLVSRIDELHGKVHSLEQANKHLESQ 171
+                          5666789******************************************************************************976 PP
+
+>> Glyma.04G027200.1.p  pacid=41082569 transcript=Glyma.04G027200.1 locus=Glyma.04G027200 ID=Glyma.04G027200.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.1  11.5   3.3e-22   1.8e-19       5      91 ..      81     167 ..      78     169 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 71.1 bits;  conditional E-value: 3.3e-22
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          +s++e++q++l+kLk+ ++nl++++Rq++G++l++l +++L+ Le++++k+ k +R+rK++++++qi++ +kk ++ +e +++L + 
+  Glyma.04G027200.1.p  81 NSHYENMQENLKKLKEVNRNLRKEIRQRMGDCLNELGMEDLKLLEEEMDKAAKVVRERKYKVITNQIDTQRKKFNNEKEVHNRLLHD 167
+                          5799***************************************************************************99999876 PP
+
+>> Glyma.20G001900.1.p  pacid=41093665 transcript=Glyma.20G001900.1 locus=Glyma.20G001900 ID=Glyma.20G001900.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.9   0.0       9.8   5.4e+03       8      28 ..      54      74 ..      49      79 .. 0.82
+   2 !   68.7  10.8   1.9e-21     1e-18       8      88 ..      88     168 ..      80     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -0.9 bits;  conditional E-value: 9.8
+                K-box  8 qeelqqelakLkkeienlqrs 28
+                           e++ e  ++++ ie+ q s
+  Glyma.20G001900.1.p 54 MREWCTEPFRMEQIIEQYQIS 74
+                         457999999******999987 PP
+
+  == domain 2  score: 68.7 bits;  conditional E-value: 1.9e-21
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeL 88 
+                          +ee  +++a+L+++  +l+ ++ ++lGed+ +l++++L +Leq+Le+s+ +iR+r+n+ll++q+e+l++ke++leeen++ 
+  Glyma.20G001900.1.p  88 REEFFHNMAMLRQQTIRLELEIQRYLGEDMRGLQYEDLTKLEQELENSVARIRNRQNELLQQQMENLRRKERILEEENNHF 168
+                          5678899***********************************************************************986 PP
+
+>> Glyma.20G153700.3.p  pacid=41093480 transcript=Glyma.20G153700.3 locus=Glyma.20G153700 ID=Glyma.20G153700.3.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.4  14.2   1.2e-21   6.5e-19       4      91 ..      84     171 ..      81     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 69.4 bits;  conditional E-value: 1.2e-21
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          e+++++ l+qel  L+ + e+lqr+qR+llGe+l++ls+keL++Le+qL+++l + R++ +q l  +i+el+ k ++le+ nk+L+++
+  Glyma.20G153700.3.p  84 EHQSEQCLYQELLILRVKHESLQRTQRNLLGEELEPLSMKELHSLEKQLDRTLGQARKHLTQKLISRIDELHGKVHNLEQVNKHLESQ 171
+                          5566789******************************************************************************876 PP
+
+>> Glyma.16G200700.1.p  pacid=41080413 transcript=Glyma.16G200700.1 locus=Glyma.16G200700 ID=Glyma.16G200700.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.2  12.3   2.7e-21   1.5e-18       5      91 ..      84     170 ..      77     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 68.2 bits;  conditional E-value: 2.7e-21
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          e+++++ ++e  kL++++e+l+ +qR++ Ge+l++ls+k+Lq+Le+qL+ +l   R+++++ ll++ +el++k ++le+ nk+L++k
+  Glyma.16G200700.1.p  84 EHDSQSSYHEFLKLRAKYESLELTQRHFQGEELEPLSFKDLQSLEKQLDITLALTRQHQTKKLLARADELREKVHKLEDLNKQLESK 170
+                          3456889*****************************************************************************987 PP
+
+>> Glyma.09G283800.3.p  pacid=41135767 transcript=Glyma.09G283800.3 locus=Glyma.09G283800 ID=Glyma.09G283800.3.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.0   0.0         5   2.8e+03       8      31 ..      54      77 ..      49      85 .. 0.79
+   2 !   66.5  14.3   9.5e-21   5.3e-18       8      92 ..      88     172 ..      81     173 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 0.0 bits;  conditional E-value: 5
+                K-box  8 qeelqqelakLkkeienlqrsqRq 31
+                           e++ e  ++++ ie+ q s+  
+  Glyma.09G283800.3.p 54 MREWCTEPFRMEQIIEQYQISKGT 77
+                         457999***********9998765 PP
+
+  == domain 2  score: 66.5 bits;  conditional E-value: 9.5e-21
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +ee  +++a+L+++  +l+ ++ ++lGed  +l++++L +Leq+Le+s+ ++R+r n+ll++q+e+l++ke++leeen++L++ +
+  Glyma.09G283800.3.p  88 REEFVHNMAMLRQKTIRLELEIQRYLGEDTRGLQYEDLTKLEQELENSVARVRNRHNELLQQQMENLRRKERILEEENNNLSNWI 172
+                          5678899**************************************************************************9876 PP
+
+>> Glyma.09G231600.4.p  pacid=41132860 transcript=Glyma.09G231600.4 locus=Glyma.09G231600 ID=Glyma.09G231600.4.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.7   5.3   3.4e-20   1.9e-17       9      92 ..     106     189 ..      95     190 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 64.7 bits;  conditional E-value: 3.4e-20
+                K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +  ++e++ Lk+ei++lq+ + +l   + +++ ++eLq Le++Le+++ +iRs K++++l++i+ lk ke  l+++nk+L++k+
+  Glyma.09G231600.4.p 106 KVAKEETNALKQEIQTLQKGISYLFEGGNKTMAIDELQLLEKNLETWIYHIRSMKMNIMLQEIQALKDKEGTLKAANKYLHDKI 189
+                          56799********************999*****************************************************997 PP
+
+>> Glyma.01G169600.1.p  pacid=41117740 transcript=Glyma.01G169600.1 locus=Glyma.01G169600 ID=Glyma.01G169600.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.1   6.7   5.2e-20   2.9e-17       5      91 ..      82     170 ..      79     172 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 64.1 bits;  conditional E-value: 5.2e-20
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedl..sslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          +s++e++ ++l+kLk+ +++l+r++R+++Ge+l  +++s++ L+ Le+ + +s+ kiR+rK +++++++++++kk k+l++ n +L  +
+  Glyma.01G169600.1.p  82 HSHYEKMLENLKKLKDINNKLRRQIRHRIGEGLdmDDMSFQQLRTLEEDMVSSIGKIRERKFHVIKTRTDTCRKKVKSLKQMNGNLLLE 170
+                          6789***************************776699***********************************************99765 PP
+
+>> Glyma.11G158812.1.p  pacid=41127879 transcript=Glyma.11G158812.1 locus=Glyma.11G158812 ID=Glyma.11G158812.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.3  17.5   4.5e-20   2.5e-17       8      93 .]      86     171 ..      79     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 64.3 bits;  conditional E-value: 4.5e-20
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          q+e ++ ++ L++eie+l+++q ql+G+dl +l lkeLq+LeqqL+++l ++++rK++ll+eq+e+ + +e++++ en++Lr+++e
+  Glyma.11G158812.1.p  86 QKEDSKMVEILREEIEKLETKQLQLVGKDLTGLGLKELQNLEQQLNEGLLSVKARKEELLMEQLEQSRVQEQRVMLENETLRRQIE 171
+                          5556778899*************************************************************************985 PP
+
+>> Glyma.02G041500.1.p  pacid=41094723 transcript=Glyma.02G041500.1 locus=Glyma.02G041500 ID=Glyma.02G041500.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.1  11.9   1.1e-19   5.9e-17      12      92 ..      91     171 ..      80     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 63.1 bits;  conditional E-value: 1.1e-19
+                K-box  12 qqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++ ++L ke+ +  +++Rql Gedl++l+++eLqqLe+ Le++l ++ ++K + ++ +i +l++k   l+een++L++ +
+  Glyma.02G041500.1.p  91 NSNCSRLSKEVAEKSHQLRQLRGEDLQGLNIEELQQLERSLETGLGRVIEKKGEKIMSEITDLQRKGMLLMEENERLKRHV 171
+                          56789************************************************************************9976 PP
+
+>> Glyma.04G142500.2.p  pacid=41081048 transcript=Glyma.04G142500.2 locus=Glyma.04G142500 ID=Glyma.04G142500.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.8  13.8   1.3e-19   7.3e-17      13      93 .]      30     110 ..      22     110 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 62.8 bits;  conditional E-value: 1.3e-19
+                K-box  13 qelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          + ++ L++ei +l+++q +l+G+dl +l lkeLq+LeqqL+++l ++++rK++ll+eq+e+ + +e++++ en++L++++e
+  Glyma.04G142500.2.p  30 KMVEILREEIAELETKQLYLVGKDLTGLGLKELQNLEQQLNEGLLSVKARKEELLMEQLEQSRVQEQRVMLENETLCRQIE 110
+                          56789*************************************************************************985 PP
+
+>> Glyma.01G023500.1.p  pacid=41115835 transcript=Glyma.01G023500.1 locus=Glyma.01G023500 ID=Glyma.01G023500.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.7  11.9   1.4e-19   7.8e-17      12      92 ..      91     171 ..      80     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 62.7 bits;  conditional E-value: 1.4e-19
+                K-box  12 qqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++ ++L ke+ +  +++Rql Gedl++l+++eLqqLe  Le++l +i ++K + ++ +i++l++k   l+een++L++ +
+  Glyma.01G023500.1.p  91 NSNCSRLSKEVAEKSHQLRQLRGEDLQGLNIEELQQLEMSLETGLGRIIEKKGEKIMSEIADLQRKGMLLMEENERLKRHV 171
+                          56789************************************************************************9976 PP
+
+>> Glyma.07G181600.7.p  pacid=41123455 transcript=Glyma.07G181600.7 locus=Glyma.07G181600 ID=Glyma.07G181600.7.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.9  10.6     1e-18   5.8e-16      16      90 ..      93     167 ..      80     168 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.9 bits;  conditional E-value: 1e-18
+                K-box  16 akLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrk 90 
+                          + L+k++e+  r++Rq+ Gedl++l+l+eLq+Le++L++sl+++ + K+  ++++i+++k+k  el+een++L++
+  Glyma.07G181600.7.p  93 NILRKKVEDKTRELRQMNGEDLQGLTLQELQKLEEHLKRSLTNVSKVKDAKFMQEISTFKRKGVELMEENQRLKQ 167
+                          569**********************************************************************97 PP
+
+>> Glyma.06G095700.1.p  pacid=41152371 transcript=Glyma.06G095700.1 locus=Glyma.06G095700 ID=Glyma.06G095700.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.3  10.1   3.4e-18   1.9e-15      12      92 ..      90     170 ..      78     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 58.3 bits;  conditional E-value: 3.4e-18
+                K-box  12 qqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           ++ akL kei +  +++  l+G+dl++l l+eLqqLe+ Le +l ++ + K++ ++ qi+el+kk   leeenk+L+kkl
+  Glyma.06G095700.1.p  90 ASNSAKLSKEIADRTQELSWLKGDDLQGLGLNELQQLEKTLEIGLDRVTDIKENQIMSQISELQKKGILLEEENKHLTKKL 170
+                          57889**************************************************************************97 PP
+
+>> Glyma.13G256900.1.p  pacid=41140477 transcript=Glyma.13G256900.1 locus=Glyma.13G256900 ID=Glyma.13G256900.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.1   7.7     4e-18   2.2e-15       8      92 ..     128     212 ..     120     213 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 58.1 bits;  conditional E-value: 4e-18
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           e+++ ++a L+ke+ +  r++Rql Ge+l++l+l+eLq+Le++L++sl+++ + K + + ++i  lk+k k+l+e+n+ +++++
+  Glyma.13G256900.1.p 128 TEQVRCNYADLNKEFADRTREMRQLNGEELQGLTLRELQKLEERLDSSLNRVYKAKVENFIKEIGILKEKGKKLMEDNMLIKQMI 212
+                          577999*************************************************************************999987 PP
+
+>> Glyma.08G068200.8.p  pacid=41108013 transcript=Glyma.08G068200.8 locus=Glyma.08G068200 ID=Glyma.08G068200.8.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0  13.5     2e-18   1.1e-15      16      90 ..      95     169 ..      79     171 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 2e-18
+                K-box  16 akLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrk 90 
+                          + L+k++e+ +r++Rq+ Gedl++l+l+eL++Le++L+++l ++ + K++ l+++i++lk+k  el+een++L++
+  Glyma.08G068200.8.p  95 EILRKKVEDKNRELRQMNGEDLQGLTLQELHKLEEHLKRGLINVSKVKDEKLMQEISTLKRKGVELMEENQRLKQ 169
+                          569**********************************************************************98 PP
+
+>> Glyma.02G185500.3.p  pacid=41096376 transcript=Glyma.02G185500.3 locus=Glyma.02G185500 ID=Glyma.02G185500.3.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.6  12.2   5.7e-18   3.2e-15      15      93 .]      96     174 ..      87     174 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 57.6 bits;  conditional E-value: 5.7e-18
+                K-box  15 lakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          ++ L +ei +l+    +++G++l++lslkeLqqLe+qL +++++++++K+q+l eq+++ + +e++ + en+ Lrk+le
+  Glyma.02G185500.3.p  96 TNLLMEEITKLRSAYLRMMGKELDGLSLKELQQLENQLSEGMQSVKDKKEQVLVEQLRKSRIQEQKAMLENEVLRKQLE 174
+                          567999**********************************************************************985 PP
+
+>> Glyma.11G073700.5.p  pacid=41130526 transcript=Glyma.11G073700.5 locus=Glyma.11G073700 ID=Glyma.11G073700.5.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.5   6.3   1.8e-15     1e-12       6      92 ..      83     184 ..      79     185 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 49.5 bits;  conditional E-value: 1.8e-15
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllG...............edlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkeke 80 
+                          s++e++ ++l+kL + +++l+r++R+l+G                d++++s++ L+ Le+ L +s+ kiR+rK +++++++++++kk k+
+  Glyma.11G073700.5.p  83 SHYEKMLENLKKLIDINNKLRRQIRKLIGgvvlcelerhrigegLDMDDMSFQQLRTLEEDLVSSIGKIRERKFHVIKTRTDTCRKKVKS 172
+                          6899999********************999999999999888444669****************************************** PP
+
+                K-box  81 leeenkeLrkkl 92 
+                          le+ n+ L  +l
+  Glyma.11G073700.5.p 173 LEQMNRDLLFEL 184
+                          *******98775 PP
+
+>> Glyma.05G148700.2.p  pacid=41146929 transcript=Glyma.05G148700.2 locus=Glyma.05G148700 ID=Glyma.05G148700.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   2.8   1.8e-17     1e-14      29      93 .]     102     166 ..      78     166 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 1.8e-17
+                K-box  29 qRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          q ++   +l++ls+ +L++Le+ + ++l++iRs K++l++e++e+lkkke++l++en+ L+k++e
+  Glyma.05G148700.2.p 102 QSHFGVSELEHLSVTDLMELEKLVHSALSRIRSAKMRLMMESVENLKKKEHILRNENELLEKQIE 166
+                          66777789******************************************************985 PP
+
+>> Glyma.15G058000.2.p  pacid=41118399 transcript=Glyma.15G058000.2 locus=Glyma.15G058000 ID=Glyma.15G058000.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.3   8.4   1.2e-16   6.9e-14       8      92 ..      86     170 ..      78     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 53.3 bits;  conditional E-value: 1.2e-16
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           e+l+ ++a L+ke+ +  r++Rql Ge+l++l l+eLq+Le++L +sl+++ + K + ++ +i+ lk+k ++l+e+n+ +++++
+  Glyma.15G058000.2.p  86 TEQLRCNYADLNKEFGDRIREMRQLNGEELQGLALRELQKLEERLVSSLNRVYKAKVENFTREIDILKQKGNKLMEDNRLMKQRI 170
+                          578999***************************************************************************9997 PP
+
+>> Glyma.13G257000.7.p  pacid=41138158 transcript=Glyma.13G257000.7 locus=Glyma.13G257000 ID=Glyma.13G257000.7.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.4  10.6     2e-15   1.1e-12      16      91 ..      93     168 ..      82     170 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 49.4 bits;  conditional E-value: 2e-15
+                K-box  16 akLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                            L+keie+  +++ ql Ge++++l++keLq+ e+ L++  + i + K++ + ++i++lk ke +l+een++L++ 
+  Glyma.13G257000.7.p  93 GILRKEIEHKTNEMSQLNGEEIQGLTIKELQKVEELLQRRWTTISKIKDEKIIQEINHLKTKEAKLMEENQKLKQS 168
+                          579**********************************************************************986 PP
+
+>> Glyma.08G105400.1.p  pacid=41109930 transcript=Glyma.08G105400.1 locus=Glyma.08G105400 ID=Glyma.08G105400.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.5   0.2   1.6e-14   9.1e-12       6      86 ..      81     161 ..      76     162 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 46.5 bits;  conditional E-value: 1.6e-14
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenk 86 
+                          ++++el+ e+a + +     q  +R++   +l++ls+ +L++Le+   ++l++iRs K++l++e++ +lkkk + le+ n 
+  Glyma.08G105400.1.p  81 TKSQELCFEIADIWSGSAFSQMIKRHFGVSELEHLSVSDLMELEKLTHAALSRIRSAKMRLMMESVVNLKKKIEALEKTND 161
+                          466779999999999999999********************************************************9995 PP
+
+>> Glyma.10G113400.1.p  pacid=41104437 transcript=Glyma.10G113400.1 locus=Glyma.10G113400 ID=Glyma.10G113400.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.4   3.0   3.6e-14     2e-11      11      67 ..       1      57 [.       1      66 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 45.4 bits;  conditional E-value: 3.6e-14
+                K-box 11 lqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqll 67
+                         +q++l+kLk+ ++nl++++Rq++G+++++l l++L+ Le++++k+ k +R+ K   +
+  Glyma.10G113400.1.p  1 MQENLKKLKEVNRNLRKEIRQRMGDCMNDLGLEDLKLLEEEMDKAAKVVRECKATKF 57
+                         799************************************************998766 PP
+
+>> Glyma.15G057900.2.p  pacid=41120906 transcript=Glyma.15G057900.2 locus=Glyma.15G057900 ID=Glyma.15G057900.2.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.6  11.5   6.2e-14   3.5e-11      18      91 ..      97     170 ..      92     171 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 44.6 bits;  conditional E-value: 6.2e-14
+                K-box  18 LkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          L+keie+  +++ ql  e+l++l++keLq+Le+ L++  + i ++K++ + ++i++lk ke +l+een++L++ 
+  Glyma.15G057900.2.p  97 LRKEIEDKTNELSQLNEEELQGLKIKELQKLEDILQRRWTTISKTKDEKVIQEINHLKTKEAKLMEENQKLKQS 170
+                          9**********************************************************************986 PP
+
+>> Glyma.13G086400.1.p  pacid=41140360 transcript=Glyma.13G086400.1 locus=Glyma.13G086400 ID=Glyma.13G086400.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   2.0   4.8e-08   2.7e-05       6      73 ..     124     191 ..     120     196 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 25.8 bits;  conditional E-value: 4.8e-08
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqiee 73 
+                          se eelqqe++kL+++++  ++++R +  + l+  ++ +L++ e+ L   l+++ +rK+ ll+++++ 
+  Glyma.13G086400.1.p 124 SEIEELQQEVNKLQQQLQMTEEQIRLYEPDPLKMSTMADLENSEKYLVDVLTRVIQRKEYLLSNHLSS 191
+                          46688*********************************************************999876 PP
+
+>> Glyma.14G168700.1.p  pacid=41150284 transcript=Glyma.14G168700.1 locus=Glyma.14G168700 ID=Glyma.14G168700.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.4   2.3   6.3e-08   3.5e-05       6      73 ..     145     212 ..     141     217 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 25.4 bits;  conditional E-value: 6.3e-08
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqiee 73 
+                          se eelqqe+++L+++++  ++++R +  + l+  s+ +L++ e++L   l+++ +rK+ ll+++++ 
+  Glyma.14G168700.1.p 145 SEIEELQQEVNRLQQQLQMAEEQIRLYEPDPLKMSSMADLENSEKHLVDVLTRVIQRKEYLLSNHLSS 212
+                          46688*********************************************************999876 PP
+
+>> Glyma.04G153000.1.p  pacid=41082785 transcript=Glyma.04G153000.1 locus=Glyma.04G153000 ID=Glyma.04G153000.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.0   0.1   6.9e-07   0.00038      30      63 ..      25      58 ..      19      62 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 22.0 bits;  conditional E-value: 6.9e-07
+                K-box 30 RqllGedlsslslkeLqqLeqqLekslkkiRsrK 63
+                          ql Ge+ ++l++keLq+Le+ L++  + i + K
+  Glyma.04G153000.1.p 25 SQLNGEEFQGLTIKELQKLEELLQRHWTTISKIK 58
+                         699*********************9988886655 PP
+
+>> Glyma.07G228900.1.p  pacid=41123828 transcript=Glyma.07G228900.1 locus=Glyma.07G228900 ID=Glyma.07G228900.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.6   0.7       3.3   1.8e+03      34      57 ..     108     129 ..      75     138 .. 0.51
+   2 ?   13.4   9.0   0.00034      0.19       9      83 ..     115     188 ..     108     198 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 0.6 bits;  conditional E-value: 3.3
+                K-box  34 GedlsslslkeLqqLeqqLekslk 57 
+                          G   ss ++++L +  + L++ ++
+  Glyma.07G228900.1.p 108 G--TSSQTIEDLSNQARLLQTQIS 129
+                          4..344444444444444444444 PP
+
+  == domain 2  score: 13.4 bits;  conditional E-value: 0.00034
+                K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekelee 83 
+                          e l+++++ L+ +i++  + + + + e  +  +++ L q+e+ L +sl++iR+rK+++ ++q  +  + +++ +e
+  Glyma.07G228900.1.p 115 EDLSNQARLLQTQISETHKRLSHWT-EFDKISNVDQLGQMENSLRESLNQIRTRKENIKKQQQLMSLQCNNQFNE 188
+                          4455666666666666666665554.33344689***********************998876555555555555 PP
+
+>> Glyma.02G042700.1.p  pacid=41094524 transcript=Glyma.02G042700.1 locus=Glyma.02G042700 ID=Glyma.02G042700.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.2   0.2     0.058        32      14      54 ..     100     140 ..      96     155 .. 0.84
+   2 ?    6.1   0.1     0.064        35      40      82 ..     224     268 ..     211     276 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 6.2 bits;  conditional E-value: 0.058
+                K-box  14 elakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLek 54 
+                           + ++k++++ l  s+R+++G++  + s+ e +   ++++k
+  Glyma.02G042700.1.p 100 TMLQIKENVQALHSSLRRRKGDSCVEASVAEYKLFTKKMKK 140
+                          57789***********************9999988888875 PP
+
+  == domain 2  score: 6.1 bits;  conditional E-value: 0.064
+                K-box  40 lslkeLqqLeqqLekslkk..iRsrKnqllleqieelkkkekele 82 
+                           +++e q  e  L + l++  i ++K+q+++e++e l +  +++e
+  Glyma.02G042700.1.p 224 ENINEFQCVEASLSTLLNEgtINDEKMQVVHERLEALENAIESVE 268
+                          578999999999999998444***************998877665 PP
+
+>> Glyma.13G254500.3.p  pacid=41136628 transcript=Glyma.13G254500.3 locus=Glyma.13G254500 ID=Glyma.13G254500.3.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.6   0.1    0.0053         3      27      70 ..      64     107 ..      41     113 .. 0.81
+   2 ?   -0.4   0.3       6.8   3.8e+03      36      76 ..     390     430 ..     363     438 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.0053
+                K-box  27 rsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleq 70 
+                          +++ q++  ++ s++ keL++  ++L + l++i + +nq+ + +
+  Glyma.13G254500.3.p  64 ATHSQYVTFNVASCTKKELNDFKNRLVSELEQIQKLRNQIGSSE 107
+                          456677777899**************************997665 PP
+
+  == domain 2  score: -0.4 bits;  conditional E-value: 6.8
+                K-box  36 dlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkk 76 
+                          d++ ++ + L +L++ + +  k + + K q l+ +i++ ++
+  Glyma.13G254500.3.p 390 DIEAVDTETLWELDRLVTNYKKMVSKIKRQALMGNIDNNNN 430
+                          45666666677777777777777777788888888877665 PP
+
+>> Glyma.20G034000.3.p  pacid=41090309 transcript=Glyma.20G034000.3 locus=Glyma.20G034000 ID=Glyma.20G034000.3.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   6.5    0.0043       2.4      41      83 ..     146     188 ..     107     195 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.0043
+                K-box  41 slkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekelee 83 
+                          s++ L  +e+ L +sl +iR++K+++ ++q     + +++l+e
+  Glyma.20G034000.3.p 146 SVDQLGRMENSLRESLDQIRTHKENVKKQQQLVSLQCNNQLNE 188
+                          7999*********************998775544444555555 PP
+
+>> Glyma.15G060200.3.p  pacid=41122127 transcript=Glyma.15G060200.3 locus=Glyma.15G060200 ID=Glyma.15G060200.3.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.1    0.0019       1.1      29      70 ..      63     104 ..      38     110 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0019
+                K-box  29 qRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleq 70 
+                          + q++  ++ s++ keL++  + L + l++iR+ +nq+ + +
+  Glyma.15G060200.3.p  63 HSQYVTFNIASCTKKELNDFKNLLVSELEQIRKLRNQIESSE 104
+                          5567777899***************************97665 PP
+
+>> Glyma.19G021100.1.p  pacid=41160538 transcript=Glyma.19G021100.1 locus=Glyma.19G021100 ID=Glyma.19G021100.1.Wm82.a4.v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.8   3.0    0.0094       5.2      24      67 ..      76     119 ..      73     136 .. 0.91
+   2 ?    5.7   2.2     0.084        47      61      92 ..     146     177 ..     126     178 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 8.8 bits;  conditional E-value: 0.0094
+                K-box  24 nlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqll 67 
+                          +l ++  qllGe+ + lsl+  ++Le+  e + k   +rK+ql 
+  Glyma.19G021100.1.p  76 ELSDEGSQLLGEKKKRLSLEQVKALEKSFELGNKLEPERKMQLA 119
+                          6778889************************9999999999986 PP
+
+  == domain 2  score: 5.7 bits;  conditional E-value: 0.084
+                K-box  61 srKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++ +++l++q e +k  + +l+ +n++L+ +l
+  Glyma.19G021100.1.p 146 EKEYEVLKKQFEAVKADNDSLKSQNQKLHTEL 177
+                          45567777777777777777777777777665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (93 nodes)
+Target sequences:                      52872  (20363859 residues searched)
+Passed MSV filter:                      4232  (0.0800424); expected 1057.4 (0.02)
+Passed bias filter:                     1583  (0.0299402); expected 1057.4 (0.02)
+Passed Vit filter:                       239  (0.00452035); expected 52.9 (0.001)
+Passed Fwd filter:                       101  (0.00191027); expected 0.5 (1e-05)
+Initial search space (Z):              52872  [actual number of targets]
+Domain search space  (domZ):              95  [number of targets reported over threshold]
+# CPU time: 0.41u 0.02s 00:00:00.43 Elapsed: 00:00:00.91
+# Mc/sec: 2075.23
+//
+[ok]

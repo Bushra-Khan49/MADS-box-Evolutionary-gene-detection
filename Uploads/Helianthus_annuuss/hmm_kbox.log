@@ -1,0 +1,1057 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF01486.K_domain.hmm
+# target sequence database:        NIPGR-Plants/Helianthus_annuuss/Hannuus_494_r1.2.protein.fa
+# per-dom hits tabular output:     NIPGR_WORK/Helianthus_annuuss/Helianthus_annuuss_Kbox.domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       K-box  [M=93]
+Accession:   PF01486.22
+Description: K-box region
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    7.1e-30  104.5  12.6    9.2e-30  104.1  11.5    1.7  1  HanXRQChr12g0358711       pacid=40317846 transcript=HanXRQChr
+    7.4e-30  104.4  12.5    7.4e-30  104.4  12.5    2.0  2  HanXRQChr00c0143g0572041  pacid=40332184 transcript=HanXRQChr
+      2e-29  103.1  12.9      2e-29  103.1  12.9    2.0  2  HanXRQChr05g0163521       pacid=40312301 transcript=HanXRQChr
+    2.2e-29  103.0  10.0    3.8e-29  102.1  10.0    1.4  1  HanXRQChr08g0223681       pacid=40346369 transcript=HanXRQChr
+    3.5e-29  102.3  10.2    6.8e-29  101.3  10.2    1.5  1  HanXRQChr12g0364981       pacid=40317700 transcript=HanXRQChr
+    3.1e-28   99.2   9.0    6.5e-28   98.2   9.0    1.5  1  HanXRQChr02g0043891       pacid=40339271 transcript=HanXRQChr
+    1.3e-27   97.2  12.9    1.8e-27   96.8  11.8    1.8  1  HanXRQChr04g0110101       pacid=40306257 transcript=HanXRQChr
+    1.6e-27   96.9  14.2    2.8e-27   96.2  13.8    1.6  1  HanXRQChr15g0472781       pacid=40335523 transcript=HanXRQChr
+    2.1e-27   96.6  14.1    2.1e-27   96.6  14.1    1.7  1  HanXRQChr02g0042981       pacid=40340877 transcript=HanXRQChr
+    1.3e-26   94.0  10.2    1.3e-26   94.0  10.2    2.7  3  HanXRQChr10g0291191       pacid=40298517 transcript=HanXRQChr
+    2.6e-26   93.1  15.4    2.6e-26   93.1  15.4    1.6  1  HanXRQChr07g0200001       pacid=40302373 transcript=HanXRQChr
+    3.1e-26   92.8  15.8    3.1e-26   92.8  15.8    1.8  2  HanXRQChr14g0452461       pacid=40320802 transcript=HanXRQChr
+    3.6e-26   92.6  11.1    3.6e-26   92.6  11.1    1.7  1  HanXRQChr06g0174721       pacid=40330724 transcript=HanXRQChr
+    3.8e-26   92.5   6.7    9.2e-26   91.3   6.7    1.6  1  HanXRQChr16g0519321       pacid=40298875 transcript=HanXRQChr
+    6.1e-25   88.7  16.3    1.2e-24   87.7  16.3    1.6  1  HanXRQChr05g0154261       pacid=40312501 transcript=HanXRQChr
+    6.2e-25   88.7  11.6    6.2e-25   88.7  11.6    1.7  1  HanXRQChr12g0361321       pacid=40318714 transcript=HanXRQChr
+    6.3e-25   88.6  12.3    6.3e-25   88.6  12.3    1.7  1  HanXRQChr07g0200321       pacid=40303458 transcript=HanXRQChr
+    6.3e-25   88.6  12.0    1.5e-24   87.5  12.0    1.6  1  HanXRQChr09g0266391       pacid=40307438 transcript=HanXRQChr
+    6.6e-25   88.6  14.8    1.7e-24   87.3  14.8    1.7  1  HanXRQChr09g0270311       pacid=40307766 transcript=HanXRQChr
+    8.7e-25   88.2  12.1    8.7e-25   88.2  12.1    1.8  1  HanXRQChr09g0265001       pacid=40309358 transcript=HanXRQChr
+    1.1e-24   87.9  16.6    2.2e-24   86.9  16.6    1.6  1  HanXRQChr16g0507561       pacid=40300975 transcript=HanXRQChr
+    4.5e-24   85.9  15.0    4.5e-24   85.9  15.0    1.7  2  HanXRQChr09g0262151       pacid=40308388 transcript=HanXRQChr
+      5e-24   85.8  12.2      5e-24   85.8  12.2    1.7  1  HanXRQChr15g0489071       pacid=40336910 transcript=HanXRQChr
+    5.9e-24   85.5   8.6    1.2e-23   84.6   8.6    1.5  1  HanXRQChr01g0007431       pacid=40326188 transcript=HanXRQChr
+    1.2e-23   84.5   7.8    1.2e-23   84.5   7.8    2.0  1  HanXRQChr05g0147261       pacid=40313150 transcript=HanXRQChr
+      2e-23   83.8  11.7    2.1e-23   83.8  10.7    1.5  1  HanXRQChr09g0273361       pacid=40310501 transcript=HanXRQChr
+    3.1e-23   83.2  10.5      4e-23   82.9   8.1    2.2  2  HanXRQChr16g0523531       pacid=40300020 transcript=HanXRQChr
+    4.8e-23   82.6  11.4    7.9e-23   81.9  11.4    1.4  1  HanXRQChr05g0150661       pacid=40312171 transcript=HanXRQChr
+    7.7e-23   82.0  10.2    8.4e-23   81.8   8.7    1.8  1  HanXRQChr04g0122131       pacid=40304769 transcript=HanXRQChr
+    6.7e-22   78.9   9.4    6.8e-22   78.9   7.8    1.8  1  HanXRQChr06g0169281       pacid=40331739 transcript=HanXRQChr
+    1.9e-21   77.5  11.8    2.8e-21   77.0  10.4    1.9  1  HanXRQChr17g0560051       pacid=40329896 transcript=HanXRQChr
+    4.7e-21   76.2  14.4      7e-21   75.7  14.4    1.3  1  HanXRQChr17g0538821       pacid=40328840 transcript=HanXRQChr
+    2.5e-20   73.9   9.9    2.5e-20   73.9   9.9    1.4  1  HanXRQChr15g0485401       pacid=40335898 transcript=HanXRQChr
+    3.6e-20   73.4  19.8    8.1e-20   72.3  19.8    1.6  1  HanXRQChr05g0149341       pacid=40312708 transcript=HanXRQChr
+    4.3e-20   73.2   5.8    4.3e-20   73.2   5.8    1.7  1  HanXRQChr08g0223671       pacid=40346216 transcript=HanXRQChr
+    7.9e-20   72.3   6.1    1.2e-19   71.7   6.1    1.4  1  HanXRQChr12g0358721       pacid=40320123 transcript=HanXRQChr
+    2.1e-19   70.9   8.2    4.6e-19   69.8   8.2    1.5  1  HanXRQChr12g0358781       pacid=40320070 transcript=HanXRQChr
+      3e-19   70.5   9.1    3.7e-19   70.1   8.3    1.6  1  HanXRQChr16g0530971       pacid=40301630 transcript=HanXRQChr
+    4.4e-19   69.9   7.5    7.3e-19   69.2   7.5    1.3  1  HanXRQChr09g0267081       pacid=40307842 transcript=HanXRQChr
+    5.3e-19   69.6   8.8    1.1e-18   68.6   8.8    1.5  1  HanXRQChr02g0045511       pacid=40340032 transcript=HanXRQChr
+    7.1e-19   69.2  11.2    1.3e-18   68.4  11.2    1.4  1  HanXRQChr10g0299591       pacid=40296751 transcript=HanXRQChr
+    1.1e-18   68.6   9.2    1.9e-18   67.8   9.2    1.4  1  HanXRQChr04g0109981       pacid=40306892 transcript=HanXRQChr
+    6.5e-18   66.2  11.7    6.5e-18   66.2  11.7    1.8  1  HanXRQChr00c0029g0571181  pacid=40294749 transcript=HanXRQChr
+    2.1e-17   64.5   5.0    2.3e-17   64.4   5.0    1.0  1  HanXRQChr12g0375561       pacid=40318650 transcript=HanXRQChr
+    2.6e-17   64.2   2.7    2.6e-17   64.2   2.7    1.6  1  HanXRQChr15g0474011       pacid=40336193 transcript=HanXRQChr
+    6.7e-17   62.9   6.2    1.3e-16   62.0   6.2    1.4  1  HanXRQChr09g0269421       pacid=40308208 transcript=HanXRQChr
+    7.8e-17   62.7   9.8    7.8e-17   62.7   9.8    1.7  1  HanXRQChr15g0495861       pacid=40337814 transcript=HanXRQChr
+    1.2e-16   62.1  11.0    2.2e-16   61.2  11.0    1.4  1  HanXRQChr01g0015681       pacid=40324228 transcript=HanXRQChr
+      3e-16   60.8  12.7      3e-16   60.8  12.7    1.9  2  HanXRQChr13g0405061       pacid=40316483 transcript=HanXRQChr
+      5e-16   60.1   9.3      1e-15   59.1   9.3    1.5  1  HanXRQChr16g0501381       pacid=40300741 transcript=HanXRQChr
+      5e-16   60.1   9.3      1e-15   59.1   9.3    1.5  1  HanXRQChr16g0501741       pacid=40298929 transcript=HanXRQChr
+      2e-15   58.2  12.4      2e-15   58.2  12.4    1.8  1  HanXRQChr09g0270841       pacid=40308226 transcript=HanXRQChr
+    2.6e-15   57.8   6.9    4.6e-15   57.0   6.9    1.4  1  HanXRQChr05g0151331       pacid=40311508 transcript=HanXRQChr
+    1.8e-14   55.1   8.5    3.2e-14   54.3   8.5    1.4  1  HanXRQChr15g0484901       pacid=40337348 transcript=HanXRQChr
+    7.9e-14   53.1  11.5    1.3e-13   52.3  10.8    1.7  1  HanXRQChr16g0503081       pacid=40301709 transcript=HanXRQChr
+    1.1e-12   49.4   8.6    2.4e-12   48.3   8.6    1.6  1  HanXRQChr02g0040221       pacid=40340248 transcript=HanXRQChr
+    6.7e-12   46.9  13.0    6.7e-12   46.9  13.0    1.6  1  HanXRQChr05g0163381       pacid=40313358 transcript=HanXRQChr
+    9.3e-12   46.4  12.8    1.8e-11   45.5  12.4    1.7  1  HanXRQChr17g0538691       pacid=40328042 transcript=HanXRQChr
+    7.5e-11   43.5  12.1    1.1e-10   43.0  11.6    1.6  1  HanXRQChr12g0375471       pacid=40318633 transcript=HanXRQChr
+    1.3e-10   42.8   5.4    1.8e-10   42.3   5.4    1.3  1  HanXRQChr10g0278101       pacid=40294942 transcript=HanXRQChr
+    6.1e-08   34.2  11.6    1.1e-07   33.4  11.6    1.4  1  HanXRQChr17g0550551       pacid=40328841 transcript=HanXRQChr
+    0.00045   21.8   0.8    0.00045   21.8   0.8    1.1  1  HanXRQChr01g0003281       pacid=40323955 transcript=HanXRQChr
+     0.0019   19.8   2.2     0.0047   18.5   2.2    1.6  1  HanXRQChr15g0483111       pacid=40335754 transcript=HanXRQChr
+     0.0065   18.1   2.3     0.0065   18.1   2.3    1.9  1  HanXRQChr05g0150571       pacid=40312447 transcript=HanXRQChr
+     0.0096   17.5   0.5     0.0096   17.5   0.5    2.1  1  HanXRQChr03g0091451       pacid=40335256 transcript=HanXRQChr
+  ------ inclusion threshold ------
+      0.012   17.3   0.2      0.019   16.6   0.2    1.2  1  HanXRQChr08g0231091       pacid=40346557 transcript=HanXRQChr
+      0.021   16.5   0.6      0.067   14.8   0.6    1.8  1  HanXRQChr05g0156101       pacid=40313337 transcript=HanXRQChr
+       0.29   12.8   2.6       0.53   11.9   2.6    1.4  1  HanXRQChr15g0474301       pacid=40335577 transcript=HanXRQChr
+       0.37   12.4   1.5         24    6.6   0.3    2.7  2  HanXRQChr09g0276221       pacid=40309376 transcript=HanXRQChr
+        5.5    8.7   8.5        2.1   10.0   3.0    2.1  2  HanXRQChr16g0512151       pacid=40300283 transcript=HanXRQChr
+
+
+Domain annotation for each sequence (and alignments):
+>> HanXRQChr12g0358711  pacid=40317846 transcript=HanXRQChr12g0358711 locus=HanXRQChr12g0358711 ID=HanXRQChr12g0358711.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.1  11.5   1.2e-32   9.2e-30       3      92 ..      80     169 ..      78     170 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 104.1 bits;  conditional E-value: 1.2e-32
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++e+e ++++qe++kLk+++e+lqr+qR+llGedl++ls+keL++Le+qLe +l++ R+rK+q+l eq+eel++ke+el + nk+Lr k+
+  HanXRQChr12g0358711  80 NNERETQSWYQEVSKLKAKFESLQRTQRHLLGEDLGPLSVKELHNLEKQLEGALTQARQRKTQILVEQMEELRRKERELGDINKHLRIKV 169
+                          56778999*******************************************************************************886 PP
+
+>> HanXRQChr00c0143g0572041  pacid=40332184 transcript=HanXRQChr00c0143g0572041 locus=HanXRQChr00c0143g0572041 ID=HanXRQ
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.4  12.5   9.9e-33   7.4e-30       3      92 ..      21     110 ..      11     111 .. 0.96
+   2 ?    3.0   0.1      0.43   3.2e+02      74      92 ..     106     124 ..     105     125 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 104.4 bits;  conditional E-value: 9.9e-33
+                     K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenke 87 
+                               s +se +++q+e+a+Lk+++++lq+++Rq++Ge+ls+ls+++Lq +e+qLe+sl++iR++K+qll+e+ieelk+k +++++en e
+  HanXRQChr00c0143g0572041  21 SPTSEVKFWQREAAMLKQQLQSLQENHRQMMGEELSGLSVQDLQVMENQLEMSLRNIRTKKDQLLFEEIEELKRKGNIIHHENVE 105
+                               567799******************************************************************************* PP
+
+                     K-box  88 Lrkkl 92 
+                               L+kk+
+  HanXRQChr00c0143g0572041 106 LCKKV 110
+                               ***98 PP
+
+  == domain 2  score: 3.0 bits;  conditional E-value: 0.43
+                     K-box  74 lkkkekeleeenkeLrkkl 92 
+                               l kk ++++een eL k++
+  HanXRQChr00c0143g0572041 106 LCKKVNHIREENTELYKQV 124
+                               6789999999**9999986 PP
+
+>> HanXRQChr05g0163521  pacid=40312301 transcript=HanXRQChr05g0163521 locus=HanXRQChr05g0163521 ID=HanXRQChr05g0163521.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.1  12.9   2.7e-32     2e-29       3      92 ..      82     171 ..      71     172 .. 0.96
+   2 ?    0.8   0.1       2.2   1.6e+03      76      92 ..     169     185 ..     169     186 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 103.1 bits;  conditional E-value: 2.7e-32
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          s +se +++q+e+a+Lk+++++lq+++Rq++Ge+ls+ls+++Lq +e+qLe+sl++iR++K+qll+e+ieelk+k +++++en eL+kk+
+  HanXRQChr05g0163521  82 SPTSEVKFWQREAAMLKQQLQSLQENHRQMMGEELSGLSVQDLQVMENQLEMSLRNIRTKKDQLLFEEIEELKRKGNIIHHENVELCKKV 171
+                          567799**********************************************************************************98 PP
+
+  == domain 2  score: 0.8 bits;  conditional E-value: 2.2
+                K-box  76 kkekeleeenkeLrkkl 92 
+                          kk ++++een eL k++
+  HanXRQChr05g0163521 169 KKVNHIREENTELYKQV 185
+                          67889999999999986 PP
+
+>> HanXRQChr08g0223681  pacid=40346369 transcript=HanXRQChr08g0223681 locus=HanXRQChr08g0223681 ID=HanXRQChr08g0223681.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.1  10.0   5.1e-32   3.8e-29       9      93 .]      88     172 ..      79     172 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 102.1 bits;  conditional E-value: 5.1e-32
+                K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                           +++ e++kLk++ e lqr++R+++Ged++slslke+q+LeqqL+++lk+iR+rKnqll+e+i+el+kk k ++e+n +L+kk++
+  HanXRQChr08g0223681  88 RSWTLEYNKLKSRAELLQRNHRHYMGEDIESLSLKEIQNLEQQLDTGLKNIRTRKNQLLHESISELQKKGKAIQEQNTTLTKKIK 172
+                          679********************************************************************************85 PP
+
+>> HanXRQChr12g0364981  pacid=40317700 transcript=HanXRQChr12g0364981 locus=HanXRQChr12g0364981 ID=HanXRQChr12g0364981.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.3  10.2   9.1e-32   6.8e-29       9      92 ..      88     171 ..      81     172 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 101.3 bits;  conditional E-value: 9.1e-32
+                K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           +++ e++kLk++ e lqr++R+++Ged++slslke+q+LeqqL+++lk+iR+rKnqll+e+i+el+kk k ++e+n +L+k+l
+  HanXRQChr12g0364981  88 RSWTLEYNKLKSRAELLQRNHRHYMGEDIESLSLKEIQNLEQQLDTGLKNIRARKNQLLHESINELQKKGKAIQEQNTTLTKQL 171
+                          679*******************************************************************************98 PP
+
+>> HanXRQChr02g0043891  pacid=40339271 transcript=HanXRQChr02g0043891 locus=HanXRQChr02g0043891 ID=HanXRQChr02g0043891.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.2   9.0   8.7e-31   6.5e-28       6      92 ..      95     181 ..      91     182 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 98.2 bits;  conditional E-value: 8.7e-31
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++q +++ e +kL+ +ie l++++R++ Gedl++l+l+eLq+ eqqL+++lk+iR+rKnq+++e+i+el+kke+ l+e+n+ L+kkl
+  HanXRQChr02g0043891  95 ETQGSWTLESSKLRTKIEVLEKNIRHYGGEDLEPLNLRELQSVEQQLDTALKRIRTRKNQVMHESISELHKKERALQEQNNALSKKL 181
+                          45778********************************************************************************98 PP
+
+>> HanXRQChr04g0110101  pacid=40306257 transcript=HanXRQChr04g0110101 locus=HanXRQChr04g0110101 ID=HanXRQChr04g0110101.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.8  11.8   2.4e-30   1.8e-27       4      92 ..      84     172 ..      79     173 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 96.8 bits;  conditional E-value: 2.4e-30
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++++  ++ e+akLk+++e lq++qR+++Gedl+slslkeLq+Leq+L++slk+iR r+nql++e+i+ l kk+kel++en+ L +k+
+  HanXRQChr04g0110101  84 DHESHGIWTMEYAKLKSRMEGLQTTQRHIMGEDLDSLSLKELQNLEQKLDASLKHIRLRRNQLMFESISALEKKDKELQNENNALLNKV 172
+                          3445778******************************************************************************9998 PP
+
+>> HanXRQChr15g0472781  pacid=40335523 transcript=HanXRQChr15g0472781 locus=HanXRQChr15g0472781 ID=HanXRQChr15g0472781.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.2  13.8   3.8e-30   2.8e-27       5      92 ..      54     141 ..      48     142 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 96.2 bits;  conditional E-value: 3.8e-30
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           ++q +++ e +kL+++ie l++++R+++Gedl++l+l+eLq++eqqLe++lk++R+rKnq ++e+i+el+kke+ l+e+n+ L+kkl
+  HanXRQChr15g0472781  54 LETQGRWNLESSKLRAKIEVLEKNIRNYVGEDLEPLNLRELQSIEQQLETALKRVRTRKNQAMHESISELHKKERALQEQNSALSKKL 141
+                          456789********************************************************************************98 PP
+
+>> HanXRQChr02g0042981  pacid=40340877 transcript=HanXRQChr02g0042981 locus=HanXRQChr02g0042981 ID=HanXRQChr02g0042981.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.6  14.1   2.8e-30   2.1e-27       3      93 .]      82     172 ..      80     172 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 96.6 bits;  conditional E-value: 2.8e-30
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          + e+e+++ ++e+ +Lk+++e lqrsqR+llGedl +l+ keL+qLe+qLe+sl+kiRs+K+q +l+q++el++ke+ l e nk Lr+kl
+  HanXRQChr02g0042981  82 QPENESQYNYHEYLRLKARVEVLQRSQRNLLGEDLAPLNTKELEQLEHQLETSLRKIRSTKTQSMLNQLAELQRKEQVLAETNKALRNKL 171
+                          67889999********************************************************************************98 PP
+
+                K-box  93 e 93 
+                          e
+  HanXRQChr02g0042981 172 E 172
+                          5 PP
+
+>> HanXRQChr10g0291191  pacid=40298517 transcript=HanXRQChr10g0291191 locus=HanXRQChr10g0291191 ID=HanXRQChr10g0291191.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.1       3.5   2.6e+03      69      88 ..      60      79 ..      52      82 .. 0.53
+   2 !   94.0  10.2   1.8e-29   1.3e-26       5      92 ..      83     170 ..      80     171 .. 0.97
+   3 ?    4.6   0.3      0.14     1e+02      73      92 ..     165     184 ..     165     185 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 3.5
+                K-box 69 eqieelkkkekeleeenkeL 88
+                          +++++ ++ ++++een +L
+  HanXRQChr10g0291191 60 SSMKKVIERYNKVKEENHQL 79
+                         34444444455555555555 PP
+
+  == domain 2  score: 94.0 bits;  conditional E-value: 1.8e-29
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +se +++q e+ +L+++++ lq+s+RqllGedls++++++L++Le++Le+slk +R++K+q+l+++i+e+++k  ++ een+eL+kk+
+  HanXRQChr10g0291191  83 ASEAKFWQGEAVQLRQQLQYLQQSHRQLLGEDLSGMNVNDLHKLESKLEMSLKGVRTKKEQILTDEIKEIHRKGSRIAEENNELHKKV 170
+                          57889*********************************************************************************98 PP
+
+  == domain 3  score: 4.6 bits;  conditional E-value: 0.14
+                K-box  73 elkkkekeleeenkeLrkkl 92 
+                          el+kk + l +en+ L+kk+
+  HanXRQChr10g0291191 165 ELHKKVNLLLQENADLQKKV 184
+                          6899*************997 PP
+
+>> HanXRQChr07g0200001  pacid=40302373 transcript=HanXRQChr07g0200001 locus=HanXRQChr07g0200001 ID=HanXRQChr07g0200001.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.1  15.4   3.4e-29   2.6e-26       4      92 ..      84     172 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 93.1 bits;  conditional E-value: 3.4e-29
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e+++q +++ e +kLk++ie l+r++R+++Gedl++l+l+eLq  eqqLe++lk+iR++Knql++e+i+el+kkekel+++n+ L+kkl
+  HanXRQChr07g0200001  84 ETETQASWTLESSKLKAKIEVLERNIRHYVGEDLEQLNLRELQYVEQQLETALKRIRTKKNQLMHESISELHKKEKELRDKNNSLSKKL 172
+                          4556789********************************************************************************98 PP
+
+>> HanXRQChr14g0452461  pacid=40320802 transcript=HanXRQChr14g0452461 locus=HanXRQChr14g0452461 ID=HanXRQChr14g0452461.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.8  15.8   4.2e-29   3.1e-26       4      92 ..      84     172 ..      81     173 .. 0.96
+   2 ?    0.5   0.1       2.7     2e+03      73      86 ..     171     184 ..     170     185 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 92.8 bits;  conditional E-value: 4.2e-29
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e+++q +++ e +kLk++ie l++++R+++Ge+l++l+l+eLq+ eqq+e++lk+iR++Knq+++e+i+el+kke+ l+e n+ L+kkl
+  HanXRQChr14g0452461  84 ETETQASWTLESSKLKARIEVLEKNIRHYVGEELEQLNLRELQNVEQQIETALKRIRTKKNQVMHESISELHKKERALQERNNSLSKKL 172
+                          4556789********************************************************************************98 PP
+
+  == domain 2  score: 0.5 bits;  conditional E-value: 2.7
+                K-box  73 elkkkekeleeenk 86 
+                          +lk++ek++e++n+
+  HanXRQChr14g0452461 171 KLKENEKNVEQQNS 184
+                          799********996 PP
+
+>> HanXRQChr06g0174721  pacid=40330724 transcript=HanXRQChr06g0174721 locus=HanXRQChr06g0174721 ID=HanXRQChr06g0174721.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.6  11.1   4.8e-29   3.6e-26      10      92 ..      91     173 ..      80     174 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 92.6 bits;  conditional E-value: 4.8e-29
+                K-box  10 elqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          + qqe+ kLk+++e lqrsqR+llGedl++l+ keL++Le+qL++slk+iRs ++ql+l+ + +l+kke+ l+e+n++L+++l
+  HanXRQChr06g0174721  91 SSQQEYMKLKAKYEALQRSQRNLLGEDLGPLNCKELESLERQLDTSLKHIRSARTQLMLDTLTDLQKKEHALNEANSTLKQRL 173
+                          589*****************************************************************************986 PP
+
+>> HanXRQChr16g0519321  pacid=40298875 transcript=HanXRQChr16g0519321 locus=HanXRQChr16g0519321 ID=HanXRQChr16g0519321.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.3   6.7   1.2e-28   9.2e-26       6      92 ..      91     181 ..      87     182 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 91.3 bits;  conditional E-value: 1.2e-28
+                K-box   6 seqeelqqelakLkkeienlqrsqRq....llGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                           + +++qqe+akL+++i nlq+++Rq    ++Ge+l+++  k+L++Le +Lek++++iRs+Kn+ll+++ie+++k+e+el+++n+ Lr k
+  HanXRQChr16g0519321  91 ANAQFYQQEAAKLRQQIANLQNQNRQfyrnIMGESLGNMPAKDLKNLEGKLEKGISRIRSKKNELLFAEIEYMQKRENELHNNNQFLRAK 180
+                          34689******************987333369********************************************************99 PP
+
+                K-box  92 l 92 
+                          +
+  HanXRQChr16g0519321 181 I 181
+                          8 PP
+
+>> HanXRQChr05g0154261  pacid=40312501 transcript=HanXRQChr05g0154261 locus=HanXRQChr05g0154261 ID=HanXRQChr05g0154261.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.7  16.3   1.7e-27   1.2e-24       6      92 ..      86     172 ..      76     173 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 87.7 bits;  conditional E-value: 1.7e-27
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++ +++ e+akLk+++e lq++qR+++Gedl+sls+keL +LeqqLe++l++ R +Knq++le+i+el+kk+k+l+ +n+ L kk+
+  HanXRQChr05g0154261  86 QSKGSWTLEHAKLKAKFELLQKNQRNFMGEDLDSLSIKELLNLEQQLEAALRRLRLKKNQMMLESISELQKKDKSLQYQNSLLLKKI 172
+                          34678********************************************************************************98 PP
+
+>> HanXRQChr12g0361321  pacid=40318714 transcript=HanXRQChr12g0361321 locus=HanXRQChr12g0361321 ID=HanXRQChr12g0361321.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7  11.6   8.2e-28   6.2e-25      10      92 ..      91     173 ..      83     174 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 8.2e-28
+                K-box  10 elqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          + qqe+ kLk+++e+lqrsqR+llGedl++ls keL++Le+qL++slk+iRs ++q +l+ + +l+kke  l+e+n++L+++l
+  HanXRQChr12g0361321  91 SSQQEYLKLKARYEELQRSQRNLLGEDLGPLSCKELESLERQLDTSLKQIRSARTQSMLDTLTDLQKKEYALNEANRTLKQRL 173
+                          579*****************************************************************************986 PP
+
+>> HanXRQChr07g0200321  pacid=40303458 transcript=HanXRQChr07g0200321 locus=HanXRQChr07g0200321 ID=HanXRQChr07g0200321.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.6  12.3   8.4e-28   6.3e-25       3      93 .]      83     173 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 88.6 bits;  conditional E-value: 8.4e-28
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          s+ +++++ ++e+ kLk+++e+lq+ qRq+ Gedl++lslkeL+qLe+qL+++l++iRs ++q +l++++el++kek+  e+nk L++kl
+  HanXRQChr07g0200321  83 STINAEQNSYKEYMKLKAKYESLQQYQRQIFGEDLGPLSLKELEQLERQLDSTLRQIRSIRTQSMLDRLSELQNKEKMWIEANKDLQNKL 172
+                          56678899********************************************************************************98 PP
+
+                K-box  93 e 93 
+                          e
+  HanXRQChr07g0200321 173 E 173
+                          5 PP
+
+>> HanXRQChr09g0266391  pacid=40307438 transcript=HanXRQChr09g0266391 locus=HanXRQChr09g0266391 ID=HanXRQChr09g0266391.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.5  12.0     2e-27   1.5e-24       4      93 .]     136     224 ..     132     224 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 87.5 bits;  conditional E-value: 2e-27
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          e  + ++++qe +kL+++i+ lq+++R+l+G++l++l++keL+qLe +Lek++++iRs++++l+l+++e+l k+e ele++n+ Lr+k++
+  HanXRQChr09g0266391 136 EV-NAQFYKQESKKLRQQIQMLQNTNRHLMGDGLEHLNVKELKQLEGRLEKGISRIRSKRHDLILAETENLEKREIELEHHNAFLRSKVQ 224
+                          33.5789********************************************************************************985 PP
+
+>> HanXRQChr09g0270311  pacid=40307766 transcript=HanXRQChr09g0270311 locus=HanXRQChr09g0270311 ID=HanXRQChr09g0270311.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.3  14.8   2.2e-27   1.7e-24       5      93 .]     148     236 ..     141     236 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 87.3 bits;  conditional E-value: 2.2e-27
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          +++qe ++    kLk+++e lq++qR+l+Gedl+slslkeL++ eqq++++lk+iR +Knql+le+i++l+kk+k l+++n+ L+k++e
+  HanXRQChr09g0270311 148 NDSQEMWKLGNVKLKARLELLQKTQRHLMGEDLDSLSLKELHSYEQQIDSALKHIRLKKNQLMLESISQLQKKDKDLQDQNNLLSKQVE 236
+                          45789999999***************************************************************************985 PP
+
+>> HanXRQChr09g0265001  pacid=40309358 transcript=HanXRQChr09g0265001 locus=HanXRQChr09g0265001 ID=HanXRQChr09g0265001.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2  12.1   1.2e-27   8.7e-25       4      93 .]      84     173 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 1.2e-27
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          +++++++ ++e+ kLk+++e+lq+ qRql Gedl++l+lkeL+qLe+qL+++l++iRs ++q +l+++++l+ ke++  e+nk+L++kle
+  HanXRQChr09g0265001  84 TNDAEQNSYKEYMKLKAKYESLQQYQRQLFGEDLGPLNLKELEQLERQLDSTLRQIRSIRTQSMLDRLSDLQVKERMWLEANKTLQNKLE 173
+                          5567899********************************************************************************985 PP
+
+>> HanXRQChr16g0507561  pacid=40300975 transcript=HanXRQChr16g0507561 locus=HanXRQChr16g0507561 ID=HanXRQChr16g0507561.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.9  16.6   2.9e-27   2.2e-24       6      92 ..      86     172 ..      76     173 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 86.9 bits;  conditional E-value: 2.9e-27
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++ +++  lakLk+++e lq++qR+++Gedl+sls+keL +LeqqLe++l++ R +Knq++le+i+el+kk+k+l+++n+ L kk+
+  HanXRQChr16g0507561  86 QSEGSWTLKLAKLKAKFELLQKNQRNFMGEDLDSLSIKELLNLEQQLEAALRRLRLKKNQMMLESISELQKKDKSLQDQNSLLLKKI 172
+                          34568********************************************************************************98 PP
+
+>> HanXRQChr09g0262151  pacid=40308388 transcript=HanXRQChr09g0262151 locus=HanXRQChr09g0262151 ID=HanXRQChr09g0262151.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.3   0.1       9.8   7.3e+03      74      89 ..      65      80 ..      55      83 .. 0.66
+   2 !   85.9  15.0   6.1e-27   4.5e-24       4      92 ..      82     170 ..      78     171 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: -1.3 bits;  conditional E-value: 9.8
+                K-box 74 lkkkekeleeenkeLr 89
+                         + ++ ++ +een++L 
+  HanXRQChr09g0262151 65 VIQRYNISKEENNQLL 80
+                         5556667778888875 PP
+
+  == domain 2  score: 85.9 bits;  conditional E-value: 6.1e-27
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +ese + +q+e++ Lk+++e+lq+++R+++G++ls++ +++L++Le+qLe+sl++iR +K++ll+ +i++l +k   ++++n eL kk+
+  HanXRQChr09g0262151  82 SESEAKLWQREASVLKQQLETLQETHRHVMGKELSNMGVEDLNNLENQLEMSLQSIRLKKEELLMGEIQDLTRKGSLMHQQNIELYKKI 170
+                          5667889********************************************************************************97 PP
+
+>> HanXRQChr15g0489071  pacid=40336910 transcript=HanXRQChr15g0489071 locus=HanXRQChr15g0489071 ID=HanXRQChr15g0489071.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.8  12.2   6.7e-27     5e-24       5      93 .]      85     173 ..      81     173 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 85.8 bits;  conditional E-value: 6.7e-27
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          ++++++ ++e+ kLk+++e+lq+ qRql Gedl++l+lkeL+qLe+qL+++l++iRs ++q +l++++el+ ke++  e+nk L++kle
+  HanXRQChr15g0489071  85 NDAEQSSYKEYIKLKAKYESLQQYQRQLFGEDLNPLNLKELEQLERQLDSTLRQIRSIRTQSMLDRLSELQVKERMWLEANKGLQNKLE 173
+                          5567899*******************************************************************************985 PP
+
+>> HanXRQChr01g0007431  pacid=40326188 transcript=HanXRQChr01g0007431 locus=HanXRQChr01g0007431 ID=HanXRQChr01g0007431.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.6   8.6   1.6e-26   1.2e-23       4      92 ..     146     237 ..     143     238 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 84.6 bits;  conditional E-value: 1.6e-26
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRql....lGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLr 89 
+                          e++  +++qqe+akL+++i+nlq+++Rq+    +Ge+l++++ k+L++Le +Lek++++iR++K++ll+++ie+ +k+ +el++ n+ Lr
+  HanXRQChr01g0007431 146 EAN-AQYYQQEAAKLRQQISNLQNQNRQFymniMGESLGNMQAKDLKNLETKLEKGISRIRAKKDELLFAEIEHSQKRGNELHNSNQFLR 234
+                          444.679********************8544449******************************************************** PP
+
+                K-box  90 kkl 92 
+                           k+
+  HanXRQChr01g0007431 235 AKI 237
+                          998 PP
+
+>> HanXRQChr05g0147261  pacid=40313150 transcript=HanXRQChr05g0147261 locus=HanXRQChr05g0147261 ID=HanXRQChr05g0147261.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.5   7.8   1.6e-26   1.2e-23       6      92 ..     118     208 ..     114     209 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 84.5 bits;  conditional E-value: 1.6e-26
+                K-box   6 seqeelqqelakLkkeienlqrsqRq....llGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                           + +++qqe++kL+++i nlq+++Rq    ++Ge+l ++  keL++Le++Lek++++iR++Kn+ll+++ie+++k+e el++ n+ Lr +
+  HanXRQChr05g0147261 118 ANAQFYQQEATKLRQQIANLQNQNRQfyrnIMGESLADMPGKELKNLESKLEKAINRIRAKKNELLFAEIEYMQKRELELHNSNQFLRAR 207
+                          34689******************987333369********************************************************98 PP
+
+                K-box  92 l 92 
+                          +
+  HanXRQChr05g0147261 208 I 208
+                          7 PP
+
+>> HanXRQChr09g0273361  pacid=40310501 transcript=HanXRQChr09g0273361 locus=HanXRQChr09g0273361 ID=HanXRQChr09g0273361.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.8  10.7   2.8e-26   2.1e-23       7      93 .]      85     171 ..      78     171 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 83.8 bits;  conditional E-value: 2.8e-26
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                          + e +++e++++kk i++l++++++l Gedls+l +keL+qLe+qL +++ ++RsrK +ll+e+++ lk+++k l+een +L+kk++
+  HanXRQChr09g0273361  85 TIEVWKNEMDEMKKAIDTLETKLKHLAGEDLSTLGMKELKQLERQLRMGVDRVRSRKWRLLSEHVSLLKRNHKTLQEENCNLQKKIK 171
+                          5688*********************************************************************************85 PP
+
+>> HanXRQChr16g0523531  pacid=40300020 transcript=HanXRQChr16g0523531 locus=HanXRQChr16g0523531 ID=HanXRQChr16g0523531.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0       4.9   3.7e+03      67      86 ..      62      81 ..      59      84 .. 0.83
+   2 !   82.9   8.1   5.4e-26     4e-23       4      91 ..      85     172 ..      80     173 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 4.9
+                K-box 67 lleqieelkkkekeleeenk 86
+                         ++e ie +++  k ++ en+
+  HanXRQChr16g0523531 62 MEETIERYRNHVKDVQPENS 81
+                         78899999999999998886 PP
+
+  == domain 2  score: 82.9 bits;  conditional E-value: 5.4e-26
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          e+ + ++l++e+a++ k+ie l+  +R++lGe+l+s +++eL q+eqqLe+s++ iR+rK+q++ eqieel+ kek+l  +n++L+ k
+  HanXRQChr16g0523531  85 EDAQWQHLKDETASMAKKIELLELAKRKFLGEGLGSSTIEELLQIEQQLERSVSIIRARKMQVYNEQIEELQAKEKMLACQNAMLTGK 172
+                          5568899******************************************************************************877 PP
+
+>> HanXRQChr05g0150661  pacid=40312171 transcript=HanXRQChr05g0150661 locus=HanXRQChr05g0150661 ID=HanXRQChr05g0150661.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.9  11.4   1.1e-25   7.9e-23       7      92 ..      81     166 ..      68     167 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 81.9 bits;  conditional E-value: 1.1e-25
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          + +++q+e++kL+++i+  q+s+R+l+Ge+l+sl+++eL++Le +Le+++++iRs+K++++le++e l+++e  le+ n  Lr+k+
+  HanXRQChr05g0150661  81 NAQYYQEEAKKLRQQIKIRQNSNRHLKGEGLDSLNINELKKLETKLERAISRIRSKKHDMILEETESLQNRELVLEHTNTILRSKI 166
+                          5689********************************************************************************98 PP
+
+>> HanXRQChr04g0122131  pacid=40304769 transcript=HanXRQChr04g0122131 locus=HanXRQChr04g0122131 ID=HanXRQChr04g0122131.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.8   8.7   1.1e-25   8.4e-23       5      92 ..      83     170 ..      77     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 81.8 bits;  conditional E-value: 1.1e-25
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           ++ ++l++e+a + k++e l+  +R+llGe+l+s ++++L ++eqqLe+s++ iR+rK+q++ eqie+lk kek l +en+ L++k+
+  HanXRQChr04g0122131  83 VEDVQHLKNETAIMAKKVELLEVAKRKLLGEGLGSSTIEDLVKIEQQLERSVRIIRARKMQVYNEQIEQLKAKEKLLADENAILTEKF 170
+                          446789********************************************************************************98 PP
+
+>> HanXRQChr06g0169281  pacid=40331739 transcript=HanXRQChr06g0169281 locus=HanXRQChr06g0169281 ID=HanXRQChr06g0169281.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.9   7.8   9.1e-25   6.8e-22       6      92 ..      77     163 ..      70     164 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 78.9 bits;  conditional E-value: 9.1e-25
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++ ++l++e+a + k++e l+  +R+llGe+l+  +++eL  +eqqLe++++ +R+rK+q+++eqie+l+ kek l +en+ L++k+
+  HanXRQChr06g0169281  77 EDVQHLKHETAIMAKKVELLEVAKRRLLGEGLGATTIDELVRIEQQLERGVRLVRARKMQVYQEQIEQLQAKEKLLADENAILTEKC 163
+                          45788*******************************************************************************997 PP
+
+>> HanXRQChr17g0560051  pacid=40329896 transcript=HanXRQChr17g0560051 locus=HanXRQChr17g0560051 ID=HanXRQChr17g0560051.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.0  10.4   3.7e-24   2.8e-21       5      91 ..      84     170 ..      79     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 77.0 bits;  conditional E-value: 3.7e-24
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          e++ ++l+qe++++ ++i+ l+  +R+llG++l+s +++eLq++e+qLeks+  iR+rK+q++ eq+eel+ kek l  +n++L+ k
+  HanXRQChr17g0560051  84 EEDVQHLRQETESMGNKIKVLELAKRKLLGQGLGSSTIEELQEIEHQLEKSICTIRARKMQVYNEQVEELRAKEKLLASQNAMLSGK 170
+                          345678******************************************************************************876 PP
+
+>> HanXRQChr17g0538821  pacid=40328840 transcript=HanXRQChr17g0538821 locus=HanXRQChr17g0538821 ID=HanXRQChr17g0538821.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.7  14.4   9.4e-24     7e-21      13      86 ..      42     115 ..      28     124 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 75.7 bits;  conditional E-value: 9.4e-24
+                K-box  13 qelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenk 86 
+                            +a+Lk++ie lq+  R+l+Ge+l+slslke+++Leqq+++slk+iR rKnql+le+i+el++k k+ e+e  
+  HanXRQChr17g0538821  42 MGYANLKARIELLQKRERHLMGEELDSLSLKEIHNLEQQIDTSLKHIRLRKNQLMLESISELQNKVKKKEKEAT 115
+                          5689*************************************************************888777643 PP
+
+>> HanXRQChr15g0485401  pacid=40335898 transcript=HanXRQChr15g0485401 locus=HanXRQChr15g0485401 ID=HanXRQChr15g0485401.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.9   9.9   3.4e-23   2.5e-20       7      91 ..      42     126 ..      36     128 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 73.9 bits;  conditional E-value: 3.4e-23
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          + ++l++e a +++++e+l++s R++lG+dl s+sl+e  +L+++Le++l+ iR+rK +l++eq+e+lk ke+ l+een++L ++
+  HanXRQChr15g0485401  42 NTQKLKKESAIIQQKLEQLEASRRKYLGQDLVSCSLDEVIELDSKLEHALRTIRERKAHLFKEQTEKLKAKERYLMEENARLVQE 126
+                          4578******************************************************************************876 PP
+
+>> HanXRQChr05g0149341  pacid=40312708 transcript=HanXRQChr05g0149341 locus=HanXRQChr05g0149341 ID=HanXRQChr05g0149341.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.3  19.8   1.1e-22   8.1e-20       3      91 ..      80     168 ..      78     170 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 72.3 bits;  conditional E-value: 1.1e-22
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          +++++qe++++el+++kke  nlq s+ +++G+dlss +++eL+qLeqqLe s++k+R+rK qll++q+++l++ ek le+en+e+ + 
+  HanXRQChr05g0149341  80 THQNNQEQMRNELTRMKKETLNLQLSLQRYKGDDLSSAQIEELNQLEQQLEFSVQKVRARKLQLLQQQVDNLQRTEKVLEKENEEMYQW 168
+                          5788999*****************************************************************************99876 PP
+
+>> HanXRQChr08g0223671  pacid=40346216 transcript=HanXRQChr08g0223671 locus=HanXRQChr08g0223671 ID=HanXRQChr08g0223671.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.2   5.8   5.7e-23   4.3e-20       6      78 ..      85     157 ..      80     163 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 73.2 bits;  conditional E-value: 5.7e-23
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkke 78 
+                           + ++ +qe+ kLk++++ lq+sqR++lGe+l+ l  k+L qLe+q++ +l+++R +K++++l+q+ +l++k 
+  HanXRQChr08g0223671  85 PDAQSSYQEYLKLKAKVDILQQSQRHYLGEELERLGSKDLDQLERQMDLALRQVRLTKTKHMLDQLTDLQQKV 157
+                          467889*****************************************************************96 PP
+
+>> HanXRQChr12g0358721  pacid=40320123 transcript=HanXRQChr12g0358721 locus=HanXRQChr12g0358721 ID=HanXRQChr12g0358721.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.7   6.1   1.7e-22   1.2e-19       7      92 ..      79     164 ..      64     165 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 71.7 bits;  conditional E-value: 1.7e-22
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          + ++l+q ++ + k+ie l+  +R++lG++l+s +++eL  +e+qLe+s+  iR+rK+q++ +q+++l+ ke++l  en+ L++k+
+  HanXRQChr12g0358721  79 DVQHLRQLAEGMAKQIELLEVAKRKILGQCLGSTTIEELLPIEEQLERSVCVIRARKMQVYNKQVQQLQSKERMLTTENAVLNEKY 164
+                          457899999**************************************************************************997 PP
+
+>> HanXRQChr12g0358781  pacid=40320070 transcript=HanXRQChr12g0358781 locus=HanXRQChr12g0358781 ID=HanXRQChr12g0358781.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.8   8.2   6.2e-22   4.6e-19       6      92 ..      82     164 ..      76     165 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 69.8 bits;  conditional E-value: 6.2e-22
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           ++e+lq e++++kke+e++q ++R+l+Ged+ sl+++eL + e+ Le++l++iR++K+++     + ++k e+ leeenk+L  ++
+  HanXRQChr12g0358781  82 AKHENLQIEIDRIKKENESMQIELRHLKGEDITSLNYEELIAFEDALENGLTHIREKKDEIP----QIMRKHEQVLEEENKHLMYMV 164
+                          5799**********************************************************....889**************8776 PP
+
+>> HanXRQChr16g0530971  pacid=40301630 transcript=HanXRQChr16g0530971 locus=HanXRQChr16g0530971 ID=HanXRQChr16g0530971.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.1   8.3     5e-22   3.7e-19       5      90 ..      81     167 ..      78     170 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 70.1 bits;  conditional E-value: 5e-22
+                K-box   5 eseqeelqqelakLkkeienlqrsqRql.lGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrk 90 
+                          +s++e++q+ l+kLk+ +++l+r++Rq+ lGedl++l++++L  Leq+++ sl+ +R+rK++++++q+++++k+ k+le+ n +Lr 
+  HanXRQChr16g0530971  81 SSHYERMQETLKKLKDSNNKLRREIRQRvLGEDLDGLDMNDLTILEQHMQDSLTVVRERKYHVIKTQTDTCRKRVKNLEQRNCNLRL 167
+                          6799**********************9638******************************************************985 PP
+
+>> HanXRQChr09g0267081  pacid=40307842 transcript=HanXRQChr09g0267081 locus=HanXRQChr09g0267081 ID=HanXRQChr09g0267081.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.2   7.5   9.7e-22   7.3e-19       4      92 ..      83     171 ..      80     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 69.2 bits;  conditional E-value: 9.7e-22
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +e++  e + e+++Lk+ei+ lq+ +R++   + ++++l+eL+ Le++Le ++ +iRs K+++++++i+ lk+ke +l+++nk L++++
+  HanXRQChr09g0267081  83 DEKQVLESKMEVSMLKNEIDVLQKGLRYMFQGGAGKMTLDELRILENNLEVWMYHIRSAKMDIMSQEIQLLKNKEGILKAANKCLQEQM 171
+                          556677899******************************************************************************98 PP
+
+>> HanXRQChr02g0045511  pacid=40340032 transcript=HanXRQChr02g0045511 locus=HanXRQChr02g0045511 ID=HanXRQChr02g0045511.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.6   8.8   1.5e-21   1.1e-18       6      89 ..      82     161 ..      76     165 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 68.6 bits;  conditional E-value: 1.5e-21
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLr 89 
+                           ++e+lq+e++++kke+e++q ++R+l+Ged+ sl+++eL   e+ Le++l++iR++K+++     + ++k+e+ leeenk+L 
+  HanXRQChr02g0045511  82 AKHENLQNEIDRIKKENESMQIELRHLKGEDITSLNYEELIGYEDALENGLTNIREKKDEIP----KIMRKREQVLEEENKHLM 161
+                          5799**********************************************************....99**************96 PP
+
+>> HanXRQChr10g0299591  pacid=40296751 transcript=HanXRQChr10g0299591 locus=HanXRQChr10g0299591 ID=HanXRQChr10g0299591.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.4  11.2   1.7e-21   1.3e-18       8      92 ..     128     212 ..     121     213 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 68.4 bits;  conditional E-value: 1.7e-21
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          q+e+++e++ Lk+ei +l++ qR ++G++l++l++keL++Le+qL  ++  +++rK+  lle+ie++k +e++ ++en+ L+k++
+  HanXRQChr10g0299591 128 QQEVYNEVEALKSEIMKLRKGQRLMMGKELEGLNYKELENLERQLHDGMLAVKNRKDMALLEEIEQIKLREQRTMKENEALKKEI 212
+                          6789******************************************************************************987 PP
+
+>> HanXRQChr04g0109981  pacid=40306892 transcript=HanXRQChr04g0109981 locus=HanXRQChr04g0109981 ID=HanXRQChr04g0109981.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.8   9.2   2.6e-21   1.9e-18      33      92 ..       1      60 [.       1      61 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 67.8 bits;  conditional E-value: 2.6e-21
+                K-box 33 lGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92
+                         +Gedl+slslkeLq+Leq+L++slk+iR r+nql++e+i+ l kk+kel++en+ L +k+
+  HanXRQChr04g0109981  1 MGEDLDSLSLKELQNLEQKLDASLKHIRLRRNQLMFESISALEKKDKELQNENNALLNKV 60
+                         8*******************************************************9998 PP
+
+>> HanXRQChr00c0029g0571181  pacid=40294749 transcript=HanXRQChr00c0029g0571181 locus=HanXRQChr00c0029g0571181 ID=HanXRQ
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.2  11.7   8.6e-21   6.5e-18       4      92 ..      86     174 ..      82     175 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 66.2 bits;  conditional E-value: 8.6e-21
+                     K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeL 88 
+                               e+ ++++ +qe+ +Lk++++ l++  R+++Ge+++sl+ +eL++Le+qL  slk+iR+ ++q l +++ e +k e++l e nk+L
+  HanXRQChr00c0029g0571181  86 EDLQEQSSYQEYMRLKERYDALKQLERNYYGEEIDSLTTNELESLERQLHCSLKQIRTIRTQSLIDKLYEQQKMEHQLYEYNKTL 170
+                               4557899****************************************************************************** PP
+
+                     K-box  89 rkkl 92 
+                               r +l
+  HanXRQChr00c0029g0571181 171 RLRL 174
+                               9765 PP
+
+>> HanXRQChr12g0375561  pacid=40318650 transcript=HanXRQChr12g0375561 locus=HanXRQChr12g0375561 ID=HanXRQChr12g0375561.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.4   5.0   3.1e-20   2.3e-17      14      77 ..       2      65 ..       1      68 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 64.4 bits;  conditional E-value: 3.1e-20
+                K-box 14 elakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkk 77
+                         e+akLk++++nl + +Rql+Ge+l ++ +++Lq Le++L  sl+ iR++K  l+++q  +l kk
+  HanXRQChr12g0375561  2 EVAKLKQQFKNLHEAHRQLMGEELCGMRVEDLQTLENKLTISLQGIRMKKGSLMHQQNINLYKK 65
+                         99******************************************************98888776 PP
+
+>> HanXRQChr15g0474011  pacid=40336193 transcript=HanXRQChr15g0474011 locus=HanXRQChr15g0474011 ID=HanXRQChr15g0474011.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.2   2.7   3.5e-20   2.6e-17       4      64 ..      82     142 ..      69     149 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 64.2 bits;  conditional E-value: 3.5e-20
+                K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKn 64 
+                          ++s+ + +q e+a Lk++++nl + +Rql+Ge+l +l ++eL++Le+qLe sl+ +R++K 
+  HanXRQChr15g0474011  82 STSDVKLWQMEVAILKQRLQNLHEAHRQLMGEELCGLGVEELHKLENQLEISLQGVRKKKV 142
+                          4556788****************************************************95 PP
+
+>> HanXRQChr09g0269421  pacid=40308208 transcript=HanXRQChr09g0269421 locus=HanXRQChr09g0269421 ID=HanXRQChr09g0269421.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.0   6.2   1.8e-19   1.3e-16       5      92 ..      81     168 ..      77     169 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 62.0 bits;  conditional E-value: 1.8e-19
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +s++e++q+el++Lk+ + nl+r++Rq+lG++l+++ ++eL +Le++ ++++  iR+rK +++++++e++kkk ++ ++  k+L +++
+  HanXRQChr09g0269421  81 NSHYEKMQEELRQLKDVNTNLRRQIRQRLGDCLENVGFEELLDLERESQEAVYIIRERKLKVISNKLETCKKKVRSAQDVYKKLMHEF 168
+                          5789*******************************************************************************99875 PP
+
+>> HanXRQChr15g0495861  pacid=40337814 transcript=HanXRQChr15g0495861 locus=HanXRQChr15g0495861 ID=HanXRQChr15g0495861.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.7   9.8     1e-19   7.8e-17      13      92 ..      93     172 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 62.7 bits;  conditional E-value: 1e-19
+                K-box  13 qelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                           ++a+L ke+ +   ++R+l Ge+l++ls++eL+qLe+ Le++l+++ ++K ++++++i++l++ke +l+ en +Lr++l
+  HanXRQChr15g0495861  93 TNYANLSKEVAERTLHLRRLRGEELQGLSIEELHQLEKSLEAGLSRVVAKKGEVIMNEINHLQEKEVNLMGENDKLRQEL 172
+                          6899*************************************************************************986 PP
+
+>> HanXRQChr01g0015681  pacid=40324228 transcript=HanXRQChr01g0015681 locus=HanXRQChr01g0015681 ID=HanXRQChr01g0015681.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.2  11.0     3e-19   2.2e-16       8      92 ..      84     168 ..      77     169 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 61.2 bits;  conditional E-value: 3e-19
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                            + q+el++L++e+ +l++++ +l+G++l++ s++ L+qLe+qL  +l  i+++K+ +l+e+ie  ++ke+el  en  Lr ++
+  HanXRQChr01g0015681  84 MSQEQAELEHLRNEVTRLRNENSRLMGNNLGGASVQQLHQLEKQLTDGLVLIKEKKDAMLFEEIERSNRKERELAYENDVLRGEM 168
+                          45689****************************************************************************9776 PP
+
+>> HanXRQChr13g0405061  pacid=40316483 transcript=HanXRQChr13g0405061 locus=HanXRQChr13g0405061 ID=HanXRQChr13g0405061.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.8  12.7     4e-19     3e-16      14      92 ..      94     172 ..      88     173 .. 0.97
+   2 ?   -0.7   0.0       6.2   4.6e+03      13      39 ..     170     196 ..     169     198 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 60.8 bits;  conditional E-value: 4e-19
+                K-box  14 elakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++akL ke+ +   ++R+l Ge+l  ls++eL+qLe+ Le++l ++ ++K ++++++i++l++ke +l++en +Lr+++
+  HanXRQChr13g0405061  94 NYAKLSKEVAERTLQLRRLRGEELHRLSIEELHQLEKSLEAGLGRVVAKKSEVIMKEINHLQEKEMQLMAENDRLRQEM 172
+                          799*************************************************************************985 PP
+
+  == domain 2  score: -0.7 bits;  conditional E-value: 6.2
+                K-box  13 qelakLkkeienlqrsqRqllGedlss 39 
+                          qe+ k+ +  +++ +++ +++Ged +s
+  HanXRQChr13g0405061 170 QEMLKVSNARKQIHTEMANVIGEDGQS 196
+                          788889999999999999999998765 PP
+
+>> HanXRQChr16g0501381  pacid=40300741 transcript=HanXRQChr16g0501381 locus=HanXRQChr16g0501381 ID=HanXRQChr16g0501381.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.1   9.3   1.4e-18     1e-15       5      92 ..      81     168 ..      77     169 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 59.1 bits;  conditional E-value: 1.4e-18
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +s++e++q+e+++Lk+ ++nl+r++Rq+lG++l++l ++ L +Le++ ++++  iR+rK +++ +++e+lkkk ++ ++  k+L +++
+  HanXRQChr16g0501381  81 NSHYEKMQEEMRQLKEVNKNLRRQIRQRLGDCLENLGFEQLLDLEKESQEAVYIIRERKLKVIGNKLETLKKKVRSAQDVYKKLMHEF 168
+                          5789*******************************************************************************99875 PP
+
+>> HanXRQChr16g0501741  pacid=40298929 transcript=HanXRQChr16g0501741 locus=HanXRQChr16g0501741 ID=HanXRQChr16g0501741.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.1   9.3   1.4e-18     1e-15       5      92 ..      81     168 ..      77     169 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 59.1 bits;  conditional E-value: 1.4e-18
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +s++e++q+e+++Lk+ ++nl+r++Rq+lG++l++l ++ L +Le++ ++++  iR+rK +++ +++e+lkkk ++ ++  k+L +++
+  HanXRQChr16g0501741  81 NSHYEKMQEEMRQLKEVNKNLRRQIRQRLGDCLENLGFEQLLDLEKESQEAVYIIRERKLKVIGNKLETLKKKVRSAQDVYKKLMHEF 168
+                          5789*******************************************************************************99875 PP
+
+>> HanXRQChr09g0270841  pacid=40308226 transcript=HanXRQChr09g0270841 locus=HanXRQChr09g0270841 ID=HanXRQChr09g0270841.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2  12.4   2.7e-18     2e-15       5      92 ..      83     173 ..      79     174 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 2.7e-18
+                K-box   5 eseqeelqqelak...LkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                          +++++e+q+el++   L ke+ +   ++Rq++Gedl++l+lk+L++Le  +e++l  + ++K + + e+i++lkkke +l een++L+++
+  HanXRQChr09g0270841  83 QQTSQEMQAELKRsaiLSKELAEKSSELRQMKGEDLQGLNLKDLNKLEGIIESGLAAVVKTKGERMWEEISTLKKKEAQLLEENARLKQQ 172
+                          4556778888875555************************************************************************99 PP
+
+                K-box  92 l 92 
+                          l
+  HanXRQChr09g0270841 173 L 173
+                          6 PP
+
+>> HanXRQChr05g0151331  pacid=40311508 transcript=HanXRQChr05g0151331 locus=HanXRQChr05g0151331 ID=HanXRQChr05g0151331.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.0   6.9   6.1e-18   4.6e-15       5      92 ..      81     168 ..      77     169 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 57.0 bits;  conditional E-value: 6.1e-18
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +s+++++q+el++ k+ ++nl++++Rq+lG++l++ls++eL +Le+  ++++  iR+rK +++ +++e+ kkk ++ ++  k+L +++
+  HanXRQChr05g0151331  81 NSHYQKMQDELRQQKEVNRNLRKQIRQRLGDCLEDLSFEELLALEKDSQEAVYVIRERKLKVIGNKVETSKKKVRSAQDVYKKLMHEF 168
+                          5789*******************************************************************************99875 PP
+
+>> HanXRQChr15g0484901  pacid=40337348 transcript=HanXRQChr15g0484901 locus=HanXRQChr15g0484901 ID=HanXRQChr15g0484901.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.3   8.5   4.3e-17   3.2e-14      12      92 ..      91     171 ..      80     172 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 54.3 bits;  conditional E-value: 4.3e-17
+                K-box  12 qqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++  +L kei++ ++++Rql G+dl++l+++eL++Le+ L+ +l ++ ++K++ + ++i +l+ k  +l+eenk L++++
+  HanXRQChr15g0484901  91 ENDDVRLSKEINDKNDELRQLSGQDLQGLTIDELEKLENLLQGGLDRVIKTKDEKIGNEIFNLQMKGAKLMEENKLLKEQM 171
+                          566679************************************************************************997 PP
+
+>> HanXRQChr16g0503081  pacid=40301709 transcript=HanXRQChr16g0503081 locus=HanXRQChr16g0503081 ID=HanXRQChr16g0503081.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.3  10.8   1.8e-16   1.3e-13       5      92 ..      85     172 ..      81     173 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 52.3 bits;  conditional E-value: 1.8e-16
+                K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +++ e  ++ +a L +e+ +  +++Rq+ Ged+++l+lkeL++Le  +e++l  + + K + +l+qi++lkkke +l ee++ L+++l
+  HanXRQChr16g0503081  85 DQKMEIACKRAAILSEELVEKTHELRQMNGEDIQGLDLKELNKLEAIIESGLAAVVKAKGERMLNQINTLKKKEAQLLEEKEFLKQQL 172
+                          4456778899999************************************************************************996 PP
+
+>> HanXRQChr02g0040221  pacid=40340248 transcript=HanXRQChr02g0040221 locus=HanXRQChr02g0040221 ID=HanXRQChr02g0040221.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.3   8.6   3.2e-15   2.4e-12       6      89 ..      82     157 ..      76     161 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 48.3 bits;  conditional E-value: 3.2e-15
+                K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLr 89 
+                           ++e+lq+e++++kke+e++q ++R    ed+ sl+++eL   e+ Le++l++iR++K+++     + ++k+e+ leeenk+L 
+  HanXRQChr02g0040221  82 AKHENLQNEIDRIKKENESMQIELR----EDITSLNYEELIGYEDALENGLTNIREKKDEIP----KIMRKREQVLEEENKHLM 157
+                          5799*********************....8********************************....99**************96 PP
+
+>> HanXRQChr05g0163381  pacid=40313358 transcript=HanXRQChr05g0163381 locus=HanXRQChr05g0163381 ID=HanXRQChr05g0163381.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9  13.0     9e-15   6.7e-12      13      92 ..     182     261 ..     170     262 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 9e-15
+                K-box  13 qelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++ +++ ke+ + +r++ ql Gedl +l+l+eLq Le  Le +l+++  +K++ ++++i++l++k  +l+eenk+L++++
+  HanXRQChr05g0163381 182 SDQTRMGKELLDKNRELSQLRGEDLHGLTLEELQRLETLLEGGLNRVIRTKDERISNEISTLQQKGFRLMEENKHLKQQM 261
+                          56678999999999***************************************************************986 PP
+
+>> HanXRQChr17g0538691  pacid=40328042 transcript=HanXRQChr17g0538691 locus=HanXRQChr17g0538691 ID=HanXRQChr17g0538691.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.5  12.4   2.4e-14   1.8e-11      23      92 ..     107     176 ..      86     177 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 45.5 bits;  conditional E-value: 2.4e-14
+                K-box  23 enlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          e lq+  R     + ++ls++++ qLeq+L+++l++iR rK+ql++e i++lk+ke++l ee +eL+k++
+  HanXRQChr17g0538691 107 ELLQTVDRLTEESNAEELSVNDMTQLEQELDAALTQIRLRKTQLMMEYISTLKEKENKLSEEIEELKKQV 176
+                          5666666666666789****************************************************97 PP
+
+>> HanXRQChr12g0375471  pacid=40318633 transcript=HanXRQChr12g0375471 locus=HanXRQChr12g0375471 ID=HanXRQChr12g0375471.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.0  11.6   1.5e-13   1.1e-10      35      92 ..     118     175 ..      94     176 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 43.0 bits;  conditional E-value: 1.5e-13
+                K-box  35 edlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          ++ ++ls++++ qLeq+L+ +l + R rK ql++e i++lk+ke +l+een++L+k++
+  HanXRQChr12g0375471 118 DNAEELSVNDMIQLEQELDCALMQTRLRKAQLMMEYISTLKEKESKLREENEKLEKQV 175
+                          45699***************************************************97 PP
+
+>> HanXRQChr10g0278101  pacid=40294942 transcript=HanXRQChr10g0278101 locus=HanXRQChr10g0278101 ID=HanXRQChr10g0278101.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.3   5.4   2.5e-13   1.8e-10      17      83 ..      41     107 ..      25     116 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 42.3 bits;  conditional E-value: 2.5e-13
+                K-box  17 kLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekelee 83 
+                          ++ ke+ + ++++ +l Gedl++l l+eLq Le  Le++l+++R +K++ +++ i+ l++k  +l+ 
+  HanXRQChr10g0278101  41 RMGKELFDKNQELSHLHGEDLQGLALEELQRLETLLERGLHRVRRTKDERFEKLIASLHQKLINLNS 107
+                          56677777889999**********************************************9888865 PP
+
+>> HanXRQChr17g0550551  pacid=40328841 transcript=HanXRQChr17g0550551 locus=HanXRQChr17g0550551 ID=HanXRQChr17g0550551.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.4  11.6   1.5e-10   1.1e-07       8      92 ..      85     169 ..      76     170 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 33.4 bits;  conditional E-value: 1.5e-10
+                K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                          +eel+ ++++++   e  + +qR+l   ++++ ++ eL qLe+q+e+ l+++R+ K++l+l  +++l++++k+l+++++ ++ k+
+  HanXRQChr17g0550551  85 REELTLQYRNVRTADELTEMTQRHLNEHKVQQADVSELFQLEKQIEANLQQVRTIKTKLMLGVVKNLQEEQKQLRQDKRLMEGKV 169
+                          56778889999999999***********************************************************999887775 PP
+
+>> HanXRQChr01g0003281  pacid=40323955 transcript=HanXRQChr01g0003281 locus=HanXRQChr01g0003281 ID=HanXRQChr01g0003281.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   0.8   6.1e-07   0.00045      27      63 ..       3      40 ..       1      53 [. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 6.1e-07
+                K-box 27 rsqR.qllGedlsslslkeLqqLeqqLekslkkiRsrK 63
+                         r++R +l+G++l++ s++ L+qLe+qL   l   +++K
+  HanXRQChr01g0003281  3 RNIRsRLMGNNLGGSSIQQLHQLEKQLTDDLVLNKEKK 40
+                         5555269********************98886655555 PP
+
+>> HanXRQChr15g0483111  pacid=40335754 transcript=HanXRQChr15g0483111 locus=HanXRQChr15g0483111 ID=HanXRQChr15g0483111.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   2.2   6.3e-06    0.0047       3      86 ..     116     199 ..     114     204 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 6.3e-06
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenk 86 
+                          s++s  eelqqe+ + k+++ ++++++R + G   +  +l e +  e+ Le++lk++R+rK+ l + + ++ +   +  ++ n+
+  HanXRQChr15g0483111 116 SGDSRLEELQQETVRCKSRMIEMEKQLRVFEGAPSEISTLGEAEYREKILEETLKHVRARKQVLEKYNSADAQSSSQAAMNVNN 199
+                          56677899************************99999999999999***************99888877777777777776665 PP
+
+>> HanXRQChr05g0150571  pacid=40312447 transcript=HanXRQChr05g0150571 locus=HanXRQChr05g0150571 ID=HanXRQChr05g0150571.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.1   2.3   8.7e-06    0.0065       3      66 ..     163     226 ..     161     240 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 18.1 bits;  conditional E-value: 8.7e-06
+                K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnql 66 
+                          s++s+ ee+qqe+ + k+++ ++++ +R + G+  +  +l e +  eq Le++l+++R rK+ l
+  HanXRQChr05g0150571 163 SGDSQLEEIQQEIVRCKSHMIEMEKRLRIFEGDPSEISTLSEAEYREQMLEETLRHVRLRKHVL 226
+                          6778999**************************9999999999999***************865 PP
+
+>> HanXRQChr03g0091451  pacid=40335256 transcript=HanXRQChr03g0091451 locus=HanXRQChr03g0091451 ID=HanXRQChr03g0091451.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.5   0.5   1.3e-05    0.0096       7      73 ..     114     180 ..     109     193 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 17.5 bits;  conditional E-value: 1.3e-05
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqiee 73 
+                          ++ee+ qe+++L+++++  ++++R +  +     sl + ++ e+ L k+l ++ +rK+ +l++q+  
+  HanXRQChr03g0091451 114 QSEEIHQEISTLQQQLHMAKEQLRMFDPDPTTFTSLYDYESYEKLLYKTLDRVTQRKEYMLSNQTPA 180
+                          6789**********************************************************99865 PP
+
+>> HanXRQChr08g0231091  pacid=40346557 transcript=HanXRQChr08g0231091 locus=HanXRQChr08g0231091 ID=HanXRQChr08g0231091.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.6   0.2   2.6e-05     0.019       9      31 ..      89     111 ..      87     115 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 16.6 bits;  conditional E-value: 2.6e-05
+                K-box   9 eelqqelakLkkeienlqrsqRq 31 
+                          +++qqe+akL++++ nlq+++R 
+  HanXRQChr08g0231091  89 KFYQQEAAKLRQQVANLQNQNRS 111
+                          579*******************7 PP
+
+>> HanXRQChr05g0156101  pacid=40313337 transcript=HanXRQChr05g0156101 locus=HanXRQChr05g0156101 ID=HanXRQChr05g0156101.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.8   0.6     9e-05     0.067       7      69 ..     184     245 ..     179     250 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 9e-05
+                K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllle 69 
+                          + e l++++ +L+++++++ + + +    d    +++ L+q+e+ L +sl +iR +K+++ ++
+  HanXRQChr05g0156101 184 SAEDLTNHAMMLRSQLDDMHKRLSYWSNPDK-IDNIEHLKQMEDSLRESLDRIRIHKDNFGQQ 245
+                          4567888888888888888888777665332.3489*********************987655 PP
+
+>> HanXRQChr15g0474301  pacid=40335577 transcript=HanXRQChr15g0474301 locus=HanXRQChr15g0474301 ID=HanXRQChr15g0474301.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   2.6   0.00071      0.53      31      84 ..     218     269 ..     189     277 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00071
+                K-box  31 qllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleee 84 
+                          q    dl++  l+ +qqLe++L  + k+ ++rK++ +  qie+ ++ ++ l + 
+  HanXRQChr15g0474301 218 QSCLSDLDPEALNYIQQLESELSIAKKELHARKQENM--QIEDARESDNDLLKY 269
+                          444567777778888**********************..*******99998775 PP
+
+>> HanXRQChr09g0276221  pacid=40309376 transcript=HanXRQChr09g0276221 locus=HanXRQChr09g0276221 ID=HanXRQChr09g0276221.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0      0.18   1.4e+02      39      66 ..      68      95 ..      63     110 .. 0.86
+   2 ?    6.6   0.3     0.033        24       6      31 ..     114     139 ..     106     141 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 4.2 bits;  conditional E-value: 0.18
+                K-box 39 slslkeLqqLeqqLekslkkiRsrKnql 66
+                         +l++  L +L +q ++s ++i ++K ++
+  HanXRQChr09g0276221 68 PLDFSKLDSLMHQFKSSSTSIGAKKVKI 95
+                         688999******************9887 PP
+
+  == domain 2  score: 6.6 bits;  conditional E-value: 0.033
+                K-box   6 seqeelqqelakLkkeienlqrsqRq 31 
+                          ++++++++e+++L+k++e   +  Rq
+  HanXRQChr09g0276221 114 RTYQNVKREYTTLRKKLEAYFQMSRQ 139
+                          57899************988777776 PP
+
+>> HanXRQChr16g0512151  pacid=40300283 transcript=HanXRQChr16g0512151 locus=HanXRQChr16g0512151 ID=HanXRQChr16g0512151.r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   3.0    0.0028       2.1      43      78 ..     187     222 ..     181     230 .. 0.83
+   2 ?    1.5   0.3       1.3   9.9e+02      13      61 ..     251     279 ..     240     289 .. 0.55
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.0028
+                K-box  43 keLqqLeqqLekslkkiRsrKnqllleqieelkkke 78 
+                           e+++Le+qL +s++    +K++++l qie+ + + 
+  HanXRQChr16g0512151 187 TEIKALERQLMQSIETCIGKKKKIILSQIEMERVQG 222
+                          699*************************99865543 PP
+
+  == domain 2  score: 1.5 bits;  conditional E-value: 1.3
+                K-box  13 qelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRs 61 
+                          q+++ +++e++ l++  +                    qL   + + R+
+  HanXRQChr16g0512151 251 QDIRGMESEVQALEELSK--------------------QLFLEIYELRQ 279
+                          444555555555555444....................44444444444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (93 nodes)
+Target sequences:                      52243  (18129608 residues searched)
+Passed MSV filter:                      3559  (0.068124); expected 1044.9 (0.02)
+Passed bias filter:                     1500  (0.028712); expected 1044.9 (0.02)
+Passed Vit filter:                       216  (0.00413453); expected 52.2 (0.001)
+Passed Fwd filter:                        71  (0.00135903); expected 0.5 (1e-05)
+Initial search space (Z):              52243  [actual number of targets]
+Domain search space  (domZ):              70  [number of targets reported over threshold]
+# CPU time: 0.34u 0.02s 00:00:00.36 Elapsed: 00:00:00.88
+# Mc/sec: 1910.67
+//
+[ok]

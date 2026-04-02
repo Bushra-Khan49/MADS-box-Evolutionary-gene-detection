@@ -1,0 +1,14 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/MASTER_MIKCc_FULL_ALIGNMENT.meg -m AUTO -bb 1000 -nt AUTO
+Seed:    710405 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Mar 29 17:43:40 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK/MASTER_MIKCc_FULL_ALIGNMENT.meg ... Nexus format detected
+ERROR: 
+ERROR: Error found at line 2, column 1 (file position 6):
+ERROR: Expecting #NEXUS to be the first token in the file, but found #mega instead

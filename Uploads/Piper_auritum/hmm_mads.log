@@ -1,0 +1,168 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00319.MADS.hmm
+# target sequence database:        NIPGR-Plants/Piper_auritum/MUNP-translated-protein.fa
+# per-dom hits tabular output:     NIPGR_WORK/Piper_auritum/Piper_auritum_MADS.domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SRF-TF  [M=48]
+Accession:   PF00319.23
+Description: SRF-type transcription factor (DNA-binding and dimerisation domain)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                            -----------
+    6.3e-28   95.8   0.1    1.2e-27   94.9   0.1    1.5  1  scaffold-MUNP-2004874-Piper_auritum  
+    6.3e-28   95.8   0.1    1.2e-27   94.9   0.1    1.5  1  scaffold-MUNP-2004875-Piper_auritum  
+    9.4e-27   92.0   0.3    1.6e-26   91.2   0.3    1.4  1  scaffold-MUNP-2001472-Piper_auritum  
+    1.5e-26   91.4   0.1    2.9e-26   90.4   0.1    1.5  1  scaffold-MUNP-2011435-Piper_auritum  
+    1.6e-26   91.2   0.3    2.6e-26   90.6   0.3    1.3  1  scaffold-MUNP-2001867-Piper_auritum  
+    1.2e-24   85.3   0.5    2.7e-24   84.1   0.1    1.8  2  scaffold-MUNP-2011315-Piper_auritum  
+    4.5e-22   77.0   0.0    5.5e-22   76.7   0.0    1.1  1  scaffold-MUNP-2007266-Piper_auritum  
+    5.6e-22   76.7   0.2    1.2e-21   75.6   0.2    1.6  1  scaffold-MUNP-2001384-Piper_auritum  
+  ------ inclusion threshold ------
+      0.033   13.4   0.0       0.22   10.8   0.0    2.4  2  scaffold-MUNP-2013360-Piper_auritum  
+
+
+Domain annotation for each sequence (and alignments):
+>> scaffold-MUNP-2004874-Piper_auritum  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.9   0.1   6.8e-31   1.2e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.9 bits;  conditional E-value: 6.8e-31
+                               SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                                         +Ien ++RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfsp gkly+f
+  scaffold-MUNP-2004874-Piper_auritum 10 RIENATSRQVTFSKRRNGLLKKAFELSVLCDAEVALIVFSPRGKLYEF 57
+                                         7*********************************************99 PP
+
+>> scaffold-MUNP-2004875-Piper_auritum  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.9   0.1   6.8e-31   1.2e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.9 bits;  conditional E-value: 6.8e-31
+                               SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                                         +Ien ++RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfsp gkly+f
+  scaffold-MUNP-2004875-Piper_auritum 10 RIENATSRQVTFSKRRNGLLKKAFELSVLCDAEVALIVFSPRGKLYEF 57
+                                         7*********************************************99 PP
+
+>> scaffold-MUNP-2001472-Piper_auritum  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.2   0.3   9.4e-30   1.6e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.2 bits;  conditional E-value: 9.4e-30
+                               SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                                         +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+aeva+ivfs +gkly++
+  scaffold-MUNP-2001472-Piper_auritum 10 RIENKINRQVTFSKRRTGLLKKAHEISVLCDAEVALIVFSTKGKLYEY 57
+                                         7*********************************************98 PP
+
+>> scaffold-MUNP-2011435-Piper_auritum  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.4   0.1   1.7e-29   2.9e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.4 bits;  conditional E-value: 1.7e-29
+                               SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                                         +Ien ++RqvtFsKRr+GL+KKA ELs+LC+ae a+ivfsp gkly+f
+  scaffold-MUNP-2011435-Piper_auritum 10 RIENATSRQVTFSKRRSGLLKKAFELSVLCDAELALIVFSPRGKLYEF 57
+                                         7*********************************************99 PP
+
+>> scaffold-MUNP-2001867-Piper_auritum  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.6   0.3   1.5e-29   2.6e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.6 bits;  conditional E-value: 1.5e-29
+                               SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                                         kI+n +aRqvtFsKRr GLfKKA+ELsiLC+aeva+i+fs tgkl+++
+  scaffold-MUNP-2001867-Piper_auritum 10 KIDNTTARQVTFSKRRRGLFKKAEELSILCDAEVALIIFSATGKLFEY 57
+                                         79********************************************98 PP
+
+>> scaffold-MUNP-2011315-Piper_auritum  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.1   0.1   1.6e-27   2.7e-24       2      48 .]      11      57 ..      10      57 .. 0.98
+   2 ?   -1.7   0.0         1   1.8e+03      22      28 ..     114     120 ..     114     126 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 84.1 bits;  conditional E-value: 1.6e-27
+                               SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                                         I+n+s+R+vtF+KRr GL+KKA+EL++LC++eva++vfs tgk+y+f
+  scaffold-MUNP-2011315-Piper_auritum 11 IDNPSSRKVTFCKRRRGLMKKAHELAVLCDVEVALLVFSTTGKFYHF 57
+                                         99*******************************************98 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 1
+                               SRF-TF  22 KAsELsi 28 
+                                          KA+EL i
+  scaffold-MUNP-2011315-Piper_auritum 114 KAQELNI 120
+                                          7888876 PP
+
+>> scaffold-MUNP-2007266-Piper_auritum  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.7   0.0   3.2e-25   5.5e-22       2      48 .]      11      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 76.7 bits;  conditional E-value: 3.2e-25
+                               SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                                         I++k+ R+vtFsKRr GL+KKA+EL++LCgae++v+ fs+tg +y f
+  scaffold-MUNP-2007266-Piper_auritum 11 IDDKNLRRVTFSKRRRGLLKKANELAVLCGAEIGVLAFSSTGMFYPF 57
+                                         99*****************************************9977 PP
+
+>> scaffold-MUNP-2001384-Piper_auritum  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.6   0.2   7.2e-25   1.2e-21       9      48 .]       1      40 [.       1      40 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 75.6 bits;  conditional E-value: 7.2e-25
+                               SRF-TF  9 qvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                                         qvtFsKRr GL+KKA+E+s+LC+aevavivfs +gkly++
+  scaffold-MUNP-2001384-Piper_auritum  1 QVTFSKRRMGLMKKAHEISVLCDAEVAVIVFSTKGKLYEY 40
+                                         8*************************************98 PP
+
+>> scaffold-MUNP-2013360-Piper_auritum  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.0   0.00013      0.22      18      34 ..      16      32 ..      15      38 .. 0.89
+   2 ?   -3.0   0.0       2.6   4.5e+03      21      25 ..     285     289 ..     282     293 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00013
+                               SRF-TF 18 GLfKKAsELsiLCgaev 34
+                                          L++KA+EL  LC++ +
+  scaffold-MUNP-2013360-Piper_auritum 16 HLVRKAEELRRLCDVRI 32
+                                         599************87 PP
+
+  == domain 2  score: -3.0 bits;  conditional E-value: 2.6
+                               SRF-TF  21 KKAsE 25 
+                                          KKAsE
+  scaffold-MUNP-2013360-Piper_auritum 285 KKASE 289
+                                          9**99 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (48 nodes)
+Target sequences:                      15384  (3527689 residues searched)
+Passed MSV filter:                       380  (0.024701); expected 307.7 (0.02)
+Passed bias filter:                      337  (0.0219059); expected 307.7 (0.02)
+Passed Vit filter:                        36  (0.00234009); expected 15.4 (0.001)
+Passed Fwd filter:                         9  (0.000585023); expected 0.2 (1e-05)
+Initial search space (Z):              15384  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 7519.73
+//
+[ok]

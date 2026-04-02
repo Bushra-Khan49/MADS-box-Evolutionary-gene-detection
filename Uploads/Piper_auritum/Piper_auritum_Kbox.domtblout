@@ -1,0 +1,32 @@
+#                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                       accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#               ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold-MUNP-2001472-Piper_auritum -            246 K-box                PF01486.22    93   2.2e-28   98.0   6.0   1   1   3.9e-31   4.9e-28   96.9   6.0    10    93    90   173    83   173 0.96 -
+scaffold-MUNP-2004874-Piper_auritum -            208 K-box                PF01486.22    93   1.9e-26   91.8  15.4   1   2      0.65   8.3e+02    0.0   0.0    16    36    60    80    54    85 0.82 -
+scaffold-MUNP-2004874-Piper_auritum -            208 K-box                PF01486.22    93   1.9e-26   91.8  15.4   2   2   2.2e-29   2.8e-26   91.3  13.2     5    92    86   172    81   173 0.95 -
+scaffold-MUNP-2004875-Piper_auritum -            208 K-box                PF01486.22    93   1.9e-26   91.8  15.4   1   2      0.65   8.3e+02    0.0   0.0    16    36    60    80    54    85 0.82 -
+scaffold-MUNP-2004875-Piper_auritum -            208 K-box                PF01486.22    93   1.9e-26   91.8  15.4   2   2   2.2e-29   2.8e-26   91.3  13.2     5    92    86   172    81   173 0.95 -
+scaffold-MUNP-2011435-Piper_auritum -            210 K-box                PF01486.22    93   2.4e-26   91.5  10.1   1   1     4e-29   5.1e-26   90.4  10.1     4    93    83   172    80   172 0.95 -
+scaffold-MUNP-2000060-Piper_auritum -            149 K-box                PF01486.22    93   2.7e-26   91.3   9.9   1   1   2.1e-29   2.7e-26   91.3   9.9     7    91    28   112    20   114 0.95 -
+scaffold-MUNP-2001384-Piper_auritum -            227 K-box                PF01486.22    93   3.1e-26   91.2   9.3   1   1   2.7e-29   3.5e-26   91.0   8.4     9    93    76   159    66   159 0.94 -
+scaffold-MUNP-2001867-Piper_auritum -            227 K-box                PF01486.22    93   1.9e-17   63.0  13.0   1   1     2e-20   2.6e-17   62.5  12.4     9    92    87   170    77   171 0.94 -
+scaffold-MUNP-2011315-Piper_auritum -            154 K-box                PF01486.22    93   0.00038   20.3   1.3   1   1   5.1e-07   0.00066   19.6   1.3    37    75   115   153    98   154 0.86 -
+scaffold-MUNP-2011122-Piper_auritum -            297 K-box                PF01486.22    93    0.0023   17.8   0.3   1   2      0.23     3e+02    1.4   0.2     5    30   127   152   121   157 0.78 -
+scaffold-MUNP-2011122-Piper_auritum -            297 K-box                PF01486.22    93    0.0023   17.8   0.3   2   2   1.8e-06    0.0023   17.8   0.3     7    65   171   229   166   233 0.92 -
+scaffold-MUNP-2057392-Piper_auritum -            240 K-box                PF01486.22    93    0.0047   16.8   9.9   1   3      0.11   1.4e+02    2.5   0.0    14    35    14    35     5    41 0.80 -
+scaffold-MUNP-2057392-Piper_auritum -            240 K-box                PF01486.22    93    0.0047   16.8   9.9   2   3     0.012        15    5.6   3.6    49    86    80   116    51   120 0.89 -
+scaffold-MUNP-2057392-Piper_auritum -            240 K-box                PF01486.22    93    0.0047   16.8   9.9   3   3   0.00023      0.29   11.1   0.1    11    59   183   231   174   237 0.79 -
+scaffold-MUNP-2058303-Piper_auritum -            280 K-box                PF01486.22    93      0.13   12.2   6.3   1   2    0.0053       6.9    6.7   0.3    33    66    76   109    46   114 0.66 -
+scaffold-MUNP-2058303-Piper_auritum -            280 K-box                PF01486.22    93      0.13   12.2   6.3   2   2     0.002       2.6    8.0   1.1    64    92   140   168   129   189 0.70 -
+scaffold-MUNP-2006622-Piper_auritum -            224 K-box                PF01486.22    93       2.1    8.3  10.0   1   2    0.0013       1.7    8.6   2.9    44    79     3    38     2    51 0.78 -
+scaffold-MUNP-2006622-Piper_auritum -            224 K-box                PF01486.22    93       2.1    8.3  10.0   2   2     0.043        55    3.8   0.7     8    35    61    88    55    98 0.75 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      PF01486.K_domain.hmm
+# Target file:     NIPGR-Plants/Piper_auritum/MUNP-translated-protein.fa
+# Option settings: hmmsearch --domtblout NIPGR_WORK/Piper_auritum/Piper_auritum_Kbox.domtblout PF01486.K_domain.hmm NIPGR-Plants/Piper_auritum/MUNP-translated-protein.fa 
+# Current dir:     /Users/bushrakhan/Desktop/NIPGR-data
+# Date:            Sat Mar 28 02:27:14 2026
+# [ok]

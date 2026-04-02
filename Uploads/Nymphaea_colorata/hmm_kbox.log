@@ -1,0 +1,403 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF01486.K_domain.hmm
+# target sequence database:        NIPGR-Plants/Nymphaea_colorata/Ncolorata_566_v1.2.protein_primaryTranscriptOnly.fa
+# per-dom hits tabular output:     NIPGR_WORK/Nymphaea_colorata/Nymphaea_colorata_Kbox.domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       K-box  [M=93]
+Accession:   PF01486.22
+Description: K-box region
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    5.4e-31  107.0  14.4      6e-31  106.9  13.3    1.6  2  Nycol.I01691.1.p  pacid=44522572 transcript=Nycol.I01691.1 lo
+      6e-30  103.6  10.6      6e-30  103.6  10.6    1.7  2  Nycol.H00296.1.p  pacid=44511784 transcript=Nycol.H00296.1 lo
+    1.5e-28   99.1  11.3    2.9e-28   98.2  11.3    1.5  1  Nycol.G00206.1.p  pacid=44508911 transcript=Nycol.G00206.1 lo
+    1.3e-27   96.2  11.1    2.8e-27   95.1  11.1    1.5  1  Nycol.I01697.1.p  pacid=44523192 transcript=Nycol.I01697.1 lo
+    1.7e-27   95.8  15.7    3.1e-27   94.9  15.7    1.4  1  Nycol.C02244.1.p  pacid=44527362 transcript=Nycol.C02244.1 lo
+    7.5e-27   93.7  14.1    1.5e-26   92.8  14.1    1.4  1  Nycol.A01976.1.p  pacid=44495905 transcript=Nycol.A01976.1 lo
+    1.2e-26   93.0   8.7    2.9e-26   91.9   8.7    1.6  1  Nycol.I00043.1.p  pacid=44521027 transcript=Nycol.I00043.1 lo
+    1.3e-25   89.8  10.6    3.3e-25   88.5  10.6    1.7  1  Nycol.A03014.1.p  pacid=44493779 transcript=Nycol.A03014.1 lo
+    6.6e-25   87.5  15.3    1.2e-24   86.7  15.3    1.4  1  Nycol.I00993.1.p  pacid=44522474 transcript=Nycol.I00993.1 lo
+      1e-24   86.9  10.2      1e-24   86.9  10.2    1.9  2  Nycol.H00297.1.p  pacid=44512206 transcript=Nycol.H00297.1 lo
+    1.3e-22   80.2  11.4    1.6e-22   79.9  10.5    1.7  1  Nycol.A00432.1.p  pacid=44495705 transcript=Nycol.A00432.1 lo
+    6.6e-21   74.7   6.0    1.3e-20   73.7   6.0    1.4  1  Nycol.G00190.1.p  pacid=44509476 transcript=Nycol.G00190.1 lo
+    3.1e-19   69.3  14.2    6.1e-19   68.4  14.2    1.5  1  Nycol.B01084.1.p  pacid=44507169 transcript=Nycol.B01084.1 lo
+    1.8e-18   66.9  13.2    3.1e-18   66.1  13.2    1.3  1  Nycol.M00404.1.p  pacid=44519398 transcript=Nycol.M00404.1 lo
+    4.6e-18   65.6   8.0    9.6e-18   64.5   8.0    1.5  1  Nycol.I01732.1.p  pacid=44523497 transcript=Nycol.I01732.1 lo
+    1.5e-17   63.9  13.9    2.3e-17   63.3  13.3    1.6  1  Nycol.H00870.1.p  pacid=44510703 transcript=Nycol.H00870.1 lo
+    3.5e-17   62.7  10.4    3.9e-17   62.6   9.5    1.6  1  Nycol.F00337.1.p  pacid=44491280 transcript=Nycol.F00337.1 lo
+    2.1e-16   60.2   1.8    3.1e-16   59.7   1.8    1.3  1  Nycol.A00172.1.p  pacid=44493401 transcript=Nycol.A00172.1 lo
+      3e-16   59.7   4.3    5.4e-16   58.9   4.3    1.3  1  Nycol.F00482.1.p  pacid=44491622 transcript=Nycol.F00482.1 lo
+    6.1e-15   55.6   2.8      1e-14   54.8   2.8    1.3  1  Nycol.F00306.1.p  pacid=44493022 transcript=Nycol.F00306.1 lo
+    2.8e-14   53.4   2.7    2.8e-14   53.4   2.7    1.5  2  Nycol.F00332.1.p  pacid=44492432 transcript=Nycol.F00332.1 lo
+    1.1e-13   51.5   9.0    3.1e-13   50.1   9.0    1.8  1  Nycol.F00318.1.p  pacid=44493023 transcript=Nycol.F00318.1 lo
+    4.3e-13   49.6   6.3    5.4e-13   49.3   6.3    1.1  1  Nycol.A03029.1.p  pacid=44499174 transcript=Nycol.A03029.1 lo
+    9.9e-12   45.3   0.1    1.2e-11   45.0   0.1    1.1  1  Nycol.M00275.1.p  pacid=44518935 transcript=Nycol.M00275.1 lo
+    4.7e-07   30.3   1.5    7.8e-07   29.6   1.4    1.4  1  Nycol.F00329.1.p  pacid=44490761 transcript=Nycol.F00329.1 lo
+  ------ inclusion threshold ------
+       0.08   13.5   0.6       0.12   13.0   0.6    1.2  1  Nycol.A03509.1.p  pacid=44498930 transcript=Nycol.A03509.1 lo
+
+
+Domain annotation for each sequence (and alignments):
+>> Nycol.I01691.1.p  pacid=44522572 transcript=Nycol.I01691.1 locus=Nycol.I01691 ID=Nycol.I01691.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.7   0.0        10   9.2e+03      44      55 ..       7      18 ..       6      27 .. 0.74
+   2 !  106.9  13.3   6.5e-34     6e-31       4      92 ..      82     170 ..      79     171 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 10
+             K-box 44 eLqqLeqqLeks 55
+                      eL+ +e+++++ 
+  Nycol.I01691.1.p  7 ELKRIENKINRQ 18
+                      788888877665 PP
+
+  == domain 2  score: 106.9 bits;  conditional E-value: 6.5e-34
+             K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                        ++e ++++qe+ kLk+++e lqrsqR+llGedl++ls+keLqqLe+qLe++l++ R+rK+q+++eq++el+kke++l + nk+L+++l
+  Nycol.I01691.1.p  82 AARETQNWYQEVVKLKARYEALQRSQRHLLGEDLGPLSVKELQQLERQLETALSQARQRKTQIMMEQMDELRKKERHLGDVNKQLKSQL 170
+                       566889********************************************************************************998 PP
+
+>> Nycol.H00296.1.p  pacid=44511784 transcript=Nycol.H00296.1 locus=Nycol.H00296 ID=Nycol.H00296.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.4   0.0       7.9   7.3e+03      44      56 ..       7      19 ..       6      30 .. 0.74
+   2 !  103.6  10.6   6.5e-33     6e-30       5      92 ..      85     172 ..      81     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: -2.4 bits;  conditional E-value: 7.9
+             K-box 44 eLqqLeqqLeksl 56
+                      eL+ +e+++++ +
+  Nycol.H00296.1.p  7 ELKRIENKINRQV 19
+                      7888888877655 PP
+
+  == domain 2  score: 103.6 bits;  conditional E-value: 6.5e-33
+             K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                       ++e ++ +qe+ kLk+++e lqrsqR+llGedl++l+ keL+qLeqqLe slk++Rs+K+q++l+q+++lk+ke++l+e+n+ L +kl
+  Nycol.H00296.1.p  85 SRETQSSYQEYLKLKSKVEALQRSQRNLLGEDLGPLNSKELEQLEQQLEVSLKHVRSTKTQFMLDQLSDLKRKEQMLQEANRALVRKL 172
+                       5678999*****************************************************************************9997 PP
+
+>> Nycol.G00206.1.p  pacid=44508911 transcript=Nycol.G00206.1 locus=Nycol.G00206 ID=Nycol.G00206.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.2  11.3   3.2e-31   2.9e-28       6      92 ..      85     171 ..      77     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 98.2 bits;  conditional E-value: 3.2e-31
+             K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                        + +++qqe +kL+++i+ lq+ +R+l+Ge+ls+ls+keL+qLe+++e+++++iRs+Kn+ll+++ie+++k+e el+ +n++Lr k+
+  Nycol.G00206.1.p  85 ANAQYYQQESTKLRQQIQILQNANRHLMGESLSNLSVKELKQLENKIERGITRIRSKKNELLFAEIEYMQKRELELQSDNMYLRAKV 171
+                       35689*******************************************************************************997 PP
+
+>> Nycol.I01697.1.p  pacid=44523192 transcript=Nycol.I01697.1 locus=Nycol.I01697 ID=Nycol.I01697.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.1  11.1     3e-30   2.8e-27       5      92 ..      84     171 ..      80     172 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 95.1 bits;  conditional E-value: 3e-30
+             K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                       e++ +++++e+a++ k++e+l+ ++R+l+Ge+l+s+s++eLq++e qLe+sl++iR+rK +l+leqie+lk+k++ l een+ Lr+k+
+  Nycol.I01697.1.p  84 ETSVQQWRHEAANMAKKVEQLEITKRRLMGEGLGSCSMEELQEIEGQLERSLNNIRERKVHLFLEQIEKLKEKQRALSEENALLREKC 171
+                       456789********************************************************************************98 PP
+
+>> Nycol.C02244.1.p  pacid=44527362 transcript=Nycol.C02244.1 locus=Nycol.C02244 ID=Nycol.C02244.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.9  15.7   3.4e-30   3.1e-27       6      92 ..      84     170 ..      74     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 94.9 bits;  conditional E-value: 3.4e-30
+             K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                        e   +q+e+a+Lk+++ +lq+++Rql+Ge+ls+l++k+Lq+Le qLe+sl+++R +K+ql++++ieel++k + +++en+eL +k+
+  Nycol.C02244.1.p  84 AETMLWQREAANLKQQLMSLQENHRQLMGEELSGLNIKDLQNLEIQLEMSLREVRRKKDQLFTDEIEELNRKGQLIHQENMELYRKV 170
+                       35567*******************************************************************************997 PP
+
+>> Nycol.A01976.1.p  pacid=44495905 transcript=Nycol.A01976.1 locus=Nycol.A01976 ID=Nycol.A01976.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.8  14.1   1.6e-29   1.5e-26       5      91 ..      82     168 ..      78     169 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 92.8 bits;  conditional E-value: 1.6e-29
+             K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                        +++++++ e++k+k+e+++lq+++R+l+Gedl +l++++L++LeqqLe s+ ++R+rKnql+ +q+++l++ke+ lee+n+eL++ 
+  Nycol.A01976.1.p  82 YDDKQQIYCEMTKMKNENDKLQATMRHLTGEDLTTLTMNDLHHLEQQLEVSVDRVRARKNQLINQQLDNLRRKERLLEEHNNELSRA 168
+                       456788******************************************************************************975 PP
+
+>> Nycol.I00043.1.p  pacid=44521027 transcript=Nycol.I00043.1 locus=Nycol.I00043 ID=Nycol.I00043.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.9   8.7   3.1e-29   2.9e-26       5      92 ..      84     171 ..      80     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 91.9 bits;  conditional E-value: 3.1e-29
+             K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                       e++ +++q+e+ kL+++i+++q+ +Rq+lGe++s++s+++L++Le++Leks+ +iR++Kn+ll  +i++++kk++ l++en+ Lr k+
+  Nycol.I00043.1.p  84 ETNAQYYQHEAHKLRQQINKIQQDNRQMLGEGVSEMSIRDLRSLENKLEKSICRIRNKKNDLLNSEIQYMQKKNEDLHNENAFLRAKV 171
+                       445789*******************************************************************************996 PP
+
+>> Nycol.A03014.1.p  pacid=44493779 transcript=Nycol.A03014.1 locus=Nycol.A03014 ID=Nycol.A03014.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.5  10.6   3.5e-28   3.3e-25       6      92 ..      84     170 ..      79     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 88.5 bits;  conditional E-value: 3.5e-28
+             K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                        + +++q+e  kL+++i+++q+ +Rq+lGe++s++s ++L++Le++Le+s++kiRs+Kn+ll ++i+++kk++  l++en +Lr ++
+  Nycol.A03014.1.p  84 ANAQYYQHESHKLRQQISKIQQDNRQMLGEGISEMSHRDLKNLESKLERSISKIRSKKNDLLNAEIQYMKKRDDDLQKENIYLRARI 170
+                       44689*******************************************************************************987 PP
+
+>> Nycol.I00993.1.p  pacid=44522474 transcript=Nycol.I00993.1 locus=Nycol.I00993 ID=Nycol.I00993.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.7  15.3   1.3e-27   1.2e-24       7      92 ..      85     171 ..      74     172 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 86.7 bits;  conditional E-value: 1.3e-27
+             K-box   7 eqeelqqelakLkkeienlqrsq.RqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                       e   +q+e+a+L+++++nlq++q Rql+Ge+ls+l++k+Lq+Le+qLe sl+++R rK+qll+++ieel++k + +++en+eL kk+
+  Nycol.I00993.1.p  85 EAMLWQREAASLTQQLRNLQEKQsRQLKGEELSGLNVKDLQDLENQLEVSLREVRRRKDQLLTDEIEELNRKGQLMHQENMELYKKV 171
+                       4556***************97544*************************************************************97 PP
+
+>> Nycol.H00297.1.p  pacid=44512206 transcript=Nycol.H00297.1 locus=Nycol.H00297 ID=Nycol.H00297.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.9  10.2   1.1e-27     1e-24       6      93 .]      86     177 ..      81     177 .. 0.93
+   2 ?   -2.0   0.1       5.9   5.4e+03      48      78 ..     206     236 ..     203     249 .. 0.53
+
+  Alignments for each domain:
+  == domain 1  score: 86.9 bits;  conditional E-value: 1.1e-27
+             K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkk....ekeleeenkeLrkkle 93 
+                       ++qe +  e++kL++++e lq++qRq++Ge+l++ls+keL+qLe qL++slk+iR rK+qlll++i el+kk      +l+++n+ L +k++
+  Nycol.H00297.1.p  86 DSQEGWPVEYKKLRSRFELLQKTQRQYMGEELEPLSIKELHQLELQLDSSLKRIRLRKTQLLLDSITELRKKvsnqAMSLQQQNEDLARKVQ 177
+                       56889******************************************************************96666678**********985 PP
+
+  == domain 2  score: -2.0 bits;  conditional E-value: 5.9
+             K-box  48 LeqqLekslkkiRsrKnqllleqieelkkke 78 
+                       L + L ++ + iR+   +  + +++e  ++e
+  Nycol.H00297.1.p 206 LPSSLSNGRHAIRNGEAEEEMVEMAETVEEE 236
+                       5566666666777655444444444433333 PP
+
+>> Nycol.A00432.1.p  pacid=44495705 transcript=Nycol.A00432.1 locus=Nycol.A00432 ID=Nycol.A00432.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.9  10.5   1.7e-25   1.6e-22       7      90 ..      83     166 ..      73     169 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 79.9 bits;  conditional E-value: 1.7e-25
+             K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrk 90 
+                        +e+l+ el++++ke+en+q ++R+l+Gedlssls+ eL++Le+ L+ +  ++R+++++ l + ie l+k+e++leeen++L+ 
+  Nycol.A00432.1.p  83 RHEYLNTELDRIRKENENMQIELRHLMGEDLSSLSIVELRNLEDSLQFGYDHVRMKQTECLNNDIEILRKNERMLEEENRQLKY 166
+                       6899******************************************************************************86 PP
+
+>> Nycol.G00190.1.p  pacid=44509476 transcript=Nycol.G00190.1 locus=Nycol.G00190 ID=Nycol.G00190.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.7   6.0   1.4e-23   1.3e-20       8      92 ..      89     173 ..      83     174 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 73.7 bits;  conditional E-value: 1.4e-23
+             K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                       ++e q+++a+ k++i+ lq+ + +++Ge++++++l+eLq+Le++L+ ++ ++Rs K++++l++i+ l++ke++l++ n+ Lr+k+
+  Nycol.G00190.1.p  89 NQEGQRDIAMTKQQIQLLQKGLVYMMGEGMGNMTLEELQSLEKHLQLWICHVRSMKDEVMLQEIQVLRNKENILKATNEVLREKI 173
+                       67799******************************************************************************97 PP
+
+>> Nycol.B01084.1.p  pacid=44507169 transcript=Nycol.B01084.1 locus=Nycol.B01084 ID=Nycol.B01084.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.4  14.2   6.6e-22   6.1e-19       4      92 ..      82     170 ..      77     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 68.4 bits;  conditional E-value: 6.6e-22
+             K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                       + +  e++++e+++L+k  ++l++ qR+l Gedl +l +keL++Le+qL+ + +++RsrK +++le+++ lk k++ l +en  L+ +l
+  Nycol.B01084.1.p  82 QVRRMEYWKAEMQHLEKSSKSLEEAQRHLNGEDLLPLRMKELKKLERQLKIGAERVRSRKRKMILEHVNVLKTKQRALLDENGLLQTRL 170
+                       4557899******************************************************************************9875 PP
+
+>> Nycol.M00404.1.p  pacid=44519398 transcript=Nycol.M00404.1 locus=Nycol.M00404 ID=Nycol.M00404.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.1  13.2   3.4e-21   3.1e-18       7      93 .]      83     169 ..      78     169 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 66.1 bits;  conditional E-value: 3.4e-21
+             K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                       e+e++ +e++ Lk+ei++l+  + q++G++l +ls+keLq+Le qL ++l  ++ +K+qll+eq+e+++ kek+ ++en++L+k+++
+  Nycol.M00404.1.p  83 ENERYAAEVNILKEEIKRLRLANMQMMGKELTNLSFKELQSLEYQLHEGLLCVKGKKEQLLQEQLEQYQLKEKRARRENETLQKQVQ 169
+                       67899*******************************************************************************985 PP
+
+>> Nycol.I01732.1.p  pacid=44523497 transcript=Nycol.I01732.1 locus=Nycol.I01732 ID=Nycol.I01732.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.5   8.0     1e-20   9.6e-18       5      82 ..      81     158 ..      76     172 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 64.5 bits;  conditional E-value: 1e-20
+             K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekele 82 
+                       +s++e++q+e +kLk+++e+l++s+Rq++Gedl++l+  eL  Leq+L ++lkkiR + ++ ++ qi++ +kk +   
+  Nycol.I01732.1.p  81 DSHYESMQKEFNKLKEKNERLRKSIRQRIGEDLDELNHSELCGLEQNLSEALKKIRLTLENKIKRQIDTSRKKIRLAD 158
+                       6799*********************************************************************88765 PP
+
+>> Nycol.H00870.1.p  pacid=44510703 transcript=Nycol.H00870.1 locus=Nycol.H00870 ID=Nycol.H00870.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.3  13.3   2.5e-20   2.3e-17       9      92 ..      88     171 ..      80     172 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 63.3 bits;  conditional E-value: 2.5e-20
+             K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                       +  +++l+++ k++ +  + +Rq+ Ge+l++ls++eL qLe+ Le++l+++ s+K + l+ +i+el++ke +l+een++Lr+++
+  Nycol.H00870.1.p  88 HLENSNLSTVSKQVAEASHLLRQMRGEELQGLSIDELIQLEKTLENGLSRVLSQKSDRLMHEIDELQRKEGQLMEENSRLRQQI 171
+                       4457889999************************************************************************98 PP
+
+>> Nycol.F00337.1.p  pacid=44491280 transcript=Nycol.F00337.1 locus=Nycol.F00337 ID=Nycol.F00337.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.6   9.5   4.2e-20   3.9e-17       7      81 ..      75     149 ..      64     155 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 62.6 bits;  conditional E-value: 4.2e-20
+             K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekel 81 
+                       + +++++e++++k+e+++lq+++Rql+Gedl +l+  +L++L++qLe sl ++Rsr  +ll+e+++e++++ + +
+  Nycol.F00337.1.p  75 HCQQIYREMTRMKNENDKLQATIRQLTGEDLTTLTKTDLKNLQKQLEVSLDRVRSREIELLQEELREVRRQWRCI 149
+                       6688*****************************************************************997655 PP
+
+>> Nycol.A00172.1.p  pacid=44493401 transcript=Nycol.A00172.1 locus=Nycol.A00172 ID=Nycol.A00172.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.7   1.8   3.4e-19   3.1e-16      11      92 ..      90     171 ..      80     172 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.7 bits;  conditional E-value: 3.4e-19
+             K-box  11 lqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                        +q+++++++ei+ lq+ + ++ G +  +++l+eL+ Le++Le ++ +iR+ Kn++++++ie lk+ke  l++ +  L+ kl
+  Nycol.A00172.1.p  90 SEQQISMMNQEIQLLQKGLGYMFGGGTANMTLDELHLLERHLELWMCQIRTAKNDIMFQEIELLKNKEDVLKATHGFLQGKL 171
+                       6799***********************************************************************9999886 PP
+
+>> Nycol.F00482.1.p  pacid=44491622 transcript=Nycol.F00482.1 locus=Nycol.F00482 ID=Nycol.F00482.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.9   4.3   5.9e-19   5.4e-16       7      67 ..     108     168 ..     101     178 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 58.9 bits;  conditional E-value: 5.9e-19
+             K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqll 67 
+                       ++ ++++e+a+Lk+e e l +s+R+l+Gedl++ls+++L+qLeqq+e++++++Rs K+   
+  Nycol.F00482.1.p 108 HEDQMTREMASLKNEREMLHASIRHLMGEDLETLSINNLNQLEQQIEAGMHRVRSWKEVSA 168
+                       4567***************************************************998655 PP
+
+>> Nycol.F00306.1.p  pacid=44493022 transcript=Nycol.F00306.1 locus=Nycol.F00306 ID=Nycol.F00306.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   2.8   1.1e-17     1e-14       6      62 ..      75     131 ..      70     133 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 1.1e-17
+             K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsr 62 
+                        + ++++ e++k+k+e+++l++++R+l+ edl +l++ +L++L++qLe+sl ++Rsr
+  Nycol.F00306.1.p  75 YDDKQIYCEMTKMKNENDKLRETMRHLTAEDLTTLTMTDLKHLDKQLEASLDRVRSR 131
+                       45678**************************************************98 PP
+
+>> Nycol.F00332.1.p  pacid=44492432 transcript=Nycol.F00332.1 locus=Nycol.F00332 ID=Nycol.F00332.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.0   0.1       6.1   5.6e+03      55      77 ..      10      32 ..       8      39 .. 0.59
+   2 !   53.4   2.7     3e-17   2.8e-14      11      63 ..      49     101 ..      46     103 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: -2.0 bits;  conditional E-value: 6.1
+             K-box 55 slkkiRsrKnqllleqieelkkk 77
+                      s+++i +r ++   ++i+e+  k
+  Nycol.F00332.1.p 10 SMRQIIDRFKEASGTRIQEYDDK 32
+                      55666666666666666666555 PP
+
+  == domain 2  score: 53.4 bits;  conditional E-value: 3e-17
+             K-box  11 lqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrK 63 
+                        ++e++k+k+e+++lq+++Rql+Ge+l +l+  +L++L++qLe sl ++Rsr 
+  Nycol.F00332.1.p  49 TYREMTKIKNENDKLQATMRQLTGEGLTTLTKTDLKHLQKQLEVSLDRVRSRE 101
+                       689************************************************95 PP
+
+>> Nycol.F00318.1.p  pacid=44493023 transcript=Nycol.F00318.1 locus=Nycol.F00318 ID=Nycol.F00318.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   9.0   3.3e-16   3.1e-13       7      69 ..      75     137 ..      65     172 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 3.3e-16
+             K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllle 69 
+                       + +++++e++++k+e+++lq+++Rql+Gedl +l+  ++++L+++Le sl ++Rsr  +ll+e
+  Nycol.F00318.1.p  75 HCQQIYREMTRMKNENDKLQATIRQLTGEDLTTLTKTDMKNLQKRLEVSLDRVRSREIELLQE 137
+                       6688****************************************************9999865 PP
+
+>> Nycol.A03029.1.p  pacid=44499174 transcript=Nycol.A03029.1 locus=Nycol.A03029 ID=Nycol.A03029.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.3   6.3   5.8e-16   5.4e-13      15      91 ..      24     100 ..       9     102 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 49.3 bits;  conditional E-value: 5.8e-16
+             K-box  15 lakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkk 91 
+                       + k+k+  e+lq++++ + Ge+ + +sl  L  Leq+Le+++ ++R++K+++++++ie+lk+ e+   +e++e+ ++
+  Nycol.A03029.1.p  24 VVKVKRISEQLQKNIKSIDGEEGNCCSLSMLDYLEQNLEATIAHVRNQKEKMMQQEIEYLKNMERFRLQERREIFEE 100
+                       56899999*********************************************************999888877655 PP
+
+>> Nycol.M00275.1.p  pacid=44518935 transcript=Nycol.M00275.1 locus=Nycol.M00275 ID=Nycol.M00275.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.0   0.1   1.3e-14   1.2e-11      16      64 ..       2      50 ..       1      58 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 45.0 bits;  conditional E-value: 1.3e-14
+             K-box 16 akLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKn 64
+                      ++L++ +e  q+s+R+++Gedl+ ls+++L q eqq+e++++++Rs K 
+  Nycol.M00275.1.p  2 SSLNNDMEMQQTSIRYFMGEDLEMLSMNNLDQFEQQIEAAMHRVRSWKA 50
+                      68999*****************************************885 PP
+
+>> Nycol.F00329.1.p  pacid=44490761 transcript=Nycol.F00329.1 locus=Nycol.F00329 ID=Nycol.F00329.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   1.4   8.4e-10   7.8e-07       5      41 ..      73     109 ..      65     111 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 29.6 bits;  conditional E-value: 8.4e-10
+             K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlssls 41 
+                       +++ +++++e++k+k+e+++l++++Rql+Gedl +l+
+  Nycol.F00329.1.p  73 TDHCQQIYREMTKMKNENNKLRATMRQLTGEDLTTLT 109
+                       447789***************************9986 PP
+
+>> Nycol.A03509.1.p  pacid=44498930 transcript=Nycol.A03509.1 locus=Nycol.A03509 ID=Nycol.A03509.1.v1.2 annot-version=v1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.6   0.00013      0.12      43      78 ..      31      66 ..      10      70 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00013
+             K-box 43 keLqqLeqqLekslkkiRsrKnqllleqieelkkke 78
+                       +L++  ++L+ sl++i s  +++l e+i+++kk++
+  Nycol.A03509.1.p 31 IDLRKRSEKLNISLNHIQSNSEHILIEKIHDCKKNK 66
+                      57888899*************************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (93 nodes)
+Target sequences:                      24059  (9801595 residues searched)
+Passed MSV filter:                      1722  (0.071574); expected 481.2 (0.02)
+Passed bias filter:                      718  (0.0298433); expected 481.2 (0.02)
+Passed Vit filter:                        95  (0.00394863); expected 24.1 (0.001)
+Passed Fwd filter:                        27  (0.00112224); expected 0.2 (1e-05)
+Initial search space (Z):              24059  [actual number of targets]
+Domain search space  (domZ):              26  [number of targets reported over threshold]
+# CPU time: 0.17u 0.01s 00:00:00.18 Elapsed: 00:00:00.42
+# Mc/sec: 2136.69
+//
+[ok]

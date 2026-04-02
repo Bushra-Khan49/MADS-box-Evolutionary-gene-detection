@@ -1,0 +1,863 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF01486.K_domain.hmm
+# target sequence database:        NIPGR-Plants/Nelumbo_nucifera/protein.faa
+# per-dom hits tabular output:     NIPGR_WORK/Nelumbo_nucifera/Nelumbo_nucifera_Kbox.domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       K-box  [M=93]
+Accession:   PF01486.22
+Description: K-box region
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+      2e-31  109.0  13.8      2e-31  109.0  13.8    1.5  1  XP_010255596.1  PREDICTED: MADS-box transcription factor 6 [N
+    6.1e-31  107.5  13.6    1.8e-30  106.0  13.6    1.8  1  XP_010257957.1  PREDICTED: truncated transcription factor CAU
+    1.5e-30  106.3  15.6    1.5e-30  106.3  15.6    1.8  1  XP_010260844.1  PREDICTED: truncated transcription factor CAU
+    2.1e-30  105.7  15.7    3.1e-30  105.2  15.7    1.2  1  XP_019053923.1  PREDICTED: developmental protein SEPALLATA 1 
+    2.4e-30  105.6  14.6    2.4e-30  105.6  14.6    1.7  1  XP_010257958.1  PREDICTED: developmental protein SEPALLATA 1 
+    2.9e-30  105.3  11.8    2.9e-30  105.3  11.8    1.6  1  XP_010272608.1  PREDICTED: MADS-box transcription factor 6-li
+    4.7e-30  104.7  15.7    4.7e-30  104.7  15.7    1.6  1  XP_010260833.1  PREDICTED: MADS-box protein CMB1 isoform X1 [
+    4.7e-30  104.7  15.7    4.7e-30  104.7  15.7    1.6  1  XP_019053922.1  PREDICTED: MADS-box protein CMB1 isoform X1 [
+    1.3e-29  103.2   9.1    3.1e-29  102.0   9.1    1.6  1  XP_010272685.1  PREDICTED: floral homeotic protein AGAMOUS-li
+    1.5e-29  103.0  12.8    1.5e-29  103.0  12.8    1.7  1  XP_010254617.1  PREDICTED: MADS-box transcription factor 23 i
+    2.2e-29  102.5  13.7    2.2e-29  102.5  13.7    1.9  1  XP_010254616.1  PREDICTED: MADS-box transcription factor 23 i
+    2.2e-29  102.5  13.7    2.2e-29  102.5  13.7    1.9  1  XP_010254615.1  PREDICTED: MADS-box transcription factor 23 i
+    2.5e-29  102.3   7.4    5.3e-29  101.3   7.4    1.5  1  XP_010273432.1  PREDICTED: floral homeotic protein AGAMOUS is
+    2.5e-29  102.3   7.4    5.3e-29  101.3   7.4    1.5  1  XP_010273433.1  PREDICTED: floral homeotic protein AGAMOUS is
+    2.7e-29  102.2  14.2    2.7e-29  102.2  14.2    2.2  2  XP_010244699.1  PREDICTED: MADS-box transcription factor 23-l
+    2.7e-29  102.2  14.2    2.7e-29  102.2  14.2    2.2  2  XP_010244698.1  PREDICTED: MADS-box transcription factor 23-l
+    2.7e-29  102.2  14.2    2.7e-29  102.2  14.2    2.2  2  XP_019051694.1  PREDICTED: MADS-box transcription factor 23-l
+    4.3e-29  101.6  16.2    7.1e-29  100.9  15.5    1.7  1  XP_010244700.1  PREDICTED: MADS-box transcription factor 23-l
+    3.9e-27   95.3  11.0    3.9e-27   95.3  11.0    1.6  1  XP_010250667.1  PREDICTED: agamous-like MADS-box protein AGL9
+    7.9e-27   94.3  14.5    1.1e-26   93.9  13.6    1.7  1  XP_010272601.1  PREDICTED: MADS-box protein SOC1-like [Nelumb
+    1.8e-26   93.2  11.1    4.6e-26   91.8  11.1    1.8  1  XP_010275495.1  PREDICTED: MADS-box protein AeAP3-2-like [Nel
+      2e-26   93.0  11.7    4.4e-26   91.9  11.3    1.8  1  XP_019053529.1  PREDICTED: MADS-box protein AeAP3-2-like [Nel
+    4.2e-26   92.0  14.3    6.2e-26   91.4  13.7    1.6  1  XP_010255589.1  PREDICTED: MADS-box protein SOC1 [Nelumbo nuc
+    4.2e-26   92.0  14.3    6.2e-26   91.4  13.7    1.6  1  XP_010255590.1  PREDICTED: MADS-box protein SOC1 [Nelumbo nuc
+    2.5e-24   86.3  10.8    4.4e-24   85.5  10.8    1.3  1  XP_010249057.1  PREDICTED: truncated transcription factor CAU
+    2.6e-24   86.3  10.8    4.4e-24   85.5  10.8    1.3  1  XP_010249055.1  PREDICTED: truncated transcription factor CAU
+    1.5e-23   83.8  10.6    2.2e-23   83.3  10.6    1.2  1  XP_019054088.1  PREDICTED: floral homeotic protein DEFICIENS 
+    2.1e-23   83.3  10.6    3.4e-23   82.7  10.6    1.2  1  XP_010263856.1  PREDICTED: floral homeotic protein DEFICIENS 
+    6.2e-23   81.8   9.7      1e-22   81.1   9.7    1.3  1  XP_019055004.1  PREDICTED: floral homeotic protein DEFICIENS-
+    1.3e-22   80.8  10.4    2.1e-22   80.1  10.4    1.3  1  XP_010271509.1  PREDICTED: floral homeotic protein DEFICIENS-
+    3.7e-22   79.3   9.9    6.4e-22   78.6   9.9    1.3  1  XP_010249056.1  PREDICTED: truncated transcription factor CAU
+    2.9e-20   73.2  12.4    4.8e-20   72.6  12.4    1.3  1  XP_010240899.1  PREDICTED: floral homeotic protein DEFICIENS-
+    5.8e-20   72.3   0.8    1.1e-19   71.5   0.8    1.4  1  XP_010245525.1  PREDICTED: agamous-like MADS-box protein AGL1
+    1.5e-19   71.0   4.0    2.7e-19   70.2   4.0    1.4  1  XP_010269077.1  PREDICTED: floral homeotic protein PMADS 2 [N
+    2.4e-18   67.1  16.6    3.8e-18   66.5  16.6    1.3  1  XP_010279518.1  PREDICTED: agamous-like MADS-box protein AGL1
+    3.3e-18   66.7  16.6    5.9e-18   65.9  16.6    1.4  1  XP_010279516.1  PREDICTED: MADS-box transcription factor 23-l
+    3.3e-18   66.7  16.6    5.9e-18   65.9  16.6    1.4  1  XP_019056050.1  PREDICTED: MADS-box transcription factor 23-l
+    1.1e-17   65.0  16.7    2.2e-17   64.0  16.7    1.5  1  XP_010269745.1  PREDICTED: agamous-like MADS-box protein AGL1
+    3.2e-17   63.5  15.8    3.2e-17   63.5  15.8    1.9  2  XP_010277489.1  PREDICTED: MADS-box protein JOINTLESS-like is
+      5e-17   62.9  16.9      5e-17   62.9  16.9    1.9  1  XP_010277487.1  PREDICTED: MADS-box protein SVP-like isoform 
+      5e-17   62.9  16.9      5e-17   62.9  16.9    1.9  1  XP_010277488.1  PREDICTED: MADS-box protein SVP-like isoform 
+    5.3e-17   62.8   7.6    7.4e-17   62.3   7.6    1.2  1  XP_019051519.1  PREDICTED: agamous-like MADS-box protein AGL9
+    1.4e-16   61.4  16.1    1.4e-16   61.4  16.1    1.8  2  XP_010254524.1  PREDICTED: MADS-box protein SVP isoform X1 [N
+      2e-16   60.9  16.0      2e-16   60.9  16.0    1.8  2  XP_010254525.1  PREDICTED: MADS-box protein SVP isoform X2 [N
+    5.9e-16   59.5  10.9    1.1e-15   58.6  10.9    1.4  1  XP_019056051.1  PREDICTED: MADS-box transcription factor 23-l
+    2.9e-05   25.2   3.5    7.1e-05   23.9   3.5    1.5  1  XP_010269101.1  PREDICTED: agamous-like MADS-box protein AGL1
+  ------ inclusion threshold ------
+      0.076   14.2   0.2       0.14   13.4   0.2    1.3  1  XP_010274370.1  PREDICTED: agamous-like MADS-box protein AGL1
+       0.34   12.1   5.2       0.53   11.5   2.7    2.4  2  XP_010257804.1  PREDICTED: agamous-like MADS-box protein AGL6
+       0.39   11.9   4.8       0.56   11.4   2.5    2.3  2  XP_010257800.1  PREDICTED: agamous-like MADS-box protein AGL6
+       0.45   11.7   8.0       0.98   10.7   5.4    2.6  2  XP_010258314.1  PREDICTED: agamous-like MADS-box protein AGL6
+       0.46   11.7   8.2        1.1   10.5   5.5    2.6  1  XP_010258315.1  PREDICTED: agamous-like MADS-box protein AGL6
+        1.2   10.4   8.7        3.2    9.0   1.0    2.2  2  XP_010242675.2  PREDICTED: homeobox-leucine zipper protein AT
+        1.3   10.2   7.7        9.9    7.4   1.1    2.3  2  XP_010242413.1  PREDICTED: homeobox-leucine zipper protein AT
+        3.2    9.0  12.6       0.72   11.1   5.8    2.8  2  XP_010258316.1  PREDICTED: agamous-like MADS-box protein AGL6
+        6.3    8.1   9.2       0.65   11.2   2.6    2.6  2  XP_010257792.1  PREDICTED: agamous-like MADS-box protein AGL6
+        7.4    7.8  10.0        3.5    8.9   3.1    2.2  2  XP_010278836.1  PREDICTED: GPCR-type G protein 1 [Nelumbo nuc
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_010255596.1  PREDICTED: MADS-box transcription factor 6 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.0  13.8     3e-34     2e-31       4      93 .]      82     171 ..      78     171 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 109.0 bits;  conditional E-value: 3e-34
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                     +++e ++++qe++kLk+++e+lqrsqR+llGedl++ls+keLq+Le+qLe sl++ R+rK q+++eq+eel++ke++l + nk+L++kle
+  XP_010255596.1  82 SDRETQSWYQEVSKLKAKYESLQRSQRHLLGEDLGPLSVKELQNLEKQLEGSLSQARQRKAQIMMEQMEELRRKERHLGDINKQLKNKLE 171
+                     5568899********************************************************************************985 PP
+
+>> XP_010257957.1  PREDICTED: truncated transcription factor CAULIFLOWER A [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.0  13.6   2.7e-33   1.8e-30       7      92 ..      87     172 ..      82     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 106.0 bits;  conditional E-value: 2.7e-33
+           K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +q +++ e++kLk++ie lqr+qR+++Gedl+slslkeLq+LeqqL+++lk+iR+rKnql+ e+i+el+kkek l+e+n++L+kkl
+  XP_010257957.1  87 SQGSWSLEHTKLKAKIEILQRNQRHYVGEDLQSLSLKELQNLEQQLDTALKHIRARKNQLVYESISELQKKEKALQEQNNMLTKKL 172
+                     4678********************************************************************************98 PP
+
+>> XP_010260844.1  PREDICTED: truncated transcription factor CAULIFLOWER A [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.3  15.6   2.1e-33   1.5e-30       5      92 ..      85     172 ..      82     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 106.3 bits;  conditional E-value: 2.1e-33
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +++q +++ e++kLk++ie lqr+qR+++Gedl+slslkeLq+LeqqL+++lk+iR+rKnql+ ++i+el+kkek l+e+n+ L+kkl
+  XP_010260844.1  85 SESQGNWSLEYTKLKNKIEILQRNQRHYVGEDLESLSLKELQNLEQQLDTALKQIRTRKNQLIYDSISELQKKEKALQEQNNILTKKL 172
+                     556789********************************************************************************98 PP
+
+>> XP_019053923.1  PREDICTED: developmental protein SEPALLATA 1 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.2  15.7   4.5e-33   3.1e-30       4      93 .]      43     132 ..      40     132 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 105.2 bits;  conditional E-value: 4.5e-33
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                      ++e ++ +qe+ kLk+++e lqrsqR+llGedl++l+ keL+qLe+qLe+slk+iRs+K+ql+l+q+++l++ke++l+e+n++L++kle
+  XP_019053923.1  43 PAKETQSSYQEYLKLKARVEVLQRSQRNLLGEDLGPLTTKELEQLEHQLEMSLKQIRSTKTQLMLDQLSDLQRKEQMLQEANRTLKRKLE 132
+                     5678899********************************************************************************985 PP
+
+>> XP_010257958.1  PREDICTED: developmental protein SEPALLATA 1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.6  14.6   3.6e-33   2.4e-30       4      92 ..      83     171 ..      80     172 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 105.6 bits;  conditional E-value: 3.6e-33
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                      ++e ++ +qe+ kLk+++e lqrsqR+llGedl++ls keL+qLe+qLe+slk+iRs+K+ql+l+q+++l++ke++l+e+n+ L++kl
+  XP_010257958.1  83 PAKETQSSYQEYLKLKARVEVLQRSQRNLLGEDLGPLSTKELEQLEHQLEMSLKQIRSTKTQLMLDQLSDLQRKEQMLQEANRALKRKL 171
+                     5678899********************************************************************************97 PP
+
+>> XP_010272608.1  PREDICTED: MADS-box transcription factor 6-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.3  11.8   4.2e-33   2.9e-30       5      93 .]      83     171 ..      78     171 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 105.3 bits;  conditional E-value: 4.2e-33
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                     ++e ++++qe+++Lk+++e+lqr qR+llGedl++ls+keLq+Le+qLe +l+  R+rK+q+++e++eel++ke++l + nk+L++kle
+  XP_010272608.1  83 DRETQSWYQEVSRLKSKYESLQRAQRHLLGEDLGPLSVKELQNLEKQLEGALSAARQRKTQIMMEEMEELRRKERHLGDINKQLKNKLE 171
+                     567899********************************************************************************985 PP
+
+>> XP_010260833.1  PREDICTED: MADS-box protein CMB1 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.7  15.7   6.8e-33   4.7e-30       4      93 .]      83     172 ..      80     172 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 104.7 bits;  conditional E-value: 6.8e-33
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                      ++e ++ +qe+ kLk+++e lqrsqR+llGedl++l+ keL+qLe+qLe+slk+iRs+K+ql+l+q+++l++ke++l+e+n++L++kle
+  XP_010260833.1  83 PAKETQSSYQEYLKLKARVEVLQRSQRNLLGEDLGPLTTKELEQLEHQLEMSLKQIRSTKTQLMLDQLSDLQRKEQMLQEANRTLKRKLE 172
+                     5678899********************************************************************************985 PP
+
+>> XP_019053922.1  PREDICTED: MADS-box protein CMB1 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.7  15.7   6.8e-33   4.7e-30       4      93 .]      83     172 ..      80     172 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 104.7 bits;  conditional E-value: 6.8e-33
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                      ++e ++ +qe+ kLk+++e lqrsqR+llGedl++l+ keL+qLe+qLe+slk+iRs+K+ql+l+q+++l++ke++l+e+n++L++kle
+  XP_019053922.1  83 PAKETQSSYQEYLKLKARVEVLQRSQRNLLGEDLGPLTTKELEQLEHQLEMSLKQIRSTKTQLMLDQLSDLQRKEQMLQEANRTLKRKLE 172
+                     5678899********************************************************************************985 PP
+
+>> XP_010272685.1  PREDICTED: floral homeotic protein AGAMOUS-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.0   9.1   4.6e-32   3.1e-29       4      92 ..      84     171 ..      80     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 102.0 bits;  conditional E-value: 4.6e-32
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     e++  +++qqe++kL+++i  lq+s+R+l+Ge ls++++keL+qLe++Lek++++iRs+Kn+ll ++i++++k+e el+++n++Lr k+
+  XP_010272685.1  84 EAN-AQFYQQEANKLRQQIGILQNSNRHLMGEALSTMTVKELKQLESRLEKGISRIRSKKNELLYAEIQYMQKREIELQNDNMYLRAKI 171
+                     444.689********************************************************************************98 PP
+
+>> XP_010254617.1  PREDICTED: MADS-box transcription factor 23 isoform X3 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.0  12.8   2.2e-32   1.5e-29       5      92 ..      83     170 ..      80     171 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 103.0 bits;  conditional E-value: 2.2e-32
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +se +++q+e+a+L+++++nlq+s+Rql+Ge+ls+l++k+Lq+Le+qLe+sl+ +R+rK+q+l+++i+el++k + +++en+eL kk+
+  XP_010254617.1  83 TSEIKFWQREAATLRQQLQNLQESHRQLMGEELSGLTVKDLQNLENQLEMSLRCVRMRKDQILTDEIQELNRKGNLIHQENMELYKKV 170
+                     667899********************************************************************************97 PP
+
+>> XP_010254616.1  PREDICTED: MADS-box transcription factor 23 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.5  13.7   3.2e-32   2.2e-29       5      92 ..      83     170 ..      74     171 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 102.5 bits;  conditional E-value: 3.2e-32
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +se +++q+e+a+L+++++nlq+s+Rql+Ge+ls+l++k+Lq+Le+qLe+sl+ +R+rK+q+l+++i+el++k + +++en+eL kk+
+  XP_010254616.1  83 TSEIKFWQREAATLRQQLQNLQESHRQLMGEELSGLTVKDLQNLENQLEMSLRCVRMRKDQILTDEIQELNRKGNLIHQENMELYKKV 170
+                     56789*********************************************************************************98 PP
+
+>> XP_010254615.1  PREDICTED: MADS-box transcription factor 23 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.5  13.7   3.2e-32   2.2e-29       5      92 ..      83     170 ..      74     171 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 102.5 bits;  conditional E-value: 3.2e-32
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +se +++q+e+a+L+++++nlq+s+Rql+Ge+ls+l++k+Lq+Le+qLe+sl+ +R+rK+q+l+++i+el++k + +++en+eL kk+
+  XP_010254615.1  83 TSEIKFWQREAATLRQQLQNLQESHRQLMGEELSGLTVKDLQNLENQLEMSLRCVRMRKDQILTDEIQELNRKGNLIHQENMELYKKV 170
+                     56789*********************************************************************************98 PP
+
+>> XP_010273432.1  PREDICTED: floral homeotic protein AGAMOUS isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.3   7.4   7.8e-32   5.3e-29       4      92 ..      84     171 ..      80     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 101.3 bits;  conditional E-value: 7.8e-32
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     e++  +++qqe++kL+++i  lq+s+R+l+Ge ls++++keL+qLe +Lek++++iRs+Kn+ll+++ie+++k+e  l+++n++Lr ++
+  XP_010273432.1  84 EAN-AQFYQQEANKLRQQIGILQNSNRHLMGEALSTMTVKELKQLEGRLEKGISRIRSKKNELLFAEIEYMQKREIDLQNDNMMLRARI 171
+                     444.689*******************************************************************************987 PP
+
+>> XP_010273433.1  PREDICTED: floral homeotic protein AGAMOUS isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.3   7.4   7.8e-32   5.3e-29       4      92 ..      84     171 ..      80     172 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 101.3 bits;  conditional E-value: 7.8e-32
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     e++  +++qqe++kL+++i  lq+s+R+l+Ge ls++++keL+qLe +Lek++++iRs+Kn+ll+++ie+++k+e  l+++n++Lr ++
+  XP_010273433.1  84 EAN-AQFYQQEANKLRQQIGILQNSNRHLMGEALSTMTVKELKQLEGRLEKGISRIRSKKNELLFAEIEYMQKREIDLQNDNMMLRARI 171
+                     444.689*******************************************************************************987 PP
+
+>> XP_010244699.1  PREDICTED: MADS-box transcription factor 23-like isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.2  14.2     4e-32   2.7e-29       5      92 ..      82     169 ..      78     170 .. 0.97
+   2 ?    0.3   0.0       2.5   1.7e+03      76      92 ..     167     183 ..     166     183 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 102.2 bits;  conditional E-value: 4e-32
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +se +++q+e+a+L++++++lq+++Rql+Ge+ls+l++k+Lq+Le+qLe+sl+ +R+rK+qll+++i+el++k + +++en+eL kk+
+  XP_010244699.1  82 TSEVKFWQREAANLRQQLHKLQENHRQLMGEQLSGLTVKDLQHLENQLEMSLRGVRMRKDQLLTDEIQELNRKGNLIHQENMELYKKV 169
+                     67899*********************************************************************************98 PP
+
+  == domain 2  score: 0.3 bits;  conditional E-value: 2.5
+           K-box  76 kkekeleeenkeLrkkl 92 
+                     kk + +++en+eL kk+
+  XP_010244699.1 167 KKVNLIRQENMELYKKV 183
+                     678889999**999986 PP
+
+>> XP_010244698.1  PREDICTED: MADS-box transcription factor 23-like isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.2  14.2     4e-32   2.7e-29       5      92 ..      82     169 ..      78     170 .. 0.97
+   2 ?    0.3   0.0       2.5   1.7e+03      76      92 ..     167     183 ..     166     183 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 102.2 bits;  conditional E-value: 4e-32
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +se +++q+e+a+L++++++lq+++Rql+Ge+ls+l++k+Lq+Le+qLe+sl+ +R+rK+qll+++i+el++k + +++en+eL kk+
+  XP_010244698.1  82 TSEVKFWQREAANLRQQLHKLQENHRQLMGEQLSGLTVKDLQHLENQLEMSLRGVRMRKDQLLTDEIQELNRKGNLIHQENMELYKKV 169
+                     67899*********************************************************************************98 PP
+
+  == domain 2  score: 0.3 bits;  conditional E-value: 2.5
+           K-box  76 kkekeleeenkeLrkkl 92 
+                     kk + +++en+eL kk+
+  XP_010244698.1 167 KKVNLIRQENMELYKKV 183
+                     678889999**999986 PP
+
+>> XP_019051694.1  PREDICTED: MADS-box transcription factor 23-like isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.2  14.2     4e-32   2.7e-29       5      92 ..      82     169 ..      78     170 .. 0.97
+   2 ?    0.3   0.0       2.5   1.7e+03      76      92 ..     167     183 ..     166     183 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 102.2 bits;  conditional E-value: 4e-32
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +se +++q+e+a+L++++++lq+++Rql+Ge+ls+l++k+Lq+Le+qLe+sl+ +R+rK+qll+++i+el++k + +++en+eL kk+
+  XP_019051694.1  82 TSEVKFWQREAANLRQQLHKLQENHRQLMGEQLSGLTVKDLQHLENQLEMSLRGVRMRKDQLLTDEIQELNRKGNLIHQENMELYKKV 169
+                     67899*********************************************************************************98 PP
+
+  == domain 2  score: 0.3 bits;  conditional E-value: 2.5
+           K-box  76 kkekeleeenkeLrkkl 92 
+                     kk + +++en+eL kk+
+  XP_019051694.1 167 KKVNLIRQENMELYKKV 183
+                     678889999**999986 PP
+
+>> XP_010244700.1  PREDICTED: MADS-box transcription factor 23-like isoform X3 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.9  15.5     1e-31   7.1e-29       5      92 ..      82     169 ..      73     170 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 100.9 bits;  conditional E-value: 1e-31
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +se +++q+e+a+L++++++lq+++Rql+Ge+ls+l++k+Lq+Le+qLe+sl+ +R+rK+qll+++i+el++k + +++en+eL kk+
+  XP_010244700.1  82 TSEVKFWQREAANLRQQLHKLQENHRQLMGEQLSGLTVKDLQHLENQLEMSLRGVRMRKDQLLTDEIQELNRKGNLIHQENMELYKKV 169
+                     67899*********************************************************************************97 PP
+
+>> XP_010250667.1  PREDICTED: agamous-like MADS-box protein AGL9 homolog [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.3  11.0   5.7e-30   3.9e-27       5      92 ..      86     173 ..      82     174 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 95.3 bits;  conditional E-value: 5.7e-30
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     ese+ + qqe+ kLk+++e lqrsqR+llGedl++ls keL++Le+qL++slk+iRs+++q++l+q+++l+++e++l e+n+ L++++
+  XP_010250667.1  86 ESEELSCQQEYLKLKARVEALQRSQRNLLGEDLGPLSGKELESLERQLDMSLKQIRSTRTQYMLDQLADLQRREQMLSEANRALKRRF 173
+                     4556689******************************************************************************987 PP
+
+>> XP_010272601.1  PREDICTED: MADS-box protein SOC1-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.9  13.6   1.6e-29   1.1e-26       4      92 ..      83     170 ..      77     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 93.9 bits;  conditional E-value: 1.6e-29
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     e+s  ++l+ e+a++ k+ie l+ s+R+llGe+l+s+sl+eLqq+e+qLe+sl+ iR+rK+ql+ eqie+lk+ke+ l een+ Lrkk+
+  XP_010272601.1  83 EQS-MQHLKYEAANMAKKIELLEVSKRKLLGENLGSCSLEELQQIENQLERSLTTIRARKTQLFREQIEDLKEKERLLDEENAVLRKKC 170
+                     444.568********************************************************************************96 PP
+
+>> XP_010275495.1  PREDICTED: MADS-box protein AeAP3-2-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.8  11.1   6.8e-29   4.6e-26       7      90 ..      84     167 ..      55     170 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 91.8 bits;  conditional E-value: 6.8e-29
+           K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrk 90 
+                     +q ++++e++++++e ++lq+s+R++ Gedl sl +++L+qLe+qLe+s++k+R+rKnqll++q+++l++ke++l+++n++L +
+  XP_010275495.1  84 NQLQIYNEVTRMRNETDKLQASMRHFSGEDLASLPYNDLHQLEEQLENSVNKVRARKNQLLQQQLDNLRRKEQILQDQNNYLYR 167
+                     45679*****************************************************************************87 PP
+
+>> XP_019053529.1  PREDICTED: MADS-box protein AeAP3-2-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.9  11.3   6.5e-29   4.4e-26       5      90 ..      81     166 ..      77     168 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 91.9 bits;  conditional E-value: 6.5e-29
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrk 90 
+                     e +++ +++e++++k+e ++lq+s+R+++Gedl sl +++L+qLe+qLe+s++k+R+rKnqll +q+++l++ke++l+e+n++L +
+  XP_019053529.1  81 EYDNQLVYSEMTRMKNETDRLQASMRHFTGEDLASLPYNDLHQLEEQLENSVNKVRARKNQLLNQQLDNLRRKEQILQEQNSHLYR 166
+                     4567889*****************************************************************************86 PP
+
+>> XP_010255589.1  PREDICTED: MADS-box protein SOC1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.4  13.7     9e-29   6.2e-26       4      92 ..      83     170 ..      76     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 91.4 bits;  conditional E-value: 9e-29
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     e++  ++l++e+a++ k+ie l++s+R+llGe+l+s s +eLqq+e+qLe+sl +iR+rK+ql+ eqi++lk+kek+l een+ Lr+k+
+  XP_010255589.1  83 EQN-MQHLKHEAANMAKKIELLEASKRKLLGENLGSSSPEELQQIENQLERSLVSIRARKTQLFREQIANLKEKEKILTEENAILREKC 170
+                     555.467********************************************************************************97 PP
+
+>> XP_010255590.1  PREDICTED: MADS-box protein SOC1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.4  13.7     9e-29   6.2e-26       4      92 ..      83     170 ..      76     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 91.4 bits;  conditional E-value: 9e-29
+           K-box   4 eeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     e++  ++l++e+a++ k+ie l++s+R+llGe+l+s s +eLqq+e+qLe+sl +iR+rK+ql+ eqi++lk+kek+l een+ Lr+k+
+  XP_010255590.1  83 EQN-MQHLKHEAANMAKKIELLEASKRKLLGENLGSSSPEELQQIENQLERSLVSIRARKTQLFREQIANLKEKEKILTEENAILREKC 170
+                     555.467********************************************************************************97 PP
+
+>> XP_010249057.1  PREDICTED: truncated transcription factor CAULIFLOWER D-like isoform X3 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.5  10.8   6.4e-27   4.4e-24       3      92 ..      83     172 ..      80     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 85.5 bits;  conditional E-value: 6.4e-27
+           K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +++++ +++++e++ L+k i++l++ +R+l Ged+s l +keLq+Le+qL+ ++++iRsrK + ++e+i+ lk ++k l+++n++L+++l
+  XP_010249057.1  83 QTSRTAQFWREEIEDLRKSIQTLEARHRHLAGEDISLLGIKELQELERQLKIGVERIRSRKRRAISESINLLKTRQKALQNDNARLQRQL 172
+                     4556889*********************************************************************************98 PP
+
+>> XP_010249055.1  PREDICTED: truncated transcription factor CAULIFLOWER D-like isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.5  10.8   6.5e-27   4.4e-24       3      92 ..      83     172 ..      80     173 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 85.5 bits;  conditional E-value: 6.5e-27
+           K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +++++ +++++e++ L+k i++l++ +R+l Ged+s l +keLq+Le+qL+ ++++iRsrK + ++e+i+ lk ++k l+++n++L+++l
+  XP_010249055.1  83 QTSRTAQFWREEIEDLRKSIQTLEARHRHLAGEDISLLGIKELQELERQLKIGVERIRSRKRRAISESINLLKTRQKALQNDNARLQRQL 172
+                     4556889*********************************************************************************98 PP
+
+>> XP_019054088.1  PREDICTED: floral homeotic protein DEFICIENS isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.3  10.6   3.2e-26   2.2e-23       5      92 ..      43     130 ..      39     131 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 83.3 bits;  conditional E-value: 3.2e-26
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +s++e++q++l+k k+ ++nl+r++Rq++Gedl++ls++eL+ Leq++e+slk +R+rK++++++q++++kkk ++l++ n+ L ++l
+  XP_019054088.1  43 NSHYERMQEHLSKQKEVNNNLRREIRQRMGEDLDDLSVDELRGLEQNMENSLKVVRERKYHVISTQTDTCKKKIRNLQDTNASLLRQL 130
+                     6799********************************************************************************9997 PP
+
+>> XP_010263856.1  PREDICTED: floral homeotic protein DEFICIENS isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.7  10.6   4.9e-26   3.4e-23       5      92 ..      81     168 ..      77     169 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 82.7 bits;  conditional E-value: 4.9e-26
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +s++e++q++l+k k+ ++nl+r++Rq++Gedl++ls++eL+ Leq++e+slk +R+rK++++++q++++kkk ++l++ n+ L ++l
+  XP_010263856.1  81 NSHYERMQEHLSKQKEVNNNLRREIRQRMGEDLDDLSVDELRGLEQNMENSLKVVRERKYHVISTQTDTCKKKIRNLQDTNASLLRQL 168
+                     6799********************************************************************************9997 PP
+
+>> XP_019055004.1  PREDICTED: floral homeotic protein DEFICIENS-like isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.1   9.7   1.5e-25     1e-22       5      92 ..      81     168 ..      77     169 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 81.1 bits;  conditional E-value: 1.5e-25
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +s++e++q++l+k k+ ++nlqr++R+++G dl+++s++eL+ Leq+Le+slk +R+rK++++++q++++kkk ++l+e++ +L +++
+  XP_019055004.1  81 SSHYERMQEHLNKQKEINNNLQREIRRRMGGDLDDMSIEELRGLEQNLENSLKVVRERKYHVISTQTDTYKKKIRNLQEAHTNLLRQF 168
+                     6799********************************************************************************9986 PP
+
+>> XP_010271509.1  PREDICTED: floral homeotic protein DEFICIENS-like isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.1  10.4   3.1e-25   2.1e-22       5      92 ..      81     168 ..      77     169 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 80.1 bits;  conditional E-value: 3.1e-25
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +s++e++q++l+k k+ ++nlqr++R+++G dl+++s++eL+ Leq+Le+slk +R+rK++++++q++++kkk ++l+e++ +L +++
+  XP_010271509.1  81 SSHYERMQEHLNKQKEINNNLQREIRRRMGGDLDDMSIEELRGLEQNLENSLKVVRERKYHVISTQTDTYKKKIRNLQEAHTNLLRQF 168
+                     6799********************************************************************************9997 PP
+
+>> XP_010249056.1  PREDICTED: truncated transcription factor CAULIFLOWER D-like isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.6   9.9   9.4e-25   6.4e-22       3      92 ..      83     171 ..      80     172 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 78.6 bits;  conditional E-value: 9.4e-25
+           K-box   3 seeseqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +++++ +++++e++ L+k i++l++ +R+l Ged+s l +keLq+Le+qL+ ++++iRsrK + ++e+i+ lk + k l+++n++L+++l
+  XP_010249056.1  83 QTSRTAQFWREEIEDLRKSIQTLEARHRHLAGEDISLLGIKELQELERQLKIGVERIRSRKRRAISESINLLKTR-KALQNDNARLQRQL 171
+                     4556889**************************************************************998765.89**********98 PP
+
+>> XP_010240899.1  PREDICTED: floral homeotic protein DEFICIENS-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.6  12.4     7e-23   4.8e-20       5      92 ..      81     169 ..      77     170 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 72.6 bits;  conditional E-value: 7e-23
+           K-box   5 eseqeelqqelakLkkeienlqrsqRqll.GedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +s++e +q++l+k k+ ++nl+r++Rq++ Ge+l+++s++eL++Leq+Le+slk iR+rK++++++q+e++kkk ++l++e+++L  ++
+  XP_010240899.1  81 KSHYETMQEHLNKQKEINNNLRREIRQRMaGEHLDDMSFEELRSLEQNLENSLKVIRERKYRVISTQTETYKKKIRNLQAEHANLLCQI 169
+                     6799**********************97758*****************************************************98776 PP
+
+>> XP_010245525.1  PREDICTED: agamous-like MADS-box protein AGL12 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.5   0.8   1.5e-22   1.1e-19      12      92 ..      90     170 ..      80     171 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 71.5 bits;  conditional E-value: 1.5e-22
+           K-box  12 qqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     ++e+++Lk+ei+ lq+ + +  G +++++sl+eL++Le++Le  + +iRs K+q+++e+ie lk+ke +l+++n++L+ k+
+  XP_010245525.1  90 SEEITSLKEEIQLLQKGLGYTFGGGVETMSLDELHALEKHLEVCICHIRSIKMQIMFEEIEVLKNKEGILKAANEYLHGKI 170
+                     68****************************************************************************998 PP
+
+>> XP_010269077.1  PREDICTED: floral homeotic protein PMADS 2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.2   4.0   3.9e-22   2.7e-19       6      90 ..      82     162 ..      73     165 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 70.2 bits;  conditional E-value: 3.9e-22
+           K-box   6 seqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrk 90 
+                      ++e+l++e++++kke++ +q ++R+l+Ged++sl+ keL  +e+ Le++l ++R++++++l    ++l k+ + lee+n++L+ 
+  XP_010269077.1  82 AKHEFLSNEIDRIKKENDAMQIELRHLKGEDINSLTPKELIPIEEALENGLVNVRAKQMEYL----KMLEKNGRTLEEDNNRLNF 162
+                     5899**********************************************************....*****************86 PP
+
+>> XP_010279518.1  PREDICTED: agamous-like MADS-box protein AGL15 isoform X3 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.5  16.6   5.5e-21   3.8e-18       9      93 .]      41     125 ..      33     125 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 66.5 bits;  conditional E-value: 5.5e-21
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                     ++ ++e++ Lk+ei +l+  +R+++G++l +lslkeLq+Le+qL +++ ++++rK+qllleq+e+ + +e++   en++Lrk++e
+  XP_010279518.1  41 KQQSKEVNILKDEIARLRMANRRMMGKELMGLSLKELQNLEHQLSEGILSVKDRKEQLLLEQLEKSRLQEQRALLENETLRKQVE 125
+                     45699*****************************************************************************985 PP
+
+>> XP_010279516.1  PREDICTED: MADS-box transcription factor 23-like isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.9  16.6   8.6e-21   5.9e-18       9      93 .]      87     171 ..      79     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 65.9 bits;  conditional E-value: 8.6e-21
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                     ++ ++e++ Lk+ei +l+  +R+++G++l +lslkeLq+Le+qL +++ ++++rK+qllleq+e+ + +e++   en++Lrk++e
+  XP_010279516.1  87 KQQSKEVNILKDEIARLRMANRRMMGKELMGLSLKELQNLEHQLSEGILSVKDRKEQLLLEQLEKSRLQEQRALLENETLRKQVE 171
+                     45699*****************************************************************************985 PP
+
+>> XP_019056050.1  PREDICTED: MADS-box transcription factor 23-like isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.9  16.6   8.6e-21   5.9e-18       9      93 .]      87     171 ..      79     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 65.9 bits;  conditional E-value: 8.6e-21
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                     ++ ++e++ Lk+ei +l+  +R+++G++l +lslkeLq+Le+qL +++ ++++rK+qllleq+e+ + +e++   en++Lrk++e
+  XP_019056050.1  87 KQQSKEVNILKDEIARLRMANRRMMGKELMGLSLKELQNLEHQLSEGILSVKDRKEQLLLEQLEKSRLQEQRALLENETLRKQVE 171
+                     45699*****************************************************************************985 PP
+
+>> XP_010269745.1  PREDICTED: agamous-like MADS-box protein AGL15 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.0  16.7   3.3e-20   2.2e-17       9      93 .]      87     171 ..      80     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 64.0 bits;  conditional E-value: 3.3e-20
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkle 93 
+                     ++ ++e++ Lk+ei +l+  +R+++G++l +lslkeLq+Le qL +++ ++++rK+qllleq+e+ + +e++   en++Lrk++e
+  XP_010269745.1  87 KQQSKEVNILKDEIARLRMANRRMMGKELTGLSLKELQHLEYQLSEGILSVKDRKEQLLLEQLEQSRLQEQRALLENETLRKQVE 171
+                     45689*****************************************************************************985 PP
+
+>> XP_010277489.1  PREDICTED: MADS-box protein JOINTLESS-like isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.5  15.8   4.6e-20   3.2e-17       9      92 ..      87     170 ..      78     171 .. 0.95
+   2 ?    4.7   0.1       0.1        71      17      41 ..     165     189 ..     164     192 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 63.5 bits;  conditional E-value: 4.6e-20
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +  ++++a+L ke+ +  +++Rq+ Ge+l++l+++eLqqLe+ Le++l+++ ++K + ++++i++l++k  el een++L++++
+  XP_010277489.1  87 QLENSNYARLSKEVAEKSHQLRQMRGENLQGLNIEELQQLEKSLETGLSRVLETKGERIMKEISTLQRKGVELLEENERLKQQI 170
+                     556789****************************************************************************97 PP
+
+  == domain 2  score: 4.7 bits;  conditional E-value: 0.1
+           K-box  17 kLkkeienlqrsqRqllGedlssls 41 
+                     +Lk++i ++ + qR+++  + ++l 
+  XP_010277489.1 165 RLKQQIVEMSKGQRHIISAESENLV 189
+                     8**************9988777765 PP
+
+>> XP_010277487.1  PREDICTED: MADS-box protein SVP-like isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.9  16.9   7.4e-20     5e-17       9      92 ..      87     170 ..      77     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 62.9 bits;  conditional E-value: 7.4e-20
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +  ++++a+L ke+ +  +++Rq+ Ge+l++l+++eLqqLe+ Le++l+++ ++K + ++++i++l++k  el een++L+++l
+  XP_010277487.1  87 QLENSNYARLSKEVAEKSHQLRQMRGENLQGLNIEELQQLEKSLETGLSRVLETKGERIMKEISTLQRKGVELLEENERLKQQL 170
+                     556789****************************************************************************98 PP
+
+>> XP_010277488.1  PREDICTED: MADS-box protein SVP-like isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.9  16.9   7.4e-20     5e-17       9      92 ..      87     170 ..      77     171 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 62.9 bits;  conditional E-value: 7.4e-20
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +  ++++a+L ke+ +  +++Rq+ Ge+l++l+++eLqqLe+ Le++l+++ ++K + ++++i++l++k  el een++L+++l
+  XP_010277488.1  87 QLENSNYARLSKEVAEKSHQLRQMRGENLQGLNIEELQQLEKSLETGLSRVLETKGERIMKEISTLQRKGVELLEENERLKQQL 170
+                     556789****************************************************************************98 PP
+
+>> XP_019051519.1  PREDICTED: agamous-like MADS-box protein AGL9 homolog [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.3   7.6   1.1e-19   7.4e-17      10      78 ..      43     107 ..      36     111 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 62.3 bits;  conditional E-value: 1.1e-19
+           K-box  10 elqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkke 78 
+                     + +qe+ kLk+++e lqrsqR+llGedl++l+ keLqqL    e+slk+iRs+K+q+l+e  ++l++k+
+  XP_019051519.1  43 SSYQEYLKLKARVEVLQRSQRNLLGEDLGPLTTKELQQL----EMSLKQIRSTKEQMLQEANRTLRRKK 107
+                     579*********************************965....6899*******************996 PP
+
+>> XP_010254524.1  PREDICTED: MADS-box protein SVP isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.2       5.5   3.7e+03      40      54 ..      74      90 ..      63      91 .. 0.46
+   2 !   61.4  16.1   2.1e-19   1.4e-16      10      92 ..      88     170 ..      80     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 5.5
+           K-box 40 lslkeLqq..LeqqLek 54
+                     +l+ L q  Le qLe+
+  XP_010254524.1 74 KNLQKLDQpsLELQLEN 90
+                    22222322224555554 PP
+
+  == domain 2  score: 61.4 bits;  conditional E-value: 2.1e-19
+           K-box  10 elqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                       ++++a+L ke+ +  +++R++ Gedl++l++++LqqLe+ Le++l+++ ++K + ++++i++l +k  el een++L+++l
+  XP_010254524.1  88 LENSNYARLSKEVAEKSHQLRRMRGEDLQGLNIEDLQQLEKSLETGLSRVLETKGERIMKEISNLERKGMELLEENERLKQQL 170
+                     56789****************************************************************************98 PP
+
+>> XP_010254525.1  PREDICTED: MADS-box protein SVP isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.1       3.5   2.4e+03      40      54 ..      74      90 ..      61      93 .. 0.46
+   2 !   60.9  16.0     3e-19     2e-16       9      92 ..      87     170 ..      79     171 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 3.5
+           K-box 40 lslkeLqq..LeqqLek 54
+                     +l+ L q  Le qLe+
+  XP_010254525.1 74 KNLQKLDQpsLELQLEN 90
+                    22222222224445544 PP
+
+  == domain 2  score: 60.9 bits;  conditional E-value: 3e-19
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekeleeenkeLrkkl 92 
+                     +  ++++a+L ke+ +  +++R++ Gedl++l++++LqqLe+ Le++l+++ ++K + ++++i++l +k  el een++L++++
+  XP_010254525.1  87 QLENSNYARLSKEVAEKSHQLRRMRGEDLQGLNIEDLQQLEKSLETGLSRVLETKGERIMKEISNLERKGMELLEENERLKQQM 170
+                     556789***************************************************************************996 PP
+
+>> XP_019056051.1  PREDICTED: MADS-box transcription factor 23-like isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.6  10.9   1.6e-18   1.1e-15       9      81 ..      87     159 ..      79     161 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 58.6 bits;  conditional E-value: 1.6e-18
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkkkekel 81 
+                     ++ ++e++ Lk+ei +l+  +R+++G++l +lslkeLq+Le+qL +++ ++++rK+qllleq+e+ + + +el
+  XP_019056051.1  87 KQQSKEVNILKDEIARLRMANRRMMGKELMGLSLKELQNLEHQLSEGILSVKDRKEQLLLEQLEKSRLQVEEL 159
+                     45699************************************************************99887776 PP
+
+>> XP_010269101.1  PREDICTED: agamous-like MADS-box protein AGL104 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.9   3.5     1e-07   7.1e-05       7      76 ..     114     183 ..     110     193 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 23.9 bits;  conditional E-value: 1e-07
+           K-box   7 eqeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllleqieelkk 76 
+                     + eelqqe+++ +++++   +++R +  + ++  s+ eL++ e++L ++l ++ +rK++ll+++++ + +
+  XP_010269101.1 114 NVEELQQEITRFQQQLQIADEQLRIFEPDLMKFTSMAELESCEKHLMETLARVTQRKKHLLSNHLSSYDQ 183
+                     5688************************999********************************9998766 PP
+
+>> XP_010274370.1  PREDICTED: agamous-like MADS-box protein AGL104 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.2    0.0002      0.14       8      64 ..      86     142 ..      80     149 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 0.0002
+           K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKn 64 
+                      + lq+e+ + + ++++ ++++R + G+ l   +l+e    e  Le++l+++R+rK 
+  XP_010274370.1  86 LQDLQNEMGRWQFRLKDAETQLRSFEGDALPITTLREAVLQEYILEEALRRVRERKL 142
+                     5789*********************************9999***************6 PP
+
+>> XP_010257804.1  PREDICTED: agamous-like MADS-box protein AGL65 isoform X3 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   0.8       3.3   2.3e+03      16      59 ..      40      83 ..      26      92 .. 0.54
+   2 ?   11.5   2.7   0.00078      0.53      41      65 ..      98     122 ..      61     126 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -0.1 bits;  conditional E-value: 3.3
+           K-box 16 akLkkeienlqr..sqRqllGedlsslslkeLqqLeqqLekslkki 59
+                    + Lkk++++l +  ++  +lG   s+ +++eL +  + L++ l++ 
+  XP_010257804.1 40 EALKKTFKKLDHdvNIQDFLG--ASTQTVEELTNHSRLLQTQLSET 83
+                    455555555544223444444..33345555555555555555554 PP
+
+  == domain 2  score: 11.5 bits;  conditional E-value: 0.00078
+           K-box  41 slkeLqqLeqqLekslkkiRsrKnq 65 
+                     +++ L+++e+ L++sl++iR++K q
+  XP_010257804.1  98 NIEHLRAMEDSLKESLNQIRAHKFQ 122
+                     7899*******************87 PP
+
+>> XP_010257800.1  PREDICTED: agamous-like MADS-box protein AGL65 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.6       3.8   2.6e+03      16      58 ..      86     128 ..      73     137 .. 0.52
+   2 ?   11.4   2.5   0.00083      0.56      41      65 ..     144     168 ..     105     172 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 3.8
+           K-box  16 akLkkeienlqr..sqRqllGedlsslslkeLqqLeqqLekslkk 58 
+                     + Lkk++++l +  ++  +lG   s+ +++eL +  + L++ l++
+  XP_010257800.1  86 EALKKTFKKLDHdvNIQDFLG--ASTQTVEELTNHSRLLQTQLSE 128
+                     445555555544223444444..3334555555555555555554 PP
+
+  == domain 2  score: 11.4 bits;  conditional E-value: 0.00083
+           K-box  41 slkeLqqLeqqLekslkkiRsrKnq 65 
+                     +++ L+++e+ L++sl++iR++K q
+  XP_010257800.1 144 NIEHLRAMEDSLKESLNQIRAHKFQ 168
+                     7999*******************87 PP
+
+>> XP_010258314.1  PREDICTED: agamous-like MADS-box protein AGL65 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   2.0       2.6   1.8e+03      68      91 ..     111     134 ..      77     136 .. 0.74
+   2 ?   10.7   5.4    0.0014      0.98       9      69 ..     115     174 ..     107     185 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 2.6
+           K-box  68 leqieelkkkekeleeenkeLrkk 91 
+                     ++ +eel ++ + l+++ +eL+k+
+  XP_010258314.1 111 TQTVEELTNQSRLLQAQLSELHKR 134
+                     455677777777777777777665 PP
+
+  == domain 2  score: 10.7 bits;  conditional E-value: 0.0014
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllle 69 
+                     eel+++ + L++++++l + + + +  d    +++ L+++e+ L++sl++iR++K+++ ++
+  XP_010258314.1 115 EELTNQSRLLQAQLSELHKRLSYWTNPDK-IEHIEHLRAMEDSLKESLNQIRTHKENFGKQ 174
+                     45555666666666666666655555332.236899*******************987655 PP
+
+>> XP_010258315.1  PREDICTED: agamous-like MADS-box protein AGL65 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   5.5    0.0016       1.1       9      69 ..     115     174 ..     107     180 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.0016
+           K-box   9 eelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllle 69 
+                     eel+++ + L++++++l + + + +  d    +++ L+++e+ L++sl++iR++K+++ ++
+  XP_010258315.1 115 EELTNQSRLLQAQLSELHKRLSYWTNPDK-IEHIEHLRAMEDSLKESLNQIRTHKENFGKQ 174
+                     45555666666666666666655555332.236899*******************987655 PP
+
+>> XP_010242675.2  PREDICTED: homeobox-leucine zipper protein ATHB-13-like, partial [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.6   1.4     0.053        36      33      66 ..      13      46 ..      10      50 .. 0.84
+   2 ?    9.0   1.0    0.0047       3.2      62      91 ..      75     104 ..      55     106 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 5.6 bits;  conditional E-value: 0.053
+           K-box 33 lGedlsslslkeLqqLeqqLekslkkiRsrKnql 66
+                    +Ge+   l+++  + Le++ e + k   +rK+ql
+  XP_010242675.2 13 TGEKKRRLNMEQVKTLEKNFELGNKLEPERKMQL 46
+                    6899999999999999999999988888888887 PP
+
+  == domain 2  score: 9.0 bits;  conditional E-value: 0.0047
+           K-box  62 rKnqllleqieelkkkekeleeenkeLrkk 91 
+                     + ++ll+ q e +k  +  l+++nk+L+ +
+  XP_010242675.2  75 KDYELLKRQFEAVKADNDALQAQNKKLHTE 104
+                     446778888888888888888888888776 PP
+
+>> XP_010242413.1  PREDICTED: homeobox-leucine zipper protein ATHB-13 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.3   0.8     0.034        23      33      67 ..      78     112 ..      73     122 .. 0.91
+   2 ?    7.4   1.1     0.014       9.9      63      91 ..     141     169 ..     131     189 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 6.3 bits;  conditional E-value: 0.034
+           K-box  33 lGedlsslslkeLqqLeqqLekslkkiRsrKnqll 67 
+                     +Ge+   l+++  + Le++ e + k   +rK+ql 
+  XP_010242413.1  78 MGEKKRRLNMEQVKTLEKNFELGNKLEPERKMQLA 112
+                     9********************99999999999985 PP
+
+  == domain 2  score: 7.4 bits;  conditional E-value: 0.014
+           K-box  63 KnqllleqieelkkkekeleeenkeLrkk 91 
+                      ++ll+ q e +k  +  l+++nk+L+ +
+  XP_010242413.1 141 DYELLKRQFEAVKSDNDALQAQNKKLHAE 169
+                     45666677777777777777777777655 PP
+
+>> XP_010258316.1  PREDICTED: agamous-like MADS-box protein AGL65 isoform X3 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   2.9       2.5   1.7e+03      68      91 ..     111     134 ..      73     136 .. 0.71
+   2 ?   11.1   5.8    0.0011      0.72       8      69 ..     114     174 ..     108     179 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 0.3 bits;  conditional E-value: 2.5
+           K-box  68 leqieelkkkekeleeenkeLrkk 91 
+                     ++ +eel ++ + l+++ +eL+k+
+  XP_010258316.1 111 TQTVEELTNQSRLLQAQLSELHKR 134
+                     455666666667777666666665 PP
+
+  == domain 2  score: 11.1 bits;  conditional E-value: 0.0011
+           K-box   8 qeelqqelakLkkeienlqrsqRqllGedlsslslkeLqqLeqqLekslkkiRsrKnqllle 69 
+                      eel+++ + L++++++l + + + +  d    +++ L+++e+ L++sl++iR++K+++ ++
+  XP_010258316.1 114 VEELTNQSRLLQAQLSELHKRLSYWTNPDK-IEHIEHLRAMEDSLKESLNQIRTHKENFGKQ 174
+                     445566666666666666666665555332.236899*******************987655 PP
+
+>> XP_010257792.1  PREDICTED: agamous-like MADS-box protein AGL65 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.5       3.6   2.4e+03      16      59 ..      88     131 ..      75     141 .. 0.54
+   2 ?   11.2   2.6   0.00095      0.65      41      65 ..     146     170 ..     110     174 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 3.6
+           K-box  16 akLkkeienlqr..sqRqllGedlsslslkeLqqLeqqLekslkki 59 
+                     + Lkk++++l +  ++  +lG   s+ +++eL +  + L++ l++ 
+  XP_010257792.1  88 EALKKTFKKLDHdvNIQDFLG--ASTQTVEELTNHSRLLQTQLSET 131
+                     445555555544223444444..33345555555555555555544 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.00095
+           K-box  41 slkeLqqLeqqLekslkkiRsrKnq 65 
+                     +++ L+++e+ L++sl++iR++K q
+  XP_010257792.1 146 NIEHLRAMEDSLKESLNQIRAHKFQ 170
+                     7899*******************87 PP
+
+>> XP_010278836.1  PREDICTED: GPCR-type G protein 1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.9   3.1    0.0052       3.5      43      76 ..     187     220 ..     181     236 .. 0.78
+   2 ?    2.8   0.6       0.4   2.7e+02       9      35 ..     247     273 ..     240     285 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 8.9 bits;  conditional E-value: 0.0052
+           K-box  43 keLqqLeqqLekslkkiRsrKnqllleqieelkk 76 
+                      e+++Le+qL +s++   s+K++++l q+e+ + 
+  XP_010278836.1 187 TEIKALERQLMQSIETCISKKKRIILCQMEMERI 220
+                     699*********************9988876443 PP
+
+  == domain 2  score: 2.8 bits;  conditional E-value: 0.4
+           K-box   9 eelqqelakLkkeienlqrsqRqllGe 35 
+                      + +q+++++++e++ l++  +ql  e
+  XP_010278836.1 247 DQKEQDIKSMEAEVQALEELSKQLFLE 273
+                     345678888888888888887777665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (93 nodes)
+Target sequences:                      38191  (18589171 residues searched)
+Passed MSV filter:                      3660  (0.0958341); expected 763.8 (0.02)
+Passed bias filter:                     1359  (0.0355843); expected 763.8 (0.02)
+Passed Vit filter:                       218  (0.00570815); expected 38.2 (0.001)
+Passed Fwd filter:                        57  (0.0014925); expected 0.4 (1e-05)
+Initial search space (Z):              38191  [actual number of targets]
+Domain search space  (domZ):              56  [number of targets reported over threshold]
+# CPU time: 0.35u 0.02s 00:00:00.37 Elapsed: 00:00:00.80
+# Mc/sec: 2141.97
+//
+[ok]

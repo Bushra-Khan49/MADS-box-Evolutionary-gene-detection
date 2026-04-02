@@ -1,0 +1,1062 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00847.AP2.hmm
+# target sequence database:        NIPGR-Plants/Amborella_trichopoda/Atrichopoda_291_v1.0.protein_primaryTranscriptOnly.fa
+# per-dom hits tabular output:     NIPGR_WORK/Amborella_trichopoda/Amborella_trichopoda_AP2.domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       AP2  [M=54]
+Accession:   PF00847.25
+Description: AP2 domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                 -----------
+    2.8e-24   85.7  13.8    4.8e-12   46.5   4.6    2.4  2  evm_27.model.AmTr_v1.0_scaffold00019.64   pacid=31572117 transcript=evm_27
+    1.2e-19   70.9   9.7    8.3e-10   39.4   3.0    2.5  2  evm_27.model.AmTr_v1.0_scaffold00035.43   pacid=31571356 transcript=evm_27
+    1.5e-19   70.6  16.7    4.4e-10   40.2   3.0    2.6  2  evm_27.model.AmTr_v1.0_scaffold00058.233  pacid=31559155 transcript=evm_27
+    1.9e-19   70.2  14.2    1.5e-10   41.7   2.2    2.5  2  evm_27.model.AmTr_v1.0_scaffold00202.3    pacid=31566280 transcript=evm_27
+    1.1e-18   67.9   9.5    5.7e-09   36.7   0.2    2.6  2  evm_27.model.AmTr_v1.0_scaffold00019.292  pacid=31571966 transcript=evm_27
+    1.2e-18   67.7  11.6    5.4e-11   43.2   1.7    2.4  2  evm_27.model.AmTr_v1.0_scaffold00101.2    pacid=31558359 transcript=evm_27
+    7.6e-18   65.1  12.0    1.8e-08   35.1   0.4    2.8  2  evm_27.model.AmTr_v1.0_scaffold00065.42   pacid=31553759 transcript=evm_27
+    9.8e-18   64.8  10.4    1.1e-08   35.8   0.2    2.5  2  evm_27.model.AmTr_v1.0_scaffold00066.6    pacid=31564139 transcript=evm_27
+    2.5e-17   63.5   2.2    4.1e-17   62.8   2.2    1.4  1  evm_27.model.AmTr_v1.0_scaffold00021.144  pacid=31563297 transcript=evm_27
+    3.4e-17   63.0   5.4    4.7e-17   62.6   5.4    1.2  1  evm_27.model.AmTr_v1.0_scaffold00009.85   pacid=31568622 transcript=evm_27
+    1.2e-16   61.3   3.0    2.9e-16   60.1   3.0    1.7  1  evm_27.model.AmTr_v1.0_scaffold00003.101  pacid=31565341 transcript=evm_27
+    1.8e-16   60.7   1.2      3e-16   60.0   1.2    1.3  1  evm_27.model.AmTr_v1.0_scaffold00111.88   pacid=31573662 transcript=evm_27
+    5.4e-16   59.2   2.0    5.4e-16   59.2   2.0    1.6  1  evm_27.model.AmTr_v1.0_scaffold00021.142  pacid=31563270 transcript=evm_27
+    5.7e-16   59.1   0.6    1.1e-15   58.2   0.6    1.5  1  evm_27.model.AmTr_v1.0_scaffold00069.95   pacid=31558117 transcript=evm_27
+    9.5e-16   58.4   0.3    1.4e-15   57.9   0.3    1.2  1  evm_27.model.AmTr_v1.0_scaffold00003.139  pacid=31565495 transcript=evm_27
+    1.2e-15   58.0   0.1      3e-15   56.8   0.1    1.7  1  evm_27.model.AmTr_v1.0_scaffold00056.41   pacid=31568400 transcript=evm_27
+    1.3e-15   58.0   0.2    2.2e-15   57.3   0.2    1.4  1  evm_27.model.AmTr_v1.0_scaffold00111.25   pacid=31573643 transcript=evm_27
+    1.9e-15   57.4   9.1      1e-11   45.5   3.8    2.9  2  evm_27.model.AmTr_v1.0_scaffold00024.229  pacid=31558778 transcript=evm_27
+    2.3e-15   57.2   1.4    3.5e-15   56.6   1.4    1.3  1  evm_27.model.AmTr_v1.0_scaffold00010.176  pacid=31573173 transcript=evm_27
+    3.6e-15   56.5   2.2    7.8e-15   55.5   2.2    1.6  1  evm_27.model.AmTr_v1.0_scaffold00002.489  pacid=31562296 transcript=evm_27
+    3.9e-15   56.5   1.5    6.1e-15   55.8   1.5    1.3  1  evm_27.model.AmTr_v1.0_scaffold00089.56   pacid=31549600 transcript=evm_27
+    5.9e-15   55.9   4.0    8.4e-15   55.4   4.0    1.2  1  evm_27.model.AmTr_v1.0_scaffold00026.86   pacid=31554123 transcript=evm_27
+    6.1e-15   55.8   2.1    1.1e-14   54.9   2.1    1.5  1  evm_27.model.AmTr_v1.0_scaffold00009.83   pacid=31568764 transcript=evm_27
+    9.6e-15   55.2   1.3    2.2e-14   54.0   0.0    2.1  2  evm_27.model.AmTr_v1.0_scaffold00069.106  pacid=31558251 transcript=evm_27
+    9.7e-15   55.2   2.6    9.7e-15   55.2   2.6    1.7  1  evm_27.model.AmTr_v1.0_scaffold00148.56   pacid=31556753 transcript=evm_27
+      1e-14   55.1   0.3    1.7e-14   54.4   0.3    1.4  1  evm_27.model.AmTr_v1.0_scaffold00068.50   pacid=31573378 transcript=evm_27
+      1e-14   55.1   1.8    1.9e-14   54.2   1.8    1.5  1  evm_27.model.AmTr_v1.0_scaffold00022.382  pacid=31552253 transcript=evm_27
+    1.2e-14   54.9   2.5    1.6e-14   54.5   2.5    1.2  1  evm_27.model.AmTr_v1.0_scaffold00115.2    pacid=31566254 transcript=evm_27
+    1.2e-14   54.8   0.8    1.2e-14   54.8   0.8    1.9  1  evm_27.model.AmTr_v1.0_scaffold00021.214  pacid=31563231 transcript=evm_27
+    1.2e-14   54.8   3.9    1.9e-14   54.2   3.9    1.3  1  evm_27.model.AmTr_v1.0_scaffold00017.187  pacid=31570183 transcript=evm_27
+    1.3e-14   54.8   4.0    1.8e-14   54.3   4.0    1.3  1  evm_27.model.AmTr_v1.0_scaffold00129.86   pacid=31551596 transcript=evm_27
+    1.7e-14   54.4   1.0      3e-14   53.6   1.0    1.4  1  evm_27.model.AmTr_v1.0_scaffold00097.53   pacid=31575019 transcript=evm_27
+    1.9e-14   54.3   1.9    2.9e-14   53.6   1.9    1.3  1  evm_27.model.AmTr_v1.0_scaffold00099.26   pacid=31570481 transcript=evm_27
+    2.1e-14   54.1   2.5    2.9e-14   53.7   2.5    1.2  1  evm_27.model.AmTr_v1.0_scaffold00077.195  pacid=31566839 transcript=evm_27
+    2.1e-14   54.1   1.1    3.3e-14   53.5   1.1    1.3  1  evm_27.model.AmTr_v1.0_scaffold00039.49   pacid=31565164 transcript=evm_27
+    2.4e-14   53.9   1.1    5.5e-14   52.7   1.1    1.7  1  evm_27.model.AmTr_v1.0_scaffold00023.14   pacid=31573865 transcript=evm_27
+    2.7e-14   53.7   0.3    4.4e-14   53.1   0.3    1.4  1  evm_27.model.AmTr_v1.0_scaffold00040.196  pacid=31567977 transcript=evm_27
+    2.9e-14   53.6   0.1    4.1e-14   53.2   0.1    1.2  1  evm_27.model.AmTr_v1.0_scaffold00095.55   pacid=31558951 transcript=evm_27
+    3.1e-14   53.5   7.3    4.7e-14   53.0   7.3    1.3  1  evm_27.model.AmTr_v1.0_scaffold00009.86   pacid=31568666 transcript=evm_27
+    3.2e-14   53.5   5.9    5.3e-14   52.8   5.9    1.4  1  evm_27.model.AmTr_v1.0_scaffold00079.2    pacid=31564384 transcript=evm_27
+    4.9e-14   52.9   0.2      1e-13   51.9   0.2    1.6  1  evm_27.model.AmTr_v1.0_scaffold00058.29   pacid=31559307 transcript=evm_27
+    6.5e-14   52.5   3.0    9.4e-14   52.0   3.0    1.3  1  evm_27.model.AmTr_v1.0_scaffold00016.53   pacid=31569781 transcript=evm_27
+    9.5e-14   52.0   4.3    1.6e-13   51.2   4.3    1.4  1  evm_27.model.AmTr_v1.0_scaffold00107.26   pacid=31572432 transcript=evm_27
+      1e-13   51.9   1.3      2e-13   51.0   1.3    1.5  1  evm_27.model.AmTr_v1.0_scaffold00009.427  pacid=31568640 transcript=evm_27
+    1.1e-13   51.8   0.5    1.8e-13   51.1   0.5    1.3  1  evm_27.model.AmTr_v1.0_scaffold00016.247  pacid=31569785 transcript=evm_27
+    1.2e-13   51.6   0.2    2.3e-13   50.7   0.2    1.5  1  evm_27.model.AmTr_v1.0_scaffold00040.194  pacid=31568158 transcript=evm_27
+    1.6e-13   51.3   0.2    2.7e-13   50.6   0.2    1.4  1  evm_27.model.AmTr_v1.0_scaffold00057.212  pacid=31574329 transcript=evm_27
+    1.8e-13   51.1   1.6    3.8e-13   50.1   1.3    1.8  1  evm_27.model.AmTr_v1.0_scaffold00025.407  pacid=31566663 transcript=evm_27
+    1.9e-13   51.0   1.4    3.6e-13   50.1   1.4    1.5  1  evm_27.model.AmTr_v1.0_scaffold00007.391  pacid=31557735 transcript=evm_27
+    2.2e-13   50.8   7.3    2.2e-13   50.8   7.3    1.7  1  evm_27.model.AmTr_v1.0_scaffold00007.27   pacid=31557954 transcript=evm_27
+    3.1e-13   50.4   3.4    4.7e-13   49.8   3.4    1.3  1  evm_27.model.AmTr_v1.0_scaffold00010.54   pacid=31573041 transcript=evm_27
+    3.7e-13   50.1   0.5    5.4e-13   49.6   0.5    1.3  1  evm_27.model.AmTr_v1.0_scaffold00150.32   pacid=31570236 transcript=evm_27
+    4.4e-13   49.9   1.4    6.8e-13   49.3   1.4    1.3  1  evm_27.model.AmTr_v1.0_scaffold00129.96   pacid=31551527 transcript=evm_27
+    4.5e-13   49.8   0.7    7.8e-13   49.1   0.7    1.3  1  evm_27.model.AmTr_v1.0_scaffold00007.392  pacid=31557700 transcript=evm_27
+    4.9e-13   49.7   2.3    4.9e-13   49.7   2.3    1.7  1  evm_27.model.AmTr_v1.0_scaffold00003.102  pacid=31565711 transcript=evm_27
+    5.1e-13   49.6   1.4    7.6e-13   49.1   1.4    1.3  1  evm_27.model.AmTr_v1.0_scaffold00040.172  pacid=31568137 transcript=evm_27
+    1.8e-12   47.9   0.1    2.7e-12   47.3   0.1    1.3  1  evm_27.model.AmTr_v1.0_scaffold00010.303  pacid=31572708 transcript=evm_27
+      2e-12   47.8   2.8      3e-12   47.2   2.8    1.3  1  evm_27.model.AmTr_v1.0_scaffold00010.53   pacid=31573139 transcript=evm_27
+    2.3e-12   47.5   1.1    3.5e-12   47.0   0.1    1.8  1  evm_27.model.AmTr_v1.0_scaffold00095.56   pacid=31559018 transcript=evm_27
+    2.8e-12   47.3   5.3    4.2e-12   46.7   5.3    1.3  1  evm_27.model.AmTr_v1.0_scaffold00010.55   pacid=31573102 transcript=evm_27
+    2.9e-12   47.2   4.5    2.9e-12   47.2   4.5    1.7  1  evm_27.model.AmTr_v1.0_scaffold00049.247  pacid=31574653 transcript=evm_27
+    3.2e-12   47.1   3.9    6.8e-12   46.0   3.9    1.6  1  evm_27.model.AmTr_v1.0_scaffold00077.139  pacid=31566814 transcript=evm_27
+    5.2e-12   46.4   0.2    7.6e-12   45.9   0.2    1.3  1  evm_27.model.AmTr_v1.0_scaffold00019.321  pacid=31571906 transcript=evm_27
+    6.4e-12   46.1   0.4      1e-11   45.5   0.4    1.4  1  evm_27.model.AmTr_v1.0_scaffold00025.300  pacid=31566299 transcript=evm_27
+    8.9e-12   45.7   0.6    1.9e-11   44.6   0.6    1.5  1  evm_27.model.AmTr_v1.0_scaffold00006.294  pacid=31560245 transcript=evm_27
+    1.3e-11   45.2   1.1    3.4e-11   43.8   1.1    1.8  1  evm_27.model.AmTr_v1.0_scaffold00051.83   pacid=31559061 transcript=evm_27
+    2.9e-11   44.1   0.4    4.6e-11   43.4   0.4    1.4  1  evm_27.model.AmTr_v1.0_scaffold00099.104  pacid=31570411 transcript=evm_27
+      3e-11   44.0   0.1      5e-11   43.3   0.1    1.4  1  evm_27.model.AmTr_v1.0_scaffold00099.14   pacid=31570438 transcript=evm_27
+    3.1e-10   40.8   0.1    5.6e-10   39.9   0.1    1.5  1  evm_27.model.AmTr_v1.0_scaffold00069.105  pacid=31558219 transcript=evm_27
+      2e-09   38.1   1.0    3.9e-09   37.2   1.0    1.5  1  evm_27.model.AmTr_v1.0_scaffold00007.249  pacid=31557955 transcript=evm_27
+    4.7e-09   37.0   4.1      1e-08   35.9   4.1    1.6  1  evm_27.model.AmTr_v1.0_scaffold00159.24   pacid=31570822 transcript=evm_27
+    6.7e-07   30.1   1.8      0.021   15.6   0.1    2.8  2  evm_27.model.AmTr_v1.0_scaffold00022.332  pacid=31552227 transcript=evm_27
+    0.00021   22.0   0.1    0.00021   22.0   0.1    1.8  1  evm_27.model.AmTr_v1.0_scaffold00013.233  pacid=31550683 transcript=evm_27
+
+
+Domain annotation for each sequence (and alignments):
+>> evm_27.model.AmTr_v1.0_scaffold00019.64  pacid=31572117 transcript=evm_27.model.AmTr_v1.0_scaffold00019.64 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.5   4.6   1.3e-14   4.8e-12       1      54 []      46     106 ..      46     106 .. 0.93
+   2 !   44.5   1.8   5.8e-14   2.1e-11       1      53 [.     148     199 ..     148     200 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 46.5 bits;  conditional E-value: 1.3e-14
+                                      AP2   1 pkirGVrydkkwgrWvAe......wsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                                              +++rGV++++++gr++A+      w+e++ +k ++++lg y+  e Aara+++a+lk++g+
+  evm_27.model.AmTr_v1.0_scaffold00019.64  46 SVYRGVTRHRWTGRYEAHlwdkncWNESQNKKGRQVYLGAYDDeEAAARAYDLAALKYWGH 106
+                                              68*****************99999999666888**************************96 PP
+
+  == domain 2  score: 44.5 bits;  conditional E-value: 5.8e-14
+                                      AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              +k+rGV ++ + grW+A+   +++++ k+ +lg+y t eeAa a+++a+ +++g
+  evm_27.model.AmTr_v1.0_scaffold00019.64 148 SKYRGVARHHHNGRWEARI--GRVFGNKYLYLGTYATqEEAATAYDMAAIEYRG 199
+                                              69****************8..566777*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00035.43  pacid=31571356 transcript=evm_27.model.AmTr_v1.0_scaffold00035.43 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.4   3.0   2.2e-12   8.3e-10       2      53 ..     177     225 ..     176     226 .. 0.93
+   2 !   35.3   0.6   4.1e-11   1.5e-08       1      53 [.     268     318 ..     268     319 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.4 bits;  conditional E-value: 2.2e-12
+                                      AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  evm_27.model.AmTr_v1.0_scaffold00035.43 177 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 225
+                                              7****************992.....36***********************9987 PP
+
+  == domain 2  score: 35.3 bits;  conditional E-value: 4.1e-11
+                                      AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              +k+rGV+ +k  grW+A+  +  g   kk+++lg +++  eAara+++a+ k +g
+  evm_27.model.AmTr_v1.0_scaffold00035.43 268 SKFRGVTLHK-CGRWEARMGQfLG---KKYVYLGLFDSeVEAARAYDKAAIKCNG 318
+                                              699*******.6******755544...8**********************99776 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00058.233  pacid=31559155 transcript=evm_27.model.AmTr_v1.0_scaffold00058.233 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.2   3.0   1.2e-12   4.4e-10       2      53 ..     115     163 ..     114     164 .. 0.93
+   2 !   39.8   1.7   1.7e-12   6.1e-10       1      53 [.     206     256 ..     206     257 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 40.2 bits;  conditional E-value: 1.2e-12
+                                       AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                                +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  evm_27.model.AmTr_v1.0_scaffold00058.233 115 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 163
+                                               7****************992.....36***********************9987 PP
+
+  == domain 2  score: 39.8 bits;  conditional E-value: 1.7e-12
+                                       AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               +k+rGV+ +k  grW+A+  +  + +kk+++lg ++t  eAara+++a+ +++g
+  evm_27.model.AmTr_v1.0_scaffold00058.233 206 SKYRGVTLHK-CGRWEARMGQ--YLGKKYIYLGLFDTeVEAARAYDKAAIRYNG 256
+                                               69********.6******744..3348***********************9987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00202.3  pacid=31566280 transcript=evm_27.model.AmTr_v1.0_scaffold00202.3 locus=evm_27
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.8   4.4   1.3e-10   4.7e-08       1      53 [.      60     116 ..      60     117 .. 0.84
+   2 !   41.7   2.2   4.2e-13   1.5e-10       1      53 [.     159     210 ..     159     211 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 33.8 bits;  conditional E-value: 1.3e-10
+                                     AP2   1 pkirGVrydkkwgrWvAe.wse...ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                             +++rGV++++++gr++A+ w +   n  ++kk    g y+  e Aara+++a+lk++g
+  evm_27.model.AmTr_v1.0_scaffold00202.3  60 SRFRGVSRHRWTGRFEAHlWDKgswNA-SQKKKGKQGAYDEeESAARAYDLAALKYWG 116
+                                             589****************77766555.5556666677******************98 PP
+
+  == domain 2  score: 41.7 bits;  conditional E-value: 4.2e-13
+                                     AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                             +k+rGV ++ + grW+A+   +++++ k+ +lg+y t eeAa a++ a+ +++g
+  evm_27.model.AmTr_v1.0_scaffold00202.3 159 SKYRGVARHHHNGRWEARI--GRVFGNKYLYLGTYSTqEEAAAAYDIAAIEYRG 210
+                                             69****************8..566777************************997 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00019.292  pacid=31571966 transcript=evm_27.model.AmTr_v1.0_scaffold00019.292 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.7   4.3   1.3e-10   4.9e-08       3      53 ..     141     195 ..     139     196 .. 0.85
+   2 !   36.7   0.2   1.5e-11   5.7e-09       3      53 ..     240     289 ..     238     290 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 33.7 bits;  conditional E-value: 1.3e-10
+                                       AP2   3 irGVrydkkwgrWvAe.wsengkrkk..krfslgkygt.eeAaraAiearlkleg 53 
+                                               +rGV++++++gr++A+ w ++++r    +  + g y+  e+Aara+++a+lk++g
+  evm_27.model.AmTr_v1.0_scaffold00019.292 141 YRGVTRHRWTGRYEAHlWDNSCRREGqsRKGRQGGYDKeEKAARAYDLAALKYWG 195
+                                               9****************977554444676677777******************98 PP
+
+  == domain 2  score: 36.7 bits;  conditional E-value: 1.5e-11
+                                       AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  evm_27.model.AmTr_v1.0_scaffold00019.292 240 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 289
+                                               9***************73..33335************************998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00101.2  pacid=31558359 transcript=evm_27.model.AmTr_v1.0_scaffold00101.2 locus=evm_27
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.5   2.7   2.7e-09   9.9e-07       3      53 ..      53     107 ..      51     108 .. 0.82
+   2 !   43.2   1.7   1.5e-13   5.4e-11       1      53 [.     150     201 ..     150     202 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 29.5 bits;  conditional E-value: 2.7e-09
+                                     AP2   3 irGVrydkkwgrWvAe.wse...ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                             +rGV++++++gr++A+ w +   n+++ kk  + g y+  e Aa+ +++a+lk++g
+  evm_27.model.AmTr_v1.0_scaffold00101.2  53 YRGVTRHRWTGRYEAHlWDKncwNQVQNKK-GRQGAYDDeEAAAHTYDLAALKYWG 107
+                                             9****************7665555544445.55566***9**************98 PP
+
+  == domain 2  score: 43.2 bits;  conditional E-value: 1.5e-13
+                                     AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                             +k+rGV ++ + grW+A+   +++++ k+ +lg+y t eeAa a++ a+ +++g
+  evm_27.model.AmTr_v1.0_scaffold00101.2 150 SKYRGVARHHHNGRWEARI--GRVFGNKYLYLGTYSTqEEAAAAYDIAAIEYRG 201
+                                             69****************8..566777*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00065.42  pacid=31553759 transcript=evm_27.model.AmTr_v1.0_scaffold00065.42 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   3.5   4.8e-11   1.8e-08       2      53 ..     307     362 ..     306     363 .. 0.84
+   2 !   35.1   0.4   4.8e-11   1.8e-08       3      53 ..     407     456 ..     405     456 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 4.8e-11
+                                      AP2   2 kirGVrydkkwgrWvAe.wsengkrkk..krfslgkygt.eeAaraAiearlkleg 53 
+                                               +rGV++++++gr++A+ w +++k+    +  + g y++ e+Aara+++a+lk++g
+  evm_27.model.AmTr_v1.0_scaffold00065.42 307 QYRGVTRHRWTGRYEAHlWDNSCKKEGqtRKGRQGGYDMeEKAARAYDLAALKYWG 362
+                                              7*****************977555444566666677******************98 PP
+
+  == domain 2  score: 35.1 bits;  conditional E-value: 4.8e-11
+                                      AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  evm_27.model.AmTr_v1.0_scaffold00065.42 407 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 456
+                                              9***************73..33335***********************9986 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00066.6  pacid=31564139 transcript=evm_27.model.AmTr_v1.0_scaffold00066.6 locus=evm_27
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.6   5.2   5.9e-10   2.2e-07       3      53 ..     303     357 ..     301     358 .. 0.84
+   2 !   35.8   0.2   2.9e-11   1.1e-08       3      53 ..     402     451 ..     400     452 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 31.6 bits;  conditional E-value: 5.9e-10
+                                     AP2   3 irGVrydkkwgrWvAe.wsengkrkk..krfslgkygt.eeAaraAiearlkleg 53 
+                                             +rGV++++++gr++A+ w ++++r    +  + g y+  e+Aara+++a+lk++g
+  evm_27.model.AmTr_v1.0_scaffold00066.6 303 YRGVTRHRWTGRYEAHlWDNSCRREGqtRKGRQGGYDKeEKAARAYDLAALKYWG 357
+                                             9****************977554444666666777******************98 PP
+
+  == domain 2  score: 35.8 bits;  conditional E-value: 2.9e-11
+                                     AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                             +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  evm_27.model.AmTr_v1.0_scaffold00066.6 402 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 451
+                                             9***************73..33335************************998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00021.144  pacid=31563297 transcript=evm_27.model.AmTr_v1.0_scaffold00021.144 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.8   2.2   1.1e-19   4.1e-17       2      53 ..      87     137 ..      86     138 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 62.8 bits;  conditional E-value: 1.1e-19
+                                       AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               ++rGVr+++ wg+++Ae +++  r+ +r++lg+++t eeAa+a+++a++k++g
+  evm_27.model.AmTr_v1.0_scaffold00021.144  87 HYRGVRRRP-WGKFAAEIRDSS-RQGARVWLGTFDTaEEAAMAYDKAAFKMRG 137
+                                               8********.*******98865.677*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00009.85  pacid=31568622 transcript=evm_27.model.AmTr_v1.0_scaffold00009.85 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.6   5.4   1.3e-19   4.7e-17       2      54 .]      19      70 ..      18      70 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 62.6 bits;  conditional E-value: 1.3e-19
+                                      AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                                             ++rGVr+++ wg+++Ae ++++ r+ +r++lg+++t eeAara+++a+++++gs
+  evm_27.model.AmTr_v1.0_scaffold00009.85 19 HYRGVRRRP-WGKYAAEIRDSN-RHGARVWLGTFDTaEEAARAYDRAAYAMRGS 70
+                                             7********.*******99976.888*************************995 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00003.101  pacid=31565341 transcript=evm_27.model.AmTr_v1.0_scaffold00003.101 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.1   3.0   7.8e-19   2.9e-16       1      53 [.      83     133 ..      83     134 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 60.1 bits;  conditional E-value: 7.8e-19
+                                       AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               +++rG+r+++ wg+W+Ae ++ +   k  r++lg+ygt eeAara++ea+++++g
+  evm_27.model.AmTr_v1.0_scaffold00003.101  83 SVYRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTYGTaEEAARAYDEAAREIRG 133
+                                               68********.*******87642...57************************998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00111.88  pacid=31573662 transcript=evm_27.model.AmTr_v1.0_scaffold00111.88 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.0   1.2     8e-19     3e-16       2      53 ..     142     192 ..     141     193 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 60.0 bits;  conditional E-value: 8e-19
+                                      AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              ++rGVr+++ wg+++Ae ++ n+  + +r++lg+++t  eAara+++a+++l+g
+  evm_27.model.AmTr_v1.0_scaffold00111.88 142 HYRGVRQRP-WGKFAAEIRDpNK--QGARVWLGTFDTaIEAARAYDQAAFRLRG 192
+                                              8********.*******777543..55*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00021.142  pacid=31563270 transcript=evm_27.model.AmTr_v1.0_scaffold00021.142 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   2.0   1.5e-18   5.4e-16       2      53 ..     124     174 ..     123     175 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 1.5e-18
+                                       AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               ++rGVr ++ wg+++Ae +++  r+ +r++lg+++t eeAa+a+++a+l+++g
+  evm_27.model.AmTr_v1.0_scaffold00021.142 124 RYRGVRKRP-WGKYAAEIRDS-TRHGARVWLGTFDTaEEAAMAYDKAALSMRG 174
+                                               7********.*******9885.4888*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00069.95  pacid=31558117 transcript=evm_27.model.AmTr_v1.0_scaffold00069.95 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2   0.6   2.9e-18   1.1e-15       2      53 ..      23      72 ..      22      73 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 2.9e-18
+                                      AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                             +++GVr+++ +grWvAe +++   ++ r +lg+++t eeAara++ea+++l+g
+  evm_27.model.AmTr_v1.0_scaffold00069.95 23 RFIGVRQRP-SGRWVAEIKDSS--QRIRLWLGTFDTaEEAARAYDEAARALRG 72
+                                             689******.9******99854..69*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00003.139  pacid=31565495 transcript=evm_27.model.AmTr_v1.0_scaffold00003.139 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.9   0.3   3.7e-18   1.4e-15       2      53 ..      13      62 ..      12      63 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 57.9 bits;  conditional E-value: 3.7e-18
+                                       AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              k+ GVr+++ +grWvAe +++   +k r +lg+y++ e+Aara++ea+++l+g
+  evm_27.model.AmTr_v1.0_scaffold00003.139 13 KYVGVRQRP-SGRWVAEIKDSA--HKVRLWLGTYDSaEDAARAYDEAAFSLRG 62
+                                              8********.9*******9976..88*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00056.41  pacid=31568400 transcript=evm_27.model.AmTr_v1.0_scaffold00056.41 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.8   0.1   8.1e-18     3e-15       1      53 [.      61     111 ..      61     112 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.8 bits;  conditional E-value: 8.1e-18
+                                      AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              p++rGVr +  wg+Wv+e +e   rkk+r++lg++ t e+Aara++ a+l++ g
+  evm_27.model.AmTr_v1.0_scaffold00056.41  61 PVYRGVRMRN-WGKWVSEIRE--PRKKSRIWLGTFPTpEMAARAHDVAALSIKG 111
+                                              79********.*******876..3579***********************9987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00111.25  pacid=31573643 transcript=evm_27.model.AmTr_v1.0_scaffold00111.25 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.3   0.2   5.9e-18   2.2e-15       1      53 [.      82     132 ..      82     133 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 57.3 bits;  conditional E-value: 5.9e-18
+                                      AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              p++rGVr +  wgrWv+e +e   rkk+r++lg++ t e+Aara++ a+l++ g
+  evm_27.model.AmTr_v1.0_scaffold00111.25  82 PVYRGVRMRN-WGRWVSEIRE--PRKKSRIWLGTFPTpEMAARAHDVAALTIKG 132
+                                              79********.*******876..3579***********************9987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00024.229  pacid=31558778 transcript=evm_27.model.AmTr_v1.0_scaffold00024.229 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.5   3.8   2.8e-14     1e-11       2      53 ..     240     298 ..     239     299 .. 0.87
+   2 !   13.9   0.2    0.0002     0.074       1      35 [.     341     373 ..     341     375 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 45.5 bits;  conditional E-value: 2.8e-14
+                                       AP2   2 kirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                                +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aa+a+++a+lk++g
+  evm_27.model.AmTr_v1.0_scaffold00024.229 240 QYRGVTRHRWTGRYEAHlWDNscrkeGQTRKGRQVYLGGYDKeEKAAKAYDLAALKYWG 298
+                                               7*****************55544454666777*************************98 PP
+
+  == domain 2  score: 13.9 bits;  conditional E-value: 0.0002
+                                       AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgky 35 
+                                               +++rGV+++   grW A+     + + k  +lg++
+  evm_27.model.AmTr_v1.0_scaffold00024.229 341 SVYRGVTRHHQHGRWQARIGR--VAGNKDLYLGTF 373
+                                               68****************733..333599999999 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00010.176  pacid=31573173 transcript=evm_27.model.AmTr_v1.0_scaffold00010.176 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.6   1.4   9.6e-18   3.5e-15       2      53 ..      96     145 ..      95     146 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 56.6 bits;  conditional E-value: 9.6e-18
+                                       AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                                +rGVr++  wg+WvAe   +  ++   ++r +lg+++t eeAa+a+++a++kl+g
+  evm_27.model.AmTr_v1.0_scaffold00010.176  96 LYRGVRQRH-WGKWVAEirlP--KN---RTRLWLGTFDTaEEAALAYDKAAYKLRG 145
+                                               59*******.*******7666..34...7*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00002.489  pacid=31562296 transcript=evm_27.model.AmTr_v1.0_scaffold00002.489 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.5   2.2   2.1e-17   7.8e-15       1      53 [.      31      81 ..      31      82 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.5 bits;  conditional E-value: 2.1e-17
+                                       AP2  1 pkirGVrydkkwgrWvAe....wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              +++rGVr ++ wgr++Ae    w      kk+r +lg+++t eeAara+++a+++l+g
+  evm_27.model.AmTr_v1.0_scaffold00002.489 31 THFRGVRKRP-WGRFAAEirdpW------KKTRKWLGTFDTaEEAARAYDAAARNLRG 81
+                                              689*******.*******77766......489************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00089.56  pacid=31549600 transcript=evm_27.model.AmTr_v1.0_scaffold00089.56 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.8   1.5   1.6e-17   6.1e-15       2      53 ..     242     291 ..     241     292 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 55.8 bits;  conditional E-value: 1.6e-17
+                                      AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               +rGVr++  wg+WvAe   +  ++   ++r++lg+++t eeAa+a++ a++kl+g
+  evm_27.model.AmTr_v1.0_scaffold00089.56 242 LYRGVRQRH-WGKWVAEirlP--RN---RTRVWLGTFDTaEEAALAYDTAAYKLRG 291
+                                              59*******.*******6555..45...8*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00026.86  pacid=31554123 transcript=evm_27.model.AmTr_v1.0_scaffold00026.86 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   4.0   2.3e-17   8.4e-15       3      53 ..     109     157 ..     107     158 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 2.3e-17
+                                      AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              +rGVr ++ wgrW Ae +++   +++r +lg+++t eeAara++ a+++l+g
+  evm_27.model.AmTr_v1.0_scaffold00026.86 109 FRGVRKRP-WGRWSAEIRDR--IGRCRHWLGTFDTaEEAARAYDSAARRLRG 157
+                                              79******.*******9874..579*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00009.83  pacid=31568764 transcript=evm_27.model.AmTr_v1.0_scaffold00009.83 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   2.1   3.1e-17   1.1e-14       2      53 ..     133     183 ..     132     184 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 3.1e-17
+                                      AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              ++rGVr+++ wg+++Ae +++  r+  r++lg++++ e Aa+a+++a+++++g
+  evm_27.model.AmTr_v1.0_scaffold00009.83 133 CYRGVRRRP-WGKYAAEIRDS-TRHGIRVWLGTFDSaEAAALAYDQAAFSMRG 183
+                                              79*******.*******9885.4888*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00069.106  pacid=31558251 transcript=evm_27.model.AmTr_v1.0_scaffold00069.106 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   0.0   6.1e-17   2.2e-14       1      53 [.     196     246 ..     196     247 .. 0.94
+   2 ?   -1.1   0.3       9.7   3.6e+03      39      48 ..     274     283 ..     272     285 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 6.1e-17
+                                       AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               p++rGVr++   g+Wv+e +e n+   k+r++lg+y   e+Aara++ a+l+l+g
+  evm_27.model.AmTr_v1.0_scaffold00069.106 196 PVYRGVRRRS-VGKWVCEVREpNK---KTRIWLGTYPLpEMAARAHDVAALALRG 246
+                                               79********.9******999665...9*************************98 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 9.7
+                                       AP2  39 eAaraAiear 48 
+                                                Aa+aA+e+r
+  evm_27.model.AmTr_v1.0_scaffold00069.106 274 AAALAAEEFR 283
+                                               6999999998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00148.56  pacid=31556753 transcript=evm_27.model.AmTr_v1.0_scaffold00148.56 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   2.6   2.6e-17   9.7e-15       2      54 .]     286     337 ..     285     337 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 2.6e-17
+                                      AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                                              ++rGVr ++ wg+++Ae +++  r+ +r++lg+++t eeAa+a+++a++k++gs
+  evm_27.model.AmTr_v1.0_scaffold00148.56 286 HYRGVRERP-WGKFAAEIRDSA-RHGARIWLGTFNTaEEAALAYDQAAYKMRGS 337
+                                              8********.*******99865.888**************************95 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00068.50  pacid=31573378 transcript=evm_27.model.AmTr_v1.0_scaffold00068.50 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.4   0.3   4.5e-17   1.7e-14       2      53 ..      26      75 ..      25      76 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.4 bits;  conditional E-value: 4.5e-17
+                                      AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                             k+ GVr+++ +grWvAe +++   +k r +lg+y t eeAara++ea++ l+g
+  evm_27.model.AmTr_v1.0_scaffold00068.50 26 KFVGVRQRP-SGRWVAEIKDTT--QKIRMWLGTYETaEEAARAYDEAACLLRG 75
+                                             799******.9******98843..58**********************98887 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00022.382  pacid=31552253 transcript=evm_27.model.AmTr_v1.0_scaffold00022.382 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.2   1.8   5.3e-17   1.9e-14       2      53 ..      29      78 ..      28      79 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.2 bits;  conditional E-value: 5.3e-17
+                                       AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                               +rGVr++  wg+WvAe +e   +k++r +lg + t eeAa+a++ea+++l+g
+  evm_27.model.AmTr_v1.0_scaffold00022.382 29 EYRGVRQRT-WGKWVAEIREP--KKRTRLWLGSFSTaEEAALAYDEAARRLYG 78
+                                              59*******.*******8773..479***********************9998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00115.2  pacid=31566254 transcript=evm_27.model.AmTr_v1.0_scaffold00115.2 locus=evm_27
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.5   2.5   4.3e-17   1.6e-14       2      53 ..      20      69 ..      19      70 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.5 bits;  conditional E-value: 4.3e-17
+                                     AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                            ++rGVr ++ wgr++Ae ++  +    k+r++lg+++t eeAa+a+++a+++ +g
+  evm_27.model.AmTr_v1.0_scaffold00115.2 20 HFRGVRKRP-WGRYAAEIRDpvR----KSRVWLGTFDTaEEAAKAYDAAAREFRG 69
+                                            79*******.*******877533....7************************998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00021.214  pacid=31563231 transcript=evm_27.model.AmTr_v1.0_scaffold00021.214 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   0.8   3.4e-17   1.2e-14       1      53 [.      56     106 ..      56     107 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 3.4e-17
+                                       AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               p++rGVr ++ wg+Wv+e +e   rkk+r++lg + t e+Aa+a++ a+l+l g
+  evm_27.model.AmTr_v1.0_scaffold00021.214  56 PVFRGVRKRR-WGKWVSEIRE--PRKKSRIWLGSFPTaEMAAHAYDVAALNLKG 106
+                                               799*******.*******876..3579************************987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00017.187  pacid=31570183 transcript=evm_27.model.AmTr_v1.0_scaffold00017.187 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.2   3.9   5.2e-17   1.9e-14       2      53 ..     181     230 ..     180     231 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.2 bits;  conditional E-value: 5.2e-17
+                                       AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               ++rGVr+++ wg+W+Ae ++   +k +r++lg+++t e Aara++ea+l+ +g
+  evm_27.model.AmTr_v1.0_scaffold00017.187 181 RYRGVRQRP-WGKWAAEIRDP--HKAARVWLGTFDTaESAARAYDEAALRFRG 230
+                                               7********.*******8763..357***********************9987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00129.86  pacid=31551596 transcript=evm_27.model.AmTr_v1.0_scaffold00129.86 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.3   4.0     5e-17   1.8e-14       2      53 ..      93     142 ..      92     143 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.3 bits;  conditional E-value: 5e-17
+                                      AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               +rG+r+++ wg+W+Ae ++ +   k  r++lg+y t eeAa+a++ea+++++g
+  evm_27.model.AmTr_v1.0_scaffold00129.86  93 SYRGIRRRP-WGKWAAEIRDpR---KGVRVWLGTYSTaEEAAMAYDEAAKRIRG 142
+                                              79*******.*******87642...57************************998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00097.53  pacid=31575019 transcript=evm_27.model.AmTr_v1.0_scaffold00097.53 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   1.0   8.1e-17     3e-14       2      53 ..     125     174 ..     124     175 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 8.1e-17
+                                      AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              k+rGVr+++ wg+W+Ae ++     ++ r +lg+y+t eeAa+ ++ a+ +l+g
+  evm_27.model.AmTr_v1.0_scaffold00097.53 125 KFRGVRQRP-WGKWAAEIRDpA---RRVRLWLGTYDTaEEAAKVYDNAAIQLRG 174
+                                              89*******.*******88842...68*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00099.26  pacid=31570481 transcript=evm_27.model.AmTr_v1.0_scaffold00099.26 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   1.9     8e-17   2.9e-14       3      53 ..      44      92 ..      42      93 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 8e-17
+                                      AP2  3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                             +rGVr++k wg+Wv+e +e g  kk+r++lg + t e+Aa a+++a+l+l g
+  evm_27.model.AmTr_v1.0_scaffold00099.26 44 YRGVRRRK-WGKWVSEIREPG--KKSRIWLGSFETpEMAASAYDAAALSLKG 92
+                                             9*******.*******99966..79***********************9987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00077.195  pacid=31566839 transcript=evm_27.model.AmTr_v1.0_scaffold00077.195 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.7   2.5   7.8e-17   2.9e-14       2      53 ..      38      87 ..      37      88 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.7 bits;  conditional E-value: 7.8e-17
+                                       AP2  2 kirGVrydkkwgrWvAe....wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              ++rGVr ++ wgr++Ae    w      kk+r++lg+++t e Aara+++a+++l+g
+  evm_27.model.AmTr_v1.0_scaffold00077.195 38 RFRGVRKRP-WGRFAAEirdpW------KKSRVWLGTFDTaEAAARAYDAAARSLRG 87
+                                              69*******.*******77766......48*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00039.49  pacid=31565164 transcript=evm_27.model.AmTr_v1.0_scaffold00039.49 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.5   1.1   8.9e-17   3.3e-14       2      53 ..      26      75 ..      25      76 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.5 bits;  conditional E-value: 8.9e-17
+                                      AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              +rGVr++  wg+WvAe +e n+     r +lg++ t eeAa+a++ a +kl+g
+  evm_27.model.AmTr_v1.0_scaffold00039.49 26 AYRGVRQRT-WGKWVAEIREpNK---GDRLWLGTFATsEEAALAYDTASRKLYG 75
+                                             69*******.*******999654...7*********************999987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00023.14  pacid=31573865 transcript=evm_27.model.AmTr_v1.0_scaffold00023.14 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.7   1.1   1.5e-16   5.5e-14       2      53 ..      67     116 ..      66     117 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 52.7 bits;  conditional E-value: 1.5e-16
+                                      AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              ++rGVr++  wg+WvAe +e n   +  r +lg++ t   Aa+a++ea+++++g
+  evm_27.model.AmTr_v1.0_scaffold00023.14  67 NYRGVRQRT-WGKWVAEIREpN---RGNRLWLGTFPTaLAAALAYDEAARAMYG 116
+                                              7********.*******99964...36*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00040.196  pacid=31567977 transcript=evm_27.model.AmTr_v1.0_scaffold00040.196 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.1   0.3   1.2e-16   4.4e-14       2      53 ..      18      67 ..      17      68 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 53.1 bits;  conditional E-value: 1.2e-16
+                                       AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                               +rGVr++k  g+Wv+e +e   rk++r++lg+y t e+Aa a++ a+l+l g
+  evm_27.model.AmTr_v1.0_scaffold00040.196 18 IYRGVRQRK-GGKWVSEIRE--PRKSTRIWLGTYATpEMAAVAYDVAALALKG 67
+                                              69*******.*******876..3579************************987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00095.55  pacid=31558951 transcript=evm_27.model.AmTr_v1.0_scaffold00095.55 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.2   0.1   1.1e-16   4.1e-14       2      53 ..      23      72 ..      22      73 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 53.2 bits;  conditional E-value: 1.1e-16
+                                      AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              +rGVr++k  g+Wv+e +e g  k++r++lg++ t e+Aa a++ a+l+l g
+  evm_27.model.AmTr_v1.0_scaffold00095.55 23 IYRGVRQRK-GGKWVSEIREPG--KSTRIWLGTFATpEMAAIAYDVAALALKG 72
+                                             69*******.*******99966..69***********************9987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00009.86  pacid=31568666 transcript=evm_27.model.AmTr_v1.0_scaffold00009.86 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   7.3   1.3e-16   4.7e-14       2      54 .]      25      76 ..      24      76 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.0 bits;  conditional E-value: 1.3e-16
+                                      AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                                             ++rGVr+++ wg+++Ae +++  r+ +r++lg++ t eeAara+++a+++++gs
+  evm_27.model.AmTr_v1.0_scaffold00009.86 25 RYRGVRRRP-WGKYAAEIRDS-TRQGARVWLGTFYTaEEAARAYDRAAYAMRGS 76
+                                             79*******.*******9884.4778*************************995 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00079.2  pacid=31564384 transcript=evm_27.model.AmTr_v1.0_scaffold00079.2 locus=evm_27
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.8   5.9   1.4e-16   5.3e-14       2      53 ..     116     166 ..     115     167 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 52.8 bits;  conditional E-value: 1.4e-16
+                                     AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                             k++GVr+++ wg+W+Ae ++ +  +k  r++lg+y++ eeAa+a+++a++k+eg
+  evm_27.model.AmTr_v1.0_scaffold00079.2 116 KYKGVRQRR-WGKWAAEIRDpS--KKGVRIWLGTYNSeEEAAKAYERAAKKMEG 166
+                                             8********.*******66533..355*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00058.29  pacid=31559307 transcript=evm_27.model.AmTr_v1.0_scaffold00058.29 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.9   0.2   2.8e-16     1e-13       2      53 ..     111     160 ..     110     161 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 51.9 bits;  conditional E-value: 2.8e-16
+                                      AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              ++ GVr+++ +grWvAe +++   +k r +lg+++t e+Aara++ea++ l+g
+  evm_27.model.AmTr_v1.0_scaffold00058.29 111 RFVGVRQRP-SGRWVAEIKDT--IQKIRLWLGTFDTaEDAARAYDEAACILRG 160
+                                              789******.9******9886..478**********************98877 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00016.53  pacid=31569781 transcript=evm_27.model.AmTr_v1.0_scaffold00016.53 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.0   3.0   2.5e-16   9.4e-14       2      53 ..      51     100 ..      50     101 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 52.0 bits;  conditional E-value: 2.5e-16
+                                      AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              ++rGVr+++ wg+W+Ae ++   +k +r++lg+++t e+Aa a+++a+l+  g
+  evm_27.model.AmTr_v1.0_scaffold00016.53  51 NYRGVRQRP-WGKWAAEIRDP--KKAARVWLGTFDTaEDAAVAYDKAALRFKG 100
+                                              69*******.*******8773..367**********************98765 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00107.26  pacid=31572432 transcript=evm_27.model.AmTr_v1.0_scaffold00107.26 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.2   4.3   4.4e-16   1.6e-13       2      53 ..     138     187 ..     137     188 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 51.2 bits;  conditional E-value: 4.4e-16
+                                      AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              ++rGVr++  wg+WvAe   +     +++ r++lg++ t eeAara+++a++kl+g
+  evm_27.model.AmTr_v1.0_scaffold00107.26 138 VYRGVRQRQ-WGKWVAEirlP-----QRRMRVWLGTFLTaEEAARAYDRAAYKLRG 187
+                                              8********.*******6655.....579*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00009.427  pacid=31568640 transcript=evm_27.model.AmTr_v1.0_scaffold00009.427 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.0   1.3   5.4e-16     2e-13       2      53 ..     223     272 ..     222     273 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 51.0 bits;  conditional E-value: 5.4e-16
+                                       AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                                +rGVr++  wg+WvAe   +  ++   ++r +lg+++t eeAa+a+++ ++kl+g
+  evm_27.model.AmTr_v1.0_scaffold00009.427 223 LYRGVRQRH-WGKWVAEirlP--RN---RTRLWLGTFDTaEEAALAYDREAYKLRG 272
+                                               59*******.*******6555..45...8********************9999997 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00016.247  pacid=31569785 transcript=evm_27.model.AmTr_v1.0_scaffold00016.247 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.1   0.5   4.8e-16   1.8e-13       4      53 ..      42      89 ..      39      90 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 51.1 bits;  conditional E-value: 4.8e-16
+                                       AP2  4 rGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                               GVr+++ wgr++Ae ++ +   +k r +lg+++t eeAa+a+++a++++ g
+  evm_27.model.AmTr_v1.0_scaffold00016.247 42 LGVRRRP-WGRYAAEIRDpS---TKERHWLGTFDTaEEAALAYDRAARSMKG 89
+                                              5******.*******77643...48************************987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00040.194  pacid=31568158 transcript=evm_27.model.AmTr_v1.0_scaffold00040.194 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.7   0.2   6.4e-16   2.3e-13       1      53 [.     169     219 ..     169     220 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 50.7 bits;  conditional E-value: 6.4e-16
+                                       AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               p++rGVr++k  g+Wv+e +e   +kk+r++lg+y + e+Aara++ a  +l+g
+  evm_27.model.AmTr_v1.0_scaffold00040.194 169 PVFRGVRQRK-GGKWVCEIREP--HKKTRIWLGTYTCpEMAARAHDVAVIALRG 219
+                                               799*******.*******8773..479**********************99997 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00057.212  pacid=31574329 transcript=evm_27.model.AmTr_v1.0_scaffold00057.212 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.6   0.2   7.2e-16   2.7e-13       3      53 ..      61     109 ..      59     110 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 50.6 bits;  conditional E-value: 7.2e-16
+                                       AP2   3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               + GVr+++ wgr++Ae ++ +   +k r +lg+++t eeAa+a+++a+l++ g
+  evm_27.model.AmTr_v1.0_scaffold00057.212  61 FLGVRRRP-WGRYAAEIRDpS---TKERHWLGTFDTaEEAALAYDRAALSIKG 109
+                                               66******.*******77643...48***********************9988 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00025.407  pacid=31566663 transcript=evm_27.model.AmTr_v1.0_scaffold00025.407 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   1.3     1e-15   3.8e-13       2      51 ..       6      53 ..       5      56 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 1e-15
+                                       AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkl 51
+                                              k+rGVr++  wg+Wv+e +        k+r++lg++ t eeAara++ea+  +
+  evm_27.model.AmTr_v1.0_scaffold00025.407  6 KYRGVRQRH-WGSWVSEIRHplL----KRRVWLGTFETaEEAARAYDEAAILM 53
+                                              8********.*******743321....5*********************9876 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00007.391  pacid=31557735 transcript=evm_27.model.AmTr_v1.0_scaffold00007.391 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   1.4   9.7e-16   3.6e-13       1      53 [.      25      75 ..      25      76 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 9.7e-16
+                                       AP2  1 pkirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              +k++G+r +k wg+Wv+e   +  n    + r++lg y+t e+Aara+++a ++l+g
+  evm_27.model.AmTr_v1.0_scaffold00007.391 25 SKFKGIRKRK-WGKWVSEvrlP--NS---RERIWLGSYDTaEKAARAYDAAVFCLRG 75
+                                              689*******.*******6665..55...89************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00007.27  pacid=31557954 transcript=evm_27.model.AmTr_v1.0_scaffold00007.27 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.8   7.3     6e-16   2.2e-13       2      53 ..      85     134 ..      84     135 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 50.8 bits;  conditional E-value: 6e-16
+                                      AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              ++rGVr++  wg+WvAe +e   rk++r +lg++ t eeAara+++a+ +l+g
+  evm_27.model.AmTr_v1.0_scaffold00007.27  85 RYRGVRQRS-WGKWVAEIRE--PRKRTRKWLGTFSTaEEAARAYDRAAAALYG 134
+                                              79*******.*******876..3579**********************99987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00010.54  pacid=31573041 transcript=evm_27.model.AmTr_v1.0_scaffold00010.54 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.8   3.4   1.3e-15   4.7e-13       2      53 ..      75     124 ..      74     125 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 49.8 bits;  conditional E-value: 1.3e-15
+                                      AP2   2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              k+rGVr+++ wg+W+Ae ++  +g     r++lg++ t eeAara+++ + +++g
+  evm_27.model.AmTr_v1.0_scaffold00010.54  75 KYRGVRQRP-WGKWAAEIRDphRG----IRVWLGTFETaEEAARAYDAKAVEYRG 124
+                                              8********.*******8886555....*******************98888876 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00150.32  pacid=31570236 transcript=evm_27.model.AmTr_v1.0_scaffold00150.32 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.6   0.5   1.5e-15   5.4e-13       2      53 ..       6      55 ..       5      56 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 49.6 bits;  conditional E-value: 1.5e-15
+                                      AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                             ++rGVr++  wg+Wv+e +        k+r++lg++ t e+Aara++ea++ ++g
+  evm_27.model.AmTr_v1.0_scaffold00150.32  6 RYRGVRQRH-WGSWVSEIRHplL----KTRIWLGTFETaEDAARAYDEAARFMCG 55
+                                             79*******.*******743321....4************************998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00129.96  pacid=31551527 transcript=evm_27.model.AmTr_v1.0_scaffold00129.96 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.3   1.4   1.8e-15   6.8e-13       2      53 ..      92     141 ..      91     142 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 49.3 bits;  conditional E-value: 1.8e-15
+                                      AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              ++rG+r+++ wg+W+Ae ++ g  k  r++lg+++t eeAara+++ +++++g
+  evm_27.model.AmTr_v1.0_scaffold00129.96  92 VFRGIRQRP-WGKWAAEIRDPG--KGVRVWLGTFNTaEEAARAYDAEARRIRG 141
+                                              79*******.*******98855..57*******************99999987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00007.392  pacid=31557700 transcript=evm_27.model.AmTr_v1.0_scaffold00007.392 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   0.7   2.1e-15   7.8e-13       3      53 ..      31      79 ..      30      80 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 2.1e-15
+                                       AP2  3 irGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              ++GVr +k wg+WvAe   +  n    + r++lg y+  e+Aara+++a ++l+g
+  evm_27.model.AmTr_v1.0_scaffold00007.392 31 FKGVRMRK-WGKWVAEvrlP--NS---RERIWLGSYDApEKAARAYDAAVFCLRG 79
+                                              79******.*******6665..55...89************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00003.102  pacid=31565711 transcript=evm_27.model.AmTr_v1.0_scaffold00003.102 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.7   2.3   1.3e-15   4.9e-13       3      53 ..      61     109 ..      59     110 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 49.7 bits;  conditional E-value: 1.3e-15
+                                       AP2   3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               +rG+r+++ wg+W+Ae ++ +   k  r++lg+++t eeAara+++ +++++g
+  evm_27.model.AmTr_v1.0_scaffold00003.102  61 YRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTFNTaEEAARAYDAEAREIRG 109
+                                               9*******.*******87642...57********************9999998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00040.172  pacid=31568137 transcript=evm_27.model.AmTr_v1.0_scaffold00040.172 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   1.4   2.1e-15   7.6e-13       1      53 [.      10      60 ..      10      61 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 2.1e-15
+                                       AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              +++ GVr ++ wgr++Ae +++   +k+r +lg+++t e+Aara+++ +lk+ g
+  evm_27.model.AmTr_v1.0_scaffold00040.172 10 SGYTGVRKRP-WGRFAAEIRDGA--HKRRRWLGTFDTaEDAARAYDAEALKIKG 60
+                                              689*******.********9976..88********************9999987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00010.303  pacid=31572708 transcript=evm_27.model.AmTr_v1.0_scaffold00010.303 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.3   0.1   7.4e-15   2.7e-12       2      48 ..      22      66 ..      21      72 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 47.3 bits;  conditional E-value: 7.4e-15
+                                       AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiear 48
+                                              ++ GVr+++ wgr++Ae ++ n   +k r +lg+++t eeAa+a++++ 
+  evm_27.model.AmTr_v1.0_scaffold00010.303 22 GYLGVRRRP-WGRYAAEIRNpN---TKERHWLGTFDTaEEAALAYDLTS 66
+                                              577******.*******87655...59*******************875 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00010.53  pacid=31573139 transcript=evm_27.model.AmTr_v1.0_scaffold00010.53 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.2   2.8     8e-15     3e-12       2      53 ..      77     126 ..      76     127 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 47.2 bits;  conditional E-value: 8e-15
+                                      AP2   2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              k+rGVr+++ +g+W+Ae ++  +g     r++lg++ t eeAara+++ + +++g
+  evm_27.model.AmTr_v1.0_scaffold00010.53  77 KYRGVRQRP-SGKWAAEIRDphRG----IRVWLGTFETvEEAARAYDAKAVEYRG 126
+                                              8********.9******8886555....*******************98888876 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00095.56  pacid=31559018 transcript=evm_27.model.AmTr_v1.0_scaffold00095.56 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.0   0.1   9.5e-15   3.5e-12       1      53 [.     102     152 ..     102     153 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 47.0 bits;  conditional E-value: 9.5e-15
+                                      AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              p++rGVr +   g+Wv+e +e +   kk+r++lg+y + e+Aara++ a  +l+g
+  evm_27.model.AmTr_v1.0_scaffold00095.56 102 PVFRGVRHRN-GGKWVCEIREpQ---KKSRIWLGTYTCpEMAARAHDVAVIALRG 152
+                                              789*******.*******98844...69**********************99997 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00010.55  pacid=31573102 transcript=evm_27.model.AmTr_v1.0_scaffold00010.55 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.7   5.3   1.1e-14   4.2e-12       2      53 ..      76     125 ..      75     126 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 46.7 bits;  conditional E-value: 1.1e-14
+                                      AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              k+rGVr+++ wg+W+Ae ++   ++  r++lg++ t eeAara+++ + +++g
+  evm_27.model.AmTr_v1.0_scaffold00010.55  76 KYRGVRQRP-WGKWAAEIRDP--HRAIRVWLGTFETaEEAARAYDAKAVEYRG 125
+                                              8********.*******8772..357*******************98888876 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00049.247  pacid=31574653 transcript=evm_27.model.AmTr_v1.0_scaffold00049.247 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.2   4.5   7.9e-15   2.9e-12       2      53 ..      32      81 ..      31      82 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 47.2 bits;  conditional E-value: 7.9e-15
+                                       AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              ++rGVr+++ wgr++Ae ++ +    k r +lg+++t eeAa a+++a+++++g
+  evm_27.model.AmTr_v1.0_scaffold00049.247 32 RYRGVRRRP-WGRYAAEIRDpQS---KERRWLGTFDTaEEAACAYDYAARAMRG 81
+                                              79*******.*******988665...89************************97 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00077.139  pacid=31566814 transcript=evm_27.model.AmTr_v1.0_scaffold00077.139 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.0   3.9   1.9e-14   6.8e-12       2      54 .]     162     212 ..     161     212 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 46.0 bits;  conditional E-value: 1.9e-14
+                                       AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                                                +rGVr++  wgrW+Ae ++   +++ r++lg+y+t eeAa  +++a+ +l+g+
+  evm_27.model.AmTr_v1.0_scaffold00077.139 162 AFRGVRRRQ-WGRWAAEIRD--PFRRVRVWLGTYDTaEEAAAVYDAAAVRLNGH 212
+                                               68*******.*******866..3678**********************999885 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00019.321  pacid=31571906 transcript=evm_27.model.AmTr_v1.0_scaffold00019.321 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.9   0.2   2.1e-14   7.6e-12       2      53 ..      11      60 ..      10      61 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 45.9 bits;  conditional E-value: 2.1e-14
+                                       AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              ++rGVr++  wg+Wv+e +        k+r++lg++ t e+Aa+a++ea++ ++g
+  evm_27.model.AmTr_v1.0_scaffold00019.321 11 RFRGVRQRH-WGSWVSEIRHplL----KTRIWLGTFETaEDAAKAYDEAARLMCG 60
+                                              69*******.*******743321....4**********************99987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00025.300  pacid=31566299 transcript=evm_27.model.AmTr_v1.0_scaffold00025.300 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.5   0.4   2.8e-14     1e-11       1      53 [.      16      66 ..      16      67 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 45.5 bits;  conditional E-value: 2.8e-14
+                                       AP2  1 pkirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              +++rG+r +k wg+Wv+e   ++      + r++lg y++ e+Aara+++a ++l+g
+  evm_27.model.AmTr_v1.0_scaffold00025.300 16 SVFRGIRMRK-WGKWVSEirmPK-----SQLRIWLGSYDSpEKAARAYDAALYCLRG 66
+                                              589*******.*******55553.....359************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00006.294  pacid=31560245 transcript=evm_27.model.AmTr_v1.0_scaffold00006.294 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.6   0.6   5.3e-14   1.9e-11       5      53 ..     110     156 ..     107     157 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 44.6 bits;  conditional E-value: 5.3e-14
+                                       AP2   5 GVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               GVr+++ +grWvAe ++ +   +k r +lg+++  eeAa+a+++a++ l+g
+  evm_27.model.AmTr_v1.0_scaffold00006.294 110 GVRQRP-SGRWVAEIKDaS---QKLRLWLGTFDRaEEAAKAYDAAARILRG 156
+                                               ******.9******98844...59*********************987766 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00051.83  pacid=31559061 transcript=evm_27.model.AmTr_v1.0_scaffold00051.83 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.8   1.1   9.3e-14   3.4e-11       2      53 ..      52     101 ..      51     102 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 43.8 bits;  conditional E-value: 9.3e-14
+                                      AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               +rG+r +  wg+WvAe +e   +k++r++lg y t   Aa+a++ a ++l+g
+  evm_27.model.AmTr_v1.0_scaffold00051.83  52 QYRGIRMRT-WGKWVAEIREP--KKRSRIWLGSYSTpIAAAMAYDTAVFYLRG 101
+                                              69*******.*******8773..479*************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00099.104  pacid=31570411 transcript=evm_27.model.AmTr_v1.0_scaffold00099.104 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.4   0.4   1.3e-13   4.6e-11       3      53 ..      33      81 ..      31      82 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 43.4 bits;  conditional E-value: 1.3e-13
+                                       AP2  3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              +rGVr +  wgr+v+e +e   +kk+r++lg + + e+Aara++ a++ l g
+  evm_27.model.AmTr_v1.0_scaffold00099.104 33 FRGVRKRS-WGRYVSEIREP--KKKTRIWLGSFLSpEMAARAYDSAAFFLKG 81
+                                              8*******.*******8773..479***********************9987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00099.14  pacid=31570438 transcript=evm_27.model.AmTr_v1.0_scaffold00099.14 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.3   0.1   1.4e-13     5e-11       1      53 [.      22      72 ..      22      73 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 43.3 bits;  conditional E-value: 1.4e-13
+                                      AP2  1 pkirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                             p+++G+r++  wg+Wv+e   +++ g     r +lg+y+  e Aa a++ a+l+l+g
+  evm_27.model.AmTr_v1.0_scaffold00099.14 22 PRYKGIRQRQ-WGKWVSEvriPKT-G----ERLWLGTYNNaEAAATAHDTAMLCLRG 72
+                                             79********.*******776644.4....9************************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00069.105  pacid=31558219 transcript=evm_27.model.AmTr_v1.0_scaffold00069.105 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.9   0.1   1.5e-12   5.6e-10       3      53 ..      41      88 ..      39      89 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 39.9 bits;  conditional E-value: 1.5e-12
+                                       AP2  3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                                              +rG+r +   g+Wv+e +e   rk+ r++lg+y t e+Aa a+++a++ l g
+  evm_27.model.AmTr_v1.0_scaffold00069.105 41 FRGIRSRS--GKWVSEIRE--PRKSNRIWLGTYPTpEMAASAYDAAAYFLKG 88
+                                              56766666..******876..2579**********************99987 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00007.249  pacid=31557955 transcript=evm_27.model.AmTr_v1.0_scaffold00007.249 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.2   1.0     1e-11   3.9e-09       1      53 [.      66     114 ..      66     115 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 37.2 bits;  conditional E-value: 1e-11
+                                       AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                               ++++GV   +  grW A+ +e    k++r++lg+++   eAara++ a+lk +g
+  evm_27.model.AmTr_v1.0_scaffold00007.249  66 SRYKGVVPQP-NGRWGAQIYE----KHQRVWLGTFNEeAEAARAYDTAALKFRG 114
+                                               68********.7******877....58************************998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00159.24  pacid=31570822 transcript=evm_27.model.AmTr_v1.0_scaffold00159.24 locus=evm_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.9   4.1   2.7e-11     1e-08       3      53 ..      83     137 ..      81     138 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 35.9 bits;  conditional E-value: 2.7e-11
+                                      AP2   3 irGVrydkkwgrWvAe......wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                                              +rGV++++++gr++A+      w+en+    k    g y+  e Aara+++a+lk++g
+  evm_27.model.AmTr_v1.0_scaffold00159.24  83 YRGVTRHRWTGRYEAHlwdkstWNENQ---NKKGKQGAYDEeEAAARAYDLAALKYWG 137
+                                              9****************7777776654...44445577******************98 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00022.332  pacid=31552227 transcript=evm_27.model.AmTr_v1.0_scaffold00022.332 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.6   0.1   5.8e-05     0.021      33      53 ..     228     249 ..     212     250 .. 0.93
+   2 !   12.9   0.3   0.00043      0.16       3      35 ..     294     324 ..     292     326 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 15.6 bits;  conditional E-value: 5.8e-05
+                                       AP2  33 gkygt.eeAaraAiearlkleg 53 
+                                               g y+  e+Aara+++a+lk++g
+  evm_27.model.AmTr_v1.0_scaffold00022.332 228 GGYDKeEKAARAYDLAALKYWG 249
+                                               569*****************98 PP
+
+  == domain 2  score: 12.9 bits;  conditional E-value: 0.00043
+                                       AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgky 35 
+                                               +rGV+++   grW A+     + + k  +lg++
+  evm_27.model.AmTr_v1.0_scaffold00022.332 294 YRGVTRHHQHGRWQARIGR--VAGNKDLYLGTF 324
+                                               9***************733..333599999998 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00013.233  pacid=31550683 transcript=evm_27.model.AmTr_v1.0_scaffold00013.233 locus=ev
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.0   0.1   5.8e-07   0.00021       4      50 ..     142     183 ..     139     186 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 22.0 bits;  conditional E-value: 5.8e-07
+                                       AP2   4 rGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlk 50 
+                                               rGV+++   ++W A  + +    kk+++lg+ g+ eeAa+++++a+++
+  evm_27.model.AmTr_v1.0_scaffold00013.233 142 RGVYFKN--MKWQAAIKVD----KKQIHLGTVGSqEEAAHLYDRAAFM 183
+                                               9****99..******9776....5*********************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (54 nodes)
+Target sequences:                      26846  (8467214 residues searched)
+Passed MSV filter:                       819  (0.0305073); expected 536.9 (0.02)
+Passed bias filter:                      613  (0.0228339); expected 536.9 (0.02)
+Passed Vit filter:                       117  (0.00435819); expected 26.8 (0.001)
+Passed Fwd filter:                        73  (0.00271921); expected 0.3 (1e-05)
+Initial search space (Z):              26846  [actual number of targets]
+Domain search space  (domZ):              73  [number of targets reported over threshold]
+# CPU time: 0.11u 0.01s 00:00:00.12 Elapsed: 00:00:00.22
+# Mc/sec: 2059.44
+//
+[ok]

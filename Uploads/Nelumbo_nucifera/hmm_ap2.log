@@ -1,0 +1,2161 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00847.AP2.hmm
+# target sequence database:        NIPGR-Plants/Nelumbo_nucifera/protein.faa
+# per-dom hits tabular output:     NIPGR_WORK/Nelumbo_nucifera/Nelumbo_nucifera_AP2.domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       AP2  [M=54]
+Accession:   PF00847.25
+Description: AP2 domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.7e-23   83.7  13.6    1.4e-11   45.6   4.6    2.3  2  XP_010246586.1  PREDICTED: AP2-like ethylene-responsive trans
+      2e-23   83.5  10.4    8.1e-12   46.3   4.1    2.4  2  XP_010254562.1  PREDICTED: AP2-like ethylene-responsive trans
+      2e-23   83.5  10.4    8.1e-12   46.3   4.1    2.4  2  XP_019053013.1  PREDICTED: AP2-like ethylene-responsive trans
+    1.7e-22   80.5  10.2      8e-11   43.1   4.0    2.4  2  XP_010277520.1  PREDICTED: AP2-like ethylene-responsive trans
+    1.7e-22   80.5  10.2      8e-11   43.1   4.0    2.4  2  XP_019055717.1  PREDICTED: AP2-like ethylene-responsive trans
+    1.8e-22   80.4  13.4    6.9e-11   43.3   2.2    2.4  2  XP_010268477.1  PREDICTED: AP2-like ethylene-responsive trans
+    6.3e-22   78.7  10.7    8.6e-11   43.0   1.7    2.6  2  XP_010251652.1  PREDICTED: ethylene-responsive transcription 
+    1.4e-21   77.5  12.1    1.3e-11   45.6   3.4    2.7  2  XP_010261924.1  PREDICTED: AP2-like ethylene-responsive trans
+    1.4e-21   77.5  12.7    1.3e-11   45.7   4.0    2.7  2  XP_010273924.1  PREDICTED: AP2-like ethylene-responsive trans
+    1.6e-21   77.4   9.9    2.4e-11   44.8   3.8    2.5  2  XP_010265446.1  PREDICTED: AP2-like ethylene-responsive trans
+    1.8e-21   77.2  10.1    6.6e-11   43.4   4.7    2.8  2  XP_010257262.1  PREDICTED: AP2-like ethylene-responsive trans
+    2.3e-21   76.9  10.1    6.4e-11   43.4   4.7    2.5  2  XP_010279008.1  PREDICTED: AP2-like ethylene-responsive trans
+    3.3e-21   76.4  10.0      8e-11   43.1   4.7    2.5  2  XP_010241511.1  PREDICTED: AP2-like ethylene-responsive trans
+    7.1e-21   75.3   9.4      1e-09   39.6   3.0    2.5  2  XP_010270526.1  PREDICTED: floral homeotic protein APETALA 2 
+    7.2e-21   75.3   9.4      1e-09   39.6   3.0    2.5  2  XP_010270518.1  PREDICTED: floral homeotic protein APETALA 2 
+    7.7e-21   75.2   9.4      1e-09   39.5   3.0    2.5  2  XP_010270509.1  PREDICTED: floral homeotic protein APETALA 2 
+    8.5e-21   75.1   9.8    1.1e-09   39.5   0.6    2.5  2  XP_010263475.1  PREDICTED: floral homeotic protein APETALA 2 
+    8.6e-21   75.0   9.8    1.1e-09   39.5   0.6    2.5  2  XP_010263474.1  PREDICTED: floral homeotic protein APETALA 2 
+    9.3e-21   74.9  13.8    6.5e-12   46.6   3.1    3.1  2  XP_010248341.1  PREDICTED: AP2-like ethylene-responsive trans
+    1.5e-20   74.3  14.4    6.6e-12   46.6   3.1    3.1  2  XP_010273592.1  PREDICTED: AP2-like ethylene-responsive trans
+    3.2e-20   73.2   9.6    9.2e-10   39.7   3.0    2.4  2  XP_010253488.1  PREDICTED: AP2-like ethylene-responsive trans
+      4e-20   72.9   9.6      1e-09   39.6   3.0    2.3  2  XP_010253486.1  PREDICTED: ethylene-responsive transcription 
+      4e-20   72.9   9.6      1e-09   39.6   3.0    2.3  2  NP_001289775.1  ethylene-responsive transcription factor RAP2
+      4e-20   72.9   9.6      1e-09   39.6   3.0    2.3  2  XP_010260156.1  PREDICTED: ethylene-responsive transcription 
+    7.4e-20   72.1  10.9    4.4e-10   40.8   0.4    2.4  2  XP_010254563.1  PREDICTED: AP2-like ethylene-responsive trans
+    6.3e-19   69.1  10.7    4.2e-10   40.8   0.4    2.5  2  XP_019055718.1  PREDICTED: AP2-like ethylene-responsive trans
+    2.2e-18   67.3  13.9    6.8e-11   43.3   2.2    2.4  2  XP_010268478.1  PREDICTED: AP2-like ethylene-responsive trans
+    1.2e-16   61.7   2.5    2.5e-16   60.8   2.5    1.5  1  XP_010258783.1  PREDICTED: ethylene-responsive transcription 
+    1.3e-16   61.7   3.4    1.9e-16   61.1   3.4    1.3  1  XP_010260390.1  PREDICTED: pathogenesis-related genes transcr
+    2.3e-16   60.9   0.3    2.3e-16   60.9   0.3    2.0  1  XP_010255545.1  PREDICTED: dehydration-responsive element-bin
+    2.5e-16   60.8   2.7    4.8e-16   59.8   2.7    1.5  1  XP_010275423.1  PREDICTED: ethylene-responsive transcription 
+      4e-16   60.1   3.6      6e-16   59.5   3.6    1.3  1  XP_010279206.1  PREDICTED: pathogenesis-related genes transcr
+    4.8e-16   59.8   0.3    4.8e-16   59.8   0.3    2.0  1  XP_010278524.1  PREDICTED: dehydration-responsive element-bin
+      1e-15   58.8   2.5    3.1e-15   57.3   1.4    2.1  2  XP_010260392.1  PREDICTED: ethylene-responsive transcription 
+    1.2e-15   58.6   4.7    1.2e-15   58.6   4.7    1.6  1  XP_010269994.1  PREDICTED: ethylene-responsive transcription 
+    1.2e-15   58.6   1.3    1.2e-15   58.6   1.3    1.8  1  XP_010266557.1  PREDICTED: ethylene-responsive transcription 
+    1.4e-15   58.4   0.1    2.6e-15   57.5   0.1    1.5  1  XP_010249578.1  PREDICTED: dehydration-responsive element-bin
+    1.4e-15   58.3   0.1    2.7e-15   57.4   0.1    1.5  1  XP_010254012.1  PREDICTED: ethylene-responsive transcription 
+    1.4e-15   58.3   3.6    3.4e-15   57.1   3.6    1.6  1  XP_010265708.1  PREDICTED: ethylene-responsive transcription 
+    1.6e-15   58.2   2.6    2.4e-15   57.6   2.6    1.3  1  XP_010260299.1  PREDICTED: ethylene-responsive transcription 
+    1.7e-15   58.1   2.6    2.5e-15   57.5   2.6    1.3  1  XP_010272364.1  PREDICTED: ethylene-responsive transcription 
+    2.6e-15   57.5   0.1    5.1e-15   56.6   0.1    1.5  1  XP_010264429.1  PREDICTED: ethylene-responsive transcription 
+    2.7e-15   57.4   2.1    4.7e-15   56.7   2.1    1.4  1  XP_010257031.1  PREDICTED: dehydration-responsive element-bin
+    2.9e-15   57.4   1.2    2.9e-15   57.4   1.2    2.0  1  XP_010267583.1  PREDICTED: ethylene-responsive transcription 
+    2.9e-15   57.3   1.8    2.9e-15   57.3   1.8    1.8  1  XP_010278126.1  PREDICTED: ethylene-responsive transcription 
+      3e-15   57.3   2.7    4.3e-15   56.8   2.7    1.3  1  XP_010262303.1  PREDICTED: ethylene-responsive transcription 
+    3.6e-15   57.0   1.7    7.7e-15   56.0   1.7    1.6  1  XP_010261262.1  PREDICTED: ethylene-responsive transcription 
+    4.1e-15   56.9   0.1    1.2e-14   55.4   0.1    1.9  1  XP_010264388.1  PREDICTED: ethylene-responsive transcription 
+    5.3e-15   56.5   1.1    9.2e-15   55.7   1.1    1.4  1  XP_010245720.1  PREDICTED: ethylene-responsive transcription 
+    5.6e-15   56.4   2.5    5.6e-15   56.4   2.5    1.7  1  XP_010259468.1  PREDICTED: ethylene-responsive transcription 
+    6.7e-15   56.2   1.1    6.7e-15   56.2   1.1    1.8  1  XP_010262305.1  PREDICTED: ethylene-responsive transcription 
+      7e-15   56.1   4.6    1.1e-14   55.5   4.6    1.3  1  XP_010244800.1  PREDICTED: ethylene-responsive transcription 
+    7.1e-15   56.1   1.7    7.1e-15   56.1   1.7    1.8  1  XP_010269215.1  PREDICTED: ethylene-responsive transcription 
+    7.9e-15   55.9   4.6    1.5e-14   55.1   4.6    1.5  1  XP_010263553.1  PREDICTED: ethylene-responsive transcription 
+    8.8e-15   55.8   2.4    1.4e-14   55.2   2.4    1.3  1  XP_010250515.1  PREDICTED: ethylene-responsive transcription 
+      9e-15   55.8   4.6    1.5e-14   55.1   4.6    1.4  1  XP_010246271.1  PREDICTED: ethylene-responsive transcription 
+    9.1e-15   55.7   4.6    1.5e-14   55.1   4.6    1.3  1  XP_010246270.1  PREDICTED: ethylene-responsive transcription 
+    9.4e-15   55.7   4.6    1.5e-14   55.0   4.6    1.3  1  XP_010261002.1  PREDICTED: ethylene-responsive transcription 
+      1e-14   55.6   2.5    1.7e-14   54.9   2.5    1.4  1  XP_010275428.1  PREDICTED: ethylene-responsive transcription 
+    1.1e-14   55.5   2.5    1.8e-14   54.8   2.5    1.4  1  XP_010258782.1  PREDICTED: ethylene-responsive transcription 
+    1.1e-14   55.5   2.7    1.7e-14   54.9   2.7    1.3  1  XP_010265763.1  PREDICTED: dehydration-responsive element-bin
+    1.1e-14   55.5   1.6    1.5e-14   55.0   1.6    1.2  1  XP_010260298.1  PREDICTED: ethylene-responsive transcription 
+    1.2e-14   55.4   1.2    1.2e-14   55.4   1.2    1.9  1  XP_010274787.1  PREDICTED: ethylene-responsive transcription 
+    1.2e-14   55.3   1.1      2e-14   54.6   1.1    1.4  1  XP_010252581.1  PREDICTED: ethylene-responsive transcription 
+    1.3e-14   55.3   2.2    2.9e-14   54.1   2.2    1.7  1  XP_010254126.1  PREDICTED: dehydration-responsive element-bin
+    1.3e-14   55.2   3.1    2.9e-14   54.1   3.1    1.6  1  XP_010269611.1  PREDICTED: ethylene-responsive transcription 
+    1.4e-14   55.1   2.4    1.5e-14   55.1   1.6    1.4  1  XP_010272367.1  PREDICTED: ethylene-responsive transcription 
+    1.6e-14   55.0   0.2    2.5e-14   54.3   0.2    1.4  1  XP_010257631.1  PREDICTED: ethylene-responsive transcription 
+    1.6e-14   55.0   2.2    2.3e-14   54.4   2.2    1.3  1  XP_010257316.1  PREDICTED: dehydration-responsive element-bin
+    1.7e-14   54.9   2.3    3.2e-14   54.0   2.3    1.5  1  XP_010249458.1  PREDICTED: ethylene-responsive transcription 
+    1.7e-14   54.9   0.2      4e-14   53.7   0.2    1.7  1  XP_010258834.1  PREDICTED: ethylene-responsive transcription 
+    1.7e-14   54.9   4.8    6.3e-13   49.8   4.4    2.4  2  XP_010247507.1  PREDICTED: AP2-like ethylene-responsive trans
+    2.1e-14   54.6   0.1      4e-14   53.7   0.1    1.5  1  XP_010243826.1  PREDICTED: dehydration-responsive element-bin
+    2.4e-14   54.4   3.1    3.5e-14   53.9   3.1    1.3  1  XP_010274790.1  PREDICTED: ethylene-responsive transcription 
+    2.8e-14   54.2   2.6      6e-14   53.1   2.6    1.6  1  XP_010252020.1  PREDICTED: pathogenesis-related genes transcr
+    3.6e-14   53.9   3.1    3.6e-14   53.9   3.1    1.5  1  XP_010274789.1  PREDICTED: ethylene-responsive transcription 
+    4.4e-14   53.6   0.7    4.4e-14   53.6   0.7    1.9  1  XP_010251534.1  PREDICTED: ethylene-responsive transcription 
+    4.6e-14   53.5   0.8    9.8e-14   52.4   0.8    1.6  1  XP_010249334.1  PREDICTED: ethylene-responsive transcription 
+    4.6e-14   53.5   0.5    6.8e-14   53.0   0.5    1.3  1  XP_010270056.1  PREDICTED: ethylene-responsive transcription 
+    4.8e-14   53.4   0.7    4.8e-14   53.4   0.7    2.3  2  XP_010261483.1  PREDICTED: ethylene-responsive transcription 
+    5.1e-14   53.4   0.8    9.7e-14   52.5   0.8    1.5  1  XP_010250477.2  PREDICTED: ethylene-responsive transcription 
+    5.1e-14   53.3   1.9      7e-14   52.9   1.9    1.2  1  XP_010274866.1  PREDICTED: ethylene-responsive transcription 
+    5.2e-14   53.3   2.1      8e-14   52.7   2.1    1.3  1  XP_010271525.1  PREDICTED: dehydration-responsive element-bin
+    5.4e-14   53.3   0.2    9.1e-14   52.5   0.2    1.4  1  XP_010244551.1  PREDICTED: pathogenesis-related genes transcr
+    5.9e-14   53.2   4.2    1.1e-13   52.3   4.2    1.5  1  XP_010261539.1  PREDICTED: ethylene-responsive transcription 
+    5.9e-14   53.1   0.9    8.5e-14   52.6   0.9    1.3  1  XP_010243654.1  PREDICTED: dehydration-responsive element-bin
+    6.7e-14   53.0   0.8    9.8e-14   52.4   0.8    1.3  1  XP_010273874.1  PREDICTED: ethylene-responsive transcription 
+      7e-14   52.9   2.0    1.1e-13   52.2   2.0    1.4  1  XP_010274788.1  PREDICTED: ethylene-responsive transcription 
+    7.6e-14   52.8   5.1    1.2e-13   52.2   5.1    1.3  1  XP_010260885.1  PREDICTED: ethylene-responsive transcription 
+    9.9e-14   52.4   2.5    1.6e-13   51.8   2.5    1.3  1  XP_010274030.1  PREDICTED: ethylene-responsive transcription 
+      1e-13   52.4   0.1      1e-13   52.4   0.1    1.5  1  XP_010242642.1  PREDICTED: dehydration-responsive element-bin
+    1.2e-13   52.2   1.4    1.6e-13   51.7   1.4    1.2  1  XP_010262304.1  PREDICTED: ethylene-responsive transcription 
+    2.2e-13   51.3   0.1      3e-13   50.9   0.1    1.2  1  XP_019052225.1  PREDICTED: LOW QUALITY PROTEIN: ethylene-resp
+    2.2e-13   51.3   4.1    4.1e-13   50.5   4.1    1.4  1  XP_010263592.1  PREDICTED: ethylene-responsive transcription 
+    2.5e-13   51.2   1.0    3.7e-13   50.6   1.0    1.3  1  XP_010245316.1  PREDICTED: ethylene-responsive transcription 
+    5.8e-13   50.0   0.0    9.7e-13   49.3   0.0    1.4  1  XP_010242644.1  PREDICTED: ethylene-responsive transcription 
+    6.9e-13   49.7   1.1      1e-12   49.2   1.1    1.2  1  XP_010242006.1  PREDICTED: ethylene-responsive transcription 
+    7.5e-13   49.6   0.9    1.1e-12   49.1   0.9    1.3  1  XP_010273875.1  PREDICTED: ethylene-responsive transcription 
+    7.8e-13   49.6   0.3    1.4e-12   48.8   0.3    1.4  1  XP_010241855.1  PREDICTED: ethylene-responsive transcription 
+    8.1e-13   49.5   1.8    1.2e-12   48.9   1.8    1.3  1  XP_010261769.1  PREDICTED: ethylene-responsive transcription 
+    8.2e-13   49.5   2.3    1.4e-12   48.7   2.3    1.4  1  XP_010241385.1  PREDICTED: ethylene-responsive transcription 
+    8.6e-13   49.4   2.4    1.5e-12   48.6   2.4    1.4  1  XP_010251056.1  PREDICTED: ethylene-responsive transcription 
+    8.8e-13   49.4   0.3    1.4e-12   48.8   0.3    1.3  1  XP_010243538.1  PREDICTED: ethylene-responsive transcription 
+    9.3e-13   49.3   2.4    1.5e-12   48.7   2.4    1.3  1  XP_010249428.1  PREDICTED: ethylene-responsive transcription 
+    9.4e-13   49.3   4.0    9.4e-13   49.3   4.0    1.6  1  XP_010271250.1  PREDICTED: ethylene-responsive transcription 
+    9.8e-13   49.2   3.1    9.8e-13   49.2   3.1    1.8  1  XP_010259467.1  PREDICTED: ethylene-responsive transcription 
+      1e-12   49.2   3.7      1e-12   49.2   3.7    1.7  1  XP_010265156.1  PREDICTED: ethylene-responsive transcription 
+      1e-12   49.2   3.7      1e-12   49.2   3.7    1.7  1  XP_010265157.1  PREDICTED: ethylene-responsive transcription 
+    1.1e-12   49.1   3.2    1.1e-12   49.1   3.2    1.7  1  XP_010269613.1  PREDICTED: ethylene-responsive transcription 
+    1.5e-12   48.7   0.3    2.7e-12   47.8   0.3    1.5  1  XP_010245546.1  PREDICTED: ethylene-responsive transcription 
+    1.5e-12   48.6   0.3    2.6e-12   47.9   0.3    1.4  1  XP_010265679.1  PREDICTED: ethylene-responsive transcription 
+    1.6e-12   48.5   1.1      3e-12   47.7   1.1    1.5  1  XP_010250110.1  PREDICTED: ethylene-responsive transcription 
+    1.7e-12   48.5   0.5    2.5e-12   47.9   0.5    1.3  1  XP_010274320.1  PREDICTED: ethylene-responsive transcription 
+    2.2e-12   48.1   0.6    3.4e-12   47.5   0.6    1.3  1  XP_010272800.1  PREDICTED: ethylene-responsive transcription 
+    2.7e-12   47.8   1.1    2.7e-12   47.8   1.1    1.7  1  XP_010254403.1  PREDICTED: ethylene-responsive transcription 
+    2.8e-12   47.8   3.9    5.3e-12   46.9   3.9    1.5  1  XP_010261706.1  PREDICTED: ethylene-responsive transcription 
+    2.8e-12   47.8   3.9    5.3e-12   46.9   3.9    1.5  1  XP_010261707.1  PREDICTED: ethylene-responsive transcription 
+    2.9e-12   47.7   3.9    5.2e-12   46.9   3.9    1.5  1  XP_010273830.1  PREDICTED: ethylene-responsive transcription 
+    3.3e-12   47.6   1.9    5.6e-12   46.8   1.9    1.4  1  XP_010263467.1  PREDICTED: ethylene-responsive transcription 
+    3.5e-12   47.5   0.3    5.4e-12   46.9   0.3    1.3  1  XP_010264771.1  PREDICTED: dehydration-responsive element-bin
+    5.7e-12   46.8   0.3    9.2e-12   46.1   0.3    1.4  1  XP_010262228.1  PREDICTED: ethylene-responsive transcription 
+    7.6e-12   46.4  10.3    9.8e-10   39.6   3.0    2.7  2  XP_010253487.1  PREDICTED: ethylene-responsive transcription 
+    9.3e-12   46.1   1.5    1.5e-11   45.5   1.5    1.3  1  XP_010270594.1  PREDICTED: ethylene-responsive transcription 
+      1e-11   46.0  10.6    9.6e-10   39.7   3.0    2.7  2  XP_010260158.1  PREDICTED: ethylene-responsive transcription 
+    1.4e-11   45.6   0.2    2.4e-11   44.8   0.2    1.4  1  XP_010242028.1  PREDICTED: ethylene-responsive transcription 
+    2.2e-11   44.9   0.4    3.6e-11   44.2   0.4    1.4  1  XP_010265482.1  PREDICTED: ethylene-responsive transcription 
+    3.6e-11   44.2   0.0      6e-11   43.5   0.0    1.4  1  XP_010255544.1  PREDICTED: ethylene-responsive transcription 
+    4.3e-11   44.0   0.3    8.1e-11   43.1   0.3    1.4  1  XP_010252352.1  PREDICTED: ethylene-responsive transcription 
+      5e-11   43.8   0.0    8.8e-11   43.0   0.0    1.4  1  XP_010278525.1  PREDICTED: ethylene-responsive transcription 
+    7.6e-11   43.2   0.0    1.7e-10   42.1   0.0    1.6  1  XP_010264432.1  PREDICTED: dehydration-responsive element-bin
+      9e-11   43.0   3.7    3.8e-09   37.8   3.4    2.3  2  XP_010247508.1  PREDICTED: AP2-like ethylene-responsive trans
+    6.2e-10   40.3   0.6    1.3e-09   39.2   0.6    1.6  1  XP_010265251.1  PREDICTED: AP2/ERF and B3 domain-containing t
+    6.7e-10   40.2   0.6    1.3e-09   39.2   0.6    1.5  1  XP_010262942.1  PREDICTED: AP2/ERF and B3 domain-containing t
+    1.9e-09   38.7   0.0    2.6e-09   38.3   0.0    1.2  1  XP_010267890.1  PREDICTED: ethylene-responsive transcription 
+    5.3e-08   34.1   0.2    5.3e-08   34.1   0.2    2.3  2  XP_010249446.1  PREDICTED: AP2/ERF and B3 domain-containing t
+    1.6e-07   32.6   0.9    4.9e-07   31.0   0.5    2.1  1  XP_010246118.1  PREDICTED: B3 domain-containing protein At2g3
+    2.5e-07   31.9   0.4    5.1e-07   30.9   0.4    1.6  1  XP_010259177.1  PREDICTED: AP2/ERF and B3 domain-containing t
+    1.1e-06   29.9   0.1    1.7e-06   29.3   0.1    1.3  1  XP_019052030.1  PREDICTED: dehydration-responsive element-bin
+    4.4e-06   28.0   0.1    1.1e-05   26.7   0.1    1.7  1  XP_010262926.1  PREDICTED: B3 domain-containing protein At2g3
+    6.8e-05   24.1   0.2    6.8e-05   24.1   0.2    2.7  2  XP_010242670.1  PREDICTED: ethylene-responsive transcription 
+    6.8e-05   24.1   0.2    6.8e-05   24.1   0.2    2.7  2  XP_019051495.1  PREDICTED: ethylene-responsive transcription 
+    6.8e-05   24.1   0.2    6.8e-05   24.1   0.2    2.7  2  XP_019051496.1  PREDICTED: ethylene-responsive transcription 
+    0.00011   23.5   0.2    0.00011   23.5   0.2    2.6  2  XP_019051494.1  PREDICTED: ethylene-responsive transcription 
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_010246586.1  PREDICTED: AP2-like ethylene-responsive transcription factor At1g16060 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.6   4.6   5.2e-14   1.4e-11       3      53 ..      48     105 ..      46     106 .. 0.96
+   2 !   43.4   1.6   2.4e-13   6.4e-11       1      53 [.     148     199 ..     148     200 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 45.6 bits;  conditional E-value: 5.2e-14
+             AP2   3 irGVrydkkwgrWvAe......wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+      wse++k+k ++++lg y+  e Aa+a++ a+lk++g
+  XP_010246586.1  48 YRGVTRHRWTGRYEAHlwdkncWSESQKKKGRQVYLGAYDDeEAAAHAYDSAALKYWG 105
+                     9*********************999999999*************************98 PP
+
+  == domain 2  score: 43.4 bits;  conditional E-value: 2.4e-13
+             AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV ++ + grW+A+   +++++ k+ +lg++ t eeAa a++ a+ +++g
+  XP_010246586.1 148 SKYRGVARHHHNGRWEARI--GRVFGNKYLYLGTFATqEEAAAAYDIAAIEYRG 199
+                     69****************8..566777*************************98 PP
+
+>> XP_010254562.1  PREDICTED: AP2-like ethylene-responsive transcription factor AIL7 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.3   4.1     3e-14   8.1e-12       1      53 [.     235     294 ..     235     295 .. 0.88
+   2 !   40.7   0.4   1.7e-12   4.4e-10       3      53 ..     339     388 ..     337     388 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 46.3 bits;  conditional E-value: 3e-14
+             AP2   1 pkirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +++rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  XP_010254562.1 235 SVYRGVTRHRWTGRYEAHlWDNscrreGQTRKGRQVYLGGYDKeEKAARAYDLAALKYWG 294
+                     68*****************65544454666777*************************98 PP
+
+  == domain 2  score: 40.7 bits;  conditional E-value: 1.7e-12
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++  +grW A+    ++ + k  +lg++gt eeAa+a++ a+ k +g
+  XP_010254562.1 339 YRGVTRHHQQGRWQARIG--RVAGNKDLYLGTFGTeEEAAEAYDIAAIKFRG 388
+                     9***************73..33335***********************9986 PP
+
+>> XP_019053013.1  PREDICTED: AP2-like ethylene-responsive transcription factor AIL7 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.3   4.1     3e-14   8.1e-12       1      53 [.     235     294 ..     235     295 .. 0.88
+   2 !   40.7   0.4   1.7e-12   4.4e-10       3      53 ..     339     388 ..     337     388 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 46.3 bits;  conditional E-value: 3e-14
+             AP2   1 pkirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +++rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  XP_019053013.1 235 SVYRGVTRHRWTGRYEAHlWDNscrreGQTRKGRQVYLGGYDKeEKAARAYDLAALKYWG 294
+                     68*****************65544454666777*************************98 PP
+
+  == domain 2  score: 40.7 bits;  conditional E-value: 1.7e-12
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++  +grW A+    ++ + k  +lg++gt eeAa+a++ a+ k +g
+  XP_019053013.1 339 YRGVTRHHQQGRWQARIG--RVAGNKDLYLGTFGTeEEAAEAYDIAAIKFRG 388
+                     9***************73..33335***********************9986 PP
+
+>> XP_010277520.1  PREDICTED: AP2-like ethylene-responsive transcription factor AIL6 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.1   4.0     3e-13     8e-11       3      53 ..     224     281 ..     222     282 .. 0.87
+   2 !   40.8   0.4   1.6e-12   4.3e-10       3      53 ..     326     375 ..     324     375 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 43.1 bits;  conditional E-value: 3e-13
+             AP2   3 irGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  XP_010277520.1 224 YRGVTRHRWTGRYEAHlWDNscrreGQTRKGRQVYLGGYDReEKAARAYDLAALKYWG 281
+                     9****************65544454666777*************************98 PP
+
+  == domain 2  score: 40.8 bits;  conditional E-value: 1.6e-12
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++  +grW A+    ++ + k  +lg++gt eeAa+a++ a+ k +g
+  XP_010277520.1 326 YRGVTRHHQQGRWQARIG--RVAGNKDLYLGTFGTeEEAAEAYDIAAIKFRG 375
+                     9***************73..33335***********************9986 PP
+
+>> XP_019055717.1  PREDICTED: AP2-like ethylene-responsive transcription factor AIL6 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.1   4.0     3e-13     8e-11       3      53 ..     224     281 ..     222     282 .. 0.87
+   2 !   40.8   0.4   1.6e-12   4.3e-10       3      53 ..     326     375 ..     324     375 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 43.1 bits;  conditional E-value: 3e-13
+             AP2   3 irGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  XP_019055717.1 224 YRGVTRHRWTGRYEAHlWDNscrreGQTRKGRQVYLGGYDReEKAARAYDLAALKYWG 281
+                     9****************65544454666777*************************98 PP
+
+  == domain 2  score: 40.8 bits;  conditional E-value: 1.6e-12
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++  +grW A+    ++ + k  +lg++gt eeAa+a++ a+ k +g
+  XP_019055717.1 326 YRGVTRHHQQGRWQARIG--RVAGNKDLYLGTFGTeEEAAEAYDIAAIKFRG 375
+                     9***************73..33335***********************9986 PP
+
+>> XP_010268477.1  PREDICTED: AP2-like ethylene-responsive transcription factor At1g16060 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.5   3.7   4.8e-13   1.3e-10       3      53 ..     140     197 ..     138     198 .. 0.93
+   2 !   43.3   2.2   2.6e-13   6.9e-11       1      53 [.     240     291 ..     240     292 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 42.5 bits;  conditional E-value: 4.8e-13
+             AP2   3 irGVrydkkwgrWvAe......wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+      w+e++ +k ++++lg y+  e Aa+a+++a+lk++g
+  XP_010268477.1 140 FRGVTRHRWTGRYEAHlwdkncWNESQNKKGRQVYLGAYNEeEAAAHAYDLAALKYWG 197
+                     8****************99999999666888*************************98 PP
+
+  == domain 2  score: 43.3 bits;  conditional E-value: 2.6e-13
+             AP2   1 pkirGVrydkkwgrWvAewsengkrkk..krfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV ++ + grW+A+    g r +  k+ +lg+y t eeAa a+++a+ +++g
+  XP_010268477.1 240 SKYRGVARHHHNGRWEARI---G-RVYgnKYLYLGTYATqEEAAIAYDMAAIEYRG 291
+                     69****************7...3.22333*************************98 PP
+
+>> XP_010251652.1  PREDICTED: ethylene-responsive transcription factor WRI1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.6   1.4   1.8e-12   4.9e-10       3      53 ..      54     111 ..      52     112 .. 0.84
+   2 !   43.0   1.7   3.2e-13   8.6e-11       1      53 [.     154     205 ..     154     206 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 40.6 bits;  conditional E-value: 1.8e-12
+             AP2   3 irGVrydkkwgrWvAe.wse......ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+ w +      ++ +k ++++lg y+  e Aa+ +++a+lk++g
+  XP_010251652.1  54 YRGVTRHRWTGRYEAHlWDKnswnpiQN-KKGRQVYLGAYDDeEAAAHTYDLAALKYWG 111
+                     9****************65544433543.666*************************98 PP
+
+  == domain 2  score: 43.0 bits;  conditional E-value: 3.2e-13
+             AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV ++ + grW+A+   +++++ k+ +lg+y t eeAa a++ a+ +++g
+  XP_010251652.1 154 SKYRGVARHHHNGRWEARI--GRVFGNKYLYLGTYSTeEEAAAAYDIAAIEYRG 205
+                     69****************8..566777*************************98 PP
+
+>> XP_010261924.1  PREDICTED: AP2-like ethylene-responsive transcription factor AIL1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.6   3.4     5e-14   1.3e-11       2      53 ..     258     316 ..     257     317 .. 0.87
+   2 !   37.5   0.4   1.7e-11   4.6e-09       1      53 [.     359     410 ..     359     411 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 45.6 bits;  conditional E-value: 5e-14
+             AP2   2 kirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  XP_010261924.1 258 QYRGVTRHRWTGRYEAHlWDNscrkeGQTRKGRQVYLGGYDNeEKAARAYDLAALKYWG 316
+                     7*****************55544454666777*************************98 PP
+
+  == domain 2  score: 37.5 bits;  conditional E-value: 1.7e-11
+             AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +++rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  XP_010261924.1 359 SVYRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 410
+                     68****************73..33335***********************9987 PP
+
+>> XP_010273924.1  PREDICTED: AP2-like ethylene-responsive transcription factor AIL1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.7   4.0   4.8e-14   1.3e-11       2      53 ..     261     319 ..     260     320 .. 0.87
+   2 !   37.5   0.4   1.7e-11   4.6e-09       1      53 [.     362     413 ..     362     414 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 45.7 bits;  conditional E-value: 4.8e-14
+             AP2   2 kirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  XP_010273924.1 261 QYRGVTRHRWTGRYEAHlWDNscrkeGQTRKGRQVYLGGYDKeEKAARAYDLAALKYWG 319
+                     7*****************55544454666777*************************98 PP
+
+  == domain 2  score: 37.5 bits;  conditional E-value: 1.7e-11
+             AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +++rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  XP_010273924.1 362 SVYRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 413
+                     68****************73..33335***********************9987 PP
+
+>> XP_010265446.1  PREDICTED: AP2-like ethylene-responsive transcription factor AIL5 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.8   3.8   9.1e-14   2.4e-11       3      53 ..     171     228 ..     169     229 .. 0.85
+   2 !   35.7   0.4   6.1e-11   1.6e-08       3      53 ..     273     322 ..     271     322 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 44.8 bits;  conditional E-value: 9.1e-14
+             AP2   3 irGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  XP_010265446.1 171 YRGVTRHRWTGRYEAHlWDNscrreGQSRKGRQVYLGGYDKeEKAARAYDLAALKYWG 228
+                     9****************66644453444555*************************98 PP
+
+  == domain 2  score: 35.7 bits;  conditional E-value: 6.1e-11
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  XP_010265446.1 273 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 322
+                     9***************73..33335***********************9986 PP
+
+>> XP_010257262.1  PREDICTED: AP2-like ethylene-responsive transcription factor PLT2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.4   4.7   2.5e-13   6.6e-11       3      53 ..     163     220 ..     161     221 .. 0.85
+   2 !   36.2   0.2   4.2e-11   1.1e-08       3      53 ..     265     314 ..     263     315 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 43.4 bits;  conditional E-value: 2.5e-13
+             AP2   3 irGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  XP_010257262.1 163 YRGVTRHRWTGRYEAHlWDNscrreGQSRKGRQVYLGGYDKeEKAARAYDLAALKYWG 220
+                     9****************66644453444555*************************98 PP
+
+  == domain 2  score: 36.2 bits;  conditional E-value: 4.2e-11
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  XP_010257262.1 265 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTeEEAAEAYDIAAIKFRG 314
+                     9***************73..33335************************998 PP
+
+>> XP_010279008.1  PREDICTED: AP2-like ethylene-responsive transcription factor PLT2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.4   4.7   2.4e-13   6.4e-11       3      53 ..     159     216 ..     157     217 .. 0.85
+   2 !   36.3   0.2   4.1e-11   1.1e-08       3      53 ..     261     310 ..     259     311 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 43.4 bits;  conditional E-value: 2.4e-13
+             AP2   3 irGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  XP_010279008.1 159 YRGVTRHRWTGRYEAHlWDNscrreGQSRKGRQVYLGGYDKeEKAARAYDLAALKYWG 216
+                     9****************66644453444555*************************98 PP
+
+  == domain 2  score: 36.3 bits;  conditional E-value: 4.1e-11
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  XP_010279008.1 261 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTeEEAAEAYDIAAIKFRG 310
+                     9***************73..33335************************998 PP
+
+>> XP_010241511.1  PREDICTED: AP2-like ethylene-responsive transcription factor BBM1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.1   4.7     3e-13     8e-11       3      53 ..     329     386 ..     327     387 .. 0.87
+   2 !   35.9   0.2   5.4e-11   1.5e-08       3      53 ..     431     480 ..     429     481 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 43.1 bits;  conditional E-value: 3e-13
+             AP2   3 irGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+ w +     ++ rk ++++lg y+  e+Aara+++a+lk++g
+  XP_010241511.1 329 YRGVTRHRWTGRYEAHlWDNscrreGQTRKGRQVYLGGYDKeEKAARAYDLAALKYWG 386
+                     9****************65544454666777*************************98 PP
+
+  == domain 2  score: 35.9 bits;  conditional E-value: 5.4e-11
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  XP_010241511.1 431 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 480
+                     9***************73..33335************************998 PP
+
+>> XP_010270526.1  PREDICTED: floral homeotic protein APETALA 2 isoform X3 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   3.0   3.8e-12     1e-09       2      53 ..     153     201 ..     152     202 .. 0.93
+   2 !   39.3   0.5   4.6e-12   1.2e-09       1      53 [.     244     294 ..     244     295 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 3.8e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  XP_010270526.1 153 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 201
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 39.3 bits;  conditional E-value: 4.6e-12
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV+ +k  grW+A+  +  g   kk+++lg ++t  eAara+++a+ k +g
+  XP_010270526.1 244 SKFRGVTLHK-CGRWEARMGQfLG---KKYVYLGLFDTeIEAARAYDKAAIKFNG 294
+                     699*******.6******755544...8**********************99876 PP
+
+>> XP_010270518.1  PREDICTED: floral homeotic protein APETALA 2 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   3.0   3.8e-12     1e-09       2      53 ..     153     201 ..     152     202 .. 0.93
+   2 !   39.3   0.5   4.7e-12   1.3e-09       1      53 [.     244     294 ..     244     295 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 3.8e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  XP_010270518.1 153 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 201
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 39.3 bits;  conditional E-value: 4.7e-12
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV+ +k  grW+A+  +  g   kk+++lg ++t  eAara+++a+ k +g
+  XP_010270518.1 244 SKFRGVTLHK-CGRWEARMGQfLG---KKYVYLGLFDTeIEAARAYDKAAIKFNG 294
+                     699*******.6******755544...8**********************99876 PP
+
+>> XP_010270509.1  PREDICTED: floral homeotic protein APETALA 2 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.5   3.0   3.9e-12     1e-09       2      53 ..     153     201 ..     152     202 .. 0.93
+   2 !   39.3   0.5   4.8e-12   1.3e-09       1      53 [.     244     294 ..     244     295 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 39.5 bits;  conditional E-value: 3.9e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  XP_010270509.1 153 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 201
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 39.3 bits;  conditional E-value: 4.8e-12
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV+ +k  grW+A+  +  g   kk+++lg ++t  eAara+++a+ k +g
+  XP_010270509.1 244 SKFRGVTLHK-CGRWEARMGQfLG---KKYVYLGLFDTeIEAARAYDKAAIKFNG 294
+                     699*******.6******755544...8**********************99876 PP
+
+>> XP_010263475.1  PREDICTED: floral homeotic protein APETALA 2 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.4   3.0   4.3e-12   1.1e-09       2      53 ..     207     255 ..     206     256 .. 0.93
+   2 !   39.5   0.6   4.1e-12   1.1e-09       1      53 [.     298     348 ..     298     349 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.4 bits;  conditional E-value: 4.3e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  XP_010263475.1 207 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 255
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 39.5 bits;  conditional E-value: 4.1e-12
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV+ +k  grW+A+  +  g   kk+++lg ++t  eAara+++a+ k +g
+  XP_010263475.1 298 SKYRGVTLHK-CGRWEARMGQfLG---KKYVYLGLFDTeIEAARAYDKAAIKCNG 348
+                     69********.6******755544...8**********************98765 PP
+
+>> XP_010263474.1  PREDICTED: floral homeotic protein APETALA 2 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.4   3.0   4.3e-12   1.2e-09       2      53 ..     207     255 ..     206     256 .. 0.93
+   2 !   39.5   0.6   4.1e-12   1.1e-09       1      53 [.     298     348 ..     298     349 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.4 bits;  conditional E-value: 4.3e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  XP_010263474.1 207 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 255
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 39.5 bits;  conditional E-value: 4.1e-12
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV+ +k  grW+A+  +  g   kk+++lg ++t  eAara+++a+ k +g
+  XP_010263474.1 298 SKYRGVTLHK-CGRWEARMGQfLG---KKYVYLGLFDTeIEAARAYDKAAIKCNG 348
+                     69********.6******755544...8**********************98765 PP
+
+>> XP_010248341.1  PREDICTED: AP2-like ethylene-responsive transcription factor ANT [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.6   3.1   2.4e-14   6.5e-12       2      53 ..     323     381 ..     322     382 .. 0.87
+   2 !   35.0   0.4     1e-10   2.7e-08       3      53 ..     426     475 ..     424     475 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 46.6 bits;  conditional E-value: 2.4e-14
+             AP2   2 kirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++gr++A+ w +     ++ rk ++++lg y++ e+Aara+++a+lk++g
+  XP_010248341.1 323 QYRGVTRHRWTGRYEAHlWDNsckkeGQTRKGRQVYLGGYDMeEKAARAYDLAALKYWG 381
+                     7*****************65543454555777*************************98 PP
+
+  == domain 2  score: 35.0 bits;  conditional E-value: 1e-10
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  XP_010248341.1 426 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 475
+                     9***************73..33335***********************9986 PP
+
+>> XP_010273592.1  PREDICTED: AP2-like ethylene-responsive transcription factor ANT [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.6   3.1   2.5e-14   6.6e-12       2      53 ..     324     382 ..     323     383 .. 0.87
+   2 !   35.0   0.4     1e-10   2.7e-08       3      53 ..     427     476 ..     425     476 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 46.6 bits;  conditional E-value: 2.5e-14
+             AP2   2 kirGVrydkkwgrWvAe.wse.....ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++gr++A+ w +     ++ rk ++++lg y++ e+Aara+++a+lk++g
+  XP_010273592.1 324 QYRGVTRHRWTGRYEAHlWDNsckkeGQTRKGRQVYLGGYDMeEKAARAYDLAALKYWG 382
+                     7*****************65543454555777*************************98 PP
+
+  == domain 2  score: 35.0 bits;  conditional E-value: 1e-10
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++   grW A+    ++ + k  +lg++ t eeAa+a++ a+ k +g
+  XP_010273592.1 427 YRGVTRHHQHGRWQARIG--RVAGNKDLYLGTFSTqEEAAEAYDIAAIKFRG 476
+                     9***************73..33335***********************9986 PP
+
+>> XP_010253488.1  PREDICTED: AP2-like ethylene-responsive transcription factor TOE3 isoform X3 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.7   3.0   3.4e-12   9.2e-10       2      53 ..     180     228 ..     179     229 .. 0.93
+   2 !   37.5   0.5   1.7e-11   4.6e-09       1      53 [.     271     321 ..     271     322 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.7 bits;  conditional E-value: 3.4e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  XP_010253488.1 180 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 228
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 37.5 bits;  conditional E-value: 1.7e-11
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV+ +k  grW+A+  +  g   kk+++lg +++  eAara+++a+ k +g
+  XP_010253488.1 271 SKYRGVTLHK-CGRWEARMGQfLG---KKYIYLGLFDSeIEAARAYDKAAIKCNG 321
+                     69********.6******755544...8**********************99776 PP
+
+>> XP_010253486.1  PREDICTED: ethylene-responsive transcription factor RAP2-7 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   3.0   3.8e-12     1e-09       2      53 ..     180     228 ..     179     229 .. 0.93
+   2 !   37.3   0.5   1.9e-11   5.1e-09       1      53 [.     271     321 ..     271     322 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 3.8e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  XP_010253486.1 180 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 228
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 37.3 bits;  conditional E-value: 1.9e-11
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV+ +k  grW+A+  +  g   kk+++lg +++  eAara+++a+ k +g
+  XP_010253486.1 271 SKYRGVTLHK-CGRWEARMGQfLG---KKYIYLGLFDSeIEAARAYDKAAIKCNG 321
+                     69********.6******755544...8**********************99776 PP
+
+>> NP_001289775.1  ethylene-responsive transcription factor RAP2-7-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   3.0   3.7e-12     1e-09       2      53 ..     177     225 ..     176     226 .. 0.93
+   2 !   37.4   0.5   1.9e-11     5e-09       1      53 [.     268     318 ..     268     319 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 3.7e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  NP_001289775.1 177 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 225
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 37.4 bits;  conditional E-value: 1.9e-11
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV+ +k  grW+A+  +  g   kk+++lg +++  eAara+++a+ k +g
+  NP_001289775.1 268 SKYRGVTLHK-CGRWEARMGQfLG---KKYIYLGLFDSeIEAARAYDKAAIKCNG 318
+                     69********.6******755544...8**********************99776 PP
+
+>> XP_010260156.1  PREDICTED: ethylene-responsive transcription factor RAP2-7-like isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   3.0   3.7e-12     1e-09       2      53 ..     177     225 ..     176     226 .. 0.93
+   2 !   37.4   0.5   1.9e-11     5e-09       1      53 [.     268     318 ..     268     319 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 3.7e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  XP_010260156.1 177 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 225
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 37.4 bits;  conditional E-value: 1.9e-11
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV+ +k  grW+A+  +  g   kk+++lg +++  eAara+++a+ k +g
+  XP_010260156.1 268 SKYRGVTLHK-CGRWEARMGQfLG---KKYIYLGLFDSeIEAARAYDKAAIKCNG 318
+                     69********.6******755544...8**********************99776 PP
+
+>> XP_010254563.1  PREDICTED: AP2-like ethylene-responsive transcription factor AIL6 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.9   4.6   1.1e-10     3e-08       1      53 [.     235     291 ..     235     292 .. 0.85
+   2 !   40.8   0.4   1.6e-12   4.4e-10       3      53 ..     336     385 ..     334     385 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 34.9 bits;  conditional E-value: 1.1e-10
+             AP2   1 pkirGVrydkkwgrWvAe.wsengkrkk..krfslgkygt.eeAaraAiearlkleg 53 
+                     +++rGV++++++gr++A+ w ++++r    +  + g y+  e+Aara+++a+lk++g
+  XP_010254563.1 235 SVYRGVTRHRWTGRYEAHlWDNSCRREGqtRKGRQGGYDKeEKAARAYDLAALKYWG 291
+                     68*****************977554444666666777******************98 PP
+
+  == domain 2  score: 40.8 bits;  conditional E-value: 1.6e-12
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++  +grW A+    ++ + k  +lg++gt eeAa+a++ a+ k +g
+  XP_010254563.1 336 YRGVTRHHQQGRWQARIG--RVAGNKDLYLGTFGTeEEAAEAYDIAAIKFRG 385
+                     9***************73..33335***********************9986 PP
+
+>> XP_019055718.1  PREDICTED: AP2-like ethylene-responsive transcription factor AIL6 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.7   4.5   1.1e-09     3e-07       3      53 ..     224     278 ..     222     279 .. 0.84
+   2 !   40.8   0.4   1.6e-12   4.2e-10       3      53 ..     323     372 ..     321     372 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 31.7 bits;  conditional E-value: 1.1e-09
+             AP2   3 irGVrydkkwgrWvAe.wsengkrkk..krfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+ w ++++r    +  + g y+  e+Aara+++a+lk++g
+  XP_019055718.1 224 YRGVTRHRWTGRYEAHlWDNSCRREGqtRKGRQGGYDReEKAARAYDLAALKYWG 278
+                     9****************977554444666666777******************98 PP
+
+  == domain 2  score: 40.8 bits;  conditional E-value: 1.6e-12
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV+++  +grW A+    ++ + k  +lg++gt eeAa+a++ a+ k +g
+  XP_019055718.1 323 YRGVTRHHQQGRWQARIG--RVAGNKDLYLGTFGTeEEAAEAYDIAAIKFRG 372
+                     9***************73..33335***********************9986 PP
+
+>> XP_010268478.1  PREDICTED: AP2-like ethylene-responsive transcription factor At1g16060 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.3   4.2     6e-09   1.6e-06       3      53 ..     140     194 ..     138     195 .. 0.83
+   2 !   43.3   2.2   2.5e-13   6.8e-11       1      53 [.     237     288 ..     237     289 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 29.3 bits;  conditional E-value: 6e-09
+             AP2   3 irGVrydkkwgrWvAe......wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGV++++++gr++A+      w+e   ++ k  + g y+  e Aa+a+++a+lk++g
+  XP_010268478.1 140 FRGVTRHRWTGRYEAHlwdkncWNE---SQNKKGRQGAYNEeEAAAHAYDLAALKYWG 194
+                     8****************44444433...3347788899******************98 PP
+
+  == domain 2  score: 43.3 bits;  conditional E-value: 2.5e-13
+             AP2   1 pkirGVrydkkwgrWvAewsengkrkk..krfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV ++ + grW+A+    g r +  k+ +lg+y t eeAa a+++a+ +++g
+  XP_010268478.1 237 SKYRGVARHHHNGRWEARI---G-RVYgnKYLYLGTYATqEEAAIAYDMAAIEYRG 288
+                     69****************7...3.22333*************************98 PP
+
+>> XP_010258783.1  PREDICTED: ethylene-responsive transcription factor 5 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.8   2.5   9.3e-19   2.5e-16       2      54 .]     201     252 ..     200     252 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 60.8 bits;  conditional E-value: 9.3e-19
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                     ++rGVr+++ wg+++Ae ++ n  r+ +r++lg+++t  eAara+++a++k++gs
+  XP_010258783.1 201 HYRGVRQRP-WGKFAAEIRDpN--RRGSRVWLGTFDTaIEAARAYDRAAFKMRGS 252
+                     8********.*******88855..688**************************95 PP
+
+>> XP_010260390.1  PREDICTED: pathogenesis-related genes transcriptional activator PTI5-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.1   3.4     7e-19   1.9e-16       2      53 ..      64     114 ..      63     115 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 61.1 bits;  conditional E-value: 7e-19
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wg+++Ae +++  r+ +r++lg+++t eeAa+a+++a+++++g
+  XP_010260390.1  64 HYRGVRRRP-WGKFAAEIRDSS-RHGARVWLGTFDTaEEAALAYDRAAFRMRG 114
+                     8********.*******99966.788*************************98 PP
+
+>> XP_010255545.1  PREDICTED: dehydration-responsive element-binding protein 1B-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.9   0.3   8.6e-19   2.3e-16       1      53 [.      61     111 ..      61     112 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 60.9 bits;  conditional E-value: 8.6e-19
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     p++rGVr++  ++rWv+e +e n+   k+r++lg++ t e+Aara++ a+l+l+g
+  XP_010255545.1  61 PVYRGVRRRN-SNRWVCEVREpNK---KSRIWLGTFPTaEMAARAHDVAALALRG 111
+                     79********.9******999665...9*************************98 PP
+
+>> XP_010275423.1  PREDICTED: ethylene-responsive transcription factor ERF105-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.8   2.7   1.8e-18   4.8e-16       2      53 ..     180     230 ..     179     231 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 59.8 bits;  conditional E-value: 1.8e-18
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wg+++Ae ++ n  r+ +r++lg+++t  eAara+++a++k++g
+  XP_010275423.1 180 HYRGVRQRP-WGKFAAEIRDpN--RRGSRVWLGTFDTaVEAARAYDRAAFKMRG 230
+                     8********.*******88855..688*************************98 PP
+
+>> XP_010279206.1  PREDICTED: pathogenesis-related genes transcriptional activator PTI5-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.5   3.6   2.2e-18     6e-16       2      53 ..      70     120 ..      69     121 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.5 bits;  conditional E-value: 2.2e-18
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wg+++Ae +++  r+ +r++lg+++t eeAa+a+++a+++++g
+  XP_010279206.1  70 HYRGVRRRP-WGKFAAEIRDSS-RHGARVWLGTFNTaEEAALAYDKAAFRMRG 120
+                     8********.*******99966.788*************************98 PP
+
+>> XP_010278524.1  PREDICTED: dehydration-responsive element-binding protein 1D-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.8   0.3   1.8e-18   4.8e-16       1      53 [.      66     116 ..      66     117 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 59.8 bits;  conditional E-value: 1.8e-18
+             AP2   1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     p++rGVr++  +++Wv+e +e n+   k+r++lg++ t e+Aara++ a+l+l+g
+  XP_010278524.1  66 PVYRGVRRRN-SNKWVCEVREpNK---KSRIWLGTFPTaEMAARAHDVAALALRG 116
+                     79********.9******999665...9*************************98 PP
+
+>> XP_010260392.1  PREDICTED: ethylene-responsive transcription factor ERF091 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.0        10   2.7e+03      10      23 ..      63      82 ..      61      84 .. 0.73
+   2 !   57.3   1.4   1.2e-17   3.1e-15       2      53 ..     119     169 ..     118     170 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 10
+             AP2 10 kkwgrWvAe....wse..ng 23
+                    ++ grWv+     w e  ng
+  XP_010260392.1 63 PSLGRWVSMgaetWEEllNG 82
+                    6789***8777777665555 PP
+
+  == domain 2  score: 57.3 bits;  conditional E-value: 1.2e-17
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr ++ wgr++Ae +++  rk  r++lg+++t eeAa+a+++a+l+++g
+  XP_010260392.1 119 HFRGVRKRP-WGRYAAEIRDSS-RKGVRVWLGTFDTaEEAALAYDKAALRMRG 169
+                     79*******.*******99966.888*************************98 PP
+
+>> XP_010269994.1  PREDICTED: ethylene-responsive transcription factor ERF109-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.6   4.7   4.4e-18   1.2e-15       2      53 ..     114     163 ..     113     164 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 58.6 bits;  conditional E-value: 4.4e-18
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wg+W+Ae ++   r+ +r++lg+++t eeAara+++a+ + +g
+  XP_010269994.1 114 NYRGVRQRP-WGKWAAEIRDP--RRAARVWLGTFDTaEEAARAYDKAAIEFRG 163
+                     79*******.*******8762..568***********************9998 PP
+
+>> XP_010266557.1  PREDICTED: ethylene-responsive transcription factor ERF023-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.6   1.3   4.5e-18   1.2e-15       1      54 []      35      86 ..      35      86 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 58.6 bits;  conditional E-value: 4.5e-18
+             AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                    p++rGVr ++ wg+Wv+e +e   rkk+r++lg + t e+Aara++ a+++l+g+
+  XP_010266557.1 35 PVYRGVRKRR-WGKWVSEIRE--PRKKSRIWLGSFPTpEMAARAYDVAAYCLRGH 86
+                    79********.*******876..3579**************************96 PP
+
+>> XP_010249578.1  PREDICTED: dehydration-responsive element-binding protein 3-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.5   0.1   9.7e-18   2.6e-15       1      53 [.      55     105 ..      55     106 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 57.5 bits;  conditional E-value: 9.7e-18
+             AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     p++rGVr +  wg+Wv+e +e   rkk+r++lg++ t e+Aara++ a+l++ g
+  XP_010249578.1  55 PVYRGVRMRN-WGKWVSEIRE--PRKKSRIWLGTFPTpEMAARAHDVAALSIKG 105
+                     79********.*******876..3579***********************9988 PP
+
+>> XP_010254012.1  PREDICTED: ethylene-responsive transcription factor TINY-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.4   0.1     1e-17   2.7e-15       1      53 [.      55     105 ..      55     106 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 57.4 bits;  conditional E-value: 1e-17
+             AP2   1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     p++rGVr +  wg+Wv+e +e   rkk+r++lg++ t e+Aara++ a+l++ g
+  XP_010254012.1  55 PVYRGVRMRN-WGKWVSEIRE--PRKKSRIWLGTFPTpEMAARAHDVAALSIKG 105
+                     79********.*******876..3579***********************9988 PP
+
+>> XP_010265708.1  PREDICTED: ethylene-responsive transcription factor ERF084-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.1   3.6   1.3e-17   3.4e-15       2      53 ..     129     178 ..     128     179 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 57.1 bits;  conditional E-value: 1.3e-17
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr ++ wgrW Ae +++   +++r +lg+++t eeAara+++a+++l+g
+  XP_010265708.1 129 SFRGVRKRP-WGRWSAEIRDR--IGRCRLWLGTFDTaEEAARAYDAAARRLRG 178
+                     58*******.*******9874..579*************************98 PP
+
+>> XP_010260299.1  PREDICTED: ethylene-responsive transcription factor 4-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.6   2.6   9.1e-18   2.4e-15       2      53 ..      27      76 ..      26      77 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.6 bits;  conditional E-value: 9.1e-18
+             AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr ++ wgr++Ae ++ g  kk+r++lg+++t eeAara+++a+++ +g
+  XP_010260299.1 27 HFRGVRKRP-WGRYAAEIRDPG--KKSRVWLGTFDTaEEAARAYDAAAREFRG 76
+                    79*******.*******99956..79************************998 PP
+
+>> XP_010272364.1  PREDICTED: ethylene-responsive transcription factor 4-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.5   2.6   9.5e-18   2.5e-15       2      53 ..      28      77 ..      27      78 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.5 bits;  conditional E-value: 9.5e-18
+             AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr ++ wgr++Ae ++ g  kk+r++lg+++t eeAara+++a+++ +g
+  XP_010272364.1 28 HFRGVRKRP-WGRYAAEIRDPG--KKSRVWLGTFDTaEEAARAYDAAAREFRG 77
+                    79*******.*******99956..79************************998 PP
+
+>> XP_010264429.1  PREDICTED: ethylene-responsive transcription factor ERF039-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.6   0.1   1.9e-17   5.1e-15       1      53 [.      40      90 ..      40      91 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.6 bits;  conditional E-value: 1.9e-17
+             AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    p +rGVr +  wg+Wv+e +e   rkk+r++lg++ t e+Aara++ a+l++ g
+  XP_010264429.1 40 PSYRGVRIRN-WGKWVSEIRE--PRKKSRIWLGTFPTpEMAARAHDVAALAIKG 90
+                    68********.*******876..3579************************988 PP
+
+>> XP_010257031.1  PREDICTED: dehydration-responsive element-binding protein 2C-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.7   2.1   1.8e-17   4.7e-15       2      53 ..      71     120 ..      70     121 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.7 bits;  conditional E-value: 1.8e-17
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr++  wg+WvAe +e n   + +r +lg++ t  eAara++ea+++++g
+  XP_010257031.1  71 NYRGVRQRT-WGKWVAEIREpN---RGSRLWLGTFATaLEAARAYDEAARAMYG 120
+                     7********.*******99974...46*************************98 PP
+
+>> XP_010267583.1  PREDICTED: ethylene-responsive transcription factor ERF023-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.4   1.2   1.1e-17   2.9e-15       1      54 []      36      87 ..      36      87 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.4 bits;  conditional E-value: 1.1e-17
+             AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                    p++rGVr ++ wg+Wv+e +e   rkk+r++lg + t e+Aara++ a+++l g+
+  XP_010267583.1 36 PVYRGVRKRR-WGKWVSEIRE--PRKKSRIWLGSFPTpEMAARAYDVAAYCLKGH 87
+                    79********.*******876..3579************************9986 PP
+
+>> XP_010278126.1  PREDICTED: ethylene-responsive transcription factor 9-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.3   1.8   1.1e-17   2.9e-15       1      53 [.      29      79 ..      29      80 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 57.3 bits;  conditional E-value: 1.1e-17
+             AP2  1 pkirGVrydkkwgrWvAe....wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    +++rGVr ++ wgr++Ae    w      kk+r +lg+++t eeAara++ea+++l+g
+  XP_010278126.1 29 THFRGVRKRP-WGRFAAEirdpW------KKTRKWLGTFDTaEEAARAYDEAARNLRG 79
+                    689*******.*******77766......489************************98 PP
+
+>> XP_010262303.1  PREDICTED: ethylene-responsive transcription factor ERF098-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.8   2.7   1.6e-17   4.3e-15       2      53 ..      22      72 ..      21      73 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 56.8 bits;  conditional E-value: 1.6e-17
+             AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr ++ wg+++Ae +++  r+ +r +lg+++t eeAara+++a+++++g
+  XP_010262303.1 22 RHRGVRKRP-WGKFAAEIRDS-TRHGARLWLGTFNTaEEAARAYDRAAYAMRG 72
+                    68*******.*******9885.4888*************************98 PP
+
+>> XP_010261262.1  PREDICTED: ethylene-responsive transcription factor RAP2-4-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   1.7   2.9e-17   7.7e-15       2      53 ..     207     256 ..     206     257 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 2.9e-17
+             AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr++  wg+WvAe   +  ++   ++r +lg+++t eeAa+a+++a++kl+g
+  XP_010261262.1 207 LYRGVRQRH-WGKWVAEirlP--KN---RTRLWLGTFDTaEEAALAYDKAAYKLRG 256
+                     59*******.*******7666..34...7*************************98 PP
+
+>> XP_010264388.1  PREDICTED: ethylene-responsive transcription factor ERF039 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   0.1   4.4e-17   1.2e-14       2      53 ..      96     145 ..      95     146 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 4.4e-17
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr +  wg+Wv+e +e   rkk+r++lg++ t e+Aara++ a+l++ g
+  XP_010264388.1  96 TYRGVRMRN-WGKWVSEIRE--PRKKSRIWLGTFPTpEMAARAHDVAALTIKG 145
+                     69*******.*******876..3579***********************9988 PP
+
+>> XP_010245720.1  PREDICTED: ethylene-responsive transcription factor ERF021 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.7   1.1   3.5e-17   9.2e-15       2      53 ..      67     116 ..      66     117 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 55.7 bits;  conditional E-value: 3.5e-17
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr++k wg+Wv+e +e g  kk+r++lg + t e+Aa a++ a+l+l+g
+  XP_010245720.1  67 NYRGVRRRK-WGKWVSEIREPG--KKTRIWLGSFETpEMAATAYDVAALQLRG 116
+                     69*******.*******99966..79*************************98 PP
+
+>> XP_010259468.1  PREDICTED: ethylene-responsive transcription factor RAP2-3-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.4   2.5   2.1e-17   5.6e-15       3      54 .]      93     142 ..      91     142 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 56.4 bits;  conditional E-value: 2.1e-17
+             AP2   3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                     +rG+r+++ wg+W+Ae ++ +   k  r++lg+y+t eeAa+a+++a+++++g+
+  XP_010259468.1  93 YRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTYNTaEEAAMAYDQAAKRIRGN 142
+                     9*******.*******87642...57*************************995 PP
+
+>> XP_010262305.1  PREDICTED: ethylene-responsive transcription factor 1B-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.2   1.1   2.5e-17   6.7e-15       2      54 .]      98     149 ..      97     149 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 56.2 bits;  conditional E-value: 2.5e-17
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                      +rGVr+++ wg+++Ae +++  r+  r++lg++++ e Aa+a+++a+++++gs
+  XP_010262305.1  98 SYRGVRRRP-WGKFAAEIRDS-TRHGIRVWLGTFDSaEAAALAYDQAAFSMRGS 149
+                     69*******.*******9885.4888*************************995 PP
+
+>> XP_010244800.1  PREDICTED: ethylene-responsive transcription factor ERF084 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.5   4.6     4e-17   1.1e-14       3      53 ..     139     187 ..     137     188 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.5 bits;  conditional E-value: 4e-17
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGVr ++ wgrW Ae +++   +++r +lg+++t eeAara+++a+++l+g
+  XP_010244800.1 139 FRGVRKRP-WGRWSAEIRDR--IGRCRHWLGTFDTaEEAARAYDAAARRLRG 187
+                     8*******.*******9874..579*************************98 PP
+
+>> XP_010269215.1  PREDICTED: ethylene-responsive transcription factor RAP2-4 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.1   1.7   2.7e-17   7.1e-15       2      53 ..     182     231 ..     181     232 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 56.1 bits;  conditional E-value: 2.7e-17
+             AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr++  wg+WvAe   +  ++   ++r +lg+++t eeAa+a+++a++kl+g
+  XP_010269215.1 182 LYRGVRQRH-WGKWVAEirlP--KN---RTRLWLGTFDTaEEAALAYDKAAYKLRG 231
+                     59*******.*******7666..34...7*************************98 PP
+
+>> XP_010263553.1  PREDICTED: ethylene-responsive transcription factor ERF109-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.1   4.6   5.5e-17   1.5e-14       2      53 ..     110     159 ..     109     160 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 55.1 bits;  conditional E-value: 5.5e-17
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wg+W+Ae ++   r+ +r++lg+++t eeAara+++a+   +g
+  XP_010263553.1 110 NYRGVRQRP-WGKWAAEIRDP--RRAARVWLGTFNTaEEAARAYDKAAIDFRG 159
+                     79*******.*******8762..568**********************98776 PP
+
+>> XP_010250515.1  PREDICTED: ethylene-responsive transcription factor ERF113 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   2.4   5.2e-17   1.4e-14       2      53 ..      53     102 ..      52     103 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 5.2e-17
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wg+W+Ae ++   +k +r++lg+++t e+Aa a+++a+lk  g
+  XP_010250515.1  53 HYRGVRQRP-WGKWAAEIRDP--KKAARVWLGTFDTaEDAAVAYDQAALKFKG 102
+                     8********.*******8773..367***********************9876 PP
+
+>> XP_010246271.1  PREDICTED: ethylene-responsive transcription factor ERF110-like isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.1   4.6   5.5e-17   1.5e-14       2      53 ..     191     240 ..     190     241 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 55.1 bits;  conditional E-value: 5.5e-17
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wg+W+Ae ++   +k +r++lg+++t e Aara++ea+l+ +g
+  XP_010246271.1 191 RYRGVRQRP-WGKWAAEIRDP--HKAARVWLGTFDTaEAAARAYDEAALRFRG 240
+                     79*******.*******8763..357***********************9998 PP
+
+>> XP_010246270.1  PREDICTED: ethylene-responsive transcription factor ABR1-like isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.1   4.6   5.5e-17   1.5e-14       2      53 ..     192     241 ..     191     242 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 55.1 bits;  conditional E-value: 5.5e-17
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wg+W+Ae ++   +k +r++lg+++t e Aara++ea+l+ +g
+  XP_010246270.1 192 RYRGVRQRP-WGKWAAEIRDP--HKAARVWLGTFDTaEAAARAYDEAALRFRG 241
+                     79*******.*******8763..357***********************9998 PP
+
+>> XP_010261002.1  PREDICTED: ethylene-responsive transcription factor ABR1-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.0   4.6   5.7e-17   1.5e-14       2      53 ..     206     255 ..     205     256 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 55.0 bits;  conditional E-value: 5.7e-17
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wg+W+Ae ++   +k +r++lg+++t e Aara++ea+l+ +g
+  XP_010261002.1 206 RYRGVRQRP-WGKWAAEIRDP--HKAARVWLGTFDTaEAAARAYDEAALRFRG 255
+                     79*******.*******8763..357***********************9998 PP
+
+>> XP_010275428.1  PREDICTED: ethylene-responsive transcription factor 2-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   2.5   6.5e-17   1.7e-14       2      54 .]     159     210 ..     158     210 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 6.5e-17
+             AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                     ++rGVr+++ wg+++Ae   + +ng    +r++lg++ t e+Aa+a+++a+++++gs
+  XP_010275428.1 159 HYRGVRQRP-WGKFAAEirdPAKNG----ARVWLGTFETaEDAAMAYDRAAYRMRGS 210
+                     8********.*******55555588....*************************995 PP
+
+>> XP_010258782.1  PREDICTED: ethylene-responsive transcription factor 2-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.8   2.5   6.6e-17   1.8e-14       2      54 .]     163     214 ..     162     214 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.8 bits;  conditional E-value: 6.6e-17
+             AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                     ++rGVr+++ wg+++Ae   + +ng    +r++lg++ t e+Aa+a+++a+++++gs
+  XP_010258782.1 163 HYRGVRQRP-WGKFAAEirdPAKNG----ARVWLGTFETaEDAAMAYDRAAYRMRGS 214
+                     8********.*******55555588....*************************995 PP
+
+>> XP_010265763.1  PREDICTED: dehydration-responsive element-binding protein 2F-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   2.7   6.4e-17   1.7e-14       2      53 ..      29      78 ..      28      79 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 6.4e-17
+             AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                     +rGVr++  wg+WvAe +e   +k++r +lg + t eeAa+a++ea+++l+g
+  XP_010265763.1 29 EYRGVRQRT-WGKWVAEIREP--KKRTRLWLGSFATaEEAAMAYDEAARRLYG 78
+                    59*******.*******8773..479***********************9998 PP
+
+>> XP_010260298.1  PREDICTED: ethylene-responsive transcription factor 12 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.0   1.6   5.6e-17   1.5e-14       2      53 ..       7      56 ..       6      57 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.0 bits;  conditional E-value: 5.6e-17
+             AP2  2 kirGVrydkkwgrWvAe....wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr ++ wgr++Ae    w      kk+r++lg+++t eeAa+a++ a+++l+g
+  XP_010260298.1  7 HYRGVRKRP-WGRYAAEirdpW------KKTRVWLGTFDTpEEAALAYDGAARSLRG 56
+                    7********.*******77766......58*************************98 PP
+
+>> XP_010274787.1  PREDICTED: ethylene-responsive transcription factor 1B-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   1.2   4.5e-17   1.2e-14       3      54 .]     122     172 ..     120     172 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 4.5e-17
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlklegs 54 
+                     +rGVr+++ wg+++Ae +++  r+  r++lg++++ e Aa+a+++a+++++gs
+  XP_010274787.1 122 YRGVRRRP-WGKFAAEIRDS-TRHGIRVWLGTFDSaEAAALAYDQAAFSMRGS 172
+                     9*******.*******9885.4888*************************995 PP
+
+>> XP_010252581.1  PREDICTED: ethylene-responsive transcription factor 3-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.6   1.1   7.6e-17     2e-14       1      53 [.      31      81 ..      31      82 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 54.6 bits;  conditional E-value: 7.6e-17
+             AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    +++rGVr ++ wgr++Ae ++   rkk+r++lg++++ e+Aara++ a+++l+g
+  XP_010252581.1 31 TRFRGVRKRP-WGRFAAEIRDP--RKKTRVWLGTFDSaEDAARAYDTAARTLRG 81
+                    589*******.*******8762..579*************************98 PP
+
+>> XP_010254126.1  PREDICTED: dehydration-responsive element-binding protein 2A-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.1   2.2   1.1e-16   2.9e-14       2      53 ..      71     120 ..      70     121 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 54.1 bits;  conditional E-value: 1.1e-16
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr++  wg+WvAe +e n   + +r +lg++ t  eAa+a+++a+++++g
+  XP_010254126.1  71 NYRGVRQRT-WGKWVAEIREpN---RGSRLWLGTFSTaLEAALAYDKAAKAMYG 120
+                     7********.*******99974...46*************************98 PP
+
+>> XP_010269611.1  PREDICTED: ethylene-responsive transcription factor RAP2-3-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.1   3.1   1.1e-16   2.9e-14       3      53 ..     118     166 ..     116     167 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.1 bits;  conditional E-value: 1.1e-16
+             AP2   3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rG+r+++ wg+W+Ae ++ +   k  r++lg+y+t eeAara++ a+++++g
+  XP_010269611.1 118 YRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTYNTaEEAARAYDVAAKRIRG 166
+                     9*******.*******87642...57************************997 PP
+
+>> XP_010272367.1  PREDICTED: ethylene-responsive transcription factor 12-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.1   1.6   5.5e-17   1.5e-14       2      53 ..       7      56 ..       6      57 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 55.1 bits;  conditional E-value: 5.5e-17
+             AP2  2 kirGVrydkkwgrWvAe....wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr ++ wgr++Ae    w      kk+r++lg+++t eeAa+a++ a+++l+g
+  XP_010272367.1  7 HYRGVRKRP-WGRYAAEirdpW------KKTRVWLGTFDTpEEAALAYDGAARSLRG 56
+                    7********.*******77766......58*************************98 PP
+
+>> XP_010257631.1  PREDICTED: ethylene-responsive transcription factor RAP2-11 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.3   0.2   9.5e-17   2.5e-14       2      53 ..      34      83 ..      33      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.3 bits;  conditional E-value: 9.5e-17
+             AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    k+ GVr+++ +grWvAe +++   +k r +lg++ t eeAara++ea++ l+g
+  XP_010257631.1 34 KFVGVRQRP-SGRWVAEIKDTT--QKIRMWLGTFETaEEAARAYDEAACLLRG 83
+                    799******.9******98843..58**********************99988 PP
+
+>> XP_010257316.1  PREDICTED: dehydration-responsive element-binding protein 2F-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.4   2.2   8.7e-17   2.3e-14       2      53 ..      29      78 ..      28      79 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.4 bits;  conditional E-value: 8.7e-17
+             AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                     +rGVr++  wg+WvAe +e   +k++r +lg + t eeAa+a++ea+++l+g
+  XP_010257316.1 29 EYRGVRQRT-WGKWVAEIREP--KKRTRLWLGSFSTaEEAAMAYDEAARRLYG 78
+                    59*******.*******8773..479***********************9998 PP
+
+>> XP_010249458.1  PREDICTED: ethylene-responsive transcription factor ERF113 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   2.3   1.2e-16   3.2e-14       2      53 ..     139     188 ..     138     189 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 1.2e-16
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wg+W+Ae ++   +k +r++lg+++t e Aa a++ea+lk  g
+  XP_010249458.1 139 HYRGVRQRP-WGKWAAEIRDP--KKAARVWLGTFDTaESAAIAYDEAALKFKG 188
+                     8********.*******8773..367***********************9876 PP
+
+>> XP_010258834.1  PREDICTED: ethylene-responsive transcription factor ERF039-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.7   0.2   1.5e-16     4e-14       2      53 ..      89     138 ..      88     139 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 53.7 bits;  conditional E-value: 1.5e-16
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr +  wg+Wv+e +e   rkk+r++lg++ t e+Aara++ a+l++ g
+  XP_010258834.1  89 TYRGVRMRN-WGKWVSEIRE--PRKKSRIWLGTFPTpEMAARAHDVAALTVKG 138
+                     69*******.*******876..3579**********************98766 PP
+
+>> XP_010247507.1  PREDICTED: AP2-like ethylene-responsive transcription factor At2g41710 isoform X1 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.8   4.4   2.4e-15   6.3e-13       1      53 [.      66     125 ..      66     126 .. 0.94
+   2 ?    3.0   0.0         1   2.7e+02       1      40 [.     168     206 ..     168     208 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 49.8 bits;  conditional E-value: 2.4e-15
+             AP2   1 pkirGVrydkkwgrWvAe......wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +k+rGV++++++gr++A+      w++n+ +k k+++lg y+  e Aara+++a+lk++g
+  XP_010247507.1  66 SKYRGVTRHRWTGRYEAHlwdkstWNQNQNKKGKQVYLGAYDEeEAAARAYDLAALKYWG 125
+                     69*****************99888888888999*************************98 PP
+
+  == domain 2  score: 3.0 bits;  conditional E-value: 1
+             AP2   1 pkirGVrydkkwgrWvAewsengkrkk.krfslgkygt.eeA 40 
+                     +k+rG ++ + +  W++ +   g+     +    +ygt e+A
+  XP_010247507.1 168 SKYRGLSRPPQSSQWESSF---GRMVGpDYLNSIHYGTgEDA 206
+                     69***************98...63334699999999998887 PP
+
+>> XP_010243826.1  PREDICTED: dehydration-responsive element-binding protein 1B-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.7   0.1   1.5e-16     4e-14       2      53 ..      59     108 ..      58     109 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 53.7 bits;  conditional E-value: 1.5e-16
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr +k  g+Wv+e +e n+   k+r++lg++ + e+Aara++ a+l+l+g
+  XP_010243826.1  59 IYRGVRERK-GGKWVCEVREpNK---KSRIWLGTFPCpEMAARAHDVAALALRG 108
+                     69*******.*******999665...9*************************98 PP
+
+>> XP_010274790.1  PREDICTED: ethylene-responsive transcription factor ERF098-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.9   3.1   1.3e-16   3.5e-14       2      53 ..      19      69 ..      18      70 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 53.9 bits;  conditional E-value: 1.3e-16
+             AP2  2 kirGVrydkkwgrWvAewse...ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr ++ wg+++Ae ++   n     +r +lg++ t eeAara+++a+++++g
+  XP_010274790.1 19 RYRGVRKRP-WGKFAAEIRDstrN----GARLWLGTFTTaEEAARAYDRAAYAIRG 69
+                    7********.*******7663324....5*************************98 PP
+
+>> XP_010252020.1  PREDICTED: pathogenesis-related genes transcriptional activator PTI6-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.1   2.6   2.2e-16     6e-14       2      53 ..     117     166 ..     116     167 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 53.1 bits;  conditional E-value: 2.2e-16
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr+++ wgrW+Ae ++ +   ++kr +lg+y+t eeAa  +++a+ +l g
+  XP_010252020.1 117 RFRGVRRRP-WGRWAAEIRDpT---RRKRLWLGTYDTaEEAATVYDKAAVRLKG 166
+                     79*******.*******87755...59*********************988876 PP
+
+>> XP_010274789.1  PREDICTED: ethylene-responsive transcription factor ERF098-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.9   3.1   1.3e-16   3.6e-14       2      53 ..      19      69 ..      18      70 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 53.9 bits;  conditional E-value: 1.3e-16
+             AP2  2 kirGVrydkkwgrWvAewse...ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr ++ wg+++Ae ++   n     +r +lg++ t eeAara+++a+++++g
+  XP_010274789.1 19 RYRGVRKRP-WGKFAAEIRDstrN----GARLWLGTFTTaEEAARAYDRAAYAIRG 69
+                    7********.*******7663324....5*************************98 PP
+
+>> XP_010251534.1  PREDICTED: ethylene-responsive transcription factor CRF3 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   0.7   1.6e-16   4.4e-14       2      53 ..     127     176 ..     126     177 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 1.6e-16
+             AP2   2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     k+rGVr+++ wg+W+Ae ++  +g     r +lg+y+t eeAa+ ++ a+ +l+g
+  XP_010251534.1 127 KFRGVRQRP-WGKWAAEIRDpaRG----VRLWLGTYDTaEEAAKVYDNAAIQLRG 176
+                     89*******.*******9887666....*************************98 PP
+
+>> XP_010249334.1  PREDICTED: ethylene-responsive transcription factor LEP-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.4   0.8   3.7e-16   9.8e-14       4      54 .]      42      90 ..      39      90 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 52.4 bits;  conditional E-value: 3.7e-16
+             AP2  4 rGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                     GVr+++ wgr++Ae ++ +   +k r +lg+++t eeAa+a+++a+++++gs
+  XP_010249334.1 42 LGVRRRP-WGRYAAEIRDpS---TKERHWLGTFDTaEEAALAYDRAARSMRGS 90
+                    5******.*******77643...48*************************995 PP
+
+>> XP_010270056.1  PREDICTED: ethylene-responsive transcription factor 3-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   0.5   2.5e-16   6.8e-14       2      53 ..      31      80 ..      30      81 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.0 bits;  conditional E-value: 2.5e-16
+             AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr ++ wgr++Ae ++     kk+r++lg++++ e+Aara+++a+++l+g
+  XP_010270056.1 31 RFRGVRKRP-WGRFAAEIRDpL---KKTRVWLGTFDSaEDAARAYDAAARNLRG 80
+                    69*******.*******88753...58*************************98 PP
+
+>> XP_010261483.1  PREDICTED: ethylene-responsive transcription factor CRF1-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.8       7.8   2.1e+03      13      26 ..      95     108 ..      91     111 .. 0.80
+   2 !   53.4   0.7   1.8e-16   4.8e-14       2      53 ..     132     181 ..     131     182 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 7.8
+             AP2  13 grWvAewsengkrk 26 
+                     g+W+++ + ng++k
+  XP_010261483.1  95 GSWRSRSVRNGRKK 108
+                     89****99999554 PP
+
+  == domain 2  score: 53.4 bits;  conditional E-value: 1.8e-16
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     k+rGVr+++ wg+W+Ae ++     ++ r +lg+y+t eeAa+ ++ a+ +l+g
+  XP_010261483.1 132 KFRGVRQRP-WGKWAAEIRDpA---RRVRLWLGTYDTaEEAAMVYDNAAIQLRG 181
+                     89*******.*******88842...68*************************98 PP
+
+>> XP_010250477.2  PREDICTED: ethylene-responsive transcription factor LEP-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.5   0.8   3.6e-16   9.7e-14       4      54 .]      40      88 ..      37      88 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 52.5 bits;  conditional E-value: 3.6e-16
+             AP2  4 rGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                     GVr+++ wgr++Ae ++ +   +k r +lg+++t eeAa+a+++a+++++gs
+  XP_010250477.2 40 LGVRRRP-WGRYAAEIRDpT---TKERHWLGTFDTaEEAALAYDRAARSMRGS 88
+                    5******.*******77754...38*************************995 PP
+
+>> XP_010274866.1  PREDICTED: ethylene-responsive transcription factor ERF098 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.9   1.9   2.6e-16     7e-14       2      54 .]       8      59 ..       7      59 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 52.9 bits;  conditional E-value: 2.6e-16
+             AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                    ++rGVr+++ wg+++Ae ++ +  r ++r +lg++   e+Aara+++a+++l+g+
+  XP_010274866.1  8 RYRGVRRRP-WGKYAAEIRDpS--RPCARLWLGTFENaEDAARAYDRAAFALRGH 59
+                    7********.*******87743..568**************************96 PP
+
+>> XP_010271525.1  PREDICTED: dehydration-responsive element-binding protein 2D-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.7   2.1     3e-16     8e-14       3      53 ..      30      78 ..      28      79 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 52.7 bits;  conditional E-value: 3e-16
+             AP2  3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    +rGVr++  wg+WvAe +e n   + +r +lg+++t ++Aa a++ a++kl+g
+  XP_010271525.1 30 YRGVRQRT-WGKWVAEIREpN---RGARLWLGTFDTsRDAAIAYDSAARKLYG 78
+                    9*******.*******99974...46************************987 PP
+
+>> XP_010244551.1  PREDICTED: pathogenesis-related genes transcriptional activator PTI6-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.5   0.2   3.4e-16   9.1e-14       2      53 ..     126     175 ..     125     176 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 52.5 bits;  conditional E-value: 3.4e-16
+             AP2   2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGV +++ wgrW+Ae ++  +g    kr +lg+y+t eeAa  ++ a+ +l+g
+  XP_010244551.1 126 RFRGVHQRP-WGRWAAEIRDptRG----KRLWLGTYDTpEEAATVYDNAAIRLRG 175
+                     79*******.*******8776455....*************************98 PP
+
+>> XP_010261539.1  PREDICTED: ethylene-responsive transcription factor ERF061 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.3   4.2     4e-16   1.1e-13       2      53 ..     114     163 ..     113     164 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 52.3 bits;  conditional E-value: 4e-16
+             AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr++  wg+WvAe   +  ++   + r++lg+y+t e Aa+a+++a++kl+g
+  XP_010261539.1 114 LYRGVRQRH-WGKWVAEirlP--QN---RMRVWLGTYDTaEAAAYAYDRAAYKLRG 163
+                     59*******.*******6555..55...8*************************98 PP
+
+>> XP_010243654.1  PREDICTED: dehydration-responsive element-binding protein 2C-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.6   0.9   3.2e-16   8.5e-14       3      53 ..      31      79 ..      29      80 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 52.6 bits;  conditional E-value: 3.2e-16
+             AP2  3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    +rGVr++  wg+WvAe +e n   + +r++lg+++t  eAa a++ a++kl+g
+  XP_010243654.1 31 YRGVRQRT-WGKWVAEIREpN---RGARIWLGTFNTsLEAAVAYDDAARKLYG 79
+                    9*******.*******99974...46*************************98 PP
+
+>> XP_010273874.1  PREDICTED: ethylene-responsive transcription factor RAP2-9-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.4   0.8   3.7e-16   9.8e-14       2      53 ..      28      77 ..      27      78 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 52.4 bits;  conditional E-value: 3.7e-16
+             AP2  2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    +++GVr +k wg+WvAe   ++      + r++lg y+t  +Aara+++a ++l+g
+  XP_010273874.1 28 GYKGVRMRK-WGKWVAEvrlPK-----SRDRIWLGSYDTpDKAARAYDAAVFCLRG 77
+                    79*******.*******88774.....369************************98 PP
+
+>> XP_010274788.1  PREDICTED: ethylene-responsive transcription factor ERF098-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.2   2.0   4.3e-16   1.1e-13       2      54 .]       8      59 ..       7      59 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 52.2 bits;  conditional E-value: 4.3e-16
+             AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                    ++rGVr+++ wg+++Ae ++ +  r  +r +lg++   e+Aara+++a+++l+g+
+  XP_010274788.1  8 RYRGVRRRP-WGKYAAEIRDpS--RPGARLWLGTFENaEDAARAYDRAAFALRGH 59
+                    7********.*******66532..344**************************96 PP
+
+>> XP_010260885.1  PREDICTED: ethylene-responsive transcription factor ABI4 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.2   5.1   4.3e-16   1.2e-13       2      53 ..      59     108 ..      58     109 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 52.2 bits;  conditional E-value: 4.3e-16
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     ++rGVr++  wg+WvAe +e   rk++r +lg++ t e+Aara+++a+l l+g
+  XP_010260885.1  59 RYRGVRQRS-WGKWVAEIRE--PRKRTRKWLGTFATaEDAARAYDRAALVLYG 108
+                     79*******.*******876..3579**********************99887 PP
+
+>> XP_010274030.1  PREDICTED: ethylene-responsive transcription factor ERF062-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.8   2.5   5.8e-16   1.6e-13       2      53 ..     256     305 ..     255     306 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 51.8 bits;  conditional E-value: 5.8e-16
+             AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr++  wg+WvAe   +  ++   ++r++lg+++t eeAa a++ a++kl+g
+  XP_010274030.1 256 LYRGVRQRH-WGKWVAEirlP--RN---RTRVWLGTFDTaEEAAFAYDTAAYKLRG 305
+                     59*******.*******6555..45...8*************************98 PP
+
+>> XP_010242642.1  PREDICTED: dehydration-responsive element-binding protein 1F-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.4   0.1   3.8e-16     1e-13       2      53 ..      56     105 ..      55     106 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 52.4 bits;  conditional E-value: 3.8e-16
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr +   g+Wv+  +e n+   k+r++lg++ t e+Aara++ a+l+l+g
+  XP_010242642.1  56 IYRGVRERN-GGKWVCKVREpNK---KSRIWLGTFPTpEMAARAYDVAALALRG 105
+                     69*******.*******999665...9*************************98 PP
+
+>> XP_010262304.1  PREDICTED: ethylene-responsive transcription factor ERF098-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.7   1.4   6.1e-16   1.6e-13       2      54 .]      10      61 ..       9      61 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 51.7 bits;  conditional E-value: 6.1e-16
+             AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                    ++rGVr+++ wg+++Ae ++ +  r  +r +lg++   e+Aara+++a+++l g+
+  XP_010262304.1 10 RYRGVRRRP-WGKFAAEIRDpS--RPGARLWLGTFENaEDAARAYDRAAFALKGH 61
+                    7********.*******66532..344************************9986 PP
+
+>> XP_019052225.1  PREDICTED: LOW QUALITY PROTEIN: ethylene-responsive transcription factor ERF024 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.9   0.1   1.1e-15     3e-13       2      54 .]      22      72 ..      21      72 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 50.9 bits;  conditional E-value: 1.1e-15
+             AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlklegs 54
+                    ++rGVr ++ +g+Wv+e +e   +k++r++lg++ t e+Aa a++ a+l+l g+
+  XP_019052225.1 22 GYRGVRVRR-SGKWVSEIREP--KKSSRIWLGTFPTpEMAATAYDVAALALKGH 72
+                    79*******.9******8773..479************************9986 PP
+
+>> XP_010263592.1  PREDICTED: ethylene-responsive transcription factor ERF119-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.5   4.1   1.5e-15   4.1e-13       1      51 [.     124     172 ..     124     173 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 50.5 bits;  conditional E-value: 1.5e-15
+             AP2   1 pkirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkl 51 
+                     +k+rGVr+++ wg+W+Ae ++  +g     r++lg+ygt eeAa+a+++a +kl
+  XP_010263592.1 124 SKYRGVRQRR-WGKWAAEIRDpiRG----VRVWLGTYGTaEEAAEAYEAASRKL 172
+                     69********.*******9887777....********************98876 PP
+
+>> XP_010245316.1  PREDICTED: ethylene-responsive transcription factor ERF054 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.6   1.0   1.4e-15   3.7e-13       2      53 ..     207     256 ..     206     257 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 50.6 bits;  conditional E-value: 1.4e-15
+             AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr++  wg+WvAe   +  ++   ++r +lg+++t e+Aa+a+++ ++kl+g
+  XP_010245316.1 207 LYRGVRQRH-WGKWVAEirlP--RN---RTRLWLGTFDTaEDAALAYDREAFKLRG 256
+                     59*******.*******6555..45...8*************************98 PP
+
+>> XP_010242644.1  PREDICTED: ethylene-responsive transcription factor ERF024-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.3   0.0   3.6e-15   9.7e-13       1      53 [.      35      85 ..      35      86 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 49.3 bits;  conditional E-value: 3.6e-15
+             AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    p++rGVr++   g+Wv+e +e +  k  r++lg+y t e+Aa a++ a+l+l g
+  XP_010242644.1 35 PVYRGVRRRS-GGKWVSEIREPK--KPNRIWLGTYPTpEMAAVAYDVAALALKG 85
+                    79********.*******86632..459***********************987 PP
+
+>> XP_010242006.1  PREDICTED: ethylene-responsive transcription factor ERF053-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   1.1   3.8e-15     1e-12       2      53 ..     204     253 ..     203     254 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 3.8e-15
+             AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr++  wg+WvAe   +  ++   ++r +lg+++t e+Aa+a+++ ++kl+g
+  XP_010242006.1 204 LYRGVRQRH-WGKWVAEirlP--RN---RTRLWLGTFDTaEDAALAYDREAYKLRG 253
+                     59*******.*******6555..45...8********************9999997 PP
+
+>> XP_010273875.1  PREDICTED: ethylene-responsive transcription factor ERF017-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   0.9   4.1e-15   1.1e-12       2      53 ..      16      65 ..      15      66 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 4.1e-15
+             AP2  2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                     ++GVr +k wg+Wv+e   +  n    + r++lg y+t e+Aara ++a ++l+g
+  XP_010273875.1 16 LYKGVRKRK-WGKWVSEirlP--NS---RERIWLGSYDTaEKAARAFDAALFCLRG 65
+                    69*******.*******6555..65...8*************************98 PP
+
+>> XP_010241855.1  PREDICTED: ethylene-responsive transcription factor LEP-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.8   0.3   5.2e-15   1.4e-12       4      53 ..      52      99 ..      49     100 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 48.8 bits;  conditional E-value: 5.2e-15
+             AP2  4 rGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                     GVr+++ wgr++Ae ++ +   +k r +lg+++t +eAa+a+++a+l++ g
+  XP_010241855.1 52 LGVRRRP-WGRYAAEIRDpT---TKERHWLGTFDTaHEAALAYDRAALSMKG 99
+                    5******.*******77754...38************************987 PP
+
+>> XP_010261769.1  PREDICTED: ethylene-responsive transcription factor ERF017-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.9   1.8   4.6e-15   1.2e-12       2      53 ..      17      66 ..      16      67 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 48.9 bits;  conditional E-value: 4.6e-15
+             AP2  2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                     ++GVr +k wg+Wv+e   +  n    + r++lg y+t e+Aara ++a ++l+g
+  XP_010261769.1 17 QYKGVRKRK-WGKWVSEirlP--NS---RERIWLGSYDTaEKAARAFDAALFCLRG 66
+                    79*******.*******6555..65...8*************************98 PP
+
+>> XP_010241385.1  PREDICTED: ethylene-responsive transcription factor ERF062-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.7   2.3   5.4e-15   1.4e-12       2      53 ..     253     302 ..     252     303 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 48.7 bits;  conditional E-value: 5.4e-15
+             AP2   2 kirGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGVr++  wg+WvAe   +  ++   ++r++lg+++t e+Aa a++ a+++l+g
+  XP_010241385.1 253 LYRGVRQRH-WGKWVAEirlP--RN---RTRVWLGTFDTaEDAAFAYDTAAYRLRG 302
+                     59*******.*******6555..45...8*************************98 PP
+
+>> XP_010251056.1  PREDICTED: ethylene-responsive transcription factor ESR2-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.6   2.4   5.6e-15   1.5e-12       2      53 ..      46      95 ..      45      96 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 48.6 bits;  conditional E-value: 5.6e-15
+             AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr+++ wgr++Ae ++ +    k r +lg+++t eeAa a++ a+++++g
+  XP_010251056.1 46 RYRGVRRRP-WGRYAAEIRDpQS---KERRWLGTFDTaEEAACAYDCAARAMRG 95
+                    79*******.*******988665...89************************98 PP
+
+>> XP_010243538.1  PREDICTED: ethylene-responsive transcription factor ERF086 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.8   0.3   5.2e-15   1.4e-12       4      53 ..      51      98 ..      48      99 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 48.8 bits;  conditional E-value: 5.2e-15
+             AP2  4 rGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                     GVr+++ wgr++Ae ++ +   +k r +lg+++t +eAa+a+++a+l++ g
+  XP_010243538.1 51 LGVRRRP-WGRYAAEIRDpT---TKERHWLGTFDTaHEAALAYDRAALSMKG 98
+                    5******.*******77754...38************************987 PP
+
+>> XP_010249428.1  PREDICTED: ethylene-responsive transcription factor ESR1-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.7   2.4   5.6e-15   1.5e-12       2      53 ..      48      97 ..      47      98 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 48.7 bits;  conditional E-value: 5.6e-15
+             AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr+++ wgr++Ae ++ +    k r +lg+++t eeAa a++ a+++++g
+  XP_010249428.1 48 RYRGVRRRP-WGRYAAEIRDpQS---KERRWLGTFDTaEEAACAYDCAARAMRG 97
+                    79*******.*******988665...89************************98 PP
+
+>> XP_010271250.1  PREDICTED: ethylene-responsive transcription factor RAP2-3-like, partial [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.3   4.0   3.5e-15   9.4e-13       3      53 ..      65     113 ..      63     114 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 49.3 bits;  conditional E-value: 3.5e-15
+             AP2   3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rG+r+++ wg+W+Ae ++ +   k  r++lg+y+t eeAa+a+  a+++++g
+  XP_010271250.1  65 YRGIRQRA-WGKWAAEIRDpR---KGVRVWLGTYNTaEEAAMAYVVAAKRIRG 113
+                     9*******.*******87642...57************************997 PP
+
+>> XP_010259467.1  PREDICTED: ethylene-responsive transcription factor RAP2-12-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   3.1   3.7e-15   9.8e-13       3      53 ..      74     122 ..      72     123 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 3.7e-15
+             AP2   3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rG+r+++ wg+W+Ae ++ +   k  r++lg+++t eeAara+++ ++k++g
+  XP_010259467.1  74 YRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTFNTaEEAARAYDREARKIRG 122
+                     9*******.*******87642...57********************9999997 PP
+
+>> XP_010265156.1  PREDICTED: ethylene-responsive transcription factor ERF118 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   3.7   3.8e-15     1e-12       1      49 [.     120     166 ..     120     169 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 3.8e-15
+             AP2   1 pkirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearl 49 
+                     +k+rGVr+++ wg+W+Ae ++  +g     r++lg+y+t eeAa+a+++a +
+  XP_010265156.1 120 SKYRGVRQRR-WGKWAAEIRDpiRG----VRVWLGTYDTaEEAAEAYEAASK 166
+                     69********.*******9887777....*******************9976 PP
+
+>> XP_010265157.1  PREDICTED: ethylene-responsive transcription factor ERF118 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   3.7   3.8e-15     1e-12       1      49 [.     120     166 ..     120     169 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 3.8e-15
+             AP2   1 pkirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearl 49 
+                     +k+rGVr+++ wg+W+Ae ++  +g     r++lg+y+t eeAa+a+++a +
+  XP_010265157.1 120 SKYRGVRQRR-WGKWAAEIRDpiRG----VRVWLGTYDTaEEAAEAYEAASK 166
+                     69********.*******9887777....*******************9976 PP
+
+>> XP_010269613.1  PREDICTED: ethylene-responsive transcription factor RAP2-2-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.1   3.2   4.2e-15   1.1e-12       3      53 ..      77     125 ..      75     126 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 49.1 bits;  conditional E-value: 4.2e-15
+             AP2   3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rG+r+++ wg+W+Ae ++ +   k  r++lg+++t eeAara+++ ++k++g
+  XP_010269613.1  77 YRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTFNTaEEAARAYDREARKIRG 125
+                     9*******.*******87642...57********************9999997 PP
+
+>> XP_010245546.1  PREDICTED: ethylene-responsive transcription factor ERF003-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.8   0.3     1e-14   2.7e-12       2      53 ..       7      56 ..       6      57 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 47.8 bits;  conditional E-value: 1e-14
+             AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr++  wg+Wv+e +        k+r++lg++ t e+Aara++ea++ ++g
+  XP_010245546.1  7 RYRGVRQRH-WGSWVSEIRHplL----KTRIWLGTFETaEDAARAYDEAARLMCG 56
+                    79*******.*******743321....4**********************99987 PP
+
+>> XP_010265679.1  PREDICTED: ethylene-responsive transcription factor ERF003-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.9   0.3   9.8e-15   2.6e-12       2      53 ..       7      56 ..       6      57 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 47.9 bits;  conditional E-value: 9.8e-15
+             AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++rGVr++  wg+Wv+e +        k+r++lg++ t e+Aara++ea++ ++g
+  XP_010265679.1  7 RYRGVRQRH-WGSWVSEIRHplL----KTRIWLGTFETaEDAARAYDEAARLMCG 56
+                    79*******.*******743321....4**********************99987 PP
+
+>> XP_010250110.1  PREDICTED: ethylene-responsive transcription factor WIN1-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.7   1.1   1.1e-14     3e-12       2      48 ..       6      50 ..       5      56 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 47.7 bits;  conditional E-value: 1.1e-14
+             AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiear 48
+                    k+rGVr++  wg+Wv+e +        k+r++lg++ t eeAara++ea+
+  XP_010250110.1  6 KFRGVRQRH-WGSWVSEIRHplL----KRRVWLGTFETaEEAARAYDEAA 50
+                    89*******.*******743321....5*********************8 PP
+
+>> XP_010274320.1  PREDICTED: ethylene-responsive transcription factor ERF014 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.9   0.5   9.3e-15   2.5e-12       2      53 ..      26      75 ..      25      76 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 47.9 bits;  conditional E-value: 9.3e-15
+             AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    k++GVr +  wg+Wv+e +  n+   k+r++lg y t e Aara+++a l+l g
+  XP_010274320.1 26 KYKGVRMRS-WGSWVSEIRApNQ---KTRIWLGSYSTpEAAARAYDAALLCLKG 75
+                    8********.*******877676...9***********************9988 PP
+
+>> XP_010272800.1  PREDICTED: ethylene-responsive transcription factor ERF014-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.5   0.6   1.3e-14   3.4e-12       2      53 ..      27      76 ..      26      77 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 47.5 bits;  conditional E-value: 1.3e-14
+             AP2  2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    k++GVr +  wg+Wv+e +  n+   k+r++lg y t e Aara+++a l+l g
+  XP_010272800.1 27 KYKGVRMRS-WGSWVSEIRApNQ---KTRIWLGSYSTpEAAARAYDAALLCLKG 76
+                    8********.*******877676...9***********************9988 PP
+
+>> XP_010254403.1  PREDICTED: ethylene-responsive transcription factor WIN1-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.8   1.1     1e-14   2.7e-12       2      48 ..       6      50 ..       5      56 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 47.8 bits;  conditional E-value: 1e-14
+             AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiear 48
+                    k+rGVr++  wg+Wv+e +        k+r++lg++ t eeAara++ea+
+  XP_010254403.1  6 KFRGVRQRH-WGSWVSEIRHplL----KRRVWLGTFETaEEAARAYDEAA 50
+                    89*******.*******743321....5*********************8 PP
+
+>> XP_010261706.1  PREDICTED: ethylene-responsive transcription factor RAP2-12 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   3.9     2e-14   5.3e-12       2      53 ..     109     158 ..     108     159 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 2e-14
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rG+r+++ wg+W+Ae ++ +   k  r++lg+++t eeAara+++ +++++g
+  XP_010261706.1 109 QYRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTFNTaEEAARAYDAEARRIRG 158
+                     69*******.*******87642...57*******************99998887 PP
+
+>> XP_010261707.1  PREDICTED: ethylene-responsive transcription factor RAP2-12 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   3.9     2e-14   5.3e-12       2      53 ..     109     158 ..     108     159 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 2e-14
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rG+r+++ wg+W+Ae ++ +   k  r++lg+++t eeAara+++ +++++g
+  XP_010261707.1 109 QYRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTFNTaEEAARAYDAEARRIRG 158
+                     69*******.*******87642...57*******************99998887 PP
+
+>> XP_010273830.1  PREDICTED: ethylene-responsive transcription factor RAP2-12-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   3.9     2e-14   5.2e-12       2      53 ..     108     157 ..     107     158 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 2e-14
+             AP2   2 kirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rG+r+++ wg+W+Ae ++ +   k  r++lg+++t eeAara+++ +++++g
+  XP_010273830.1 108 QYRGIRQRP-WGKWAAEIRDpR---KGVRVWLGTFNTaEEAARAYDAEARRIRG 157
+                     69*******.*******87642...57*******************99998887 PP
+
+>> XP_010263467.1  PREDICTED: ethylene-responsive transcription factor ERF008-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.8   1.9   2.1e-14   5.6e-12       3      53 ..      29      77 ..      27      78 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 46.8 bits;  conditional E-value: 2.1e-14
+             AP2  3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    +rG+r +k wg+WvAe +e n+   ++r++lg y t   Aara++ a ++l+g
+  XP_010263467.1 29 YRGIRMRK-WGKWVAEIREpNK---RSRIWLGSYSTpLAAARAYDTAVFYLRG 77
+                    9*******.*******999665...9*************************98 PP
+
+>> XP_010264771.1  PREDICTED: dehydration-responsive element-binding protein 2A [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   0.3     2e-14   5.4e-12       1      53 [.      22      72 ..      22      73 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 2e-14
+             AP2  1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    p+++GVr++  wg+Wv+e +e n   + +rf+lg++    eAa+a+ ea ++++g
+  XP_010264771.1 22 PNYSGVRQRT-WGKWVVEIREpN---RGSRFWLGTFSPiLEAALAYGEATKAMYG 72
+                    78********.*******99974...46************************998 PP
+
+>> XP_010262228.1  PREDICTED: ethylene-responsive transcription factor ERF110-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.1   0.3   3.4e-14   9.2e-12       4      53 ..      55     102 ..      52     103 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 46.1 bits;  conditional E-value: 3.4e-14
+             AP2   4 rGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      GVr+++ +grWvAe +++   +k r +lg+++  eeAa+a++ a++ l+g
+  XP_010262228.1  55 LGVRQRP-SGRWVAEIKDSS--QKLRLWLGTFDRaEEAAMAYDNAARLLRG 102
+                     5******.9******99854..69**********************98887 PP
+
+>> XP_010253487.1  PREDICTED: ethylene-responsive transcription factor RAP2-7 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   3.0   3.7e-12   9.8e-10       2      53 ..     180     228 ..     179     229 .. 0.93
+   2 !   10.4   0.8    0.0048       1.3       1      21 [.     271     290 ..     271     319 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 3.7e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  XP_010253487.1 180 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 228
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 10.4 bits;  conditional E-value: 0.0048
+             AP2   1 pkirGVrydkkwgrWvAewse 21 
+                     +k+rGV+ +k  grW+A+  +
+  XP_010253487.1 271 SKYRGVTLHK-CGRWEARMGQ 290
+                     69********.6*****9433 PP
+
+>> XP_010270594.1  PREDICTED: ethylene-responsive transcription factor ERF010 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.5   1.5   5.6e-14   1.5e-11       3      53 ..      30      78 ..      29      79 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 45.5 bits;  conditional E-value: 5.6e-14
+             AP2  3 irGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    +rG+r +k wg+WvAe +e n+   ++r++lg y t   Aara++ a ++l+g
+  XP_010270594.1 30 FRGIRMRK-WGKWVAEIREpNK---RSRIWLGSYSTpVAAARAYDTAVFYLRG 78
+                    79******.*******999665...9*************************98 PP
+
+>> XP_010260158.1  PREDICTED: ethylene-responsive transcription factor RAP2-7-like isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.7   3.0   3.6e-12   9.6e-10       2      53 ..     177     225 ..     176     226 .. 0.93
+   2 !   10.3   0.4    0.0053       1.4       1      20 [.     268     286 ..     268     296 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 39.7 bits;  conditional E-value: 3.6e-12
+             AP2   2 kirGVrydkkwgrWvAe.wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rGV++++++grW+++ w      + k+++lg ++t + Aara+++a+ k +g
+  XP_010260158.1 177 QYRGVTFYRRTGRWESHiWD-----CGKQVYLGGFDTaHAAARAYDRAAIKFRG 225
+                     7****************992.....36***********************9987 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 0.0053
+             AP2   1 pkirGVrydkkwgrWvAews 20 
+                     +k+rGV+ +k  grW+A+  
+  XP_010260158.1 268 SKYRGVTLHK-CGRWEARMG 286
+                     69********.6*****954 PP
+
+>> XP_010242028.1  PREDICTED: ethylene-responsive transcription factor ERF020 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.8   0.2   8.9e-14   2.4e-11       2      53 ..      15      64 ..      14      65 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 44.8 bits;  conditional E-value: 8.9e-14
+             AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    k+ GVr++k wg+Wv+e +  g  ++ r +lg y t e Aa a++ a ++l+g
+  XP_010242028.1 15 KYNGVRRRK-WGKWVSEIRVPG--TRDRLWLGSYSTpEAAAVAHDTALFCLRG 64
+                    89*******.*******76645..68*************************98 PP
+
+>> XP_010265482.1  PREDICTED: ethylene-responsive transcription factor ERF003-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.2   0.4   1.3e-13   3.6e-11       2      48 ..       6      50 ..       5      56 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 44.2 bits;  conditional E-value: 1.3e-13
+             AP2  2 kirGVrydkkwgrWvAewse..ngkrkkkrfslgkygt.eeAaraAiear 48
+                    ++rGVr++  wg+Wv+e +        k+r++lg++ t e+Aara++ea+
+  XP_010265482.1  6 RFRGVRQRH-WGSWVSEIRHplL----KTRIWLGTFETaEDAARAYDEAA 50
+                    69*******.*******743321....4*********************8 PP
+
+>> XP_010255544.1  PREDICTED: ethylene-responsive transcription factor ERF027-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   0.0   2.2e-13     6e-11       2      53 ..      71     119 ..      70     120 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 2.2e-13
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      +rG+r +   g+Wv+e +e   rk++r++lg++ t e+Aa a++ a+l+l g
+  XP_010255544.1  71 IYRGIRCRS--GKWVSEIRE--PRKTTRIWLGTFPTpEMAAAAYDVAALALKG 119
+                     599999999..******876..3579************************998 PP
+
+>> XP_010252352.1  PREDICTED: ethylene-responsive transcription factor ERF036-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.1   0.3     3e-13   8.1e-11       3      53 ..      37      85 ..      36      86 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 43.1 bits;  conditional E-value: 3e-13
+             AP2  3 irGVrydkkwgrWvAe...wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    +rGVr++  wgr+v+e   +     +kk+r++lg + + e+Aara++ a++ l g
+  XP_010252352.1 37 YRGVRRRS-WGRYVSEirlP-----KKKTRIWLGSFLSpEMAARAYDSAAFFLKG 85
+                    9*******.*******6666.....579***********************9987 PP
+
+>> XP_010278525.1  PREDICTED: ethylene-responsive transcription factor ERF026-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.0   0.0   3.3e-13   8.8e-11       2      53 ..      22      70 ..      21      71 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 43.0 bits;  conditional E-value: 3.3e-13
+             AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                     +rG+r +   g+Wv+e +e   rk++r++lg++ t e+Aa a++ a+l+l g
+  XP_010278525.1 22 IYRGIRCRS--GKWVSEIRE--PRKSTRIWLGTFPTpEMAATAYDVAALALKG 70
+                    599999999..******876..3579************************988 PP
+
+>> XP_010264432.1  PREDICTED: dehydration-responsive element-binding protein 3-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.1   0.0   6.2e-13   1.7e-10       3      53 ..      61     109 ..      59     110 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 42.1 bits;  conditional E-value: 6.2e-13
+             AP2   3 irGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                     +rGVr +   g+W +e +e   rkk+r++l ++ t e+A ra++ a+l++ g
+  XP_010264432.1  61 YRGVRMHS-FGKWISEIRE--PRKKSRIWLRTFPTpEMATRAHDVAALNIKG 109
+                     9*******.*******876..3579************************998 PP
+
+>> XP_010247508.1  PREDICTED: AP2-like ethylene-responsive transcription factor At2g41710 isoform X2 [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.8   3.4   1.4e-11   3.8e-09       3      53 ..      26      82 ..      24      83 .. 0.87
+   2 ?    3.2   0.0      0.87   2.3e+02       1      40 [.     125     163 ..     125     165 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 37.8 bits;  conditional E-value: 1.4e-11
+             AP2  3 irGVrydkkwgrWvAe......wsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    i G+r  +++gr++A+      w++n+ +k k+++lg y+  e Aara+++a+lk++g
+  XP_010247508.1 26 IEGIRH-RWTGRYEAHlwdkstWNQNQNKKGKQVYLGAYDEeEAAARAYDLAALKYWG 82
+                    666665.55********98888888888999*************************98 PP
+
+  == domain 2  score: 3.2 bits;  conditional E-value: 0.87
+             AP2   1 pkirGVrydkkwgrWvAewsengkrkk.krfslgkygt.eeA 40 
+                     +k+rG ++ + +  W++ +   g+     +    +ygt e+A
+  XP_010247508.1 125 SKYRGLSRPPQSSQWESSF---GRMVGpDYLNSIHYGTgEDA 163
+                     69***************98...63334699999999998887 PP
+
+>> XP_010265251.1  PREDICTED: AP2/ERF and B3 domain-containing transcription factor RAV1-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.2   0.6   4.9e-12   1.3e-09       2      53 ..      62     109 ..      61     110 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 39.2 bits;  conditional E-value: 4.9e-12
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      ++GV   +  grW A+ +e    k++r++lg+++  eeAara++ a+++ +g
+  XP_010265251.1  62 QYKGVVPQP-NGRWGAQIYE----KHQRVWLGTFNEeEEAARAYDIAAQRFRG 109
+                     79*******.7******877....58***********************9998 PP
+
+>> XP_010262942.1  PREDICTED: AP2/ERF and B3 domain-containing transcription factor RAV1-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.2   0.6   4.9e-12   1.3e-09       2      53 ..      61     108 ..      60     109 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 39.2 bits;  conditional E-value: 4.9e-12
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53 
+                      ++GV   +  grW A+ +e    k++r++lg+++  eeAara++ a+++ +g
+  XP_010262942.1  61 QYKGVVPQP-NGRWGAQIYE----KHQRVWLGTFNEeEEAARAYDIAAQRFRG 108
+                     79*******.7******877....58***********************9998 PP
+
+>> XP_010267890.1  PREDICTED: ethylene-responsive transcription factor RAP2-12-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.3   0.0   9.8e-12   2.6e-09       1      53 [.      22      72 ..      22      73 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 38.3 bits;  conditional E-value: 9.8e-12
+             AP2  1 pkirGVrydkkwgrWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    p++rG+r+    g+WvAe ++ n   + +r +lg++ t  e a+a++ea ++++g
+  XP_010267890.1 22 PNYRGIRQQT-MGKWVAEIRDpN---RGSRLWLGTFSTtLEDALAYDEATKAMCG 72
+                    78********.*******98864...46*************************98 PP
+
+>> XP_010249446.1  PREDICTED: AP2/ERF and B3 domain-containing transcription factor At1g50680-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.1   0.2     2e-10   5.3e-08       2      53 ..      42      89 ..      41      90 .. 0.93
+   2 ?   -0.1   2.4       9.7   2.6e+03       6      18 ..     219     231 ..     217     248 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 34.1 bits;  conditional E-value: 2e-10
+             AP2  2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    +++GV      g W A+ ++n    ++r++lg++ + +eAa+a++ a+ kl+g
+  XP_010249446.1 42 RFKGVVLQQ-NGHWGAQIYTN----HQRIWLGTFKSeKEAAMAYDSAAIKLRG 89
+                    689999999.7******9998....7*************************98 PP
+
+  == domain 2  score: -0.1 bits;  conditional E-value: 9.7
+             AP2   6 VrydkkwgrWvAe 18 
+                     V+ydk+ ++W  +
+  XP_010249446.1 219 VFYDKWMKSWKFR 231
+                     99***99999655 PP
+
+>> XP_010246118.1  PREDICTED: B3 domain-containing protein At2g36080-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.0   0.5   1.8e-09   4.9e-07       1      53 [.      31      79 ..      31      80 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 31.0 bits;  conditional E-value: 1.8e-09
+             AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++++GV      grW A+ +en+     r +lg++++ e Aar +++a+   +g
+  XP_010246118.1 31 SRYKGVVPQS-NGRWGAQIYENQ----HRLWLGTFDSeEAAARSYDRAASLFRG 79
+                    5899999999.7******99*96....*********************976665 PP
+
+>> XP_010259177.1  PREDICTED: AP2/ERF and B3 domain-containing transcription factor At1g50680-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.9   0.4   1.9e-09   5.1e-07       1      53 [.      46      94 ..      46      95 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 30.9 bits;  conditional E-value: 1.9e-09
+             AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    ++++GV      g+W A+ + n    ++r++lg++ t   Aa+a++ a+ kl++
+  XP_010259177.1 46 SRFKGVVMQQ-NGNWGAQIYAN----HQRIWLGTFKTeQAAAMAYDSAAIKLRK 94
+                    5799999999.7******9887....7**********999***********986 PP
+
+>> XP_019052030.1  PREDICTED: dehydration-responsive element-binding protein 2A-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.3   0.1   6.2e-09   1.7e-06      13      53 ..       2      41 ..       1      42 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 29.3 bits;  conditional E-value: 6.2e-09
+             AP2 13 grWvAewse.ngkrkkkrfslgkygt.eeAaraAiearlkleg 53
+                    g+Wv+e +e n   + +r +lg++ t  e a+a++ea+++++g
+  XP_019052030.1  2 GKWVTEIREpN---RGSRLWLGTFSTaLEVALAYDEAARTMYG 41
+                    8*****99974...46*************************98 PP
+
+>> XP_010262926.1  PREDICTED: B3 domain-containing protein At2g36080-like [Nelumbo nucifera]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.7   0.1   4.1e-08   1.1e-05       1      50 [.      28      73 ..      28      77 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 26.7 bits;  conditional E-value: 4.1e-08
+             AP2  1 pkirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlk 50
+                    ++++GV   +  grW A+  en    + r +lg++++ e Aar + +a  +
+  XP_010262926.1 28 SRYKGVVPQP-NGRWGAQIQEN----HHRLWLGTFDSeEAAARSYLRAVSM 73
+                    68********.7******9887....7**********99999999988665 PP
+
+>> XP_010242670.1  PREDICTED: ethylene-responsive transcription factor-like protein At4g13040 isoform X2 [Nelumbo nucife
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.1         5   1.3e+03       4      31 ..      88      97 ..      83     105 .. 0.60
+   2 !   24.1   0.2   2.5e-07   6.8e-05       2      50 ..     108     151 ..     107     154 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 0.8 bits;  conditional E-value: 5
+             AP2  4 rGVrydkkwgrWvAewsengkrkkkrfs 31
+                    +GV+++k                  r +
+  XP_010242670.1 88 QGVKRRK------------------RHR 97
+                    3555555..................443 PP
+
+  == domain 2  score: 24.1 bits;  conditional E-value: 2.5e-07
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlk 50 
+                     + rGV+++   ++W A  + +    kk+++lg+ g+ eeAar++++a+++
+  XP_010242670.1 108 VMRGVYFKN--MKWQAAIKVD----KKQIHLGTVGSqEEAARLYDRAAFM 151
+                     679*****9..******9776....5*********************986 PP
+
+>> XP_019051495.1  PREDICTED: ethylene-responsive transcription factor-like protein At4g13040 isoform X2 [Nelumbo nucife
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.1         5   1.3e+03       4      31 ..      88      97 ..      83     105 .. 0.60
+   2 !   24.1   0.2   2.5e-07   6.8e-05       2      50 ..     108     151 ..     107     154 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 0.8 bits;  conditional E-value: 5
+             AP2  4 rGVrydkkwgrWvAewsengkrkkkrfs 31
+                    +GV+++k                  r +
+  XP_019051495.1 88 QGVKRRK------------------RHR 97
+                    3555555..................443 PP
+
+  == domain 2  score: 24.1 bits;  conditional E-value: 2.5e-07
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlk 50 
+                     + rGV+++   ++W A  + +    kk+++lg+ g+ eeAar++++a+++
+  XP_019051495.1 108 VMRGVYFKN--MKWQAAIKVD----KKQIHLGTVGSqEEAARLYDRAAFM 151
+                     679*****9..******9776....5*********************986 PP
+
+>> XP_019051496.1  PREDICTED: ethylene-responsive transcription factor-like protein At4g13040 isoform X2 [Nelumbo nucife
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.1         5   1.3e+03       4      31 ..      88      97 ..      83     105 .. 0.60
+   2 !   24.1   0.2   2.5e-07   6.8e-05       2      50 ..     108     151 ..     107     154 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 0.8 bits;  conditional E-value: 5
+             AP2  4 rGVrydkkwgrWvAewsengkrkkkrfs 31
+                    +GV+++k                  r +
+  XP_019051496.1 88 QGVKRRK------------------RHR 97
+                    3555555..................443 PP
+
+  == domain 2  score: 24.1 bits;  conditional E-value: 2.5e-07
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlk 50 
+                     + rGV+++   ++W A  + +    kk+++lg+ g+ eeAar++++a+++
+  XP_019051496.1 108 VMRGVYFKN--MKWQAAIKVD----KKQIHLGTVGSqEEAARLYDRAAFM 151
+                     679*****9..******9776....5*********************986 PP
+
+>> XP_019051494.1  PREDICTED: ethylene-responsive transcription factor-like protein At4g13040 isoform X1 [Nelumbo nucife
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.2       8.3   2.2e+03       4      31 ..     174     183 ..     169     190 .. 0.63
+   2 !   23.5   0.2   4.1e-07   0.00011       2      50 ..     194     237 ..     193     240 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 8.3
+             AP2   4 rGVrydkkwgrWvAewsengkrkkkrfs 31 
+                     +GV+++k+                   +
+  XP_019051494.1 174 QGVKRRKR------------------HR 183
+                     46666664..................33 PP
+
+  == domain 2  score: 23.5 bits;  conditional E-value: 4.1e-07
+             AP2   2 kirGVrydkkwgrWvAewsengkrkkkrfslgkygt.eeAaraAiearlk 50 
+                     + rGV+++   ++W A  + +    kk+++lg+ g+ eeAar++++a+++
+  XP_019051494.1 194 VMRGVYFKN--MKWQAAIKVD----KKQIHLGTVGSqEEAARLYDRAAFM 237
+                     679*****9..******9776....5*********************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (54 nodes)
+Target sequences:                      38191  (18589171 residues searched)
+Passed MSV filter:                      1243  (0.0325469); expected 763.8 (0.02)
+Passed bias filter:                     1009  (0.0264198); expected 763.8 (0.02)
+Passed Vit filter:                       226  (0.00591762); expected 38.2 (0.001)
+Passed Fwd filter:                       144  (0.00377052); expected 0.4 (1e-05)
+Initial search space (Z):              38191  [actual number of targets]
+Domain search space  (domZ):             143  [number of targets reported over threshold]
+# CPU time: 0.24u 0.02s 00:00:00.26 Elapsed: 00:00:00.72
+# Mc/sec: 1381.22
+//
+[ok]

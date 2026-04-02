@@ -1,0 +1,1014 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00319.MADS.hmm
+# target sequence database:        NIPGR-Plants/Cinnamomum_kanehirae/Ckanehirae_531_v3.protein_primaryTranscriptOnly.fa
+# per-dom hits tabular output:     NIPGR_WORK/Cinnamomum_kanehirae/Cinnamomum_kanehirae_MADS.domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SRF-TF  [M=48]
+Accession:   PF00319.23
+Description: SRF-type transcription factor (DNA-binding and dimerisation domain)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------      -----------
+    1.6e-43  146.5   1.2    2.7e-22   78.5   0.5    2.2  2  CKAN_00848500  pacid=42695541 transcript=CKAN_00848500 locus=
+    7.8e-36  121.9   0.0    7.6e-17   61.1   0.0    2.5  2  CKAN_02197200  pacid=42704553 transcript=CKAN_02197200 locus=
+      7e-29   99.6   0.4    8.8e-29   99.3   0.4    1.1  1  CKAN_02781200  pacid=42710223 transcript=CKAN_02781200 locus=
+    1.6e-28   98.5   0.1      2e-28   98.2   0.1    1.1  1  CKAN_01848900  pacid=42688322 transcript=CKAN_01848900 locus=
+    3.8e-28   97.3   0.1    4.4e-28   97.1   0.1    1.1  1  CKAN_01683000  pacid=42682809 transcript=CKAN_01683000 locus=
+      6e-28   96.7   0.4      1e-27   95.9   0.4    1.4  1  CKAN_01848800  pacid=42689628 transcript=CKAN_01848800 locus=
+    8.6e-28   96.2   0.1      1e-27   95.9   0.1    1.1  1  CKAN_01681900  pacid=42682839 transcript=CKAN_01681900 locus=
+    2.5e-27   94.7   1.4    3.7e-27   94.1   0.2    1.9  1  CKAN_01509600  pacid=42682847 transcript=CKAN_01509600 locus=
+    2.9e-27   94.4   0.2    4.9e-27   93.7   0.2    1.4  1  CKAN_00230100  pacid=42702547 transcript=CKAN_00230100 locus=
+    3.2e-27   94.3   1.3    3.7e-27   94.1   0.2    1.7  1  CKAN_00958800  pacid=42697657 transcript=CKAN_00958800 locus=
+    3.7e-27   94.1   0.2    4.7e-27   93.8   0.2    1.1  1  CKAN_01682800  pacid=42684073 transcript=CKAN_01682800 locus=
+    3.7e-27   94.1   0.1    6.2e-27   93.4   0.1    1.4  1  CKAN_01682000  pacid=42683481 transcript=CKAN_01682000 locus=
+    6.6e-27   93.3   0.5    1.1e-26   92.6   0.5    1.4  1  CKAN_00958900  pacid=42695253 transcript=CKAN_00958900 locus=
+    7.5e-27   93.1   0.2    1.4e-26   92.3   0.2    1.5  1  CKAN_02562300  pacid=42706294 transcript=CKAN_02562300 locus=
+    7.8e-27   93.1   0.3    1.4e-26   92.3   0.3    1.4  1  CKAN_00566000  pacid=42694440 transcript=CKAN_00566000 locus=
+    8.2e-27   93.0   0.2    1.6e-26   92.1   0.2    1.5  1  CKAN_01942500  pacid=42686543 transcript=CKAN_01942500 locus=
+      1e-26   92.7   0.3    1.5e-26   92.1   0.3    1.3  1  CKAN_00283400  pacid=42701534 transcript=CKAN_00283400 locus=
+    1.1e-26   92.7   0.1    1.7e-26   92.0   0.1    1.3  1  CKAN_01682100  pacid=42683063 transcript=CKAN_01682100 locus=
+    1.1e-26   92.6   0.2    1.8e-26   91.9   0.2    1.4  1  CKAN_02189300  pacid=42704862 transcript=CKAN_02189300 locus=
+    1.1e-26   92.6   0.2    1.1e-26   92.6   0.2    1.6  1  CKAN_01682600  pacid=42684198 transcript=CKAN_01682600 locus=
+    1.1e-26   92.6   0.3    2.1e-26   91.7   0.3    1.5  1  CKAN_00861800  pacid=42695977 transcript=CKAN_00861800 locus=
+    1.3e-26   92.3   0.2    2.6e-26   91.4   0.2    1.5  1  CKAN_01821800  pacid=42689070 transcript=CKAN_01821800 locus=
+    1.9e-26   91.8   0.3    3.9e-26   90.9   0.3    1.5  1  CKAN_00109600  pacid=42703878 transcript=CKAN_00109600 locus=
+      2e-26   91.8   0.2    4.3e-26   90.7   0.2    1.6  1  CKAN_01533600  pacid=42683376 transcript=CKAN_01533600 locus=
+    2.6e-26   91.4   0.3    4.9e-26   90.5   0.3    1.5  1  CKAN_02117700  pacid=42705191 transcript=CKAN_02117700 locus=
+    3.9e-26   90.8   0.2    1.7e-25   88.8   0.2    2.0  2  CKAN_00109500  pacid=42703588 transcript=CKAN_00109500 locus=
+    4.3e-26   90.7   0.5    6.7e-26   90.1   0.5    1.3  1  CKAN_01634900  pacid=42682568 transcript=CKAN_01634900 locus=
+    4.9e-26   90.5   0.3    7.6e-26   89.9   0.3    1.3  1  CKAN_00565900  pacid=42692020 transcript=CKAN_00565900 locus=
+    5.3e-26   90.4   0.2    1.1e-25   89.5   0.2    1.5  1  CKAN_01635500  pacid=42684046 transcript=CKAN_01635500 locus=
+    7.4e-26   89.9   0.2    1.2e-25   89.3   0.2    1.3  1  CKAN_01596700  pacid=42682901 transcript=CKAN_01596700 locus=
+    9.5e-26   89.6   1.0    1.2e-25   89.3   0.1    1.7  1  CKAN_00239500  pacid=42703017 transcript=CKAN_00239500 locus=
+    1.5e-25   89.0   0.1    2.6e-25   88.2   0.1    1.4  1  CKAN_01894500  pacid=42687838 transcript=CKAN_01894500 locus=
+    2.1e-25   88.5   0.1    3.5e-25   87.8   0.1    1.4  1  CKAN_01187700  pacid=42708557 transcript=CKAN_01187700 locus=
+    2.5e-25   88.3   0.2    3.8e-25   87.7   0.2    1.3  1  CKAN_01817100  pacid=42689716 transcript=CKAN_01817100 locus=
+      3e-25   88.0   0.2    4.9e-25   87.3   0.2    1.4  1  CKAN_01290200  pacid=42698635 transcript=CKAN_01290200 locus=
+    4.9e-25   87.3   0.2    7.8e-25   86.7   0.2    1.3  1  CKAN_01906900  pacid=42686473 transcript=CKAN_01906900 locus=
+      6e-25   87.0   0.1    8.8e-25   86.5   0.1    1.2  1  CKAN_00653500  pacid=42693301 transcript=CKAN_00653500 locus=
+    9.8e-25   86.4   0.0    1.6e-24   85.7   0.0    1.4  1  CKAN_01065400  pacid=42710089 transcript=CKAN_01065400 locus=
+    7.6e-24   83.5   0.1    1.9e-23   82.3   0.0    1.7  1  CKAN_01352300  pacid=42699490 transcript=CKAN_01352300 locus=
+      2e-23   82.2   0.1    4.7e-23   81.0   0.1    1.7  1  CKAN_01882400  pacid=42689171 transcript=CKAN_01882400 locus=
+    2.1e-23   82.1   0.2    3.5e-23   81.4   0.2    1.4  1  CKAN_02199500  pacid=42704824 transcript=CKAN_02199500 locus=
+    2.1e-23   82.1   0.1    3.5e-23   81.4   0.1    1.4  1  CKAN_01046400  pacid=42710025 transcript=CKAN_01046400 locus=
+    2.3e-23   82.0   0.1    3.5e-23   81.4   0.1    1.3  1  CKAN_01942000  pacid=42686437 transcript=CKAN_01942000 locus=
+    3.7e-23   81.3   0.0    5.3e-23   80.8   0.0    1.2  1  CKAN_02525600  pacid=42685596 transcript=CKAN_02525600 locus=
+    3.7e-23   81.3   0.2      8e-23   80.2   0.2    1.6  1  CKAN_02109000  pacid=42704616 transcript=CKAN_02109000 locus=
+    4.4e-22   77.9   0.0    6.5e-22   77.3   0.0    1.3  1  CKAN_02525500  pacid=42685697 transcript=CKAN_02525500 locus=
+    8.5e-22   77.0   0.0    1.3e-21   76.4   0.0    1.3  1  CKAN_02189800  pacid=42705078 transcript=CKAN_02189800 locus=
+    1.3e-21   76.4   0.0    2.6e-21   75.4   0.0    1.5  1  CKAN_02317200  pacid=42691143 transcript=CKAN_02317200 locus=
+    1.9e-21   75.8   1.1    5.4e-21   74.4   1.1    1.8  1  CKAN_01633900  pacid=42684080 transcript=CKAN_01633900 locus=
+    2.8e-21   75.3   0.0    4.2e-21   74.8   0.0    1.3  1  CKAN_02189500  pacid=42705213 transcript=CKAN_02189500 locus=
+    4.5e-21   74.6   0.3    8.8e-21   73.7   0.3    1.5  1  CKAN_01634800  pacid=42683302 transcript=CKAN_01634800 locus=
+    1.4e-18   66.6   0.0    2.8e-18   65.7   0.0    1.5  1  CKAN_00319700  pacid=42703861 transcript=CKAN_00319700 locus=
+      1e-17   63.9   0.0    2.1e-17   62.9   0.0    1.5  1  CKAN_02447300  pacid=42685716 transcript=CKAN_02447300 locus=
+    5.1e-17   61.7   0.1      1e-16   60.7   0.1    1.5  1  CKAN_02491100  pacid=42685061 transcript=CKAN_02491100 locus=
+    6.7e-16   58.1   0.1    1.1e-15   57.4   0.1    1.3  1  CKAN_00483600  pacid=42693152 transcript=CKAN_00483600 locus=
+    6.8e-16   58.0   0.3    1.6e-15   56.9   0.3    1.7  1  CKAN_01689800  pacid=42682432 transcript=CKAN_01689800 locus=
+    6.9e-16   58.0   0.1    1.1e-15   57.4   0.1    1.3  1  CKAN_00483500  pacid=42693236 transcript=CKAN_00483500 locus=
+    1.2e-15   57.3   0.3    2.4e-15   56.3   0.3    1.6  1  CKAN_02283700  pacid=42691506 transcript=CKAN_02283700 locus=
+    1.2e-15   57.2   0.2    2.4e-15   56.3   0.2    1.5  1  CKAN_01209800  pacid=42708150 transcript=CKAN_01209800 locus=
+    1.3e-15   57.2   0.1      2e-15   56.5   0.1    1.3  1  CKAN_00478900  pacid=42693284 transcript=CKAN_00478900 locus=
+    1.5e-15   57.0   0.1    4.4e-15   55.5   0.1    1.8  1  CKAN_01209900  pacid=42708487 transcript=CKAN_01209900 locus=
+    1.8e-15   56.7   0.2    3.4e-15   55.8   0.2    1.5  1  CKAN_02283500  pacid=42690480 transcript=CKAN_02283500 locus=
+    3.3e-15   55.9   0.2    6.2e-15   55.0   0.2    1.5  1  CKAN_02283300  pacid=42691415 transcript=CKAN_02283300 locus=
+    4.7e-15   55.4   0.2    8.5e-15   54.5   0.2    1.5  1  CKAN_01690000  pacid=42683390 transcript=CKAN_01690000 locus=
+    8.2e-15   54.6   0.8    1.4e-14   53.8   0.3    1.7  2  CKAN_00526600  pacid=42692182 transcript=CKAN_00526600 locus=
+    3.2e-14   52.7   0.4    5.1e-14   52.1   0.4    1.3  1  CKAN_01747800  pacid=42689051 transcript=CKAN_01747800 locus=
+    3.9e-14   52.4   0.4    6.1e-14   51.8   0.4    1.3  1  CKAN_01747900  pacid=42690035 transcript=CKAN_01747900 locus=
+    1.3e-12   47.6   0.2    2.9e-12   46.4   0.2    1.6  1  CKAN_01689600  pacid=42682624 transcript=CKAN_01689600 locus=
+    9.2e-09   35.2   0.1    1.5e-08   34.5   0.1    1.3  1  CKAN_00867400  pacid=42697295 transcript=CKAN_00867400 locus=
+     0.0013   18.8   0.1     0.0022   18.0   0.1    1.4  1  CKAN_02742500  pacid=42691626 transcript=CKAN_02742500 locus=
+  ------ inclusion threshold ------
+      0.028   14.5   0.1      0.089   12.9   0.1    1.8  1  CKAN_01281000  pacid=42699352 transcript=CKAN_01281000 locus=
+      0.029   14.4   0.1      0.091   12.8   0.1    1.8  1  CKAN_02007400  pacid=42686756 transcript=CKAN_02007400 locus=
+      0.044   13.8   0.1        0.1   12.6   0.1    1.5  1  CKAN_01281300  pacid=42700408 transcript=CKAN_01281300 locus=
+
+
+Domain annotation for each sequence (and alignments):
+>> CKAN_00848500  pacid=42695541 transcript=CKAN_00848500 locus=CKAN_00848500 ID=CKAN_00848500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.5   0.5   7.1e-25   2.7e-22       2      48 .]      11      57 ..      10      57 .. 0.97
+   2 !   66.7   0.0   3.5e-21   1.3e-18       6      48 .]      84     126 ..      81     126 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 78.5 bits;  conditional E-value: 7.1e-25
+         SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +++k++R+vtFsKRr+GLfKKA+ LsiLCg+e+a++ fs +gk ++f
+  CKAN_00848500 11 VQDKQNRMVTFSKRRQGLFKKAKKLSILCGCEIAIVTFSGAGKAFSF 57
+                   689******************************************99 PP
+
+  == domain 2  score: 66.7 bits;  conditional E-value: 3.5e-21
+         SRF-TF   6 saRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48 
+                    +  ++tFsKRr+ LfKKA+ELsiLCg+e+a++ f+ +g+l+tf
+  CKAN_00848500  84 KDQMATFSKRRQSLFKKAQELSILCGCEIAIVTFDGAGNLFTF 126
+                    66799*************************************9 PP
+
+>> CKAN_02197200  pacid=42704553 transcript=CKAN_02197200 locus=CKAN_02197200 ID=CKAN_02197200.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.2   0.0   1.6e-18   6.2e-16       1      43 [.      10      52 ..      10      55 .. 0.95
+   2 !   61.1   0.0     2e-19   7.6e-17       1      43 [.     220     262 ..     220     265 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 58.2 bits;  conditional E-value: 1.6e-18
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                   +I n+s+R++t++KR+kGL+KK+ ELs+LC+++++ ++++p +
+  CKAN_02197200 10 WIANDSSRKATYKKRKKGLIKKVCELSTLCDVNACAVIYGPGD 52
+                   599*************************************976 PP
+
+  == domain 2  score: 61.1 bits;  conditional E-value: 2e-19
+         SRF-TF   1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43 
+                    +I n+s+R++t++KR+kGL+KK+sELs+LCg++ + +v++p +
+  CKAN_02197200 220 WIANDSSRKATYKKRKKGLMKKVSELSTLCGVNTCAVVYGPGD 262
+                    599*************************************976 PP
+
+>> CKAN_02781200  pacid=42710223 transcript=CKAN_02781200 locus=CKAN_02781200 ID=CKAN_02781200.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.3   0.4   2.3e-31   8.8e-29       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 99.3 bits;  conditional E-value: 2.3e-31
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ienk +RqvtFsKRr+GL+KKA+ELsiLC+aeva+ivfs+ gkly+f
+  CKAN_02781200 10 RIENKINRQVTFSKRRNGLLKKAYELSILCDAEVALIVFSSRGKLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_01848900  pacid=42688322 transcript=CKAN_01848900 locus=CKAN_01848900 ID=CKAN_01848900.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.2   0.1   5.3e-31     2e-28       1      48 []       3      50 ..       3      50 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 98.2 bits;  conditional E-value: 5.3e-31
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfsp gkly+f
+  CKAN_01848900  3 RIENATSRQVTFSKRRNGLLKKAFELSVLCDAEVALIVFSPRGKLYEF 50
+                   7*********************************************99 PP
+
+>> CKAN_01683000  pacid=42682809 transcript=CKAN_01683000 locus=CKAN_01683000 ID=CKAN_01683000.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.1   0.1   1.1e-30   4.4e-28       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 97.1 bits;  conditional E-value: 1.1e-30
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtFsKRr+GL+KKA ELs+LC++eva++vfsptg+ly+f
+  CKAN_01683000 10 RIENTASRQVTFSKRRNGLLKKAFELSVLCDVEVALMVFSPTGRLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_01848800  pacid=42689628 transcript=CKAN_01848800 locus=CKAN_01848800 ID=CKAN_01848800.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.9   0.4   2.7e-30     1e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.9 bits;  conditional E-value: 2.7e-30
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ienk +RqvtFsKRr+GL+KKA+ELsiLC+aeva+ivfs+ gkly+f
+  CKAN_01848800 10 RIENKINRQVTFSKRRNGLLKKAYELSILCDAEVALIVFSSRGKLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_01681900  pacid=42682839 transcript=CKAN_01681900 locus=CKAN_01681900 ID=CKAN_01681900.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.9   0.1   2.7e-30     1e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.9 bits;  conditional E-value: 2.7e-30
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtFsKRr+GL+KKA ELs+LC++eva++vfsptg+ly+f
+  CKAN_01681900 10 RIENAASRQVTFSKRRNGLLKKAFELSVLCDVEVALMVFSPTGRLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_01509600  pacid=42682847 transcript=CKAN_01509600 locus=CKAN_01509600 ID=CKAN_01509600.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.1   0.2   9.7e-30   3.7e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.1 bits;  conditional E-value: 9.7e-30
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kIen+++Rqv+FsKRr+GLfKKAsEL+iLCgae+a+ivfsp+gk ++f
+  CKAN_01509600 10 KIENEDSRQVCFSKRRAGLFKKASELCILCGAEIAIIVFSPAGKAFSF 57
+                   7*********************************************99 PP
+
+>> CKAN_00230100  pacid=42702547 transcript=CKAN_00230100 locus=CKAN_00230100 ID=CKAN_00230100.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.7   0.2   1.3e-29   4.9e-27       1      48 []      16      63 ..      16      63 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 93.7 bits;  conditional E-value: 1.3e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kIen+++Rqv+FsKRr+GLfKKAsEL+iLCgae+a+ivfsp+gk ++f
+  CKAN_00230100 16 KIENEDSRQVCFSKRRAGLFKKASELCILCGAEIAIIVFSPAGKAFSF 63
+                   7*********************************************99 PP
+
+>> CKAN_00958800  pacid=42697657 transcript=CKAN_00958800 locus=CKAN_00958800 ID=CKAN_00958800.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.1   0.2   9.6e-30   3.7e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.1 bits;  conditional E-value: 9.6e-30
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtFsKRr+GL+KKA ELs+LC++eva+i+fsp gkly+f
+  CKAN_00958800 10 RIENATSRQVTFSKRRNGLLKKAFELSVLCDVEVALIIFSPRGKLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_01682800  pacid=42684073 transcript=CKAN_01682800 locus=CKAN_01682800 ID=CKAN_01682800.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.8   0.2   1.2e-29   4.7e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 93.8 bits;  conditional E-value: 1.2e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ie+ ++RqvtFsKRr+GL+KKA ELs+LC++eva+++fsptg+ly+f
+  CKAN_01682800 10 RIEKTASRQVTFSKRRNGLLKKAFELSVLCDVEVALMIFSPTGRLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_01682000  pacid=42683481 transcript=CKAN_01682000 locus=CKAN_01682000 ID=CKAN_01682000.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.4   0.1   1.6e-29   6.2e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 93.4 bits;  conditional E-value: 1.6e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtFsKRr+GL+KKA ELs+LC++eva++vfsptgkly+f
+  CKAN_01682000 10 RIENAASRQVTFSKRRNGLLKKAFELSVLCDVEVALMVFSPTGKLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_00958900  pacid=42695253 transcript=CKAN_00958900 locus=CKAN_00958900 ID=CKAN_00958900.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.6   0.5   2.9e-29   1.1e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.6 bits;  conditional E-value: 2.9e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ienk +RqvtFsKRr+GL+KKA+ELs+LC+ae+a+i+fs+ gk+++f
+  CKAN_00958900 10 RIENKINRQVTFSKRRNGLLKKAYELSVLCDAEIALIIFSSRGKVFEF 57
+                   7*********************************************98 PP
+
+>> CKAN_02562300  pacid=42706294 transcript=CKAN_02562300 locus=CKAN_02562300 ID=CKAN_02562300.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.3   0.2   3.7e-29   1.4e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.3 bits;  conditional E-value: 3.7e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  CKAN_02562300 10 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSNRGRLYEY 57
+                   7*********************************************98 PP
+
+>> CKAN_00566000  pacid=42694440 transcript=CKAN_00566000 locus=CKAN_00566000 ID=CKAN_00566000.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.3   0.3   3.7e-29   1.4e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.3 bits;  conditional E-value: 3.7e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ienk +RqvtF KRr+GL+KKA+ELsiLC+aevavi+fs  gkly+f
+  CKAN_00566000 10 RIENKINRQVTFAKRRNGLLKKAYELSILCDAEVAVIIFSARGKLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_01942500  pacid=42686543 transcript=CKAN_01942500 locus=CKAN_01942500 ID=CKAN_01942500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.1   0.2   4.1e-29   1.6e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.1 bits;  conditional E-value: 4.1e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+i+fs+ g+ly++
+  CKAN_01942500 10 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALIIFSSRGRLYEY 57
+                   7*********************************************98 PP
+
+>> CKAN_00283400  pacid=42701534 transcript=CKAN_00283400 locus=CKAN_00283400 ID=CKAN_00283400.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.1   0.3     4e-29   1.5e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.1 bits;  conditional E-value: 4e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ienk +RqvtF KRr+GL+KKA+ELs+LC+aeva+ivfs  gkly+f
+  CKAN_00283400 10 RIENKINRQVTFAKRRNGLLKKAYELSVLCDAEVALIVFSTRGKLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_01682100  pacid=42683063 transcript=CKAN_01682100 locus=CKAN_01682100 ID=CKAN_01682100.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.0   0.1   4.4e-29   1.7e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.0 bits;  conditional E-value: 4.4e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien+++RqvtFsKRr+GL+KKA ELs+LC++eva+++fsptg+ly+f
+  CKAN_01682100 10 RIENNASRQVTFSKRRNGLLKKAFELSVLCDVEVALMIFSPTGRLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_02189300  pacid=42704862 transcript=CKAN_02189300 locus=CKAN_02189300 ID=CKAN_02189300.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.9   0.2   4.8e-29   1.8e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.9 bits;  conditional E-value: 4.8e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtF+KRr+GL+KKA+ELsiLC+ae+a+ivfs+ g+ly++
+  CKAN_02189300 10 RIENTTNRQVTFCKRRNGLLKKAYELSILCDAEIALIVFSSRGRLYEY 57
+                   7*********************************************98 PP
+
+>> CKAN_01682600  pacid=42684198 transcript=CKAN_01682600 locus=CKAN_01682600 ID=CKAN_01682600.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.6   0.2   2.9e-29   1.1e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.6 bits;  conditional E-value: 2.9e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ie+ ++RqvtFsKRr+GL+KKA ELs+LC++eva+++fsptg+ly+f
+  CKAN_01682600 10 RIEKTASRQVTFSKRRNGLLKKAFELSVLCDVEVALMIFSPTGRLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_00861800  pacid=42695977 transcript=CKAN_00861800 locus=CKAN_00861800 ID=CKAN_00861800.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.7   0.3   5.5e-29   2.1e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.7 bits;  conditional E-value: 5.5e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ienk +RqvtF KRr+GL+KKA+ELs+LC+aeva+i+fs+ gkly+f
+  CKAN_00861800 10 RIENKINRQVTFAKRRNGLLKKAYELSVLCDAEVALIIFSNRGKLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_01821800  pacid=42689070 transcript=CKAN_01821800 locus=CKAN_01821800 ID=CKAN_01821800.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.4   0.2   6.7e-29   2.6e-26       1      48 []      49      96 ..      49      96 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.4 bits;  conditional E-value: 6.7e-29
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs  g+ly++
+  CKAN_01821800 49 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSTRGRLYEY 96
+                   7*********************************************98 PP
+
+>> CKAN_00109600  pacid=42703878 transcript=CKAN_00109600 locus=CKAN_00109600 ID=CKAN_00109600.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.9   0.3     1e-28   3.9e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.9 bits;  conditional E-value: 1e-28
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ienk +RqvtF KRr+GL+KKA+ELs+LC+ae+a+i+fs+ gkly+f
+  CKAN_00109600 10 RIENKINRQVTFAKRRNGLLKKAYELSVLCDAEIALIIFSNRGKLYEF 57
+                   7*********************************************99 PP
+
+>> CKAN_01533600  pacid=42683376 transcript=CKAN_01533600 locus=CKAN_01533600 ID=CKAN_01533600.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.7   0.2   1.1e-28   4.3e-26       1      48 []      91     138 ..      91     138 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.7 bits;  conditional E-value: 1.1e-28
+         SRF-TF   1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48 
+                    +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs  g+ly++
+  CKAN_01533600  91 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSTRGRLYEY 138
+                    7*********************************************98 PP
+
+>> CKAN_02117700  pacid=42705191 transcript=CKAN_02117700 locus=CKAN_02117700 ID=CKAN_02117700.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.5   0.3   1.3e-28   4.9e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.5 bits;  conditional E-value: 1.3e-28
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtFsKRr GL+KKA+ELs+LC+aeva+i+fs+tgkl++f
+  CKAN_02117700 10 RIENATSRQVTFSKRRVGLLKKAQELSVLCDAEVALIIFSSTGKLFEF 57
+                   7*********************************************98 PP
+
+>> CKAN_00109500  pacid=42703588 transcript=CKAN_00109500 locus=CKAN_00109500 ID=CKAN_00109500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.8   0.2   4.4e-28   1.7e-25       1      48 []     171     218 ..     171     218 .. 0.99
+   2 ?   -1.6   0.0       7.6   2.9e+03      31      42 ..     221     232 ..     220     235 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 88.8 bits;  conditional E-value: 4.4e-28
+         SRF-TF   1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48 
+                    +Ienk +RqvtFsKRr GL+KKA+E+s+LC+aeva+i+fs +gkly++
+  CKAN_00109500 171 RIENKINRQVTFSKRRMGLLKKAHEISVLCDAEVALIIFSTKGKLYEY 218
+                    7*********************************************98 PP
+
+  == domain 2  score: -1.6 bits;  conditional E-value: 7.6
+         SRF-TF  31 gaevavivfspt 42 
+                    ++   +i+fsp+
+  CKAN_00109500 221 DSRYFLIFFSPN 232
+                    5666799***98 PP
+
+>> CKAN_01634900  pacid=42682568 transcript=CKAN_01634900 locus=CKAN_01634900 ID=CKAN_01634900.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.1   0.5   1.7e-28   6.7e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.1 bits;  conditional E-value: 1.7e-28
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ie+ksaRqv+FsKRr+GLfKKA+ELs+LCg+++ ++vfsp+g++y+f
+  CKAN_01634900 10 RIEKKSARQVCFSKRRQGLFKKAKELSTLCGVDITILVFSPAGRFYSF 57
+                   7**********************************************9 PP
+
+>> CKAN_00565900  pacid=42692020 transcript=CKAN_00565900 locus=CKAN_00565900 ID=CKAN_00565900.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.9   0.3     2e-28   7.6e-26       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 89.9 bits;  conditional E-value: 2e-28
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+a+vavivfs+ gkl+++
+  CKAN_00565900 10 RIENKINRQVTFSKRRAGLLKKANEISVLCDADVAVIVFSSRGKLTEY 57
+                   7********************************************998 PP
+
+>> CKAN_01635500  pacid=42684046 transcript=CKAN_01635500 locus=CKAN_01635500 ID=CKAN_01635500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.5   0.2   2.8e-28   1.1e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.5 bits;  conditional E-value: 2.8e-28
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ienk+aRqv+FsKRr+GLfKKA++LsiLCg+++av+ fsp+g+l++f
+  CKAN_01635500 10 RIENKNARQVCFSKRRQGLFKKAKDLSILCGVDIAVLTFSPAGRLFSF 57
+                   7**********************************************9 PP
+
+>> CKAN_01596700  pacid=42682901 transcript=CKAN_01596700 locus=CKAN_01596700 ID=CKAN_01596700.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   0.2   3.1e-28   1.2e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 3.1e-28
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtFsKRr+GL+KKA ELs+LC+aev++i fs tgk y++
+  CKAN_01596700 10 RIENTTSRQVTFSKRRNGLLKKAFELSVLCDAEVCLIAFSATGKAYQY 57
+                   7*********************************************98 PP
+
+>> CKAN_00239500  pacid=42703017 transcript=CKAN_00239500 locus=CKAN_00239500 ID=CKAN_00239500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.3   0.1   3.1e-28   1.2e-25       1      48 []     162     209 ..     162     209 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 89.3 bits;  conditional E-value: 3.1e-28
+         SRF-TF   1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48 
+                    +I+n+++RqvtFsKRr+GL+KKA+EL+iLC+aev++i+fs+tgkly f
+  CKAN_00239500 162 RIDNSTSRQVTFSKRRNGLLKKAKELAILCDAEVGLIIFSSTGKLYDF 209
+                    79********************************************98 PP
+
+>> CKAN_01894500  pacid=42687838 transcript=CKAN_01894500 locus=CKAN_01894500 ID=CKAN_01894500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   0.1   6.9e-28   2.6e-25       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 6.9e-28
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien+++RqvtFsKRr+GL+KKA+ELsiLC++++a+i+fsp+ ++ +f
+  CKAN_01894500 10 RIENNTNRQVTFSKRRNGLIKKAYELSILCDIDIALIMFSPSERVSHF 57
+                   7*******************************************9876 PP
+
+>> CKAN_01187700  pacid=42708557 transcript=CKAN_01187700 locus=CKAN_01187700 ID=CKAN_01187700.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.8   0.1   9.2e-28   3.5e-25       1      48 []      74     121 ..      74     121 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 87.8 bits;  conditional E-value: 9.2e-28
+         SRF-TF   1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48 
+                    +I+n+++RqvtFsKRr+GL+KKA+EL+iLC+a v++ivfs+tgkly f
+  CKAN_01187700  74 RIDNSTNRQVTFSKRRNGLLKKAKELAILCDAVVGLIVFSSTGKLYDF 121
+                    79********************************************98 PP
+
+>> CKAN_01817100  pacid=42689716 transcript=CKAN_01817100 locus=CKAN_01817100 ID=CKAN_01817100.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.7   0.2     1e-27   3.8e-25       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 87.7 bits;  conditional E-value: 1e-27
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kIe+k++Rqv+FsKRr+GLfKKAsEL++LC+a+va+i fs  g+++ f
+  CKAN_01817100 10 KIEDKNKRQVCFSKRRQGLFKKASELCTLCDAQVAIIAFSGGGRPFVF 57
+                   7********************************************988 PP
+
+>> CKAN_01290200  pacid=42698635 transcript=CKAN_01290200 locus=CKAN_01290200 ID=CKAN_01290200.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.3   0.2   1.3e-27   4.9e-25       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 87.3 bits;  conditional E-value: 1.3e-27
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kI+n +aRqvtFsKRr GLfKKA+ELsiLC+a+va+i+fs tgkl+ +
+  CKAN_01290200 10 KIDNVTARQVTFSKRRRGLFKKAQELSILCDAQVALIIFSATGKLFDY 57
+                   79*******************************************987 PP
+
+>> CKAN_01906900  pacid=42686473 transcript=CKAN_01906900 locus=CKAN_01906900 ID=CKAN_01906900.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.7   0.2     2e-27   7.8e-25       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 86.7 bits;  conditional E-value: 2e-27
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kI n +aRqvtFsKRr GLfKKA+ELsiLC+aev+vi+fs tgkl ++
+  CKAN_01906900 10 KIHNTTARQVTFSKRRRGLFKKAEELSILCDAEVGVIIFSATGKLLEY 57
+                   799*****************************************9876 PP
+
+>> CKAN_00653500  pacid=42693301 transcript=CKAN_00653500 locus=CKAN_00653500 ID=CKAN_00653500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.5   0.1   2.3e-27   8.8e-25       1      46 [.      10      55 ..      10      57 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 86.5 bits;  conditional E-value: 2.3e-27
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgkly 46
+                   kIen ++RqvtFsKRr+GL+KKA+ELs+LC+++ a+i+fsp+g+l 
+  CKAN_00653500 10 KIENVTSRQVTFSKRRNGLIKKAYELSVLCDVDLALILFSPSGRLS 55
+                   7******************************************985 PP
+
+>> CKAN_01065400  pacid=42710089 transcript=CKAN_01065400 locus=CKAN_01065400 ID=CKAN_01065400.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.7   0.0   4.3e-27   1.6e-24       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 85.7 bits;  conditional E-value: 4.3e-27
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien ++RqvtFsKRr GL+KKA+EL++LC+a+ +vi+fs++gk++++
+  CKAN_01065400 10 RIENATNRQVTFSKRRGGLLKKAHELAVLCDAQLGVIIFSSSGKMFEY 57
+                   7*********************************************98 PP
+
+>> CKAN_01352300  pacid=42699490 transcript=CKAN_01352300 locus=CKAN_01352300 ID=CKAN_01352300.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.3   0.0   4.9e-26   1.9e-23       1      47 [.      10      56 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 82.3 bits;  conditional E-value: 4.9e-26
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47
+                   +Ien+  RqvtF+KRr+GL+KKA+ELs+LC+a++++++fs +gkly+
+  CKAN_01352300 10 RIENPVHRQVTFCKRRAGLLKKANELSVLCDADIGLMIFSTHGKLYE 56
+                   7*********************************************7 PP
+
+>> CKAN_01882400  pacid=42689171 transcript=CKAN_01882400 locus=CKAN_01882400 ID=CKAN_01882400.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.0   0.1   1.2e-25   4.7e-23       2      48 .]      11      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 81.0 bits;  conditional E-value: 1.2e-25
+         SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   I +k++R+v+FsKRrkGLf+KAsEL++LC+a+va+ivfs  g+++ f
+  CKAN_01882400 11 IRDKNKRHVCFSKRRKGLFQKASELCTLCDAQVAIIVFSGGGRPFVF 57
+                   89******************************************988 PP
+
+>> CKAN_02199500  pacid=42704824 transcript=CKAN_02199500 locus=CKAN_02199500 ID=CKAN_02199500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.4   0.2   9.2e-26   3.5e-23       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 81.4 bits;  conditional E-value: 9.2e-26
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien+++Rqvt+sKRr+GL+KKA+E+ +LC+a+v +++fs tgk+ ++
+  CKAN_02199500 10 RIENSTNRQVTYSKRRNGLLKKAKEITVLCDADVSLVIFSATGKMSEY 57
+                   7*******************************************9887 PP
+
+>> CKAN_01046400  pacid=42710025 transcript=CKAN_01046400 locus=CKAN_01046400 ID=CKAN_01046400.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.4   0.1   9.2e-26   3.5e-23       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 81.4 bits;  conditional E-value: 9.2e-26
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien+++Rqvt+sKRr G++KKA+EL +LC+aev +i+fs+tgk+ ++
+  CKAN_01046400 10 RIENPTNRQVTYSKRRGGILKKARELTVLCDAEVSLIMFSSTGKFSEY 57
+                   7*******************************************9877 PP
+
+>> CKAN_01942000  pacid=42686437 transcript=CKAN_01942000 locus=CKAN_01942000 ID=CKAN_01942000.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.4   0.1   9.2e-26   3.5e-23       1      47 [.      10      56 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 81.4 bits;  conditional E-value: 9.2e-26
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47
+                   +Ien   RqvtF+KRr+GL+KKA+ELs+LC+a++++++fs +gkly+
+  CKAN_01942000 10 RIENAVHRQVTFCKRRAGLLKKAKELSVLCDADIGIMIFSTHGKLYE 56
+                   7*********************************************7 PP
+
+>> CKAN_02525600  pacid=42685596 transcript=CKAN_02525600 locus=CKAN_02525600 ID=CKAN_02525600.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.8   0.0   1.4e-25   5.3e-23       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 80.8 bits;  conditional E-value: 1.4e-25
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   + en saRq+t+sKR++GL KKA+ELs+LC+++va+++fsp+gk++++
+  CKAN_02525600 10 RLENTSARQITYSKRKAGLAKKAMELSVLCDINVALVMFSPAGKPTSY 57
+                   579******************************************998 PP
+
+>> CKAN_02109000  pacid=42704616 transcript=CKAN_02109000 locus=CKAN_02109000 ID=CKAN_02109000.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.2   0.2   2.1e-25     8e-23       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 80.2 bits;  conditional E-value: 2.1e-25
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +Ien+++Rqvt+sKRr G++KKA+E+ iLC+aev ++vfs+tgk+ ++
+  CKAN_02109000 10 RIENSTNRQVTYSKRRGGILKKAKEITILCDAEVSLVVFSSTGKMSEY 57
+                   7*******************************************9887 PP
+
+>> CKAN_02525500  pacid=42685697 transcript=CKAN_02525500 locus=CKAN_02525500 ID=CKAN_02525500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.3   0.0   1.7e-24   6.5e-22       2      48 .]      11      57 ..      10      57 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 77.3 bits;  conditional E-value: 1.7e-24
+         SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                    e  saRq+t+sKR++GL KKA+ELs+LC+++va+++fsp+gk++++
+  CKAN_02525500 11 LETASARQITYSKRKAGLAKKAMELSVLCDINVALVMFSPAGKPTSY 57
+                   68899***************************************998 PP
+
+>> CKAN_02189800  pacid=42705078 transcript=CKAN_02189800 locus=CKAN_02189800 ID=CKAN_02189800.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.4   0.0   3.4e-24   1.3e-21       1      47 [.      10      56 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 76.4 bits;  conditional E-value: 3.4e-24
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47
+                   +Ien+   qv+F+KRr GL+KKA+ELsiLC+a++++i+fs++gkly+
+  CKAN_02189800 10 RIENPVHQQVSFCKRRGGLLKKAKELSILCDADIGIIIFSKHGKLYE 56
+                   7*********************************************7 PP
+
+>> CKAN_02317200  pacid=42691143 transcript=CKAN_02317200 locus=CKAN_02317200 ID=CKAN_02317200.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.4   0.0   6.7e-24   2.6e-21       1      46 [.      10      55 ..      10      57 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 75.4 bits;  conditional E-value: 6.7e-24
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgkly 46
+                   + en s Rqvt+sKR++G++KKA+ELsiLC++++a+++fsptgk++
+  CKAN_02317200 10 RLENISGRQVTYSKRKAGILKKAKELSILCDIDIALLMFSPTGKPT 55
+                   57999***************************************95 PP
+
+>> CKAN_01633900  pacid=42684080 transcript=CKAN_01633900 locus=CKAN_01633900 ID=CKAN_01633900.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.4   1.1   1.4e-23   5.4e-21       1      48 []     136     183 ..     136     183 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 74.4 bits;  conditional E-value: 1.4e-23
+         SRF-TF   1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48 
+                    kIe+ksaRqv+FsKRr+ LfKKA+ELsiLCg++ av+ f p+g+l++f
+  CKAN_01633900 136 KIEKKSARQVCFSKRRQILFKKAKELSILCGVDRAVLTFFPAGRLFSF 183
+                    7**********************************************9 PP
+
+>> CKAN_02189500  pacid=42705213 transcript=CKAN_02189500 locus=CKAN_02189500 ID=CKAN_02189500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.8   0.0   1.1e-23   4.2e-21       1      47 [.      10      56 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 74.8 bits;  conditional E-value: 1.1e-23
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47
+                   +Ien+   qv+F+KRr GL+KKA+ELsiLC+a++++i+fs++gkl++
+  CKAN_02189500 10 RIENPVHQQVSFCKRRGGLLKKAKELSILCDADIGMIIFSKHGKLHE 56
+                   7********************************************97 PP
+
+>> CKAN_01634800  pacid=42683302 transcript=CKAN_01634800 locus=CKAN_01634800 ID=CKAN_01634800.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.7   0.3   2.3e-23   8.8e-21       1      47 [.     157     203 ..     157     204 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 73.7 bits;  conditional E-value: 2.3e-23
+         SRF-TF   1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47 
+                    kIe+ksaRqv+FsKR  GLfK A+ELsiLCg+++a++ +sp+g+l++
+  CKAN_01634800 157 KIEKKSARQVCFSKRSLGLFKRAKELSILCGVDIAILTISPAGRLFS 203
+                    7********************************************97 PP
+
+>> CKAN_00319700  pacid=42703861 transcript=CKAN_00319700 locus=CKAN_00319700 ID=CKAN_00319700.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.7   0.0   7.3e-21   2.8e-18       2      45 ..      11      54 ..      10      56 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 65.7 bits;  conditional E-value: 7.3e-21
+         SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgkl 45
+                    e+  aRq t+sKR++G+  KA+ELsiLC+++v +++fsp gk+
+  CKAN_00319700 11 LESAPARQNTYSKRKNGITNKAEELSILCDVDVLLLMFSPGGKP 54
+                   678889*************************************8 PP
+
+>> CKAN_02447300  pacid=42685716 transcript=CKAN_02447300 locus=CKAN_02447300 ID=CKAN_02447300.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.9   0.0   5.5e-20   2.1e-17       1      43 [.      10      52 ..      10      55 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 62.9 bits;  conditional E-value: 5.5e-20
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                   +I+n+s+R++t++KR+kGL+KK+sELs+LCg++++ ++++++ 
+  CKAN_02447300 10 WITNDSSRRATYKKRKKGLMKKVSELSTLCGVNACAVIYGHNE 52
+                   59*************************************9886 PP
+
+>> CKAN_02491100  pacid=42685061 transcript=CKAN_02491100 locus=CKAN_02491100 ID=CKAN_02491100.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.7   0.1   2.6e-19     1e-16       1      43 [.      10      52 ..      10      55 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 60.7 bits;  conditional E-value: 2.6e-19
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                   +Ie +++R+ tF KRrkGL KKA E+++LCg++v++i+f+p+g
+  CKAN_02491100 10 FIECQKSRYNTFLKRRKGLNKKAFEFATLCGVDVCMICFGPQG 52
+                   59999************************************98 PP
+
+>> CKAN_00483600  pacid=42693152 transcript=CKAN_00483600 locus=CKAN_00483600 ID=CKAN_00483600.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.4   0.1   2.8e-18   1.1e-15      10      48 .]      12      51 ..       8      51 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.4 bits;  conditional E-value: 2.8e-18
+         SRF-TF 10 vtFsKRrkGLfKKAsELsiLCgaevavivfs.ptgklytf 48
+                   v F KRr++L+KKA+ELsiLCg+++av+v+s +tgk+ t+
+  CKAN_00483600 12 VKFAKRRNTLYKKAQELSILCGSDIAVVVISsSTGKVSTY 51
+                   78****************************669****998 PP
+
+>> CKAN_01689800  pacid=42682432 transcript=CKAN_01689800 locus=CKAN_01689800 ID=CKAN_01689800.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.9   0.3   4.1e-18   1.6e-15       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 56.9 bits;  conditional E-value: 4.1e-18
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kIe+k++R vt sKR++GLfKKA+ L+   g+evavi f   g++++f
+  CKAN_01689800 10 KIEDKQKRFVTLSKRKEGLFKKAKKLALDFGVEVAVIGFTVGGRPFSF 57
+                   7*********************************************99 PP
+
+>> CKAN_00483500  pacid=42693236 transcript=CKAN_00483500 locus=CKAN_00483500 ID=CKAN_00483500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.4   0.1   2.8e-18   1.1e-15      10      48 .]      12      51 ..       8      51 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 57.4 bits;  conditional E-value: 2.8e-18
+         SRF-TF 10 vtFsKRrkGLfKKAsELsiLCgaevavivfs.ptgklytf 48
+                   v F KRr++L+KKA+ELsiLCg+++av+v+s +tgk+ t+
+  CKAN_00483500 12 VKFAKRRNTLYKKAQELSILCGSDIAVVVISsSTGKVSTY 51
+                   78****************************669****998 PP
+
+>> CKAN_02283700  pacid=42691506 transcript=CKAN_02283700 locus=CKAN_02283700 ID=CKAN_02283700.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   0.3   6.4e-18   2.4e-15       1      48 []      38      85 ..      38      85 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 6.4e-18
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kIe+k++R vt sKR++GLfKKA+ L+   g+evavi f   g++++f
+  CKAN_02283700 38 KIEDKQKRFVTLSKRKEGLFKKAKKLALDFGVEVAVIGFTVGGRPFSF 85
+                   7*********************************************99 PP
+
+>> CKAN_01209800  pacid=42708150 transcript=CKAN_01209800 locus=CKAN_01209800 ID=CKAN_01209800.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   0.2   6.4e-18   2.4e-15       2      44 ..      11      53 ..      10      56 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 6.4e-18
+         SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgk 44
+                   Ie +++R++tF KRrkGL KK  E+++LCg++v++i+ +p+g+
+  CKAN_01209800 11 IECQKSRNATFVKRRKGLRKKTFEFATLCGVDVCLICLGPQGE 53
+                   8999************************************996 PP
+
+>> CKAN_00478900  pacid=42693284 transcript=CKAN_00478900 locus=CKAN_00478900 ID=CKAN_00478900.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.5   0.1   5.3e-18     2e-15      10      48 .]      19      58 ..      16      58 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 56.5 bits;  conditional E-value: 5.3e-18
+         SRF-TF 10 vtFsKRrkGLfKKAsELsiLCgaevavivfs.ptgklytf 48
+                   v F KRr++L+KKA+ELsiLCg+++av+v+s +tgk+ t+
+  CKAN_00478900 19 VKFAKRRNTLYKKAQELSILCGSDIAVVVISrSTGKVSTY 58
+                   78****************************999****998 PP
+
+>> CKAN_01209900  pacid=42708487 transcript=CKAN_01209900 locus=CKAN_01209900 ID=CKAN_01209900.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.5   0.1   1.1e-17   4.4e-15       2      43 ..      11      52 ..      10      56 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 55.5 bits;  conditional E-value: 1.1e-17
+         SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                   Ie +++R++tF KR kGL KKA E+++LC+++v++i+ +p+g
+  CKAN_01209900 11 IECQKSRNATFIKRIKGLKKKAFEFATLCDVDVCLICLGPQG 52
+                   8999***********************************998 PP
+
+>> CKAN_02283500  pacid=42690480 transcript=CKAN_02283500 locus=CKAN_02283500 ID=CKAN_02283500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.8   0.2     9e-18   3.4e-15       1      48 []      38      85 ..      38      85 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 55.8 bits;  conditional E-value: 9e-18
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kIe+k++R vt sKR++GLfKKA+ L+   g+evavi f   g++++f
+  CKAN_02283500 38 KIEDKQRRFVTLSKRKEGLFKKAKKLALDFGVEVAVIGFTVGGRPFSF 85
+                   7*********************************************99 PP
+
+>> CKAN_02283300  pacid=42691415 transcript=CKAN_02283300 locus=CKAN_02283300 ID=CKAN_02283300.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.0   0.2   1.6e-17   6.2e-15       1      48 []      38      85 ..      38      85 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 55.0 bits;  conditional E-value: 1.6e-17
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kIe+k++R vt sKR++GLfKKA+ L+   g+evavi f   g++++f
+  CKAN_02283300 38 KIEDKQRRFVTLSKRKEGLFKKAKKLALDFGVEVAVIGFTIGGRPFSF 85
+                   7*********************************************99 PP
+
+>> CKAN_01690000  pacid=42683390 transcript=CKAN_01690000 locus=CKAN_01690000 ID=CKAN_01690000.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.5   0.2   2.2e-17   8.5e-15       1      48 []      46      93 ..      46      93 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 54.5 bits;  conditional E-value: 2.2e-17
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kIe++++R vt sKR++GLfKKA+ L+   g+evavi f   g++++f
+  CKAN_01690000 46 KIEDRQRRFVTLSKRKEGLFKKAKKLALDFGVEVAVIGFTVGGRPFSF 93
+                   7*********************************************99 PP
+
+>> CKAN_00526600  pacid=42692182 transcript=CKAN_00526600 locus=CKAN_00526600 ID=CKAN_00526600.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.6   0.0       7.9     3e+03      14      25 ..       3      14 ..       2      14 .. 0.79
+   2 !   53.8   0.3   3.7e-17   1.4e-14       9      48 .]      19      59 ..      11      59 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 7.9
+         SRF-TF 14 KRrkGLfKKAsE 25
+                   KR+ G+  K +E
+  CKAN_00526600  3 KRKLGIESKEEE 14
+                   999999877665 PP
+
+  == domain 2  score: 53.8 bits;  conditional E-value: 3.7e-17
+         SRF-TF  9 qvtFsKRrkGLfKKAsELsiLCgaevavivfs.ptgklytf 48
+                   q  F++R kGLfKKA+EL +LCg+++aviv+s  tgk +tf
+  CKAN_00526600 19 QLRFTRRCKGLFKKAQELNVLCGSDIAVIVISnGTGKATTF 59
+                   556****************************9689999998 PP
+
+>> CKAN_01747800  pacid=42689051 transcript=CKAN_01747800 locus=CKAN_01747800 ID=CKAN_01747800.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.1   0.4   1.3e-16   5.1e-14       9      48 .]      19      59 ..      11      59 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 52.1 bits;  conditional E-value: 1.3e-16
+         SRF-TF  9 qvtFsKRrkGLfKKAsELsiLCgaevavivfs.ptgklytf 48
+                   q  F++R kGLfKKA+EL iLCg+++aviv+s  tgk +tf
+  CKAN_01747800 19 QLRFTRRCKGLFKKAQELNILCGSDIAVIVISnGTGKATTF 59
+                   567****************************9689999998 PP
+
+>> CKAN_01747900  pacid=42690035 transcript=CKAN_01747900 locus=CKAN_01747900 ID=CKAN_01747900.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.8   0.4   1.6e-16   6.1e-14       9      48 .]      19      59 ..      11      59 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 51.8 bits;  conditional E-value: 1.6e-16
+         SRF-TF  9 qvtFsKRrkGLfKKAsELsiLCgaevavivfs.ptgklytf 48
+                   q  F++R kGLfKKA+EL +LCg+++aviv+s  tgk +tf
+  CKAN_01747900 19 QLRFTRRCKGLFKKAQELNVLCGSDIAVIVISnGTGKATTF 59
+                   567****************************9689999998 PP
+
+>> CKAN_01689600  pacid=42682624 transcript=CKAN_01689600 locus=CKAN_01689600 ID=CKAN_01689600.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.4   0.2   7.6e-15   2.9e-12       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 46.4 bits;  conditional E-value: 7.6e-15
+         SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   kIe k++R vt sK ++GLfKKA+ L+   g+ vavi f   g++++f
+  CKAN_01689600 10 KIEGKQKRFVTLSKKKEGLFKKAQKLALDFGVVVAVIGFTVGGRPFSF 57
+                   79********************************************99 PP
+
+>> CKAN_00867400  pacid=42697295 transcript=CKAN_00867400 locus=CKAN_00867400 ID=CKAN_00867400.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.5   0.1   3.9e-11   1.5e-08      17      48 .]      40      71 ..      37      71 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 34.5 bits;  conditional E-value: 3.9e-11
+         SRF-TF 17 kGLfKKAsELsiLCgaevavivfsptgklytf 48
+                   +GLfKKA+ELs   g+e+a+i fs  gk++tf
+  CKAN_00867400 40 AGLFKKAQELSKFSGCEIAIIAFSGVGKFFTF 71
+                   69*****************************9 PP
+
+>> CKAN_02742500  pacid=42691626 transcript=CKAN_02742500 locus=CKAN_02742500 ID=CKAN_02742500.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.0   0.1   5.8e-06    0.0022       1      18 [.      10      27 ..      10      27 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 18.0 bits;  conditional E-value: 5.8e-06
+         SRF-TF  1 kIenksaRqvtFsKRrkG 18
+                   +Ienk +RqvtFsK + G
+  CKAN_02742500 10 RIENKINRQVTFSKAKGG 27
+                   7*************7765 PP
+
+>> CKAN_01281000  pacid=42699352 transcript=CKAN_01281000 locus=CKAN_01281000 ID=CKAN_01281000.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.1   0.00023     0.089       6      33 ..       6      33 ..       4      34 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00023
+         SRF-TF  6 saRqvtFsKRrkGLfKKAsELsiLCgae 33
+                    aR+  Fs  +  L++KA+EL  LC+++
+  CKAN_01281000  6 IARKLGFSESKPLLLRKAQELRRLCDVH 33
+                   688899999999**************95 PP
+
+>> CKAN_02007400  pacid=42686756 transcript=CKAN_02007400 locus=CKAN_02007400 ID=CKAN_02007400.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.1   0.00024     0.091       6      33 ..       6      33 ..       4      34 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.00024
+         SRF-TF  6 saRqvtFsKRrkGLfKKAsELsiLCgae 33
+                    aR+  Fs  +  L++KA+EL  LC+++
+  CKAN_02007400  6 IARKLGFSESKPLLLRKAQELRRLCDVH 33
+                   688899999999**************95 PP
+
+>> CKAN_01281300  pacid=42700408 transcript=CKAN_01281300 locus=CKAN_01281300 ID=CKAN_01281300.v3.531 annot-version=v3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.1   0.00027       0.1       6      33 ..       6      33 ..       4      34 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00027
+         SRF-TF  6 saRqvtFsKRrkGLfKKAsELsiLCgae 33
+                    aR+  Fs  +  L++KA+EL  LC+++
+  CKAN_01281300  6 IARKLGFSESKPLLLRKAQELRRLCDVH 33
+                   688889999999**************95 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (48 nodes)
+Target sequences:                      27899  (12187315 residues searched)
+Passed MSV filter:                       703  (0.025198); expected 558.0 (0.02)
+Passed bias filter:                      610  (0.0218646); expected 558.0 (0.02)
+Passed Vit filter:                       115  (0.00412201); expected 27.9 (0.001)
+Passed Fwd filter:                        73  (0.00261658); expected 0.3 (1e-05)
+Initial search space (Z):              27899  [actual number of targets]
+Domain search space  (domZ):              73  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.27
+# Mc/sec: 2142.43
+//
+[ok]
