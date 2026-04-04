@@ -1,0 +1,816 @@
+IQ-TREE multicore version 1.6.12 for Mac OS X 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/bin/iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_Aligned.fa -nt AUTO -m TEST -bb 1000 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML
+Seed:    516098 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr  4 00:24:04 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_Aligned.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 239 sequences with 49 columns, 49 distinct patterns
+46 parsimony-informative, 2 singleton sites, 0 constant sites
+WARNING: Some sequence names are changed as follows:
+AT2G45650.1|PACid:19638787_10_57 -> AT2G45650.1_PACid_19638787_10_57
+AT4G11880.1|PACid:19643844_10_57 -> AT4G11880.1_PACid_19643844_10_57
+AT4G09960.1|PACid:19648309_10_57 -> AT4G09960.1_PACid_19648309_10_57
+AT4G09960.4|PACid:19648308_10_57 -> AT4G09960.4_PACid_19648308_10_57
+AT4G18960.1|PACid:19647337_26_73 -> AT4G18960.1_PACid_19647337_26_73
+AT4G09960.3|PACid:19648307_36_83 -> AT4G09960.3_PACid_19648307_36_83
+AT4G09960.2|PACid:19648310_10_57 -> AT4G09960.2_PACid_19648310_10_57
+AT2G45660.1|PACid:19641052_10_57 -> AT2G45660.1_PACid_19641052_10_57
+AT4G22950.1|PACid:19647692_10_57 -> AT4G22950.1_PACid_19647692_10_57
+AT4G22950.1|PACid:19647692_94_105 -> AT4G22950.1_PACid_19647692_94_105
+AT1G24260.3|PACid:19651405_10_57 -> AT1G24260.3_PACid_19651405_10_57
+AT5G15800.1|PACid:19670123_10_57 -> AT5G15800.1_PACid_19670123_10_57
+AT1G24260.1|PACid:19651404_10_57 -> AT1G24260.1_PACid_19651404_10_57
+AT1G24260.2|PACid:19651403_10_57 -> AT1G24260.2_PACid_19651403_10_57
+AT5G15800.2|PACid:19670122_10_57 -> AT5G15800.2_PACid_19670122_10_57
+AT2G22540.1|PACid:19641563_10_57 -> AT2G22540.1_PACid_19641563_10_57
+AT3G57390.1|PACid:19659472_10_57 -> AT3G57390.1_PACid_19659472_10_57
+AT5G13790.1|PACid:19669343_10_57 -> AT5G13790.1_PACid_19669343_10_57
+AT5G51870.2|PACid:19672301_10_57 -> AT5G51870.2_PACid_19672301_10_57
+AT5G51870.1|PACid:19672300_10_57 -> AT5G51870.1_PACid_19672300_10_57
+AT5G51870.3|PACid:19672299_10_57 -> AT5G51870.3_PACid_19672299_10_57
+AT3G58780.2|PACid:19662660_25_72 -> AT3G58780.2_PACid_19662660_25_72
+AT2G42830.1|PACid:19643528_25_72 -> AT2G42830.1_PACid_19643528_25_72
+AT3G58780.1|PACid:19662659_25_72 -> AT3G58780.1_PACid_19662659_25_72
+AT2G42830.2|PACid:19643527_25_72 -> AT2G42830.2_PACid_19643527_25_72
+AT3G58780.3|PACid:19662658_25_72 -> AT3G58780.3_PACid_19662658_25_72
+AT3G02310.1|PACid:19661943_10_57 -> AT3G02310.1_PACid_19661943_10_57
+AT2G14210.1|PACid:19638394_10_57 -> AT2G14210.1_PACid_19638394_10_57
+AT2G03710.3|PACid:19640310_10_57 -> AT2G03710.3_PACid_19640310_10_57
+AT1G69120.1|PACid:19653480_10_57 -> AT1G69120.1_PACid_19653480_10_57
+AT5G60910.1|PACid:19670614_10_57 -> AT5G60910.1_PACid_19670614_10_57
+AT5G51860.2|PACid:19671372_10_57 -> AT5G51860.2_PACid_19671372_10_57
+AT5G51860.1|PACid:19671371_10_57 -> AT5G51860.1_PACid_19671371_10_57
+AT2G03710.2|PACid:19640309_10_57 -> AT2G03710.2_PACid_19640309_10_57
+AT2G03710.1|PACid:19640308_10_57 -> AT2G03710.1_PACid_19640308_10_57
+AT3G30260.1|PACid:19662130_10_57 -> AT3G30260.1_PACid_19662130_10_57
+AT2G24840.1|PACid:19642372_71_118 -> AT2G24840.1_PACid_19642372_71_118
+AT2G22540.2|PACid:19641564_10_55 -> AT2G22540.2_PACid_19641564_10_55
+AT3G57230.1|PACid:19665060_10_57 -> AT3G57230.1_PACid_19665060_10_57
+AT3G57230.2|PACid:19665061_10_57 -> AT3G57230.2_PACid_19665061_10_57
+AT4G37940.1|PACid:19644309_10_57 -> AT4G37940.1_PACid_19644309_10_57
+AT4G24540.1|PACid:19648389_10_57 -> AT4G24540.1_PACid_19648389_10_57
+AT3G61120.1|PACid:19662463_10_57 -> AT3G61120.1_PACid_19662463_10_57
+AT3G54340.1|PACid:19659884_10_57 -> AT3G54340.1_PACid_19659884_10_57
+AT1G26310.1|PACid:19650942_10_57 -> AT1G26310.1_PACid_19650942_10_57
+AT1G22130.1|PACid:19651829_10_55 -> AT1G22130.1_PACid_19651829_10_55
+AT5G62165.4|PACid:19672598_10_57 -> AT5G62165.4_PACid_19672598_10_57
+AT5G60440.1|PACid:19665878_15_62 -> AT5G60440.1_PACid_19665878_15_62
+AT5G62165.1|PACid:19672595_10_57 -> AT5G62165.1_PACid_19672595_10_57
+AT5G62165.2|PACid:19672596_10_57 -> AT5G62165.2_PACid_19672596_10_57
+AT5G62165.3|PACid:19672597_10_57 -> AT5G62165.3_PACid_19672597_10_57
+AT2G22630.1|PACid:19642313_10_57 -> AT2G22630.1_PACid_19642313_10_57
+AT1G77980.1|PACid:19650219_10_55 -> AT1G77980.1_PACid_19650219_10_55
+AT1G71692.1|PACid:19653064_10_56 -> AT1G71692.1_PACid_19653064_10_56
+AT1G01530.1|PACid:19655032_15_62 -> AT1G01530.1_PACid_19655032_15_62
+AT1G65360.1|PACid:19652033_15_62 -> AT1G65360.1_PACid_19652033_15_62
+AT5G10140.2|PACid:19672042_10_57 -> AT5G10140.2_PACid_19672042_10_57
+AT5G10140.4|PACid:19672041_10_57 -> AT5G10140.4_PACid_19672041_10_57
+AT5G10140.3|PACid:19672040_10_57 -> AT5G10140.3_PACid_19672040_10_57
+AT5G10140.1|PACid:19672039_10_57 -> AT5G10140.1_PACid_19672039_10_57
+AT3G66656.1|PACid:19662106_10_57 -> AT3G66656.1_PACid_19662106_10_57
+AT5G23260.2|PACid:19667542_10_57 -> AT5G23260.2_PACid_19667542_10_57
+AT5G23260.3|PACid:19667544_10_57 -> AT5G23260.3_PACid_19667544_10_57
+AT5G23260.1|PACid:19667543_10_57 -> AT5G23260.1_PACid_19667543_10_57
+AT4G36590.1|PACid:19644661_15_62 -> AT4G36590.1_PACid_19644661_15_62
+AT2G34440.1|PACid:19639540_12_57 -> AT2G34440.1_PACid_19639540_12_57
+AT5G65070.1|PACid:19666742_10_57 -> AT5G65070.1_PACid_19666742_10_57
+AT1G77950.1|PACid:19656697_10_55 -> AT1G77950.1_PACid_19656697_10_55
+AT1G77950.2|PACid:19656698_10_55 -> AT1G77950.2_PACid_19656698_10_55
+AT5G65070.3|PACid:19666740_10_57 -> AT5G65070.3_PACid_19666740_10_57
+AT5G65070.2|PACid:19666741_10_57 -> AT5G65070.2_PACid_19666741_10_57
+AT1G77080.5|PACid:19652600_10_55 -> AT1G77080.5_PACid_19652600_10_55
+AT1G77080.2|PACid:19652599_10_55 -> AT1G77080.2_PACid_19652599_10_55
+AT1G77080.4|PACid:19652598_10_55 -> AT1G77080.4_PACid_19652598_10_55
+AT5G65080.2|PACid:19670373_10_55 -> AT5G65080.2_PACid_19670373_10_55
+AT1G31140.1|PACid:19657778_10_57 -> AT1G31140.1_PACid_19657778_10_57
+AT1G31140.2|PACid:19657777_10_57 -> AT1G31140.2_PACid_19657777_10_57
+AT5G65080.1|PACid:19670372_17_62 -> AT5G65080.1_PACid_19670372_17_62
+AT1G47760.1|PACid:19657551_10_57 -> AT1G47760.1_PACid_19657551_10_57
+AT5G20240.1|PACid:19673101_10_57 -> AT5G20240.1_PACid_19673101_10_57
+AT1G18750.1|PACid:19654582_10_57 -> AT1G18750.1_PACid_19654582_10_57
+AT1G72350.1|PACid:19656010_55_98 -> AT1G72350.1_PACid_19656010_55_98
+AT5G65050.2|PACid:19667307_10_55 -> AT5G65050.2_PACid_19667307_10_55
+AT5G65050.1|PACid:19667306_10_55 -> AT5G65050.1_PACid_19667306_10_55
+AT5G65050.3|PACid:19667305_10_55 -> AT5G65050.3_PACid_19667305_10_55
+AT5G65060.2|PACid:19668929_10_55 -> AT5G65060.2_PACid_19668929_10_55
+AT5G65060.1|PACid:19668928_10_55 -> AT5G65060.1_PACid_19668928_10_55
+AT1G17310.1|PACid:19656321_56_103 -> AT1G17310.1_PACid_19656321_56_103
+AT1G28460.1|PACid:19649164_16_63 -> AT1G28460.1_PACid_19649164_16_63
+AT2G03060.2|PACid:19640478_10_53 -> AT2G03060.2_PACid_19640478_10_53
+AT2G03060.1|PACid:19640479_10_53 -> AT2G03060.1_PACid_19640479_10_53
+AT3G04100.1|PACid:19663352_22_69 -> AT3G04100.1_PACid_19663352_22_69
+AT3G04100.1|PACid:19663352_104_117 -> AT3G04100.1_PACid_19663352_104_117
+AT1G29962.1|PACid:19658277_16_63 -> AT1G29962.1_PACid_19658277_16_63
+AT5G48670.1|PACid:19672717_10_51 -> AT5G48670.1_PACid_19672717_10_51
+AT2G26320.1|PACid:19638466_26_73 -> AT2G26320.1_PACid_19638466_26_73
+AT1G69540.1|PACid:19658298_11_53 -> AT1G69540.1_PACid_19658298_11_53
+AT3G05860.2|PACid:19660459_10_51 -> AT3G05860.2_PACid_19660459_10_51
+AT3G05860.3|PACid:19660458_10_51 -> AT3G05860.3_PACid_19660458_10_51
+AT3G05860.1|PACid:19660457_10_51 -> AT3G05860.1_PACid_19660457_10_51
+AT5G27960.1|PACid:19666678_9_48 -> AT5G27960.1_PACid_19666678_9_48
+AT1G65330.1|PACid:19653684_9_53 -> AT1G65330.1_PACid_19653684_9_53
+AT5G55690.1|PACid:19665481_10_51 -> AT5G55690.1_PACid_19665481_10_51
+AT5G55690.1|PACid:19665481_137_148 -> AT5G55690.1_PACid_19665481_137_148
+AT1G65300.1|PACid:19652716_10_51 -> AT1G65300.1_PACid_19652716_10_51
+AT5G26630.1|PACid:19667105_10_50 -> AT5G26630.1_PACid_19667105_10_50
+AT5G26650.1|PACid:19669215_9_48 -> AT5G26650.1_PACid_19669215_9_48
+AT1G28450.1|PACid:19650560_16_63 -> AT1G28450.1_PACid_19650560_16_63
+AT3G18650.1|PACid:19661489_5_23 -> AT3G18650.1_PACid_19661489_5_23
+AT3G18650.1|PACid:19661489_30_72 -> AT3G18650.1_PACid_19661489_30_72
+AT5G58890.1|PACid:19667567_10_52 -> AT5G58890.1_PACid_19667567_10_52
+AT5G26580.1|PACid:19673075_11_50 -> AT5G26580.1_PACid_19673075_11_50
+AT4G02235.1|PACid:19647863_9_54 -> AT4G02235.1_PACid_19647863_9_54
+AT1G22590.2|PACid:19655507_11_50 -> AT1G22590.2_PACid_19655507_11_50
+AT5G65330.1|PACid:19672137_7_52 -> AT5G65330.1_PACid_19672137_7_52
+AT5G39750.1|PACid:19667213_25_64 -> AT5G39750.1_PACid_19667213_25_64
+AT5G40120.1|PACid:19671880_17_56 -> AT5G40120.1_PACid_19671880_17_56
+AT5G38740.1|PACid:19668168_26_65 -> AT5G38740.1_PACid_19668168_26_65
+AT5G41200.1|PACid:19667742_19_57 -> AT5G41200.1_PACid_19667742_19_57
+AT5G40220.1|PACid:19669238_18_57 -> AT5G40220.1_PACid_19669238_18_57
+AT1G46408.1|PACid:19654736_12_53 -> AT1G46408.1_PACid_19654736_12_53
+AT5G39810.1|PACid:19670065_25_64 -> AT5G39810.1_PACid_19670065_25_64
+AT1G31630.1|PACid:19652269_10_56 -> AT1G31630.1_PACid_19652269_10_56
+AT4G11250.1|PACid:19648763_10_51 -> AT4G11250.1_PACid_19648763_10_51
+AT5G27090.2|PACid:19670535_29_70 -> AT5G27090.2_PACid_19670535_29_70
+AT5G27090.1|PACid:19670534_29_70 -> AT5G27090.1_PACid_19670534_29_70
+AT5G06500.1|PACid:19671199_10_53 -> AT5G06500.1_PACid_19671199_10_53
+AT5G27070.1|PACid:19671195_30_71 -> AT5G27070.1_PACid_19671195_30_71
+AT5G26950.1|PACid:19666538_30_71 -> AT5G26950.1_PACid_19666538_30_71
+AT5G26880.1|PACid:19668576_156_166 -> AT5G26880.1_PACid_19668576_156_166
+AT5G26880.1|PACid:19668576_241_274 -> AT5G26880.1_PACid_19668576_241_274
+AT5G27944.1|PACid:19666623_30_71 -> AT5G27944.1_PACid_19666623_30_71
+AT5G27580.1|PACid:19672891_30_71 -> AT5G27580.1_PACid_19672891_30_71
+AT2G40210.1|PACid:19638131_10_51 -> AT2G40210.1_PACid_19638131_10_51
+AT1G31640.1|PACid:19651329_12_56 -> AT1G31640.1_PACid_19651329_12_56
+AT5G04640.1|PACid:19673003_13_53 -> AT5G04640.1_PACid_19673003_13_53
+AT5G49490.1|PACid:19668119_54_95 -> AT5G49490.1_PACid_19668119_54_95
+AT1G60920.1|PACid:19654635_12_50 -> AT1G60920.1_PACid_19654635_12_50
+AT1G48150.1|PACid:19654851_28_67 -> AT1G48150.1_PACid_19654851_28_67
+AT5G38620.1|PACid:19667041_14_55 -> AT5G38620.1_PACid_19667041_14_55
+AT5G27130.1|PACid:19666602_23_63 -> AT5G27130.1_PACid_19666602_23_63
+AT1G60040.1|PACid:19653511_20_62 -> AT1G60040.1_PACid_19653511_20_62
+AT5G49420.1|PACid:19672206_16_57 -> AT5G49420.1_PACid_19672206_16_57
+AT2G28700.1|PACid:19641128_11_50 -> AT2G28700.1_PACid_19641128_11_50
+AT5G27050.1|PACid:19667506_1_28 -> AT5G27050.1_PACid_19667506_1_28
+AT1G59810.1|PACid:19650751_19_61 -> AT1G59810.1_PACid_19650751_19_61
+AT1G60880.1|PACid:19658292_12_41 -> AT1G60880.1_PACid_19658292_12_41
+AT1G54760.1|PACid:19656422_19_43 -> AT1G54760.1_PACid_19656422_19_43
+AT5G37415.1|PACid:19671670_85_109 -> AT5G37415.1_PACid_19671670_85_109
+AT5G27810.1|PACid:19666054_1_26 -> AT5G27810.1_PACid_19666054_1_26
+AT1G33070.1|PACid:19656210_4_24 -> AT1G33070.1_PACid_19656210_4_24
+AT2G15660.1|PACid:19640579_30_44 -> AT2G15660.1_PACid_19640579_30_44
+
+                                    Gap/Ambiguity  Composition  p-value
+   1  Glyma.10G240500.1.p_MADS              2.04%    passed     99.91%
+   2  Glyma.03G019400.1.p_MADS              2.04%    passed     99.99%
+   3  Glyma.07G081300.1.p_MADS              2.04%    passed     99.99%
+   4  Glyma.18G224500.1.p_MADS              2.04%    passed     99.99%
+   5  Glyma.09G266200.6.p_MADS              2.04%    passed     99.99%
+   6  Glyma.07G080900.4.p_MADS              2.04%    passed     99.99%
+   7  Glyma.11G158812.1.p_MADS              2.04%    passed     99.50%
+   8  Glyma.09G266400.4.p_MADS              2.04%    passed     99.84%
+   9  Glyma.02G185500.3.p_MADS              2.04%    passed     99.99%
+  10  Glyma.03G019300.1.p_MADS              2.04%    passed     99.99%
+  11  Glyma.06G324400.2.p_MADS              2.04%    passed     99.44%
+  12  Glyma.13G223300.1.p_MADS              2.04%    passed     99.44%
+  13  Glyma.15G088600.1.p_MADS              2.04%    passed     99.44%
+  14  Glyma.02G287700.3.p_MADS              2.04%    passed     97.35%
+  15  Glyma.14G027251.1.p_MADS              2.04%    passed     97.35%
+  16  Glyma.08G105500.1.p_MADS              2.04%    passed     99.69%
+  17  Glyma.17G080900.1.p_MADS              2.04%    passed     99.69%
+  18  Glyma.05G148800.1.p_MADS              2.04%    passed     99.69%
+  19  Glyma.02G121500.1.p_MADS              2.04%    passed     99.69%
+  20  Glyma.01G064100.1.p_MADS              2.04%    passed     99.69%
+  21  Glyma.13G086400.1.p_MADS              2.04%    passed     75.18%
+  22  Glyma.05G018900.1.p_MADS              2.04%    passed     99.69%
+  23  Glyma.08G250700.1.p_MADS              2.04%    passed     99.69%
+  24  Glyma.14G168700.1.p_MADS              2.04%    passed     76.75%
+  25  Glyma.18G273500.1.p_MADS              2.04%    passed     99.69%
+  26  Glyma.18G224300.2.p_MADS              2.04%    passed     99.48%
+  27  Glyma.08G105400.1.p_MADS              4.08%    passed     99.96%
+  28  Glyma.15G057900.2.p_MADS              2.04%    passed     99.89%
+  29  Glyma.18G105800.1.p_MADS              2.04%    passed     93.82%
+  30  Glyma.08G310100.1.p_MADS              2.04%    passed     93.82%
+  31  Glyma.13G052700.1.p_MADS              2.04%    passed     99.98%
+  32  Glyma.19G034500.1.p_MADS              2.04%    passed     99.98%
+  33  Glyma.01G023500.1.p_MADS              2.04%    passed     99.82%
+  34  Glyma.20G154200.3.p_MADS              2.04%    passed     99.87%
+  35  Glyma.05G163200.1.p_MADS              2.04%    passed     99.44%
+  36  Glyma.08G120600.1.p_MADS              2.04%    passed     99.44%
+  37  Glyma.05G050700.1.p_MADS              2.04%    passed     99.89%
+  38  Glyma.04G257100.1.p_MADS              2.04%    passed     99.41%
+  39  Glyma.08G065300.1.p_MADS              2.04%    passed     99.85%
+  40  Glyma.08G269800.1.p_MADS              2.04%    passed     79.30%
+  41  Glyma.16G091300.1.p_MADS              2.04%    passed     79.30%
+  42  Glyma.01G064200.1.p_MADS              2.04%    passed     82.48%
+  43  Glyma.06G095700.1.p_MADS              2.04%    passed     99.91%
+  44  Glyma.16G200700.1.p_MADS              2.04%    passed     99.98%
+  45  Glyma.08G065400.2.p_MADS              2.04%    passed     99.79%
+  46  Glyma.06G205800.1.p_MADS              2.04%    passed     99.98%
+  47  Glyma.06G027200.1.p_MADS              2.04%    passed     98.15%
+  48  Glyma.13G255200.6.p_MADS              2.04%    passed     99.44%
+  49  Glyma.04G027200.1.p_MADS              2.04%    passed     95.67%
+  50  Glyma.15G059600.2.p_MADS              2.04%    passed     99.44%
+  51  Glyma.02G121600.1.p_MADS              2.04%    passed     77.19%
+  52  Glyma.05G148700.2.p_MADS              4.08%    passed     98.93%
+  53  Glyma.17G132700.5.p_MADS              2.04%    passed     98.37%
+  54  Glyma.09G201700.1.p_MADS              2.04%    passed     99.98%
+  55  Glyma.09G149000.1.p_MADS              2.04%    passed     99.94%
+  56  Glyma.01G020500.3.p_MADS              2.04%    passed     99.98%
+  57  Glyma.02G041500.1.p_MADS              2.04%    passed     99.58%
+  58  Glyma.01G169600.1.p_MADS              4.08%    passed     17.05%
+  59  Glyma.11G073700.5.p_MADS              4.08%    passed     17.05%
+  60  Glyma.20G153700.3.p_MADS              2.04%    passed     98.85%
+  61  Glyma.13G257000.7.p_MADS              2.04%    passed     99.87%
+  62  Glyma.10G240900.1.p_MADS              2.04%    passed     99.50%
+  63  Glyma.08G068200.8.p_MADS              2.04%    passed     98.61%
+  64  Glyma.07G181600.7.p_MADS              2.04%    passed     98.61%
+  65  Glyma.02G216600.13.p_MADS             2.04%    passed     99.96%
+  66  Glyma.18G004700.4.p_MADS              2.04%    passed     99.61%
+  67  Glyma.11G252300.1.p_MADS              2.04%    passed     99.61%
+  68  Glyma.17G081200.1.p_MADS              2.04%    passed     99.97%
+  69  Glyma.14G183800.2.p_MADS              2.04%    passed     99.79%
+  70  Glyma.04G159300.1.p_MADS              2.04%    passed     85.42%
+  71  Glyma.13G256900.1.p_MADS              2.04%    passed     92.68%
+  72  Glyma.15G058000.2.p_MADS              2.04%    passed     99.66%
+  73  Glyma.08G250800.3.p_MADS              2.04%    passed     99.89%
+  74  Glyma.05G018800.1.p_MADS              4.08%    passed     99.71%
+  75  Glyma.13G052100.1.p_MADS              4.08%    passed     99.99%
+  76  Glyma.19G034600.1.p_MADS              4.08%    passed     99.99%
+  77  Glyma.18G273600.2.p_MADS              2.04%    passed     99.73%
+  78  Glyma.06G117600.1.p_MADS              2.04%    passed     94.98%
+  79  Glyma.04G245500.2.p_MADS              2.04%    passed     94.98%
+  80  Glyma.20G001900.1.p_MADS              2.04%    passed     22.13%
+  81  Glyma.12G005000.1.p_MADS              4.08%    passed     67.97%
+  82  Glyma.09G283800.3.p_MADS              2.04%    passed     35.73%
+  83  Glyma.09G231600.4.p_MADS              4.08%    passed     67.97%
+  84  Glyma.14G155100.1.p_MADS              2.04%    passed     98.12%
+  85  Glyma.13G034100.2.p_MADS              2.04%    passed     98.12%
+  86  Glyma.07G228900.1.p_MADS              8.16%    passed     12.07%
+  87  Glyma.20G034000.3.p_MADS              8.16%    failed      1.30%
+  88  AT2G45650.1_PACid_19638787_10_57      2.04%    passed     99.99%
+  89  AT4G11880.1_PACid_19643844_10_57      2.04%    passed     99.99%
+  90  AT4G09960.1_PACid_19648309_10_57      2.04%    passed     99.44%
+  91  AT4G09960.4_PACid_19648308_10_57      2.04%    passed     99.44%
+  92  AT4G18960.1_PACid_19647337_26_73      2.04%    passed     99.44%
+  93  AT4G09960.3_PACid_19648307_36_83      2.04%    passed     99.44%
+  94  AT4G09960.2_PACid_19648310_10_57      2.04%    passed     99.44%
+  95  AT2G45660.1_PACid_19641052_10_57      2.04%    passed    100.00%
+  96  AT4G22950.1_PACid_19647692_10_57      2.04%    passed     99.90%
+  97  AT4G22950.1_PACid_19647692_94_105    75.51%    passed     90.85%
+  98  AT1G24260.3_PACid_19651405_10_57      2.04%    passed     99.69%
+  99  AT5G15800.1_PACid_19670123_10_57      2.04%    passed     99.69%
+ 100  AT1G24260.1_PACid_19651404_10_57      2.04%    passed     99.69%
+ 101  AT1G24260.2_PACid_19651403_10_57      2.04%    passed     99.69%
+ 102  AT5G15800.2_PACid_19670122_10_57      2.04%    passed     99.69%
+ 103  AT2G22540.1_PACid_19641563_10_57      2.04%    passed     97.94%
+ 104  AT3G57390.1_PACid_19659472_10_57      2.04%    passed     99.30%
+ 105  AT5G13790.1_PACid_19669343_10_57      2.04%    passed     99.81%
+ 106  AT5G51870.2_PACid_19672301_10_57      2.04%    passed     54.62%
+ 107  AT5G51870.1_PACid_19672300_10_57      2.04%    passed     54.62%
+ 108  AT5G51870.3_PACid_19672299_10_57      2.04%    passed     54.62%
+ 109  AT3G58780.2_PACid_19662660_25_72      2.04%    passed     98.08%
+ 110  AT2G42830.1_PACid_19643528_25_72      2.04%    passed     98.08%
+ 111  AT3G58780.1_PACid_19662659_25_72      2.04%    passed     98.08%
+ 112  AT2G42830.2_PACid_19643527_25_72      2.04%    passed     98.08%
+ 113  AT3G58780.3_PACid_19662658_25_72      2.04%    passed     98.08%
+ 114  AT3G02310.1_PACid_19661943_10_57      2.04%    passed     99.87%
+ 115  AT2G14210.1_PACid_19638394_10_57      2.04%    passed     99.38%
+ 116  AT2G03710.3_PACid_19640310_10_57      2.04%    passed     99.26%
+ 117  AT1G69120.1_PACid_19653480_10_57      2.04%    passed     73.95%
+ 118  AT5G60910.1_PACid_19670614_10_57      2.04%    passed     99.93%
+ 119  AT5G51860.2_PACid_19671372_10_57      2.04%    passed     97.40%
+ 120  AT5G51860.1_PACid_19671371_10_57      2.04%    passed     97.40%
+ 121  AT2G03710.2_PACid_19640309_10_57      2.04%    passed     99.26%
+ 122  AT2G03710.1_PACid_19640308_10_57      2.04%    passed     99.26%
+ 123  AT3G30260.1_PACid_19662130_10_57      2.04%    passed     99.87%
+ 124  AT2G24840.1_PACid_19642372_71_118     2.04%    passed     45.30%
+ 125  AT2G22540.2_PACid_19641564_10_55      6.12%    passed     98.82%
+ 126  AT3G57230.1_PACid_19665060_10_57      2.04%    passed    100.00%
+ 127  AT3G57230.2_PACid_19665061_10_57      2.04%    passed    100.00%
+ 128  AT4G37940.1_PACid_19644309_10_57      2.04%    passed     94.04%
+ 129  AT4G24540.1_PACid_19648389_10_57      2.04%    passed     83.62%
+ 130  AT3G61120.1_PACid_19662463_10_57      2.04%    passed     99.98%
+ 131  AT3G54340.1_PACid_19659884_10_57      2.04%    passed     66.33%
+ 132  AT1G26310.1_PACid_19650942_10_57      2.04%    passed     99.94%
+ 133  AT1G22130.1_PACid_19651829_10_55      6.12%    passed     93.64%
+ 134  AT5G62165.4_PACid_19672598_10_57      2.04%    passed     99.83%
+ 135  AT5G60440.1_PACid_19665878_15_62      2.04%    passed     88.12%
+ 136  AT5G62165.1_PACid_19672595_10_57      2.04%    passed     99.83%
+ 137  AT5G62165.2_PACid_19672596_10_57      2.04%    passed     99.83%
+ 138  AT5G62165.3_PACid_19672597_10_57      2.04%    passed     99.83%
+ 139  AT2G22630.1_PACid_19642313_10_57      2.04%    passed     75.99%
+ 140  AT1G77980.1_PACid_19650219_10_55      6.12%    passed     96.36%
+ 141  AT1G71692.1_PACid_19653064_10_56      4.08%    passed     78.92%
+ 142  AT1G01530.1_PACid_19655032_15_62      2.04%    passed     99.35%
+ 143  AT1G65360.1_PACid_19652033_15_62      2.04%    passed     29.16%
+ 144  AT5G10140.2_PACid_19672042_10_57      2.04%    passed     96.61%
+ 145  AT5G10140.4_PACid_19672041_10_57      2.04%    passed     96.61%
+ 146  AT5G10140.3_PACid_19672040_10_57      2.04%    passed     96.61%
+ 147  AT5G10140.1_PACid_19672039_10_57      2.04%    passed     96.61%
+ 148  AT3G66656.1_PACid_19662106_10_57      2.04%    passed     79.96%
+ 149  AT5G23260.2_PACid_19667542_10_57      2.04%    passed     97.08%
+ 150  AT5G23260.3_PACid_19667544_10_57      2.04%    passed     97.08%
+ 151  AT5G23260.1_PACid_19667543_10_57      2.04%    passed     97.08%
+ 152  AT4G36590.1_PACid_19644661_15_62      2.04%    passed     77.28%
+ 153  AT2G34440.1_PACid_19639540_12_57      6.12%    passed     80.76%
+ 154  AT5G65070.1_PACid_19666742_10_57      2.04%    passed     97.87%
+ 155  AT1G77950.1_PACid_19656697_10_55      6.12%    passed     92.78%
+ 156  AT1G77950.2_PACid_19656698_10_55      6.12%    passed     92.78%
+ 157  AT5G65070.3_PACid_19666740_10_57      2.04%    passed     97.87%
+ 158  AT5G65070.2_PACid_19666741_10_57      2.04%    passed     97.87%
+ 159  AT1G77080.5_PACid_19652600_10_55      6.12%    passed     90.34%
+ 160  AT1G77080.2_PACid_19652599_10_55      6.12%    passed     90.34%
+ 161  AT1G77080.4_PACid_19652598_10_55      6.12%    passed     90.34%
+ 162  AT5G65080.2_PACid_19670373_10_55      6.12%    passed     98.88%
+ 163  AT1G31140.1_PACid_19657778_10_57      2.04%    passed     57.16%
+ 164  AT1G31140.2_PACid_19657777_10_57      2.04%    passed     57.16%
+ 165  AT5G65080.1_PACid_19670372_17_62      6.12%    passed     98.88%
+ 166  AT1G47760.1_PACid_19657551_10_57      2.04%    passed     86.46%
+ 167  AT5G20240.1_PACid_19673101_10_57      2.04%    passed     83.12%
+ 168  AT1G18750.1_PACid_19654582_10_57      2.04%    passed     99.80%
+ 169  AT1G72350.1_PACid_19656010_55_98     10.20%    passed     96.81%
+ 170  AT5G65050.2_PACid_19667307_10_55      6.12%    passed     94.27%
+ 171  AT5G65050.1_PACid_19667306_10_55      6.12%    passed     94.27%
+ 172  AT5G65050.3_PACid_19667305_10_55      6.12%    passed     94.27%
+ 173  AT5G65060.2_PACid_19668929_10_55      6.12%    passed     93.39%
+ 174  AT5G65060.1_PACid_19668928_10_55      6.12%    passed     93.39%
+ 175  AT1G17310.1_PACid_19656321_56_103     2.04%    passed     98.26%
+ 176  AT1G28460.1_PACid_19649164_16_63      2.04%    passed     78.99%
+ 177  AT2G03060.2_PACid_19640478_10_53     10.20%    passed     93.78%
+ 178  AT2G03060.1_PACid_19640479_10_53     10.20%    passed     93.78%
+ 179  AT3G04100.1_PACid_19663352_22_69      2.04%    failed      3.77%
+ 180  AT3G04100.1_PACid_19663352_104_117   71.43%    passed      9.43%
+ 181  AT1G29962.1_PACid_19658277_16_63      2.04%    passed     97.95%
+ 182  AT5G48670.1_PACid_19672717_10_51     14.29%    passed     69.70%
+ 183  AT2G26320.1_PACid_19638466_26_73      2.04%    passed     57.25%
+ 184  AT1G69540.1_PACid_19658298_11_53     12.24%    failed      0.04%
+ 185  AT3G05860.2_PACid_19660459_10_51     14.29%    passed     95.35%
+ 186  AT3G05860.3_PACid_19660458_10_51     14.29%    passed     95.35%
+ 187  AT3G05860.1_PACid_19660457_10_51     14.29%    passed     95.35%
+ 188  AT5G27960.1_PACid_19666678_9_48      18.37%    passed     98.65%
+ 189  AT1G65330.1_PACid_19653684_9_53       8.16%    passed     98.41%
+ 190  AT5G55690.1_PACid_19665481_10_51     14.29%    passed     56.45%
+ 191  AT5G55690.1_PACid_19665481_137_148   75.51%    passed     33.57%
+ 192  AT1G65300.1_PACid_19652716_10_51     14.29%    passed     58.28%
+ 193  AT5G26630.1_PACid_19667105_10_50     16.33%    passed     78.46%
+ 194  AT5G26650.1_PACid_19669215_9_48      18.37%    passed     99.61%
+ 195  AT1G28450.1_PACid_19650560_16_63      2.04%    passed     94.09%
+ 196  AT3G18650.1_PACid_19661489_5_23      61.22%    failed      0.81%
+ 197  AT3G18650.1_PACid_19661489_30_72     12.24%    passed     45.25%
+ 198  AT5G58890.1_PACid_19667567_10_52     12.24%    passed     73.80%
+ 199  AT5G26580.1_PACid_19673075_11_50     18.37%    passed     70.88%
+ 200  AT4G02235.1_PACid_19647863_9_54       6.12%    passed     43.49%
+ 201  AT1G22590.2_PACid_19655507_11_50     18.37%    passed     99.35%
+ 202  AT5G65330.1_PACid_19672137_7_52       6.12%    passed     42.40%
+ 203  AT5G39750.1_PACid_19667213_25_64     18.37%    passed     15.68%
+ 204  AT5G40120.1_PACid_19671880_17_56     18.37%    passed     15.68%
+ 205  AT5G38740.1_PACid_19668168_26_65     18.37%    passed     15.68%
+ 206  AT5G41200.1_PACid_19667742_19_57     20.41%    passed     13.67%
+ 207  AT5G40220.1_PACid_19669238_18_57     18.37%    passed     15.68%
+ 208  AT1G46408.1_PACid_19654736_12_53     14.29%    passed     83.32%
+ 209  AT5G39810.1_PACid_19670065_25_64     18.37%    passed     16.85%
+ 210  AT1G31630.1_PACid_19652269_10_56      4.08%    passed      6.84%
+ 211  AT4G11250.1_PACid_19648763_10_51     14.29%    passed      5.86%
+ 212  AT5G27090.2_PACid_19670535_29_70     14.29%    passed     79.80%
+ 213  AT5G27090.1_PACid_19670534_29_70     14.29%    passed     79.80%
+ 214  AT5G06500.1_PACid_19671199_10_53     10.20%    failed      2.81%
+ 215  AT5G27070.1_PACid_19671195_30_71     14.29%    passed     66.28%
+ 216  AT5G26950.1_PACid_19666538_30_71     14.29%    passed     66.28%
+ 217  AT5G26880.1_PACid_19668576_156_166   77.55%    passed     58.54%
+ 218  AT5G26880.1_PACid_19668576_241_274   30.61%    passed     21.58%
+ 219  AT5G27944.1_PACid_19666623_30_71     14.29%    passed     60.74%
+ 220  AT5G27580.1_PACid_19672891_30_71     14.29%    passed     45.62%
+ 221  AT2G40210.1_PACid_19638131_10_51     14.29%    passed     40.20%
+ 222  AT1G31640.1_PACid_19651329_12_56      8.16%    failed      1.01%
+ 223  AT5G04640.1_PACid_19673003_13_53     16.33%    passed     61.68%
+ 224  AT5G49490.1_PACid_19668119_54_95     14.29%    passed     42.33%
+ 225  AT1G60920.1_PACid_19654635_12_50     20.41%    passed     98.39%
+ 226  AT1G48150.1_PACid_19654851_28_67     18.37%    passed     64.41%
+ 227  AT5G38620.1_PACid_19667041_14_55     14.29%    passed     27.88%
+ 228  AT5G27130.1_PACid_19666602_23_63     16.33%    passed     87.71%
+ 229  AT1G60040.1_PACid_19653511_20_62     12.24%    failed      1.75%
+ 230  AT5G49420.1_PACid_19672206_16_57     14.29%    passed     34.49%
+ 231  AT2G28700.1_PACid_19641128_11_50     18.37%    passed     57.96%
+ 232  AT5G27050.1_PACid_19667506_1_28      42.86%    passed     92.14%
+ 233  AT1G59810.1_PACid_19650751_19_61     12.24%    failed      1.40%
+ 234  AT1G60880.1_PACid_19658292_12_41     38.78%    passed     99.08%
+ 235  AT1G54760.1_PACid_19656422_19_43     48.98%    passed     68.13%
+ 236  AT5G37415.1_PACid_19671670_85_109    48.98%    failed      0.09%
+ 237  AT5G27810.1_PACid_19666054_1_26      46.94%    passed     20.38%
+ 238  AT1G33070.1_PACid_19656210_4_24      57.14%    passed     82.58%
+ 239  AT2G15660.1_PACid_19640579_30_44     69.39%    failed      1.03%
+WARNING: 7 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                 7.91%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Glyma.07G081300.1.p_MADS is identical to Glyma.03G019400.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.09G266200.6.p_MADS is identical to Glyma.18G224500.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.13G223300.1.p_MADS is identical to Glyma.06G324400.2.p_MADS but kept for subsequent analysis
+NOTE: Glyma.14G027251.1.p_MADS is identical to Glyma.02G287700.3.p_MADS but kept for subsequent analysis
+NOTE: Glyma.17G080900.1.p_MADS is identical to Glyma.08G105500.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.08G310100.1.p_MADS is identical to Glyma.18G105800.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.19G034500.1.p_MADS is identical to Glyma.13G052700.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.08G120600.1.p_MADS is identical to Glyma.05G163200.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.16G091300.1.p_MADS is identical to Glyma.08G269800.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.15G059600.2.p_MADS is identical to Glyma.13G255200.6.p_MADS but kept for subsequent analysis
+NOTE: Glyma.01G020500.3.p_MADS is identical to Glyma.09G201700.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.11G073700.5.p_MADS is identical to Glyma.01G169600.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.07G181600.7.p_MADS is identical to Glyma.08G068200.8.p_MADS but kept for subsequent analysis
+NOTE: Glyma.11G252300.1.p_MADS is identical to Glyma.18G004700.4.p_MADS but kept for subsequent analysis
+NOTE: Glyma.19G034600.1.p_MADS is identical to Glyma.13G052100.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.04G245500.2.p_MADS is identical to Glyma.06G117600.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.09G231600.4.p_MADS is identical to Glyma.12G005000.1.p_MADS but kept for subsequent analysis
+NOTE: Glyma.13G034100.2.p_MADS is identical to Glyma.14G155100.1.p_MADS but kept for subsequent analysis
+NOTE: AT4G09960.4_PACid_19648308_10_57 is identical to AT4G09960.1_PACid_19648309_10_57 but kept for subsequent analysis
+NOTE: AT5G51870.1_PACid_19672300_10_57 is identical to AT5G51870.2_PACid_19672301_10_57 but kept for subsequent analysis
+NOTE: AT2G42830.1_PACid_19643528_25_72 is identical to AT3G58780.2_PACid_19662660_25_72 but kept for subsequent analysis
+NOTE: AT2G03710.2_PACid_19640309_10_57 is identical to AT2G03710.3_PACid_19640310_10_57 but kept for subsequent analysis
+NOTE: AT5G51860.1_PACid_19671371_10_57 is identical to AT5G51860.2_PACid_19671372_10_57 but kept for subsequent analysis
+NOTE: AT3G57230.2_PACid_19665061_10_57 is identical to AT3G57230.1_PACid_19665060_10_57 but kept for subsequent analysis
+NOTE: AT5G62165.1_PACid_19672595_10_57 is identical to AT5G62165.4_PACid_19672598_10_57 but kept for subsequent analysis
+NOTE: AT5G10140.4_PACid_19672041_10_57 is identical to AT5G10140.2_PACid_19672042_10_57 but kept for subsequent analysis
+NOTE: AT5G23260.3_PACid_19667544_10_57 is identical to AT5G23260.2_PACid_19667542_10_57 but kept for subsequent analysis
+NOTE: AT5G65070.3_PACid_19666740_10_57 is identical to AT5G65070.1_PACid_19666742_10_57 but kept for subsequent analysis
+NOTE: AT1G77950.2_PACid_19656698_10_55 is identical to AT1G77950.1_PACid_19656697_10_55 but kept for subsequent analysis
+NOTE: AT1G77080.2_PACid_19652599_10_55 is identical to AT1G77080.5_PACid_19652600_10_55 but kept for subsequent analysis
+NOTE: AT5G65080.1_PACid_19670372_17_62 is identical to AT5G65080.2_PACid_19670373_10_55 but kept for subsequent analysis
+NOTE: AT1G31140.2_PACid_19657777_10_57 is identical to AT1G31140.1_PACid_19657778_10_57 but kept for subsequent analysis
+NOTE: AT5G65050.1_PACid_19667306_10_55 is identical to AT5G65050.2_PACid_19667307_10_55 but kept for subsequent analysis
+NOTE: AT5G65060.1_PACid_19668928_10_55 is identical to AT5G65060.2_PACid_19668929_10_55 but kept for subsequent analysis
+NOTE: AT2G03060.1_PACid_19640479_10_53 is identical to AT2G03060.2_PACid_19640478_10_53 but kept for subsequent analysis
+NOTE: AT3G05860.3_PACid_19660458_10_51 is identical to AT3G05860.2_PACid_19660459_10_51 but kept for subsequent analysis
+NOTE: AT5G40120.1_PACid_19671880_17_56 is identical to AT5G39750.1_PACid_19667213_25_64 but kept for subsequent analysis
+NOTE: AT5G27090.1_PACid_19670534_29_70 is identical to AT5G27090.2_PACid_19670535_29_70 but kept for subsequent analysis
+NOTE: AT5G26950.1_PACid_19666538_30_71 is identical to AT5G27070.1_PACid_19671195_30_71 but kept for subsequent analysis
+NOTE: 34 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AT2G45650.1_PACid_19638787_10_57 (identical to Glyma.03G019400.1.p_MADS) is ignored but added at the end
+NOTE: Glyma.07G080900.4.p_MADS (identical to Glyma.18G224500.1.p_MADS) is ignored but added at the end
+NOTE: AT4G11880.1_PACid_19643844_10_57 (identical to Glyma.18G224500.1.p_MADS) is ignored but added at the end
+NOTE: Glyma.15G088600.1.p_MADS (identical to Glyma.06G324400.2.p_MADS) is ignored but added at the end
+NOTE: AT4G18960.1_PACid_19647337_26_73 (identical to Glyma.06G324400.2.p_MADS) is ignored but added at the end
+NOTE: Glyma.05G148800.1.p_MADS (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: Glyma.02G121500.1.p_MADS (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: Glyma.01G064100.1.p_MADS (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: Glyma.05G018900.1.p_MADS (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: Glyma.08G250700.1.p_MADS (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: Glyma.18G273500.1.p_MADS (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: AT1G24260.3_PACid_19651405_10_57 (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: AT5G15800.1_PACid_19670123_10_57 (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: AT1G24260.1_PACid_19651404_10_57 (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: AT1G24260.2_PACid_19651403_10_57 (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: AT5G15800.2_PACid_19670122_10_57 (identical to Glyma.08G105500.1.p_MADS) is ignored but added at the end
+NOTE: AT4G09960.3_PACid_19648307_36_83 (identical to AT4G09960.1_PACid_19648309_10_57) is ignored but added at the end
+NOTE: AT4G09960.2_PACid_19648310_10_57 (identical to AT4G09960.1_PACid_19648309_10_57) is ignored but added at the end
+NOTE: AT5G51870.3_PACid_19672299_10_57 (identical to AT5G51870.2_PACid_19672301_10_57) is ignored but added at the end
+NOTE: AT3G58780.1_PACid_19662659_25_72 (identical to AT3G58780.2_PACid_19662660_25_72) is ignored but added at the end
+NOTE: AT2G42830.2_PACid_19643527_25_72 (identical to AT3G58780.2_PACid_19662660_25_72) is ignored but added at the end
+NOTE: AT3G58780.3_PACid_19662658_25_72 (identical to AT3G58780.2_PACid_19662660_25_72) is ignored but added at the end
+NOTE: AT2G03710.1_PACid_19640308_10_57 (identical to AT2G03710.3_PACid_19640310_10_57) is ignored but added at the end
+NOTE: AT5G62165.2_PACid_19672596_10_57 (identical to AT5G62165.4_PACid_19672598_10_57) is ignored but added at the end
+NOTE: AT5G62165.3_PACid_19672597_10_57 (identical to AT5G62165.4_PACid_19672598_10_57) is ignored but added at the end
+NOTE: AT5G10140.3_PACid_19672040_10_57 (identical to AT5G10140.2_PACid_19672042_10_57) is ignored but added at the end
+NOTE: AT5G10140.1_PACid_19672039_10_57 (identical to AT5G10140.2_PACid_19672042_10_57) is ignored but added at the end
+NOTE: AT5G23260.1_PACid_19667543_10_57 (identical to AT5G23260.2_PACid_19667542_10_57) is ignored but added at the end
+NOTE: AT5G65070.2_PACid_19666741_10_57 (identical to AT5G65070.1_PACid_19666742_10_57) is ignored but added at the end
+NOTE: AT1G77080.4_PACid_19652598_10_55 (identical to AT1G77080.5_PACid_19652600_10_55) is ignored but added at the end
+NOTE: AT5G65050.3_PACid_19667305_10_55 (identical to AT5G65050.2_PACid_19667307_10_55) is ignored but added at the end
+NOTE: AT3G05860.1_PACid_19660457_10_51 (identical to AT3G05860.2_PACid_19660459_10_51) is ignored but added at the end
+NOTE: AT5G38740.1_PACid_19668168_26_65 (identical to AT5G39750.1_PACid_19667213_25_64) is ignored but added at the end
+NOTE: AT5G40220.1_PACid_19669238_18_57 (identical to AT5G39750.1_PACid_19667213_25_64) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.043 seconds
+NOTE: ModelFinder requires 9 MB RAM!
+ModelFinder will test 168 protein models (sample size: 49) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+61 trees examined
+Threads: 1 / Time: 10.078 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11920
+Threads: 2 / Time: 11.450 sec / Speedup: 0.880 / Efficiency: 44% / LogL: -11920
+BEST NUMBER OF THREADS: 1
+
+  1  Dayhoff       5193.266     407 11200.531    343312.531   11970.502
+  2  Dayhoff+I     5193.218     408 11202.437    344946.437   11974.300
+  3  Dayhoff+G4    5025.750     408 10867.500    344611.500   11639.362
+  4  Dayhoff+I+G4  5025.747     409 10869.495    346249.495   11643.249
+  5  Dayhoff+F     5191.977     426 11235.955    375039.955   12041.870
+  6  Dayhoff+F+I   5191.964     427 11237.927    376749.927   12045.735
+  7  Dayhoff+F+G4  5021.750     427 10897.500    376409.500   11705.307
+  8  Dayhoff+F+I+G4 5021.732     428 10899.464    378123.464   11709.163
+  9  mtMAM         5636.838     407 12087.677    344199.677   12857.648
+ 10  mtMAM+I       5636.779     408 12089.557    345833.557   12861.420
+ 11  mtMAM+G4      5311.188     408 11438.376    345182.376   12210.238
+ 12  mtMAM+I+G4    5311.068     409 11440.137    346820.137   12213.891
+ 13  mtMAM+F       5393.599     426 11639.198    375443.198   12445.114
+ 14  mtMAM+F+I     5393.568     427 11641.137    377153.137   12448.944
+ 15  mtMAM+F+G4    5145.145     427 11144.290    376656.290   11952.098
+ 16  mtMAM+F+I+G4  5145.142     428 11146.283    378370.283   11955.982
+ 17  JTT           5168.731     407 11151.462    343263.462   11921.432
+ 18  JTT+I         5168.705     408 11153.409    344897.409   11925.272
+ 19  JTT+G4        4980.631     408 10777.261    344521.261   11549.124
+ 20  JTT+I+G4      4980.623     409 10779.247    346159.247   11553.001
+ 21  JTT+F         5198.227     426 11248.454    375052.454   12054.369
+ 22  JTT+F+I       5198.205     427 11250.411    376762.411   12058.218
+ 23  JTT+F+G4      5003.413     427 10860.826    376372.826   11668.633
+ 24  JTT+F+I+G4    5003.411     428 10862.822    378086.822   11672.521
+ 25  WAG           5178.266     407 11170.531    343282.531   11940.502
+ 26  WAG+I         5178.195     408 11172.391    344916.391   11944.253
+ 27  WAG+G4        5000.964     408 10817.927    344561.927   11589.790
+ 28  WAG+I+G4      5000.958     409 10819.915    346199.915   11593.670
+ 29  WAG+F         5215.559     426 11283.118    375087.118   12089.034
+ 30  WAG+F+I       5215.540     427 11285.079    376797.079   12092.886
+ 31  WAG+F+G4      5029.357     427 10912.713    376424.713   11720.520
+ 32  WAG+F+I+G4    5029.346     428 10914.693    378138.693   11724.392
+ 33  cpREV         5236.460     407 11286.920    343398.920   12056.890
+ 34  cpREV+I       5236.447     408 11288.895    345032.895   12060.757
+ 35  cpREV+G4      5019.940     408 10855.880    344599.880   11627.743
+ 36  cpREV+I+G4    5019.921     409 10857.843    346237.843   11631.597
+ 37  cpREV+F       5322.399     426 11496.797    375300.797   12302.713
+ 38  cpREV+F+I     5322.382     427 11498.764    377010.764   12306.571
+ 39  cpREV+F+G4    5096.560     427 11047.121    376559.121   11854.928
+ 40  cpREV+F+I+G4  5096.508     428 11049.017    378273.017   11858.716
+ 41  mtREV         5472.443     407 11758.887    343870.887   12528.858
+ 42  mtREV+I       5472.400     408 11760.801    345504.801   12532.663
+ 43  mtREV+G4      5236.168     408 11288.337    345032.337   12060.200
+ 44  mtREV+I+G4    5236.160     409 11290.321    346670.321   12064.075
+ 45  mtREV+F       5276.800     426 11405.601    375209.601   12211.516
+ 46  mtREV+F+I     5276.784     427 11407.568    376919.568   12215.375
+ 47  mtREV+F+G4    5081.952     427 11017.903    376529.903   11825.711
+ 48  mtREV+F+I+G4  5081.940     428 11019.880    378243.880   11829.579
+ 49  rtREV         5253.094     407 11320.188    343432.188   12090.159
+ 50  rtREV+I       5253.031     408 11322.061    345066.061   12093.924
+ 51  rtREV+G4      5055.593     408 10927.186    344671.186   11699.049
+ 52  rtREV+I+G4    5055.578     409 10929.157    346309.157   11702.911
+ 53  rtREV+F       5265.792     426 11383.584    375187.584   12189.500
+ 54  rtREV+F+I     5265.768     427 11385.536    376897.536   12193.344
+ 55  rtREV+F+G4    5056.792     427 10967.583    376479.583   11775.391
+ 56  rtREV+F+I+G4  5056.781     428 10969.562    378193.562   11779.261
+ 57  mtART         5587.250     407 11988.501    344100.501   12758.472
+ 58  mtART+I       5587.235     408 11990.469    345734.469   12762.332
+ 59  mtART+G4      5247.583     408 11311.167    345055.167   12083.029
+ 60  mtART+I+G4    5247.655     409 11313.311    346693.311   12087.065
+ 61  mtART+F       5397.506     426 11647.012    375451.012   12452.928
+ 62  mtART+F+I     5397.496     427 11648.993    377160.993   12456.800
+ 63  mtART+F+G4    5136.462     427 11126.924    376638.924   11934.731
+ 64  mtART+F+I+G4  5136.036     428 11128.072    378352.072   11937.771
+ 65  mtZOA         5434.856     407 11683.712    343795.712   12453.683
+ 66  mtZOA+I       5434.826     408 11685.652    345429.652   12457.515
+ 67  mtZOA+G4      5143.186     408 11102.372    344846.372   11874.235
+ 68  mtZOA+I+G4    5142.863     409 11103.726    346483.726   11877.480
+ 69  mtZOA+F       5304.304     426 11460.609    375264.609   12266.524
+ 70  mtZOA+F+I     5304.291     427 11462.583    376974.583   12270.390
+ 71  mtZOA+F+G4    5069.935     427 10993.870    376505.870   11801.678
+ 72  mtZOA+F+I+G4  5069.917     428 10995.835    378219.835   11805.534
+ 73  VT            5204.036     407 11222.071    343334.071   11992.042
+ 74  VT+I          5204.006     408 11224.012    344968.012   11995.874
+ 75  VT+G4         5027.359     408 10870.717    344614.717   11642.580
+ 76  VT+I+G4       5027.349     409 10872.698    346252.698   11646.453
+ 77  VT+F          5241.835     426 11335.671    375139.671   12141.586
+ 78  VT+F+I        5241.814     427 11337.629    376849.629   12145.436
+ 79  VT+F+G4       5060.459     427 10974.919    376486.919   11782.726
+ 80  VT+F+I+G4     5060.450     428 10976.900    378200.900   11786.599
+ 81  LG            5158.704     407 11131.408    343243.408   11901.379
+ 82  LG+I          5158.699     408 11133.398    344877.398   11905.261
+ 83  LG+G4         4961.821     408 10739.643    344483.643   11511.505
+ 84  LG+I+G4       4961.818     409 10741.636    346121.636   11515.390
+ 85  LG+F          5205.230     426 11262.460    375066.460   12068.376
+ 86  LG+F+I        5205.217     427 11264.434    376776.434   12072.241
+ 87  LG+F+G4       4998.603     427 10851.206    376363.206   11659.013
+ 88  LG+F+I+G4     4998.596     428 10853.192    378077.192   11662.892
+ 89  DCMut         5193.566     407 11201.132    343313.132   11971.103
+ 90  DCMut+I       5193.531     408 11203.062    344947.062   11974.925
+ 91  DCMut+G4      5026.388     408 10868.777    344612.777   11640.639
+ 92  DCMut+I+G4    5026.387     409 10870.774    346250.774   11644.529
+ 93  DCMut+F       5192.229     426 11236.459    375040.459   12042.374
+ 94  DCMut+F+I     5192.216     427 11238.432    376750.432   12046.239
+ 95  DCMut+F+G4    5022.373     427 10898.747    376410.747   11706.554
+ 96  DCMut+F+I+G4  5022.338     428 10900.676    378124.676   11710.375
+ 97  PMB           5264.370     407 11342.739    343454.739   12112.710
+ 98  PMB+I         5264.366     408 11344.731    345088.731   12116.594
+ 99  PMB+G4        5088.421     408 10992.843    344736.843   11764.705
+100  PMB+I+G4      5088.415     409 10994.831    346374.831   11768.585
+101  PMB+F         5306.137     426 11464.275    375268.275   12270.190
+102  PMB+F+I       5306.117     427 11466.234    376978.234   12274.041
+103  PMB+F+G4      5123.306     427 11100.611    376612.611   11908.419
+104  PMB+F+I+G4    5123.304     428 11102.608    378326.608   11912.307
+105  HIVb          5316.362     407 11446.724    343558.724   12216.695
+106  HIVb+I        5316.303     408 11448.606    345192.606   12220.468
+107  HIVb+G4       5067.648     408 10951.296    344695.296   11723.159
+108  HIVb+I+G4     5067.634     409 10953.267    346333.267   11727.022
+109  HIVb+F        5360.115     426 11572.229    375376.229   12378.145
+110  HIVb+F+I      5360.075     427 11574.150    377086.150   12381.957
+111  HIVb+F+G4     5094.621     427 11043.241    376555.241   11851.049
+112  HIVb+F+I+G4   5094.616     428 11045.231    378269.231   11854.931
+113  HIVw          5565.580     407 11945.159    344057.159   12715.130
+114  HIVw+I        5565.576     408 11947.152    345691.152   12719.015
+115  HIVw+G4       5276.495     408 11368.990    345112.990   12140.853
+116  HIVw+I+G4     5276.500     409 11370.999    346750.999   12144.754
+117  HIVw+F        5569.571     426 11991.143    375795.143   12797.058
+118  HIVw+F+I      5569.554     427 11993.108    377505.108   12800.915
+119  HIVw+F+G4     5279.336     427 11412.672    376924.672   12220.479
+120  HIVw+F+I+G4   5279.307     428 11414.614    378638.614   12224.313
+121  JTTDCMut      5166.907     407 11147.813    343259.813   11917.784
+122  JTTDCMut+I    5166.886     408 11149.772    344893.772   11921.634
+123  JTTDCMut+G4   4979.747     408 10775.495    344519.495   11547.357
+124  JTTDCMut+I+G4 4979.738     409 10777.476    346157.476   11551.230
+125  JTTDCMut+F    5196.417     426 11244.835    375048.835   12050.750
+126  JTTDCMut+F+I  5196.396     427 11246.792    376758.792   12054.599
+127  JTTDCMut+F+G4 5001.877     427 10857.755    376369.755   11665.562
+128  JTTDCMut+F+I+G4 5001.876     428 10859.751    378083.751   11669.450
+129  FLU           5280.127     407 11374.254    343486.254   12144.225
+130  FLU+I         5280.114     408 11376.229    345120.229   12148.091
+131  FLU+G4        5028.306     408 10872.612    344616.612   11644.475
+132  FLU+I+G4      5028.280     409 10874.561    346254.561   11648.315
+133  FLU+F         5369.617     426 11591.234    375395.234   12397.149
+134  FLU+F+I       5369.595     427 11593.189    377105.189   12400.997
+135  FLU+F+G4      5086.709     427 11027.418    376539.418   11835.225
+136  FLU+F+I+G4    5086.709     428 11029.417    378253.417   11839.116
+137  Blosum62      5260.725     407 11335.450    343447.450   12105.420
+138  Blosum62+I    5260.714     408 11337.428    345081.428   12109.291
+139  Blosum62+G4   5079.399     408 10974.798    344718.798   11746.661
+140  Blosum62+I+G4 5079.375     409 10976.751    346356.751   11750.505
+141  Blosum62+F    5311.059     426 11474.117    375278.117   12280.033
+142  Blosum62+F+I  5311.001     427 11476.003    376988.003   12283.810
+143  Blosum62+F+G4 5122.865     427 11099.730    376611.730   11907.537
+144  Blosum62+F+I+G4 5122.857     428 11101.715    378325.715   11911.414
+145  mtMet         5428.907     407 11671.815    343783.815   12441.786
+146  mtMet+I       5428.902     408 11673.803    345417.803   12445.666
+147  mtMet+G4      5165.294     408 11146.588    344890.588   11918.451
+148  mtMet+I+G4    5165.293     409 11148.586    346528.586   11922.341
+149  mtMet+F       5269.221     426 11390.441    375194.441   12196.357
+150  mtMet+F+I     5269.189     427 11392.377    376904.377   12200.184
+151  mtMet+F+G4    5057.377     427 10968.753    376480.753   11776.561
+152  mtMet+F+I+G4  5057.346     428 10970.692    378194.692   11780.391
+153  mtVer         5530.562     407 11875.124    343987.124   12645.095
+154  mtVer+I       5530.543     408 11877.086    345621.086   12648.949
+155  mtVer+G4      5258.695     408 11333.390    345077.390   12105.252
+156  mtVer+I+G4    5258.642     409 11335.283    346715.283   12109.038
+157  mtVer+F       5327.811     426 11507.621    375311.621   12313.537
+158  mtVer+F+I     5327.788     427 11509.576    377021.576   12317.383
+159  mtVer+F+G4    5117.145     427 11088.290    376600.290   11896.097
+160  mtVer+F+I+G4  5117.143     428 11090.285    378314.285   11899.984
+161  mtInv         5425.163     407 11664.325    343776.325   12434.296
+162  mtInv+I       5425.156     408 11666.311    345410.311   12438.174
+163  mtInv+G4      5180.492     408 11176.984    344920.984   11948.847
+164  mtInv+I+G4    5180.483     409 11178.966    346558.966   11952.721
+165  mtInv+F       5240.514     426 11333.028    375137.028   12138.943
+166  mtInv+F+I     5240.500     427 11335.000    376847.000   12142.807
+167  mtInv+F+G4    5043.031     427 10940.062    376452.062   11747.869
+168  mtInv+F+I+G4  5042.120     428 10940.241    378164.241   11749.940
+Akaike Information Criterion:           LG+G4
+Corrected Akaike Information Criterion: LG
+Bayesian Information Criterion:         LG+G4
+Best-fit model: LG+G4 chosen according to BIC
+
+All model information printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.model.gz
+CPU time for ModelFinder: 92.336 seconds (0h:1m:32s)
+Wall-clock time for ModelFinder: 92.395 seconds (0h:1m:32s)
+Generating 1000 samples for ultrafast bootstrap (seed: 516098)...
+
+NOTE: 9 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 10.287 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -10690
+Threads: 2 / Time: 10.712 sec / Speedup: 0.960 / Efficiency: 48% / LogL: -10690
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4967.056
+2. Current log-likelihood: -4963.023
+3. Current log-likelihood: -4961.830
+Optimal log-likelihood: -4961.817
+Gamma shape alpha: 1.457
+Parameters optimization took 3 rounds (0.900 sec)
+Computing ML distances based on estimated model parameters... 15.317 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.029 seconds
+Log-likelihood of BIONJ tree: -4964.621
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4.390 second
+Computing log-likelihood of 98 initial trees ... 11.853 seconds
+Current best score: -4889.832
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4840.506
+Iteration 10 / LogL: -4849.800 / Time: 0h:1m:25s
+Iteration 20 / LogL: -4852.085 / Time: 0h:1m:54s
+Finish initializing candidate tree set (20)
+Current best tree score: -4840.506 / CPU time: 75.945
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -4826.087
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -4821.034
+Iteration 30 / LogL: -4836.787 / Time: 0h:2m:24s (0h:8m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -4818.142
+Iteration 40 / LogL: -4818.142 / Time: 0h:2m:53s (0h:7m:23s left)
+Iteration 50 / LogL: -4824.147 / Time: 0h:3m:22s (0h:6m:11s left)
+Log-likelihood cutoff on original alignment: -4895.255
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -4817.901
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -4814.852
+Iteration 60 / LogL: -4817.872 / Time: 0h:3m:52s (0h:6m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -4814.414
+Iteration 70 / LogL: -4816.797 / Time: 0h:4m:20s (0h:6m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -4813.726
+Iteration 80 / LogL: -4820.805 / Time: 0h:4m:48s (0h:6m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 86: -4813.515
+Iteration 90 / LogL: -4816.715 / Time: 0h:5m:18s (0h:5m:43s left)
+Iteration 100 / LogL: -4827.297 / Time: 0h:5m:47s (0h:5m:2s left)
+Log-likelihood cutoff on original alignment: -4879.664
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 107: -4813.243
+Iteration 110 / LogL: -4815.606 / Time: 0h:6m:15s (0h:5m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 113: -4813.149
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -4812.741
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 116: -4812.530
+Iteration 120 / LogL: -4818.023 / Time: 0h:6m:45s (0h:5m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 129: -4811.968
+Iteration 130 / LogL: -4812.008 / Time: 0h:7m:14s (0h:5m:33s left)
+Iteration 140 / LogL: -4819.813 / Time: 0h:7m:41s (0h:4m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -4811.856
+Iteration 150 / LogL: -4821.060 / Time: 0h:8m:12s (0h:5m:20s left)
+Log-likelihood cutoff on original alignment: -4879.664
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 151: -4811.680
+Iteration 160 / LogL: -4830.606 / Time: 0h:8m:42s (0h:4m:58s left)
+Iteration 170 / LogL: -4813.118 / Time: 0h:9m:11s (0h:4m:24s left)
+Iteration 180 / LogL: -4823.066 / Time: 0h:9m:39s (0h:3m:49s left)
+Iteration 190 / LogL: -4837.190 / Time: 0h:10m:7s (0h:3m:16s left)
+Iteration 200 / LogL: -4812.518 / Time: 0h:10m:39s (0h:2m:43s left)
+Log-likelihood cutoff on original alignment: -4870.165
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Iteration 210 / LogL: -4832.485 / Time: 0h:11m:6s (0h:4m:46s left)
+Iteration 220 / LogL: -4827.336 / Time: 0h:11m:32s (0h:4m:13s left)
+Iteration 230 / LogL: -4835.056 / Time: 0h:12m:0s (0h:3m:40s left)
+Iteration 240 / LogL: -4884.531 / Time: 0h:12m:29s (0h:3m:8s left)
+Iteration 250 / LogL: -4818.858 / Time: 0h:12m:57s (0h:2m:36s left)
+Log-likelihood cutoff on original alignment: -4870.165
+TREE SEARCH COMPLETED AFTER 252 ITERATIONS / Time: 0h:13m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4811.680
+Optimal log-likelihood: -4811.680
+Gamma shape alpha: 1.392
+Parameters optimization took 1 rounds (0.184 sec)
+BEST SCORE FOUND : -4811.680
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.splits.nex
+Total tree length: 34.102
+
+Total number of iterations: 252
+CPU time used for tree search: 737.798 sec (0h:12m:17s)
+Wall-clock time used for tree search: 746.501 sec (0h:12m:26s)
+Total CPU time used: 780.087 sec (0h:13m:0s)
+Total wall-clock time used: 786.335 sec (0h:13m:6s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.splits.nex...
+205 taxa and 1974 splits.
+Consensus tree written to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.contree
+Reading input trees file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.contree
+Log-likelihood of consensus tree: -4812.338
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.splits.nex
+  Consensus tree:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.contree
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_5/uploads/Glycine_MADS_ML.log
+
+Date and Time: Sat Apr  4 00:38:44 2026

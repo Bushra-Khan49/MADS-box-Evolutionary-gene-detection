@@ -1,0 +1,1007 @@
+IQ-TREE multicore version 1.6.12 for Mac OS X 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/bin/iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Oryza_sativa_ClustalO_Aligned.fa -m AUTO -bb 1000 -nt AUTO -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML
+Seed:    325762 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr  3 05:01:23 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Oryza_sativa_ClustalO_Aligned.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 195 sequences with 1722 columns, 1678 distinct patterns
+1272 parsimony-informative, 307 singleton sites, 143 constant sites
+                  Gap/Ambiguity  Composition  p-value
+   1  LOC_Os10g39130.1   86.47%    failed      0.20%
+   2  LOC_Os10g39130.2   91.23%    failed      1.22%
+   3  LOC_Os08g41950.1   82.00%    failed      0.00%
+   4  LOC_Os08g41950.2   85.54%    failed      1.13%
+   5  LOC_Os08g38590.1   80.43%    passed     29.79%
+   6  LOC_Os08g07520.1   93.03%    failed      0.30%
+   7  LOC_Os08g14640.1   79.04%    passed     13.77%
+   8  LOC_Os08g14640.2   82.75%    passed      5.14%
+   9  LOC_Os08g41960.1   89.37%    failed      4.08%
+  10  LOC_Os08g33488.1   90.77%    failed      2.59%
+  11  LOC_Os08g02070.1   87.11%    failed      0.24%
+  12  LOC_Os04g31804.1   85.54%    failed      0.89%
+  13  LOC_Os04g23910.1   86.82%    failed      0.07%
+  14  LOC_Os04g25870.1   87.86%    failed      0.41%
+  15  LOC_Os04g49150.1   85.25%    failed      3.78%
+  16  LOC_Os04g38770.1   94.25%    passed     20.60%
+  17  LOC_Os04g31790.1   94.02%    passed     11.32%
+  18  LOC_Os04g24790.1   87.86%    failed      1.39%
+  19  LOC_Os04g51180.2   79.85%    failed      0.00%
+  20  LOC_Os04g35510.1   82.11%    failed      0.00%
+  21  LOC_Os04g35510.2   82.11%    failed      0.00%
+  22  LOC_Os04g25930.1   91.06%    failed      0.30%
+  23  LOC_Os04g24810.1   87.86%    failed      0.37%
+  24  LOC_Os04g38780.1   87.51%    failed      0.40%
+  25  LOC_Os04g25920.1   87.86%    failed      3.27%
+  26  LOC_Os04g52410.2   86.06%    failed      0.06%
+  27  LOC_Os04g52410.1   89.66%    failed      0.07%
+  28  LOC_Os04g24800.1   87.86%    failed      1.37%
+  29  LOC_Os07g04170.1   71.54%    failed      0.00%
+  30  LOC_Os07g41370.1   85.54%    failed      0.03%
+  31  LOC_Os07g41370.2   89.14%    failed      0.00%
+  32  LOC_Os07g01820.1   82.81%    failed      0.01%
+  33  LOC_Os07g01820.2   84.44%    failed      0.00%
+  34  LOC_Os07g01820.3   84.49%    failed      0.00%
+  35  LOC_Os07g01820.4   86.06%    failed      0.02%
+  36  LOC_Os07g01820.5   91.00%    failed      0.00%
+  37  LOC_Os07g01820.6   93.61%    failed      1.24%
+  38  LOC_Os01g10504.1   83.33%    failed      0.26%
+  39  LOC_Os01g10504.3   83.97%    failed      0.11%
+  40  LOC_Os01g10504.2   83.97%    failed      0.11%
+  41  LOC_Os01g68420.1   84.20%    failed      0.12%
+  42  LOC_Os01g18420.1   86.06%    passed     10.56%
+  43  LOC_Os01g66290.1   84.61%    passed     18.95%
+  44  LOC_Os01g66290.2   84.61%    passed     18.95%
+  45  LOC_Os01g52680.1   88.62%    passed      8.80%
+  46  LOC_Os01g23750.1   76.42%    failed      0.00%
+  47  LOC_Os01g23770.1   81.24%    passed      9.44%
+  48  LOC_Os01g67890.1   71.95%    failed      0.00%
+  49  LOC_Os01g69850.1   87.28%    passed     14.68%
+  50  LOC_Os01g23780.1   83.86%    failed      0.14%
+  51  LOC_Os01g74440.1   87.92%    failed      0.43%
+  52  LOC_Os01g15540.1   53.95%    failed      0.00%
+  53  LOC_Os01g23760.1   76.36%    failed      0.01%
+  54  LOC_Os01g66030.1   87.86%    failed      0.74%
+  55  LOC_Os01g66030.2   90.48%    failed      0.01%
+  56  LOC_Os01g11510.1   64.92%    failed      0.00%
+  57  LOC_Os01g18440.1   82.23%    failed      0.04%
+  58  LOC_Os01g68560.1   72.18%    failed      0.00%
+  59  LOC_Os03g54170.1   86.12%    passed     19.57%
+  60  LOC_Os03g03100.1   93.26%    passed     11.33%
+  61  LOC_Os03g11614.1   85.08%    failed      0.10%
+  62  LOC_Os03g54160.1   85.31%    failed      0.01%
+  63  LOC_Os03g54160.2   85.71%    failed      0.01%
+  64  LOC_Os03g03070.1   91.23%    failed      0.36%
+  65  LOC_Os03g08754.1   85.48%    failed      0.01%
+  66  LOC_Os03g08754.2   85.60%    failed      0.01%
+  67  LOC_Os03g38610.1   85.54%    passed     10.79%
+  68  LOC_Os03g14850.1   89.26%    passed     16.21%
+  69  LOC_Os03g37670.1   88.50%    passed      8.27%
+  70  LOC_Os02g52340.1   86.76%    failed      0.21%
+  71  LOC_Os02g07430.1   84.90%    passed     64.57%
+  72  LOC_Os02g49840.1   86.00%    failed      0.02%
+  73  LOC_Os02g49840.4   86.12%    failed      0.03%
+  74  LOC_Os02g49840.2   86.76%    failed      0.08%
+  75  LOC_Os02g49840.3   93.79%    passed     33.66%
+  76  LOC_Os02g45770.1   85.48%    passed      7.83%
+  77  LOC_Os02g39990.1   83.16%    failed      0.13%
+  78  LOC_Os02g07340.1   57.90%    failed      0.00%
+  79  LOC_Os02g01355.1   84.26%    failed      0.61%
+  80  LOC_Os02g36924.1   86.06%    failed      0.70%
+  81  LOC_Os02g01365.1   71.95%    failed      0.12%
+  82  LOC_Os02g06860.1   83.39%    failed      0.01%
+  83  LOC_Os09g02780.1   89.66%    failed      0.02%
+  84  LOC_Os09g32948.1   85.60%    failed      0.83%
+  85  LOC_Os09g02830.1   87.92%    failed      2.27%
+  86  LOC_Os06g11970.1   79.09%    passed      8.65%
+  87  LOC_Os06g30830.1   86.00%    passed     28.80%
+  88  LOC_Os06g49840.1   86.99%    passed     19.77%
+  89  LOC_Os06g49840.2   86.99%    passed     19.77%
+  90  LOC_Os06g23980.1   87.75%    failed      0.58%
+  91  LOC_Os06g30810.1   87.80%    failed      0.02%
+  92  LOC_Os06g22760.1   86.18%    passed      6.01%
+  93  LOC_Os06g01890.1   87.63%    failed      2.56%
+  94  LOC_Os06g45650.1   87.17%    failed      0.10%
+  95  LOC_Os06g11330.1   88.44%    failed      3.75%
+  96  LOC_Os06g23950.1   95.53%    passed     17.69%
+  97  LOC_Os06g06750.1   86.93%    failed      0.06%
+  98  LOC_Os12g10520.1   88.27%    failed      0.05%
+  99  LOC_Os12g10520.2   88.33%    failed      0.09%
+ 100  LOC_Os12g21880.1   93.09%    passed     63.48%
+ 101  LOC_Os12g31748.2   85.66%    failed      4.06%
+ 102  LOC_Os12g31748.1   86.47%    passed     20.88%
+ 103  LOC_Os12g21850.1   88.73%    failed      0.11%
+ 104  LOC_Os12g10540.3   84.32%    failed      0.02%
+ 105  LOC_Os12g10540.1   84.32%    failed      0.02%
+ 106  LOC_Os12g10540.2   84.32%    failed      0.02%
+ 107  LOC_Os12g10540.4   84.32%    failed      0.02%
+ 108  LOC_Os12g10540.5   84.73%    failed      0.02%
+ 109  LOC_Os05g11414.1   83.28%    failed      0.27%
+ 110  LOC_Os05g34940.1   87.51%    passed      6.72%
+ 111  LOC_Os05g34940.2   87.80%    failed      2.80%
+ 112  LOC_Os05g34940.3   88.79%    failed      0.07%
+ 113  LOC_Os05g11380.1   91.41%    passed     36.73%
+ 114  LOC_Os05g11380.2   93.32%    passed     39.65%
+ 115  LOC_Os05g19470.5   92.86%    failed      0.00%
+ 116  LOC_Os05g23780.1   87.34%    passed     57.72%
+ 117  LOC_Os11g43740.1   77.24%    failed      0.74%
+ 118  LOC_Os10g41330.1   84.15%    failed      0.06%
+ 119  LOC_Os10g41330.2   85.71%    failed      0.03%
+ 120  LOC_Os10g41130.1   83.22%    failed      0.00%
+ 121  LOC_Os08g36920.1   83.62%    failed      0.14%
+ 122  LOC_Os08g34360.1   83.28%    failed      0.12%
+ 123  LOC_Os04g32620.1   84.44%    failed      0.00%
+ 124  LOC_Os04g46220.1   81.53%    failed      0.00%
+ 125  LOC_Os04g48350.1   87.28%    failed      1.91%
+ 126  LOC_Os04g46240.1   81.53%    failed      0.00%
+ 127  LOC_Os04g55970.2   71.43%    failed      0.25%
+ 128  LOC_Os04g55970.1   84.03%    failed      0.14%
+ 129  LOC_Os04g55520.1   86.47%    failed      0.00%
+ 130  LOC_Os04g46410.1   85.66%    failed      2.31%
+ 131  LOC_Os04g18650.1   92.57%    passed     22.88%
+ 132  LOC_Os04g55560.2   73.29%    failed      0.00%
+ 133  LOC_Os04g55560.3   73.34%    failed      0.00%
+ 134  LOC_Os04g42570.1   61.79%    failed      0.00%
+ 135  LOC_Os04g46440.1   87.40%    failed      0.00%
+ 136  LOC_Os04g56150.1   91.93%    passed     60.69%
+ 137  LOC_Os04g46250.1   80.95%    failed      0.00%
+ 138  LOC_Os07g03250.1   81.77%    failed      0.10%
+ 139  LOC_Os07g42510.1   80.14%    failed      0.00%
+ 140  LOC_Os07g10410.1   84.55%    failed      1.72%
+ 141  LOC_Os07g13170.2   74.68%    failed      0.04%
+ 142  LOC_Os07g13170.1   74.68%    failed      0.04%
+ 143  LOC_Os01g59780.1   84.09%    failed      0.00%
+ 144  LOC_Os01g49830.1   77.18%    failed      0.00%
+ 145  LOC_Os01g67410.1   59.64%    failed      0.00%
+ 146  LOC_Os01g46870.1   82.64%    failed      0.00%
+ 147  LOC_Os01g12440.1   77.93%    failed      0.00%
+ 148  LOC_Os03g05590.1   91.81%    passed      8.92%
+ 149  LOC_Os03g19900.1   71.54%    failed      0.01%
+ 150  LOC_Os03g08460.1   81.07%    failed      0.00%
+ 151  LOC_Os03g07940.1   76.02%    failed      0.00%
+ 152  LOC_Os03g56050.1   62.14%    failed      0.00%
+ 153  LOC_Os03g60430.2   74.80%    failed      0.23%
+ 154  LOC_Os03g60430.1   75.03%    failed      0.27%
+ 155  LOC_Os02g10760.1   88.10%    passed     76.63%
+ 156  LOC_Os02g43790.1   82.40%    failed      0.00%
+ 157  LOC_Os02g55380.1   90.01%    failed      0.02%
+ 158  LOC_Os02g42585.1   72.53%    failed      0.00%
+ 159  LOC_Os02g52670.1   85.95%    failed      0.12%
+ 160  LOC_Os02g40070.1   59.35%    failed      0.00%
+ 161  LOC_Os02g51670.1   80.37%    failed      0.00%
+ 162  LOC_Os02g43820.1   80.02%    failed      0.00%
+ 163  LOC_Os02g54160.2   78.80%    failed      0.03%
+ 164  LOC_Os02g54160.1   78.80%    failed      0.03%
+ 165  LOC_Os09g26420.5   77.00%    failed      0.01%
+ 166  LOC_Os09g26420.1   77.00%    failed      0.01%
+ 167  LOC_Os09g26420.2   77.00%    failed      0.01%
+ 168  LOC_Os09g26420.4   83.45%    failed      3.43%
+ 169  LOC_Os09g20350.1   83.10%    failed      0.00%
+ 170  LOC_Os09g39810.1   92.39%    passed     19.04%
+ 171  LOC_Os09g28440.1   84.09%    failed      0.28%
+ 172  LOC_Os06g09390.1   78.98%    failed      3.74%
+ 173  LOC_Os06g09390.2   78.98%    failed      3.74%
+ 174  LOC_Os06g08340.1   89.66%    passed      9.03%
+ 175  LOC_Os06g06540.1   80.14%    failed      0.00%
+ 176  LOC_Os06g44750.1   84.73%    failed      0.01%
+ 177  LOC_Os06g40150.1   85.89%    failed      0.37%
+ 178  LOC_Os06g05340.1   76.83%    failed      0.50%
+ 179  LOC_Os06g43220.1   80.60%    passed     38.04%
+ 180  LOC_Os12g03290.1   74.27%    failed      0.03%
+ 181  LOC_Os12g39330.1   76.66%    failed      0.00%
+ 182  LOC_Os12g41030.1   91.87%    passed     12.76%
+ 183  LOC_Os05g29810.1   88.50%    failed      0.00%
+ 184  LOC_Os05g41760.1   89.02%    failed      0.00%
+ 185  LOC_Os05g32270.1   81.77%    passed     13.48%
+ 186  LOC_Os05g32270.2   84.90%    passed      5.20%
+ 187  LOC_Os05g03040.1   70.27%    failed      0.00%
+ 188  LOC_Os05g03040.2   79.04%    failed      0.24%
+ 189  LOC_Os05g03040.3   79.04%    failed      0.24%
+ 190  LOC_Os05g28800.1   89.55%    failed      0.01%
+ 191  LOC_Os05g47650.1   77.12%    failed      0.00%
+ 192  LOC_Os05g45954.1   74.97%    passed     11.08%
+ 193  LOC_Os11g03540.1   73.93%    failed      0.08%
+ 194  LOC_Os11g13840.1   88.33%    failed      0.00%
+ 195  LOC_Os11g19060.1   67.54%    failed      0.00%
+WARNING: 195 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              83.34%  153 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: LOC_Os04g35510.2 is identical to LOC_Os04g35510.1 but kept for subsequent analysis
+NOTE: LOC_Os01g10504.2 is identical to LOC_Os01g10504.3 but kept for subsequent analysis
+NOTE: LOC_Os01g66290.2 is identical to LOC_Os01g66290.1 but kept for subsequent analysis
+NOTE: LOC_Os06g49840.2 is identical to LOC_Os06g49840.1 but kept for subsequent analysis
+NOTE: LOC_Os12g10540.1 is identical to LOC_Os12g10540.3 but kept for subsequent analysis
+NOTE: LOC_Os07g13170.1 is identical to LOC_Os07g13170.2 but kept for subsequent analysis
+NOTE: LOC_Os02g54160.1 is identical to LOC_Os02g54160.2 but kept for subsequent analysis
+NOTE: LOC_Os09g26420.1 is identical to LOC_Os09g26420.5 but kept for subsequent analysis
+NOTE: LOC_Os06g09390.2 is identical to LOC_Os06g09390.1 but kept for subsequent analysis
+NOTE: LOC_Os05g03040.3 is identical to LOC_Os05g03040.2 but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: LOC_Os12g10540.2 (identical to LOC_Os12g10540.3) is ignored but added at the end
+NOTE: LOC_Os12g10540.4 (identical to LOC_Os12g10540.3) is ignored but added at the end
+NOTE: LOC_Os09g26420.2 (identical to LOC_Os09g26420.5) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.186 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 325762)...
+ERROR: File not found AUTO
+
+******************************************************
+CHECKPOINT: Resuming analysis from /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.ckp.gz
+
+IQ-TREE multicore version 1.6.12 for Mac OS X 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/bin/iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Oryza_sativa_ClustalO_Aligned.fa -m TEST -bb 1000 -nt 2 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML
+Seed:    307306 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr  3 05:01:32 2026
+Kernel:  SSE2 - 2 threads (10 CPU cores detected)
+
+WARNING: Command-line argument `TEST` differs from checkpoint `AUTO`
+WARNING: Command-line argument `2` differs from checkpoint `AUTO`
+WARNING: Command-line differs from checkpoint!
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Oryza_sativa_ClustalO_Aligned.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 195 sequences with 1722 columns, 1678 distinct patterns
+1272 parsimony-informative, 307 singleton sites, 143 constant sites
+                  Gap/Ambiguity  Composition  p-value
+   1  LOC_Os10g39130.1   86.47%    failed      0.20%
+   2  LOC_Os10g39130.2   91.23%    failed      1.22%
+   3  LOC_Os08g41950.1   82.00%    failed      0.00%
+   4  LOC_Os08g41950.2   85.54%    failed      1.13%
+   5  LOC_Os08g38590.1   80.43%    passed     29.79%
+   6  LOC_Os08g07520.1   93.03%    failed      0.30%
+   7  LOC_Os08g14640.1   79.04%    passed     13.77%
+   8  LOC_Os08g14640.2   82.75%    passed      5.14%
+   9  LOC_Os08g41960.1   89.37%    failed      4.08%
+  10  LOC_Os08g33488.1   90.77%    failed      2.59%
+  11  LOC_Os08g02070.1   87.11%    failed      0.24%
+  12  LOC_Os04g31804.1   85.54%    failed      0.89%
+  13  LOC_Os04g23910.1   86.82%    failed      0.07%
+  14  LOC_Os04g25870.1   87.86%    failed      0.41%
+  15  LOC_Os04g49150.1   85.25%    failed      3.78%
+  16  LOC_Os04g38770.1   94.25%    passed     20.60%
+  17  LOC_Os04g31790.1   94.02%    passed     11.32%
+  18  LOC_Os04g24790.1   87.86%    failed      1.39%
+  19  LOC_Os04g51180.2   79.85%    failed      0.00%
+  20  LOC_Os04g35510.1   82.11%    failed      0.00%
+  21  LOC_Os04g35510.2   82.11%    failed      0.00%
+  22  LOC_Os04g25930.1   91.06%    failed      0.30%
+  23  LOC_Os04g24810.1   87.86%    failed      0.37%
+  24  LOC_Os04g38780.1   87.51%    failed      0.40%
+  25  LOC_Os04g25920.1   87.86%    failed      3.27%
+  26  LOC_Os04g52410.2   86.06%    failed      0.06%
+  27  LOC_Os04g52410.1   89.66%    failed      0.07%
+  28  LOC_Os04g24800.1   87.86%    failed      1.37%
+  29  LOC_Os07g04170.1   71.54%    failed      0.00%
+  30  LOC_Os07g41370.1   85.54%    failed      0.03%
+  31  LOC_Os07g41370.2   89.14%    failed      0.00%
+  32  LOC_Os07g01820.1   82.81%    failed      0.01%
+  33  LOC_Os07g01820.2   84.44%    failed      0.00%
+  34  LOC_Os07g01820.3   84.49%    failed      0.00%
+  35  LOC_Os07g01820.4   86.06%    failed      0.02%
+  36  LOC_Os07g01820.5   91.00%    failed      0.00%
+  37  LOC_Os07g01820.6   93.61%    failed      1.24%
+  38  LOC_Os01g10504.1   83.33%    failed      0.26%
+  39  LOC_Os01g10504.3   83.97%    failed      0.11%
+  40  LOC_Os01g10504.2   83.97%    failed      0.11%
+  41  LOC_Os01g68420.1   84.20%    failed      0.12%
+  42  LOC_Os01g18420.1   86.06%    passed     10.56%
+  43  LOC_Os01g66290.1   84.61%    passed     18.95%
+  44  LOC_Os01g66290.2   84.61%    passed     18.95%
+  45  LOC_Os01g52680.1   88.62%    passed      8.80%
+  46  LOC_Os01g23750.1   76.42%    failed      0.00%
+  47  LOC_Os01g23770.1   81.24%    passed      9.44%
+  48  LOC_Os01g67890.1   71.95%    failed      0.00%
+  49  LOC_Os01g69850.1   87.28%    passed     14.68%
+  50  LOC_Os01g23780.1   83.86%    failed      0.14%
+  51  LOC_Os01g74440.1   87.92%    failed      0.43%
+  52  LOC_Os01g15540.1   53.95%    failed      0.00%
+  53  LOC_Os01g23760.1   76.36%    failed      0.01%
+  54  LOC_Os01g66030.1   87.86%    failed      0.74%
+  55  LOC_Os01g66030.2   90.48%    failed      0.01%
+  56  LOC_Os01g11510.1   64.92%    failed      0.00%
+  57  LOC_Os01g18440.1   82.23%    failed      0.04%
+  58  LOC_Os01g68560.1   72.18%    failed      0.00%
+  59  LOC_Os03g54170.1   86.12%    passed     19.57%
+  60  LOC_Os03g03100.1   93.26%    passed     11.33%
+  61  LOC_Os03g11614.1   85.08%    failed      0.10%
+  62  LOC_Os03g54160.1   85.31%    failed      0.01%
+  63  LOC_Os03g54160.2   85.71%    failed      0.01%
+  64  LOC_Os03g03070.1   91.23%    failed      0.36%
+  65  LOC_Os03g08754.1   85.48%    failed      0.01%
+  66  LOC_Os03g08754.2   85.60%    failed      0.01%
+  67  LOC_Os03g38610.1   85.54%    passed     10.79%
+  68  LOC_Os03g14850.1   89.26%    passed     16.21%
+  69  LOC_Os03g37670.1   88.50%    passed      8.27%
+  70  LOC_Os02g52340.1   86.76%    failed      0.21%
+  71  LOC_Os02g07430.1   84.90%    passed     64.57%
+  72  LOC_Os02g49840.1   86.00%    failed      0.02%
+  73  LOC_Os02g49840.4   86.12%    failed      0.03%
+  74  LOC_Os02g49840.2   86.76%    failed      0.08%
+  75  LOC_Os02g49840.3   93.79%    passed     33.66%
+  76  LOC_Os02g45770.1   85.48%    passed      7.83%
+  77  LOC_Os02g39990.1   83.16%    failed      0.13%
+  78  LOC_Os02g07340.1   57.90%    failed      0.00%
+  79  LOC_Os02g01355.1   84.26%    failed      0.61%
+  80  LOC_Os02g36924.1   86.06%    failed      0.70%
+  81  LOC_Os02g01365.1   71.95%    failed      0.12%
+  82  LOC_Os02g06860.1   83.39%    failed      0.01%
+  83  LOC_Os09g02780.1   89.66%    failed      0.02%
+  84  LOC_Os09g32948.1   85.60%    failed      0.83%
+  85  LOC_Os09g02830.1   87.92%    failed      2.27%
+  86  LOC_Os06g11970.1   79.09%    passed      8.65%
+  87  LOC_Os06g30830.1   86.00%    passed     28.80%
+  88  LOC_Os06g49840.1   86.99%    passed     19.77%
+  89  LOC_Os06g49840.2   86.99%    passed     19.77%
+  90  LOC_Os06g23980.1   87.75%    failed      0.58%
+  91  LOC_Os06g30810.1   87.80%    failed      0.02%
+  92  LOC_Os06g22760.1   86.18%    passed      6.01%
+  93  LOC_Os06g01890.1   87.63%    failed      2.56%
+  94  LOC_Os06g45650.1   87.17%    failed      0.10%
+  95  LOC_Os06g11330.1   88.44%    failed      3.75%
+  96  LOC_Os06g23950.1   95.53%    passed     17.69%
+  97  LOC_Os06g06750.1   86.93%    failed      0.06%
+  98  LOC_Os12g10520.1   88.27%    failed      0.05%
+  99  LOC_Os12g10520.2   88.33%    failed      0.09%
+ 100  LOC_Os12g21880.1   93.09%    passed     63.48%
+ 101  LOC_Os12g31748.2   85.66%    failed      4.06%
+ 102  LOC_Os12g31748.1   86.47%    passed     20.88%
+ 103  LOC_Os12g21850.1   88.73%    failed      0.11%
+ 104  LOC_Os12g10540.3   84.32%    failed      0.02%
+ 105  LOC_Os12g10540.1   84.32%    failed      0.02%
+ 106  LOC_Os12g10540.2   84.32%    failed      0.02%
+ 107  LOC_Os12g10540.4   84.32%    failed      0.02%
+ 108  LOC_Os12g10540.5   84.73%    failed      0.02%
+ 109  LOC_Os05g11414.1   83.28%    failed      0.27%
+ 110  LOC_Os05g34940.1   87.51%    passed      6.72%
+ 111  LOC_Os05g34940.2   87.80%    failed      2.80%
+ 112  LOC_Os05g34940.3   88.79%    failed      0.07%
+ 113  LOC_Os05g11380.1   91.41%    passed     36.73%
+ 114  LOC_Os05g11380.2   93.32%    passed     39.65%
+ 115  LOC_Os05g19470.5   92.86%    failed      0.00%
+ 116  LOC_Os05g23780.1   87.34%    passed     57.72%
+ 117  LOC_Os11g43740.1   77.24%    failed      0.74%
+ 118  LOC_Os10g41330.1   84.15%    failed      0.06%
+ 119  LOC_Os10g41330.2   85.71%    failed      0.03%
+ 120  LOC_Os10g41130.1   83.22%    failed      0.00%
+ 121  LOC_Os08g36920.1   83.62%    failed      0.14%
+ 122  LOC_Os08g34360.1   83.28%    failed      0.12%
+ 123  LOC_Os04g32620.1   84.44%    failed      0.00%
+ 124  LOC_Os04g46220.1   81.53%    failed      0.00%
+ 125  LOC_Os04g48350.1   87.28%    failed      1.91%
+ 126  LOC_Os04g46240.1   81.53%    failed      0.00%
+ 127  LOC_Os04g55970.2   71.43%    failed      0.25%
+ 128  LOC_Os04g55970.1   84.03%    failed      0.14%
+ 129  LOC_Os04g55520.1   86.47%    failed      0.00%
+ 130  LOC_Os04g46410.1   85.66%    failed      2.31%
+ 131  LOC_Os04g18650.1   92.57%    passed     22.88%
+ 132  LOC_Os04g55560.2   73.29%    failed      0.00%
+ 133  LOC_Os04g55560.3   73.34%    failed      0.00%
+ 134  LOC_Os04g42570.1   61.79%    failed      0.00%
+ 135  LOC_Os04g46440.1   87.40%    failed      0.00%
+ 136  LOC_Os04g56150.1   91.93%    passed     60.69%
+ 137  LOC_Os04g46250.1   80.95%    failed      0.00%
+ 138  LOC_Os07g03250.1   81.77%    failed      0.10%
+ 139  LOC_Os07g42510.1   80.14%    failed      0.00%
+ 140  LOC_Os07g10410.1   84.55%    failed      1.72%
+ 141  LOC_Os07g13170.2   74.68%    failed      0.04%
+ 142  LOC_Os07g13170.1   74.68%    failed      0.04%
+ 143  LOC_Os01g59780.1   84.09%    failed      0.00%
+ 144  LOC_Os01g49830.1   77.18%    failed      0.00%
+ 145  LOC_Os01g67410.1   59.64%    failed      0.00%
+ 146  LOC_Os01g46870.1   82.64%    failed      0.00%
+ 147  LOC_Os01g12440.1   77.93%    failed      0.00%
+ 148  LOC_Os03g05590.1   91.81%    passed      8.92%
+ 149  LOC_Os03g19900.1   71.54%    failed      0.01%
+ 150  LOC_Os03g08460.1   81.07%    failed      0.00%
+ 151  LOC_Os03g07940.1   76.02%    failed      0.00%
+ 152  LOC_Os03g56050.1   62.14%    failed      0.00%
+ 153  LOC_Os03g60430.2   74.80%    failed      0.23%
+ 154  LOC_Os03g60430.1   75.03%    failed      0.27%
+ 155  LOC_Os02g10760.1   88.10%    passed     76.63%
+ 156  LOC_Os02g43790.1   82.40%    failed      0.00%
+ 157  LOC_Os02g55380.1   90.01%    failed      0.02%
+ 158  LOC_Os02g42585.1   72.53%    failed      0.00%
+ 159  LOC_Os02g52670.1   85.95%    failed      0.12%
+ 160  LOC_Os02g40070.1   59.35%    failed      0.00%
+ 161  LOC_Os02g51670.1   80.37%    failed      0.00%
+ 162  LOC_Os02g43820.1   80.02%    failed      0.00%
+ 163  LOC_Os02g54160.2   78.80%    failed      0.03%
+ 164  LOC_Os02g54160.1   78.80%    failed      0.03%
+ 165  LOC_Os09g26420.5   77.00%    failed      0.01%
+ 166  LOC_Os09g26420.1   77.00%    failed      0.01%
+ 167  LOC_Os09g26420.2   77.00%    failed      0.01%
+ 168  LOC_Os09g26420.4   83.45%    failed      3.43%
+ 169  LOC_Os09g20350.1   83.10%    failed      0.00%
+ 170  LOC_Os09g39810.1   92.39%    passed     19.04%
+ 171  LOC_Os09g28440.1   84.09%    failed      0.28%
+ 172  LOC_Os06g09390.1   78.98%    failed      3.74%
+ 173  LOC_Os06g09390.2   78.98%    failed      3.74%
+ 174  LOC_Os06g08340.1   89.66%    passed      9.03%
+ 175  LOC_Os06g06540.1   80.14%    failed      0.00%
+ 176  LOC_Os06g44750.1   84.73%    failed      0.01%
+ 177  LOC_Os06g40150.1   85.89%    failed      0.37%
+ 178  LOC_Os06g05340.1   76.83%    failed      0.50%
+ 179  LOC_Os06g43220.1   80.60%    passed     38.04%
+ 180  LOC_Os12g03290.1   74.27%    failed      0.03%
+ 181  LOC_Os12g39330.1   76.66%    failed      0.00%
+ 182  LOC_Os12g41030.1   91.87%    passed     12.76%
+ 183  LOC_Os05g29810.1   88.50%    failed      0.00%
+ 184  LOC_Os05g41760.1   89.02%    failed      0.00%
+ 185  LOC_Os05g32270.1   81.77%    passed     13.48%
+ 186  LOC_Os05g32270.2   84.90%    passed      5.20%
+ 187  LOC_Os05g03040.1   70.27%    failed      0.00%
+ 188  LOC_Os05g03040.2   79.04%    failed      0.24%
+ 189  LOC_Os05g03040.3   79.04%    failed      0.24%
+ 190  LOC_Os05g28800.1   89.55%    failed      0.01%
+ 191  LOC_Os05g47650.1   77.12%    failed      0.00%
+ 192  LOC_Os05g45954.1   74.97%    passed     11.08%
+ 193  LOC_Os11g03540.1   73.93%    failed      0.08%
+ 194  LOC_Os11g13840.1   88.33%    failed      0.00%
+ 195  LOC_Os11g19060.1   67.54%    failed      0.00%
+WARNING: 195 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              83.34%  153 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: LOC_Os04g35510.2 is identical to LOC_Os04g35510.1 but kept for subsequent analysis
+NOTE: LOC_Os01g10504.2 is identical to LOC_Os01g10504.3 but kept for subsequent analysis
+NOTE: LOC_Os01g66290.2 is identical to LOC_Os01g66290.1 but kept for subsequent analysis
+NOTE: LOC_Os06g49840.2 is identical to LOC_Os06g49840.1 but kept for subsequent analysis
+NOTE: LOC_Os12g10540.1 is identical to LOC_Os12g10540.3 but kept for subsequent analysis
+NOTE: LOC_Os07g13170.1 is identical to LOC_Os07g13170.2 but kept for subsequent analysis
+NOTE: LOC_Os02g54160.1 is identical to LOC_Os02g54160.2 but kept for subsequent analysis
+NOTE: LOC_Os09g26420.1 is identical to LOC_Os09g26420.5 but kept for subsequent analysis
+NOTE: LOC_Os06g09390.2 is identical to LOC_Os06g09390.1 but kept for subsequent analysis
+NOTE: LOC_Os05g03040.3 is identical to LOC_Os05g03040.2 but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: LOC_Os12g10540.2 (identical to LOC_Os12g10540.3) is ignored but added at the end
+NOTE: LOC_Os12g10540.4 (identical to LOC_Os12g10540.3) is ignored but added at the end
+NOTE: LOC_Os09g26420.2 (identical to LOC_Os09g26420.5) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.182 seconds
+NOTE: ModelFinder requires 207 MB RAM!
+ModelFinder will test 168 protein models (sample size: 1722) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Dayhoff       94463.243    381 189688.487   189905.714   191765.410
+  2  Dayhoff+I     94463.028    382 189690.055   189908.586   191772.430
+  3  Dayhoff+G4    92985.111    382 186734.222   186952.752   188816.596
+  4  Dayhoff+I+G4  92985.104    383 186736.208   186956.047   188824.034
+  5  Dayhoff+F     93938.731    400 188677.462   188920.308   190857.959
+  6  Dayhoff+F+I   93938.723    401 188679.446   188923.691   190865.394
+  7  Dayhoff+F+G4  92439.879    401 185681.758   185926.003   187867.706
+  8  Dayhoff+F+I+G4 92439.863    402 185683.725   185929.375   187875.125
+  9  mtMAM         103138.613   381 207039.226   207256.453   209116.149
+ 10  mtMAM+I       103138.599   382 207041.199   207259.729   209123.573
+ 11  mtMAM+G4      100134.812   382 201033.624   201252.155   203115.999
+ 12  mtMAM+I+G4    100134.810   383 201035.621   201255.459   203123.446
+ 13  mtMAM+F       97607.143    400 196014.287   196257.133   198194.784
+ 14  mtMAM+F+I     97607.103    401 196016.205   196260.451   198202.153
+ 15  mtMAM+F+G4    95128.501    401 191059.001   191303.247   193244.949
+ 16  mtMAM+F+I+G4  95128.090    402 191060.180   191305.830   193251.579
+ 17  JTT           93895.504    381 188553.009   188770.236   190629.932
+ 18  JTT+I         93895.481    382 188554.962   188773.492   190637.336
+ 19  JTT+G4        92490.349    382 185744.699   185963.229   187827.073
+ 20  JTT+I+G4      92490.362    383 185746.723   185966.562   187834.549
+ 21  JTT+F         93564.821    400 187929.642   188172.488   190110.139
+ 22  JTT+F+I       93564.817    401 187931.635   188175.880   190117.583
+ 23  JTT+F+G4      92135.575    401 185073.150   185317.396   187259.098
+ 24  JTT+F+I+G4    92135.563    402 185075.125   185320.775   187266.525
+ 25  WAG           93721.369    381 188204.738   188421.965   190281.661
+ 26  WAG+I         93721.361    382 188206.722   188425.252   190289.096
+ 27  WAG+G4        92380.479    382 185524.957   185743.488   187607.332
+ 28  WAG+I+G4      92380.481    383 185526.962   185746.801   187614.788
+ 29  WAG+F         93492.722    400 187785.445   188028.291   189965.941
+ 30  WAG+F+I       93492.721    401 187787.442   188031.688   189973.390
+ 31  WAG+F+G4      92114.218    401 185030.437   185274.682   187216.385
+ 32  WAG+F+I+G4    92114.209    402 185032.417   185278.067   187223.816
+ 33  cpREV         95310.134    381 191382.268   191599.495   193459.191
+ 34  cpREV+I       95310.116    382 191384.231   191602.762   193466.606
+ 35  cpREV+G4      93647.615    382 188059.230   188277.760   190141.604
+ 36  cpREV+I+G4    93647.603    383 188061.206   188281.045   190149.032
+ 37  cpREV+F       94643.639    400 190087.277   190330.123   192267.774
+ 38  cpREV+F+I     94643.626    401 190089.252   190333.498   192275.200
+ 39  cpREV+F+G4    92830.647    401 186463.294   186707.539   188649.242
+ 40  cpREV+F+I+G4  92830.643    402 186465.286   186710.936   188656.685
+ 41  mtREV         100074.819   381 200911.639   201128.866   202988.562
+ 42  mtREV+I       100074.802   382 200913.604   201132.134   202995.978
+ 43  mtREV+G4      98029.760    382 196823.520   197042.050   198905.894
+ 44  mtREV+I+G4    98029.764    383 196825.528   197045.367   198913.354
+ 45  mtREV+F       95432.874    400 191665.748   191908.594   193846.245
+ 46  mtREV+F+I     95432.856    401 191667.712   191911.957   193853.659
+ 47  mtREV+F+G4    93631.486    401 188064.973   188309.218   190250.921
+ 48  mtREV+F+I+G4  93631.448    402 188066.896   188312.546   190258.296
+ 49  rtREV         95190.770    381 191143.539   191360.766   193220.463
+ 50  rtREV+I       95190.755    382 191145.509   191364.039   193227.884
+ 51  rtREV+G4      93723.243    382 188210.486   188429.017   190292.861
+ 52  rtREV+I+G4    93723.243    383 188212.486   188432.324   190300.311
+ 53  rtREV+F       94014.850    400 188829.699   189072.545   191010.196
+ 54  rtREV+F+I     94014.833    401 188831.666   189075.911   191017.614
+ 55  rtREV+F+G4    92503.354    401 185808.708   186052.953   187994.656
+ 56  rtREV+F+I+G4  92503.347    402 185810.694   186056.344   188002.093
+ 57  mtART         102926.038   381 206614.076   206831.303   208690.999
+ 58  mtART+I       102926.032   382 206616.064   206834.594   208698.438
+ 59  mtART+G4      99908.808    382 200581.616   200800.146   202663.991
+ 60  mtART+I+G4    99908.823    383 200583.645   200803.484   202671.471
+ 61  mtART+F       97809.975    400 196419.950   196662.796   198600.447
+ 62  mtART+F+I     97809.958    401 196421.916   196666.161   198607.864
+ 63  mtART+F+G4    95011.953    401 190825.906   191070.152   193011.854
+ 64  mtART+F+I+G4  95011.870    402 190827.740   191073.390   193019.140
+ 65  mtZOA         99952.748    381 200667.495   200884.722   202744.419
+ 66  mtZOA+I       99952.734    382 200669.468   200887.999   202751.843
+ 67  mtZOA+G4      97423.034    382 195610.067   195828.598   197692.442
+ 68  mtZOA+I+G4    97423.039    383 195612.078   195831.916   197699.903
+ 69  mtZOA+F       96400.001    400 193600.002   193842.848   195780.498
+ 70  mtZOA+F+I     96399.993    401 193601.986   193846.232   195787.934
+ 71  mtZOA+F+G4    94035.056    401 188872.112   189116.357   191058.060
+ 72  mtZOA+F+I+G4  94035.048    402 188874.096   189119.746   191065.496
+ 73  VT            93383.029    381 187528.058   187745.285   189604.981
+ 74  VT+I          93383.018    382 187530.036   187748.567   189612.411
+ 75  VT+G4         92249.853    382 185263.706   185482.236   187346.080
+ 76  VT+I+G4       92249.857    383 185265.714   185485.552   187353.539
+ 77  VT+F          93038.204    400 186876.409   187119.255   189056.906
+ 78  VT+F+I        93038.192    401 186878.385   187122.630   189064.333
+ 79  VT+F+G4       91877.997    401 184557.994   184802.240   186743.942
+ 80  VT+F+I+G4     91877.987    402 184559.975   184805.624   186751.374
+ 81  LG            94421.101    381 189604.203   189821.430   191681.126
+ 82  LG+I          94421.094    382 189606.188   189824.718   191688.562
+ 83  LG+G4         92888.635    382 186541.270   186759.801   188623.645
+ 84  LG+I+G4       92888.644    383 186543.288   186763.126   188631.113
+ 85  LG+F          93936.066    400 188672.132   188914.978   190852.628
+ 86  LG+F+I        93936.053    401 188674.106   188918.352   190860.054
+ 87  LG+F+G4       92369.339    401 185540.677   185784.923   187726.625
+ 88  LG+F+I+G4     92369.332    402 185542.664   185788.314   187734.063
+ 89  DCMut         94450.975    381 189663.951   189881.178   191740.874
+ 90  DCMut+I       94450.972    382 189665.943   189884.473   191748.317
+ 91  DCMut+G4      92979.426    382 186722.852   186941.382   188805.226
+ 92  DCMut+I+G4    92979.413    383 186724.827   186944.665   188812.652
+ 93  DCMut+F       93926.369    400 188652.738   188895.585   190833.235
+ 94  DCMut+F+I     93926.360    401 188654.719   188898.965   190840.667
+ 95  DCMut+F+G4    92433.446    401 185668.893   185913.138   187854.841
+ 96  DCMut+F+I+G4  92433.430    402 185670.860   185916.509   187862.259
+ 97  PMB           93840.478    381 188442.955   188660.182   190519.879
+ 98  PMB+I         93840.440    382 188444.880   188663.411   190527.255
+ 99  PMB+G4        92737.745    382 186239.490   186458.020   188321.864
+100  PMB+I+G4      92737.747    383 186241.494   186461.333   188329.320
+101  PMB+F         93393.709    400 187587.418   187830.265   189767.915
+102  PMB+F+I       93393.697    401 187589.394   187833.639   189775.342
+103  PMB+F+G4      92230.211    401 185262.423   185506.668   187448.371
+104  PMB+F+I+G4    92230.226    402 185264.452   185510.102   187455.852
+105  HIVb          97020.591    381 194803.181   195020.408   196880.104
+106  HIVb+I        97020.556    382 194805.111   195023.641   196887.486
+107  HIVb+G4       94998.176    382 190760.352   190978.882   192842.726
+108  HIVb+I+G4     94998.173    383 190762.346   190982.184   192850.171
+109  HIVb+F        95755.400    400 192310.801   192553.647   194491.298
+110  HIVb+F+I      95755.391    401 192312.783   192557.028   194498.731
+111  HIVb+F+G4     93589.851    401 187981.702   188225.948   190167.650
+112  HIVb+F+I+G4   93589.846    402 187983.692   188229.341   190175.091
+113  HIVw          101230.900   381 203223.801   203441.028   205300.724
+114  HIVw+I        101230.878   382 203225.756   203444.286   205308.130
+115  HIVw+G4       98823.214    382 198410.429   198628.959   200492.803
+116  HIVw+I+G4     98823.211    383 198412.421   198632.260   200500.247
+117  HIVw+F        97343.020    400 195486.040   195728.887   197666.537
+118  HIVw+F+I      97343.019    401 195488.039   195732.284   197673.987
+119  HIVw+F+G4     94966.479    401 190734.957   190979.203   192920.905
+120  HIVw+F+I+G4   94966.430    402 190736.859   190982.509   192928.258
+121  JTTDCMut      93921.857    381 188605.713   188822.940   190682.636
+122  JTTDCMut+I    93921.825    382 188607.650   188826.180   190690.024
+123  JTTDCMut+G4   92514.220    382 185792.439   186010.969   187874.814
+124  JTTDCMut+I+G4 92514.223    383 185794.446   186014.285   187882.272
+125  JTTDCMut+F    93578.701    400 187957.402   188200.249   190137.899
+126  JTTDCMut+F+I  93578.698    401 187959.397   188203.642   190145.345
+127  JTTDCMut+F+G4 92147.810    401 185097.620   185341.866   187283.568
+128  JTTDCMut+F+I+G4 92147.799    402 185099.598   185345.248   187290.997
+129  FLU           97384.610    381 195531.221   195748.448   197608.144
+130  FLU+I         97384.593    382 195533.187   195751.717   197615.561
+131  FLU+G4        95263.995    382 191291.989   191510.519   193374.363
+132  FLU+I+G4      95264.017    383 191294.035   191513.873   193381.860
+133  FLU+F         95438.020    400 191676.041   191918.887   193856.537
+134  FLU+F+I       95438.017    401 191678.035   191922.280   193863.982
+135  FLU+F+G4      93343.296    401 187488.593   187732.838   189674.541
+136  FLU+F+I+G4    93343.259    402 187490.518   187736.168   189681.918
+137  Blosum62      94122.686    381 189007.373   189224.599   191084.296
+138  Blosum62+I    94122.662    382 189009.323   189227.854   191091.698
+139  Blosum62+G4   92975.245    382 186714.489   186933.019   188796.863
+140  Blosum62+I+G4 92975.245    383 186716.490   186936.328   188804.315
+141  Blosum62+F    93565.614    400 187931.229   188174.075   190111.725
+142  Blosum62+F+I  93565.604    401 187933.208   188177.454   190119.156
+143  Blosum62+F+G4 92331.309    401 185464.619   185708.864   187650.567
+144  Blosum62+F+I+G4 92331.307    402 185466.614   185712.264   187658.013
+145  mtMet         101116.389   381 202994.778   203212.005   205071.701
+146  mtMet+I       101116.374   382 202996.748   203215.279   205079.123
+147  mtMet+G4      99049.468    382 198862.937   199081.467   200945.311
+148  mtMet+I+G4    99049.462    383 198864.924   199084.762   200952.749
+149  mtMet+F       95506.381    400 191812.762   192055.609   193993.259
+150  mtMet+F+I     95506.372    401 191814.744   192058.989   194000.692
+151  mtMet+F+G4    93554.470    401 187910.940   188155.186   190096.888
+152  mtMet+F+I+G4  93554.478    402 187912.956   188158.606   190104.355
+153  mtVer         101240.561   381 203243.123   203460.350   205320.046
+154  mtVer+I       101240.559   382 203245.118   203463.649   205327.493
+155  mtVer+G4      98979.710    382 198723.419   198941.950   200805.794
+156  mtVer+I+G4    98979.714    383 198725.428   198945.267   200813.254
+157  mtVer+F       96393.618    400 193587.237   193830.083   195767.734
+158  mtVer+F+I     96393.595    401 193589.191   193833.436   195775.139
+159  mtVer+F+G4    94333.504    401 189469.008   189713.254   191654.956
+160  mtVer+F+I+G4  94333.493    402 189470.986   189716.636   191662.385
+161  mtInv         101685.003   381 204132.006   204349.233   206208.929
+162  mtInv+I       101684.963   382 204133.925   204352.455   206216.300
+163  mtInv+G4      99872.906    382 200509.811   200728.341   202592.185
+164  mtInv+I+G4    99872.924    383 200511.848   200731.686   202599.673
+165  mtInv+F       94897.533    400 190595.067   190837.913   192775.563
+166  mtInv+F+I     94897.526    401 190597.051   190841.297   192782.999
+167  mtInv+F+G4    93105.091    401 187012.182   187256.427   189198.130
+168  mtInv+F+I+G4  93105.101    402 187014.203   187259.852   189205.602
+Akaike Information Criterion:           VT+F+G4
+Corrected Akaike Information Criterion: VT+F+G4
+Bayesian Information Criterion:         VT+F+G4
+Best-fit model: VT+F+G4 chosen according to BIC
+
+All model information printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.model.gz
+CPU time for ModelFinder: 1955.157 seconds (0h:32m:35s)
+Wall-clock time for ModelFinder: 1010.538 seconds (0h:16m:50s)
+Generating 1000 samples for ultrafast bootstrap (seed: 307306)...
+
+NOTE: 207 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -98036.548
+2. Current log-likelihood: -92116.048
+3. Current log-likelihood: -91862.543
+4. Current log-likelihood: -91860.412
+Optimal log-likelihood: -91860.365
+Gamma shape alpha: 2.679
+Parameters optimization took 4 rounds (12.770 sec)
+Computing ML distances based on estimated model parameters... 16.592 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.018 seconds
+Log-likelihood of BIONJ tree: -93351.661
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 18.271 second
+Computing log-likelihood of 98 initial trees ... 121.613 seconds
+Current best score: -91860.365
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -91700.812
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -91667.184
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -91666.394
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -91662.779
+Iteration 10 / LogL: -91679.781 / Time: 0h:5m:35s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -91662.185
+Iteration 20 / LogL: -91685.976 / Time: 0h:8m:12s
+Finish initializing candidate tree set (20)
+Current best tree score: -91662.185 / CPU time: 457.435
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -91655.002
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -91654.883
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -91651.792
+Iteration 30 / LogL: -91659.775 / Time: 0h:11m:27s (0h:39m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -91650.833
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -91649.292
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -91649.194
+
+******************************************************
+CHECKPOINT: Resuming analysis from /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.ckp.gz
+
+IQ-TREE multicore version 1.6.12 for Mac OS X 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/bin/iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Oryza_sativa_ClustalO_Aligned.fa -m AUTO -bb 1000 -nt AUTO -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML
+Seed:    888619 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr  3 05:32:34 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+WARNING: Command-line argument `AUTO` differs from checkpoint `TEST`
+WARNING: Command-line argument `AUTO` differs from checkpoint `2`
+WARNING: Command-line differs from checkpoint!
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Oryza_sativa_ClustalO_Aligned.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 195 sequences with 1722 columns, 1678 distinct patterns
+1272 parsimony-informative, 307 singleton sites, 143 constant sites
+                  Gap/Ambiguity  Composition  p-value
+   1  LOC_Os10g39130.1   86.47%    failed      0.20%
+   2  LOC_Os10g39130.2   91.23%    failed      1.22%
+   3  LOC_Os08g41950.1   82.00%    failed      0.00%
+   4  LOC_Os08g41950.2   85.54%    failed      1.13%
+   5  LOC_Os08g38590.1   80.43%    passed     29.79%
+   6  LOC_Os08g07520.1   93.03%    failed      0.30%
+   7  LOC_Os08g14640.1   79.04%    passed     13.77%
+   8  LOC_Os08g14640.2   82.75%    passed      5.14%
+   9  LOC_Os08g41960.1   89.37%    failed      4.08%
+  10  LOC_Os08g33488.1   90.77%    failed      2.59%
+  11  LOC_Os08g02070.1   87.11%    failed      0.24%
+  12  LOC_Os04g31804.1   85.54%    failed      0.89%
+  13  LOC_Os04g23910.1   86.82%    failed      0.07%
+  14  LOC_Os04g25870.1   87.86%    failed      0.41%
+  15  LOC_Os04g49150.1   85.25%    failed      3.78%
+  16  LOC_Os04g38770.1   94.25%    passed     20.60%
+  17  LOC_Os04g31790.1   94.02%    passed     11.32%
+  18  LOC_Os04g24790.1   87.86%    failed      1.39%
+  19  LOC_Os04g51180.2   79.85%    failed      0.00%
+  20  LOC_Os04g35510.1   82.11%    failed      0.00%
+  21  LOC_Os04g35510.2   82.11%    failed      0.00%
+  22  LOC_Os04g25930.1   91.06%    failed      0.30%
+  23  LOC_Os04g24810.1   87.86%    failed      0.37%
+  24  LOC_Os04g38780.1   87.51%    failed      0.40%
+  25  LOC_Os04g25920.1   87.86%    failed      3.27%
+  26  LOC_Os04g52410.2   86.06%    failed      0.06%
+  27  LOC_Os04g52410.1   89.66%    failed      0.07%
+  28  LOC_Os04g24800.1   87.86%    failed      1.37%
+  29  LOC_Os07g04170.1   71.54%    failed      0.00%
+  30  LOC_Os07g41370.1   85.54%    failed      0.03%
+  31  LOC_Os07g41370.2   89.14%    failed      0.00%
+  32  LOC_Os07g01820.1   82.81%    failed      0.01%
+  33  LOC_Os07g01820.2   84.44%    failed      0.00%
+  34  LOC_Os07g01820.3   84.49%    failed      0.00%
+  35  LOC_Os07g01820.4   86.06%    failed      0.02%
+  36  LOC_Os07g01820.5   91.00%    failed      0.00%
+  37  LOC_Os07g01820.6   93.61%    failed      1.24%
+  38  LOC_Os01g10504.1   83.33%    failed      0.26%
+  39  LOC_Os01g10504.3   83.97%    failed      0.11%
+  40  LOC_Os01g10504.2   83.97%    failed      0.11%
+  41  LOC_Os01g68420.1   84.20%    failed      0.12%
+  42  LOC_Os01g18420.1   86.06%    passed     10.56%
+  43  LOC_Os01g66290.1   84.61%    passed     18.95%
+  44  LOC_Os01g66290.2   84.61%    passed     18.95%
+  45  LOC_Os01g52680.1   88.62%    passed      8.80%
+  46  LOC_Os01g23750.1   76.42%    failed      0.00%
+  47  LOC_Os01g23770.1   81.24%    passed      9.44%
+  48  LOC_Os01g67890.1   71.95%    failed      0.00%
+  49  LOC_Os01g69850.1   87.28%    passed     14.68%
+  50  LOC_Os01g23780.1   83.86%    failed      0.14%
+  51  LOC_Os01g74440.1   87.92%    failed      0.43%
+  52  LOC_Os01g15540.1   53.95%    failed      0.00%
+  53  LOC_Os01g23760.1   76.36%    failed      0.01%
+  54  LOC_Os01g66030.1   87.86%    failed      0.74%
+  55  LOC_Os01g66030.2   90.48%    failed      0.01%
+  56  LOC_Os01g11510.1   64.92%    failed      0.00%
+  57  LOC_Os01g18440.1   82.23%    failed      0.04%
+  58  LOC_Os01g68560.1   72.18%    failed      0.00%
+  59  LOC_Os03g54170.1   86.12%    passed     19.57%
+  60  LOC_Os03g03100.1   93.26%    passed     11.33%
+  61  LOC_Os03g11614.1   85.08%    failed      0.10%
+  62  LOC_Os03g54160.1   85.31%    failed      0.01%
+  63  LOC_Os03g54160.2   85.71%    failed      0.01%
+  64  LOC_Os03g03070.1   91.23%    failed      0.36%
+  65  LOC_Os03g08754.1   85.48%    failed      0.01%
+  66  LOC_Os03g08754.2   85.60%    failed      0.01%
+  67  LOC_Os03g38610.1   85.54%    passed     10.79%
+  68  LOC_Os03g14850.1   89.26%    passed     16.21%
+  69  LOC_Os03g37670.1   88.50%    passed      8.27%
+  70  LOC_Os02g52340.1   86.76%    failed      0.21%
+  71  LOC_Os02g07430.1   84.90%    passed     64.57%
+  72  LOC_Os02g49840.1   86.00%    failed      0.02%
+  73  LOC_Os02g49840.4   86.12%    failed      0.03%
+  74  LOC_Os02g49840.2   86.76%    failed      0.08%
+  75  LOC_Os02g49840.3   93.79%    passed     33.66%
+  76  LOC_Os02g45770.1   85.48%    passed      7.83%
+  77  LOC_Os02g39990.1   83.16%    failed      0.13%
+  78  LOC_Os02g07340.1   57.90%    failed      0.00%
+  79  LOC_Os02g01355.1   84.26%    failed      0.61%
+  80  LOC_Os02g36924.1   86.06%    failed      0.70%
+  81  LOC_Os02g01365.1   71.95%    failed      0.12%
+  82  LOC_Os02g06860.1   83.39%    failed      0.01%
+  83  LOC_Os09g02780.1   89.66%    failed      0.02%
+  84  LOC_Os09g32948.1   85.60%    failed      0.83%
+  85  LOC_Os09g02830.1   87.92%    failed      2.27%
+  86  LOC_Os06g11970.1   79.09%    passed      8.65%
+  87  LOC_Os06g30830.1   86.00%    passed     28.80%
+  88  LOC_Os06g49840.1   86.99%    passed     19.77%
+  89  LOC_Os06g49840.2   86.99%    passed     19.77%
+  90  LOC_Os06g23980.1   87.75%    failed      0.58%
+  91  LOC_Os06g30810.1   87.80%    failed      0.02%
+  92  LOC_Os06g22760.1   86.18%    passed      6.01%
+  93  LOC_Os06g01890.1   87.63%    failed      2.56%
+  94  LOC_Os06g45650.1   87.17%    failed      0.10%
+  95  LOC_Os06g11330.1   88.44%    failed      3.75%
+  96  LOC_Os06g23950.1   95.53%    passed     17.69%
+  97  LOC_Os06g06750.1   86.93%    failed      0.06%
+  98  LOC_Os12g10520.1   88.27%    failed      0.05%
+  99  LOC_Os12g10520.2   88.33%    failed      0.09%
+ 100  LOC_Os12g21880.1   93.09%    passed     63.48%
+ 101  LOC_Os12g31748.2   85.66%    failed      4.06%
+ 102  LOC_Os12g31748.1   86.47%    passed     20.88%
+ 103  LOC_Os12g21850.1   88.73%    failed      0.11%
+ 104  LOC_Os12g10540.3   84.32%    failed      0.02%
+ 105  LOC_Os12g10540.1   84.32%    failed      0.02%
+ 106  LOC_Os12g10540.2   84.32%    failed      0.02%
+ 107  LOC_Os12g10540.4   84.32%    failed      0.02%
+ 108  LOC_Os12g10540.5   84.73%    failed      0.02%
+ 109  LOC_Os05g11414.1   83.28%    failed      0.27%
+ 110  LOC_Os05g34940.1   87.51%    passed      6.72%
+ 111  LOC_Os05g34940.2   87.80%    failed      2.80%
+ 112  LOC_Os05g34940.3   88.79%    failed      0.07%
+ 113  LOC_Os05g11380.1   91.41%    passed     36.73%
+ 114  LOC_Os05g11380.2   93.32%    passed     39.65%
+ 115  LOC_Os05g19470.5   92.86%    failed      0.00%
+ 116  LOC_Os05g23780.1   87.34%    passed     57.72%
+ 117  LOC_Os11g43740.1   77.24%    failed      0.74%
+ 118  LOC_Os10g41330.1   84.15%    failed      0.06%
+ 119  LOC_Os10g41330.2   85.71%    failed      0.03%
+ 120  LOC_Os10g41130.1   83.22%    failed      0.00%
+ 121  LOC_Os08g36920.1   83.62%    failed      0.14%
+ 122  LOC_Os08g34360.1   83.28%    failed      0.12%
+ 123  LOC_Os04g32620.1   84.44%    failed      0.00%
+ 124  LOC_Os04g46220.1   81.53%    failed      0.00%
+ 125  LOC_Os04g48350.1   87.28%    failed      1.91%
+ 126  LOC_Os04g46240.1   81.53%    failed      0.00%
+ 127  LOC_Os04g55970.2   71.43%    failed      0.25%
+ 128  LOC_Os04g55970.1   84.03%    failed      0.14%
+ 129  LOC_Os04g55520.1   86.47%    failed      0.00%
+ 130  LOC_Os04g46410.1   85.66%    failed      2.31%
+ 131  LOC_Os04g18650.1   92.57%    passed     22.88%
+ 132  LOC_Os04g55560.2   73.29%    failed      0.00%
+ 133  LOC_Os04g55560.3   73.34%    failed      0.00%
+ 134  LOC_Os04g42570.1   61.79%    failed      0.00%
+ 135  LOC_Os04g46440.1   87.40%    failed      0.00%
+ 136  LOC_Os04g56150.1   91.93%    passed     60.69%
+ 137  LOC_Os04g46250.1   80.95%    failed      0.00%
+ 138  LOC_Os07g03250.1   81.77%    failed      0.10%
+ 139  LOC_Os07g42510.1   80.14%    failed      0.00%
+ 140  LOC_Os07g10410.1   84.55%    failed      1.72%
+ 141  LOC_Os07g13170.2   74.68%    failed      0.04%
+ 142  LOC_Os07g13170.1   74.68%    failed      0.04%
+ 143  LOC_Os01g59780.1   84.09%    failed      0.00%
+ 144  LOC_Os01g49830.1   77.18%    failed      0.00%
+ 145  LOC_Os01g67410.1   59.64%    failed      0.00%
+ 146  LOC_Os01g46870.1   82.64%    failed      0.00%
+ 147  LOC_Os01g12440.1   77.93%    failed      0.00%
+ 148  LOC_Os03g05590.1   91.81%    passed      8.92%
+ 149  LOC_Os03g19900.1   71.54%    failed      0.01%
+ 150  LOC_Os03g08460.1   81.07%    failed      0.00%
+ 151  LOC_Os03g07940.1   76.02%    failed      0.00%
+ 152  LOC_Os03g56050.1   62.14%    failed      0.00%
+ 153  LOC_Os03g60430.2   74.80%    failed      0.23%
+ 154  LOC_Os03g60430.1   75.03%    failed      0.27%
+ 155  LOC_Os02g10760.1   88.10%    passed     76.63%
+ 156  LOC_Os02g43790.1   82.40%    failed      0.00%
+ 157  LOC_Os02g55380.1   90.01%    failed      0.02%
+ 158  LOC_Os02g42585.1   72.53%    failed      0.00%
+ 159  LOC_Os02g52670.1   85.95%    failed      0.12%
+ 160  LOC_Os02g40070.1   59.35%    failed      0.00%
+ 161  LOC_Os02g51670.1   80.37%    failed      0.00%
+ 162  LOC_Os02g43820.1   80.02%    failed      0.00%
+ 163  LOC_Os02g54160.2   78.80%    failed      0.03%
+ 164  LOC_Os02g54160.1   78.80%    failed      0.03%
+ 165  LOC_Os09g26420.5   77.00%    failed      0.01%
+ 166  LOC_Os09g26420.1   77.00%    failed      0.01%
+ 167  LOC_Os09g26420.2   77.00%    failed      0.01%
+ 168  LOC_Os09g26420.4   83.45%    failed      3.43%
+ 169  LOC_Os09g20350.1   83.10%    failed      0.00%
+ 170  LOC_Os09g39810.1   92.39%    passed     19.04%
+ 171  LOC_Os09g28440.1   84.09%    failed      0.28%
+ 172  LOC_Os06g09390.1   78.98%    failed      3.74%
+ 173  LOC_Os06g09390.2   78.98%    failed      3.74%
+ 174  LOC_Os06g08340.1   89.66%    passed      9.03%
+ 175  LOC_Os06g06540.1   80.14%    failed      0.00%
+ 176  LOC_Os06g44750.1   84.73%    failed      0.01%
+ 177  LOC_Os06g40150.1   85.89%    failed      0.37%
+ 178  LOC_Os06g05340.1   76.83%    failed      0.50%
+ 179  LOC_Os06g43220.1   80.60%    passed     38.04%
+ 180  LOC_Os12g03290.1   74.27%    failed      0.03%
+ 181  LOC_Os12g39330.1   76.66%    failed      0.00%
+ 182  LOC_Os12g41030.1   91.87%    passed     12.76%
+ 183  LOC_Os05g29810.1   88.50%    failed      0.00%
+ 184  LOC_Os05g41760.1   89.02%    failed      0.00%
+ 185  LOC_Os05g32270.1   81.77%    passed     13.48%
+ 186  LOC_Os05g32270.2   84.90%    passed      5.20%
+ 187  LOC_Os05g03040.1   70.27%    failed      0.00%
+ 188  LOC_Os05g03040.2   79.04%    failed      0.24%
+ 189  LOC_Os05g03040.3   79.04%    failed      0.24%
+ 190  LOC_Os05g28800.1   89.55%    failed      0.01%
+ 191  LOC_Os05g47650.1   77.12%    failed      0.00%
+ 192  LOC_Os05g45954.1   74.97%    passed     11.08%
+ 193  LOC_Os11g03540.1   73.93%    failed      0.08%
+ 194  LOC_Os11g13840.1   88.33%    failed      0.00%
+ 195  LOC_Os11g19060.1   67.54%    failed      0.00%
+WARNING: 195 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              83.34%  153 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: LOC_Os04g35510.2 is identical to LOC_Os04g35510.1 but kept for subsequent analysis
+NOTE: LOC_Os01g10504.2 is identical to LOC_Os01g10504.3 but kept for subsequent analysis
+NOTE: LOC_Os01g66290.2 is identical to LOC_Os01g66290.1 but kept for subsequent analysis
+NOTE: LOC_Os06g49840.2 is identical to LOC_Os06g49840.1 but kept for subsequent analysis
+NOTE: LOC_Os12g10540.1 is identical to LOC_Os12g10540.3 but kept for subsequent analysis
+NOTE: LOC_Os07g13170.1 is identical to LOC_Os07g13170.2 but kept for subsequent analysis
+NOTE: LOC_Os02g54160.1 is identical to LOC_Os02g54160.2 but kept for subsequent analysis
+NOTE: LOC_Os09g26420.1 is identical to LOC_Os09g26420.5 but kept for subsequent analysis
+NOTE: LOC_Os06g09390.2 is identical to LOC_Os06g09390.1 but kept for subsequent analysis
+NOTE: LOC_Os05g03040.3 is identical to LOC_Os05g03040.2 but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: LOC_Os12g10540.2 (identical to LOC_Os12g10540.3) is ignored but added at the end
+NOTE: LOC_Os12g10540.4 (identical to LOC_Os12g10540.3) is ignored but added at the end
+NOTE: LOC_Os09g26420.2 (identical to LOC_Os09g26420.5) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.uniqueseq.phy
+
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 888619)...
+CHECKPOINT: 1000 UFBoot trees and 0 UFBootSplits restored
+ERROR: File not found AUTO
+Iteration 40 / LogL: -91650.596 / Time: 0h:14m:38s (0h:36m:25s left)
+Iteration 50 / LogL: -91650.664 / Time: 0h:17m:17s (0h:30m:42s left)
+Log-likelihood cutoff on original alignment: -91730.607
+Iteration 60 / LogL: -91649.615 / Time: 0h:20m:3s (0h:26m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -91648.794
+Iteration 70 / LogL: -91649.444 / Time: 0h:22m:46s (0h:31m:21s left)
+Iteration 80 / LogL: -91656.719 / Time: 0h:25m:13s (0h:27m:8s left)
+UPDATE BEST LOG-LIKELIHOOD: -91648.794
+Iteration 90 / LogL: -91649.735 / Time: 0h:27m:50s (0h:23m:27s left)
+Iteration 100 / LogL: -91652.291 / Time: 0h:30m:12s (0h:19m:49s left)
+Log-likelihood cutoff on original alignment: -91730.607
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -91650.359 / Time: 0h:32m:36s (0h:26m:55s left)
+Iteration 120 / LogL: -91652.695 / Time: 0h:34m:51s (0h:23m:26s left)
+Iteration 130 / LogL: -91654.187 / Time: 0h:37m:17s (0h:20m:14s left)
+Iteration 140 / LogL: -91649.301 / Time: 0h:39m:42s (0h:17m:8s left)
+Iteration 150 / LogL: -91655.918 / Time: 0h:42m:5s (0h:14m:7s left)
+Log-likelihood cutoff on original alignment: -91730.607
+Iteration 160 / LogL: -91650.364 / Time: 0h:44m:32s (0h:11m:12s left)
+TREE SEARCH COMPLETED AFTER 166 ITERATIONS / Time: 0h:45m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -91648.794
+Optimal log-likelihood: -91648.793
+Gamma shape alpha: 2.711
+Parameters optimization took 1 rounds (1.474 sec)
+BEST SCORE FOUND : -91648.793
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.splits.nex
+Total tree length: 126.226
+
+Total number of iterations: 166
+CPU time used for tree search: 5370.738 sec (1h:29m:30s)
+Wall-clock time used for tree search: 2721.675 sec (0h:45m:21s)
+Total CPU time used: 5442.480 sec (1h:30m:42s)
+Total wall-clock time used: 2758.846 sec (0h:45m:58s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.splits.nex...
+192 taxa and 1000 splits.
+Consensus tree written to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.contree
+Reading input trees file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.contree
+Log-likelihood of consensus tree: -91649.342
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.splits.nex
+  Consensus tree:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.contree
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Workflow_Step-by-Step/TASK_1/uploads/Rice_ClustalO_ML.log
+
+Date and Time: Fri Apr  3 06:04:28 2026
