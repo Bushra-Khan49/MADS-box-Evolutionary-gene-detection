@@ -9,17 +9,17 @@ This directory contains the complete species-specific identification and evoluti
 All tasks follow a standardized 5-step analytical protocol: 
 1. **Data Collection** | 2. **BLAST Search** | 3. **HMMER Profiling** | 4. **MSA Alignment** | 5. **Results**
 
-- **[TASK 0: Arabidopsis thaliana](TASK_0)** - Reference model for MADS-box identity (ABCDE).
-- **[TASK 1: Oryza sativa](TASK_1)** - Monocot lineage (Rice).
+- **[Phase 0: Data Preparation](TASK_0)** - Study design, genome sources, and HMM profile collection.
+- **[TASK 1: Arabidopsis thaliana](TASK_1)** - Reference model (TAIR10) for ABCDE floral identity.
 - **[TASK 2: Amborella trichopoda](TASK_2)** - Basal Angiosperm (Ancestral model).
 - **[TASK 3: Nymphaea colorata](TASK_3)** - Basal Angiosperm (Water Lily).
-- **[TASK 4: Brassica rapa](TASK_4)** - Eudicot (Field Mustard).
-- **[TASK 5: Glycine max](TASK_5)** - Legume model (Soybean - massive expansion).
-- **[TASK 6: Medicago truncatula](TASK_6)** - Legume model (Barrel Medic).
-- **[TASK 7: Helianthus annuus](TASK_7)** - Asterid lineage (Sunflower).
+- **[TASK 4: Cinnamomum kanehirae](TASK_4)** - Magnoliid transitional lineage (Stout Camphor).
+- **[TASK 5: Oryza sativa](TASK_5)** - Monocot lineage (Rice - high diversity).
+- **[TASK 6: Glycine max](TASK_6)** - Legume model (Soybean - massive expansion).
+- **[TASK 7: Medicago truncatula](TASK_7)** - Legume model (Barrel Medic).
 - **[TASK 8: Prunus persica](TASK_8)** - Rosid lineage (Peach).
-- **[TASK 9: Piper auritum](TASK_9)** - Magnoliid transitional lineage (Hoja Santa).
-- **[TASK 10: Cinnamomum kanehirae](TASK_10)** - Magnoliid transitional lineage (Stout Camphor).
+- **[TASK 9: Helianthus annuus](TASK_9)** - Asterid lineage (Sunflower).
+- **[TASK 10: Nelumbo nucifera](TASK_10)** - Basal eudicot lineage (Sacred Lotus).
 
 ---
 ---
