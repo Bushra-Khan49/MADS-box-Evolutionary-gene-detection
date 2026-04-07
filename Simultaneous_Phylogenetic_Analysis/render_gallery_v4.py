@@ -53,6 +53,17 @@ def layout(node):
     if not node.is_leaf():
         node.name = ""
 
+def build_title(species, treefile_name):
+    """Build a human-readable title from species + treefile name.
+    e.g. Oryza_sativa_MAFFT_Bayes.treefile -> 'Oryza sativa — MAFFT | Bayesian (aBayes)'"""
+    base = treefile_name.replace(".treefile", "").replace(species + "_", "")
+    # base is now e.g. MAFFT_Bayes, MUSCLE_NJ, ClustalO_Bayes
+    parts = base.split("_")
+    msa = parts[0] if parts else "MSA"
+    method_raw = parts[1] if len(parts) > 1 else ""
+    method_label = "Bayesian (aBayes)" if method_raw == "Bayes" else "Neighbor-Joining (NJ)"
+    return f" {species.replace('_', ' ')} — {msa} | {method_label}"
+
 def draw_tree(species, filepath, out_img):
     try:
         with open(filepath, "r") as f:
@@ -62,6 +73,8 @@ def draw_tree(species, filepath, out_img):
     except Exception as e:
         print(f"Error loading {filepath}: {e}")
         return
+
+    treefile_name = os.path.basename(filepath)
 
     ts = ete3.TreeStyle()
     ts.mode = "c"
@@ -74,7 +87,8 @@ def draw_tree(species, filepath, out_img):
     ts.guiding_lines_color = "#000000"
     ts.guiding_lines_type = 0
 
-    title = ete3.TextFace(f" {species.replace('_',' ')} — Focus-Opacity Circular Tree", fsize=20, bold=True)
+    title_text = build_title(species, treefile_name)
+    title = ete3.TextFace(title_text, fsize=20, bold=True)
     title.margin_bottom = 20
     ts.title.add_face(title, column=0)
 
