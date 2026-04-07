@@ -1,0 +1,299 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO.fa -m JTT+G -B 1000 -T AUTO -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ -redo
+Seed:    994077 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr  7 02:35:51 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO.fa ... Fasta format detected
+Reading fasta file: done in 0.00191307 secs using 80.81% CPU
+Alignment most likely contains protein sequences
+Alignment has 166 sequences with 617 columns, 580 distinct patterns
+401 parsimony-informative, 104 singleton sites, 112 constant sites
+                      Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.98838e-05 secs using 261.4% CPU
+   1  Glyma.16G091300.1.p    61.75%    passed     97.94%
+   2  Glyma.16G200700.1.p    61.75%    passed     23.44%
+   3  Glyma.04G027200.1.p    63.21%    passed     97.10%
+   4  Glyma.04G245500.2.p    70.66%    passed     57.97%
+   5  Glyma.04G159300.1.p    60.45%    passed     99.11%
+   6  Glyma.04G257100.1.p    64.02%    passed     88.94%
+   7  Glyma.17G081200.1.p    61.26%    passed     80.41%
+   8  Glyma.17G132700.5.p    63.86%    passed     33.68%
+   9  Glyma.17G080900.1.p    60.62%    passed     79.92%
+  10  Glyma.20G034000.3.p    43.11%    passed      7.45%
+  11  Glyma.20G154200.3.p    65.32%    passed     53.61%
+  12  Glyma.20G153700.3.p    61.75%    passed     18.93%
+  13  Glyma.20G001900.1.p    60.29%    passed     28.81%
+  14  Glyma.02G216600.13.p   57.54%    passed     75.32%
+  15  Glyma.02G041500.1.p    63.21%    passed     89.68%
+  16  Glyma.02G121500.1.p    60.45%    passed     80.34%
+  17  Glyma.02G185500.3.p    59.97%    passed     76.85%
+  18  Glyma.02G287700.3.p    60.13%    passed     53.51%
+  19  Glyma.02G121600.1.p    60.62%    passed     98.25%
+  20  Glyma.12G005000.1.p    66.94%    passed     38.51%
+  21  Glyma.10G240500.1.p    65.32%    passed     38.85%
+  22  Glyma.10G240900.1.p    62.40%    passed     80.25%
+  23  Glyma.08G068200.8.p    66.45%    passed     61.50%
+  24  Glyma.08G250700.1.p    59.32%    passed     97.54%
+  25  Glyma.08G105400.1.p    69.85%    passed     56.82%
+  26  Glyma.08G120600.1.p    60.62%    passed     33.84%
+  27  Glyma.08G269800.1.p    61.75%    passed     96.24%
+  28  Glyma.08G105500.1.p    60.45%    passed     54.48%
+  29  Glyma.08G310100.1.p    59.97%    passed     79.23%
+  30  Glyma.08G065300.1.p    60.94%    passed     90.92%
+  31  Glyma.08G250800.3.p    59.81%    passed     28.70%
+  32  Glyma.08G065400.2.p    64.18%    passed     97.04%
+  33  Glyma.01G023500.1.p    63.21%    passed     87.03%
+  34  Glyma.01G020500.3.p    63.05%    passed     99.12%
+  35  Glyma.01G064100.1.p    60.13%    passed     71.63%
+  36  Glyma.01G169600.1.p    60.62%    passed      6.67%
+  37  Glyma.01G064200.1.p    60.62%    passed     97.99%
+  38  Glyma.15G059600.2.p    61.26%    passed     93.54%
+  39  Glyma.15G058000.2.p    65.80%    passed     98.44%
+  40  Glyma.15G057900.2.p    66.29%    passed     31.22%
+  41  Glyma.15G088600.1.p    60.62%    passed     78.69%
+  42  Glyma.07G080900.4.p    63.37%    passed     85.17%
+  43  Glyma.07G181600.7.p    62.72%    passed     97.68%
+  44  Glyma.07G081300.1.p    60.29%    passed     98.53%
+  45  Glyma.07G228900.1.p    42.95%    failed      3.52%
+  46  Glyma.11G158812.1.p    60.78%    passed     53.91%
+  47  Glyma.11G252300.1.p    60.62%    passed     61.22%
+  48  Glyma.11G073700.5.p    59.97%    passed     10.66%
+  49  Glyma.09G149000.1.p    60.45%    passed     42.56%
+  50  Glyma.09G231600.4.p    64.51%    passed      6.09%
+  51  Glyma.09G266200.6.p    65.80%    passed     89.32%
+  52  Glyma.09G201700.1.p    64.18%    passed     92.69%
+  53  Glyma.09G283800.3.p    60.13%    passed     83.70%
+  54  Glyma.09G266400.4.p    61.26%    passed     48.95%
+  55  Glyma.13G052700.1.p    59.64%    passed     83.16%
+  56  Glyma.13G257000.7.p    65.96%    passed     60.02%
+  57  Glyma.13G223300.1.p    60.62%    passed     51.76%
+  58  Glyma.13G255200.6.p    60.94%    passed     91.83%
+  59  Glyma.13G086400.1.p    45.87%    failed      0.01%
+  60  Glyma.13G256900.1.p    59.81%    passed     65.30%
+  61  Glyma.13G034100.2.p    66.29%    passed     85.95%
+  62  Glyma.13G052100.1.p    60.45%    passed     14.13%
+  63  Glyma.05G018900.1.p    60.62%    passed     85.25%
+  64  Glyma.05G018800.1.p    60.45%    passed     83.51%
+  65  Glyma.05G050700.1.p    63.21%    passed     44.39%
+  66  Glyma.05G163200.1.p    60.62%    passed     31.35%
+  67  Glyma.05G148700.2.p    67.91%    passed     77.52%
+  68  Glyma.05G148800.1.p    60.45%    passed     60.29%
+  69  Glyma.14G027251.1.p    60.78%    passed     82.37%
+  70  Glyma.14G155100.1.p    66.29%    passed     90.03%
+  71  Glyma.14G183800.2.p    61.26%    passed     94.03%
+  72  Glyma.14G168700.1.p    43.76%    failed      0.01%
+  73  Glyma.06G205800.1.p    60.45%    passed     99.59%
+  74  Glyma.06G095700.1.p    62.07%    passed     10.38%
+  75  Glyma.06G027200.1.p    63.21%    passed     92.60%
+  76  Glyma.06G324400.2.p    64.02%    passed     89.35%
+  77  Glyma.06G117600.1.p    70.66%    passed     62.43%
+  78  Glyma.03G019400.1.p    60.29%    passed     94.24%
+  79  Glyma.03G019300.1.p    61.59%    passed     84.37%
+  80  Glyma.19G034600.1.p    60.45%    passed     44.37%
+  81  Glyma.19G034500.1.p    59.64%    passed     86.19%
+  82  Glyma.18G004700.4.p    60.62%    passed     64.28%
+  83  Glyma.18G224300.2.p    60.62%    passed     75.55%
+  84  Glyma.18G224500.1.p    66.13%    passed     92.35%
+  85  Glyma.18G273500.1.p    58.67%    passed     99.21%
+  86  Glyma.18G105800.1.p    60.13%    passed     82.52%
+  87  Glyma.18G273600.2.p    53.48%    failed      3.70%
+  88  AT5G65080.1            66.77%    passed     43.68%
+  89  AT5G65050.2            71.15%    passed     34.46%
+  90  AT2G03710.3            69.69%    passed     83.70%
+  91  AT5G20240.1            66.29%    passed     10.43%
+  92  AT4G09960.3            58.51%    passed     53.67%
+  93  AT3G58780.1            59.81%    passed     80.60%
+  94  AT5G15800.1            59.32%    passed     24.22%
+  95  AT5G62165.1            65.96%    passed     90.32%
+  96  AT3G58780.2            60.94%    passed     83.38%
+  97  AT5G23260.2            59.16%    failed      4.66%
+  98  AT5G23260.1            59.97%    passed      5.85%
+  99  AT5G65060.1            68.23%    passed     28.08%
+ 100  AT1G24260.3            61.59%    passed     45.07%
+ 101  AT5G65070.1            67.59%    passed     19.94%
+ 102  AT5G10140.2            72.93%    passed     10.08%
+ 103  AT3G57230.1            61.10%    passed     59.82%
+ 104  AT1G77080.5            71.96%    passed     19.87%
+ 105  AT5G51870.1            66.45%    passed     55.18%
+ 106  AT5G62165.3            65.96%    passed     90.32%
+ 107  AT3G58780.3            55.75%    passed     80.76%
+ 108  AT5G65050.3            68.23%    passed     59.52%
+ 109  AT4G09960.4            62.07%    passed     36.62%
+ 110  AT5G65060.2            70.02%    passed     39.56%
+ 111  AT2G03710.1            58.18%    passed     85.06%
+ 112  AT2G22540.1            61.10%    passed     85.07%
+ 113  AT2G03060.2            37.44%    failed      0.05%
+ 114  AT1G77950.1            59.16%    passed     61.57%
+ 115  AT1G77950.2            59.16%    passed     61.57%
+ 116  AT1G24260.2            59.32%    passed     58.59%
+ 117  AT5G23260.3            61.43%    passed      6.08%
+ 118  AT4G37940.1            63.05%    passed     98.63%
+ 119  AT1G26310.1            58.67%    passed     89.30%
+ 120  AT5G51860.1            65.80%    passed     20.17%
+ 121  AT5G62165.4            68.23%    passed     97.35%
+ 122  AT2G14210.1            62.07%    passed     93.81%
+ 123  AT1G59810.1            54.13%    failed      0.01%
+ 124  AT4G09960.2            64.99%    passed     29.21%
+ 125  AT5G51870.3            64.51%    passed     71.00%
+ 126  AT1G71692.1            65.80%    passed     61.03%
+ 127  AT3G02310.1            59.48%    passed     20.76%
+ 128  AT5G65050.1            70.50%    passed     51.93%
+ 129  AT4G09960.1            62.72%    passed     34.06%
+ 130  AT2G42830.1            60.13%    passed     55.53%
+ 131  AT3G57390.1            58.51%    passed     75.95%
+ 132  AT5G10140.3            69.85%    passed     13.75%
+ 133  AT1G22130.1            45.71%    passed     20.83%
+ 134  AT1G77080.4            68.23%    passed     57.14%
+ 135  AT3G54340.1            62.40%    passed     47.58%
+ 136  AT5G65070.3            62.40%    passed     38.64%
+ 137  AT4G18960.1            59.16%    passed     39.21%
+ 138  AT1G69540.1            44.25%    passed     31.26%
+ 139  AT1G31140.1            65.48%    passed     58.80%
+ 140  AT5G10140.4            70.50%    passed     16.66%
+ 141  AT4G22950.1            64.51%    passed     86.39%
+ 142  AT2G03710.2            58.35%    passed     86.12%
+ 143  AT1G77080.2            68.88%    passed     59.93%
+ 144  AT1G31140.2            65.15%    passed     58.19%
+ 145  AT2G42830.2            59.81%    passed     54.07%
+ 146  AT5G13790.1            56.56%    passed     66.86%
+ 147  AT1G77980.1            46.19%    passed     34.25%
+ 148  AT5G60910.1            60.78%    passed     94.94%
+ 149  AT5G65070.2            62.56%    passed     38.03%
+ 150  AT5G10140.1            68.23%    passed     12.48%
+ 151  AT5G15800.2            57.54%    passed     11.07%
+ 152  AT5G65080.2            68.07%    passed     45.25%
+ 153  AT2G45650.1            59.16%    passed     69.28%
+ 154  AT2G22630.1            63.21%    passed     97.59%
+ 155  AT3G30260.1            59.64%    passed     27.46%
+ 156  AT4G11880.1            64.18%    passed     78.75%
+ 157  AT5G51860.2            67.26%    passed     14.63%
+ 158  AT5G62165.2            65.96%    passed     90.32%
+ 159  AT4G24540.1            64.34%    passed      6.93%
+ 160  AT2G45660.1            65.32%    passed     66.72%
+ 161  AT1G24260.1            59.48%    passed     53.49%
+ 162  AT3G57230.2            61.26%    passed     68.00%
+ 163  AT1G69120.1            58.51%    passed     40.93%
+ 164  AT5G51870.2            72.12%    passed     24.96%
+ 165  AT2G22540.2            61.91%    passed     82.55%
+ 166  AT3G61120.1            60.45%    passed     31.69%
+WARNING: 158 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                  61.84%  7 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: AT5G62165.3 is identical to AT5G62165.1 but kept for subsequent analysis
+NOTE: AT1G77950.2 is identical to AT1G77950.1 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AT5G62165.2 (identical to AT5G62165.1) is ignored but added at the end
+Alignment was printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.061 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 994077)...
+
+NOTE: 63 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 10.421 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -74438
+Threads: 2 / Time: 7.078 sec / Speedup: 1.472 / Efficiency: 74% / LogL: -74438
+Threads: 3 / Time: 5.088 sec / Speedup: 2.048 / Efficiency: 68% / LogL: -74438
+Threads: 4 / Time: 4.442 sec / Speedup: 2.346 / Efficiency: 59% / LogL: -74438
+Threads: 5 / Time: 4.267 sec / Speedup: 2.442 / Efficiency: 49% / LogL: -74438
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -40262.152
+2. Current log-likelihood: -38425.256
+3. Current log-likelihood: -38354.070
+4. Current log-likelihood: -38353.179
+Optimal log-likelihood: -38353.174
+Gamma shape alpha: 1.080
+Parameters optimization took 4 rounds (4.558 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 2.62945 secs using 348.1% CPU
+Computing ML distances took 2.629775 sec (of wall-clock time) 9.154624 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000399113 secs using 282.1% CPU
+Computing RapidNJ tree took 0.022938 sec (of wall-clock time) 0.017742 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -38462.237
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.674 second
+Computing log-likelihood of 98 initial trees ... 27.404 seconds
+Current best score: -38353.174
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -38278.845
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -38275.199
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -38275.083
+Iteration 10 / LogL: -38276.761 / Time: 0h:2m:24s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 20: -38274.958
+Iteration 20 / LogL: -38274.958 / Time: 0h:3m:32s
+Finish initializing candidate tree set (20)
+Current best tree score: -38274.958 / CPU time: 171.249
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -38278.399 / Time: 0h:4m:54s (0h:15m:13s left)
+Iteration 40 / LogL: -38275.608 / Time: 0h:6m:13s (0h:12m:45s left)
+Iteration 50 / LogL: -38275.083 / Time: 0h:7m:31s (0h:10m:44s left)
+Log-likelihood cutoff on original alignment: -38332.179
+Iteration 60 / LogL: -38277.294 / Time: 0h:8m:49s (0h:8m:57s left)
+Iteration 70 / LogL: -38277.888 / Time: 0h:10m:7s (0h:7m:19s left)
+Iteration 80 / LogL: -38278.979 / Time: 0h:11m:24s (0h:5m:46s left)
+Iteration 90 / LogL: -38275.452 / Time: 0h:12m:41s (0h:4m:16s left)
+Iteration 100 / LogL: -38283.717 / Time: 0h:13m:54s (0h:2m:48s left)
+Log-likelihood cutoff on original alignment: -38332.179
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -38317.691 / Time: 0h:15m:14s (0h:12m:35s left)
+Iteration 120 / LogL: -38347.142 / Time: 0h:16m:36s (0h:11m:9s left)
+TREE SEARCH COMPLETED AFTER 121 ITERATIONS / Time: 0h:16m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -38274.958
+Optimal log-likelihood: -38274.958
+Gamma shape alpha: 1.082
+Parameters optimization took 1 rounds (0.715 sec)
+BEST SCORE FOUND : -38274.958
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.splits.nex
+Total tree length: 57.402
+
+Total number of iterations: 121
+CPU time used for tree search: 2796.395 sec (0h:46m:36s)
+Wall-clock time used for tree search: 962.179 sec (0h:16m:2s)
+Total CPU time used: 2886.948 sec (0h:48m:6s)
+Total wall-clock time used: 1004.343 sec (0h:16m:44s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.splits.nex...
+165 taxa and 585 splits.
+Consensus tree written to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.contree
+Reading input trees file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.contree
+Log-likelihood of consensus tree: -38275.097
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.splits.nex
+  Consensus tree:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.contree
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Glycine_max/Glycine_max_ClustalO_NJ.log
+
+Date and Time: Tue Apr  7 02:52:38 2026

@@ -1,0 +1,288 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT.fa -m JTT+G -B 1000 -T AUTO -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ -redo
+Seed:    763140 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr  7 04:42:38 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT.fa ... Fasta format detected
+Reading fasta file: done in 0.00180793 secs using 78.38% CPU
+Alignment most likely contains protein sequences
+Alignment has 137 sequences with 692 columns, 661 distinct patterns
+400 parsimony-informative, 170 singleton sites, 122 constant sites
+                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.60691e-05 secs using 244% CPU
+   1  HanXRQChr00c0029g0571181   63.44%    failed      2.34%
+   2  HanXRQChr10g0299591        60.12%    failed      0.87%
+   3  HanXRQChr10g0291191        67.77%    passed     92.57%
+   4  HanXRQChr16g0519321        65.61%    passed     33.67%
+   5  HanXRQChr16g0501741        66.91%    passed     97.67%
+   6  HanXRQChr16g0523531        68.50%    passed     72.23%
+   7  HanXRQChr16g0501381        66.91%    passed     97.67%
+   8  HanXRQChr16g0507561        65.90%    passed     82.20%
+   9  HanXRQChr16g0530971        67.92%    passed      6.43%
+  10  HanXRQChr16g0503081        67.20%    passed     90.63%
+  11  HanXRQChr07g0200001        65.90%    passed     77.54%
+  12  HanXRQChr07g0200321        63.44%    passed     83.25%
+  13  HanXRQChr04g0122131        68.93%    passed     35.83%
+  14  HanXRQChr04g0110101        65.75%    passed     98.92%
+  15  HanXRQChr09g0266391        59.54%    passed     75.02%
+  16  HanXRQChr09g0270311        56.94%    passed     98.51%
+  17  HanXRQChr09g0267081        71.10%    passed     20.26%
+  18  HanXRQChr09g0269421        66.91%    passed     93.16%
+  19  HanXRQChr09g0270841        67.05%    passed     86.38%
+  20  HanXRQChr09g0262151        71.24%    passed     77.24%
+  21  HanXRQChr09g0265001        64.02%    passed     48.86%
+  22  HanXRQChr09g0273361        70.38%    passed     68.84%
+  23  HanXRQChr05g0151331        66.04%    passed     86.66%
+  24  HanXRQChr05g0150661        67.05%    passed     60.12%
+  25  HanXRQChr05g0163521        65.17%    passed     94.32%
+  26  HanXRQChr05g0150571        48.99%    failed      0.07%
+  27  HanXRQChr05g0154261        65.90%    passed     88.12%
+  28  HanXRQChr05g0149341        63.73%    failed      1.19%
+  29  HanXRQChr05g0147261        61.71%    passed     53.33%
+  30  HanXRQChr05g0156101        36.85%    failed      0.01%
+  31  HanXRQChr05g0163381        53.18%    failed      3.90%
+  32  HanXRQChr13g0405061        67.05%    passed     80.07%
+  33  HanXRQChr12g0364981        63.73%    passed     96.34%
+  34  HanXRQChr12g0358711        63.29%    passed     61.93%
+  35  HanXRQChr12g0375471        69.51%    passed     78.61%
+  36  HanXRQChr12g0361321        64.16%    passed     83.13%
+  37  HanXRQChr12g0358781        71.68%    passed     65.72%
+  38  HanXRQChr12g0358721        70.23%    passed     86.67%
+  39  HanXRQChr14g0452461        66.62%    passed     50.23%
+  40  HanXRQChr01g0015681        62.28%    passed     91.86%
+  41  HanXRQChr01g0007431        57.51%    passed     41.42%
+  42  HanXRQChr17g0538691        69.36%    passed     42.72%
+  43  HanXRQChr17g0550551        73.99%    passed     20.95%
+  44  HanXRQChr17g0560051        68.79%    passed     59.61%
+  45  HanXRQChr06g0174721        64.45%    passed     70.28%
+  46  HanXRQChr06g0169281        70.38%    passed     19.69%
+  47  HanXRQChr03g0091451        53.47%    passed      7.34%
+  48  HanXRQChr15g0483111        57.51%    passed     11.18%
+  49  HanXRQChr15g0474011        77.89%    passed     96.68%
+  50  HanXRQChr15g0489071        63.87%    passed     83.37%
+  51  HanXRQChr15g0484901        66.33%    passed     19.63%
+  52  HanXRQChr15g0495861        67.63%    passed     77.68%
+  53  HanXRQChr02g0043891        62.43%    failed      4.40%
+  54  HanXRQChr02g0045511        71.68%    passed     48.26%
+  55  HanXRQChr02g0040221        72.25%    passed     44.15%
+  56  HanXRQChr02g0042981        64.16%    passed     45.75%
+  57  HanXRQChr08g0223671        76.01%    passed     63.95%
+  58  HanXRQChr08g0223681        64.16%    passed     98.74%
+  59  AT5G65080.1                70.38%    passed     44.43%
+  60  AT5G65050.2                74.28%    passed     34.72%
+  61  AT2G03710.3                72.98%    passed     84.12%
+  62  AT5G20240.1                69.94%    passed     14.97%
+  63  AT4G09960.3                63.01%    passed     52.35%
+  64  AT3G58780.1                64.16%    passed     79.30%
+  65  AT5G15800.1                63.73%    passed     23.90%
+  66  AT5G62165.1                69.65%    passed     86.88%
+  67  AT3G58780.2                65.17%    passed     82.18%
+  68  AT5G23260.2                63.58%    failed      4.00%
+  69  AT5G23260.1                64.31%    passed      5.08%
+  70  AT5G65060.1                71.68%    passed     29.76%
+  71  AT1G24260.3                65.75%    passed     39.63%
+  72  AT5G65070.1                71.10%    passed     21.34%
+  73  AT5G10140.2                75.87%    passed     10.03%
+  74  AT3G57230.1                65.32%    passed     61.97%
+  75  AT1G77080.5                75.00%    passed     20.23%
+  76  AT5G51870.1                70.09%    passed     56.43%
+  77  AT5G62165.3                69.65%    passed     86.88%
+  78  AT3G58780.3                60.55%    passed     81.41%
+  79  AT5G65050.3                71.68%    passed     59.36%
+  80  AT4G09960.4                66.18%    passed     36.19%
+  81  AT5G65060.2                73.27%    passed     40.86%
+  82  AT2G03710.1                62.72%    passed     82.40%
+  83  AT2G22540.1                65.32%    passed     81.41%
+  84  AT2G03060.2                44.22%    failed      0.05%
+  85  AT1G77950.1                63.58%    passed     61.17%
+  86  AT1G77950.2                63.58%    passed     61.17%
+  87  AT1G24260.2                63.73%    passed     52.48%
+  88  AT5G23260.3                65.61%    passed      5.75%
+  89  AT4G37940.1                67.05%    passed     97.87%
+  90  AT1G26310.1                63.15%    passed     90.50%
+  91  AT5G51860.1                69.51%    passed     24.30%
+  92  AT5G62165.4                71.68%    passed     96.60%
+  93  AT2G14210.1                66.18%    passed     91.71%
+  94  AT1G59810.1                59.10%    failed      0.04%
+  95  AT4G09960.2                68.79%    passed     29.65%
+  96  AT5G51870.3                68.35%    passed     70.50%
+  97  AT1G71692.1                69.51%    passed     64.29%
+  98  AT3G02310.1                63.87%    passed     21.25%
+  99  AT5G65050.1                73.70%    passed     53.45%
+ 100  AT4G09960.1                66.76%    passed     34.10%
+ 101  AT2G42830.1                64.45%    passed     54.32%
+ 102  AT3G57390.1                63.01%    passed     74.67%
+ 103  AT5G10140.3                73.12%    passed     14.23%
+ 104  AT1G22130.1                51.59%    passed     24.49%
+ 105  AT1G77080.4                71.68%    passed     58.32%
+ 106  AT3G54340.1                66.47%    passed     56.56%
+ 107  AT5G65070.3                66.47%    passed     39.91%
+ 108  AT4G18960.1                63.58%    passed     34.78%
+ 109  AT1G69540.1                50.29%    passed     38.86%
+ 110  AT1G31140.1                69.22%    passed     66.16%
+ 111  AT5G10140.4                73.70%    passed     18.38%
+ 112  AT4G22950.1                68.35%    passed     81.98%
+ 113  AT2G03710.2                62.86%    passed     83.64%
+ 114  AT1G77080.2                72.25%    passed     59.18%
+ 115  AT1G31140.2                68.93%    passed     65.32%
+ 116  AT2G42830.2                64.16%    passed     53.35%
+ 117  AT5G13790.1                61.27%    passed     58.66%
+ 118  AT1G77980.1                52.02%    passed     39.32%
+ 119  AT5G60910.1                65.03%    passed     94.23%
+ 120  AT5G65070.2                66.62%    passed     39.11%
+ 121  AT5G10140.1                71.68%    passed     13.71%
+ 122  AT5G15800.2                62.14%    passed     12.45%
+ 123  AT5G65080.2                71.53%    passed     47.15%
+ 124  AT2G45650.1                63.58%    passed     69.99%
+ 125  AT2G22630.1                67.20%    passed     97.57%
+ 126  AT3G30260.1                64.02%    passed     25.53%
+ 127  AT4G11880.1                68.06%    passed     78.43%
+ 128  AT5G51860.2                70.81%    passed     17.03%
+ 129  AT5G62165.2                69.65%    passed     86.88%
+ 130  AT4G24540.1                68.21%    passed      6.63%
+ 131  AT2G45660.1                69.08%    passed     65.36%
+ 132  AT1G24260.1                63.87%    passed     47.25%
+ 133  AT3G57230.2                65.46%    passed     73.73%
+ 134  AT1G69120.1                63.01%    passed     44.93%
+ 135  AT5G51870.2                75.14%    passed     30.33%
+ 136  AT2G22540.2                66.04%    passed     79.54%
+ 137  AT3G61120.1                64.74%    passed     30.70%
+WARNING: 134 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                      65.94%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: HanXRQChr16g0501381 is identical to HanXRQChr16g0501741 but kept for subsequent analysis
+NOTE: AT5G62165.3 is identical to AT5G62165.1 but kept for subsequent analysis
+NOTE: AT1G77950.2 is identical to AT1G77950.1 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AT5G62165.2 (identical to AT5G62165.1) is ignored but added at the end
+Alignment was printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.036 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 763140)...
+
+NOTE: 59 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 14.587 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -62465
+Threads: 2 / Time: 9.371 sec / Speedup: 1.557 / Efficiency: 78% / LogL: -62465
+Threads: 3 / Time: 6.397 sec / Speedup: 2.280 / Efficiency: 76% / LogL: -62465
+Threads: 4 / Time: 5.795 sec / Speedup: 2.517 / Efficiency: 63% / LogL: -62465
+Threads: 5 / Time: 5.815 sec / Speedup: 2.509 / Efficiency: 50% / LogL: -62465
+Threads: 6 / Time: 5.883 sec / Speedup: 2.480 / Efficiency: 41% / LogL: -62465
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -39641.880
+2. Current log-likelihood: -37331.539
+3. Current log-likelihood: -37239.312
+4. Current log-likelihood: -37228.622
+5. Current log-likelihood: -37227.274
+6. Current log-likelihood: -37227.098
+Optimal log-likelihood: -37227.067
+Gamma shape alpha: 0.939
+Parameters optimization took 6 rounds (7.226 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.35277 secs using 395.6% CPU
+Computing ML distances took 1.353006 sec (of wall-clock time) 5.352063 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000280857 secs using 254.2% CPU
+Computing RapidNJ tree took 0.012218 sec (of wall-clock time) 0.010499 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -37286.043
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4.571 second
+Computing log-likelihood of 98 initial trees ... 23.584 seconds
+Current best score: -37227.067
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -37124.487
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -37115.523
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -37108.655
+Iteration 10 / LogL: -37109.699 / Time: 0h:2m:40s
+Iteration 20 / LogL: -37112.421 / Time: 0h:4m:0s
+Finish initializing candidate tree set (19)
+Current best tree score: -37108.655 / CPU time: 181.840
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -37107.943
+Iteration 30 / LogL: -37109.419 / Time: 0h:5m:10s (0h:16m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -37107.196
+Iteration 40 / LogL: -37123.806 / Time: 0h:6m:22s (0h:15m:20s left)
+Iteration 50 / LogL: -37110.556 / Time: 0h:7m:29s (0h:12m:49s left)
+Log-likelihood cutoff on original alignment: -37159.831
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -37107.176
+Iteration 60 / LogL: -37107.543 / Time: 0h:8m:37s (0h:13m:44s left)
+Iteration 70 / LogL: -37107.176 / Time: 0h:9m:47s (0h:11m:54s left)
+UPDATE BEST LOG-LIKELIHOOD: -37107.176
+Iteration 80 / LogL: -37112.291 / Time: 0h:10m:57s (0h:10m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 86: -37107.151
+Iteration 90 / LogL: -37116.641 / Time: 0h:12m:9s (0h:13m:6s left)
+Iteration 100 / LogL: -37108.620 / Time: 0h:13m:19s (0h:11m:34s left)
+Log-likelihood cutoff on original alignment: -37159.831
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -37111.572 / Time: 0h:14m:30s (0h:11m:58s left)
+Iteration 120 / LogL: -37114.947 / Time: 0h:15m:36s (0h:10m:29s left)
+Iteration 130 / LogL: -37108.843 / Time: 0h:16m:47s (0h:9m:6s left)
+Iteration 140 / LogL: -37108.211 / Time: 0h:17m:55s (0h:7m:44s left)
+Iteration 150 / LogL: -37107.176 / Time: 0h:19m:3s (0h:6m:23s left)
+Log-likelihood cutoff on original alignment: -37159.831
+Iteration 160 / LogL: -37108.439 / Time: 0h:20m:18s (0h:5m:6s left)
+Iteration 170 / LogL: -37107.177 / Time: 0h:21m:29s (0h:3m:48s left)
+Iteration 180 / LogL: -37107.543 / Time: 0h:22m:38s (0h:2m:31s left)
+TREE SEARCH COMPLETED AFTER 187 ITERATIONS / Time: 0h:23m:26s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -37107.151
+Optimal log-likelihood: -37107.151
+Gamma shape alpha: 0.948
+Parameters optimization took 1 rounds (0.652 sec)
+BEST SCORE FOUND : -37107.151
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.splits.nex
+Total tree length: 67.411
+
+Total number of iterations: 187
+CPU time used for tree search: 3942.082 sec (1h:5m:42s)
+Wall-clock time used for tree search: 1348.480 sec (0h:22m:28s)
+Total CPU time used: 4077.103 sec (1h:7m:57s)
+Total wall-clock time used: 1407.619 sec (0h:23m:27s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.splits.nex...
+136 taxa and 608 splits.
+Consensus tree written to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.contree
+Reading input trees file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.contree
+Log-likelihood of consensus tree: -37107.390
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.splits.nex
+  Consensus tree:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.contree
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Helianthus_annuuss/Helianthus_annuuss_MAFFT_NJ.log
+
+Date and Time: Tue Apr  7 05:06:09 2026

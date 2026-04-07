@@ -1,0 +1,107 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Helianthus_annuuss_MAFFT.fa -m LG -n 0 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Helianthus_annuuss_MAFFT_NJ -redo
+Seed:    253382 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 11:54:09 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Helianthus_annuuss_MAFFT.fa ... Fasta format detected
+Reading fasta file: done in 0.00207901 secs using 93.79% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0010252 secs using 77.64% CPU
+Alignment has 58 sequences with 613 columns, 560 distinct patterns
+319 parsimony-informative, 156 singleton sites, 138 constant sites
+                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.98566e-05 secs using 81.6% CPU
+   1  HanXRQChr00c0029g0571181   58.73%    failed      3.06%
+   2  HanXRQChr10g0299591        54.98%    failed      0.60%
+   3  HanXRQChr10g0291191        63.62%    passed     92.15%
+   4  HanXRQChr16g0519321        61.17%    passed     42.91%
+   5  HanXRQChr16g0501741        62.64%    passed     98.07%
+   6  HanXRQChr16g0523531        64.44%    passed     71.83%
+   7  HanXRQChr16g0501381        62.64%    passed     98.07%
+   8  HanXRQChr16g0507561        61.50%    passed     79.57%
+   9  HanXRQChr16g0530971        63.78%    passed      9.33%
+  10  HanXRQChr16g0503081        62.97%    passed     83.62%
+  11  HanXRQChr07g0200001        61.50%    passed     76.38%
+  12  HanXRQChr07g0200321        58.73%    passed     89.51%
+  13  HanXRQChr04g0122131        64.93%    passed     28.00%
+  14  HanXRQChr04g0110101        61.34%    passed     98.29%
+  15  HanXRQChr09g0266391        54.32%    passed     85.63%
+  16  HanXRQChr09g0270311        51.39%    passed     98.69%
+  17  HanXRQChr09g0267081        67.37%    passed     27.77%
+  18  HanXRQChr09g0269421        62.64%    passed     93.27%
+  19  HanXRQChr09g0270841        62.81%    passed     79.79%
+  20  HanXRQChr09g0262151        67.54%    passed     74.22%
+  21  HanXRQChr09g0265001        59.38%    passed     59.60%
+  22  HanXRQChr09g0273361        66.56%    passed     62.23%
+  23  HanXRQChr05g0151331        61.66%    passed     86.58%
+  24  HanXRQChr05g0150661        62.81%    passed     66.36%
+  25  HanXRQChr05g0163521        60.69%    passed     92.87%
+  26  HanXRQChr05g0150571        42.41%    failed      0.19%
+  27  HanXRQChr05g0154261        61.50%    passed     86.72%
+  28  HanXRQChr05g0149341        59.05%    failed      1.85%
+  29  HanXRQChr05g0147261        56.77%    passed     59.41%
+  30  HanXRQChr05g0156101        28.71%    failed      0.02%
+  31  HanXRQChr05g0163381        47.15%    passed      5.93%
+  32  HanXRQChr13g0405061        62.81%    passed     65.51%
+  33  HanXRQChr12g0364981        59.05%    passed     98.00%
+  34  HanXRQChr12g0358711        58.56%    passed     71.80%
+  35  HanXRQChr12g0375471        65.58%    passed     73.15%
+  36  HanXRQChr12g0361321        59.54%    passed     86.73%
+  37  HanXRQChr12g0358781        68.03%    passed     72.40%
+  38  HanXRQChr12g0358721        66.39%    passed     85.92%
+  39  HanXRQChr14g0452461        62.32%    passed     57.05%
+  40  HanXRQChr01g0015681        57.42%    passed     89.54%
+  41  HanXRQChr01g0007431        52.04%    passed     42.61%
+  42  HanXRQChr17g0538691        65.42%    passed     42.56%
+  43  HanXRQChr17g0550551        70.64%    passed     17.66%
+  44  HanXRQChr17g0560051        64.76%    passed     59.30%
+  45  HanXRQChr06g0174721        59.87%    passed     80.22%
+  46  HanXRQChr06g0169281        66.56%    passed     16.09%
+  47  HanXRQChr03g0091451        47.47%    passed     14.59%
+  48  HanXRQChr15g0483111        52.04%    passed     19.87%
+  49  HanXRQChr15g0474011        75.04%    passed     94.34%
+  50  HanXRQChr15g0489071        59.22%    passed     88.50%
+  51  HanXRQChr15g0484901        61.99%    passed     16.01%
+  52  HanXRQChr15g0495861        63.46%    passed     58.94%
+  53  HanXRQChr02g0043891        57.59%    passed      9.46%
+  54  HanXRQChr02g0045511        68.03%    passed     52.27%
+  55  HanXRQChr02g0040221        68.68%    passed     48.21%
+  56  HanXRQChr02g0042981        59.54%    passed     60.64%
+  57  HanXRQChr08g0223671        72.92%    passed     57.68%
+  58  HanXRQChr08g0223681        59.54%    passed     99.57%
+WARNING: 54 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                      60.69%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: HanXRQChr16g0501381 is identical to HanXRQChr16g0501741 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000191212 secs using 83.15% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -23160.147
+Optimal log-likelihood: -21214.220
+Parameters optimization took 1 rounds (0.129 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -21214.220
+Total tree length: 23.742
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.153 sec (0h:0m:0s)
+Total wall-clock time used: 0.156 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Helianthus_annuuss_MAFFT_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Helianthus_annuuss_MAFFT_NJ.treefile
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Helianthus_annuuss_MAFFT_NJ.log
+
+Date and Time: Sun Apr  5 11:54:09 2026

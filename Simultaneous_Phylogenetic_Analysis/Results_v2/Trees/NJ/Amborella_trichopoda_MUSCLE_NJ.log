@@ -1,0 +1,90 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Amborella_trichopoda_MUSCLE.fa -m LG -n 0 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Amborella_trichopoda_MUSCLE_NJ -redo
+Seed:    781243 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 12:18:21 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Amborella_trichopoda_MUSCLE.fa ... Fasta format detected
+Reading fasta file: done in 0.00159192 secs using 93.22% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000786066 secs using 77.98% CPU
+Alignment has 28 sequences with 701 columns, 405 distinct patterns
+223 parsimony-informative, 63 singleton sites, 415 constant sites
+WARNING: Some sequence names are changed as follows:
+AT4G36920.1|APETALA2|AP2|Length=432 -> AT4G36920.1|APETALA2|AP2|Length_432
+AT1G69120.1|APETALA1|AP1|Length=286 -> AT1G69120.1|APETALA1|AP1|Length_286
+AT3G58780.4|SHATTERPROOF1|SHP1|Length=281 -> AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
+AT2G42830.2|SHATTERPROOF2|SHP2|Length=248 -> AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
+AT4G18960.1|AGAMOUS|AG|Length=252 -> AT4G18960.1|AGAMOUS|AG|Length_252
+AT4G09960.4|SEEDSTICK|STK|Length=329 -> AT4G09960.4|SEEDSTICK|STK|Length_329
+AT1G24260.2|SEPALLATA3|SEP3|Length=251 -> AT1G24260.2|SEPALLATA3|SEP3|Length_251
+AT2G03710.1|SEPALLATA4|SEP4|Length=258 -> AT2G03710.1|SEPALLATA4|SEP4|Length_258
+AT5G15800.2|SEPALLATA1|SEP1|Length=262 -> AT5G15800.2|SEPALLATA1|SEP1|Length_262
+AT3G02310.1|SEPALLATA2|SEP2|Length=250 -> AT3G02310.1|SEPALLATA2|SEP2|Length_250
+AT3G54340.1|APETALA3|AP3|Length=232 -> AT3G54340.1|APETALA3|AP3|Length_232
+AT5G20240.1|PISTILLATA|PI|Length=208 -> AT5G20240.1|PISTILLATA|PI|Length_208
+
+                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.09944e-05 secs using 80.66% CPU
+   1  AT4G36920.1|APETALA2|AP2|Length_432         38.37%    failed      0.00%
+   2  evm_27.model.AmTr_v1.0_scaffold00095.150    67.48%    failed      4.11%
+   3  evm_27.model.AmTr_v1.0_scaffold00047.105    65.48%    passed     19.37%
+   4  AT1G69120.1|APETALA1|AP1|Length_286         63.48%    passed     56.46%
+   5  evm_27.model.AmTr_v1.0_scaffold00046.134    68.33%    passed     97.11%
+   6  AT3G58780.4|SHATTERPROOF1|SHP1|Length_281   59.91%    passed     45.33%
+   7  AT2G42830.2|SHATTERPROOF2|SHP2|Length_248   64.62%    passed     56.39%
+   8  AT4G18960.1|AGAMOUS|AG|Length_252           64.05%    passed     50.92%
+   9  AT4G09960.4|SEEDSTICK|STK|Length_329        53.07%    passed     11.62%
+  10  evm_27.model.AmTr_v1.0_scaffold00071.203    68.33%    passed     77.73%
+  11  evm_27.model.AmTr_v1.0_scaffold00021.296    66.62%    passed     97.06%
+  12  evm_27.model.AmTr_v1.0_scaffold00127.17     68.76%    passed     39.93%
+  13  AT1G24260.2|SEPALLATA3|SEP3|Length_251      64.19%    passed     79.32%
+  14  evm_27.model.AmTr_v1.0_scaffold00013.60     75.46%    passed     85.89%
+  15  evm_27.model.AmTr_v1.0_scaffold00053.185    73.18%    passed     22.23%
+  16  AT2G03710.1|SEPALLATA4|SEP4|Length_258      63.20%    passed     95.91%
+  17  evm_27.model.AmTr_v1.0_scaffold00001.413    67.33%    passed     88.95%
+  18  evm_27.model.AmTr_v1.0_scaffold00013.53     65.62%    passed     96.93%
+  19  evm_27.model.AmTr_v1.0_scaffold00047.121    65.34%    passed     86.72%
+  20  AT5G15800.2|SEPALLATA1|SEP1|Length_262      62.62%    passed     47.41%
+  21  AT3G02310.1|SEPALLATA2|SEP2|Length_250      64.34%    passed     53.84%
+  22  AT3G54340.1|APETALA3|AP3|Length_232         66.90%    passed     53.10%
+  23  evm_27.model.AmTr_v1.0_scaffold00001.409    68.19%    passed     68.13%
+  24  evm_27.model.AmTr_v1.0_scaffold00001.225    67.19%    passed     43.74%
+  25  evm_27.model.AmTr_v1.0_scaffold00066.97     68.62%    passed     40.31%
+  26  evm_27.model.AmTr_v1.0_scaffold00089.36     69.76%    passed     98.77%
+  27  evm_27.model.AmTr_v1.0_scaffold00001.461    67.05%    passed     87.68%
+  28  AT5G20240.1|PISTILLATA|PI|Length_208        70.33%    passed     10.33%
+WARNING: 27 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                       65.28%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 7.70092e-05 secs using 81.81% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -14194.535
+Optimal log-likelihood: -12562.580
+Parameters optimization took 1 rounds (0.061 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -12562.580
+Total tree length: 16.959
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.071 sec (0h:0m:0s)
+Total wall-clock time used: 0.075 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Amborella_trichopoda_MUSCLE_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Amborella_trichopoda_MUSCLE_NJ.treefile
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Amborella_trichopoda_MUSCLE_NJ.log
+
+Date and Time: Sun Apr  5 12:18:21 2026

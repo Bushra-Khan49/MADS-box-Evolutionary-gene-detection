@@ -1,0 +1,192 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Cinnamomum_kanehirae_MUSCLE.fa -fast -alrt 1000 -abayes -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Cinnamomum_kanehirae_MUSCLE_Bayes -redo
+Seed:    475776 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 09:51:29 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Cinnamomum_kanehirae_MUSCLE.fa ... Fasta format detected
+Reading fasta file: done in 0.00178909 secs using 93.57% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00100589 secs using 77.94% CPU
+Alignment has 31 sequences with 876 columns, 515 distinct patterns
+223 parsimony-informative, 132 singleton sites, 521 constant sites
+Analyzing sequences: done in 3.09944e-05 secs using 93.57% CPU
+WARNING: 30 sequences contain more than 50% gaps/ambiguity
+Checking for duplicate sequences: done in 9.08375e-05 secs using 83.67% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.00 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.00)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.526444 secs using 99.85% CPU
+Estimate model parameters (epsilon = 1.00)
+1. Initial log-likelihood: -13010.63
+2. Current log-likelihood: -13008.84
+Optimal log-likelihood: -13007.87
+Proportion of invariable sites: 0.03
+Gamma shape alpha: 1.10
+Parameters optimization took 2 rounds (0.25 sec)
+Time for fast ML tree search: 1.84 seconds
+
+NOTE: ModelFinder requires 25 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 876) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            13459.817    59  27037.634    27046.310    27319.380
+  2  LG+I          13383.875    60  26887.749    26896.731    27174.271
+  3  LG+G4         13011.161    60  26142.322    26151.303    26428.844
+  4  LG+I+G4       13006.820    61  26135.640    26144.932    26426.937
+  5  LG+R2         13072.799    61  26267.598    26276.890    26558.895
+  6  LG+R3         13005.047    63  26136.095    26146.026    26436.943
+  7  LG+R4         12992.911    65  26115.823    26126.415    26426.221
+  8  LG+R5         12990.484    67  26114.968    26126.245    26434.917
+ 14  LG+I+R2       12766.656    62  25657.311    25666.920    25953.384
+ 15  LG+I+R3       12736.459    64  25600.919    25611.178    25906.542
+ 16  LG+I+R4       12705.847    66  25543.693    25554.625    25858.868
+ 17  LG+I+R5       12705.439    68  25546.877    25558.506    25871.602
+ 38  LG+F+I+R4     12668.052    85  25506.105    25524.611    25912.011
+ 60  WAG+I+R4      12748.263    66  25628.526    25639.458    25943.700
+ 82  WAG+F+I+R4    12706.054    85  25582.108    25600.615    25988.015
+104  JTT+I+R4      12657.726    66  25447.452    25458.384    25762.626
+126  JTT+F+I+R4    12612.500    85  25395.000    25413.506    25800.906
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+148  Q.pfam+I+R4   12708.367    66  25548.734    25559.666    25863.909
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+170  Q.pfam+F+I+R4 12655.518    85  25481.036    25499.542    25886.942
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+192  Q.bird+I+R4   12717.634    66  25567.268    25578.200    25882.443
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+214  Q.bird+F+I+R4 12683.621    85  25537.241    25555.748    25943.147
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+236  Q.mammal+I+R4 12678.179    66  25488.358    25499.291    25803.533
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+258  Q.mammal+F+I+R4 12634.983    85  25439.966    25458.473    25845.873
+280  Q.insect+I+R4 12623.045    66  25378.089    25389.021    25693.263
+302  Q.insect+F+I+R4 12570.378    85  25310.756    25329.262    25716.662
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+324  Q.plant+I+R4  12677.350    66  25486.699    25497.631    25801.873
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+346  Q.plant+F+I+R4 12617.495    85  25404.991    25423.497    25810.897
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+368  Q.yeast+I+R4  12705.063    66  25542.127    25553.059    25857.301
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+390  Q.yeast+F+I+R4 12610.474    85  25390.948    25409.454    25796.854
+412  JTTDCMut+I+R4 12660.158    66  25452.316    25463.248    25767.490
+434  JTTDCMut+F+I+R4 12614.507    85  25399.014    25417.520    25804.920
+456  DCMut+I+R4    12812.854    66  25757.709    25768.641    26072.883
+478  DCMut+F+I+R4  12704.785    85  25579.570    25598.076    25985.476
+500  VT+I+R4       12698.811    66  25529.621    25540.553    25844.795
+522  VT+F+I+R4     12672.007    85  25514.013    25532.519    25919.919
+544  PMB+I+R4      12807.297    66  25746.595    25757.527    26061.769
+566  PMB+F+I+R4    12775.694    85  25721.388    25739.894    26127.294
+588  Blosum62+I+R4 12817.404    66  25766.809    25777.741    26081.983
+610  Blosum62+F+I+R4 12787.853    85  25745.706    25764.212    26151.612
+632  Dayhoff+I+R4  12812.881    66  25757.761    25768.693    26072.935
+654  Dayhoff+F+I+R4 12704.889    85  25579.778    25598.284    25985.684
+676  mtREV+I+R4    13253.226    66  26638.452    26649.384    26953.626
+698  mtREV+F+I+R4  12792.320    85  25754.640    25773.146    26160.546
+720  mtART+I+R4    13358.053    66  26848.105    26859.037    27163.279
+742  mtART+F+I+R4  12829.319    85  25828.638    25847.145    26234.545
+764  mtZOA+I+R4    13155.453    66  26442.907    26453.839    26758.081
+786  mtZOA+F+I+R4  12739.998    85  25649.995    25668.502    26055.901
+808  mtMet+I+R4    13214.090    66  26560.180    26571.112    26875.354
+830  mtMet+F+I+R4  12701.402    85  25572.804    25591.310    25978.710
+852  mtVer+I+R4    13270.324    66  26672.648    26683.580    26987.822
+874  mtVer+F+I+R4  12807.707    85  25785.415    25803.921    26191.321
+896  mtInv+I+R4    13340.105    66  26812.211    26823.143    27127.385
+918  mtInv+F+I+R4  12668.266    85  25506.533    25525.039    25912.439
+940  mtMAM+I+R4    13383.499    66  26898.998    26909.930    27214.172
+962  mtMAM+F+I+R4  12892.529    85  25955.057    25973.563    26360.963
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+984  FLAVI+I+R4    12983.989    66  26099.979    26110.911    26415.153
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+1006  FLAVI+F+I+R4  12842.795    85  25855.591    25874.097    26261.497
+1028  HIVb+I+R4     12833.472    66  25798.943    25809.875    26114.117
+1050  HIVb+F+I+R4   12762.301    85  25694.601    25713.108    26100.508
+1072  HIVw+I+R4     13234.589    66  26601.177    26612.109    26916.352
+1094  HIVw+F+I+R4   12996.255    85  26162.510    26181.016    26568.416
+1116  FLU+I+R4      12889.667    66  25911.333    25922.265    26226.507
+1138  FLU+F+I+R4    12816.074    85  25802.148    25820.654    26208.054
+1160  rtREV+I+R4    12779.073    66  25690.147    25701.079    26005.321
+1182  rtREV+F+I+R4  12688.805    85  25547.611    25566.117    25953.517
+1204  cpREV+I+R4    12818.398    66  25768.796    25779.728    26083.970
+1226  cpREV+F+I+R4  12785.983    85  25741.967    25760.473    26147.873
+Akaike Information Criterion:           Q.insect+F+I+R4
+Corrected Akaike Information Criterion: Q.insect+F+I+R4
+Bayesian Information Criterion:         Q.insect+I+R4
+Best-fit model: Q.insect+I+R4 chosen according to BIC
+
+All model information printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Cinnamomum_kanehirae_MUSCLE_Bayes.model.gz
+CPU time for ModelFinder: 259.752 seconds (0h:4m:19s)
+Wall-clock time for ModelFinder: 260.089 seconds (0h:4m:20s)
+
+NOTE: 10 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -12623.045
+Optimal log-likelihood: -12623.024
+Proportion of invariable sites: 0.595
+Site proportion and rates:  (0.091,0.088) (0.172,0.309) (0.320,0.782) (0.417,1.651)
+Parameters optimization took 1 rounds (0.774 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.164552 secs using 99.9% CPU
+Computing ML distances took 0.164667 sec (of wall-clock time) 0.164478 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 7.10487e-05 secs using 70.37% CPU
+Constructing RapidNJ tree: done in 0.000128031 secs using 130.4% CPU
+Computing RapidNJ tree took 0.000251 sec (of wall-clock time) 0.000257 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -12676.144
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.313644 secs using 99.93% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -12621.866
+Optimizing NNI: done in 1.12254 secs using 99.91% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -12617.808
+Finish initializing candidate tree set (4)
+Current best tree score: -12617.808 / CPU time: 3.130
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -12617.808
+2. Current log-likelihood: -12617.750
+Optimal log-likelihood: -12617.741
+Proportion of invariable sites: 0.595
+Site proportion and rates:  (0.081,0.080) (0.166,0.293) (0.328,0.758) (0.425,1.638)
+Parameters optimization took 2 rounds (1.694 sec)
+BEST SCORE FOUND : -12617.741
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+0.577 sec.
+Total tree length: 30.068
+
+Total number of iterations: 2
+CPU time used for tree search: 3.126 sec (0h:0m:3s)
+Wall-clock time used for tree search: 3.131 sec (0h:0m:3s)
+Total CPU time used: 7.269 sec (0h:0m:7s)
+Total wall-clock time used: 7.088 sec (0h:0m:7s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Cinnamomum_kanehirae_MUSCLE_Bayes.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Cinnamomum_kanehirae_MUSCLE_Bayes.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Cinnamomum_kanehirae_MUSCLE_Bayes.mldist
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Cinnamomum_kanehirae_MUSCLE_Bayes.log
+
+Date and Time: Sun Apr  5 09:55:56 2026

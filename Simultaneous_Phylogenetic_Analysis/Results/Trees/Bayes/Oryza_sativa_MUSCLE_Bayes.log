@@ -1,0 +1,881 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Oryza_sativa_MUSCLE.fa -fast -alrt 1000 -abayes -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Oryza_sativa_MUSCLE_Bayes -redo
+Seed:    863629 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 08:49:00 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Oryza_sativa_MUSCLE.fa ... Fasta format detected
+Reading fasta file: done in 0.0468512 secs using 91.83% CPU
+NOTE: Change sequence name 'LOC_Os02g39990.1 pacid=33136244 transcript=LOC_Os02g39990.1 locus=LOC_Os02g39990 ID=LOC_Os02g39990.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g39990.1_pacid=33136244_transcript=LOC_Os02g39990.1_locus=LOC_Os02g39990
+NOTE: Change sequence name 'LOC_Os04g51180.2 pacid=33111173 transcript=LOC_Os04g51180.2 locus=LOC_Os04g51180 ID=LOC_Os04g51180.2.MSUv7.0 annot-version=v7.0' -> LOC_Os04g51180.2_pacid=33111173_transcript=LOC_Os04g51180.2_locus=LOC_Os04g51180
+NOTE: Change sequence name 'LOC_Os01g15540.1 pacid=33122644 transcript=LOC_Os01g15540.1 locus=LOC_Os01g15540 ID=LOC_Os01g15540.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g15540.1_pacid=33122644_transcript=LOC_Os01g15540.1_locus=LOC_Os01g15540
+NOTE: Change sequence name 'LOC_Os04g35510.1 pacid=33111445 transcript=LOC_Os04g35510.1 locus=LOC_Os04g35510 ID=LOC_Os04g35510.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g35510.1_pacid=33111445_transcript=LOC_Os04g35510.1_locus=LOC_Os04g35510
+NOTE: Change sequence name 'LOC_Os04g35510.2 pacid=33111446 transcript=LOC_Os04g35510.2 locus=LOC_Os04g35510 ID=LOC_Os04g35510.2.MSUv7.0 annot-version=v7.0' -> LOC_Os04g35510.2_pacid=33111446_transcript=LOC_Os04g35510.2_locus=LOC_Os04g35510
+NOTE: Change sequence name 'LOC_Os05g19470.5 pacid=33156880 transcript=LOC_Os05g19470.5 locus=LOC_Os05g19470 ID=LOC_Os05g19470.5.MSUv7.0 annot-version=v7.0' -> LOC_Os05g19470.5_pacid=33156880_transcript=LOC_Os05g19470.5_locus=LOC_Os05g19470
+NOTE: Change sequence name 'LOC_Os08g14640.1 pacid=33104194 transcript=LOC_Os08g14640.1 locus=LOC_Os08g14640 ID=LOC_Os08g14640.1.MSUv7.0 annot-version=v7.0' -> LOC_Os08g14640.1_pacid=33104194_transcript=LOC_Os08g14640.1_locus=LOC_Os08g14640
+NOTE: Change sequence name 'LOC_Os08g14640.2 pacid=33104195 transcript=LOC_Os08g14640.2 locus=LOC_Os08g14640 ID=LOC_Os08g14640.2.MSUv7.0 annot-version=v7.0' -> LOC_Os08g14640.2_pacid=33104195_transcript=LOC_Os08g14640.2_locus=LOC_Os08g14640
+NOTE: Change sequence name 'LOC_Os02g07340.1 pacid=33136471 transcript=LOC_Os02g07340.1 locus=LOC_Os02g07340 ID=LOC_Os02g07340.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g07340.1_pacid=33136471_transcript=LOC_Os02g07340.1_locus=LOC_Os02g07340
+NOTE: Change sequence name 'LOC_Os03g19900.1 pacid=33128397 transcript=LOC_Os03g19900.1 locus=LOC_Os03g19900 ID=LOC_Os03g19900.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g19900.1_pacid=33128397_transcript=LOC_Os03g19900.1_locus=LOC_Os03g19900
+NOTE: Change sequence name 'LOC_Os01g11510.1 pacid=33124622 transcript=LOC_Os01g11510.1 locus=LOC_Os01g11510 ID=LOC_Os01g11510.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g11510.1_pacid=33124622_transcript=LOC_Os01g11510.1_locus=LOC_Os01g11510
+NOTE: Change sequence name 'LOC_Os01g11510.1 pacid=33124622 transcript=LOC_Os01g11510.1 locus=LOC_Os01g11510 ID=LOC_Os01g11510.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g11510.1_pacid=33124622_transcript=LOC_Os01g11510.1_locus=LOC_Os01g11510
+NOTE: Change sequence name 'LOC_Os01g68420.1 pacid=33120012 transcript=LOC_Os01g68420.1 locus=LOC_Os01g68420 ID=LOC_Os01g68420.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g68420.1_pacid=33120012_transcript=LOC_Os01g68420.1_locus=LOC_Os01g68420
+NOTE: Change sequence name 'LOC_Os01g23780.1 pacid=33121393 transcript=LOC_Os01g23780.1 locus=LOC_Os01g23780 ID=LOC_Os01g23780.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g23780.1_pacid=33121393_transcript=LOC_Os01g23780.1_locus=LOC_Os01g23780
+NOTE: Change sequence name 'LOC_Os01g67890.1 pacid=33121253 transcript=LOC_Os01g67890.1 locus=LOC_Os01g67890 ID=LOC_Os01g67890.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g67890.1_pacid=33121253_transcript=LOC_Os01g67890.1_locus=LOC_Os01g67890
+NOTE: Change sequence name 'LOC_Os07g04170.1 pacid=33114516 transcript=LOC_Os07g04170.1 locus=LOC_Os07g04170 ID=LOC_Os07g04170.1.MSUv7.0 annot-version=v7.0' -> LOC_Os07g04170.1_pacid=33114516_transcript=LOC_Os07g04170.1_locus=LOC_Os07g04170
+NOTE: Change sequence name 'LOC_Os07g04170.1 pacid=33114516 transcript=LOC_Os07g04170.1 locus=LOC_Os07g04170 ID=LOC_Os07g04170.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os07g04170.1_pacid=33114516_transcript=LOC_Os07g04170.1_locus=LOC_Os07g04170
+NOTE: Change sequence name 'LOC_Os04g38780.1 pacid=33112272 transcript=LOC_Os04g38780.1 locus=LOC_Os04g38780 ID=LOC_Os04g38780.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g38780.1_pacid=33112272_transcript=LOC_Os04g38780.1_locus=LOC_Os04g38780
+NOTE: Change sequence name 'LOC_Os04g38780.1 pacid=33112272 transcript=LOC_Os04g38780.1 locus=LOC_Os04g38780 ID=LOC_Os04g38780.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os04g38780.1_pacid=33112272_transcript=LOC_Os04g38780.1_locus=LOC_Os04g38780
+NOTE: Change sequence name 'LOC_Os03g37670.1 pacid=33133133 transcript=LOC_Os03g37670.1 locus=LOC_Os03g37670 ID=LOC_Os03g37670.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g37670.1_pacid=33133133_transcript=LOC_Os03g37670.1_locus=LOC_Os03g37670
+NOTE: Change sequence name 'LOC_Os01g18440.1 pacid=33125437 transcript=LOC_Os01g18440.1 locus=LOC_Os01g18440 ID=LOC_Os01g18440.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g18440.1_pacid=33125437_transcript=LOC_Os01g18440.1_locus=LOC_Os01g18440
+NOTE: Change sequence name 'LOC_Os01g18440.1 pacid=33125437 transcript=LOC_Os01g18440.1 locus=LOC_Os01g18440 ID=LOC_Os01g18440.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g18440.1_pacid=33125437_transcript=LOC_Os01g18440.1_locus=LOC_Os01g18440
+NOTE: Change sequence name 'LOC_Os01g18420.1 pacid=33120120 transcript=LOC_Os01g18420.1 locus=LOC_Os01g18420 ID=LOC_Os01g18420.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g18420.1_pacid=33120120_transcript=LOC_Os01g18420.1_locus=LOC_Os01g18420
+NOTE: Change sequence name 'LOC_Os01g18420.1 pacid=33120120 transcript=LOC_Os01g18420.1 locus=LOC_Os01g18420 ID=LOC_Os01g18420.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g18420.1_pacid=33120120_transcript=LOC_Os01g18420.1_locus=LOC_Os01g18420
+NOTE: Change sequence name 'LOC_Os03g38610.1 pacid=33131796 transcript=LOC_Os03g38610.1 locus=LOC_Os03g38610 ID=LOC_Os03g38610.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g38610.1_pacid=33131796_transcript=LOC_Os03g38610.1_locus=LOC_Os03g38610
+NOTE: Change sequence name 'LOC_Os03g38610.1 pacid=33131796 transcript=LOC_Os03g38610.1 locus=LOC_Os03g38610 ID=LOC_Os03g38610.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os03g38610.1_pacid=33131796_transcript=LOC_Os03g38610.1_locus=LOC_Os03g38610
+NOTE: Change sequence name 'LOC_Os04g25930.1 pacid=33111578 transcript=LOC_Os04g25930.1 locus=LOC_Os04g25930 ID=LOC_Os04g25930.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g25930.1_pacid=33111578_transcript=LOC_Os04g25930.1_locus=LOC_Os04g25930
+NOTE: Change sequence name 'LOC_Os04g25870.1 pacid=33108449 transcript=LOC_Os04g25870.1 locus=LOC_Os04g25870 ID=LOC_Os04g25870.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g25870.1_pacid=33108449_transcript=LOC_Os04g25870.1_locus=LOC_Os04g25870
+NOTE: Change sequence name 'LOC_Os04g24810.1 pacid=33112071 transcript=LOC_Os04g24810.1 locus=LOC_Os04g24810 ID=LOC_Os04g24810.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g24810.1_pacid=33112071_transcript=LOC_Os04g24810.1_locus=LOC_Os04g24810
+NOTE: Change sequence name 'LOC_Os04g24800.1 pacid=33113211 transcript=LOC_Os04g24800.1 locus=LOC_Os04g24800 ID=LOC_Os04g24800.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g24800.1_pacid=33113211_transcript=LOC_Os04g24800.1_locus=LOC_Os04g24800
+NOTE: Change sequence name 'LOC_Os04g24790.1 pacid=33110516 transcript=LOC_Os04g24790.1 locus=LOC_Os04g24790 ID=LOC_Os04g24790.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g24790.1_pacid=33110516_transcript=LOC_Os04g24790.1_locus=LOC_Os04g24790
+NOTE: Change sequence name 'LOC_Os04g25920.1 pacid=33112902 transcript=LOC_Os04g25920.1 locus=LOC_Os04g25920 ID=LOC_Os04g25920.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g25920.1_pacid=33112902_transcript=LOC_Os04g25920.1_locus=LOC_Os04g25920
+NOTE: Change sequence name 'LOC_Os01g68560.1 pacid=33125490 transcript=LOC_Os01g68560.1 locus=LOC_Os01g68560 ID=LOC_Os01g68560.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g68560.1_pacid=33125490_transcript=LOC_Os01g68560.1_locus=LOC_Os01g68560
+NOTE: Change sequence name 'LOC_Os01g68560.1 pacid=33125490 transcript=LOC_Os01g68560.1 locus=LOC_Os01g68560 ID=LOC_Os01g68560.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g68560.1_pacid=33125490_transcript=LOC_Os01g68560.1_locus=LOC_Os01g68560
+NOTE: Change sequence name 'LOC_Os01g23750.1 pacid=33120960 transcript=LOC_Os01g23750.1 locus=LOC_Os01g23750 ID=LOC_Os01g23750.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g23750.1_pacid=33120960_transcript=LOC_Os01g23750.1_locus=LOC_Os01g23750
+NOTE: Change sequence name 'LOC_Os11g43740.1 pacid=33163547 transcript=LOC_Os11g43740.1 locus=LOC_Os11g43740 ID=LOC_Os11g43740.1.MSUv7.0 annot-version=v7.0' -> LOC_Os11g43740.1_pacid=33163547_transcript=LOC_Os11g43740.1_locus=LOC_Os11g43740
+NOTE: Change sequence name 'LOC_Os11g43740.1 pacid=33163547 transcript=LOC_Os11g43740.1 locus=LOC_Os11g43740 ID=LOC_Os11g43740.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os11g43740.1_pacid=33163547_transcript=LOC_Os11g43740.1_locus=LOC_Os11g43740
+NOTE: Change sequence name 'LOC_Os11g43740.1 pacid=33163547 transcript=LOC_Os11g43740.1 locus=LOC_Os11g43740 ID=LOC_Os11g43740.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os11g43740.1_pacid=33163547_transcript=LOC_Os11g43740.1_locus=LOC_Os11g43740
+NOTE: Change sequence name 'LOC_Os06g22760.1 pacid=33147005 transcript=LOC_Os06g22760.1 locus=LOC_Os06g22760 ID=LOC_Os06g22760.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g22760.1_pacid=33147005_transcript=LOC_Os06g22760.1_locus=LOC_Os06g22760
+NOTE: Change sequence name 'LOC_Os06g22760.1 pacid=33147005 transcript=LOC_Os06g22760.1 locus=LOC_Os06g22760 ID=LOC_Os06g22760.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g22760.1_pacid=33147005_transcript=LOC_Os06g22760.1_locus=LOC_Os06g22760
+NOTE: Change sequence name 'LOC_Os05g23780.1 pacid=33158793 transcript=LOC_Os05g23780.1 locus=LOC_Os05g23780 ID=LOC_Os05g23780.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g23780.1_pacid=33158793_transcript=LOC_Os05g23780.1_locus=LOC_Os05g23780
+NOTE: Change sequence name 'LOC_Os05g23780.1 pacid=33158793 transcript=LOC_Os05g23780.1 locus=LOC_Os05g23780 ID=LOC_Os05g23780.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os05g23780.1_pacid=33158793_transcript=LOC_Os05g23780.1_locus=LOC_Os05g23780
+NOTE: Change sequence name 'LOC_Os01g23760.1 pacid=33123492 transcript=LOC_Os01g23760.1 locus=LOC_Os01g23760 ID=LOC_Os01g23760.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g23760.1_pacid=33123492_transcript=LOC_Os01g23760.1_locus=LOC_Os01g23760
+NOTE: Change sequence name 'LOC_Os01g23760.1 pacid=33123492 transcript=LOC_Os01g23760.1 locus=LOC_Os01g23760 ID=LOC_Os01g23760.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g23760.1_pacid=33123492_transcript=LOC_Os01g23760.1_locus=LOC_Os01g23760
+NOTE: Change sequence name 'LOC_Os02g06860.1 pacid=33140095 transcript=LOC_Os02g06860.1 locus=LOC_Os02g06860 ID=LOC_Os02g06860.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g06860.1_pacid=33140095_transcript=LOC_Os02g06860.1_locus=LOC_Os02g06860
+NOTE: Change sequence name 'LOC_Os02g06860.1 pacid=33140095 transcript=LOC_Os02g06860.1 locus=LOC_Os02g06860 ID=LOC_Os02g06860.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g06860.1_pacid=33140095_transcript=LOC_Os02g06860.1_locus=LOC_Os02g06860
+NOTE: Change sequence name 'LOC_Os08g07520.1 pacid=33103787 transcript=LOC_Os08g07520.1 locus=LOC_Os08g07520 ID=LOC_Os08g07520.1.MSUv7.0 annot-version=v7.0' -> LOC_Os08g07520.1_pacid=33103787_transcript=LOC_Os08g07520.1_locus=LOC_Os08g07520
+NOTE: Change sequence name 'LOC_Os06g23980.1 pacid=33146326 transcript=LOC_Os06g23980.1 locus=LOC_Os06g23980 ID=LOC_Os06g23980.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g23980.1_pacid=33146326_transcript=LOC_Os06g23980.1_locus=LOC_Os06g23980
+NOTE: Change sequence name 'LOC_Os06g23980.1 pacid=33146326 transcript=LOC_Os06g23980.1 locus=LOC_Os06g23980 ID=LOC_Os06g23980.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g23980.1_pacid=33146326_transcript=LOC_Os06g23980.1_locus=LOC_Os06g23980
+NOTE: Change sequence name 'LOC_Os03g03070.1 pacid=33130968 transcript=LOC_Os03g03070.1 locus=LOC_Os03g03070 ID=LOC_Os03g03070.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g03070.1_pacid=33130968_transcript=LOC_Os03g03070.1_locus=LOC_Os03g03070
+NOTE: Change sequence name 'LOC_Os03g03070.1 pacid=33130968 transcript=LOC_Os03g03070.1 locus=LOC_Os03g03070 ID=LOC_Os03g03070.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os03g03070.1_pacid=33130968_transcript=LOC_Os03g03070.1_locus=LOC_Os03g03070
+NOTE: Change sequence name 'LOC_Os01g23770.1 pacid=33121235 transcript=LOC_Os01g23770.1 locus=LOC_Os01g23770 ID=LOC_Os01g23770.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g23770.1_pacid=33121235_transcript=LOC_Os01g23770.1_locus=LOC_Os01g23770
+NOTE: Change sequence name 'LOC_Os04g31804.1 pacid=33107627 transcript=LOC_Os04g31804.1 locus=LOC_Os04g31804 ID=LOC_Os04g31804.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g31804.1_pacid=33107627_transcript=LOC_Os04g31804.1_locus=LOC_Os04g31804
+NOTE: Change sequence name 'LOC_Os04g31804.1 pacid=33107627 transcript=LOC_Os04g31804.1 locus=LOC_Os04g31804 ID=LOC_Os04g31804.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os04g31804.1_pacid=33107627_transcript=LOC_Os04g31804.1_locus=LOC_Os04g31804
+NOTE: Change sequence name 'LOC_Os04g31804.1 pacid=33107627 transcript=LOC_Os04g31804.1 locus=LOC_Os04g31804 ID=LOC_Os04g31804.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os04g31804.1_pacid=33107627_transcript=LOC_Os04g31804.1_locus=LOC_Os04g31804
+NOTE: Change sequence name 'LOC_Os04g31790.1 pacid=33110021 transcript=LOC_Os04g31790.1 locus=LOC_Os04g31790 ID=LOC_Os04g31790.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g31790.1_pacid=33110021_transcript=LOC_Os04g31790.1_locus=LOC_Os04g31790
+NOTE: Change sequence name 'LOC_Os03g14850.1 pacid=33132626 transcript=LOC_Os03g14850.1 locus=LOC_Os03g14850 ID=LOC_Os03g14850.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g14850.1_pacid=33132626_transcript=LOC_Os03g14850.1_locus=LOC_Os03g14850
+NOTE: Change sequence name 'LOC_Os06g11970.1 pacid=33144614 transcript=LOC_Os06g11970.1 locus=LOC_Os06g11970 ID=LOC_Os06g11970.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g11970.1_pacid=33144614_transcript=LOC_Os06g11970.1_locus=LOC_Os06g11970
+NOTE: Change sequence name 'LOC_Os06g11970.1 pacid=33144614 transcript=LOC_Os06g11970.1 locus=LOC_Os06g11970 ID=LOC_Os06g11970.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g11970.1_pacid=33144614_transcript=LOC_Os06g11970.1_locus=LOC_Os06g11970
+NOTE: Change sequence name 'LOC_Os09g02780.1 pacid=33141055 transcript=LOC_Os09g02780.1 locus=LOC_Os09g02780 ID=LOC_Os09g02780.1.MSUv7.0 annot-version=v7.0' -> LOC_Os09g02780.1_pacid=33141055_transcript=LOC_Os09g02780.1_locus=LOC_Os09g02780
+NOTE: Change sequence name 'LOC_Os01g74440.1 pacid=33121567 transcript=LOC_Os01g74440.1 locus=LOC_Os01g74440 ID=LOC_Os01g74440.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g74440.1_pacid=33121567_transcript=LOC_Os01g74440.1_locus=LOC_Os01g74440
+NOTE: Change sequence name 'LOC_Os01g74440.1 pacid=33121567 transcript=LOC_Os01g74440.1 locus=LOC_Os01g74440 ID=LOC_Os01g74440.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g74440.1_pacid=33121567_transcript=LOC_Os01g74440.1_locus=LOC_Os01g74440
+NOTE: Change sequence name 'LOC_Os09g02830.1 pacid=33142791 transcript=LOC_Os09g02830.1 locus=LOC_Os09g02830 ID=LOC_Os09g02830.1.MSUv7.0 annot-version=v7.0' -> LOC_Os09g02830.1_pacid=33142791_transcript=LOC_Os09g02830.1_locus=LOC_Os09g02830
+NOTE: Change sequence name 'LOC_Os09g02830.1 pacid=33142791 transcript=LOC_Os09g02830.1 locus=LOC_Os09g02830 ID=LOC_Os09g02830.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os09g02830.1_pacid=33142791_transcript=LOC_Os09g02830.1_locus=LOC_Os09g02830
+NOTE: Change sequence name 'LOC_Os01g69850.1 pacid=33121340 transcript=LOC_Os01g69850.1 locus=LOC_Os01g69850 ID=LOC_Os01g69850.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g69850.1_pacid=33121340_transcript=LOC_Os01g69850.1_locus=LOC_Os01g69850
+NOTE: Change sequence name 'LOC_Os01g69850.1 pacid=33121340 transcript=LOC_Os01g69850.1 locus=LOC_Os01g69850 ID=LOC_Os01g69850.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g69850.1_pacid=33121340_transcript=LOC_Os01g69850.1_locus=LOC_Os01g69850
+NOTE: Change sequence name 'LOC_Os06g30830.1 pacid=33144999 transcript=LOC_Os06g30830.1 locus=LOC_Os06g30830 ID=LOC_Os06g30830.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g30830.1_pacid=33144999_transcript=LOC_Os06g30830.1_locus=LOC_Os06g30830
+NOTE: Change sequence name 'LOC_Os06g30830.1 pacid=33144999 transcript=LOC_Os06g30830.1 locus=LOC_Os06g30830 ID=LOC_Os06g30830.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g30830.1_pacid=33144999_transcript=LOC_Os06g30830.1_locus=LOC_Os06g30830
+NOTE: Change sequence name 'LOC_Os06g49840.1 pacid=33145766 transcript=LOC_Os06g49840.1 locus=LOC_Os06g49840 ID=LOC_Os06g49840.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g49840.1_pacid=33145766_transcript=LOC_Os06g49840.1_locus=LOC_Os06g49840
+NOTE: Change sequence name 'LOC_Os06g49840.1 pacid=33145766 transcript=LOC_Os06g49840.1 locus=LOC_Os06g49840 ID=LOC_Os06g49840.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g49840.1_pacid=33145766_transcript=LOC_Os06g49840.1_locus=LOC_Os06g49840
+NOTE: Change sequence name 'LOC_Os06g49840.2 pacid=33145767 transcript=LOC_Os06g49840.2 locus=LOC_Os06g49840 ID=LOC_Os06g49840.2.MSUv7.0 annot-version=v7.0' -> LOC_Os06g49840.2_pacid=33145767_transcript=LOC_Os06g49840.2_locus=LOC_Os06g49840
+NOTE: Change sequence name 'LOC_Os06g49840.2 pacid=33145767 transcript=LOC_Os06g49840.2 locus=LOC_Os06g49840 ID=LOC_Os06g49840.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g49840.2_pacid=33145767_transcript=LOC_Os06g49840.2_locus=LOC_Os06g49840
+NOTE: Change sequence name 'LOC_Os06g49840.1 pacid=33145766 transcript=LOC_Os06g49840.1 locus=LOC_Os06g49840 ID=LOC_Os06g49840.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os06g49840.1_pacid=33145766_transcript=LOC_Os06g49840.1_locus=LOC_Os06g49840
+NOTE: Change sequence name 'LOC_Os06g49840.2 pacid=33145767 transcript=LOC_Os06g49840.2 locus=LOC_Os06g49840 ID=LOC_Os06g49840.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os06g49840.2_pacid=33145767_transcript=LOC_Os06g49840.2_locus=LOC_Os06g49840
+NOTE: Change sequence name 'LOC_Os06g30810.1 pacid=33146678 transcript=LOC_Os06g30810.1 locus=LOC_Os06g30810 ID=LOC_Os06g30810.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g30810.1_pacid=33146678_transcript=LOC_Os06g30810.1_locus=LOC_Os06g30810
+NOTE: Change sequence name 'LOC_Os06g30810.1 pacid=33146678 transcript=LOC_Os06g30810.1 locus=LOC_Os06g30810 ID=LOC_Os06g30810.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g30810.1_pacid=33146678_transcript=LOC_Os06g30810.1_locus=LOC_Os06g30810
+NOTE: Change sequence name 'LOC_Os04g38770.1 pacid=33109898 transcript=LOC_Os04g38770.1 locus=LOC_Os04g38770 ID=LOC_Os04g38770.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g38770.1_pacid=33109898_transcript=LOC_Os04g38770.1_locus=LOC_Os04g38770
+NOTE: Change sequence name 'LOC_Os04g38770.1 pacid=33109898 transcript=LOC_Os04g38770.1 locus=LOC_Os04g38770 ID=LOC_Os04g38770.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os04g38770.1_pacid=33109898_transcript=LOC_Os04g38770.1_locus=LOC_Os04g38770
+NOTE: Change sequence name 'LOC_Os12g21850.1 pacid=33151746 transcript=LOC_Os12g21850.1 locus=LOC_Os12g21850 ID=LOC_Os12g21850.1.MSUv7.0 annot-version=v7.0' -> LOC_Os12g21850.1_pacid=33151746_transcript=LOC_Os12g21850.1_locus=LOC_Os12g21850
+NOTE: Change sequence name 'LOC_Os12g21850.1 pacid=33151746 transcript=LOC_Os12g21850.1 locus=LOC_Os12g21850 ID=LOC_Os12g21850.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g21850.1_pacid=33151746_transcript=LOC_Os12g21850.1_locus=LOC_Os12g21850
+NOTE: Change sequence name 'LOC_Os08g38590.1 pacid=33102888 transcript=LOC_Os08g38590.1 locus=LOC_Os08g38590 ID=LOC_Os08g38590.1.MSUv7.0 annot-version=v7.0' -> LOC_Os08g38590.1_pacid=33102888_transcript=LOC_Os08g38590.1_locus=LOC_Os08g38590
+NOTE: Change sequence name 'LOC_Os08g38590.1 pacid=33102888 transcript=LOC_Os08g38590.1 locus=LOC_Os08g38590 ID=LOC_Os08g38590.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os08g38590.1_pacid=33102888_transcript=LOC_Os08g38590.1_locus=LOC_Os08g38590
+NOTE: Change sequence name 'LOC_Os08g41960.1 pacid=33105356 transcript=LOC_Os08g41960.1 locus=LOC_Os08g41960 ID=LOC_Os08g41960.1.MSUv7.0 annot-version=v7.0' -> LOC_Os08g41960.1_pacid=33105356_transcript=LOC_Os08g41960.1_locus=LOC_Os08g41960
+NOTE: Change sequence name 'LOC_Os08g41960.1 pacid=33105356 transcript=LOC_Os08g41960.1 locus=LOC_Os08g41960 ID=LOC_Os08g41960.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os08g41960.1_pacid=33105356_transcript=LOC_Os08g41960.1_locus=LOC_Os08g41960
+NOTE: Change sequence name 'LOC_Os08g41960.1 pacid=33105356 transcript=LOC_Os08g41960.1 locus=LOC_Os08g41960 ID=LOC_Os08g41960.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os08g41960.1_pacid=33105356_transcript=LOC_Os08g41960.1_locus=LOC_Os08g41960
+NOTE: Change sequence name 'LOC_Os05g34940.3 pacid=33156105 transcript=LOC_Os05g34940.3 locus=LOC_Os05g34940 ID=LOC_Os05g34940.3.MSUv7.0 annot-version=v7.0' -> LOC_Os05g34940.3_pacid=33156105_transcript=LOC_Os05g34940.3_locus=LOC_Os05g34940
+NOTE: Change sequence name 'LOC_Os05g34940.3 pacid=33156105 transcript=LOC_Os05g34940.3 locus=LOC_Os05g34940 ID=LOC_Os05g34940.3.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os05g34940.3_pacid=33156105_transcript=LOC_Os05g34940.3_locus=LOC_Os05g34940
+NOTE: Change sequence name 'LOC_Os05g34940.3 pacid=33156105 transcript=LOC_Os05g34940.3 locus=LOC_Os05g34940 ID=LOC_Os05g34940.3.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os05g34940.3_pacid=33156105_transcript=LOC_Os05g34940.3_locus=LOC_Os05g34940
+NOTE: Change sequence name 'LOC_Os01g66030.2 pacid=33124264 transcript=LOC_Os01g66030.2 locus=LOC_Os01g66030 ID=LOC_Os01g66030.2.MSUv7.0 annot-version=v7.0' -> LOC_Os01g66030.2_pacid=33124264_transcript=LOC_Os01g66030.2_locus=LOC_Os01g66030
+NOTE: Change sequence name 'LOC_Os01g66030.2 pacid=33124264 transcript=LOC_Os01g66030.2 locus=LOC_Os01g66030 ID=LOC_Os01g66030.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g66030.2_pacid=33124264_transcript=LOC_Os01g66030.2_locus=LOC_Os01g66030
+NOTE: Change sequence name 'LOC_Os01g66030.2 pacid=33124264 transcript=LOC_Os01g66030.2 locus=LOC_Os01g66030 ID=LOC_Os01g66030.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os01g66030.2_pacid=33124264_transcript=LOC_Os01g66030.2_locus=LOC_Os01g66030
+NOTE: Change sequence name 'LOC_Os01g66030.1 pacid=33124263 transcript=LOC_Os01g66030.1 locus=LOC_Os01g66030 ID=LOC_Os01g66030.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g66030.1_pacid=33124263_transcript=LOC_Os01g66030.1_locus=LOC_Os01g66030
+NOTE: Change sequence name 'LOC_Os01g66030.1 pacid=33124263 transcript=LOC_Os01g66030.1 locus=LOC_Os01g66030 ID=LOC_Os01g66030.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g66030.1_pacid=33124263_transcript=LOC_Os01g66030.1_locus=LOC_Os01g66030
+NOTE: Change sequence name 'LOC_Os01g66030.1 pacid=33124263 transcript=LOC_Os01g66030.1 locus=LOC_Os01g66030 ID=LOC_Os01g66030.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os01g66030.1_pacid=33124263_transcript=LOC_Os01g66030.1_locus=LOC_Os01g66030
+NOTE: Change sequence name 'LOC_Os05g34940.1 pacid=33156103 transcript=LOC_Os05g34940.1 locus=LOC_Os05g34940 ID=LOC_Os05g34940.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g34940.1_pacid=33156103_transcript=LOC_Os05g34940.1_locus=LOC_Os05g34940
+NOTE: Change sequence name 'LOC_Os05g34940.1 pacid=33156103 transcript=LOC_Os05g34940.1 locus=LOC_Os05g34940 ID=LOC_Os05g34940.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os05g34940.1_pacid=33156103_transcript=LOC_Os05g34940.1_locus=LOC_Os05g34940
+NOTE: Change sequence name 'LOC_Os05g34940.1 pacid=33156103 transcript=LOC_Os05g34940.1 locus=LOC_Os05g34940 ID=LOC_Os05g34940.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os05g34940.1_pacid=33156103_transcript=LOC_Os05g34940.1_locus=LOC_Os05g34940
+NOTE: Change sequence name 'LOC_Os05g34940.2 pacid=33156104 transcript=LOC_Os05g34940.2 locus=LOC_Os05g34940 ID=LOC_Os05g34940.2.MSUv7.0 annot-version=v7.0' -> LOC_Os05g34940.2_pacid=33156104_transcript=LOC_Os05g34940.2_locus=LOC_Os05g34940
+NOTE: Change sequence name 'LOC_Os05g34940.2 pacid=33156104 transcript=LOC_Os05g34940.2 locus=LOC_Os05g34940 ID=LOC_Os05g34940.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os05g34940.2_pacid=33156104_transcript=LOC_Os05g34940.2_locus=LOC_Os05g34940
+NOTE: Change sequence name 'LOC_Os05g34940.2 pacid=33156104 transcript=LOC_Os05g34940.2 locus=LOC_Os05g34940 ID=LOC_Os05g34940.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os05g34940.2_pacid=33156104_transcript=LOC_Os05g34940.2_locus=LOC_Os05g34940
+NOTE: Change sequence name 'LOC_Os04g52410.2 pacid=33113035 transcript=LOC_Os04g52410.2 locus=LOC_Os04g52410 ID=LOC_Os04g52410.2.MSUv7.0 annot-version=v7.0' -> LOC_Os04g52410.2_pacid=33113035_transcript=LOC_Os04g52410.2_locus=LOC_Os04g52410
+NOTE: Change sequence name 'LOC_Os04g52410.2 pacid=33113035 transcript=LOC_Os04g52410.2 locus=LOC_Os04g52410 ID=LOC_Os04g52410.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os04g52410.2_pacid=33113035_transcript=LOC_Os04g52410.2_locus=LOC_Os04g52410
+NOTE: Change sequence name 'LOC_Os04g52410.2 pacid=33113035 transcript=LOC_Os04g52410.2 locus=LOC_Os04g52410 ID=LOC_Os04g52410.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os04g52410.2_pacid=33113035_transcript=LOC_Os04g52410.2_locus=LOC_Os04g52410
+NOTE: Change sequence name 'LOC_Os04g52410.1 pacid=33113036 transcript=LOC_Os04g52410.1 locus=LOC_Os04g52410 ID=LOC_Os04g52410.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g52410.1_pacid=33113036_transcript=LOC_Os04g52410.1_locus=LOC_Os04g52410
+NOTE: Change sequence name 'LOC_Os04g52410.1 pacid=33113036 transcript=LOC_Os04g52410.1 locus=LOC_Os04g52410 ID=LOC_Os04g52410.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os04g52410.1_pacid=33113036_transcript=LOC_Os04g52410.1_locus=LOC_Os04g52410
+NOTE: Change sequence name 'LOC_Os04g52410.1 pacid=33113036 transcript=LOC_Os04g52410.1 locus=LOC_Os04g52410 ID=LOC_Os04g52410.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os04g52410.1_pacid=33113036_transcript=LOC_Os04g52410.1_locus=LOC_Os04g52410
+NOTE: Change sequence name 'LOC_Os01g52680.1 pacid=33120775 transcript=LOC_Os01g52680.1 locus=LOC_Os01g52680 ID=LOC_Os01g52680.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g52680.1_pacid=33120775_transcript=LOC_Os01g52680.1_locus=LOC_Os01g52680
+NOTE: Change sequence name 'LOC_Os01g52680.1 pacid=33120775 transcript=LOC_Os01g52680.1 locus=LOC_Os01g52680 ID=LOC_Os01g52680.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g52680.1_pacid=33120775_transcript=LOC_Os01g52680.1_locus=LOC_Os01g52680
+NOTE: Change sequence name 'LOC_Os01g52680.1 pacid=33120775 transcript=LOC_Os01g52680.1 locus=LOC_Os01g52680 ID=LOC_Os01g52680.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os01g52680.1_pacid=33120775_transcript=LOC_Os01g52680.1_locus=LOC_Os01g52680
+NOTE: Change sequence name 'LOC_Os12g21880.1 pacid=33150817 transcript=LOC_Os12g21880.1 locus=LOC_Os12g21880 ID=LOC_Os12g21880.1.MSUv7.0 annot-version=v7.0' -> LOC_Os12g21880.1_pacid=33150817_transcript=LOC_Os12g21880.1_locus=LOC_Os12g21880
+NOTE: Change sequence name 'LOC_Os12g21880.1 pacid=33150817 transcript=LOC_Os12g21880.1 locus=LOC_Os12g21880 ID=LOC_Os12g21880.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g21880.1_pacid=33150817_transcript=LOC_Os12g21880.1_locus=LOC_Os12g21880
+NOTE: Change sequence name 'LOC_Os02g07430.1 pacid=33135740 transcript=LOC_Os02g07430.1 locus=LOC_Os02g07430 ID=LOC_Os02g07430.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g07430.1_pacid=33135740_transcript=LOC_Os02g07430.1_locus=LOC_Os02g07430
+NOTE: Change sequence name 'LOC_Os02g07430.1 pacid=33135740 transcript=LOC_Os02g07430.1 locus=LOC_Os02g07430 ID=LOC_Os02g07430.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g07430.1_pacid=33135740_transcript=LOC_Os02g07430.1_locus=LOC_Os02g07430
+NOTE: Change sequence name 'LOC_Os02g07430.1 pacid=33135740 transcript=LOC_Os02g07430.1 locus=LOC_Os02g07430 ID=LOC_Os02g07430.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os02g07430.1_pacid=33135740_transcript=LOC_Os02g07430.1_locus=LOC_Os02g07430
+NOTE: Change sequence name 'LOC_Os12g10540.3 pacid=33153306 transcript=LOC_Os12g10540.3 locus=LOC_Os12g10540 ID=LOC_Os12g10540.3.MSUv7.0 annot-version=v7.0' -> LOC_Os12g10540.3_pacid=33153306_transcript=LOC_Os12g10540.3_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.3 pacid=33153306 transcript=LOC_Os12g10540.3 locus=LOC_Os12g10540 ID=LOC_Os12g10540.3.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g10540.3_pacid=33153306_transcript=LOC_Os12g10540.3_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.1 pacid=33153307 transcript=LOC_Os12g10540.1 locus=LOC_Os12g10540 ID=LOC_Os12g10540.1.MSUv7.0 annot-version=v7.0' -> LOC_Os12g10540.1_pacid=33153307_transcript=LOC_Os12g10540.1_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.1 pacid=33153307 transcript=LOC_Os12g10540.1 locus=LOC_Os12g10540 ID=LOC_Os12g10540.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g10540.1_pacid=33153307_transcript=LOC_Os12g10540.1_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.2 pacid=33153308 transcript=LOC_Os12g10540.2 locus=LOC_Os12g10540 ID=LOC_Os12g10540.2.MSUv7.0 annot-version=v7.0' -> LOC_Os12g10540.2_pacid=33153308_transcript=LOC_Os12g10540.2_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.2 pacid=33153308 transcript=LOC_Os12g10540.2 locus=LOC_Os12g10540 ID=LOC_Os12g10540.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g10540.2_pacid=33153308_transcript=LOC_Os12g10540.2_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.4 pacid=33153309 transcript=LOC_Os12g10540.4 locus=LOC_Os12g10540 ID=LOC_Os12g10540.4.MSUv7.0 annot-version=v7.0' -> LOC_Os12g10540.4_pacid=33153309_transcript=LOC_Os12g10540.4_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.4 pacid=33153309 transcript=LOC_Os12g10540.4 locus=LOC_Os12g10540 ID=LOC_Os12g10540.4.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g10540.4_pacid=33153309_transcript=LOC_Os12g10540.4_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.3 pacid=33153306 transcript=LOC_Os12g10540.3 locus=LOC_Os12g10540 ID=LOC_Os12g10540.3.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os12g10540.3_pacid=33153306_transcript=LOC_Os12g10540.3_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.1 pacid=33153307 transcript=LOC_Os12g10540.1 locus=LOC_Os12g10540 ID=LOC_Os12g10540.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os12g10540.1_pacid=33153307_transcript=LOC_Os12g10540.1_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.2 pacid=33153308 transcript=LOC_Os12g10540.2 locus=LOC_Os12g10540 ID=LOC_Os12g10540.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os12g10540.2_pacid=33153308_transcript=LOC_Os12g10540.2_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.4 pacid=33153309 transcript=LOC_Os12g10540.4 locus=LOC_Os12g10540 ID=LOC_Os12g10540.4.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os12g10540.4_pacid=33153309_transcript=LOC_Os12g10540.4_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.5 pacid=33153310 transcript=LOC_Os12g10540.5 locus=LOC_Os12g10540 ID=LOC_Os12g10540.5.MSUv7.0 annot-version=v7.0' -> LOC_Os12g10540.5_pacid=33153310_transcript=LOC_Os12g10540.5_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.5 pacid=33153310 transcript=LOC_Os12g10540.5 locus=LOC_Os12g10540 ID=LOC_Os12g10540.5.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g10540.5_pacid=33153310_transcript=LOC_Os12g10540.5_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os12g10540.5 pacid=33153310 transcript=LOC_Os12g10540.5 locus=LOC_Os12g10540 ID=LOC_Os12g10540.5.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os12g10540.5_pacid=33153310_transcript=LOC_Os12g10540.5_locus=LOC_Os12g10540
+NOTE: Change sequence name 'LOC_Os03g03100.1 pacid=33128447 transcript=LOC_Os03g03100.1 locus=LOC_Os03g03100 ID=LOC_Os03g03100.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g03100.1_pacid=33128447_transcript=LOC_Os03g03100.1_locus=LOC_Os03g03100
+NOTE: Change sequence name 'LOC_Os03g03100.1 pacid=33128447 transcript=LOC_Os03g03100.1 locus=LOC_Os03g03100 ID=LOC_Os03g03100.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os03g03100.1_pacid=33128447_transcript=LOC_Os03g03100.1_locus=LOC_Os03g03100
+NOTE: Change sequence name 'LOC_Os06g23950.1 pacid=33149548 transcript=LOC_Os06g23950.1 locus=LOC_Os06g23950 ID=LOC_Os06g23950.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g23950.1_pacid=33149548_transcript=LOC_Os06g23950.1_locus=LOC_Os06g23950
+NOTE: Change sequence name 'LOC_Os06g23950.1 pacid=33149548 transcript=LOC_Os06g23950.1 locus=LOC_Os06g23950 ID=LOC_Os06g23950.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g23950.1_pacid=33149548_transcript=LOC_Os06g23950.1_locus=LOC_Os06g23950
+NOTE: Change sequence name 'LOC_Os06g01890.1 pacid=33147010 transcript=LOC_Os06g01890.1 locus=LOC_Os06g01890 ID=LOC_Os06g01890.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g01890.1_pacid=33147010_transcript=LOC_Os06g01890.1_locus=LOC_Os06g01890
+NOTE: Change sequence name 'LOC_Os06g01890.1 pacid=33147010 transcript=LOC_Os06g01890.1 locus=LOC_Os06g01890 ID=LOC_Os06g01890.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g01890.1_pacid=33147010_transcript=LOC_Os06g01890.1_locus=LOC_Os06g01890
+NOTE: Change sequence name 'LOC_Os06g01890.1 pacid=33147010 transcript=LOC_Os06g01890.1 locus=LOC_Os06g01890 ID=LOC_Os06g01890.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os06g01890.1_pacid=33147010_transcript=LOC_Os06g01890.1_locus=LOC_Os06g01890
+NOTE: Change sequence name 'LOC_Os02g01355.1 pacid=33136811 transcript=LOC_Os02g01355.1 locus=LOC_Os02g01355 ID=LOC_Os02g01355.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g01355.1_pacid=33136811_transcript=LOC_Os02g01355.1_locus=LOC_Os02g01355
+NOTE: Change sequence name 'LOC_Os02g01355.1 pacid=33136811 transcript=LOC_Os02g01355.1 locus=LOC_Os02g01355 ID=LOC_Os02g01355.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g01355.1_pacid=33136811_transcript=LOC_Os02g01355.1_locus=LOC_Os02g01355
+NOTE: Change sequence name 'LOC_Os02g01355.1 pacid=33136811 transcript=LOC_Os02g01355.1 locus=LOC_Os02g01355 ID=LOC_Os02g01355.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os02g01355.1_pacid=33136811_transcript=LOC_Os02g01355.1_locus=LOC_Os02g01355
+NOTE: Change sequence name 'LOC_Os02g01365.1 pacid=33138640 transcript=LOC_Os02g01365.1 locus=LOC_Os02g01365 ID=LOC_Os02g01365.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g01365.1_pacid=33138640_transcript=LOC_Os02g01365.1_locus=LOC_Os02g01365
+NOTE: Change sequence name 'LOC_Os02g01365.1 pacid=33138640 transcript=LOC_Os02g01365.1 locus=LOC_Os02g01365 ID=LOC_Os02g01365.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g01365.1_pacid=33138640_transcript=LOC_Os02g01365.1_locus=LOC_Os02g01365
+NOTE: Change sequence name 'LOC_Os02g01365.1 pacid=33138640 transcript=LOC_Os02g01365.1 locus=LOC_Os02g01365 ID=LOC_Os02g01365.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os02g01365.1_pacid=33138640_transcript=LOC_Os02g01365.1_locus=LOC_Os02g01365
+NOTE: Change sequence name 'LOC_Os06g45650.1 pacid=33147474 transcript=LOC_Os06g45650.1 locus=LOC_Os06g45650 ID=LOC_Os06g45650.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g45650.1_pacid=33147474_transcript=LOC_Os06g45650.1_locus=LOC_Os06g45650
+NOTE: Change sequence name 'LOC_Os06g45650.1 pacid=33147474 transcript=LOC_Os06g45650.1 locus=LOC_Os06g45650 ID=LOC_Os06g45650.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g45650.1_pacid=33147474_transcript=LOC_Os06g45650.1_locus=LOC_Os06g45650
+NOTE: Change sequence name 'LOC_Os06g45650.1 pacid=33147474 transcript=LOC_Os06g45650.1 locus=LOC_Os06g45650 ID=LOC_Os06g45650.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os06g45650.1_pacid=33147474_transcript=LOC_Os06g45650.1_locus=LOC_Os06g45650
+NOTE: Change sequence name 'LOC_Os03g11614.1 pacid=33129283 transcript=LOC_Os03g11614.1 locus=LOC_Os03g11614 ID=LOC_Os03g11614.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g11614.1_pacid=33129283_transcript=LOC_Os03g11614.1_locus=LOC_Os03g11614
+NOTE: Change sequence name 'LOC_Os03g11614.1 pacid=33129283 transcript=LOC_Os03g11614.1 locus=LOC_Os03g11614 ID=LOC_Os03g11614.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os03g11614.1_pacid=33129283_transcript=LOC_Os03g11614.1_locus=LOC_Os03g11614
+NOTE: Change sequence name 'LOC_Os03g11614.1 pacid=33129283 transcript=LOC_Os03g11614.1 locus=LOC_Os03g11614 ID=LOC_Os03g11614.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os03g11614.1_pacid=33129283_transcript=LOC_Os03g11614.1_locus=LOC_Os03g11614
+NOTE: Change sequence name 'LOC_Os08g02070.1 pacid=33106269 transcript=LOC_Os08g02070.1 locus=LOC_Os08g02070 ID=LOC_Os08g02070.1.MSUv7.0 annot-version=v7.0' -> LOC_Os08g02070.1_pacid=33106269_transcript=LOC_Os08g02070.1_locus=LOC_Os08g02070
+NOTE: Change sequence name 'LOC_Os08g02070.1 pacid=33106269 transcript=LOC_Os08g02070.1 locus=LOC_Os08g02070 ID=LOC_Os08g02070.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os08g02070.1_pacid=33106269_transcript=LOC_Os08g02070.1_locus=LOC_Os08g02070
+NOTE: Change sequence name 'LOC_Os08g02070.1 pacid=33106269 transcript=LOC_Os08g02070.1 locus=LOC_Os08g02070 ID=LOC_Os08g02070.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os08g02070.1_pacid=33106269_transcript=LOC_Os08g02070.1_locus=LOC_Os08g02070
+NOTE: Change sequence name 'LOC_Os12g31748.2 pacid=33151404 transcript=LOC_Os12g31748.2 locus=LOC_Os12g31748 ID=LOC_Os12g31748.2.MSUv7.0 annot-version=v7.0' -> LOC_Os12g31748.2_pacid=33151404_transcript=LOC_Os12g31748.2_locus=LOC_Os12g31748
+NOTE: Change sequence name 'LOC_Os12g31748.2 pacid=33151404 transcript=LOC_Os12g31748.2 locus=LOC_Os12g31748 ID=LOC_Os12g31748.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g31748.2_pacid=33151404_transcript=LOC_Os12g31748.2_locus=LOC_Os12g31748
+NOTE: Change sequence name 'LOC_Os12g31748.2 pacid=33151404 transcript=LOC_Os12g31748.2 locus=LOC_Os12g31748 ID=LOC_Os12g31748.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os12g31748.2_pacid=33151404_transcript=LOC_Os12g31748.2_locus=LOC_Os12g31748
+NOTE: Change sequence name 'LOC_Os12g31748.1 pacid=33151405 transcript=LOC_Os12g31748.1 locus=LOC_Os12g31748 ID=LOC_Os12g31748.1.MSUv7.0 annot-version=v7.0' -> LOC_Os12g31748.1_pacid=33151405_transcript=LOC_Os12g31748.1_locus=LOC_Os12g31748
+NOTE: Change sequence name 'LOC_Os12g31748.1 pacid=33151405 transcript=LOC_Os12g31748.1 locus=LOC_Os12g31748 ID=LOC_Os12g31748.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g31748.1_pacid=33151405_transcript=LOC_Os12g31748.1_locus=LOC_Os12g31748
+NOTE: Change sequence name 'LOC_Os12g31748.1 pacid=33151405 transcript=LOC_Os12g31748.1 locus=LOC_Os12g31748 ID=LOC_Os12g31748.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os12g31748.1_pacid=33151405_transcript=LOC_Os12g31748.1_locus=LOC_Os12g31748
+NOTE: Change sequence name 'LOC_Os06g06750.1 pacid=33149580 transcript=LOC_Os06g06750.1 locus=LOC_Os06g06750 ID=LOC_Os06g06750.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g06750.1_pacid=33149580_transcript=LOC_Os06g06750.1_locus=LOC_Os06g06750
+NOTE: Change sequence name 'LOC_Os06g06750.1 pacid=33149580 transcript=LOC_Os06g06750.1 locus=LOC_Os06g06750 ID=LOC_Os06g06750.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g06750.1_pacid=33149580_transcript=LOC_Os06g06750.1_locus=LOC_Os06g06750
+NOTE: Change sequence name 'LOC_Os06g06750.1 pacid=33149580 transcript=LOC_Os06g06750.1 locus=LOC_Os06g06750 ID=LOC_Os06g06750.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os06g06750.1_pacid=33149580_transcript=LOC_Os06g06750.1_locus=LOC_Os06g06750
+NOTE: Change sequence name 'LOC_Os07g41370.1 pacid=33114686 transcript=LOC_Os07g41370.1 locus=LOC_Os07g41370 ID=LOC_Os07g41370.1.MSUv7.0 annot-version=v7.0' -> LOC_Os07g41370.1_pacid=33114686_transcript=LOC_Os07g41370.1_locus=LOC_Os07g41370
+NOTE: Change sequence name 'LOC_Os07g41370.1 pacid=33114686 transcript=LOC_Os07g41370.1 locus=LOC_Os07g41370 ID=LOC_Os07g41370.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os07g41370.1_pacid=33114686_transcript=LOC_Os07g41370.1_locus=LOC_Os07g41370
+NOTE: Change sequence name 'LOC_Os07g41370.1 pacid=33114686 transcript=LOC_Os07g41370.1 locus=LOC_Os07g41370 ID=LOC_Os07g41370.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os07g41370.1_pacid=33114686_transcript=LOC_Os07g41370.1_locus=LOC_Os07g41370
+NOTE: Change sequence name 'LOC_Os07g41370.2 pacid=33114687 transcript=LOC_Os07g41370.2 locus=LOC_Os07g41370 ID=LOC_Os07g41370.2.MSUv7.0 annot-version=v7.0' -> LOC_Os07g41370.2_pacid=33114687_transcript=LOC_Os07g41370.2_locus=LOC_Os07g41370
+NOTE: Change sequence name 'LOC_Os07g41370.2 pacid=33114687 transcript=LOC_Os07g41370.2 locus=LOC_Os07g41370 ID=LOC_Os07g41370.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os07g41370.2_pacid=33114687_transcript=LOC_Os07g41370.2_locus=LOC_Os07g41370
+NOTE: Change sequence name 'LOC_Os08g41950.1 pacid=33102862 transcript=LOC_Os08g41950.1 locus=LOC_Os08g41950 ID=LOC_Os08g41950.1.MSUv7.0 annot-version=v7.0' -> LOC_Os08g41950.1_pacid=33102862_transcript=LOC_Os08g41950.1_locus=LOC_Os08g41950
+NOTE: Change sequence name 'LOC_Os08g41950.1 pacid=33102862 transcript=LOC_Os08g41950.1 locus=LOC_Os08g41950 ID=LOC_Os08g41950.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os08g41950.1_pacid=33102862_transcript=LOC_Os08g41950.1_locus=LOC_Os08g41950
+NOTE: Change sequence name 'LOC_Os08g41950.1 pacid=33102862 transcript=LOC_Os08g41950.1 locus=LOC_Os08g41950 ID=LOC_Os08g41950.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os08g41950.1_pacid=33102862_transcript=LOC_Os08g41950.1_locus=LOC_Os08g41950
+NOTE: Change sequence name 'LOC_Os08g41950.2 pacid=33102863 transcript=LOC_Os08g41950.2 locus=LOC_Os08g41950 ID=LOC_Os08g41950.2.MSUv7.0 annot-version=v7.0' -> LOC_Os08g41950.2_pacid=33102863_transcript=LOC_Os08g41950.2_locus=LOC_Os08g41950
+NOTE: Change sequence name 'LOC_Os08g41950.2 pacid=33102863 transcript=LOC_Os08g41950.2 locus=LOC_Os08g41950 ID=LOC_Os08g41950.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os08g41950.2_pacid=33102863_transcript=LOC_Os08g41950.2_locus=LOC_Os08g41950
+NOTE: Change sequence name 'LOC_Os08g41950.2 pacid=33102863 transcript=LOC_Os08g41950.2 locus=LOC_Os08g41950 ID=LOC_Os08g41950.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os08g41950.2_pacid=33102863_transcript=LOC_Os08g41950.2_locus=LOC_Os08g41950
+NOTE: Change sequence name 'LOC_Os09g32948.1 pacid=33141446 transcript=LOC_Os09g32948.1 locus=LOC_Os09g32948 ID=LOC_Os09g32948.1.MSUv7.0 annot-version=v7.0' -> LOC_Os09g32948.1_pacid=33141446_transcript=LOC_Os09g32948.1_locus=LOC_Os09g32948
+NOTE: Change sequence name 'LOC_Os09g32948.1 pacid=33141446 transcript=LOC_Os09g32948.1 locus=LOC_Os09g32948 ID=LOC_Os09g32948.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os09g32948.1_pacid=33141446_transcript=LOC_Os09g32948.1_locus=LOC_Os09g32948
+NOTE: Change sequence name 'LOC_Os09g32948.1 pacid=33141446 transcript=LOC_Os09g32948.1 locus=LOC_Os09g32948 ID=LOC_Os09g32948.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os09g32948.1_pacid=33141446_transcript=LOC_Os09g32948.1_locus=LOC_Os09g32948
+NOTE: Change sequence name 'LOC_Os03g54170.1 pacid=33127927 transcript=LOC_Os03g54170.1 locus=LOC_Os03g54170 ID=LOC_Os03g54170.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g54170.1_pacid=33127927_transcript=LOC_Os03g54170.1_locus=LOC_Os03g54170
+NOTE: Change sequence name 'LOC_Os03g54170.1 pacid=33127927 transcript=LOC_Os03g54170.1 locus=LOC_Os03g54170 ID=LOC_Os03g54170.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os03g54170.1_pacid=33127927_transcript=LOC_Os03g54170.1_locus=LOC_Os03g54170
+NOTE: Change sequence name 'LOC_Os03g54170.1 pacid=33127927 transcript=LOC_Os03g54170.1 locus=LOC_Os03g54170 ID=LOC_Os03g54170.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os03g54170.1_pacid=33127927_transcript=LOC_Os03g54170.1_locus=LOC_Os03g54170
+NOTE: Change sequence name 'LOC_Os07g01820.4 pacid=33118722 transcript=LOC_Os07g01820.4 locus=LOC_Os07g01820 ID=LOC_Os07g01820.4.MSUv7.0 annot-version=v7.0' -> LOC_Os07g01820.4_pacid=33118722_transcript=LOC_Os07g01820.4_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.4 pacid=33118722 transcript=LOC_Os07g01820.4 locus=LOC_Os07g01820 ID=LOC_Os07g01820.4.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os07g01820.4_pacid=33118722_transcript=LOC_Os07g01820.4_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.4 pacid=33118722 transcript=LOC_Os07g01820.4 locus=LOC_Os07g01820 ID=LOC_Os07g01820.4.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os07g01820.4_pacid=33118722_transcript=LOC_Os07g01820.4_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os03g54160.1 pacid=33129942 transcript=LOC_Os03g54160.1 locus=LOC_Os03g54160 ID=LOC_Os03g54160.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g54160.1_pacid=33129942_transcript=LOC_Os03g54160.1_locus=LOC_Os03g54160
+NOTE: Change sequence name 'LOC_Os03g54160.1 pacid=33129942 transcript=LOC_Os03g54160.1 locus=LOC_Os03g54160 ID=LOC_Os03g54160.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os03g54160.1_pacid=33129942_transcript=LOC_Os03g54160.1_locus=LOC_Os03g54160
+NOTE: Change sequence name 'LOC_Os03g54160.1 pacid=33129942 transcript=LOC_Os03g54160.1 locus=LOC_Os03g54160 ID=LOC_Os03g54160.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os03g54160.1_pacid=33129942_transcript=LOC_Os03g54160.1_locus=LOC_Os03g54160
+NOTE: Change sequence name 'LOC_Os03g54160.2 pacid=33129943 transcript=LOC_Os03g54160.2 locus=LOC_Os03g54160 ID=LOC_Os03g54160.2.MSUv7.0 annot-version=v7.0' -> LOC_Os03g54160.2_pacid=33129943_transcript=LOC_Os03g54160.2_locus=LOC_Os03g54160
+NOTE: Change sequence name 'LOC_Os03g54160.2 pacid=33129943 transcript=LOC_Os03g54160.2 locus=LOC_Os03g54160 ID=LOC_Os03g54160.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os03g54160.2_pacid=33129943_transcript=LOC_Os03g54160.2_locus=LOC_Os03g54160
+NOTE: Change sequence name 'LOC_Os03g54160.2 pacid=33129943 transcript=LOC_Os03g54160.2 locus=LOC_Os03g54160 ID=LOC_Os03g54160.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os03g54160.2_pacid=33129943_transcript=LOC_Os03g54160.2_locus=LOC_Os03g54160
+NOTE: Change sequence name 'LOC_Os07g01820.6 pacid=33118724 transcript=LOC_Os07g01820.6 locus=LOC_Os07g01820 ID=LOC_Os07g01820.6.MSUv7.0 annot-version=v7.0' -> LOC_Os07g01820.6_pacid=33118724_transcript=LOC_Os07g01820.6_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.6 pacid=33118724 transcript=LOC_Os07g01820.6 locus=LOC_Os07g01820 ID=LOC_Os07g01820.6.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os07g01820.6_pacid=33118724_transcript=LOC_Os07g01820.6_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.6 pacid=33118724 transcript=LOC_Os07g01820.6 locus=LOC_Os07g01820 ID=LOC_Os07g01820.6.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os07g01820.6_pacid=33118724_transcript=LOC_Os07g01820.6_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.2 pacid=33118720 transcript=LOC_Os07g01820.2 locus=LOC_Os07g01820 ID=LOC_Os07g01820.2.MSUv7.0 annot-version=v7.0' -> LOC_Os07g01820.2_pacid=33118720_transcript=LOC_Os07g01820.2_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.2 pacid=33118720 transcript=LOC_Os07g01820.2 locus=LOC_Os07g01820 ID=LOC_Os07g01820.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os07g01820.2_pacid=33118720_transcript=LOC_Os07g01820.2_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.2 pacid=33118720 transcript=LOC_Os07g01820.2 locus=LOC_Os07g01820 ID=LOC_Os07g01820.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os07g01820.2_pacid=33118720_transcript=LOC_Os07g01820.2_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.1 pacid=33118719 transcript=LOC_Os07g01820.1 locus=LOC_Os07g01820 ID=LOC_Os07g01820.1.MSUv7.0 annot-version=v7.0' -> LOC_Os07g01820.1_pacid=33118719_transcript=LOC_Os07g01820.1_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.1 pacid=33118719 transcript=LOC_Os07g01820.1 locus=LOC_Os07g01820 ID=LOC_Os07g01820.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os07g01820.1_pacid=33118719_transcript=LOC_Os07g01820.1_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.1 pacid=33118719 transcript=LOC_Os07g01820.1 locus=LOC_Os07g01820 ID=LOC_Os07g01820.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os07g01820.1_pacid=33118719_transcript=LOC_Os07g01820.1_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.3 pacid=33118721 transcript=LOC_Os07g01820.3 locus=LOC_Os07g01820 ID=LOC_Os07g01820.3.MSUv7.0 annot-version=v7.0' -> LOC_Os07g01820.3_pacid=33118721_transcript=LOC_Os07g01820.3_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.3 pacid=33118721 transcript=LOC_Os07g01820.3 locus=LOC_Os07g01820 ID=LOC_Os07g01820.3.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os07g01820.3_pacid=33118721_transcript=LOC_Os07g01820.3_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.3 pacid=33118721 transcript=LOC_Os07g01820.3 locus=LOC_Os07g01820 ID=LOC_Os07g01820.3.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os07g01820.3_pacid=33118721_transcript=LOC_Os07g01820.3_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.5 pacid=33118723 transcript=LOC_Os07g01820.5 locus=LOC_Os07g01820 ID=LOC_Os07g01820.5.MSUv7.0 annot-version=v7.0' -> LOC_Os07g01820.5_pacid=33118723_transcript=LOC_Os07g01820.5_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os07g01820.5 pacid=33118723 transcript=LOC_Os07g01820.5 locus=LOC_Os07g01820 ID=LOC_Os07g01820.5.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os07g01820.5_pacid=33118723_transcript=LOC_Os07g01820.5_locus=LOC_Os07g01820
+NOTE: Change sequence name 'LOC_Os10g39130.1 pacid=33101638 transcript=LOC_Os10g39130.1 locus=LOC_Os10g39130 ID=LOC_Os10g39130.1.MSUv7.0 annot-version=v7.0' -> LOC_Os10g39130.1_pacid=33101638_transcript=LOC_Os10g39130.1_locus=LOC_Os10g39130
+NOTE: Change sequence name 'LOC_Os10g39130.1 pacid=33101638 transcript=LOC_Os10g39130.1 locus=LOC_Os10g39130 ID=LOC_Os10g39130.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os10g39130.1_pacid=33101638_transcript=LOC_Os10g39130.1_locus=LOC_Os10g39130
+NOTE: Change sequence name 'LOC_Os10g39130.1 pacid=33101638 transcript=LOC_Os10g39130.1 locus=LOC_Os10g39130 ID=LOC_Os10g39130.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os10g39130.1_pacid=33101638_transcript=LOC_Os10g39130.1_locus=LOC_Os10g39130
+NOTE: Change sequence name 'LOC_Os10g39130.2 pacid=33101639 transcript=LOC_Os10g39130.2 locus=LOC_Os10g39130 ID=LOC_Os10g39130.2.MSUv7.0 annot-version=v7.0' -> LOC_Os10g39130.2_pacid=33101639_transcript=LOC_Os10g39130.2_locus=LOC_Os10g39130
+NOTE: Change sequence name 'LOC_Os10g39130.2 pacid=33101639 transcript=LOC_Os10g39130.2 locus=LOC_Os10g39130 ID=LOC_Os10g39130.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os10g39130.2_pacid=33101639_transcript=LOC_Os10g39130.2_locus=LOC_Os10g39130
+NOTE: Change sequence name 'LOC_Os10g39130.2 pacid=33101639 transcript=LOC_Os10g39130.2 locus=LOC_Os10g39130 ID=LOC_Os10g39130.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os10g39130.2_pacid=33101639_transcript=LOC_Os10g39130.2_locus=LOC_Os10g39130
+NOTE: Change sequence name 'LOC_Os01g10504.1 pacid=33119053 transcript=LOC_Os01g10504.1 locus=LOC_Os01g10504 ID=LOC_Os01g10504.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g10504.1_pacid=33119053_transcript=LOC_Os01g10504.1_locus=LOC_Os01g10504
+NOTE: Change sequence name 'LOC_Os01g10504.1 pacid=33119053 transcript=LOC_Os01g10504.1 locus=LOC_Os01g10504 ID=LOC_Os01g10504.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g10504.1_pacid=33119053_transcript=LOC_Os01g10504.1_locus=LOC_Os01g10504
+NOTE: Change sequence name 'LOC_Os01g10504.1 pacid=33119053 transcript=LOC_Os01g10504.1 locus=LOC_Os01g10504 ID=LOC_Os01g10504.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os01g10504.1_pacid=33119053_transcript=LOC_Os01g10504.1_locus=LOC_Os01g10504
+NOTE: Change sequence name 'LOC_Os01g10504.3 pacid=33119054 transcript=LOC_Os01g10504.3 locus=LOC_Os01g10504 ID=LOC_Os01g10504.3.MSUv7.0 annot-version=v7.0' -> LOC_Os01g10504.3_pacid=33119054_transcript=LOC_Os01g10504.3_locus=LOC_Os01g10504
+NOTE: Change sequence name 'LOC_Os01g10504.3 pacid=33119054 transcript=LOC_Os01g10504.3 locus=LOC_Os01g10504 ID=LOC_Os01g10504.3.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g10504.3_pacid=33119054_transcript=LOC_Os01g10504.3_locus=LOC_Os01g10504
+NOTE: Change sequence name 'LOC_Os01g10504.2 pacid=33119055 transcript=LOC_Os01g10504.2 locus=LOC_Os01g10504 ID=LOC_Os01g10504.2.MSUv7.0 annot-version=v7.0' -> LOC_Os01g10504.2_pacid=33119055_transcript=LOC_Os01g10504.2_locus=LOC_Os01g10504
+NOTE: Change sequence name 'LOC_Os01g10504.2 pacid=33119055 transcript=LOC_Os01g10504.2 locus=LOC_Os01g10504 ID=LOC_Os01g10504.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g10504.2_pacid=33119055_transcript=LOC_Os01g10504.2_locus=LOC_Os01g10504
+NOTE: Change sequence name 'LOC_Os01g10504.3 pacid=33119054 transcript=LOC_Os01g10504.3 locus=LOC_Os01g10504 ID=LOC_Os01g10504.3.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os01g10504.3_pacid=33119054_transcript=LOC_Os01g10504.3_locus=LOC_Os01g10504
+NOTE: Change sequence name 'LOC_Os01g10504.2 pacid=33119055 transcript=LOC_Os01g10504.2 locus=LOC_Os01g10504 ID=LOC_Os01g10504.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os01g10504.2_pacid=33119055_transcript=LOC_Os01g10504.2_locus=LOC_Os01g10504
+NOTE: Change sequence name 'LOC_Os01g66290.1 pacid=33120433 transcript=LOC_Os01g66290.1 locus=LOC_Os01g66290 ID=LOC_Os01g66290.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g66290.1_pacid=33120433_transcript=LOC_Os01g66290.1_locus=LOC_Os01g66290
+NOTE: Change sequence name 'LOC_Os01g66290.1 pacid=33120433 transcript=LOC_Os01g66290.1 locus=LOC_Os01g66290 ID=LOC_Os01g66290.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g66290.1_pacid=33120433_transcript=LOC_Os01g66290.1_locus=LOC_Os01g66290
+NOTE: Change sequence name 'LOC_Os01g66290.2 pacid=33120434 transcript=LOC_Os01g66290.2 locus=LOC_Os01g66290 ID=LOC_Os01g66290.2.MSUv7.0 annot-version=v7.0' -> LOC_Os01g66290.2_pacid=33120434_transcript=LOC_Os01g66290.2_locus=LOC_Os01g66290
+NOTE: Change sequence name 'LOC_Os01g66290.2 pacid=33120434 transcript=LOC_Os01g66290.2 locus=LOC_Os01g66290 ID=LOC_Os01g66290.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os01g66290.2_pacid=33120434_transcript=LOC_Os01g66290.2_locus=LOC_Os01g66290
+NOTE: Change sequence name 'LOC_Os01g66290.1 pacid=33120433 transcript=LOC_Os01g66290.1 locus=LOC_Os01g66290 ID=LOC_Os01g66290.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os01g66290.1_pacid=33120433_transcript=LOC_Os01g66290.1_locus=LOC_Os01g66290
+NOTE: Change sequence name 'LOC_Os01g66290.2 pacid=33120434 transcript=LOC_Os01g66290.2 locus=LOC_Os01g66290 ID=LOC_Os01g66290.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os01g66290.2_pacid=33120434_transcript=LOC_Os01g66290.2_locus=LOC_Os01g66290
+NOTE: Change sequence name 'LOC_Os05g11414.1 pacid=33155515 transcript=LOC_Os05g11414.1 locus=LOC_Os05g11414 ID=LOC_Os05g11414.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g11414.1_pacid=33155515_transcript=LOC_Os05g11414.1_locus=LOC_Os05g11414
+NOTE: Change sequence name 'LOC_Os05g11414.1 pacid=33155515 transcript=LOC_Os05g11414.1 locus=LOC_Os05g11414 ID=LOC_Os05g11414.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os05g11414.1_pacid=33155515_transcript=LOC_Os05g11414.1_locus=LOC_Os05g11414
+NOTE: Change sequence name 'LOC_Os05g11414.1 pacid=33155515 transcript=LOC_Os05g11414.1 locus=LOC_Os05g11414 ID=LOC_Os05g11414.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os05g11414.1_pacid=33155515_transcript=LOC_Os05g11414.1_locus=LOC_Os05g11414
+NOTE: Change sequence name 'LOC_Os05g11380.1 pacid=33156172 transcript=LOC_Os05g11380.1 locus=LOC_Os05g11380 ID=LOC_Os05g11380.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g11380.1_pacid=33156172_transcript=LOC_Os05g11380.1_locus=LOC_Os05g11380
+NOTE: Change sequence name 'LOC_Os05g11380.1 pacid=33156172 transcript=LOC_Os05g11380.1 locus=LOC_Os05g11380 ID=LOC_Os05g11380.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os05g11380.1_pacid=33156172_transcript=LOC_Os05g11380.1_locus=LOC_Os05g11380
+NOTE: Change sequence name 'LOC_Os05g11380.1 pacid=33156172 transcript=LOC_Os05g11380.1 locus=LOC_Os05g11380 ID=LOC_Os05g11380.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os05g11380.1_pacid=33156172_transcript=LOC_Os05g11380.1_locus=LOC_Os05g11380
+NOTE: Change sequence name 'LOC_Os05g11380.2 pacid=33156173 transcript=LOC_Os05g11380.2 locus=LOC_Os05g11380 ID=LOC_Os05g11380.2.MSUv7.0 annot-version=v7.0' -> LOC_Os05g11380.2_pacid=33156173_transcript=LOC_Os05g11380.2_locus=LOC_Os05g11380
+NOTE: Change sequence name 'LOC_Os05g11380.2 pacid=33156173 transcript=LOC_Os05g11380.2 locus=LOC_Os05g11380 ID=LOC_Os05g11380.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os05g11380.2_pacid=33156173_transcript=LOC_Os05g11380.2_locus=LOC_Os05g11380
+NOTE: Change sequence name 'LOC_Os03g08754.1 pacid=33131113 transcript=LOC_Os03g08754.1 locus=LOC_Os03g08754 ID=LOC_Os03g08754.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g08754.1_pacid=33131113_transcript=LOC_Os03g08754.1_locus=LOC_Os03g08754
+NOTE: Change sequence name 'LOC_Os03g08754.1 pacid=33131113 transcript=LOC_Os03g08754.1 locus=LOC_Os03g08754 ID=LOC_Os03g08754.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os03g08754.1_pacid=33131113_transcript=LOC_Os03g08754.1_locus=LOC_Os03g08754
+NOTE: Change sequence name 'LOC_Os03g08754.1 pacid=33131113 transcript=LOC_Os03g08754.1 locus=LOC_Os03g08754 ID=LOC_Os03g08754.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os03g08754.1_pacid=33131113_transcript=LOC_Os03g08754.1_locus=LOC_Os03g08754
+NOTE: Change sequence name 'LOC_Os03g08754.2 pacid=33131114 transcript=LOC_Os03g08754.2 locus=LOC_Os03g08754 ID=LOC_Os03g08754.2.MSUv7.0 annot-version=v7.0' -> LOC_Os03g08754.2_pacid=33131114_transcript=LOC_Os03g08754.2_locus=LOC_Os03g08754
+NOTE: Change sequence name 'LOC_Os03g08754.2 pacid=33131114 transcript=LOC_Os03g08754.2 locus=LOC_Os03g08754 ID=LOC_Os03g08754.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os03g08754.2_pacid=33131114_transcript=LOC_Os03g08754.2_locus=LOC_Os03g08754
+NOTE: Change sequence name 'LOC_Os03g08754.2 pacid=33131114 transcript=LOC_Os03g08754.2 locus=LOC_Os03g08754 ID=LOC_Os03g08754.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os03g08754.2_pacid=33131114_transcript=LOC_Os03g08754.2_locus=LOC_Os03g08754
+NOTE: Change sequence name 'LOC_Os12g10520.1 pacid=33150409 transcript=LOC_Os12g10520.1 locus=LOC_Os12g10520 ID=LOC_Os12g10520.1.MSUv7.0 annot-version=v7.0' -> LOC_Os12g10520.1_pacid=33150409_transcript=LOC_Os12g10520.1_locus=LOC_Os12g10520
+NOTE: Change sequence name 'LOC_Os12g10520.1 pacid=33150409 transcript=LOC_Os12g10520.1 locus=LOC_Os12g10520 ID=LOC_Os12g10520.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g10520.1_pacid=33150409_transcript=LOC_Os12g10520.1_locus=LOC_Os12g10520
+NOTE: Change sequence name 'LOC_Os12g10520.1 pacid=33150409 transcript=LOC_Os12g10520.1 locus=LOC_Os12g10520 ID=LOC_Os12g10520.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os12g10520.1_pacid=33150409_transcript=LOC_Os12g10520.1_locus=LOC_Os12g10520
+NOTE: Change sequence name 'LOC_Os12g10520.2 pacid=33150410 transcript=LOC_Os12g10520.2 locus=LOC_Os12g10520 ID=LOC_Os12g10520.2.MSUv7.0 annot-version=v7.0' -> LOC_Os12g10520.2_pacid=33150410_transcript=LOC_Os12g10520.2_locus=LOC_Os12g10520
+NOTE: Change sequence name 'LOC_Os12g10520.2 pacid=33150410 transcript=LOC_Os12g10520.2 locus=LOC_Os12g10520 ID=LOC_Os12g10520.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os12g10520.2_pacid=33150410_transcript=LOC_Os12g10520.2_locus=LOC_Os12g10520
+NOTE: Change sequence name 'LOC_Os12g10520.2 pacid=33150410 transcript=LOC_Os12g10520.2 locus=LOC_Os12g10520 ID=LOC_Os12g10520.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os12g10520.2_pacid=33150410_transcript=LOC_Os12g10520.2_locus=LOC_Os12g10520
+NOTE: Change sequence name 'LOC_Os04g49150.1 pacid=33108838 transcript=LOC_Os04g49150.1 locus=LOC_Os04g49150 ID=LOC_Os04g49150.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g49150.1_pacid=33108838_transcript=LOC_Os04g49150.1_locus=LOC_Os04g49150
+NOTE: Change sequence name 'LOC_Os04g49150.1 pacid=33108838 transcript=LOC_Os04g49150.1 locus=LOC_Os04g49150 ID=LOC_Os04g49150.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os04g49150.1_pacid=33108838_transcript=LOC_Os04g49150.1_locus=LOC_Os04g49150
+NOTE: Change sequence name 'LOC_Os04g49150.1 pacid=33108838 transcript=LOC_Os04g49150.1 locus=LOC_Os04g49150 ID=LOC_Os04g49150.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os04g49150.1_pacid=33108838_transcript=LOC_Os04g49150.1_locus=LOC_Os04g49150
+NOTE: Change sequence name 'LOC_Os04g23910.1 pacid=33107895 transcript=LOC_Os04g23910.1 locus=LOC_Os04g23910 ID=LOC_Os04g23910.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g23910.1_pacid=33107895_transcript=LOC_Os04g23910.1_locus=LOC_Os04g23910
+NOTE: Change sequence name 'LOC_Os04g23910.1 pacid=33107895 transcript=LOC_Os04g23910.1 locus=LOC_Os04g23910 ID=LOC_Os04g23910.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os04g23910.1_pacid=33107895_transcript=LOC_Os04g23910.1_locus=LOC_Os04g23910
+NOTE: Change sequence name 'LOC_Os04g23910.1 pacid=33107895 transcript=LOC_Os04g23910.1 locus=LOC_Os04g23910 ID=LOC_Os04g23910.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os04g23910.1_pacid=33107895_transcript=LOC_Os04g23910.1_locus=LOC_Os04g23910
+NOTE: Change sequence name 'LOC_Os06g11330.1 pacid=33148253 transcript=LOC_Os06g11330.1 locus=LOC_Os06g11330 ID=LOC_Os06g11330.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g11330.1_pacid=33148253_transcript=LOC_Os06g11330.1_locus=LOC_Os06g11330
+NOTE: Change sequence name 'LOC_Os06g11330.1 pacid=33148253 transcript=LOC_Os06g11330.1 locus=LOC_Os06g11330 ID=LOC_Os06g11330.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os06g11330.1_pacid=33148253_transcript=LOC_Os06g11330.1_locus=LOC_Os06g11330
+NOTE: Change sequence name 'LOC_Os06g11330.1 pacid=33148253 transcript=LOC_Os06g11330.1 locus=LOC_Os06g11330 ID=LOC_Os06g11330.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os06g11330.1_pacid=33148253_transcript=LOC_Os06g11330.1_locus=LOC_Os06g11330
+NOTE: Change sequence name 'LOC_Os02g49840.1 pacid=33135821 transcript=LOC_Os02g49840.1 locus=LOC_Os02g49840 ID=LOC_Os02g49840.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g49840.1_pacid=33135821_transcript=LOC_Os02g49840.1_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.1 pacid=33135821 transcript=LOC_Os02g49840.1 locus=LOC_Os02g49840 ID=LOC_Os02g49840.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g49840.1_pacid=33135821_transcript=LOC_Os02g49840.1_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.1 pacid=33135821 transcript=LOC_Os02g49840.1 locus=LOC_Os02g49840 ID=LOC_Os02g49840.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os02g49840.1_pacid=33135821_transcript=LOC_Os02g49840.1_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.4 pacid=33135822 transcript=LOC_Os02g49840.4 locus=LOC_Os02g49840 ID=LOC_Os02g49840.4.MSUv7.0 annot-version=v7.0' -> LOC_Os02g49840.4_pacid=33135822_transcript=LOC_Os02g49840.4_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.4 pacid=33135822 transcript=LOC_Os02g49840.4 locus=LOC_Os02g49840 ID=LOC_Os02g49840.4.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g49840.4_pacid=33135822_transcript=LOC_Os02g49840.4_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.4 pacid=33135822 transcript=LOC_Os02g49840.4 locus=LOC_Os02g49840 ID=LOC_Os02g49840.4.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os02g49840.4_pacid=33135822_transcript=LOC_Os02g49840.4_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.2 pacid=33135823 transcript=LOC_Os02g49840.2 locus=LOC_Os02g49840 ID=LOC_Os02g49840.2.MSUv7.0 annot-version=v7.0' -> LOC_Os02g49840.2_pacid=33135823_transcript=LOC_Os02g49840.2_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.2 pacid=33135823 transcript=LOC_Os02g49840.2 locus=LOC_Os02g49840 ID=LOC_Os02g49840.2.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g49840.2_pacid=33135823_transcript=LOC_Os02g49840.2_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.2 pacid=33135823 transcript=LOC_Os02g49840.2 locus=LOC_Os02g49840 ID=LOC_Os02g49840.2.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os02g49840.2_pacid=33135823_transcript=LOC_Os02g49840.2_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.3 pacid=33135824 transcript=LOC_Os02g49840.3 locus=LOC_Os02g49840 ID=LOC_Os02g49840.3.MSUv7.0 annot-version=v7.0' -> LOC_Os02g49840.3_pacid=33135824_transcript=LOC_Os02g49840.3_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.3 pacid=33135824 transcript=LOC_Os02g49840.3 locus=LOC_Os02g49840 ID=LOC_Os02g49840.3.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g49840.3_pacid=33135824_transcript=LOC_Os02g49840.3_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g49840.3 pacid=33135824 transcript=LOC_Os02g49840.3 locus=LOC_Os02g49840 ID=LOC_Os02g49840.3.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os02g49840.3_pacid=33135824_transcript=LOC_Os02g49840.3_locus=LOC_Os02g49840
+NOTE: Change sequence name 'LOC_Os02g52340.1 pacid=33134825 transcript=LOC_Os02g52340.1 locus=LOC_Os02g52340 ID=LOC_Os02g52340.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g52340.1_pacid=33134825_transcript=LOC_Os02g52340.1_locus=LOC_Os02g52340
+NOTE: Change sequence name 'LOC_Os02g52340.1 pacid=33134825 transcript=LOC_Os02g52340.1 locus=LOC_Os02g52340 ID=LOC_Os02g52340.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g52340.1_pacid=33134825_transcript=LOC_Os02g52340.1_locus=LOC_Os02g52340
+NOTE: Change sequence name 'LOC_Os02g52340.1 pacid=33134825 transcript=LOC_Os02g52340.1 locus=LOC_Os02g52340 ID=LOC_Os02g52340.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os02g52340.1_pacid=33134825_transcript=LOC_Os02g52340.1_locus=LOC_Os02g52340
+NOTE: Change sequence name 'LOC_Os02g45770.1 pacid=33135892 transcript=LOC_Os02g45770.1 locus=LOC_Os02g45770 ID=LOC_Os02g45770.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g45770.1_pacid=33135892_transcript=LOC_Os02g45770.1_locus=LOC_Os02g45770
+NOTE: Change sequence name 'LOC_Os02g45770.1 pacid=33135892 transcript=LOC_Os02g45770.1 locus=LOC_Os02g45770 ID=LOC_Os02g45770.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g45770.1_pacid=33135892_transcript=LOC_Os02g45770.1_locus=LOC_Os02g45770
+NOTE: Change sequence name 'LOC_Os02g45770.1 pacid=33135892 transcript=LOC_Os02g45770.1 locus=LOC_Os02g45770 ID=LOC_Os02g45770.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os02g45770.1_pacid=33135892_transcript=LOC_Os02g45770.1_locus=LOC_Os02g45770
+NOTE: Change sequence name 'LOC_Os08g33488.1 pacid=33105388 transcript=LOC_Os08g33488.1 locus=LOC_Os08g33488 ID=LOC_Os08g33488.1.MSUv7.0 annot-version=v7.0' -> LOC_Os08g33488.1_pacid=33105388_transcript=LOC_Os08g33488.1_locus=LOC_Os08g33488
+NOTE: Change sequence name 'LOC_Os08g33488.1 pacid=33105388 transcript=LOC_Os08g33488.1 locus=LOC_Os08g33488 ID=LOC_Os08g33488.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os08g33488.1_pacid=33105388_transcript=LOC_Os08g33488.1_locus=LOC_Os08g33488
+NOTE: Change sequence name 'LOC_Os08g33488.1 pacid=33105388 transcript=LOC_Os08g33488.1 locus=LOC_Os08g33488 ID=LOC_Os08g33488.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os08g33488.1_pacid=33105388_transcript=LOC_Os08g33488.1_locus=LOC_Os08g33488
+NOTE: Change sequence name 'LOC_Os02g36924.1 pacid=33138545 transcript=LOC_Os02g36924.1 locus=LOC_Os02g36924 ID=LOC_Os02g36924.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g36924.1_pacid=33138545_transcript=LOC_Os02g36924.1_locus=LOC_Os02g36924
+NOTE: Change sequence name 'LOC_Os02g36924.1 pacid=33138545 transcript=LOC_Os02g36924.1 locus=LOC_Os02g36924 ID=LOC_Os02g36924.1.MSUv7.0 annot-version=v7.0 dupelabel1' -> LOC_Os02g36924.1_pacid=33138545_transcript=LOC_Os02g36924.1_locus=LOC_Os02g36924
+NOTE: Change sequence name 'LOC_Os02g36924.1 pacid=33138545 transcript=LOC_Os02g36924.1 locus=LOC_Os02g36924 ID=LOC_Os02g36924.1.MSUv7.0 annot-version=v7.0 dupelabel2' -> LOC_Os02g36924.1_pacid=33138545_transcript=LOC_Os02g36924.1_locus=LOC_Os02g36924
+NOTE: Change sequence name 'LOC_Os05g32270.1 pacid=33156768 transcript=LOC_Os05g32270.1 locus=LOC_Os05g32270 ID=LOC_Os05g32270.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g32270.1_pacid=33156768_transcript=LOC_Os05g32270.1_locus=LOC_Os05g32270
+NOTE: Change sequence name 'LOC_Os05g32270.2 pacid=33156769 transcript=LOC_Os05g32270.2 locus=LOC_Os05g32270 ID=LOC_Os05g32270.2.MSUv7.0 annot-version=v7.0' -> LOC_Os05g32270.2_pacid=33156769_transcript=LOC_Os05g32270.2_locus=LOC_Os05g32270
+NOTE: Change sequence name 'LOC_Os07g13170.2 pacid=33117655 transcript=LOC_Os07g13170.2 locus=LOC_Os07g13170 ID=LOC_Os07g13170.2.MSUv7.0 annot-version=v7.0' -> LOC_Os07g13170.2_pacid=33117655_transcript=LOC_Os07g13170.2_locus=LOC_Os07g13170
+NOTE: Change sequence name 'LOC_Os07g13170.1 pacid=33117656 transcript=LOC_Os07g13170.1 locus=LOC_Os07g13170 ID=LOC_Os07g13170.1.MSUv7.0 annot-version=v7.0' -> LOC_Os07g13170.1_pacid=33117656_transcript=LOC_Os07g13170.1_locus=LOC_Os07g13170
+NOTE: Change sequence name 'LOC_Os03g60430.2 pacid=33131038 transcript=LOC_Os03g60430.2 locus=LOC_Os03g60430 ID=LOC_Os03g60430.2.MSUv7.0 annot-version=v7.0' -> LOC_Os03g60430.2_pacid=33131038_transcript=LOC_Os03g60430.2_locus=LOC_Os03g60430
+NOTE: Change sequence name 'LOC_Os03g60430.1 pacid=33131039 transcript=LOC_Os03g60430.1 locus=LOC_Os03g60430 ID=LOC_Os03g60430.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g60430.1_pacid=33131039_transcript=LOC_Os03g60430.1_locus=LOC_Os03g60430
+NOTE: Change sequence name 'LOC_Os05g03040.1 pacid=33157236 transcript=LOC_Os05g03040.1 locus=LOC_Os05g03040 ID=LOC_Os05g03040.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g03040.1_pacid=33157236_transcript=LOC_Os05g03040.1_locus=LOC_Os05g03040
+NOTE: Change sequence name 'LOC_Os05g03040.2 pacid=33157237 transcript=LOC_Os05g03040.2 locus=LOC_Os05g03040 ID=LOC_Os05g03040.2.MSUv7.0 annot-version=v7.0' -> LOC_Os05g03040.2_pacid=33157237_transcript=LOC_Os05g03040.2_locus=LOC_Os05g03040
+NOTE: Change sequence name 'LOC_Os05g03040.3 pacid=33157238 transcript=LOC_Os05g03040.3 locus=LOC_Os05g03040 ID=LOC_Os05g03040.3.MSUv7.0 annot-version=v7.0' -> LOC_Os05g03040.3_pacid=33157238_transcript=LOC_Os05g03040.3_locus=LOC_Os05g03040
+NOTE: Change sequence name 'LOC_Os03g56050.1 pacid=33129803 transcript=LOC_Os03g56050.1 locus=LOC_Os03g56050 ID=LOC_Os03g56050.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g56050.1_pacid=33129803_transcript=LOC_Os03g56050.1_locus=LOC_Os03g56050
+NOTE: Change sequence name 'LOC_Os07g03250.1 pacid=33113944 transcript=LOC_Os07g03250.1 locus=LOC_Os07g03250 ID=LOC_Os07g03250.1.MSUv7.0 annot-version=v7.0' -> LOC_Os07g03250.1_pacid=33113944_transcript=LOC_Os07g03250.1_locus=LOC_Os07g03250
+NOTE: Change sequence name 'LOC_Os01g67410.1 pacid=33123914 transcript=LOC_Os01g67410.1 locus=LOC_Os01g67410 ID=LOC_Os01g67410.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g67410.1_pacid=33123914_transcript=LOC_Os01g67410.1_locus=LOC_Os01g67410
+NOTE: Change sequence name 'LOC_Os11g19060.1 pacid=33163071 transcript=LOC_Os11g19060.1 locus=LOC_Os11g19060 ID=LOC_Os11g19060.1.MSUv7.0 annot-version=v7.0' -> LOC_Os11g19060.1_pacid=33163071_transcript=LOC_Os11g19060.1_locus=LOC_Os11g19060
+NOTE: Change sequence name 'LOC_Os04g42570.1 pacid=33112506 transcript=LOC_Os04g42570.1 locus=LOC_Os04g42570 ID=LOC_Os04g42570.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g42570.1_pacid=33112506_transcript=LOC_Os04g42570.1_locus=LOC_Os04g42570
+NOTE: Change sequence name 'LOC_Os02g40070.1 pacid=33137156 transcript=LOC_Os02g40070.1 locus=LOC_Os02g40070 ID=LOC_Os02g40070.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g40070.1_pacid=33137156_transcript=LOC_Os02g40070.1_locus=LOC_Os02g40070
+NOTE: Change sequence name 'LOC_Os06g44750.1 pacid=33146631 transcript=LOC_Os06g44750.1 locus=LOC_Os06g44750 ID=LOC_Os06g44750.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g44750.1_pacid=33146631_transcript=LOC_Os06g44750.1_locus=LOC_Os06g44750
+NOTE: Change sequence name 'LOC_Os04g55970.2 pacid=33110304 transcript=LOC_Os04g55970.2 locus=LOC_Os04g55970 ID=LOC_Os04g55970.2.MSUv7.0 annot-version=v7.0' -> LOC_Os04g55970.2_pacid=33110304_transcript=LOC_Os04g55970.2_locus=LOC_Os04g55970
+NOTE: Change sequence name 'LOC_Os04g55970.1 pacid=33110305 transcript=LOC_Os04g55970.1 locus=LOC_Os04g55970 ID=LOC_Os04g55970.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g55970.1_pacid=33110305_transcript=LOC_Os04g55970.1_locus=LOC_Os04g55970
+NOTE: Change sequence name 'LOC_Os06g05340.1 pacid=33147433 transcript=LOC_Os06g05340.1 locus=LOC_Os06g05340 ID=LOC_Os06g05340.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g05340.1_pacid=33147433_transcript=LOC_Os06g05340.1_locus=LOC_Os06g05340
+NOTE: Change sequence name 'LOC_Os05g45954.1 pacid=33159105 transcript=LOC_Os05g45954.1 locus=LOC_Os05g45954 ID=LOC_Os05g45954.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g45954.1_pacid=33159105_transcript=LOC_Os05g45954.1_locus=LOC_Os05g45954
+NOTE: Change sequence name 'LOC_Os08g34360.1 pacid=33104676 transcript=LOC_Os08g34360.1 locus=LOC_Os08g34360 ID=LOC_Os08g34360.1.MSUv7.0 annot-version=v7.0' -> LOC_Os08g34360.1_pacid=33104676_transcript=LOC_Os08g34360.1_locus=LOC_Os08g34360
+NOTE: Change sequence name 'LOC_Os02g51670.1 pacid=33138817 transcript=LOC_Os02g51670.1 locus=LOC_Os02g51670 ID=LOC_Os02g51670.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g51670.1_pacid=33138817_transcript=LOC_Os02g51670.1_locus=LOC_Os02g51670
+NOTE: Change sequence name 'LOC_Os09g20350.1 pacid=33140948 transcript=LOC_Os09g20350.1 locus=LOC_Os09g20350 ID=LOC_Os09g20350.1.MSUv7.0 annot-version=v7.0' -> LOC_Os09g20350.1_pacid=33140948_transcript=LOC_Os09g20350.1_locus=LOC_Os09g20350
+NOTE: Change sequence name 'LOC_Os01g49830.1 pacid=33121492 transcript=LOC_Os01g49830.1 locus=LOC_Os01g49830 ID=LOC_Os01g49830.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g49830.1_pacid=33121492_transcript=LOC_Os01g49830.1_locus=LOC_Os01g49830
+NOTE: Change sequence name 'LOC_Os05g47650.1 pacid=33158024 transcript=LOC_Os05g47650.1 locus=LOC_Os05g47650 ID=LOC_Os05g47650.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g47650.1_pacid=33158024_transcript=LOC_Os05g47650.1_locus=LOC_Os05g47650
+NOTE: Change sequence name 'LOC_Os02g42585.1 pacid=33136621 transcript=LOC_Os02g42585.1 locus=LOC_Os02g42585 ID=LOC_Os02g42585.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g42585.1_pacid=33136621_transcript=LOC_Os02g42585.1_locus=LOC_Os02g42585
+NOTE: Change sequence name 'LOC_Os07g10410.1 pacid=33117444 transcript=LOC_Os07g10410.1 locus=LOC_Os07g10410 ID=LOC_Os07g10410.1.MSUv7.0 annot-version=v7.0' -> LOC_Os07g10410.1_pacid=33117444_transcript=LOC_Os07g10410.1_locus=LOC_Os07g10410
+NOTE: Change sequence name 'LOC_Os07g42510.1 pacid=33116612 transcript=LOC_Os07g42510.1 locus=LOC_Os07g42510 ID=LOC_Os07g42510.1.MSUv7.0 annot-version=v7.0' -> LOC_Os07g42510.1_pacid=33116612_transcript=LOC_Os07g42510.1_locus=LOC_Os07g42510
+NOTE: Change sequence name 'LOC_Os12g41030.1 pacid=33153701 transcript=LOC_Os12g41030.1 locus=LOC_Os12g41030 ID=LOC_Os12g41030.1.MSUv7.0 annot-version=v7.0' -> LOC_Os12g41030.1_pacid=33153701_transcript=LOC_Os12g41030.1_locus=LOC_Os12g41030
+NOTE: Change sequence name 'LOC_Os02g43820.1 pacid=33139963 transcript=LOC_Os02g43820.1 locus=LOC_Os02g43820 ID=LOC_Os02g43820.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g43820.1_pacid=33139963_transcript=LOC_Os02g43820.1_locus=LOC_Os02g43820
+NOTE: Change sequence name 'LOC_Os04g46240.1 pacid=33109255 transcript=LOC_Os04g46240.1 locus=LOC_Os04g46240 ID=LOC_Os04g46240.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g46240.1_pacid=33109255_transcript=LOC_Os04g46240.1_locus=LOC_Os04g46240
+NOTE: Change sequence name 'LOC_Os04g46250.1 pacid=33113462 transcript=LOC_Os04g46250.1 locus=LOC_Os04g46250 ID=LOC_Os04g46250.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g46250.1_pacid=33113462_transcript=LOC_Os04g46250.1_locus=LOC_Os04g46250
+NOTE: Change sequence name 'LOC_Os10g41330.1 pacid=33098942 transcript=LOC_Os10g41330.1 locus=LOC_Os10g41330 ID=LOC_Os10g41330.1.MSUv7.0 annot-version=v7.0' -> LOC_Os10g41330.1_pacid=33098942_transcript=LOC_Os10g41330.1_locus=LOC_Os10g41330
+NOTE: Change sequence name 'LOC_Os10g41330.2 pacid=33098943 transcript=LOC_Os10g41330.2 locus=LOC_Os10g41330 ID=LOC_Os10g41330.2.MSUv7.0 annot-version=v7.0' -> LOC_Os10g41330.2_pacid=33098943_transcript=LOC_Os10g41330.2_locus=LOC_Os10g41330
+NOTE: Change sequence name 'LOC_Os05g29810.1 pacid=33155292 transcript=LOC_Os05g29810.1 locus=LOC_Os05g29810 ID=LOC_Os05g29810.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g29810.1_pacid=33155292_transcript=LOC_Os05g29810.1_locus=LOC_Os05g29810
+NOTE: Change sequence name 'LOC_Os02g52670.1 pacid=33136939 transcript=LOC_Os02g52670.1 locus=LOC_Os02g52670 ID=LOC_Os02g52670.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g52670.1_pacid=33136939_transcript=LOC_Os02g52670.1_locus=LOC_Os02g52670
+NOTE: Change sequence name 'LOC_Os04g55520.1 pacid=33110743 transcript=LOC_Os04g55520.1 locus=LOC_Os04g55520 ID=LOC_Os04g55520.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g55520.1_pacid=33110743_transcript=LOC_Os04g55520.1_locus=LOC_Os04g55520
+NOTE: Change sequence name 'LOC_Os09g39810.1 pacid=33142873 transcript=LOC_Os09g39810.1 locus=LOC_Os09g39810 ID=LOC_Os09g39810.1.MSUv7.0 annot-version=v7.0' -> LOC_Os09g39810.1_pacid=33142873_transcript=LOC_Os09g39810.1_locus=LOC_Os09g39810
+NOTE: Change sequence name 'LOC_Os01g59780.1 pacid=33121173 transcript=LOC_Os01g59780.1 locus=LOC_Os01g59780 ID=LOC_Os01g59780.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g59780.1_pacid=33121173_transcript=LOC_Os01g59780.1_locus=LOC_Os01g59780
+NOTE: Change sequence name 'LOC_Os04g18650.1 pacid=33112351 transcript=LOC_Os04g18650.1 locus=LOC_Os04g18650 ID=LOC_Os04g18650.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g18650.1_pacid=33112351_transcript=LOC_Os04g18650.1_locus=LOC_Os04g18650
+NOTE: Change sequence name 'LOC_Os03g05590.1 pacid=33127906 transcript=LOC_Os03g05590.1 locus=LOC_Os03g05590 ID=LOC_Os03g05590.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g05590.1_pacid=33127906_transcript=LOC_Os03g05590.1_locus=LOC_Os03g05590
+NOTE: Change sequence name 'LOC_Os08g36920.1 pacid=33103549 transcript=LOC_Os08g36920.1 locus=LOC_Os08g36920 ID=LOC_Os08g36920.1.MSUv7.0 annot-version=v7.0' -> LOC_Os08g36920.1_pacid=33103549_transcript=LOC_Os08g36920.1_locus=LOC_Os08g36920
+NOTE: Change sequence name 'LOC_Os09g28440.1 pacid=33144130 transcript=LOC_Os09g28440.1 locus=LOC_Os09g28440 ID=LOC_Os09g28440.1.MSUv7.0 annot-version=v7.0' -> LOC_Os09g28440.1_pacid=33144130_transcript=LOC_Os09g28440.1_locus=LOC_Os09g28440
+NOTE: Change sequence name 'LOC_Os05g28800.1 pacid=33157337 transcript=LOC_Os05g28800.1 locus=LOC_Os05g28800 ID=LOC_Os05g28800.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g28800.1_pacid=33157337_transcript=LOC_Os05g28800.1_locus=LOC_Os05g28800
+NOTE: Change sequence name 'LOC_Os05g41760.1 pacid=33156327 transcript=LOC_Os05g41760.1 locus=LOC_Os05g41760 ID=LOC_Os05g41760.1.MSUv7.0 annot-version=v7.0' -> LOC_Os05g41760.1_pacid=33156327_transcript=LOC_Os05g41760.1_locus=LOC_Os05g41760
+NOTE: Change sequence name 'LOC_Os09g26420.5 pacid=33140639 transcript=LOC_Os09g26420.5 locus=LOC_Os09g26420 ID=LOC_Os09g26420.5.MSUv7.0 annot-version=v7.0' -> LOC_Os09g26420.5_pacid=33140639_transcript=LOC_Os09g26420.5_locus=LOC_Os09g26420
+NOTE: Change sequence name 'LOC_Os09g26420.1 pacid=33140640 transcript=LOC_Os09g26420.1 locus=LOC_Os09g26420 ID=LOC_Os09g26420.1.MSUv7.0 annot-version=v7.0' -> LOC_Os09g26420.1_pacid=33140640_transcript=LOC_Os09g26420.1_locus=LOC_Os09g26420
+NOTE: Change sequence name 'LOC_Os09g26420.2 pacid=33140641 transcript=LOC_Os09g26420.2 locus=LOC_Os09g26420 ID=LOC_Os09g26420.2.MSUv7.0 annot-version=v7.0' -> LOC_Os09g26420.2_pacid=33140641_transcript=LOC_Os09g26420.2_locus=LOC_Os09g26420
+NOTE: Change sequence name 'LOC_Os09g26420.4 pacid=33140642 transcript=LOC_Os09g26420.4 locus=LOC_Os09g26420 ID=LOC_Os09g26420.4.MSUv7.0 annot-version=v7.0' -> LOC_Os09g26420.4_pacid=33140642_transcript=LOC_Os09g26420.4_locus=LOC_Os09g26420
+NOTE: Change sequence name 'LOC_Os02g54160.2 pacid=33140082 transcript=LOC_Os02g54160.2 locus=LOC_Os02g54160 ID=LOC_Os02g54160.2.MSUv7.0 annot-version=v7.0' -> LOC_Os02g54160.2_pacid=33140082_transcript=LOC_Os02g54160.2_locus=LOC_Os02g54160
+NOTE: Change sequence name 'LOC_Os02g54160.1 pacid=33140083 transcript=LOC_Os02g54160.1 locus=LOC_Os02g54160 ID=LOC_Os02g54160.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g54160.1_pacid=33140083_transcript=LOC_Os02g54160.1_locus=LOC_Os02g54160
+NOTE: Change sequence name 'LOC_Os06g09390.1 pacid=33144624 transcript=LOC_Os06g09390.1 locus=LOC_Os06g09390 ID=LOC_Os06g09390.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g09390.1_pacid=33144624_transcript=LOC_Os06g09390.1_locus=LOC_Os06g09390
+NOTE: Change sequence name 'LOC_Os06g09390.2 pacid=33144625 transcript=LOC_Os06g09390.2 locus=LOC_Os06g09390 ID=LOC_Os06g09390.2.MSUv7.0 annot-version=v7.0' -> LOC_Os06g09390.2_pacid=33144625_transcript=LOC_Os06g09390.2_locus=LOC_Os06g09390
+NOTE: Change sequence name 'LOC_Os01g46870.1 pacid=33125519 transcript=LOC_Os01g46870.1 locus=LOC_Os01g46870 ID=LOC_Os01g46870.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g46870.1_pacid=33125519_transcript=LOC_Os01g46870.1_locus=LOC_Os01g46870
+NOTE: Change sequence name 'LOC_Os06g06540.1 pacid=33146525 transcript=LOC_Os06g06540.1 locus=LOC_Os06g06540 ID=LOC_Os06g06540.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g06540.1_pacid=33146525_transcript=LOC_Os06g06540.1_locus=LOC_Os06g06540
+NOTE: Change sequence name 'LOC_Os12g03290.1 pacid=33149991 transcript=LOC_Os12g03290.1 locus=LOC_Os12g03290 ID=LOC_Os12g03290.1.MSUv7.0 annot-version=v7.0' -> LOC_Os12g03290.1_pacid=33149991_transcript=LOC_Os12g03290.1_locus=LOC_Os12g03290
+NOTE: Change sequence name 'LOC_Os11g03540.1 pacid=33162894 transcript=LOC_Os11g03540.1 locus=LOC_Os11g03540 ID=LOC_Os11g03540.1.MSUv7.0 annot-version=v7.0' -> LOC_Os11g03540.1_pacid=33162894_transcript=LOC_Os11g03540.1_locus=LOC_Os11g03540
+NOTE: Change sequence name 'LOC_Os03g07940.1 pacid=33129601 transcript=LOC_Os03g07940.1 locus=LOC_Os03g07940 ID=LOC_Os03g07940.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g07940.1_pacid=33129601_transcript=LOC_Os03g07940.1_locus=LOC_Os03g07940
+NOTE: Change sequence name 'LOC_Os06g43220.1 pacid=33148266 transcript=LOC_Os06g43220.1 locus=LOC_Os06g43220 ID=LOC_Os06g43220.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g43220.1_pacid=33148266_transcript=LOC_Os06g43220.1_locus=LOC_Os06g43220
+NOTE: Change sequence name 'LOC_Os04g48350.1 pacid=33109128 transcript=LOC_Os04g48350.1 locus=LOC_Os04g48350 ID=LOC_Os04g48350.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g48350.1_pacid=33109128_transcript=LOC_Os04g48350.1_locus=LOC_Os04g48350
+NOTE: Change sequence name 'LOC_Os03g08460.1 pacid=33129224 transcript=LOC_Os03g08460.1 locus=LOC_Os03g08460 ID=LOC_Os03g08460.1.MSUv7.0 annot-version=v7.0' -> LOC_Os03g08460.1_pacid=33129224_transcript=LOC_Os03g08460.1_locus=LOC_Os03g08460
+NOTE: Change sequence name 'LOC_Os04g32620.1 pacid=33107436 transcript=LOC_Os04g32620.1 locus=LOC_Os04g32620 ID=LOC_Os04g32620.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g32620.1_pacid=33107436_transcript=LOC_Os04g32620.1_locus=LOC_Os04g32620
+NOTE: Change sequence name 'LOC_Os12g39330.1 pacid=33152890 transcript=LOC_Os12g39330.1 locus=LOC_Os12g39330 ID=LOC_Os12g39330.1.MSUv7.0 annot-version=v7.0' -> LOC_Os12g39330.1_pacid=33152890_transcript=LOC_Os12g39330.1_locus=LOC_Os12g39330
+NOTE: Change sequence name 'LOC_Os11g13840.1 pacid=33162933 transcript=LOC_Os11g13840.1 locus=LOC_Os11g13840 ID=LOC_Os11g13840.1.MSUv7.0 annot-version=v7.0' -> LOC_Os11g13840.1_pacid=33162933_transcript=LOC_Os11g13840.1_locus=LOC_Os11g13840
+NOTE: Change sequence name 'LOC_Os04g55560.2 pacid=33112494 transcript=LOC_Os04g55560.2 locus=LOC_Os04g55560 ID=LOC_Os04g55560.2.MSUv7.0 annot-version=v7.0' -> LOC_Os04g55560.2_pacid=33112494_transcript=LOC_Os04g55560.2_locus=LOC_Os04g55560
+NOTE: Change sequence name 'LOC_Os04g55560.3 pacid=33112495 transcript=LOC_Os04g55560.3 locus=LOC_Os04g55560 ID=LOC_Os04g55560.3.MSUv7.0 annot-version=v7.0' -> LOC_Os04g55560.3_pacid=33112495_transcript=LOC_Os04g55560.3_locus=LOC_Os04g55560
+NOTE: Change sequence name 'LOC_Os02g55380.1 pacid=33135538 transcript=LOC_Os02g55380.1 locus=LOC_Os02g55380 ID=LOC_Os02g55380.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g55380.1_pacid=33135538_transcript=LOC_Os02g55380.1_locus=LOC_Os02g55380
+NOTE: Change sequence name 'LOC_Os06g08340.1 pacid=33145476 transcript=LOC_Os06g08340.1 locus=LOC_Os06g08340 ID=LOC_Os06g08340.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g08340.1_pacid=33145476_transcript=LOC_Os06g08340.1_locus=LOC_Os06g08340
+NOTE: Change sequence name 'LOC_Os04g46410.1 pacid=33111169 transcript=LOC_Os04g46410.1 locus=LOC_Os04g46410 ID=LOC_Os04g46410.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g46410.1_pacid=33111169_transcript=LOC_Os04g46410.1_locus=LOC_Os04g46410
+NOTE: Change sequence name 'LOC_Os02g10760.1 pacid=33135229 transcript=LOC_Os02g10760.1 locus=LOC_Os02g10760 ID=LOC_Os02g10760.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g10760.1_pacid=33135229_transcript=LOC_Os02g10760.1_locus=LOC_Os02g10760
+NOTE: Change sequence name 'LOC_Os06g40150.1 pacid=33146673 transcript=LOC_Os06g40150.1 locus=LOC_Os06g40150 ID=LOC_Os06g40150.1.MSUv7.0 annot-version=v7.0' -> LOC_Os06g40150.1_pacid=33146673_transcript=LOC_Os06g40150.1_locus=LOC_Os06g40150
+NOTE: Change sequence name 'LOC_Os04g46440.1 pacid=33112718 transcript=LOC_Os04g46440.1 locus=LOC_Os04g46440 ID=LOC_Os04g46440.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g46440.1_pacid=33112718_transcript=LOC_Os04g46440.1_locus=LOC_Os04g46440
+NOTE: Change sequence name 'LOC_Os04g46220.1 pacid=33108698 transcript=LOC_Os04g46220.1 locus=LOC_Os04g46220 ID=LOC_Os04g46220.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g46220.1_pacid=33108698_transcript=LOC_Os04g46220.1_locus=LOC_Os04g46220
+NOTE: Change sequence name 'LOC_Os01g12440.1 pacid=33126483 transcript=LOC_Os01g12440.1 locus=LOC_Os01g12440 ID=LOC_Os01g12440.1.MSUv7.0 annot-version=v7.0' -> LOC_Os01g12440.1_pacid=33126483_transcript=LOC_Os01g12440.1_locus=LOC_Os01g12440
+NOTE: Change sequence name 'LOC_Os10g41130.1 pacid=33101110 transcript=LOC_Os10g41130.1 locus=LOC_Os10g41130 ID=LOC_Os10g41130.1.MSUv7.0 annot-version=v7.0' -> LOC_Os10g41130.1_pacid=33101110_transcript=LOC_Os10g41130.1_locus=LOC_Os10g41130
+NOTE: Change sequence name 'LOC_Os04g56150.1 pacid=33112968 transcript=LOC_Os04g56150.1 locus=LOC_Os04g56150 ID=LOC_Os04g56150.1.MSUv7.0 annot-version=v7.0' -> LOC_Os04g56150.1_pacid=33112968_transcript=LOC_Os04g56150.1_locus=LOC_Os04g56150
+NOTE: Change sequence name 'LOC_Os02g43790.1 pacid=33135481 transcript=LOC_Os02g43790.1 locus=LOC_Os02g43790 ID=LOC_Os02g43790.1.MSUv7.0 annot-version=v7.0' -> LOC_Os02g43790.1_pacid=33135481_transcript=LOC_Os02g43790.1_locus=LOC_Os02g43790
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0363591 secs using 54.59% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 351 sequences with 5212 columns, 3074 distinct patterns
+1190 parsimony-informative, 1052 singleton sites, 2970 constant sites
+WARNING: Some sequence names are changed as follows:
+LOC_Os02g39990.1_pacid=33136244_transcript=LOC_Os02g39990.1_locus=LOC_Os02g39990 -> LOC_Os02g39990.1_pacid_33136244_transcript_LOC_Os02g39990.1_locus_LOC_Os02g39990
+LOC_Os04g51180.2_pacid=33111173_transcript=LOC_Os04g51180.2_locus=LOC_Os04g51180 -> LOC_Os04g51180.2_pacid_33111173_transcript_LOC_Os04g51180.2_locus_LOC_Os04g51180
+LOC_Os01g15540.1_pacid=33122644_transcript=LOC_Os01g15540.1_locus=LOC_Os01g15540 -> LOC_Os01g15540.1_pacid_33122644_transcript_LOC_Os01g15540.1_locus_LOC_Os01g15540
+LOC_Os04g35510.1_pacid=33111445_transcript=LOC_Os04g35510.1_locus=LOC_Os04g35510 -> LOC_Os04g35510.1_pacid_33111445_transcript_LOC_Os04g35510.1_locus_LOC_Os04g35510
+LOC_Os04g35510.2_pacid=33111446_transcript=LOC_Os04g35510.2_locus=LOC_Os04g35510 -> LOC_Os04g35510.2_pacid_33111446_transcript_LOC_Os04g35510.2_locus_LOC_Os04g35510
+LOC_Os05g19470.5_pacid=33156880_transcript=LOC_Os05g19470.5_locus=LOC_Os05g19470 -> LOC_Os05g19470.5_pacid_33156880_transcript_LOC_Os05g19470.5_locus_LOC_Os05g19470
+LOC_Os08g14640.1_pacid=33104194_transcript=LOC_Os08g14640.1_locus=LOC_Os08g14640 -> LOC_Os08g14640.1_pacid_33104194_transcript_LOC_Os08g14640.1_locus_LOC_Os08g14640
+LOC_Os08g14640.2_pacid=33104195_transcript=LOC_Os08g14640.2_locus=LOC_Os08g14640 -> LOC_Os08g14640.2_pacid_33104195_transcript_LOC_Os08g14640.2_locus_LOC_Os08g14640
+LOC_Os02g07340.1_pacid=33136471_transcript=LOC_Os02g07340.1_locus=LOC_Os02g07340 -> LOC_Os02g07340.1_pacid_33136471_transcript_LOC_Os02g07340.1_locus_LOC_Os02g07340
+LOC_Os03g19900.1_pacid=33128397_transcript=LOC_Os03g19900.1_locus=LOC_Os03g19900 -> LOC_Os03g19900.1_pacid_33128397_transcript_LOC_Os03g19900.1_locus_LOC_Os03g19900
+LOC_Os01g11510.1_pacid=33124622_transcript=LOC_Os01g11510.1_locus=LOC_Os01g11510 -> LOC_Os01g11510.1_pacid_33124622_transcript_LOC_Os01g11510.1_locus_LOC_Os01g11510
+LOC_Os01g11510.1_pacid=33124622_transcript=LOC_Os01g11510.1_locus=LOC_Os01g11510 -> LOC_Os01g11510.1_pacid_33124622_transcript_LOC_Os01g11510.1_locus_LOC_Os01g11510
+LOC_Os01g68420.1_pacid=33120012_transcript=LOC_Os01g68420.1_locus=LOC_Os01g68420 -> LOC_Os01g68420.1_pacid_33120012_transcript_LOC_Os01g68420.1_locus_LOC_Os01g68420
+LOC_Os01g23780.1_pacid=33121393_transcript=LOC_Os01g23780.1_locus=LOC_Os01g23780 -> LOC_Os01g23780.1_pacid_33121393_transcript_LOC_Os01g23780.1_locus_LOC_Os01g23780
+LOC_Os01g67890.1_pacid=33121253_transcript=LOC_Os01g67890.1_locus=LOC_Os01g67890 -> LOC_Os01g67890.1_pacid_33121253_transcript_LOC_Os01g67890.1_locus_LOC_Os01g67890
+LOC_Os07g04170.1_pacid=33114516_transcript=LOC_Os07g04170.1_locus=LOC_Os07g04170 -> LOC_Os07g04170.1_pacid_33114516_transcript_LOC_Os07g04170.1_locus_LOC_Os07g04170
+LOC_Os07g04170.1_pacid=33114516_transcript=LOC_Os07g04170.1_locus=LOC_Os07g04170 -> LOC_Os07g04170.1_pacid_33114516_transcript_LOC_Os07g04170.1_locus_LOC_Os07g04170
+LOC_Os04g38780.1_pacid=33112272_transcript=LOC_Os04g38780.1_locus=LOC_Os04g38780 -> LOC_Os04g38780.1_pacid_33112272_transcript_LOC_Os04g38780.1_locus_LOC_Os04g38780
+LOC_Os04g38780.1_pacid=33112272_transcript=LOC_Os04g38780.1_locus=LOC_Os04g38780 -> LOC_Os04g38780.1_pacid_33112272_transcript_LOC_Os04g38780.1_locus_LOC_Os04g38780
+LOC_Os03g37670.1_pacid=33133133_transcript=LOC_Os03g37670.1_locus=LOC_Os03g37670 -> LOC_Os03g37670.1_pacid_33133133_transcript_LOC_Os03g37670.1_locus_LOC_Os03g37670
+LOC_Os01g18440.1_pacid=33125437_transcript=LOC_Os01g18440.1_locus=LOC_Os01g18440 -> LOC_Os01g18440.1_pacid_33125437_transcript_LOC_Os01g18440.1_locus_LOC_Os01g18440
+LOC_Os01g18440.1_pacid=33125437_transcript=LOC_Os01g18440.1_locus=LOC_Os01g18440 -> LOC_Os01g18440.1_pacid_33125437_transcript_LOC_Os01g18440.1_locus_LOC_Os01g18440
+LOC_Os01g18420.1_pacid=33120120_transcript=LOC_Os01g18420.1_locus=LOC_Os01g18420 -> LOC_Os01g18420.1_pacid_33120120_transcript_LOC_Os01g18420.1_locus_LOC_Os01g18420
+LOC_Os01g18420.1_pacid=33120120_transcript=LOC_Os01g18420.1_locus=LOC_Os01g18420 -> LOC_Os01g18420.1_pacid_33120120_transcript_LOC_Os01g18420.1_locus_LOC_Os01g18420
+LOC_Os03g38610.1_pacid=33131796_transcript=LOC_Os03g38610.1_locus=LOC_Os03g38610 -> LOC_Os03g38610.1_pacid_33131796_transcript_LOC_Os03g38610.1_locus_LOC_Os03g38610
+LOC_Os03g38610.1_pacid=33131796_transcript=LOC_Os03g38610.1_locus=LOC_Os03g38610 -> LOC_Os03g38610.1_pacid_33131796_transcript_LOC_Os03g38610.1_locus_LOC_Os03g38610
+LOC_Os04g25930.1_pacid=33111578_transcript=LOC_Os04g25930.1_locus=LOC_Os04g25930 -> LOC_Os04g25930.1_pacid_33111578_transcript_LOC_Os04g25930.1_locus_LOC_Os04g25930
+LOC_Os04g25870.1_pacid=33108449_transcript=LOC_Os04g25870.1_locus=LOC_Os04g25870 -> LOC_Os04g25870.1_pacid_33108449_transcript_LOC_Os04g25870.1_locus_LOC_Os04g25870
+LOC_Os04g24810.1_pacid=33112071_transcript=LOC_Os04g24810.1_locus=LOC_Os04g24810 -> LOC_Os04g24810.1_pacid_33112071_transcript_LOC_Os04g24810.1_locus_LOC_Os04g24810
+LOC_Os04g24800.1_pacid=33113211_transcript=LOC_Os04g24800.1_locus=LOC_Os04g24800 -> LOC_Os04g24800.1_pacid_33113211_transcript_LOC_Os04g24800.1_locus_LOC_Os04g24800
+LOC_Os04g24790.1_pacid=33110516_transcript=LOC_Os04g24790.1_locus=LOC_Os04g24790 -> LOC_Os04g24790.1_pacid_33110516_transcript_LOC_Os04g24790.1_locus_LOC_Os04g24790
+LOC_Os04g25920.1_pacid=33112902_transcript=LOC_Os04g25920.1_locus=LOC_Os04g25920 -> LOC_Os04g25920.1_pacid_33112902_transcript_LOC_Os04g25920.1_locus_LOC_Os04g25920
+LOC_Os01g68560.1_pacid=33125490_transcript=LOC_Os01g68560.1_locus=LOC_Os01g68560 -> LOC_Os01g68560.1_pacid_33125490_transcript_LOC_Os01g68560.1_locus_LOC_Os01g68560
+LOC_Os01g68560.1_pacid=33125490_transcript=LOC_Os01g68560.1_locus=LOC_Os01g68560 -> LOC_Os01g68560.1_pacid_33125490_transcript_LOC_Os01g68560.1_locus_LOC_Os01g68560
+LOC_Os01g23750.1_pacid=33120960_transcript=LOC_Os01g23750.1_locus=LOC_Os01g23750 -> LOC_Os01g23750.1_pacid_33120960_transcript_LOC_Os01g23750.1_locus_LOC_Os01g23750
+LOC_Os11g43740.1_pacid=33163547_transcript=LOC_Os11g43740.1_locus=LOC_Os11g43740 -> LOC_Os11g43740.1_pacid_33163547_transcript_LOC_Os11g43740.1_locus_LOC_Os11g43740
+LOC_Os11g43740.1_pacid=33163547_transcript=LOC_Os11g43740.1_locus=LOC_Os11g43740 -> LOC_Os11g43740.1_pacid_33163547_transcript_LOC_Os11g43740.1_locus_LOC_Os11g43740
+LOC_Os11g43740.1_pacid=33163547_transcript=LOC_Os11g43740.1_locus=LOC_Os11g43740 -> LOC_Os11g43740.1_pacid_33163547_transcript_LOC_Os11g43740.1_locus_LOC_Os11g43740
+LOC_Os06g22760.1_pacid=33147005_transcript=LOC_Os06g22760.1_locus=LOC_Os06g22760 -> LOC_Os06g22760.1_pacid_33147005_transcript_LOC_Os06g22760.1_locus_LOC_Os06g22760
+LOC_Os06g22760.1_pacid=33147005_transcript=LOC_Os06g22760.1_locus=LOC_Os06g22760 -> LOC_Os06g22760.1_pacid_33147005_transcript_LOC_Os06g22760.1_locus_LOC_Os06g22760
+LOC_Os05g23780.1_pacid=33158793_transcript=LOC_Os05g23780.1_locus=LOC_Os05g23780 -> LOC_Os05g23780.1_pacid_33158793_transcript_LOC_Os05g23780.1_locus_LOC_Os05g23780
+LOC_Os05g23780.1_pacid=33158793_transcript=LOC_Os05g23780.1_locus=LOC_Os05g23780 -> LOC_Os05g23780.1_pacid_33158793_transcript_LOC_Os05g23780.1_locus_LOC_Os05g23780
+LOC_Os01g23760.1_pacid=33123492_transcript=LOC_Os01g23760.1_locus=LOC_Os01g23760 -> LOC_Os01g23760.1_pacid_33123492_transcript_LOC_Os01g23760.1_locus_LOC_Os01g23760
+LOC_Os01g23760.1_pacid=33123492_transcript=LOC_Os01g23760.1_locus=LOC_Os01g23760 -> LOC_Os01g23760.1_pacid_33123492_transcript_LOC_Os01g23760.1_locus_LOC_Os01g23760
+LOC_Os02g06860.1_pacid=33140095_transcript=LOC_Os02g06860.1_locus=LOC_Os02g06860 -> LOC_Os02g06860.1_pacid_33140095_transcript_LOC_Os02g06860.1_locus_LOC_Os02g06860
+LOC_Os02g06860.1_pacid=33140095_transcript=LOC_Os02g06860.1_locus=LOC_Os02g06860 -> LOC_Os02g06860.1_pacid_33140095_transcript_LOC_Os02g06860.1_locus_LOC_Os02g06860
+LOC_Os08g07520.1_pacid=33103787_transcript=LOC_Os08g07520.1_locus=LOC_Os08g07520 -> LOC_Os08g07520.1_pacid_33103787_transcript_LOC_Os08g07520.1_locus_LOC_Os08g07520
+LOC_Os06g23980.1_pacid=33146326_transcript=LOC_Os06g23980.1_locus=LOC_Os06g23980 -> LOC_Os06g23980.1_pacid_33146326_transcript_LOC_Os06g23980.1_locus_LOC_Os06g23980
+LOC_Os06g23980.1_pacid=33146326_transcript=LOC_Os06g23980.1_locus=LOC_Os06g23980 -> LOC_Os06g23980.1_pacid_33146326_transcript_LOC_Os06g23980.1_locus_LOC_Os06g23980
+LOC_Os03g03070.1_pacid=33130968_transcript=LOC_Os03g03070.1_locus=LOC_Os03g03070 -> LOC_Os03g03070.1_pacid_33130968_transcript_LOC_Os03g03070.1_locus_LOC_Os03g03070
+LOC_Os03g03070.1_pacid=33130968_transcript=LOC_Os03g03070.1_locus=LOC_Os03g03070 -> LOC_Os03g03070.1_pacid_33130968_transcript_LOC_Os03g03070.1_locus_LOC_Os03g03070
+LOC_Os01g23770.1_pacid=33121235_transcript=LOC_Os01g23770.1_locus=LOC_Os01g23770 -> LOC_Os01g23770.1_pacid_33121235_transcript_LOC_Os01g23770.1_locus_LOC_Os01g23770
+LOC_Os04g31804.1_pacid=33107627_transcript=LOC_Os04g31804.1_locus=LOC_Os04g31804 -> LOC_Os04g31804.1_pacid_33107627_transcript_LOC_Os04g31804.1_locus_LOC_Os04g31804
+LOC_Os04g31804.1_pacid=33107627_transcript=LOC_Os04g31804.1_locus=LOC_Os04g31804 -> LOC_Os04g31804.1_pacid_33107627_transcript_LOC_Os04g31804.1_locus_LOC_Os04g31804
+LOC_Os04g31804.1_pacid=33107627_transcript=LOC_Os04g31804.1_locus=LOC_Os04g31804 -> LOC_Os04g31804.1_pacid_33107627_transcript_LOC_Os04g31804.1_locus_LOC_Os04g31804
+LOC_Os04g31790.1_pacid=33110021_transcript=LOC_Os04g31790.1_locus=LOC_Os04g31790 -> LOC_Os04g31790.1_pacid_33110021_transcript_LOC_Os04g31790.1_locus_LOC_Os04g31790
+LOC_Os03g14850.1_pacid=33132626_transcript=LOC_Os03g14850.1_locus=LOC_Os03g14850 -> LOC_Os03g14850.1_pacid_33132626_transcript_LOC_Os03g14850.1_locus_LOC_Os03g14850
+LOC_Os06g11970.1_pacid=33144614_transcript=LOC_Os06g11970.1_locus=LOC_Os06g11970 -> LOC_Os06g11970.1_pacid_33144614_transcript_LOC_Os06g11970.1_locus_LOC_Os06g11970
+LOC_Os06g11970.1_pacid=33144614_transcript=LOC_Os06g11970.1_locus=LOC_Os06g11970 -> LOC_Os06g11970.1_pacid_33144614_transcript_LOC_Os06g11970.1_locus_LOC_Os06g11970
+LOC_Os09g02780.1_pacid=33141055_transcript=LOC_Os09g02780.1_locus=LOC_Os09g02780 -> LOC_Os09g02780.1_pacid_33141055_transcript_LOC_Os09g02780.1_locus_LOC_Os09g02780
+LOC_Os01g74440.1_pacid=33121567_transcript=LOC_Os01g74440.1_locus=LOC_Os01g74440 -> LOC_Os01g74440.1_pacid_33121567_transcript_LOC_Os01g74440.1_locus_LOC_Os01g74440
+LOC_Os01g74440.1_pacid=33121567_transcript=LOC_Os01g74440.1_locus=LOC_Os01g74440 -> LOC_Os01g74440.1_pacid_33121567_transcript_LOC_Os01g74440.1_locus_LOC_Os01g74440
+LOC_Os09g02830.1_pacid=33142791_transcript=LOC_Os09g02830.1_locus=LOC_Os09g02830 -> LOC_Os09g02830.1_pacid_33142791_transcript_LOC_Os09g02830.1_locus_LOC_Os09g02830
+LOC_Os09g02830.1_pacid=33142791_transcript=LOC_Os09g02830.1_locus=LOC_Os09g02830 -> LOC_Os09g02830.1_pacid_33142791_transcript_LOC_Os09g02830.1_locus_LOC_Os09g02830
+LOC_Os01g69850.1_pacid=33121340_transcript=LOC_Os01g69850.1_locus=LOC_Os01g69850 -> LOC_Os01g69850.1_pacid_33121340_transcript_LOC_Os01g69850.1_locus_LOC_Os01g69850
+LOC_Os01g69850.1_pacid=33121340_transcript=LOC_Os01g69850.1_locus=LOC_Os01g69850 -> LOC_Os01g69850.1_pacid_33121340_transcript_LOC_Os01g69850.1_locus_LOC_Os01g69850
+LOC_Os06g30830.1_pacid=33144999_transcript=LOC_Os06g30830.1_locus=LOC_Os06g30830 -> LOC_Os06g30830.1_pacid_33144999_transcript_LOC_Os06g30830.1_locus_LOC_Os06g30830
+LOC_Os06g30830.1_pacid=33144999_transcript=LOC_Os06g30830.1_locus=LOC_Os06g30830 -> LOC_Os06g30830.1_pacid_33144999_transcript_LOC_Os06g30830.1_locus_LOC_Os06g30830
+LOC_Os06g49840.1_pacid=33145766_transcript=LOC_Os06g49840.1_locus=LOC_Os06g49840 -> LOC_Os06g49840.1_pacid_33145766_transcript_LOC_Os06g49840.1_locus_LOC_Os06g49840
+LOC_Os06g49840.1_pacid=33145766_transcript=LOC_Os06g49840.1_locus=LOC_Os06g49840 -> LOC_Os06g49840.1_pacid_33145766_transcript_LOC_Os06g49840.1_locus_LOC_Os06g49840
+LOC_Os06g49840.2_pacid=33145767_transcript=LOC_Os06g49840.2_locus=LOC_Os06g49840 -> LOC_Os06g49840.2_pacid_33145767_transcript_LOC_Os06g49840.2_locus_LOC_Os06g49840
+LOC_Os06g49840.2_pacid=33145767_transcript=LOC_Os06g49840.2_locus=LOC_Os06g49840 -> LOC_Os06g49840.2_pacid_33145767_transcript_LOC_Os06g49840.2_locus_LOC_Os06g49840
+LOC_Os06g49840.1_pacid=33145766_transcript=LOC_Os06g49840.1_locus=LOC_Os06g49840 -> LOC_Os06g49840.1_pacid_33145766_transcript_LOC_Os06g49840.1_locus_LOC_Os06g49840
+LOC_Os06g49840.2_pacid=33145767_transcript=LOC_Os06g49840.2_locus=LOC_Os06g49840 -> LOC_Os06g49840.2_pacid_33145767_transcript_LOC_Os06g49840.2_locus_LOC_Os06g49840
+LOC_Os06g30810.1_pacid=33146678_transcript=LOC_Os06g30810.1_locus=LOC_Os06g30810 -> LOC_Os06g30810.1_pacid_33146678_transcript_LOC_Os06g30810.1_locus_LOC_Os06g30810
+LOC_Os06g30810.1_pacid=33146678_transcript=LOC_Os06g30810.1_locus=LOC_Os06g30810 -> LOC_Os06g30810.1_pacid_33146678_transcript_LOC_Os06g30810.1_locus_LOC_Os06g30810
+LOC_Os04g38770.1_pacid=33109898_transcript=LOC_Os04g38770.1_locus=LOC_Os04g38770 -> LOC_Os04g38770.1_pacid_33109898_transcript_LOC_Os04g38770.1_locus_LOC_Os04g38770
+LOC_Os04g38770.1_pacid=33109898_transcript=LOC_Os04g38770.1_locus=LOC_Os04g38770 -> LOC_Os04g38770.1_pacid_33109898_transcript_LOC_Os04g38770.1_locus_LOC_Os04g38770
+LOC_Os12g21850.1_pacid=33151746_transcript=LOC_Os12g21850.1_locus=LOC_Os12g21850 -> LOC_Os12g21850.1_pacid_33151746_transcript_LOC_Os12g21850.1_locus_LOC_Os12g21850
+LOC_Os12g21850.1_pacid=33151746_transcript=LOC_Os12g21850.1_locus=LOC_Os12g21850 -> LOC_Os12g21850.1_pacid_33151746_transcript_LOC_Os12g21850.1_locus_LOC_Os12g21850
+LOC_Os08g38590.1_pacid=33102888_transcript=LOC_Os08g38590.1_locus=LOC_Os08g38590 -> LOC_Os08g38590.1_pacid_33102888_transcript_LOC_Os08g38590.1_locus_LOC_Os08g38590
+LOC_Os08g38590.1_pacid=33102888_transcript=LOC_Os08g38590.1_locus=LOC_Os08g38590 -> LOC_Os08g38590.1_pacid_33102888_transcript_LOC_Os08g38590.1_locus_LOC_Os08g38590
+LOC_Os08g41960.1_pacid=33105356_transcript=LOC_Os08g41960.1_locus=LOC_Os08g41960 -> LOC_Os08g41960.1_pacid_33105356_transcript_LOC_Os08g41960.1_locus_LOC_Os08g41960
+LOC_Os08g41960.1_pacid=33105356_transcript=LOC_Os08g41960.1_locus=LOC_Os08g41960 -> LOC_Os08g41960.1_pacid_33105356_transcript_LOC_Os08g41960.1_locus_LOC_Os08g41960
+LOC_Os08g41960.1_pacid=33105356_transcript=LOC_Os08g41960.1_locus=LOC_Os08g41960 -> LOC_Os08g41960.1_pacid_33105356_transcript_LOC_Os08g41960.1_locus_LOC_Os08g41960
+LOC_Os05g34940.3_pacid=33156105_transcript=LOC_Os05g34940.3_locus=LOC_Os05g34940 -> LOC_Os05g34940.3_pacid_33156105_transcript_LOC_Os05g34940.3_locus_LOC_Os05g34940
+LOC_Os05g34940.3_pacid=33156105_transcript=LOC_Os05g34940.3_locus=LOC_Os05g34940 -> LOC_Os05g34940.3_pacid_33156105_transcript_LOC_Os05g34940.3_locus_LOC_Os05g34940
+LOC_Os05g34940.3_pacid=33156105_transcript=LOC_Os05g34940.3_locus=LOC_Os05g34940 -> LOC_Os05g34940.3_pacid_33156105_transcript_LOC_Os05g34940.3_locus_LOC_Os05g34940
+LOC_Os01g66030.2_pacid=33124264_transcript=LOC_Os01g66030.2_locus=LOC_Os01g66030 -> LOC_Os01g66030.2_pacid_33124264_transcript_LOC_Os01g66030.2_locus_LOC_Os01g66030
+LOC_Os01g66030.2_pacid=33124264_transcript=LOC_Os01g66030.2_locus=LOC_Os01g66030 -> LOC_Os01g66030.2_pacid_33124264_transcript_LOC_Os01g66030.2_locus_LOC_Os01g66030
+LOC_Os01g66030.2_pacid=33124264_transcript=LOC_Os01g66030.2_locus=LOC_Os01g66030 -> LOC_Os01g66030.2_pacid_33124264_transcript_LOC_Os01g66030.2_locus_LOC_Os01g66030
+LOC_Os01g66030.1_pacid=33124263_transcript=LOC_Os01g66030.1_locus=LOC_Os01g66030 -> LOC_Os01g66030.1_pacid_33124263_transcript_LOC_Os01g66030.1_locus_LOC_Os01g66030
+LOC_Os01g66030.1_pacid=33124263_transcript=LOC_Os01g66030.1_locus=LOC_Os01g66030 -> LOC_Os01g66030.1_pacid_33124263_transcript_LOC_Os01g66030.1_locus_LOC_Os01g66030
+LOC_Os01g66030.1_pacid=33124263_transcript=LOC_Os01g66030.1_locus=LOC_Os01g66030 -> LOC_Os01g66030.1_pacid_33124263_transcript_LOC_Os01g66030.1_locus_LOC_Os01g66030
+LOC_Os05g34940.1_pacid=33156103_transcript=LOC_Os05g34940.1_locus=LOC_Os05g34940 -> LOC_Os05g34940.1_pacid_33156103_transcript_LOC_Os05g34940.1_locus_LOC_Os05g34940
+LOC_Os05g34940.1_pacid=33156103_transcript=LOC_Os05g34940.1_locus=LOC_Os05g34940 -> LOC_Os05g34940.1_pacid_33156103_transcript_LOC_Os05g34940.1_locus_LOC_Os05g34940
+LOC_Os05g34940.1_pacid=33156103_transcript=LOC_Os05g34940.1_locus=LOC_Os05g34940 -> LOC_Os05g34940.1_pacid_33156103_transcript_LOC_Os05g34940.1_locus_LOC_Os05g34940
+LOC_Os05g34940.2_pacid=33156104_transcript=LOC_Os05g34940.2_locus=LOC_Os05g34940 -> LOC_Os05g34940.2_pacid_33156104_transcript_LOC_Os05g34940.2_locus_LOC_Os05g34940
+LOC_Os05g34940.2_pacid=33156104_transcript=LOC_Os05g34940.2_locus=LOC_Os05g34940 -> LOC_Os05g34940.2_pacid_33156104_transcript_LOC_Os05g34940.2_locus_LOC_Os05g34940
+LOC_Os05g34940.2_pacid=33156104_transcript=LOC_Os05g34940.2_locus=LOC_Os05g34940 -> LOC_Os05g34940.2_pacid_33156104_transcript_LOC_Os05g34940.2_locus_LOC_Os05g34940
+LOC_Os04g52410.2_pacid=33113035_transcript=LOC_Os04g52410.2_locus=LOC_Os04g52410 -> LOC_Os04g52410.2_pacid_33113035_transcript_LOC_Os04g52410.2_locus_LOC_Os04g52410
+LOC_Os04g52410.2_pacid=33113035_transcript=LOC_Os04g52410.2_locus=LOC_Os04g52410 -> LOC_Os04g52410.2_pacid_33113035_transcript_LOC_Os04g52410.2_locus_LOC_Os04g52410
+LOC_Os04g52410.2_pacid=33113035_transcript=LOC_Os04g52410.2_locus=LOC_Os04g52410 -> LOC_Os04g52410.2_pacid_33113035_transcript_LOC_Os04g52410.2_locus_LOC_Os04g52410
+LOC_Os04g52410.1_pacid=33113036_transcript=LOC_Os04g52410.1_locus=LOC_Os04g52410 -> LOC_Os04g52410.1_pacid_33113036_transcript_LOC_Os04g52410.1_locus_LOC_Os04g52410
+LOC_Os04g52410.1_pacid=33113036_transcript=LOC_Os04g52410.1_locus=LOC_Os04g52410 -> LOC_Os04g52410.1_pacid_33113036_transcript_LOC_Os04g52410.1_locus_LOC_Os04g52410
+LOC_Os04g52410.1_pacid=33113036_transcript=LOC_Os04g52410.1_locus=LOC_Os04g52410 -> LOC_Os04g52410.1_pacid_33113036_transcript_LOC_Os04g52410.1_locus_LOC_Os04g52410
+LOC_Os01g52680.1_pacid=33120775_transcript=LOC_Os01g52680.1_locus=LOC_Os01g52680 -> LOC_Os01g52680.1_pacid_33120775_transcript_LOC_Os01g52680.1_locus_LOC_Os01g52680
+LOC_Os01g52680.1_pacid=33120775_transcript=LOC_Os01g52680.1_locus=LOC_Os01g52680 -> LOC_Os01g52680.1_pacid_33120775_transcript_LOC_Os01g52680.1_locus_LOC_Os01g52680
+LOC_Os01g52680.1_pacid=33120775_transcript=LOC_Os01g52680.1_locus=LOC_Os01g52680 -> LOC_Os01g52680.1_pacid_33120775_transcript_LOC_Os01g52680.1_locus_LOC_Os01g52680
+LOC_Os12g21880.1_pacid=33150817_transcript=LOC_Os12g21880.1_locus=LOC_Os12g21880 -> LOC_Os12g21880.1_pacid_33150817_transcript_LOC_Os12g21880.1_locus_LOC_Os12g21880
+LOC_Os12g21880.1_pacid=33150817_transcript=LOC_Os12g21880.1_locus=LOC_Os12g21880 -> LOC_Os12g21880.1_pacid_33150817_transcript_LOC_Os12g21880.1_locus_LOC_Os12g21880
+LOC_Os02g07430.1_pacid=33135740_transcript=LOC_Os02g07430.1_locus=LOC_Os02g07430 -> LOC_Os02g07430.1_pacid_33135740_transcript_LOC_Os02g07430.1_locus_LOC_Os02g07430
+LOC_Os02g07430.1_pacid=33135740_transcript=LOC_Os02g07430.1_locus=LOC_Os02g07430 -> LOC_Os02g07430.1_pacid_33135740_transcript_LOC_Os02g07430.1_locus_LOC_Os02g07430
+LOC_Os02g07430.1_pacid=33135740_transcript=LOC_Os02g07430.1_locus=LOC_Os02g07430 -> LOC_Os02g07430.1_pacid_33135740_transcript_LOC_Os02g07430.1_locus_LOC_Os02g07430
+LOC_Os12g10540.3_pacid=33153306_transcript=LOC_Os12g10540.3_locus=LOC_Os12g10540 -> LOC_Os12g10540.3_pacid_33153306_transcript_LOC_Os12g10540.3_locus_LOC_Os12g10540
+LOC_Os12g10540.3_pacid=33153306_transcript=LOC_Os12g10540.3_locus=LOC_Os12g10540 -> LOC_Os12g10540.3_pacid_33153306_transcript_LOC_Os12g10540.3_locus_LOC_Os12g10540
+LOC_Os12g10540.1_pacid=33153307_transcript=LOC_Os12g10540.1_locus=LOC_Os12g10540 -> LOC_Os12g10540.1_pacid_33153307_transcript_LOC_Os12g10540.1_locus_LOC_Os12g10540
+LOC_Os12g10540.1_pacid=33153307_transcript=LOC_Os12g10540.1_locus=LOC_Os12g10540 -> LOC_Os12g10540.1_pacid_33153307_transcript_LOC_Os12g10540.1_locus_LOC_Os12g10540
+LOC_Os12g10540.2_pacid=33153308_transcript=LOC_Os12g10540.2_locus=LOC_Os12g10540 -> LOC_Os12g10540.2_pacid_33153308_transcript_LOC_Os12g10540.2_locus_LOC_Os12g10540
+LOC_Os12g10540.2_pacid=33153308_transcript=LOC_Os12g10540.2_locus=LOC_Os12g10540 -> LOC_Os12g10540.2_pacid_33153308_transcript_LOC_Os12g10540.2_locus_LOC_Os12g10540
+LOC_Os12g10540.4_pacid=33153309_transcript=LOC_Os12g10540.4_locus=LOC_Os12g10540 -> LOC_Os12g10540.4_pacid_33153309_transcript_LOC_Os12g10540.4_locus_LOC_Os12g10540
+LOC_Os12g10540.4_pacid=33153309_transcript=LOC_Os12g10540.4_locus=LOC_Os12g10540 -> LOC_Os12g10540.4_pacid_33153309_transcript_LOC_Os12g10540.4_locus_LOC_Os12g10540
+LOC_Os12g10540.3_pacid=33153306_transcript=LOC_Os12g10540.3_locus=LOC_Os12g10540 -> LOC_Os12g10540.3_pacid_33153306_transcript_LOC_Os12g10540.3_locus_LOC_Os12g10540
+LOC_Os12g10540.1_pacid=33153307_transcript=LOC_Os12g10540.1_locus=LOC_Os12g10540 -> LOC_Os12g10540.1_pacid_33153307_transcript_LOC_Os12g10540.1_locus_LOC_Os12g10540
+LOC_Os12g10540.2_pacid=33153308_transcript=LOC_Os12g10540.2_locus=LOC_Os12g10540 -> LOC_Os12g10540.2_pacid_33153308_transcript_LOC_Os12g10540.2_locus_LOC_Os12g10540
+LOC_Os12g10540.4_pacid=33153309_transcript=LOC_Os12g10540.4_locus=LOC_Os12g10540 -> LOC_Os12g10540.4_pacid_33153309_transcript_LOC_Os12g10540.4_locus_LOC_Os12g10540
+LOC_Os12g10540.5_pacid=33153310_transcript=LOC_Os12g10540.5_locus=LOC_Os12g10540 -> LOC_Os12g10540.5_pacid_33153310_transcript_LOC_Os12g10540.5_locus_LOC_Os12g10540
+LOC_Os12g10540.5_pacid=33153310_transcript=LOC_Os12g10540.5_locus=LOC_Os12g10540 -> LOC_Os12g10540.5_pacid_33153310_transcript_LOC_Os12g10540.5_locus_LOC_Os12g10540
+LOC_Os12g10540.5_pacid=33153310_transcript=LOC_Os12g10540.5_locus=LOC_Os12g10540 -> LOC_Os12g10540.5_pacid_33153310_transcript_LOC_Os12g10540.5_locus_LOC_Os12g10540
+LOC_Os03g03100.1_pacid=33128447_transcript=LOC_Os03g03100.1_locus=LOC_Os03g03100 -> LOC_Os03g03100.1_pacid_33128447_transcript_LOC_Os03g03100.1_locus_LOC_Os03g03100
+LOC_Os03g03100.1_pacid=33128447_transcript=LOC_Os03g03100.1_locus=LOC_Os03g03100 -> LOC_Os03g03100.1_pacid_33128447_transcript_LOC_Os03g03100.1_locus_LOC_Os03g03100
+LOC_Os06g23950.1_pacid=33149548_transcript=LOC_Os06g23950.1_locus=LOC_Os06g23950 -> LOC_Os06g23950.1_pacid_33149548_transcript_LOC_Os06g23950.1_locus_LOC_Os06g23950
+LOC_Os06g23950.1_pacid=33149548_transcript=LOC_Os06g23950.1_locus=LOC_Os06g23950 -> LOC_Os06g23950.1_pacid_33149548_transcript_LOC_Os06g23950.1_locus_LOC_Os06g23950
+LOC_Os06g01890.1_pacid=33147010_transcript=LOC_Os06g01890.1_locus=LOC_Os06g01890 -> LOC_Os06g01890.1_pacid_33147010_transcript_LOC_Os06g01890.1_locus_LOC_Os06g01890
+LOC_Os06g01890.1_pacid=33147010_transcript=LOC_Os06g01890.1_locus=LOC_Os06g01890 -> LOC_Os06g01890.1_pacid_33147010_transcript_LOC_Os06g01890.1_locus_LOC_Os06g01890
+LOC_Os06g01890.1_pacid=33147010_transcript=LOC_Os06g01890.1_locus=LOC_Os06g01890 -> LOC_Os06g01890.1_pacid_33147010_transcript_LOC_Os06g01890.1_locus_LOC_Os06g01890
+LOC_Os02g01355.1_pacid=33136811_transcript=LOC_Os02g01355.1_locus=LOC_Os02g01355 -> LOC_Os02g01355.1_pacid_33136811_transcript_LOC_Os02g01355.1_locus_LOC_Os02g01355
+LOC_Os02g01355.1_pacid=33136811_transcript=LOC_Os02g01355.1_locus=LOC_Os02g01355 -> LOC_Os02g01355.1_pacid_33136811_transcript_LOC_Os02g01355.1_locus_LOC_Os02g01355
+LOC_Os02g01355.1_pacid=33136811_transcript=LOC_Os02g01355.1_locus=LOC_Os02g01355 -> LOC_Os02g01355.1_pacid_33136811_transcript_LOC_Os02g01355.1_locus_LOC_Os02g01355
+LOC_Os02g01365.1_pacid=33138640_transcript=LOC_Os02g01365.1_locus=LOC_Os02g01365 -> LOC_Os02g01365.1_pacid_33138640_transcript_LOC_Os02g01365.1_locus_LOC_Os02g01365
+LOC_Os02g01365.1_pacid=33138640_transcript=LOC_Os02g01365.1_locus=LOC_Os02g01365 -> LOC_Os02g01365.1_pacid_33138640_transcript_LOC_Os02g01365.1_locus_LOC_Os02g01365
+LOC_Os02g01365.1_pacid=33138640_transcript=LOC_Os02g01365.1_locus=LOC_Os02g01365 -> LOC_Os02g01365.1_pacid_33138640_transcript_LOC_Os02g01365.1_locus_LOC_Os02g01365
+LOC_Os06g45650.1_pacid=33147474_transcript=LOC_Os06g45650.1_locus=LOC_Os06g45650 -> LOC_Os06g45650.1_pacid_33147474_transcript_LOC_Os06g45650.1_locus_LOC_Os06g45650
+LOC_Os06g45650.1_pacid=33147474_transcript=LOC_Os06g45650.1_locus=LOC_Os06g45650 -> LOC_Os06g45650.1_pacid_33147474_transcript_LOC_Os06g45650.1_locus_LOC_Os06g45650
+LOC_Os06g45650.1_pacid=33147474_transcript=LOC_Os06g45650.1_locus=LOC_Os06g45650 -> LOC_Os06g45650.1_pacid_33147474_transcript_LOC_Os06g45650.1_locus_LOC_Os06g45650
+LOC_Os03g11614.1_pacid=33129283_transcript=LOC_Os03g11614.1_locus=LOC_Os03g11614 -> LOC_Os03g11614.1_pacid_33129283_transcript_LOC_Os03g11614.1_locus_LOC_Os03g11614
+LOC_Os03g11614.1_pacid=33129283_transcript=LOC_Os03g11614.1_locus=LOC_Os03g11614 -> LOC_Os03g11614.1_pacid_33129283_transcript_LOC_Os03g11614.1_locus_LOC_Os03g11614
+LOC_Os03g11614.1_pacid=33129283_transcript=LOC_Os03g11614.1_locus=LOC_Os03g11614 -> LOC_Os03g11614.1_pacid_33129283_transcript_LOC_Os03g11614.1_locus_LOC_Os03g11614
+LOC_Os08g02070.1_pacid=33106269_transcript=LOC_Os08g02070.1_locus=LOC_Os08g02070 -> LOC_Os08g02070.1_pacid_33106269_transcript_LOC_Os08g02070.1_locus_LOC_Os08g02070
+LOC_Os08g02070.1_pacid=33106269_transcript=LOC_Os08g02070.1_locus=LOC_Os08g02070 -> LOC_Os08g02070.1_pacid_33106269_transcript_LOC_Os08g02070.1_locus_LOC_Os08g02070
+LOC_Os08g02070.1_pacid=33106269_transcript=LOC_Os08g02070.1_locus=LOC_Os08g02070 -> LOC_Os08g02070.1_pacid_33106269_transcript_LOC_Os08g02070.1_locus_LOC_Os08g02070
+LOC_Os12g31748.2_pacid=33151404_transcript=LOC_Os12g31748.2_locus=LOC_Os12g31748 -> LOC_Os12g31748.2_pacid_33151404_transcript_LOC_Os12g31748.2_locus_LOC_Os12g31748
+LOC_Os12g31748.2_pacid=33151404_transcript=LOC_Os12g31748.2_locus=LOC_Os12g31748 -> LOC_Os12g31748.2_pacid_33151404_transcript_LOC_Os12g31748.2_locus_LOC_Os12g31748
+LOC_Os12g31748.2_pacid=33151404_transcript=LOC_Os12g31748.2_locus=LOC_Os12g31748 -> LOC_Os12g31748.2_pacid_33151404_transcript_LOC_Os12g31748.2_locus_LOC_Os12g31748
+LOC_Os12g31748.1_pacid=33151405_transcript=LOC_Os12g31748.1_locus=LOC_Os12g31748 -> LOC_Os12g31748.1_pacid_33151405_transcript_LOC_Os12g31748.1_locus_LOC_Os12g31748
+LOC_Os12g31748.1_pacid=33151405_transcript=LOC_Os12g31748.1_locus=LOC_Os12g31748 -> LOC_Os12g31748.1_pacid_33151405_transcript_LOC_Os12g31748.1_locus_LOC_Os12g31748
+LOC_Os12g31748.1_pacid=33151405_transcript=LOC_Os12g31748.1_locus=LOC_Os12g31748 -> LOC_Os12g31748.1_pacid_33151405_transcript_LOC_Os12g31748.1_locus_LOC_Os12g31748
+LOC_Os06g06750.1_pacid=33149580_transcript=LOC_Os06g06750.1_locus=LOC_Os06g06750 -> LOC_Os06g06750.1_pacid_33149580_transcript_LOC_Os06g06750.1_locus_LOC_Os06g06750
+LOC_Os06g06750.1_pacid=33149580_transcript=LOC_Os06g06750.1_locus=LOC_Os06g06750 -> LOC_Os06g06750.1_pacid_33149580_transcript_LOC_Os06g06750.1_locus_LOC_Os06g06750
+LOC_Os06g06750.1_pacid=33149580_transcript=LOC_Os06g06750.1_locus=LOC_Os06g06750 -> LOC_Os06g06750.1_pacid_33149580_transcript_LOC_Os06g06750.1_locus_LOC_Os06g06750
+LOC_Os07g41370.1_pacid=33114686_transcript=LOC_Os07g41370.1_locus=LOC_Os07g41370 -> LOC_Os07g41370.1_pacid_33114686_transcript_LOC_Os07g41370.1_locus_LOC_Os07g41370
+LOC_Os07g41370.1_pacid=33114686_transcript=LOC_Os07g41370.1_locus=LOC_Os07g41370 -> LOC_Os07g41370.1_pacid_33114686_transcript_LOC_Os07g41370.1_locus_LOC_Os07g41370
+LOC_Os07g41370.1_pacid=33114686_transcript=LOC_Os07g41370.1_locus=LOC_Os07g41370 -> LOC_Os07g41370.1_pacid_33114686_transcript_LOC_Os07g41370.1_locus_LOC_Os07g41370
+LOC_Os07g41370.2_pacid=33114687_transcript=LOC_Os07g41370.2_locus=LOC_Os07g41370 -> LOC_Os07g41370.2_pacid_33114687_transcript_LOC_Os07g41370.2_locus_LOC_Os07g41370
+LOC_Os07g41370.2_pacid=33114687_transcript=LOC_Os07g41370.2_locus=LOC_Os07g41370 -> LOC_Os07g41370.2_pacid_33114687_transcript_LOC_Os07g41370.2_locus_LOC_Os07g41370
+LOC_Os08g41950.1_pacid=33102862_transcript=LOC_Os08g41950.1_locus=LOC_Os08g41950 -> LOC_Os08g41950.1_pacid_33102862_transcript_LOC_Os08g41950.1_locus_LOC_Os08g41950
+LOC_Os08g41950.1_pacid=33102862_transcript=LOC_Os08g41950.1_locus=LOC_Os08g41950 -> LOC_Os08g41950.1_pacid_33102862_transcript_LOC_Os08g41950.1_locus_LOC_Os08g41950
+LOC_Os08g41950.1_pacid=33102862_transcript=LOC_Os08g41950.1_locus=LOC_Os08g41950 -> LOC_Os08g41950.1_pacid_33102862_transcript_LOC_Os08g41950.1_locus_LOC_Os08g41950
+LOC_Os08g41950.2_pacid=33102863_transcript=LOC_Os08g41950.2_locus=LOC_Os08g41950 -> LOC_Os08g41950.2_pacid_33102863_transcript_LOC_Os08g41950.2_locus_LOC_Os08g41950
+LOC_Os08g41950.2_pacid=33102863_transcript=LOC_Os08g41950.2_locus=LOC_Os08g41950 -> LOC_Os08g41950.2_pacid_33102863_transcript_LOC_Os08g41950.2_locus_LOC_Os08g41950
+LOC_Os08g41950.2_pacid=33102863_transcript=LOC_Os08g41950.2_locus=LOC_Os08g41950 -> LOC_Os08g41950.2_pacid_33102863_transcript_LOC_Os08g41950.2_locus_LOC_Os08g41950
+LOC_Os09g32948.1_pacid=33141446_transcript=LOC_Os09g32948.1_locus=LOC_Os09g32948 -> LOC_Os09g32948.1_pacid_33141446_transcript_LOC_Os09g32948.1_locus_LOC_Os09g32948
+LOC_Os09g32948.1_pacid=33141446_transcript=LOC_Os09g32948.1_locus=LOC_Os09g32948 -> LOC_Os09g32948.1_pacid_33141446_transcript_LOC_Os09g32948.1_locus_LOC_Os09g32948
+LOC_Os09g32948.1_pacid=33141446_transcript=LOC_Os09g32948.1_locus=LOC_Os09g32948 -> LOC_Os09g32948.1_pacid_33141446_transcript_LOC_Os09g32948.1_locus_LOC_Os09g32948
+LOC_Os03g54170.1_pacid=33127927_transcript=LOC_Os03g54170.1_locus=LOC_Os03g54170 -> LOC_Os03g54170.1_pacid_33127927_transcript_LOC_Os03g54170.1_locus_LOC_Os03g54170
+LOC_Os03g54170.1_pacid=33127927_transcript=LOC_Os03g54170.1_locus=LOC_Os03g54170 -> LOC_Os03g54170.1_pacid_33127927_transcript_LOC_Os03g54170.1_locus_LOC_Os03g54170
+LOC_Os03g54170.1_pacid=33127927_transcript=LOC_Os03g54170.1_locus=LOC_Os03g54170 -> LOC_Os03g54170.1_pacid_33127927_transcript_LOC_Os03g54170.1_locus_LOC_Os03g54170
+LOC_Os07g01820.4_pacid=33118722_transcript=LOC_Os07g01820.4_locus=LOC_Os07g01820 -> LOC_Os07g01820.4_pacid_33118722_transcript_LOC_Os07g01820.4_locus_LOC_Os07g01820
+LOC_Os07g01820.4_pacid=33118722_transcript=LOC_Os07g01820.4_locus=LOC_Os07g01820 -> LOC_Os07g01820.4_pacid_33118722_transcript_LOC_Os07g01820.4_locus_LOC_Os07g01820
+LOC_Os07g01820.4_pacid=33118722_transcript=LOC_Os07g01820.4_locus=LOC_Os07g01820 -> LOC_Os07g01820.4_pacid_33118722_transcript_LOC_Os07g01820.4_locus_LOC_Os07g01820
+LOC_Os03g54160.1_pacid=33129942_transcript=LOC_Os03g54160.1_locus=LOC_Os03g54160 -> LOC_Os03g54160.1_pacid_33129942_transcript_LOC_Os03g54160.1_locus_LOC_Os03g54160
+LOC_Os03g54160.1_pacid=33129942_transcript=LOC_Os03g54160.1_locus=LOC_Os03g54160 -> LOC_Os03g54160.1_pacid_33129942_transcript_LOC_Os03g54160.1_locus_LOC_Os03g54160
+LOC_Os03g54160.1_pacid=33129942_transcript=LOC_Os03g54160.1_locus=LOC_Os03g54160 -> LOC_Os03g54160.1_pacid_33129942_transcript_LOC_Os03g54160.1_locus_LOC_Os03g54160
+LOC_Os03g54160.2_pacid=33129943_transcript=LOC_Os03g54160.2_locus=LOC_Os03g54160 -> LOC_Os03g54160.2_pacid_33129943_transcript_LOC_Os03g54160.2_locus_LOC_Os03g54160
+LOC_Os03g54160.2_pacid=33129943_transcript=LOC_Os03g54160.2_locus=LOC_Os03g54160 -> LOC_Os03g54160.2_pacid_33129943_transcript_LOC_Os03g54160.2_locus_LOC_Os03g54160
+LOC_Os03g54160.2_pacid=33129943_transcript=LOC_Os03g54160.2_locus=LOC_Os03g54160 -> LOC_Os03g54160.2_pacid_33129943_transcript_LOC_Os03g54160.2_locus_LOC_Os03g54160
+LOC_Os07g01820.6_pacid=33118724_transcript=LOC_Os07g01820.6_locus=LOC_Os07g01820 -> LOC_Os07g01820.6_pacid_33118724_transcript_LOC_Os07g01820.6_locus_LOC_Os07g01820
+LOC_Os07g01820.6_pacid=33118724_transcript=LOC_Os07g01820.6_locus=LOC_Os07g01820 -> LOC_Os07g01820.6_pacid_33118724_transcript_LOC_Os07g01820.6_locus_LOC_Os07g01820
+LOC_Os07g01820.6_pacid=33118724_transcript=LOC_Os07g01820.6_locus=LOC_Os07g01820 -> LOC_Os07g01820.6_pacid_33118724_transcript_LOC_Os07g01820.6_locus_LOC_Os07g01820
+LOC_Os07g01820.2_pacid=33118720_transcript=LOC_Os07g01820.2_locus=LOC_Os07g01820 -> LOC_Os07g01820.2_pacid_33118720_transcript_LOC_Os07g01820.2_locus_LOC_Os07g01820
+LOC_Os07g01820.2_pacid=33118720_transcript=LOC_Os07g01820.2_locus=LOC_Os07g01820 -> LOC_Os07g01820.2_pacid_33118720_transcript_LOC_Os07g01820.2_locus_LOC_Os07g01820
+LOC_Os07g01820.2_pacid=33118720_transcript=LOC_Os07g01820.2_locus=LOC_Os07g01820 -> LOC_Os07g01820.2_pacid_33118720_transcript_LOC_Os07g01820.2_locus_LOC_Os07g01820
+LOC_Os07g01820.1_pacid=33118719_transcript=LOC_Os07g01820.1_locus=LOC_Os07g01820 -> LOC_Os07g01820.1_pacid_33118719_transcript_LOC_Os07g01820.1_locus_LOC_Os07g01820
+LOC_Os07g01820.1_pacid=33118719_transcript=LOC_Os07g01820.1_locus=LOC_Os07g01820 -> LOC_Os07g01820.1_pacid_33118719_transcript_LOC_Os07g01820.1_locus_LOC_Os07g01820
+LOC_Os07g01820.1_pacid=33118719_transcript=LOC_Os07g01820.1_locus=LOC_Os07g01820 -> LOC_Os07g01820.1_pacid_33118719_transcript_LOC_Os07g01820.1_locus_LOC_Os07g01820
+LOC_Os07g01820.3_pacid=33118721_transcript=LOC_Os07g01820.3_locus=LOC_Os07g01820 -> LOC_Os07g01820.3_pacid_33118721_transcript_LOC_Os07g01820.3_locus_LOC_Os07g01820
+LOC_Os07g01820.3_pacid=33118721_transcript=LOC_Os07g01820.3_locus=LOC_Os07g01820 -> LOC_Os07g01820.3_pacid_33118721_transcript_LOC_Os07g01820.3_locus_LOC_Os07g01820
+LOC_Os07g01820.3_pacid=33118721_transcript=LOC_Os07g01820.3_locus=LOC_Os07g01820 -> LOC_Os07g01820.3_pacid_33118721_transcript_LOC_Os07g01820.3_locus_LOC_Os07g01820
+LOC_Os07g01820.5_pacid=33118723_transcript=LOC_Os07g01820.5_locus=LOC_Os07g01820 -> LOC_Os07g01820.5_pacid_33118723_transcript_LOC_Os07g01820.5_locus_LOC_Os07g01820
+LOC_Os07g01820.5_pacid=33118723_transcript=LOC_Os07g01820.5_locus=LOC_Os07g01820 -> LOC_Os07g01820.5_pacid_33118723_transcript_LOC_Os07g01820.5_locus_LOC_Os07g01820
+LOC_Os10g39130.1_pacid=33101638_transcript=LOC_Os10g39130.1_locus=LOC_Os10g39130 -> LOC_Os10g39130.1_pacid_33101638_transcript_LOC_Os10g39130.1_locus_LOC_Os10g39130
+LOC_Os10g39130.1_pacid=33101638_transcript=LOC_Os10g39130.1_locus=LOC_Os10g39130 -> LOC_Os10g39130.1_pacid_33101638_transcript_LOC_Os10g39130.1_locus_LOC_Os10g39130
+LOC_Os10g39130.1_pacid=33101638_transcript=LOC_Os10g39130.1_locus=LOC_Os10g39130 -> LOC_Os10g39130.1_pacid_33101638_transcript_LOC_Os10g39130.1_locus_LOC_Os10g39130
+LOC_Os10g39130.2_pacid=33101639_transcript=LOC_Os10g39130.2_locus=LOC_Os10g39130 -> LOC_Os10g39130.2_pacid_33101639_transcript_LOC_Os10g39130.2_locus_LOC_Os10g39130
+LOC_Os10g39130.2_pacid=33101639_transcript=LOC_Os10g39130.2_locus=LOC_Os10g39130 -> LOC_Os10g39130.2_pacid_33101639_transcript_LOC_Os10g39130.2_locus_LOC_Os10g39130
+LOC_Os10g39130.2_pacid=33101639_transcript=LOC_Os10g39130.2_locus=LOC_Os10g39130 -> LOC_Os10g39130.2_pacid_33101639_transcript_LOC_Os10g39130.2_locus_LOC_Os10g39130
+LOC_Os01g10504.1_pacid=33119053_transcript=LOC_Os01g10504.1_locus=LOC_Os01g10504 -> LOC_Os01g10504.1_pacid_33119053_transcript_LOC_Os01g10504.1_locus_LOC_Os01g10504
+LOC_Os01g10504.1_pacid=33119053_transcript=LOC_Os01g10504.1_locus=LOC_Os01g10504 -> LOC_Os01g10504.1_pacid_33119053_transcript_LOC_Os01g10504.1_locus_LOC_Os01g10504
+LOC_Os01g10504.1_pacid=33119053_transcript=LOC_Os01g10504.1_locus=LOC_Os01g10504 -> LOC_Os01g10504.1_pacid_33119053_transcript_LOC_Os01g10504.1_locus_LOC_Os01g10504
+LOC_Os01g10504.3_pacid=33119054_transcript=LOC_Os01g10504.3_locus=LOC_Os01g10504 -> LOC_Os01g10504.3_pacid_33119054_transcript_LOC_Os01g10504.3_locus_LOC_Os01g10504
+LOC_Os01g10504.3_pacid=33119054_transcript=LOC_Os01g10504.3_locus=LOC_Os01g10504 -> LOC_Os01g10504.3_pacid_33119054_transcript_LOC_Os01g10504.3_locus_LOC_Os01g10504
+LOC_Os01g10504.2_pacid=33119055_transcript=LOC_Os01g10504.2_locus=LOC_Os01g10504 -> LOC_Os01g10504.2_pacid_33119055_transcript_LOC_Os01g10504.2_locus_LOC_Os01g10504
+LOC_Os01g10504.2_pacid=33119055_transcript=LOC_Os01g10504.2_locus=LOC_Os01g10504 -> LOC_Os01g10504.2_pacid_33119055_transcript_LOC_Os01g10504.2_locus_LOC_Os01g10504
+LOC_Os01g10504.3_pacid=33119054_transcript=LOC_Os01g10504.3_locus=LOC_Os01g10504 -> LOC_Os01g10504.3_pacid_33119054_transcript_LOC_Os01g10504.3_locus_LOC_Os01g10504
+LOC_Os01g10504.2_pacid=33119055_transcript=LOC_Os01g10504.2_locus=LOC_Os01g10504 -> LOC_Os01g10504.2_pacid_33119055_transcript_LOC_Os01g10504.2_locus_LOC_Os01g10504
+LOC_Os01g66290.1_pacid=33120433_transcript=LOC_Os01g66290.1_locus=LOC_Os01g66290 -> LOC_Os01g66290.1_pacid_33120433_transcript_LOC_Os01g66290.1_locus_LOC_Os01g66290
+LOC_Os01g66290.1_pacid=33120433_transcript=LOC_Os01g66290.1_locus=LOC_Os01g66290 -> LOC_Os01g66290.1_pacid_33120433_transcript_LOC_Os01g66290.1_locus_LOC_Os01g66290
+LOC_Os01g66290.2_pacid=33120434_transcript=LOC_Os01g66290.2_locus=LOC_Os01g66290 -> LOC_Os01g66290.2_pacid_33120434_transcript_LOC_Os01g66290.2_locus_LOC_Os01g66290
+LOC_Os01g66290.2_pacid=33120434_transcript=LOC_Os01g66290.2_locus=LOC_Os01g66290 -> LOC_Os01g66290.2_pacid_33120434_transcript_LOC_Os01g66290.2_locus_LOC_Os01g66290
+LOC_Os01g66290.1_pacid=33120433_transcript=LOC_Os01g66290.1_locus=LOC_Os01g66290 -> LOC_Os01g66290.1_pacid_33120433_transcript_LOC_Os01g66290.1_locus_LOC_Os01g66290
+LOC_Os01g66290.2_pacid=33120434_transcript=LOC_Os01g66290.2_locus=LOC_Os01g66290 -> LOC_Os01g66290.2_pacid_33120434_transcript_LOC_Os01g66290.2_locus_LOC_Os01g66290
+LOC_Os05g11414.1_pacid=33155515_transcript=LOC_Os05g11414.1_locus=LOC_Os05g11414 -> LOC_Os05g11414.1_pacid_33155515_transcript_LOC_Os05g11414.1_locus_LOC_Os05g11414
+LOC_Os05g11414.1_pacid=33155515_transcript=LOC_Os05g11414.1_locus=LOC_Os05g11414 -> LOC_Os05g11414.1_pacid_33155515_transcript_LOC_Os05g11414.1_locus_LOC_Os05g11414
+LOC_Os05g11414.1_pacid=33155515_transcript=LOC_Os05g11414.1_locus=LOC_Os05g11414 -> LOC_Os05g11414.1_pacid_33155515_transcript_LOC_Os05g11414.1_locus_LOC_Os05g11414
+LOC_Os05g11380.1_pacid=33156172_transcript=LOC_Os05g11380.1_locus=LOC_Os05g11380 -> LOC_Os05g11380.1_pacid_33156172_transcript_LOC_Os05g11380.1_locus_LOC_Os05g11380
+LOC_Os05g11380.1_pacid=33156172_transcript=LOC_Os05g11380.1_locus=LOC_Os05g11380 -> LOC_Os05g11380.1_pacid_33156172_transcript_LOC_Os05g11380.1_locus_LOC_Os05g11380
+LOC_Os05g11380.1_pacid=33156172_transcript=LOC_Os05g11380.1_locus=LOC_Os05g11380 -> LOC_Os05g11380.1_pacid_33156172_transcript_LOC_Os05g11380.1_locus_LOC_Os05g11380
+LOC_Os05g11380.2_pacid=33156173_transcript=LOC_Os05g11380.2_locus=LOC_Os05g11380 -> LOC_Os05g11380.2_pacid_33156173_transcript_LOC_Os05g11380.2_locus_LOC_Os05g11380
+LOC_Os05g11380.2_pacid=33156173_transcript=LOC_Os05g11380.2_locus=LOC_Os05g11380 -> LOC_Os05g11380.2_pacid_33156173_transcript_LOC_Os05g11380.2_locus_LOC_Os05g11380
+LOC_Os03g08754.1_pacid=33131113_transcript=LOC_Os03g08754.1_locus=LOC_Os03g08754 -> LOC_Os03g08754.1_pacid_33131113_transcript_LOC_Os03g08754.1_locus_LOC_Os03g08754
+LOC_Os03g08754.1_pacid=33131113_transcript=LOC_Os03g08754.1_locus=LOC_Os03g08754 -> LOC_Os03g08754.1_pacid_33131113_transcript_LOC_Os03g08754.1_locus_LOC_Os03g08754
+LOC_Os03g08754.1_pacid=33131113_transcript=LOC_Os03g08754.1_locus=LOC_Os03g08754 -> LOC_Os03g08754.1_pacid_33131113_transcript_LOC_Os03g08754.1_locus_LOC_Os03g08754
+LOC_Os03g08754.2_pacid=33131114_transcript=LOC_Os03g08754.2_locus=LOC_Os03g08754 -> LOC_Os03g08754.2_pacid_33131114_transcript_LOC_Os03g08754.2_locus_LOC_Os03g08754
+LOC_Os03g08754.2_pacid=33131114_transcript=LOC_Os03g08754.2_locus=LOC_Os03g08754 -> LOC_Os03g08754.2_pacid_33131114_transcript_LOC_Os03g08754.2_locus_LOC_Os03g08754
+LOC_Os03g08754.2_pacid=33131114_transcript=LOC_Os03g08754.2_locus=LOC_Os03g08754 -> LOC_Os03g08754.2_pacid_33131114_transcript_LOC_Os03g08754.2_locus_LOC_Os03g08754
+LOC_Os12g10520.1_pacid=33150409_transcript=LOC_Os12g10520.1_locus=LOC_Os12g10520 -> LOC_Os12g10520.1_pacid_33150409_transcript_LOC_Os12g10520.1_locus_LOC_Os12g10520
+LOC_Os12g10520.1_pacid=33150409_transcript=LOC_Os12g10520.1_locus=LOC_Os12g10520 -> LOC_Os12g10520.1_pacid_33150409_transcript_LOC_Os12g10520.1_locus_LOC_Os12g10520
+LOC_Os12g10520.1_pacid=33150409_transcript=LOC_Os12g10520.1_locus=LOC_Os12g10520 -> LOC_Os12g10520.1_pacid_33150409_transcript_LOC_Os12g10520.1_locus_LOC_Os12g10520
+LOC_Os12g10520.2_pacid=33150410_transcript=LOC_Os12g10520.2_locus=LOC_Os12g10520 -> LOC_Os12g10520.2_pacid_33150410_transcript_LOC_Os12g10520.2_locus_LOC_Os12g10520
+LOC_Os12g10520.2_pacid=33150410_transcript=LOC_Os12g10520.2_locus=LOC_Os12g10520 -> LOC_Os12g10520.2_pacid_33150410_transcript_LOC_Os12g10520.2_locus_LOC_Os12g10520
+LOC_Os12g10520.2_pacid=33150410_transcript=LOC_Os12g10520.2_locus=LOC_Os12g10520 -> LOC_Os12g10520.2_pacid_33150410_transcript_LOC_Os12g10520.2_locus_LOC_Os12g10520
+LOC_Os04g49150.1_pacid=33108838_transcript=LOC_Os04g49150.1_locus=LOC_Os04g49150 -> LOC_Os04g49150.1_pacid_33108838_transcript_LOC_Os04g49150.1_locus_LOC_Os04g49150
+LOC_Os04g49150.1_pacid=33108838_transcript=LOC_Os04g49150.1_locus=LOC_Os04g49150 -> LOC_Os04g49150.1_pacid_33108838_transcript_LOC_Os04g49150.1_locus_LOC_Os04g49150
+LOC_Os04g49150.1_pacid=33108838_transcript=LOC_Os04g49150.1_locus=LOC_Os04g49150 -> LOC_Os04g49150.1_pacid_33108838_transcript_LOC_Os04g49150.1_locus_LOC_Os04g49150
+LOC_Os04g23910.1_pacid=33107895_transcript=LOC_Os04g23910.1_locus=LOC_Os04g23910 -> LOC_Os04g23910.1_pacid_33107895_transcript_LOC_Os04g23910.1_locus_LOC_Os04g23910
+LOC_Os04g23910.1_pacid=33107895_transcript=LOC_Os04g23910.1_locus=LOC_Os04g23910 -> LOC_Os04g23910.1_pacid_33107895_transcript_LOC_Os04g23910.1_locus_LOC_Os04g23910
+LOC_Os04g23910.1_pacid=33107895_transcript=LOC_Os04g23910.1_locus=LOC_Os04g23910 -> LOC_Os04g23910.1_pacid_33107895_transcript_LOC_Os04g23910.1_locus_LOC_Os04g23910
+LOC_Os06g11330.1_pacid=33148253_transcript=LOC_Os06g11330.1_locus=LOC_Os06g11330 -> LOC_Os06g11330.1_pacid_33148253_transcript_LOC_Os06g11330.1_locus_LOC_Os06g11330
+LOC_Os06g11330.1_pacid=33148253_transcript=LOC_Os06g11330.1_locus=LOC_Os06g11330 -> LOC_Os06g11330.1_pacid_33148253_transcript_LOC_Os06g11330.1_locus_LOC_Os06g11330
+LOC_Os06g11330.1_pacid=33148253_transcript=LOC_Os06g11330.1_locus=LOC_Os06g11330 -> LOC_Os06g11330.1_pacid_33148253_transcript_LOC_Os06g11330.1_locus_LOC_Os06g11330
+LOC_Os02g49840.1_pacid=33135821_transcript=LOC_Os02g49840.1_locus=LOC_Os02g49840 -> LOC_Os02g49840.1_pacid_33135821_transcript_LOC_Os02g49840.1_locus_LOC_Os02g49840
+LOC_Os02g49840.1_pacid=33135821_transcript=LOC_Os02g49840.1_locus=LOC_Os02g49840 -> LOC_Os02g49840.1_pacid_33135821_transcript_LOC_Os02g49840.1_locus_LOC_Os02g49840
+LOC_Os02g49840.1_pacid=33135821_transcript=LOC_Os02g49840.1_locus=LOC_Os02g49840 -> LOC_Os02g49840.1_pacid_33135821_transcript_LOC_Os02g49840.1_locus_LOC_Os02g49840
+LOC_Os02g49840.4_pacid=33135822_transcript=LOC_Os02g49840.4_locus=LOC_Os02g49840 -> LOC_Os02g49840.4_pacid_33135822_transcript_LOC_Os02g49840.4_locus_LOC_Os02g49840
+LOC_Os02g49840.4_pacid=33135822_transcript=LOC_Os02g49840.4_locus=LOC_Os02g49840 -> LOC_Os02g49840.4_pacid_33135822_transcript_LOC_Os02g49840.4_locus_LOC_Os02g49840
+LOC_Os02g49840.4_pacid=33135822_transcript=LOC_Os02g49840.4_locus=LOC_Os02g49840 -> LOC_Os02g49840.4_pacid_33135822_transcript_LOC_Os02g49840.4_locus_LOC_Os02g49840
+LOC_Os02g49840.2_pacid=33135823_transcript=LOC_Os02g49840.2_locus=LOC_Os02g49840 -> LOC_Os02g49840.2_pacid_33135823_transcript_LOC_Os02g49840.2_locus_LOC_Os02g49840
+LOC_Os02g49840.2_pacid=33135823_transcript=LOC_Os02g49840.2_locus=LOC_Os02g49840 -> LOC_Os02g49840.2_pacid_33135823_transcript_LOC_Os02g49840.2_locus_LOC_Os02g49840
+LOC_Os02g49840.2_pacid=33135823_transcript=LOC_Os02g49840.2_locus=LOC_Os02g49840 -> LOC_Os02g49840.2_pacid_33135823_transcript_LOC_Os02g49840.2_locus_LOC_Os02g49840
+LOC_Os02g49840.3_pacid=33135824_transcript=LOC_Os02g49840.3_locus=LOC_Os02g49840 -> LOC_Os02g49840.3_pacid_33135824_transcript_LOC_Os02g49840.3_locus_LOC_Os02g49840
+LOC_Os02g49840.3_pacid=33135824_transcript=LOC_Os02g49840.3_locus=LOC_Os02g49840 -> LOC_Os02g49840.3_pacid_33135824_transcript_LOC_Os02g49840.3_locus_LOC_Os02g49840
+LOC_Os02g49840.3_pacid=33135824_transcript=LOC_Os02g49840.3_locus=LOC_Os02g49840 -> LOC_Os02g49840.3_pacid_33135824_transcript_LOC_Os02g49840.3_locus_LOC_Os02g49840
+LOC_Os02g52340.1_pacid=33134825_transcript=LOC_Os02g52340.1_locus=LOC_Os02g52340 -> LOC_Os02g52340.1_pacid_33134825_transcript_LOC_Os02g52340.1_locus_LOC_Os02g52340
+LOC_Os02g52340.1_pacid=33134825_transcript=LOC_Os02g52340.1_locus=LOC_Os02g52340 -> LOC_Os02g52340.1_pacid_33134825_transcript_LOC_Os02g52340.1_locus_LOC_Os02g52340
+LOC_Os02g52340.1_pacid=33134825_transcript=LOC_Os02g52340.1_locus=LOC_Os02g52340 -> LOC_Os02g52340.1_pacid_33134825_transcript_LOC_Os02g52340.1_locus_LOC_Os02g52340
+LOC_Os02g45770.1_pacid=33135892_transcript=LOC_Os02g45770.1_locus=LOC_Os02g45770 -> LOC_Os02g45770.1_pacid_33135892_transcript_LOC_Os02g45770.1_locus_LOC_Os02g45770
+LOC_Os02g45770.1_pacid=33135892_transcript=LOC_Os02g45770.1_locus=LOC_Os02g45770 -> LOC_Os02g45770.1_pacid_33135892_transcript_LOC_Os02g45770.1_locus_LOC_Os02g45770
+LOC_Os02g45770.1_pacid=33135892_transcript=LOC_Os02g45770.1_locus=LOC_Os02g45770 -> LOC_Os02g45770.1_pacid_33135892_transcript_LOC_Os02g45770.1_locus_LOC_Os02g45770
+LOC_Os08g33488.1_pacid=33105388_transcript=LOC_Os08g33488.1_locus=LOC_Os08g33488 -> LOC_Os08g33488.1_pacid_33105388_transcript_LOC_Os08g33488.1_locus_LOC_Os08g33488
+LOC_Os08g33488.1_pacid=33105388_transcript=LOC_Os08g33488.1_locus=LOC_Os08g33488 -> LOC_Os08g33488.1_pacid_33105388_transcript_LOC_Os08g33488.1_locus_LOC_Os08g33488
+LOC_Os08g33488.1_pacid=33105388_transcript=LOC_Os08g33488.1_locus=LOC_Os08g33488 -> LOC_Os08g33488.1_pacid_33105388_transcript_LOC_Os08g33488.1_locus_LOC_Os08g33488
+LOC_Os02g36924.1_pacid=33138545_transcript=LOC_Os02g36924.1_locus=LOC_Os02g36924 -> LOC_Os02g36924.1_pacid_33138545_transcript_LOC_Os02g36924.1_locus_LOC_Os02g36924
+LOC_Os02g36924.1_pacid=33138545_transcript=LOC_Os02g36924.1_locus=LOC_Os02g36924 -> LOC_Os02g36924.1_pacid_33138545_transcript_LOC_Os02g36924.1_locus_LOC_Os02g36924
+LOC_Os02g36924.1_pacid=33138545_transcript=LOC_Os02g36924.1_locus=LOC_Os02g36924 -> LOC_Os02g36924.1_pacid_33138545_transcript_LOC_Os02g36924.1_locus_LOC_Os02g36924
+LOC_Os05g32270.1_pacid=33156768_transcript=LOC_Os05g32270.1_locus=LOC_Os05g32270 -> LOC_Os05g32270.1_pacid_33156768_transcript_LOC_Os05g32270.1_locus_LOC_Os05g32270
+LOC_Os05g32270.2_pacid=33156769_transcript=LOC_Os05g32270.2_locus=LOC_Os05g32270 -> LOC_Os05g32270.2_pacid_33156769_transcript_LOC_Os05g32270.2_locus_LOC_Os05g32270
+LOC_Os07g13170.2_pacid=33117655_transcript=LOC_Os07g13170.2_locus=LOC_Os07g13170 -> LOC_Os07g13170.2_pacid_33117655_transcript_LOC_Os07g13170.2_locus_LOC_Os07g13170
+LOC_Os07g13170.1_pacid=33117656_transcript=LOC_Os07g13170.1_locus=LOC_Os07g13170 -> LOC_Os07g13170.1_pacid_33117656_transcript_LOC_Os07g13170.1_locus_LOC_Os07g13170
+LOC_Os03g60430.2_pacid=33131038_transcript=LOC_Os03g60430.2_locus=LOC_Os03g60430 -> LOC_Os03g60430.2_pacid_33131038_transcript_LOC_Os03g60430.2_locus_LOC_Os03g60430
+LOC_Os03g60430.1_pacid=33131039_transcript=LOC_Os03g60430.1_locus=LOC_Os03g60430 -> LOC_Os03g60430.1_pacid_33131039_transcript_LOC_Os03g60430.1_locus_LOC_Os03g60430
+LOC_Os05g03040.1_pacid=33157236_transcript=LOC_Os05g03040.1_locus=LOC_Os05g03040 -> LOC_Os05g03040.1_pacid_33157236_transcript_LOC_Os05g03040.1_locus_LOC_Os05g03040
+LOC_Os05g03040.2_pacid=33157237_transcript=LOC_Os05g03040.2_locus=LOC_Os05g03040 -> LOC_Os05g03040.2_pacid_33157237_transcript_LOC_Os05g03040.2_locus_LOC_Os05g03040
+LOC_Os05g03040.3_pacid=33157238_transcript=LOC_Os05g03040.3_locus=LOC_Os05g03040 -> LOC_Os05g03040.3_pacid_33157238_transcript_LOC_Os05g03040.3_locus_LOC_Os05g03040
+LOC_Os03g56050.1_pacid=33129803_transcript=LOC_Os03g56050.1_locus=LOC_Os03g56050 -> LOC_Os03g56050.1_pacid_33129803_transcript_LOC_Os03g56050.1_locus_LOC_Os03g56050
+LOC_Os07g03250.1_pacid=33113944_transcript=LOC_Os07g03250.1_locus=LOC_Os07g03250 -> LOC_Os07g03250.1_pacid_33113944_transcript_LOC_Os07g03250.1_locus_LOC_Os07g03250
+LOC_Os01g67410.1_pacid=33123914_transcript=LOC_Os01g67410.1_locus=LOC_Os01g67410 -> LOC_Os01g67410.1_pacid_33123914_transcript_LOC_Os01g67410.1_locus_LOC_Os01g67410
+LOC_Os11g19060.1_pacid=33163071_transcript=LOC_Os11g19060.1_locus=LOC_Os11g19060 -> LOC_Os11g19060.1_pacid_33163071_transcript_LOC_Os11g19060.1_locus_LOC_Os11g19060
+LOC_Os04g42570.1_pacid=33112506_transcript=LOC_Os04g42570.1_locus=LOC_Os04g42570 -> LOC_Os04g42570.1_pacid_33112506_transcript_LOC_Os04g42570.1_locus_LOC_Os04g42570
+LOC_Os02g40070.1_pacid=33137156_transcript=LOC_Os02g40070.1_locus=LOC_Os02g40070 -> LOC_Os02g40070.1_pacid_33137156_transcript_LOC_Os02g40070.1_locus_LOC_Os02g40070
+LOC_Os06g44750.1_pacid=33146631_transcript=LOC_Os06g44750.1_locus=LOC_Os06g44750 -> LOC_Os06g44750.1_pacid_33146631_transcript_LOC_Os06g44750.1_locus_LOC_Os06g44750
+LOC_Os04g55970.2_pacid=33110304_transcript=LOC_Os04g55970.2_locus=LOC_Os04g55970 -> LOC_Os04g55970.2_pacid_33110304_transcript_LOC_Os04g55970.2_locus_LOC_Os04g55970
+LOC_Os04g55970.1_pacid=33110305_transcript=LOC_Os04g55970.1_locus=LOC_Os04g55970 -> LOC_Os04g55970.1_pacid_33110305_transcript_LOC_Os04g55970.1_locus_LOC_Os04g55970
+LOC_Os06g05340.1_pacid=33147433_transcript=LOC_Os06g05340.1_locus=LOC_Os06g05340 -> LOC_Os06g05340.1_pacid_33147433_transcript_LOC_Os06g05340.1_locus_LOC_Os06g05340
+LOC_Os05g45954.1_pacid=33159105_transcript=LOC_Os05g45954.1_locus=LOC_Os05g45954 -> LOC_Os05g45954.1_pacid_33159105_transcript_LOC_Os05g45954.1_locus_LOC_Os05g45954
+LOC_Os08g34360.1_pacid=33104676_transcript=LOC_Os08g34360.1_locus=LOC_Os08g34360 -> LOC_Os08g34360.1_pacid_33104676_transcript_LOC_Os08g34360.1_locus_LOC_Os08g34360
+LOC_Os02g51670.1_pacid=33138817_transcript=LOC_Os02g51670.1_locus=LOC_Os02g51670 -> LOC_Os02g51670.1_pacid_33138817_transcript_LOC_Os02g51670.1_locus_LOC_Os02g51670
+LOC_Os09g20350.1_pacid=33140948_transcript=LOC_Os09g20350.1_locus=LOC_Os09g20350 -> LOC_Os09g20350.1_pacid_33140948_transcript_LOC_Os09g20350.1_locus_LOC_Os09g20350
+LOC_Os01g49830.1_pacid=33121492_transcript=LOC_Os01g49830.1_locus=LOC_Os01g49830 -> LOC_Os01g49830.1_pacid_33121492_transcript_LOC_Os01g49830.1_locus_LOC_Os01g49830
+LOC_Os05g47650.1_pacid=33158024_transcript=LOC_Os05g47650.1_locus=LOC_Os05g47650 -> LOC_Os05g47650.1_pacid_33158024_transcript_LOC_Os05g47650.1_locus_LOC_Os05g47650
+LOC_Os02g42585.1_pacid=33136621_transcript=LOC_Os02g42585.1_locus=LOC_Os02g42585 -> LOC_Os02g42585.1_pacid_33136621_transcript_LOC_Os02g42585.1_locus_LOC_Os02g42585
+LOC_Os07g10410.1_pacid=33117444_transcript=LOC_Os07g10410.1_locus=LOC_Os07g10410 -> LOC_Os07g10410.1_pacid_33117444_transcript_LOC_Os07g10410.1_locus_LOC_Os07g10410
+LOC_Os07g42510.1_pacid=33116612_transcript=LOC_Os07g42510.1_locus=LOC_Os07g42510 -> LOC_Os07g42510.1_pacid_33116612_transcript_LOC_Os07g42510.1_locus_LOC_Os07g42510
+LOC_Os12g41030.1_pacid=33153701_transcript=LOC_Os12g41030.1_locus=LOC_Os12g41030 -> LOC_Os12g41030.1_pacid_33153701_transcript_LOC_Os12g41030.1_locus_LOC_Os12g41030
+LOC_Os02g43820.1_pacid=33139963_transcript=LOC_Os02g43820.1_locus=LOC_Os02g43820 -> LOC_Os02g43820.1_pacid_33139963_transcript_LOC_Os02g43820.1_locus_LOC_Os02g43820
+LOC_Os04g46240.1_pacid=33109255_transcript=LOC_Os04g46240.1_locus=LOC_Os04g46240 -> LOC_Os04g46240.1_pacid_33109255_transcript_LOC_Os04g46240.1_locus_LOC_Os04g46240
+LOC_Os04g46250.1_pacid=33113462_transcript=LOC_Os04g46250.1_locus=LOC_Os04g46250 -> LOC_Os04g46250.1_pacid_33113462_transcript_LOC_Os04g46250.1_locus_LOC_Os04g46250
+LOC_Os10g41330.1_pacid=33098942_transcript=LOC_Os10g41330.1_locus=LOC_Os10g41330 -> LOC_Os10g41330.1_pacid_33098942_transcript_LOC_Os10g41330.1_locus_LOC_Os10g41330
+LOC_Os10g41330.2_pacid=33098943_transcript=LOC_Os10g41330.2_locus=LOC_Os10g41330 -> LOC_Os10g41330.2_pacid_33098943_transcript_LOC_Os10g41330.2_locus_LOC_Os10g41330
+LOC_Os05g29810.1_pacid=33155292_transcript=LOC_Os05g29810.1_locus=LOC_Os05g29810 -> LOC_Os05g29810.1_pacid_33155292_transcript_LOC_Os05g29810.1_locus_LOC_Os05g29810
+LOC_Os02g52670.1_pacid=33136939_transcript=LOC_Os02g52670.1_locus=LOC_Os02g52670 -> LOC_Os02g52670.1_pacid_33136939_transcript_LOC_Os02g52670.1_locus_LOC_Os02g52670
+LOC_Os04g55520.1_pacid=33110743_transcript=LOC_Os04g55520.1_locus=LOC_Os04g55520 -> LOC_Os04g55520.1_pacid_33110743_transcript_LOC_Os04g55520.1_locus_LOC_Os04g55520
+LOC_Os09g39810.1_pacid=33142873_transcript=LOC_Os09g39810.1_locus=LOC_Os09g39810 -> LOC_Os09g39810.1_pacid_33142873_transcript_LOC_Os09g39810.1_locus_LOC_Os09g39810
+LOC_Os01g59780.1_pacid=33121173_transcript=LOC_Os01g59780.1_locus=LOC_Os01g59780 -> LOC_Os01g59780.1_pacid_33121173_transcript_LOC_Os01g59780.1_locus_LOC_Os01g59780
+LOC_Os04g18650.1_pacid=33112351_transcript=LOC_Os04g18650.1_locus=LOC_Os04g18650 -> LOC_Os04g18650.1_pacid_33112351_transcript_LOC_Os04g18650.1_locus_LOC_Os04g18650
+LOC_Os03g05590.1_pacid=33127906_transcript=LOC_Os03g05590.1_locus=LOC_Os03g05590 -> LOC_Os03g05590.1_pacid_33127906_transcript_LOC_Os03g05590.1_locus_LOC_Os03g05590
+LOC_Os08g36920.1_pacid=33103549_transcript=LOC_Os08g36920.1_locus=LOC_Os08g36920 -> LOC_Os08g36920.1_pacid_33103549_transcript_LOC_Os08g36920.1_locus_LOC_Os08g36920
+LOC_Os09g28440.1_pacid=33144130_transcript=LOC_Os09g28440.1_locus=LOC_Os09g28440 -> LOC_Os09g28440.1_pacid_33144130_transcript_LOC_Os09g28440.1_locus_LOC_Os09g28440
+LOC_Os05g28800.1_pacid=33157337_transcript=LOC_Os05g28800.1_locus=LOC_Os05g28800 -> LOC_Os05g28800.1_pacid_33157337_transcript_LOC_Os05g28800.1_locus_LOC_Os05g28800
+LOC_Os05g41760.1_pacid=33156327_transcript=LOC_Os05g41760.1_locus=LOC_Os05g41760 -> LOC_Os05g41760.1_pacid_33156327_transcript_LOC_Os05g41760.1_locus_LOC_Os05g41760
+LOC_Os09g26420.5_pacid=33140639_transcript=LOC_Os09g26420.5_locus=LOC_Os09g26420 -> LOC_Os09g26420.5_pacid_33140639_transcript_LOC_Os09g26420.5_locus_LOC_Os09g26420
+LOC_Os09g26420.1_pacid=33140640_transcript=LOC_Os09g26420.1_locus=LOC_Os09g26420 -> LOC_Os09g26420.1_pacid_33140640_transcript_LOC_Os09g26420.1_locus_LOC_Os09g26420
+LOC_Os09g26420.2_pacid=33140641_transcript=LOC_Os09g26420.2_locus=LOC_Os09g26420 -> LOC_Os09g26420.2_pacid_33140641_transcript_LOC_Os09g26420.2_locus_LOC_Os09g26420
+LOC_Os09g26420.4_pacid=33140642_transcript=LOC_Os09g26420.4_locus=LOC_Os09g26420 -> LOC_Os09g26420.4_pacid_33140642_transcript_LOC_Os09g26420.4_locus_LOC_Os09g26420
+LOC_Os02g54160.2_pacid=33140082_transcript=LOC_Os02g54160.2_locus=LOC_Os02g54160 -> LOC_Os02g54160.2_pacid_33140082_transcript_LOC_Os02g54160.2_locus_LOC_Os02g54160
+LOC_Os02g54160.1_pacid=33140083_transcript=LOC_Os02g54160.1_locus=LOC_Os02g54160 -> LOC_Os02g54160.1_pacid_33140083_transcript_LOC_Os02g54160.1_locus_LOC_Os02g54160
+LOC_Os06g09390.1_pacid=33144624_transcript=LOC_Os06g09390.1_locus=LOC_Os06g09390 -> LOC_Os06g09390.1_pacid_33144624_transcript_LOC_Os06g09390.1_locus_LOC_Os06g09390
+LOC_Os06g09390.2_pacid=33144625_transcript=LOC_Os06g09390.2_locus=LOC_Os06g09390 -> LOC_Os06g09390.2_pacid_33144625_transcript_LOC_Os06g09390.2_locus_LOC_Os06g09390
+LOC_Os01g46870.1_pacid=33125519_transcript=LOC_Os01g46870.1_locus=LOC_Os01g46870 -> LOC_Os01g46870.1_pacid_33125519_transcript_LOC_Os01g46870.1_locus_LOC_Os01g46870
+LOC_Os06g06540.1_pacid=33146525_transcript=LOC_Os06g06540.1_locus=LOC_Os06g06540 -> LOC_Os06g06540.1_pacid_33146525_transcript_LOC_Os06g06540.1_locus_LOC_Os06g06540
+LOC_Os12g03290.1_pacid=33149991_transcript=LOC_Os12g03290.1_locus=LOC_Os12g03290 -> LOC_Os12g03290.1_pacid_33149991_transcript_LOC_Os12g03290.1_locus_LOC_Os12g03290
+LOC_Os11g03540.1_pacid=33162894_transcript=LOC_Os11g03540.1_locus=LOC_Os11g03540 -> LOC_Os11g03540.1_pacid_33162894_transcript_LOC_Os11g03540.1_locus_LOC_Os11g03540
+LOC_Os03g07940.1_pacid=33129601_transcript=LOC_Os03g07940.1_locus=LOC_Os03g07940 -> LOC_Os03g07940.1_pacid_33129601_transcript_LOC_Os03g07940.1_locus_LOC_Os03g07940
+LOC_Os06g43220.1_pacid=33148266_transcript=LOC_Os06g43220.1_locus=LOC_Os06g43220 -> LOC_Os06g43220.1_pacid_33148266_transcript_LOC_Os06g43220.1_locus_LOC_Os06g43220
+LOC_Os04g48350.1_pacid=33109128_transcript=LOC_Os04g48350.1_locus=LOC_Os04g48350 -> LOC_Os04g48350.1_pacid_33109128_transcript_LOC_Os04g48350.1_locus_LOC_Os04g48350
+LOC_Os03g08460.1_pacid=33129224_transcript=LOC_Os03g08460.1_locus=LOC_Os03g08460 -> LOC_Os03g08460.1_pacid_33129224_transcript_LOC_Os03g08460.1_locus_LOC_Os03g08460
+LOC_Os04g32620.1_pacid=33107436_transcript=LOC_Os04g32620.1_locus=LOC_Os04g32620 -> LOC_Os04g32620.1_pacid_33107436_transcript_LOC_Os04g32620.1_locus_LOC_Os04g32620
+LOC_Os12g39330.1_pacid=33152890_transcript=LOC_Os12g39330.1_locus=LOC_Os12g39330 -> LOC_Os12g39330.1_pacid_33152890_transcript_LOC_Os12g39330.1_locus_LOC_Os12g39330
+LOC_Os11g13840.1_pacid=33162933_transcript=LOC_Os11g13840.1_locus=LOC_Os11g13840 -> LOC_Os11g13840.1_pacid_33162933_transcript_LOC_Os11g13840.1_locus_LOC_Os11g13840
+LOC_Os04g55560.2_pacid=33112494_transcript=LOC_Os04g55560.2_locus=LOC_Os04g55560 -> LOC_Os04g55560.2_pacid_33112494_transcript_LOC_Os04g55560.2_locus_LOC_Os04g55560
+LOC_Os04g55560.3_pacid=33112495_transcript=LOC_Os04g55560.3_locus=LOC_Os04g55560 -> LOC_Os04g55560.3_pacid_33112495_transcript_LOC_Os04g55560.3_locus_LOC_Os04g55560
+LOC_Os02g55380.1_pacid=33135538_transcript=LOC_Os02g55380.1_locus=LOC_Os02g55380 -> LOC_Os02g55380.1_pacid_33135538_transcript_LOC_Os02g55380.1_locus_LOC_Os02g55380
+LOC_Os06g08340.1_pacid=33145476_transcript=LOC_Os06g08340.1_locus=LOC_Os06g08340 -> LOC_Os06g08340.1_pacid_33145476_transcript_LOC_Os06g08340.1_locus_LOC_Os06g08340
+LOC_Os04g46410.1_pacid=33111169_transcript=LOC_Os04g46410.1_locus=LOC_Os04g46410 -> LOC_Os04g46410.1_pacid_33111169_transcript_LOC_Os04g46410.1_locus_LOC_Os04g46410
+LOC_Os02g10760.1_pacid=33135229_transcript=LOC_Os02g10760.1_locus=LOC_Os02g10760 -> LOC_Os02g10760.1_pacid_33135229_transcript_LOC_Os02g10760.1_locus_LOC_Os02g10760
+LOC_Os06g40150.1_pacid=33146673_transcript=LOC_Os06g40150.1_locus=LOC_Os06g40150 -> LOC_Os06g40150.1_pacid_33146673_transcript_LOC_Os06g40150.1_locus_LOC_Os06g40150
+LOC_Os04g46440.1_pacid=33112718_transcript=LOC_Os04g46440.1_locus=LOC_Os04g46440 -> LOC_Os04g46440.1_pacid_33112718_transcript_LOC_Os04g46440.1_locus_LOC_Os04g46440
+LOC_Os04g46220.1_pacid=33108698_transcript=LOC_Os04g46220.1_locus=LOC_Os04g46220 -> LOC_Os04g46220.1_pacid_33108698_transcript_LOC_Os04g46220.1_locus_LOC_Os04g46220
+LOC_Os01g12440.1_pacid=33126483_transcript=LOC_Os01g12440.1_locus=LOC_Os01g12440 -> LOC_Os01g12440.1_pacid_33126483_transcript_LOC_Os01g12440.1_locus_LOC_Os01g12440
+LOC_Os10g41130.1_pacid=33101110_transcript=LOC_Os10g41130.1_locus=LOC_Os10g41130 -> LOC_Os10g41130.1_pacid_33101110_transcript_LOC_Os10g41130.1_locus_LOC_Os10g41130
+LOC_Os04g56150.1_pacid=33112968_transcript=LOC_Os04g56150.1_locus=LOC_Os04g56150 -> LOC_Os04g56150.1_pacid_33112968_transcript_LOC_Os04g56150.1_locus_LOC_Os04g56150
+LOC_Os02g43790.1_pacid=33135481_transcript=LOC_Os02g43790.1_locus=LOC_Os02g43790 -> LOC_Os02g43790.1_pacid_33135481_transcript_LOC_Os02g43790.1_locus_LOC_Os02g43790
+
+ERROR: Duplicated sequence name LOC_Os01g10504.1_pacid_33119053_transcript_LOC_Os01g10504.1_locus_LOC_Os01g10504
+ERROR: Duplicated sequence name LOC_Os01g10504.1_pacid_33119053_transcript_LOC_Os01g10504.1_locus_LOC_Os01g10504
+ERROR: Duplicated sequence name LOC_Os01g10504.2_pacid_33119055_transcript_LOC_Os01g10504.2_locus_LOC_Os01g10504
+ERROR: Duplicated sequence name LOC_Os01g10504.2_pacid_33119055_transcript_LOC_Os01g10504.2_locus_LOC_Os01g10504
+ERROR: Duplicated sequence name LOC_Os01g10504.3_pacid_33119054_transcript_LOC_Os01g10504.3_locus_LOC_Os01g10504
+ERROR: Duplicated sequence name LOC_Os01g10504.3_pacid_33119054_transcript_LOC_Os01g10504.3_locus_LOC_Os01g10504
+ERROR: Duplicated sequence name LOC_Os01g11510.1_pacid_33124622_transcript_LOC_Os01g11510.1_locus_LOC_Os01g11510
+ERROR: Duplicated sequence name LOC_Os01g18420.1_pacid_33120120_transcript_LOC_Os01g18420.1_locus_LOC_Os01g18420
+ERROR: Duplicated sequence name LOC_Os01g18440.1_pacid_33125437_transcript_LOC_Os01g18440.1_locus_LOC_Os01g18440
+ERROR: Duplicated sequence name LOC_Os01g23760.1_pacid_33123492_transcript_LOC_Os01g23760.1_locus_LOC_Os01g23760
+ERROR: Duplicated sequence name LOC_Os01g52680.1_pacid_33120775_transcript_LOC_Os01g52680.1_locus_LOC_Os01g52680
+ERROR: Duplicated sequence name LOC_Os01g52680.1_pacid_33120775_transcript_LOC_Os01g52680.1_locus_LOC_Os01g52680
+ERROR: Duplicated sequence name LOC_Os01g66030.1_pacid_33124263_transcript_LOC_Os01g66030.1_locus_LOC_Os01g66030
+ERROR: Duplicated sequence name LOC_Os01g66030.1_pacid_33124263_transcript_LOC_Os01g66030.1_locus_LOC_Os01g66030
+ERROR: Duplicated sequence name LOC_Os01g66030.2_pacid_33124264_transcript_LOC_Os01g66030.2_locus_LOC_Os01g66030
+ERROR: Duplicated sequence name LOC_Os01g66030.2_pacid_33124264_transcript_LOC_Os01g66030.2_locus_LOC_Os01g66030
+ERROR: Duplicated sequence name LOC_Os01g66290.1_pacid_33120433_transcript_LOC_Os01g66290.1_locus_LOC_Os01g66290
+ERROR: Duplicated sequence name LOC_Os01g66290.1_pacid_33120433_transcript_LOC_Os01g66290.1_locus_LOC_Os01g66290
+ERROR: Duplicated sequence name LOC_Os01g66290.2_pacid_33120434_transcript_LOC_Os01g66290.2_locus_LOC_Os01g66290
+ERROR: Duplicated sequence name LOC_Os01g66290.2_pacid_33120434_transcript_LOC_Os01g66290.2_locus_LOC_Os01g66290
+ERROR: Duplicated sequence name LOC_Os01g68560.1_pacid_33125490_transcript_LOC_Os01g68560.1_locus_LOC_Os01g68560
+ERROR: Duplicated sequence name LOC_Os01g69850.1_pacid_33121340_transcript_LOC_Os01g69850.1_locus_LOC_Os01g69850
+ERROR: Duplicated sequence name LOC_Os01g74440.1_pacid_33121567_transcript_LOC_Os01g74440.1_locus_LOC_Os01g74440
+ERROR: Duplicated sequence name LOC_Os02g01355.1_pacid_33136811_transcript_LOC_Os02g01355.1_locus_LOC_Os02g01355
+ERROR: Duplicated sequence name LOC_Os02g01355.1_pacid_33136811_transcript_LOC_Os02g01355.1_locus_LOC_Os02g01355
+ERROR: Duplicated sequence name LOC_Os02g01365.1_pacid_33138640_transcript_LOC_Os02g01365.1_locus_LOC_Os02g01365
+ERROR: Duplicated sequence name LOC_Os02g01365.1_pacid_33138640_transcript_LOC_Os02g01365.1_locus_LOC_Os02g01365
+ERROR: Duplicated sequence name LOC_Os02g06860.1_pacid_33140095_transcript_LOC_Os02g06860.1_locus_LOC_Os02g06860
+ERROR: Duplicated sequence name LOC_Os02g07430.1_pacid_33135740_transcript_LOC_Os02g07430.1_locus_LOC_Os02g07430
+ERROR: Duplicated sequence name LOC_Os02g07430.1_pacid_33135740_transcript_LOC_Os02g07430.1_locus_LOC_Os02g07430
+ERROR: Duplicated sequence name LOC_Os02g36924.1_pacid_33138545_transcript_LOC_Os02g36924.1_locus_LOC_Os02g36924
+ERROR: Duplicated sequence name LOC_Os02g36924.1_pacid_33138545_transcript_LOC_Os02g36924.1_locus_LOC_Os02g36924
+ERROR: Duplicated sequence name LOC_Os02g45770.1_pacid_33135892_transcript_LOC_Os02g45770.1_locus_LOC_Os02g45770
+ERROR: Duplicated sequence name LOC_Os02g45770.1_pacid_33135892_transcript_LOC_Os02g45770.1_locus_LOC_Os02g45770
+ERROR: Duplicated sequence name LOC_Os02g49840.1_pacid_33135821_transcript_LOC_Os02g49840.1_locus_LOC_Os02g49840
+ERROR: Duplicated sequence name LOC_Os02g49840.1_pacid_33135821_transcript_LOC_Os02g49840.1_locus_LOC_Os02g49840
+ERROR: Duplicated sequence name LOC_Os02g49840.2_pacid_33135823_transcript_LOC_Os02g49840.2_locus_LOC_Os02g49840
+ERROR: Duplicated sequence name LOC_Os02g49840.2_pacid_33135823_transcript_LOC_Os02g49840.2_locus_LOC_Os02g49840
+ERROR: Duplicated sequence name LOC_Os02g49840.3_pacid_33135824_transcript_LOC_Os02g49840.3_locus_LOC_Os02g49840
+ERROR: Duplicated sequence name LOC_Os02g49840.3_pacid_33135824_transcript_LOC_Os02g49840.3_locus_LOC_Os02g49840
+ERROR: Duplicated sequence name LOC_Os02g49840.4_pacid_33135822_transcript_LOC_Os02g49840.4_locus_LOC_Os02g49840
+ERROR: Duplicated sequence name LOC_Os02g49840.4_pacid_33135822_transcript_LOC_Os02g49840.4_locus_LOC_Os02g49840
+ERROR: Duplicated sequence name LOC_Os02g52340.1_pacid_33134825_transcript_LOC_Os02g52340.1_locus_LOC_Os02g52340
+ERROR: Duplicated sequence name LOC_Os02g52340.1_pacid_33134825_transcript_LOC_Os02g52340.1_locus_LOC_Os02g52340
+ERROR: Duplicated sequence name LOC_Os03g03070.1_pacid_33130968_transcript_LOC_Os03g03070.1_locus_LOC_Os03g03070
+ERROR: Duplicated sequence name LOC_Os03g03100.1_pacid_33128447_transcript_LOC_Os03g03100.1_locus_LOC_Os03g03100
+ERROR: Duplicated sequence name LOC_Os03g08754.1_pacid_33131113_transcript_LOC_Os03g08754.1_locus_LOC_Os03g08754
+ERROR: Duplicated sequence name LOC_Os03g08754.1_pacid_33131113_transcript_LOC_Os03g08754.1_locus_LOC_Os03g08754
+ERROR: Duplicated sequence name LOC_Os03g08754.2_pacid_33131114_transcript_LOC_Os03g08754.2_locus_LOC_Os03g08754
+ERROR: Duplicated sequence name LOC_Os03g08754.2_pacid_33131114_transcript_LOC_Os03g08754.2_locus_LOC_Os03g08754
+ERROR: Duplicated sequence name LOC_Os03g11614.1_pacid_33129283_transcript_LOC_Os03g11614.1_locus_LOC_Os03g11614
+ERROR: Duplicated sequence name LOC_Os03g11614.1_pacid_33129283_transcript_LOC_Os03g11614.1_locus_LOC_Os03g11614
+ERROR: Duplicated sequence name LOC_Os03g38610.1_pacid_33131796_transcript_LOC_Os03g38610.1_locus_LOC_Os03g38610
+ERROR: Duplicated sequence name LOC_Os03g54160.1_pacid_33129942_transcript_LOC_Os03g54160.1_locus_LOC_Os03g54160
+ERROR: Duplicated sequence name LOC_Os03g54160.1_pacid_33129942_transcript_LOC_Os03g54160.1_locus_LOC_Os03g54160
+ERROR: Duplicated sequence name LOC_Os03g54160.2_pacid_33129943_transcript_LOC_Os03g54160.2_locus_LOC_Os03g54160
+ERROR: Duplicated sequence name LOC_Os03g54160.2_pacid_33129943_transcript_LOC_Os03g54160.2_locus_LOC_Os03g54160
+ERROR: Duplicated sequence name LOC_Os03g54170.1_pacid_33127927_transcript_LOC_Os03g54170.1_locus_LOC_Os03g54170
+ERROR: Duplicated sequence name LOC_Os03g54170.1_pacid_33127927_transcript_LOC_Os03g54170.1_locus_LOC_Os03g54170
+ERROR: Duplicated sequence name LOC_Os04g23910.1_pacid_33107895_transcript_LOC_Os04g23910.1_locus_LOC_Os04g23910
+ERROR: Duplicated sequence name LOC_Os04g23910.1_pacid_33107895_transcript_LOC_Os04g23910.1_locus_LOC_Os04g23910
+ERROR: Duplicated sequence name LOC_Os04g31804.1_pacid_33107627_transcript_LOC_Os04g31804.1_locus_LOC_Os04g31804
+ERROR: Duplicated sequence name LOC_Os04g31804.1_pacid_33107627_transcript_LOC_Os04g31804.1_locus_LOC_Os04g31804
+ERROR: Duplicated sequence name LOC_Os04g38770.1_pacid_33109898_transcript_LOC_Os04g38770.1_locus_LOC_Os04g38770
+ERROR: Duplicated sequence name LOC_Os04g38780.1_pacid_33112272_transcript_LOC_Os04g38780.1_locus_LOC_Os04g38780
+ERROR: Duplicated sequence name LOC_Os04g49150.1_pacid_33108838_transcript_LOC_Os04g49150.1_locus_LOC_Os04g49150
+ERROR: Duplicated sequence name LOC_Os04g49150.1_pacid_33108838_transcript_LOC_Os04g49150.1_locus_LOC_Os04g49150
+ERROR: Duplicated sequence name LOC_Os04g52410.1_pacid_33113036_transcript_LOC_Os04g52410.1_locus_LOC_Os04g52410
+ERROR: Duplicated sequence name LOC_Os04g52410.1_pacid_33113036_transcript_LOC_Os04g52410.1_locus_LOC_Os04g52410
+ERROR: Duplicated sequence name LOC_Os04g52410.2_pacid_33113035_transcript_LOC_Os04g52410.2_locus_LOC_Os04g52410
+ERROR: Duplicated sequence name LOC_Os04g52410.2_pacid_33113035_transcript_LOC_Os04g52410.2_locus_LOC_Os04g52410
+ERROR: Duplicated sequence name LOC_Os05g11380.1_pacid_33156172_transcript_LOC_Os05g11380.1_locus_LOC_Os05g11380
+ERROR: Duplicated sequence name LOC_Os05g11380.1_pacid_33156172_transcript_LOC_Os05g11380.1_locus_LOC_Os05g11380
+ERROR: Duplicated sequence name LOC_Os05g11380.2_pacid_33156173_transcript_LOC_Os05g11380.2_locus_LOC_Os05g11380
+ERROR: Duplicated sequence name LOC_Os05g11414.1_pacid_33155515_transcript_LOC_Os05g11414.1_locus_LOC_Os05g11414
+ERROR: Duplicated sequence name LOC_Os05g11414.1_pacid_33155515_transcript_LOC_Os05g11414.1_locus_LOC_Os05g11414
+ERROR: Duplicated sequence name LOC_Os05g23780.1_pacid_33158793_transcript_LOC_Os05g23780.1_locus_LOC_Os05g23780
+ERROR: Duplicated sequence name LOC_Os05g34940.1_pacid_33156103_transcript_LOC_Os05g34940.1_locus_LOC_Os05g34940
+ERROR: Duplicated sequence name LOC_Os05g34940.1_pacid_33156103_transcript_LOC_Os05g34940.1_locus_LOC_Os05g34940
+ERROR: Duplicated sequence name LOC_Os05g34940.2_pacid_33156104_transcript_LOC_Os05g34940.2_locus_LOC_Os05g34940
+ERROR: Duplicated sequence name LOC_Os05g34940.2_pacid_33156104_transcript_LOC_Os05g34940.2_locus_LOC_Os05g34940
+ERROR: Duplicated sequence name LOC_Os05g34940.3_pacid_33156105_transcript_LOC_Os05g34940.3_locus_LOC_Os05g34940
+ERROR: Duplicated sequence name LOC_Os05g34940.3_pacid_33156105_transcript_LOC_Os05g34940.3_locus_LOC_Os05g34940
+ERROR: Duplicated sequence name LOC_Os06g01890.1_pacid_33147010_transcript_LOC_Os06g01890.1_locus_LOC_Os06g01890
+ERROR: Duplicated sequence name LOC_Os06g01890.1_pacid_33147010_transcript_LOC_Os06g01890.1_locus_LOC_Os06g01890
+ERROR: Duplicated sequence name LOC_Os06g06750.1_pacid_33149580_transcript_LOC_Os06g06750.1_locus_LOC_Os06g06750
+ERROR: Duplicated sequence name LOC_Os06g06750.1_pacid_33149580_transcript_LOC_Os06g06750.1_locus_LOC_Os06g06750
+ERROR: Duplicated sequence name LOC_Os06g11330.1_pacid_33148253_transcript_LOC_Os06g11330.1_locus_LOC_Os06g11330
+ERROR: Duplicated sequence name LOC_Os06g11330.1_pacid_33148253_transcript_LOC_Os06g11330.1_locus_LOC_Os06g11330
+ERROR: Duplicated sequence name LOC_Os06g11970.1_pacid_33144614_transcript_LOC_Os06g11970.1_locus_LOC_Os06g11970
+ERROR: Duplicated sequence name LOC_Os06g22760.1_pacid_33147005_transcript_LOC_Os06g22760.1_locus_LOC_Os06g22760
+ERROR: Duplicated sequence name LOC_Os06g23950.1_pacid_33149548_transcript_LOC_Os06g23950.1_locus_LOC_Os06g23950
+ERROR: Duplicated sequence name LOC_Os06g23980.1_pacid_33146326_transcript_LOC_Os06g23980.1_locus_LOC_Os06g23980
+ERROR: Duplicated sequence name LOC_Os06g30810.1_pacid_33146678_transcript_LOC_Os06g30810.1_locus_LOC_Os06g30810
+ERROR: Duplicated sequence name LOC_Os06g30830.1_pacid_33144999_transcript_LOC_Os06g30830.1_locus_LOC_Os06g30830
+ERROR: Duplicated sequence name LOC_Os06g45650.1_pacid_33147474_transcript_LOC_Os06g45650.1_locus_LOC_Os06g45650
+ERROR: Duplicated sequence name LOC_Os06g45650.1_pacid_33147474_transcript_LOC_Os06g45650.1_locus_LOC_Os06g45650
+ERROR: Duplicated sequence name LOC_Os06g49840.1_pacid_33145766_transcript_LOC_Os06g49840.1_locus_LOC_Os06g49840
+ERROR: Duplicated sequence name LOC_Os06g49840.1_pacid_33145766_transcript_LOC_Os06g49840.1_locus_LOC_Os06g49840
+ERROR: Duplicated sequence name LOC_Os06g49840.2_pacid_33145767_transcript_LOC_Os06g49840.2_locus_LOC_Os06g49840
+ERROR: Duplicated sequence name LOC_Os06g49840.2_pacid_33145767_transcript_LOC_Os06g49840.2_locus_LOC_Os06g49840
+ERROR: Duplicated sequence name LOC_Os07g01820.1_pacid_33118719_transcript_LOC_Os07g01820.1_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g01820.1_pacid_33118719_transcript_LOC_Os07g01820.1_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g01820.2_pacid_33118720_transcript_LOC_Os07g01820.2_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g01820.2_pacid_33118720_transcript_LOC_Os07g01820.2_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g01820.3_pacid_33118721_transcript_LOC_Os07g01820.3_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g01820.3_pacid_33118721_transcript_LOC_Os07g01820.3_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g01820.4_pacid_33118722_transcript_LOC_Os07g01820.4_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g01820.4_pacid_33118722_transcript_LOC_Os07g01820.4_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g01820.5_pacid_33118723_transcript_LOC_Os07g01820.5_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g01820.6_pacid_33118724_transcript_LOC_Os07g01820.6_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g01820.6_pacid_33118724_transcript_LOC_Os07g01820.6_locus_LOC_Os07g01820
+ERROR: Duplicated sequence name LOC_Os07g04170.1_pacid_33114516_transcript_LOC_Os07g04170.1_locus_LOC_Os07g04170
+ERROR: Duplicated sequence name LOC_Os07g41370.1_pacid_33114686_transcript_LOC_Os07g41370.1_locus_LOC_Os07g41370
+ERROR: Duplicated sequence name LOC_Os07g41370.1_pacid_33114686_transcript_LOC_Os07g41370.1_locus_LOC_Os07g41370
+ERROR: Duplicated sequence name LOC_Os07g41370.2_pacid_33114687_transcript_LOC_Os07g41370.2_locus_LOC_Os07g41370
+ERROR: Duplicated sequence name LOC_Os08g02070.1_pacid_33106269_transcript_LOC_Os08g02070.1_locus_LOC_Os08g02070
+ERROR: Duplicated sequence name LOC_Os08g02070.1_pacid_33106269_transcript_LOC_Os08g02070.1_locus_LOC_Os08g02070
+ERROR: Duplicated sequence name LOC_Os08g33488.1_pacid_33105388_transcript_LOC_Os08g33488.1_locus_LOC_Os08g33488
+ERROR: Duplicated sequence name LOC_Os08g33488.1_pacid_33105388_transcript_LOC_Os08g33488.1_locus_LOC_Os08g33488
+ERROR: Duplicated sequence name LOC_Os08g38590.1_pacid_33102888_transcript_LOC_Os08g38590.1_locus_LOC_Os08g38590
+ERROR: Duplicated sequence name LOC_Os08g41950.1_pacid_33102862_transcript_LOC_Os08g41950.1_locus_LOC_Os08g41950
+ERROR: Duplicated sequence name LOC_Os08g41950.1_pacid_33102862_transcript_LOC_Os08g41950.1_locus_LOC_Os08g41950
+ERROR: Duplicated sequence name LOC_Os08g41950.2_pacid_33102863_transcript_LOC_Os08g41950.2_locus_LOC_Os08g41950
+ERROR: Duplicated sequence name LOC_Os08g41950.2_pacid_33102863_transcript_LOC_Os08g41950.2_locus_LOC_Os08g41950
+ERROR: Duplicated sequence name LOC_Os08g41960.1_pacid_33105356_transcript_LOC_Os08g41960.1_locus_LOC_Os08g41960
+ERROR: Duplicated sequence name LOC_Os08g41960.1_pacid_33105356_transcript_LOC_Os08g41960.1_locus_LOC_Os08g41960
+ERROR: Duplicated sequence name LOC_Os09g02830.1_pacid_33142791_transcript_LOC_Os09g02830.1_locus_LOC_Os09g02830
+ERROR: Duplicated sequence name LOC_Os09g32948.1_pacid_33141446_transcript_LOC_Os09g32948.1_locus_LOC_Os09g32948
+ERROR: Duplicated sequence name LOC_Os09g32948.1_pacid_33141446_transcript_LOC_Os09g32948.1_locus_LOC_Os09g32948
+ERROR: Duplicated sequence name LOC_Os10g39130.1_pacid_33101638_transcript_LOC_Os10g39130.1_locus_LOC_Os10g39130
+ERROR: Duplicated sequence name LOC_Os10g39130.1_pacid_33101638_transcript_LOC_Os10g39130.1_locus_LOC_Os10g39130
+ERROR: Duplicated sequence name LOC_Os10g39130.2_pacid_33101639_transcript_LOC_Os10g39130.2_locus_LOC_Os10g39130
+ERROR: Duplicated sequence name LOC_Os10g39130.2_pacid_33101639_transcript_LOC_Os10g39130.2_locus_LOC_Os10g39130
+ERROR: Duplicated sequence name LOC_Os11g43740.1_pacid_33163547_transcript_LOC_Os11g43740.1_locus_LOC_Os11g43740
+ERROR: Duplicated sequence name LOC_Os11g43740.1_pacid_33163547_transcript_LOC_Os11g43740.1_locus_LOC_Os11g43740
+ERROR: Duplicated sequence name LOC_Os12g10520.1_pacid_33150409_transcript_LOC_Os12g10520.1_locus_LOC_Os12g10520
+ERROR: Duplicated sequence name LOC_Os12g10520.1_pacid_33150409_transcript_LOC_Os12g10520.1_locus_LOC_Os12g10520
+ERROR: Duplicated sequence name LOC_Os12g10520.2_pacid_33150410_transcript_LOC_Os12g10520.2_locus_LOC_Os12g10520
+ERROR: Duplicated sequence name LOC_Os12g10520.2_pacid_33150410_transcript_LOC_Os12g10520.2_locus_LOC_Os12g10520
+ERROR: Duplicated sequence name LOC_Os12g10540.1_pacid_33153307_transcript_LOC_Os12g10540.1_locus_LOC_Os12g10540
+ERROR: Duplicated sequence name LOC_Os12g10540.1_pacid_33153307_transcript_LOC_Os12g10540.1_locus_LOC_Os12g10540
+ERROR: Duplicated sequence name LOC_Os12g10540.2_pacid_33153308_transcript_LOC_Os12g10540.2_locus_LOC_Os12g10540
+ERROR: Duplicated sequence name LOC_Os12g10540.2_pacid_33153308_transcript_LOC_Os12g10540.2_locus_LOC_Os12g10540
+ERROR: Duplicated sequence name LOC_Os12g10540.3_pacid_33153306_transcript_LOC_Os12g10540.3_locus_LOC_Os12g10540
+ERROR: Duplicated sequence name LOC_Os12g10540.3_pacid_33153306_transcript_LOC_Os12g10540.3_locus_LOC_Os12g10540
+ERROR: Duplicated sequence name LOC_Os12g10540.4_pacid_33153309_transcript_LOC_Os12g10540.4_locus_LOC_Os12g10540
+ERROR: Duplicated sequence name LOC_Os12g10540.4_pacid_33153309_transcript_LOC_Os12g10540.4_locus_LOC_Os12g10540
+ERROR: Duplicated sequence name LOC_Os12g10540.5_pacid_33153310_transcript_LOC_Os12g10540.5_locus_LOC_Os12g10540
+ERROR: Duplicated sequence name LOC_Os12g10540.5_pacid_33153310_transcript_LOC_Os12g10540.5_locus_LOC_Os12g10540
+ERROR: Duplicated sequence name LOC_Os12g21850.1_pacid_33151746_transcript_LOC_Os12g21850.1_locus_LOC_Os12g21850
+ERROR: Duplicated sequence name LOC_Os12g21880.1_pacid_33150817_transcript_LOC_Os12g21880.1_locus_LOC_Os12g21880
+ERROR: Duplicated sequence name LOC_Os12g31748.1_pacid_33151405_transcript_LOC_Os12g31748.1_locus_LOC_Os12g31748
+ERROR: Duplicated sequence name LOC_Os12g31748.1_pacid_33151405_transcript_LOC_Os12g31748.1_locus_LOC_Os12g31748
+ERROR: Duplicated sequence name LOC_Os12g31748.2_pacid_33151404_transcript_LOC_Os12g31748.2_locus_LOC_Os12g31748
+ERROR: Duplicated sequence name LOC_Os12g31748.2_pacid_33151404_transcript_LOC_Os12g31748.2_locus_LOC_Os12g31748
+ERROR: Please rename sequences listed above!

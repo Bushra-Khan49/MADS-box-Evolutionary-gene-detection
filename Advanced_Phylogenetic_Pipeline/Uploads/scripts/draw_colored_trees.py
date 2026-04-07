@@ -71,7 +71,7 @@ AT_TO_CLADE = {
     "AT1G71692": "AGL12"
 }
 
-WORK_DIR = "/Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK"
+WORK_DIR = "/Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads"
 NWK_DIR  = os.path.join(WORK_DIR, "Newick_Trees")
 ANN_FILE = os.path.join(WORK_DIR, "MIKCc_Subclade_Annotation_Table.tsv")
 OUT_DIR  = os.path.join(WORK_DIR, "Colored_Tree_Images")

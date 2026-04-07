@@ -1,0 +1,24 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Cinnamomum_kanehirae/Cinnamomum_kanehirae_MAFFT.fa -fast -m BIONJ -b 500 -T AUTO -pre test_ck
+Seed:    824631 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr  6 12:47:46 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Cinnamomum_kanehirae/Cinnamomum_kanehirae_MAFFT.fa ... Fasta format detected
+Reading fasta file: done in 0.00182414 secs using 82.78% CPU
+Alignment most likely contains protein sequences
+Alignment has 110 sequences with 943 columns, 778 distinct patterns
+388 parsimony-informative, 221 singleton sites, 334 constant sites
+Analyzing sequences: done in 8.79765e-05 secs using 256.9% CPU
+WARNING: 110 sequences contain more than 50% gaps/ambiguity
+
+===> START BOOTSTRAP REPLICATE NUMBER 1
+
+Creating bootstrap alignment (seed: 824631)...
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.03 seconds
+ERROR: File not found BIONJ

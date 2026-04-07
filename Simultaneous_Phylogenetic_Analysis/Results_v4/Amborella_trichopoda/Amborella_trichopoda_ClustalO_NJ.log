@@ -1,0 +1,233 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO.fa -m JTT+G -B 1000 -T AUTO -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ -redo
+Seed:    553846 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr  6 18:33:49 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO.fa ... Fasta format detected
+Reading fasta file: done in 0.00118399 secs using 74.16% CPU
+Alignment most likely contains protein sequences
+Alignment has 95 sequences with 504 columns, 486 distinct patterns
+337 parsimony-informative, 108 singleton sites, 59 constant sites
+                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.51019e-05 secs using 182.4% CPU
+   1  evm_27.model.AmTr_v1.0_scaffold00089.36    57.94%    passed     97.93%
+   2  evm_27.model.AmTr_v1.0_scaffold00013.60    65.87%    passed     98.78%
+   3  evm_27.model.AmTr_v1.0_scaffold00013.53    52.18%    passed     63.82%
+   4  evm_27.model.AmTr_v1.0_scaffold00001.409   55.75%    passed     95.16%
+   5  evm_27.model.AmTr_v1.0_scaffold00001.461   54.17%    passed     73.44%
+   6  evm_27.model.AmTr_v1.0_scaffold00001.225   54.37%    passed     39.37%
+   7  evm_27.model.AmTr_v1.0_scaffold00001.413   54.56%    passed     57.69%
+   8  evm_27.model.AmTr_v1.0_scaffold00046.134   55.95%    passed     99.38%
+   9  evm_27.model.AmTr_v1.0_scaffold00053.185   62.70%    passed     54.14%
+  10  evm_27.model.AmTr_v1.0_scaffold00095.150   54.76%    failed      0.15%
+  11  evm_27.model.AmTr_v1.0_scaffold00071.203   55.95%    passed     44.37%
+  12  evm_27.model.AmTr_v1.0_scaffold00021.296   53.57%    passed     90.79%
+  13  evm_27.model.AmTr_v1.0_scaffold00047.121   51.79%    passed     53.99%
+  14  evm_27.model.AmTr_v1.0_scaffold00047.105   51.98%    passed     17.98%
+  15  evm_27.model.AmTr_v1.0_scaffold00066.97    56.35%    passed     25.47%
+  16  evm_27.model.AmTr_v1.0_scaffold00127.17    56.55%    passed     63.87%
+  17  AT1G69540.1                                31.75%    passed     17.39%
+  18  AT1G59810.1                                43.85%    failed      0.01%
+  19  AT5G62165.1                                58.33%    passed     91.71%
+  20  AT3G30260.1                                50.60%    passed     22.35%
+  21  AT2G22540.1                                52.38%    passed     91.30%
+  22  AT5G62165.2                                58.33%    passed     91.71%
+  23  AT5G65050.1                                63.89%    passed     67.03%
+  24  AT2G03710.3                                62.90%    passed     90.80%
+  25  AT5G65080.1                                59.33%    passed     59.85%
+  26  AT5G51870.2                                65.87%    passed     33.72%
+  27  AT3G54340.1                                53.97%    passed     46.09%
+  28  AT2G22540.2                                53.37%    passed     90.11%
+  29  AT1G77080.5                                65.67%    passed     35.60%
+  30  AT5G60910.1                                51.98%    passed     97.32%
+  31  AT1G77980.1                                34.13%    passed     22.35%
+  32  AT3G58780.3                                45.83%    passed     82.40%
+  33  AT4G09960.3                                49.21%    passed     59.44%
+  34  AT5G51860.1                                58.13%    passed     25.87%
+  35  AT5G20240.1                                58.73%    passed     12.44%
+  36  AT2G03710.2                                49.01%    passed     80.14%
+  37  AT5G65080.2                                60.91%    passed     55.84%
+  38  AT3G57390.1                                49.21%    passed     84.93%
+  39  AT5G65060.2                                63.29%    passed     56.94%
+  40  AT3G57230.2                                52.58%    passed     77.12%
+  41  AT5G10140.1                                61.11%    passed     20.79%
+  42  AT2G42830.2                                50.79%    passed     56.75%
+  43  AT2G45660.1                                57.54%    passed     68.16%
+  44  AT4G09960.4                                53.57%    passed     42.19%
+  45  AT4G22950.1                                56.55%    passed     89.11%
+  46  AT5G23260.3                                52.78%    failed      2.39%
+  47  AT4G37940.1                                54.76%    passed     98.98%
+  48  AT5G15800.2                                48.02%    passed      8.75%
+  49  AT5G65050.3                                61.11%    passed     74.06%
+  50  AT4G09960.2                                57.14%    passed     33.76%
+  51  AT2G22630.1                                54.96%    passed     98.56%
+  52  AT5G15800.1                                50.20%    passed     18.97%
+  53  AT1G77950.2                                50.00%    passed     52.59%
+  54  AT2G03060.2                                23.41%    failed      0.00%
+  55  AT5G65070.3                                53.97%    passed     46.42%
+  56  AT3G58780.2                                52.18%    passed     82.62%
+  57  AT5G51860.2                                59.92%    passed     19.70%
+  58  AT1G77950.1                                50.00%    passed     52.59%
+  59  AT3G61120.1                                51.59%    passed     30.48%
+  60  AT1G24260.2                                50.20%    passed     47.43%
+  61  AT5G10140.2                                66.87%    passed     17.51%
+  62  AT5G10140.3                                63.10%    passed     22.54%
+  63  AT5G65070.2                                54.17%    passed     51.04%
+  64  AT5G65070.1                                60.32%    passed     30.88%
+  65  AT2G14210.1                                53.57%    passed     94.65%
+  66  AT1G24260.1                                50.40%    passed     42.30%
+  67  AT5G51870.3                                56.55%    passed     80.25%
+  68  AT2G03710.1                                48.81%    passed     79.33%
+  69  AT5G65050.2                                64.68%    passed     50.33%
+  70  AT5G62165.4                                61.11%    passed     98.00%
+  71  AT4G18960.1                                50.00%    passed     33.68%
+  72  AT1G69120.1                                49.21%    passed     25.77%
+  73  AT4G11880.1                                56.15%    passed     82.50%
+  74  AT2G42830.1                                51.19%    passed     57.42%
+  75  AT2G45650.1                                50.00%    passed     49.78%
+  76  AT3G57230.1                                52.38%    passed     60.51%
+  77  AT1G71692.1                                58.13%    passed     49.24%
+  78  AT5G10140.4                                63.89%    passed     25.99%
+  79  AT3G58780.1                                50.79%    passed     80.78%
+  80  AT4G09960.1                                54.37%    passed     39.39%
+  81  AT4G24540.1                                56.35%    passed     11.71%
+  82  AT5G62165.3                                58.33%    passed     91.71%
+  83  AT1G26310.1                                49.40%    passed     86.05%
+  84  AT1G24260.3                                52.98%    passed     33.72%
+  85  AT1G31140.1                                57.74%    passed     41.84%
+  86  AT1G77080.2                                61.90%    passed     69.54%
+  87  AT5G23260.2                                50.00%    failed      1.83%
+  88  AT1G31140.2                                57.34%    passed     41.67%
+  89  AT1G22130.1                                33.53%    passed     10.60%
+  90  AT5G23260.1                                50.99%    failed      2.35%
+  91  AT1G77080.4                                61.11%    passed     74.87%
+  92  AT5G51870.1                                58.93%    passed     65.95%
+  93  AT5G13790.1                                46.83%    passed     68.72%
+  94  AT5G65060.1                                61.11%    passed     45.50%
+  95  AT3G02310.1                                50.40%    passed     16.71%
+WARNING: 76 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                      54.32%  6 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: AT5G62165.2 is identical to AT5G62165.1 but kept for subsequent analysis
+NOTE: AT1G77950.1 is identical to AT1G77950.2 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AT5G62165.3 (identical to AT5G62165.1) is ignored but added at the end
+Alignment was printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.030 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 553846)...
+
+NOTE: 31 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+5 trees examined
+Threads: 1 / Time: 12.147 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -42389
+Threads: 2 / Time: 7.932 sec / Speedup: 1.531 / Efficiency: 77% / LogL: -42389
+Threads: 3 / Time: 5.451 sec / Speedup: 2.228 / Efficiency: 74% / LogL: -42389
+Threads: 4 / Time: 4.883 sec / Speedup: 2.487 / Efficiency: 62% / LogL: -42389
+Threads: 5 / Time: 5.129 sec / Speedup: 2.368 / Efficiency: 47% / LogL: -42389
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -26617.762
+2. Current log-likelihood: -25484.929
+3. Current log-likelihood: -25421.212
+4. Current log-likelihood: -25418.693
+5. Current log-likelihood: -25418.490
+Optimal log-likelihood: -25418.457
+Gamma shape alpha: 0.910
+Parameters optimization took 5 rounds (2.930 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.667665 secs using 394% CPU
+Computing ML distances took 0.667850 sec (of wall-clock time) 2.630593 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000179052 secs using 184.3% CPU
+Computing RapidNJ tree took 0.005731 sec (of wall-clock time) 0.005585 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -25592.116
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.778 second
+Computing log-likelihood of 98 initial trees ... 11.778 seconds
+Current best score: -25418.457
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -25358.193
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -25353.323
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -25351.981
+Iteration 10 / LogL: -25352.410 / Time: 0h:1m:38s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -25351.956
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -25351.522
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 20: -25351.431
+Iteration 20 / LogL: -25351.431 / Time: 0h:2m:25s
+Finish initializing candidate tree set (20)
+Current best tree score: -25351.431 / CPU time: 105.264
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -25351.522 / Time: 0h:3m:6s (0h:9m:39s left)
+Iteration 40 / LogL: -25362.379 / Time: 0h:3m:48s (0h:7m:47s left)
+Iteration 50 / LogL: -25353.583 / Time: 0h:4m:27s (0h:6m:22s left)
+Log-likelihood cutoff on original alignment: -25389.074
+Iteration 60 / LogL: -25352.797 / Time: 0h:5m:11s (0h:5m:16s left)
+Iteration 70 / LogL: -25351.431 / Time: 0h:5m:50s (0h:4m:14s left)
+Iteration 80 / LogL: -25352.638 / Time: 0h:6m:32s (0h:3m:18s left)
+Iteration 90 / LogL: -25351.432 / Time: 0h:7m:11s (0h:2m:25s left)
+Iteration 100 / LogL: -25353.033 / Time: 0h:7m:51s (0h:1m:35s left)
+Log-likelihood cutoff on original alignment: -25386.303
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -25352.638 / Time: 0h:8m:32s (0h:7m:3s left)
+Iteration 120 / LogL: -25358.914 / Time: 0h:9m:14s (0h:6m:12s left)
+TREE SEARCH COMPLETED AFTER 121 ITERATIONS / Time: 0h:9m:18s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -25351.431
+Optimal log-likelihood: -25351.431
+Gamma shape alpha: 0.883
+Parameters optimization took 1 rounds (0.325 sec)
+BEST SCORE FOUND : -25351.431
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.splits.nex
+Total tree length: 54.224
+
+Total number of iterations: 121
+CPU time used for tree search: 1488.875 sec (0h:24m:48s)
+Wall-clock time used for tree search: 518.688 sec (0h:8m:38s)
+Total CPU time used: 1570.702 sec (0h:26m:10s)
+Total wall-clock time used: 559.117 sec (0h:9m:19s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.splits.nex...
+94 taxa and 433 splits.
+Consensus tree written to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.contree
+Reading input trees file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.contree
+Log-likelihood of consensus tree: -25351.445
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.splits.nex
+  Consensus tree:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.contree
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Amborella_trichopoda/Amborella_trichopoda_ClustalO_NJ.log
+
+Date and Time: Mon Apr  6 18:43:09 2026

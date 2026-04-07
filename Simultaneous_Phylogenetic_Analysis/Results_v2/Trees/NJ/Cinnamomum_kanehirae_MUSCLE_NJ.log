@@ -1,0 +1,105 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Cinnamomum_kanehirae_MUSCLE.fa -m LG -n 0 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Cinnamomum_kanehirae_MUSCLE_NJ -redo
+Seed:    520441 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 13:06:30 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Cinnamomum_kanehirae_MUSCLE.fa ... Fasta format detected
+Reading fasta file: done in 0.00265217 secs using 91.62% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00145602 secs using 78.09% CPU
+Alignment has 43 sequences with 1254 columns, 589 distinct patterns
+245 parsimony-informative, 123 singleton sites, 886 constant sites
+WARNING: Some sequence names are changed as follows:
+AT4G36920.1|APETALA2|AP2|Length=432 -> AT4G36920.1|APETALA2|AP2|Length_432
+AT3G54340.1|APETALA3|AP3|Length=232 -> AT3G54340.1|APETALA3|AP3|Length_232
+AT5G20240.1|PISTILLATA|PI|Length=208 -> AT5G20240.1|PISTILLATA|PI|Length_208
+AT3G58780.4|SHATTERPROOF1|SHP1|Length=281 -> AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
+AT2G42830.2|SHATTERPROOF2|SHP2|Length=248 -> AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
+AT4G09960.4|SEEDSTICK|STK|Length=329 -> AT4G09960.4|SEEDSTICK|STK|Length_329
+AT4G18960.1|AGAMOUS|AG|Length=252 -> AT4G18960.1|AGAMOUS|AG|Length_252
+AT5G15800.2|SEPALLATA1|SEP1|Length=262 -> AT5G15800.2|SEPALLATA1|SEP1|Length_262
+AT3G02310.1|SEPALLATA2|SEP2|Length=250 -> AT3G02310.1|SEPALLATA2|SEP2|Length_250
+AT1G69120.1|APETALA1|AP1|Length=286 -> AT1G69120.1|APETALA1|AP1|Length_286
+AT2G03710.1|SEPALLATA4|SEP4|Length=258 -> AT2G03710.1|SEPALLATA4|SEP4|Length_258
+AT1G24260.2|SEPALLATA3|SEP3|Length=251 -> AT1G24260.2|SEPALLATA3|SEP3|Length_251
+
+                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.50611e-05 secs using 97.65% CPU
+   1  AT4G36920.1|APETALA2|AP2|Length_432         65.55%    failed      0.00%
+   2  CKAN_02317200                               72.01%    passed     71.01%
+   3  CKAN_02447300                               81.02%    passed      8.58%
+   4  CKAN_02197200                               65.07%    failed      0.00%
+   5  CKAN_01894500                               72.97%    passed      5.02%
+   6  CKAN_01187700                               83.57%    passed     19.97%
+   7  CKAN_01046400                               81.18%    passed     42.74%
+   8  AT3G54340.1|APETALA3|AP3|Length_232         81.50%    passed     41.43%
+   9  AT5G20240.1|PISTILLATA|PI|Length_208        83.41%    passed      9.63%
+  10  CKAN_02109000                               83.17%    passed     87.63%
+  11  CKAN_02199500                               83.33%    passed     83.06%
+  12  CKAN_00861800                               78.39%    failed      0.57%
+  13  CKAN_02742500                               83.73%    passed     33.72%
+  14  CKAN_00565900                               82.06%    passed     86.93%
+  15  CKAN_00566000                               79.90%    passed     20.96%
+  16  CKAN_01065400                               82.54%    passed     40.97%
+  17  CKAN_00958800                               82.85%    passed     43.21%
+  18  CKAN_01533600                               70.57%    passed     40.27%
+  19  CKAN_01906900                               85.33%    passed     32.33%
+  20  CKAN_01290200                               82.46%    passed     52.42%
+  21  AT3G58780.4|SHATTERPROOF1|SHP1|Length_281   77.59%    passed     17.98%
+  22  AT2G42830.2|SHATTERPROOF2|SHP2|Length_248   80.22%    passed     17.41%
+  23  AT4G09960.4|SEEDSTICK|STK|Length_329        73.76%    passed     10.36%
+  24  AT4G18960.1|AGAMOUS|AG|Length_252           79.90%    passed     16.76%
+  25  CKAN_01942500                               82.46%    passed     44.75%
+  26  CKAN_02189300                               82.22%    passed     21.74%
+  27  CKAN_01821800                               79.03%    passed     77.94%
+  28  CKAN_02562300                               82.22%    passed     47.53%
+  29  CKAN_02117700                               84.61%    passed     13.18%
+  30  AT5G15800.2|SEPALLATA1|SEP1|Length_262      79.11%    passed     26.33%
+  31  AT3G02310.1|SEPALLATA2|SEP2|Length_250      80.06%    passed     30.52%
+  32  AT1G69120.1|APETALA1|AP1|Length_286         79.59%    passed     55.05%
+  33  AT2G03710.1|SEPALLATA4|SEP4|Length_258      79.43%    passed     70.68%
+  34  CKAN_01596700                               83.57%    passed     77.57%
+  35  CKAN_01942000                               88.52%    passed     15.97%
+  36  CKAN_01352300                               84.05%    failed      2.20%
+  37  CKAN_02189800                               83.01%    passed     24.79%
+  38  CKAN_02189500                               82.62%    passed     21.91%
+  39  CKAN_01848800                               80.78%    passed     95.50%
+  40  CKAN_00958900                               80.86%    passed     98.33%
+  41  CKAN_00109600                               80.06%    passed     88.69%
+  42  CKAN_00283400                               81.10%    passed     90.06%
+  43  AT1G24260.2|SEPALLATA3|SEP3|Length_251      79.98%    passed     46.03%
+WARNING: 43 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                       80.12%  4 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000133991 secs using 85.08% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.008 seconds
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -22904.418
+Optimal log-likelihood: -18977.001
+Parameters optimization took 1 rounds (0.130 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -18977.001
+Total tree length: 23.049
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.148 sec (0h:0m:0s)
+Total wall-clock time used: 0.151 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Cinnamomum_kanehirae_MUSCLE_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Cinnamomum_kanehirae_MUSCLE_NJ.treefile
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Cinnamomum_kanehirae_MUSCLE_NJ.log
+
+Date and Time: Sun Apr  5 13:06:30 2026

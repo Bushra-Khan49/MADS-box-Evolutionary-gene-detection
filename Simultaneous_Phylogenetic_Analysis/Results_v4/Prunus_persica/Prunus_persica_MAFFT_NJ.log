@@ -1,0 +1,252 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT.fa -m JTT+G -B 1000 -T AUTO -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ -redo
+Seed:    238458 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr  7 18:43:41 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT.fa ... Fasta format detected
+Reading fasta file: done in 0.00189495 secs using 87.5% CPU
+Alignment most likely contains protein sequences
+Alignment has 114 sequences with 719 columns, 673 distinct patterns
+384 parsimony-informative, 164 singleton sites, 171 constant sites
+                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000143051 secs using 220.9% CPU
+   1  Prupe.2G151000.1.p   66.06%    passed     98.30%
+   2  Prupe.2G287500.1.p   69.82%    passed     73.97%
+   3  Prupe.2G287000.1.p   66.76%    passed     70.42%
+   4  Prupe.2G023100.1.p   64.67%    passed     55.29%
+   5  Prupe.2G151200.1.p   70.10%    passed     83.41%
+   6  Prupe.8G069300.1.p   68.98%    passed     67.90%
+   7  Prupe.8G073700.1.p   65.92%    passed     90.87%
+   8  Prupe.6G208900.1.p   70.79%    passed     92.05%
+   9  Prupe.6G199000.1.p   68.29%    passed     80.13%
+  10  Prupe.4G113500.1.p   61.47%    passed     11.56%
+  11  Prupe.4G070500.1.p   66.20%    passed     15.32%
+  12  Prupe.5G208500.1.p   64.53%    passed     98.86%
+  13  Prupe.5G087500.1.p   69.68%    passed     81.91%
+  14  Prupe.5G208400.1.p   65.09%    passed     40.30%
+  15  Prupe.5G149400.1.p   71.91%    passed     46.50%
+  16  Prupe.7G055900.1.p   67.18%    passed     95.55%
+  17  Prupe.7G164100.1.p   66.90%    failed      3.95%
+  18  Prupe.3G307800.1.p   67.18%    passed     87.79%
+  19  Prupe.3G170600.1.p   66.06%    passed     20.50%
+  20  Prupe.3G249400.1.p   65.79%    passed     78.71%
+  21  Prupe.3G249300.1.p   55.35%    passed     61.74%
+  22  Prupe.1G531400.1.p   67.04%    passed     51.18%
+  23  Prupe.1G427500.1.p   56.33%    passed     37.93%
+  24  Prupe.1G223600.1.p   66.62%    passed     94.19%
+  25  Prupe.1G290500.1.p   65.37%    passed     86.68%
+  26  Prupe.1G290600.1.p   66.90%    passed     74.20%
+  27  Prupe.1G531600.1.p   67.45%    passed     26.66%
+  28  Prupe.1G276600.1.p   51.32%    failed      3.75%
+  29  Prupe.1G371300.1.p   71.77%    passed     70.09%
+  30  Prupe.1G549600.1.p   69.12%    passed     64.17%
+  31  Prupe.1G511300.1.p   50.76%    failed      0.27%
+  32  Prupe.1G548000.1.p   71.63%    passed     28.72%
+  33  Prupe.1G531700.1.p   66.90%    passed     53.96%
+  34  Prupe.1G531100.1.p   50.63%    failed      3.04%
+  35  Prupe.1G489400.1.p   70.79%    passed     94.12%
+  36  AT5G65080.1          71.49%    passed     51.55%
+  37  AT5G65050.2          75.24%    passed     41.71%
+  38  AT2G03710.3          73.99%    passed     82.26%
+  39  AT5G20240.1          71.07%    passed     11.08%
+  40  AT4G09960.3          64.39%    passed     53.09%
+  41  AT3G58780.1          65.51%    passed     81.62%
+  42  AT5G15800.1          65.09%    passed     23.79%
+  43  AT5G62165.1          70.79%    passed     87.44%
+  44  AT3G58780.2          66.48%    passed     83.73%
+  45  AT5G23260.2          64.95%    failed      2.67%
+  46  AT5G23260.1          65.65%    failed      3.43%
+  47  AT5G65060.1          72.74%    passed     36.73%
+  48  AT1G24260.3          67.04%    passed     39.25%
+  49  AT5G65070.1          72.18%    passed     23.47%
+  50  AT5G10140.2          76.77%    passed     13.56%
+  51  AT3G57230.1          66.62%    passed     62.65%
+  52  AT1G77080.5          75.94%    passed     27.13%
+  53  AT5G51870.1          71.21%    passed     58.41%
+  54  AT5G62165.3          70.79%    passed     87.44%
+  55  AT3G58780.3          62.03%    passed     81.94%
+  56  AT5G65050.3          72.74%    passed     67.40%
+  57  AT4G09960.4          67.45%    passed     38.43%
+  58  AT5G65060.2          74.27%    passed     47.42%
+  59  AT2G03710.1          64.12%    passed     82.91%
+  60  AT2G22540.1          66.62%    passed     87.99%
+  61  AT2G03060.2          46.31%    failed      0.02%
+  62  AT1G77950.1          64.95%    passed     58.80%
+  63  AT1G77950.2          64.95%    passed     58.80%
+  64  AT1G24260.2          65.09%    passed     50.76%
+  65  AT5G23260.3          66.90%    failed      3.73%
+  66  AT4G37940.1          68.29%    passed     98.17%
+  67  AT1G26310.1          64.53%    passed     86.11%
+  68  AT5G51860.1          70.65%    passed     22.06%
+  69  AT5G62165.4          72.74%    passed     96.65%
+  70  AT2G14210.1          67.45%    passed     92.72%
+  71  AT1G59810.1          60.64%    failed      0.02%
+  72  AT4G09960.2          69.96%    passed     31.30%
+  73  AT5G51870.3          69.54%    passed     72.36%
+  74  AT1G71692.1          70.65%    passed     58.64%
+  75  AT3G02310.1          65.23%    passed     22.66%
+  76  AT5G65050.1          74.69%    passed     60.84%
+  77  AT4G09960.1          68.01%    passed     36.15%
+  78  AT2G42830.1          65.79%    passed     55.42%
+  79  AT3G57390.1          64.39%    passed     82.80%
+  80  AT5G10140.3          74.13%    passed     19.49%
+  81  AT1G22130.1          53.41%    passed     20.92%
+  82  AT1G77080.4          72.74%    passed     67.24%
+  83  AT3G54340.1          67.73%    passed     41.95%
+  84  AT5G65070.3          67.73%    passed     40.99%
+  85  AT4G18960.1          64.95%    passed     35.91%
+  86  AT1G69540.1          52.16%    passed     32.91%
+  87  AT1G31140.1          70.38%    passed     58.75%
+  88  AT5G10140.4          74.69%    passed     22.92%
+  89  AT4G22950.1          69.54%    passed     85.33%
+  90  AT2G03710.2          64.26%    passed     83.67%
+  91  AT1G77080.2          73.30%    passed     68.26%
+  92  AT1G31140.2          70.10%    passed     57.88%
+  93  AT2G42830.2          65.51%    passed     54.64%
+  94  AT5G13790.1          62.73%    passed     66.52%
+  95  AT1G77980.1          53.82%    passed     31.94%
+  96  AT5G60910.1          66.34%    passed     97.36%
+  97  AT5G65070.2          67.87%    passed     42.04%
+  98  AT5G10140.1          72.74%    passed     17.79%
+  99  AT5G15800.2          63.56%    passed     11.81%
+ 100  AT5G65080.2          72.60%    passed     54.90%
+ 101  AT2G45650.1          64.95%    passed     71.51%
+ 102  AT2G22630.1          68.43%    passed     97.84%
+ 103  AT3G30260.1          65.37%    passed     25.03%
+ 104  AT4G11880.1          69.26%    passed     78.11%
+ 105  AT5G51860.2          71.91%    passed     16.36%
+ 106  AT5G62165.2          70.79%    passed     87.44%
+ 107  AT4G24540.1          69.40%    passed      7.61%
+ 108  AT2G45660.1          70.24%    passed     70.98%
+ 109  AT1G24260.1          65.23%    passed     45.43%
+ 110  AT3G57230.2          66.76%    passed     75.55%
+ 111  AT1G69120.1          64.39%    passed     35.65%
+ 112  AT5G51870.2          76.08%    passed     30.67%
+ 113  AT2G22540.2          67.32%    passed     85.06%
+ 114  AT3G61120.1          66.06%    passed     29.09%
+WARNING: 113 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                67.05%  9 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: AT5G62165.3 is identical to AT5G62165.1 but kept for subsequent analysis
+NOTE: AT1G77950.2 is identical to AT1G77950.1 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AT5G62165.2 (identical to AT5G62165.1) is ignored but added at the end
+Alignment was printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.045 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 238458)...
+
+NOTE: 51 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 12.207 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -52266
+Threads: 2 / Time: 7.807 sec / Speedup: 1.564 / Efficiency: 78% / LogL: -52266
+Threads: 3 / Time: 5.380 sec / Speedup: 2.269 / Efficiency: 76% / LogL: -52266
+Threads: 4 / Time: 4.936 sec / Speedup: 2.473 / Efficiency: 62% / LogL: -52266
+Threads: 5 / Time: 4.958 sec / Speedup: 2.462 / Efficiency: 49% / LogL: -52266
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -33872.744
+2. Current log-likelihood: -31784.873
+3. Current log-likelihood: -31712.835
+4. Current log-likelihood: -31704.672
+5. Current log-likelihood: -31703.682
+6. Current log-likelihood: -31703.576
+Optimal log-likelihood: -31703.503
+Gamma shape alpha: 0.982
+Parameters optimization took 6 rounds (5.409 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.946092 secs using 395.8% CPU
+Computing ML distances took 0.946369 sec (of wall-clock time) 3.744616 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000202894 secs using 193.7% CPU
+Computing RapidNJ tree took 0.008213 sec (of wall-clock time) 0.007750 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -31859.228
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.509 second
+Computing log-likelihood of 98 initial trees ... 19.899 seconds
+Current best score: -31703.503
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -31670.335
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -31658.531
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -31657.721
+BETTER TREE FOUND at iteration 4: -31657.721
+Iteration 10 / LogL: -31666.383 / Time: 0h:2m:9s
+Iteration 20 / LogL: -31661.350 / Time: 0h:3m:18s
+Finish initializing candidate tree set (16)
+Current best tree score: -31657.721 / CPU time: 155.509
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -31658.702 / Time: 0h:4m:22s (0h:11m:8s left)
+UPDATE BEST LOG-LIKELIHOOD: -31657.720
+BETTER TREE FOUND at iteration 35: -31657.720
+Iteration 40 / LogL: -31657.721 / Time: 0h:5m:22s (0h:13m:6s left)
+Iteration 50 / LogL: -31657.721 / Time: 0h:6m:21s (0h:11m:1s left)
+Log-likelihood cutoff on original alignment: -31716.419
+Iteration 60 / LogL: -31658.279 / Time: 0h:7m:22s (0h:9m:22s left)
+Iteration 70 / LogL: -31657.721 / Time: 0h:8m:23s (0h:7m:53s left)
+Iteration 80 / LogL: -31657.720 / Time: 0h:9m:25s (0h:6m:33s left)
+Iteration 90 / LogL: -31657.841 / Time: 0h:10m:25s (0h:5m:16s left)
+Iteration 100 / LogL: -31657.721 / Time: 0h:11m:26s (0h:4m:2s left)
+Log-likelihood cutoff on original alignment: -31716.419
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -31657.721 / Time: 0h:12m:24s (0h:10m:15s left)
+Iteration 120 / LogL: -31657.721 / Time: 0h:13m:25s (0h:9m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -31657.720
+Iteration 130 / LogL: -31660.861 / Time: 0h:14m:24s (0h:7m:48s left)
+TREE SEARCH COMPLETED AFTER 136 ITERATIONS / Time: 0h:15m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -31657.720
+Optimal log-likelihood: -31657.719
+Gamma shape alpha: 0.994
+Parameters optimization took 1 rounds (0.552 sec)
+BEST SCORE FOUND : -31657.719
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.splits.nex
+Total tree length: 57.581
+
+Total number of iterations: 136
+CPU time used for tree search: 2528.503 sec (0h:42m:8s)
+Wall-clock time used for tree search: 858.932 sec (0h:14m:18s)
+Total CPU time used: 2622.947 sec (0h:43m:42s)
+Total wall-clock time used: 902.740 sec (0h:15m:2s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.splits.nex...
+113 taxa and 492 splits.
+Consensus tree written to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.contree
+Reading input trees file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.contree
+Log-likelihood of consensus tree: -31657.731
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.splits.nex
+  Consensus tree:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.contree
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v4/Prunus_persica/Prunus_persica_MAFFT_NJ.log
+
+Date and Time: Tue Apr  7 18:58:45 2026

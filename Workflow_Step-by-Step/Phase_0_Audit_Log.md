@@ -17,11 +17,12 @@ The following table reconciles the "Logical Task ID" (used in commit messages) w
 | TASK 5 | `TASK_6` | *Glycine max* (Soybean) | 228 genes |
 | TASK 6 | `TASK_7` | *Medicago truncatula* | 72 genes |
 | TASK 7 | `TASK_8` | *Prunus persica* (Peach) | 68 genes |
-| TASK 8 | `TASK_9` | *Helianthus annuus* (Sunflower) | 128 genes |
+| TASK 8 | `TASK_9` | *Helianthus annus* (Sunflower) | 128 genes |
 | TASK 9 | `TASK_10` | *Nelumbo nucifera* (Sacred Lotus) | 48 genes |
+| TASK 11 | `Advanced.../Piper_auritum` | *Piper auritum* (Hoja Santa) | 7 genes |
 
 > [!IMPORTANT]
-> **Conclusion**: The current folder structure (`TASK_1` to `TASK_10`) is fixed and validated. The Master Index in `Workflow_Step-by-Step/README.md` has been updated to reflect these physical paths.
+> **Conclusion**: The current folder structure is fixed and validated. The Master Index in `Workflow_Step-by-Step/README.md` has been updated to reflect these physical paths, including the incorporation of *Piper auritum* data from the advanced pipeline.
 
 ## 🚫 Excluded Species
 The following species were investigated but excluded from the current pipeline:

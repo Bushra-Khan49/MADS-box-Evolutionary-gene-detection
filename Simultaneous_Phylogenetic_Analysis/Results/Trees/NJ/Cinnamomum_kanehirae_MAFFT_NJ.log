@@ -1,0 +1,79 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Cinnamomum_kanehirae_MAFFT.fa -m LG -n 0 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Cinnamomum_kanehirae_MAFFT_NJ -redo
+Seed:    81484 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 09:43:07 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Cinnamomum_kanehirae_MAFFT.fa ... Fasta format detected
+Reading fasta file: done in 0.00166297 secs using 93.57% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00101089 secs using 75.58% CPU
+Alignment has 31 sequences with 777 columns, 581 distinct patterns
+241 parsimony-informative, 194 singleton sites, 342 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.50475e-05 secs using 94.16% CPU
+   1  CKAN_01596700   73.49%    passed     94.47%
+   2  CKAN_01533600   52.51%    passed     78.70%
+   3  CKAN_02447300   69.37%    passed      7.71%
+   4  CKAN_01942000   81.47%    passed     24.33%
+   5  CKAN_01906900   76.32%    passed     66.01%
+   6  CKAN_01942500   71.69%    passed     51.93%
+   7  CKAN_01894500   56.37%    failed      2.53%
+   8  CKAN_01821800   66.15%    passed     87.75%
+   9  CKAN_01848800   68.98%    passed     98.36%
+  10  CKAN_02317200   54.83%    passed     60.96%
+  11  CKAN_02742500   73.75%    passed     47.97%
+  12  CKAN_00565900   71.04%    passed     93.92%
+  13  CKAN_00566000   67.57%    passed     32.85%
+  14  CKAN_00958900   69.11%    passed     99.53%
+  15  CKAN_00861800   65.12%    failed      1.08%
+  16  CKAN_00958800   72.33%    passed     81.31%
+  17  CKAN_01290200   71.69%    passed     86.63%
+  18  CKAN_01352300   74.26%    passed      8.06%
+  19  CKAN_00283400   69.50%    passed     92.09%
+  20  CKAN_00109600   67.82%    passed     95.13%
+  21  CKAN_02197200   43.63%    failed      0.00%
+  22  CKAN_02109000   72.84%    passed     95.20%
+  23  CKAN_02199500   73.10%    passed     92.72%
+  24  CKAN_02189300   71.30%    passed     28.21%
+  25  CKAN_02189800   72.59%    passed     43.99%
+  26  CKAN_02117700   75.16%    passed     49.35%
+  27  CKAN_02189500   71.94%    passed     39.17%
+  28  CKAN_02562300   71.30%    passed     47.83%
+  29  CKAN_01187700   73.49%    passed     11.14%
+  30  CKAN_01046400   69.63%    passed     32.84%
+  31  CKAN_01065400   71.81%    passed     39.33%
+WARNING: 30 sequences contain more than 50% gaps/ambiguity
+****  TOTAL           69.04%  3 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 9.98974e-05 secs using 84.09% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -14690.480
+Optimal log-likelihood: -12977.035
+Parameters optimization took 1 rounds (0.070 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -12977.035
+Total tree length: 14.823
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.082 sec (0h:0m:0s)
+Total wall-clock time used: 0.085 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Cinnamomum_kanehirae_MAFFT_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Cinnamomum_kanehirae_MAFFT_NJ.treefile
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Cinnamomum_kanehirae_MAFFT_NJ.log
+
+Date and Time: Sun Apr  5 09:43:07 2026

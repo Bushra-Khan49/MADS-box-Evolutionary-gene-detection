@@ -1,0 +1,135 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Glycine_max_MAFFT.fa -m LG -n 0 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Glycine_max_MAFFT_NJ -redo
+Seed:    258313 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 10:06:58 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Glycine_max_MAFFT.fa ... Fasta format detected
+Reading fasta file: done in 0.00250983 secs using 92.16% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000950098 secs using 77.78% CPU
+Alignment has 87 sequences with 506 columns, 479 distinct patterns
+328 parsimony-informative, 69 singleton sites, 109 constant sites
+                      Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000102997 secs using 73.79% CPU
+   1  Glyma.16G091300.1.p    53.36%    passed     97.81%
+   2  Glyma.16G200700.1.p    53.36%    passed     21.72%
+   3  Glyma.04G027200.1.p    55.14%    passed     97.66%
+   4  Glyma.04G245500.2.p    64.23%    passed     48.50%
+   5  Glyma.04G159300.1.p    51.78%    passed     99.34%
+   6  Glyma.04G257100.1.p    56.13%    passed     89.85%
+   7  Glyma.17G081200.1.p    52.77%    passed     80.43%
+   8  Glyma.17G132700.5.p    55.93%    passed     29.98%
+   9  Glyma.17G080900.1.p    51.98%    passed     87.54%
+  10  Glyma.20G034000.3.p    30.63%    passed     13.04%
+  11  Glyma.20G154200.3.p    57.71%    passed     44.22%
+  12  Glyma.20G153700.3.p    53.36%    passed     19.78%
+  13  Glyma.20G001900.1.p    51.58%    passed     42.20%
+  14  Glyma.02G216600.13.p   48.22%    passed     77.83%
+  15  Glyma.02G041500.1.p    55.14%    passed     84.88%
+  16  Glyma.02G121500.1.p    51.78%    passed     83.01%
+  17  Glyma.02G185500.3.p    51.19%    passed     67.13%
+  18  Glyma.02G287700.3.p    51.38%    passed     62.29%
+  19  Glyma.02G121600.1.p    51.98%    passed     98.77%
+  20  Glyma.12G005000.1.p    59.68%    passed     45.12%
+  21  Glyma.10G240500.1.p    57.71%    passed     30.18%
+  22  Glyma.10G240900.1.p    54.15%    passed     81.68%
+  23  Glyma.08G068200.8.p    59.09%    passed     46.68%
+  24  Glyma.08G250700.1.p    50.40%    passed     98.69%
+  25  Glyma.08G105400.1.p    63.24%    passed     45.80%
+  26  Glyma.08G120600.1.p    51.98%    passed     39.52%
+  27  Glyma.08G269800.1.p    53.36%    passed     95.40%
+  28  Glyma.08G105500.1.p    51.78%    passed     59.41%
+  29  Glyma.08G310100.1.p    51.19%    passed     84.39%
+  30  Glyma.08G065300.1.p    52.37%    passed     92.54%
+  31  Glyma.08G250800.3.p    50.99%    passed     38.16%
+  32  Glyma.08G065400.2.p    56.32%    passed     94.01%
+  33  Glyma.01G023500.1.p    55.14%    passed     81.18%
+  34  Glyma.01G020500.3.p    54.94%    passed     99.57%
+  35  Glyma.01G064100.1.p    51.38%    passed     75.42%
+  36  Glyma.01G169600.1.p    51.98%    failed      4.63%
+  37  Glyma.01G064200.1.p    51.98%    passed     98.47%
+  38  Glyma.15G059600.2.p    52.77%    passed     93.03%
+  39  Glyma.15G058000.2.p    58.30%    passed     98.20%
+  40  Glyma.15G057900.2.p    58.89%    passed     34.03%
+  41  Glyma.15G088600.1.p    51.98%    passed     84.52%
+  42  Glyma.07G080900.4.p    55.34%    passed     86.18%
+  43  Glyma.07G181600.7.p    54.55%    passed     94.57%
+  44  Glyma.07G081300.1.p    51.58%    passed     99.67%
+  45  Glyma.07G228900.1.p    30.43%    passed      6.72%
+  46  Glyma.11G158812.1.p    52.17%    passed     63.31%
+  47  Glyma.11G252300.1.p    51.98%    passed     69.56%
+  48  Glyma.11G073700.5.p    51.19%    passed      6.88%
+  49  Glyma.09G149000.1.p    51.78%    passed     39.74%
+  50  Glyma.09G231600.4.p    56.72%    passed      8.31%
+  51  Glyma.09G266200.6.p    58.30%    passed     89.77%
+  52  Glyma.09G201700.1.p    56.32%    passed     94.77%
+  53  Glyma.09G283800.3.p    51.38%    passed     89.63%
+  54  Glyma.09G266400.4.p    52.77%    passed     61.02%
+  55  Glyma.13G052700.1.p    50.79%    passed     90.53%
+  56  Glyma.13G257000.7.p    58.50%    passed     58.96%
+  57  Glyma.13G223300.1.p    51.98%    passed     55.40%
+  58  Glyma.13G255200.6.p    52.37%    passed     91.23%
+  59  Glyma.13G086400.1.p    33.99%    failed      0.01%
+  60  Glyma.13G256900.1.p    50.99%    passed     68.26%
+  61  Glyma.13G034100.2.p    58.89%    passed     79.34%
+  62  Glyma.13G052100.1.p    51.78%    passed     19.61%
+  63  Glyma.05G018900.1.p    51.98%    passed     90.67%
+  64  Glyma.05G018800.1.p    51.78%    passed     84.01%
+  65  Glyma.05G050700.1.p    55.14%    passed     39.72%
+  66  Glyma.05G163200.1.p    51.98%    passed     35.39%
+  67  Glyma.05G148700.2.p    60.87%    passed     67.25%
+  68  Glyma.05G148800.1.p    51.78%    passed     65.51%
+  69  Glyma.14G027251.1.p    52.17%    passed     88.26%
+  70  Glyma.14G155100.1.p    58.89%    passed     85.69%
+  71  Glyma.14G183800.2.p    52.77%    passed     91.94%
+  72  Glyma.14G168700.1.p    31.42%    failed      0.01%
+  73  Glyma.06G205800.1.p    51.78%    passed     99.50%
+  74  Glyma.06G095700.1.p    53.75%    passed      5.54%
+  75  Glyma.06G027200.1.p    55.14%    passed     93.11%
+  76  Glyma.06G324400.2.p    56.13%    passed     90.46%
+  77  Glyma.06G117600.1.p    64.23%    passed     53.11%
+  78  Glyma.03G019400.1.p    51.58%    passed     98.57%
+  79  Glyma.03G019300.1.p    53.16%    passed     89.72%
+  80  Glyma.19G034600.1.p    51.78%    passed     48.47%
+  81  Glyma.19G034500.1.p    50.79%    passed     92.94%
+  82  Glyma.18G004700.4.p    51.98%    passed     73.08%
+  83  Glyma.18G224300.2.p    51.98%    passed     83.77%
+  84  Glyma.18G224500.1.p    58.70%    passed     93.58%
+  85  Glyma.18G273500.1.p    49.60%    passed     99.48%
+  86  Glyma.18G105800.1.p    51.38%    passed     85.80%
+  87  Glyma.18G273600.2.p    43.28%    passed      6.59%
+WARNING: 80 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                  52.82%  3 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000236034 secs using 85.16% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.018 seconds
+
+NOTE: 6 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -23929.216
+Optimal log-likelihood: -22466.099
+Parameters optimization took 1 rounds (0.168 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -22466.099
+Total tree length: 23.894
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.196 sec (0h:0m:0s)
+Total wall-clock time used: 0.200 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Glycine_max_MAFFT_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Glycine_max_MAFFT_NJ.treefile
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/NJ/Glycine_max_MAFFT_NJ.log
+
+Date and Time: Sun Apr  5 10:06:58 2026

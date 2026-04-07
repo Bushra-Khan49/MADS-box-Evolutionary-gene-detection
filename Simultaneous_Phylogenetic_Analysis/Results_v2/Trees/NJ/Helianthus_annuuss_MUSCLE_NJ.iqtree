@@ -1,0 +1,217 @@
+IQ-TREE 2.2.2.7 COVID-edition built May 30 2023
+
+Input file name: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Helianthus_annuuss_MUSCLE.fa
+Type of analysis: tree reconstruction
+Random seed number: 87569
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 70 sequences with 1091 amino-acid sites
+Number of constant sites: 644 (= 59.0284% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 644 (= 59.0284% of all sites)
+Number of parsimony informative sites: 282
+Number of distinct site patterns: 635
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+STARTING TREE
+-------------
+
+Log-likelihood of the tree: -26849.8216 (s.e. 1304.1972)
+Unconstrained log-likelihood (without tree): -6564.9296
+Number of free parameters (#branches + #model parameters): 137
+Akaike information criterion (AIC) score: 53973.6432
+Corrected Akaike information criterion (AICc) score: 54013.3200
+Bayesian information criterion (BIC) score: 54657.9377
+
+Total tree length (sum of branch lengths): 30.5193
+Sum of internal branch lengths: 11.9018 (38.9977% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'AT4G36920.1|APETALA2|AP2|Length_432' is drawn at root
+
++----------------------------------------------------------AT4G36920.1|APETALA2|AP2|Length_432
+|
+|              +------------------HanXRQChr05g0156101
+|     +--------|
+|     |        |   +------------------HanXRQChr03g0091451
+|     |        +---|
+|     |            |              +--HanXRQChr05g0150571
+|     |            +--------------|
+|     |                           +--HanXRQChr15g0483111
+|  +--|
+|  |  |                +---------HanXRQChr16g0530971
+|  |  |      +---------|
+|  |  |      |         |  +-----AT3G54340.1|APETALA3|AP3|Length_232
+|  |  |      |         +--|
+|  |  |      |            |    +--HanXRQChr05g0151331
+|  |  |      |            +----|
+|  |  |      |                 |     +**HanXRQChr16g0501741
+|  |  |      |                 |  +--|
+|  |  |      |                 |  |  +**HanXRQChr16g0501381
+|  |  |      |                 +--|
+|  |  |      |                    +--HanXRQChr09g0269421
+|  |  |   +--|
+|  |  |   |  |     +-------AT5G20240.1|PISTILLATA|PI|Length_208
+|  |  |   |  +-----|
+|  |  |   |        |     +--HanXRQChr02g0040221
+|  |  |   |        |  +--|
+|  |  |   |        |  |  +**HanXRQChr02g0045511
+|  |  |   |        +--|
+|  |  |   |           +--HanXRQChr12g0358781
+|  |  +---|
+|  |      +-----------HanXRQChr05g0149341
++--|
+|  |          +--------------HanXRQChr10g0299591
+|  |  +-------|
+|  |  |       +----------HanXRQChr01g0015681
+|  +--|
+|     |                             +--HanXRQChr12g0375471
+|     |                   +---------|
+|     |                   |         +--HanXRQChr17g0538691
+|     |               +---|
+|     |               |   +------------HanXRQChr17g0550551
+|     |            +--|
+|     |            |  |          +-----HanXRQChr09g0270311
+|     |            |  |       +--|
+|     |            |  |       |  |    +--HanXRQChr16g0507561
+|     |            |  |       |  +----|
+|     |            |  |       |       +--HanXRQChr05g0154261
+|     |            |  |    +--|
+|     |            |  |    |  +---HanXRQChr04g0110101
+|     |            |  +----|
+|     |            |       |     +-----AT1G69120.1|APETALA1|AP1|Length_286
+|     |            |       |  +--|
+|     |            |       |  |  |   +--HanXRQChr12g0364981
+|     |            |       |  |  +---|
+|     |            |       |  |      +--HanXRQChr08g0223681
+|     |            |       +--|
+|     |            |          |    +--HanXRQChr02g0043891
+|     |            |          +----|
+|     |            |               |  +--HanXRQChr07g0200001
+|     |            |               +--|
+|     |            |                  +--HanXRQChr14g0452461
+|     |        +---|
+|     |        |   |                   +------AT2G03710.1|SEPALLATA4|SEP4|Length_258
+|     |        |   |                +--|
+|     |        |   |                |  +-----HanXRQChr08g0223671
+|     |        |   |             +--|
+|     |        |   |             |  |    +--AT5G15800.2|SEPALLATA1|SEP1|Length_262
+|     |        |   |             |  +----|
+|     |        |   |             |       +--AT3G02310.1|SEPALLATA2|SEP2|Length_250
+|     |        |   |          +--|
+|     |        |   |          |  |   +--HanXRQChr07g0200321
+|     |        |   |          |  +---|
+|     |        |   |          |      |  +--HanXRQChr09g0265001
+|     |        |   |          |      +--|
+|     |        |   |          |         +--HanXRQChr15g0489071
+|     |        |   |       +--|
+|     |        |   |       |  +------HanXRQChr02g0042981
+|     |        |   |  +----|
+|     |        |   |  |    |  +--------HanXRQChr00c0029g0571181
+|     |        |   |  |    +--|
+|     |        |   |  |       |  +---AT1G24260.2|SEPALLATA3|SEP3|Length_251
+|     |        |   |  |       +--|
+|     |        |   |  |          |  +--HanXRQChr12g0361321
+|     |        |   |  |          +--|
+|     |        |   |  |             +--HanXRQChr06g0174721
+|     |        |   +--|
+|     |        |      +--------HanXRQChr12g0358711
+|     |     +--|
+|     |     |  |             +----HanXRQChr12g0358721
+|     |     |  |     +-------|
+|     |     |  |     |       |     +--HanXRQChr16g0523531
+|     |     |  |     |       |  +--|
+|     |     |  |     |       |  |  +--HanXRQChr17g0560051
+|     |     |  |     |       +--|
+|     |     |  |     |          |  +--HanXRQChr04g0122131
+|     |     |  |     |          +--|
+|     |     |  |     |             +--HanXRQChr06g0169281
+|     |     |  |  +--|
+|     |     |  |  |  +--------------HanXRQChr09g0267081
+|     |     |  +--|
+|     |     |     +--------------HanXRQChr09g0273361
+|     |  +--|
+|     |  |  |           +--------HanXRQChr05g0150661
+|     |  |  |       +---|
+|     |  |  |       |   +---HanXRQChr09g0266391
+|     |  |  +-------|
+|     |  |          |  +--------AT4G09960.4|SEEDSTICK|STK|Length_329
+|     |  |          +--|
+|     |  |             |       +--AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
+|     |  |             |  +----|
+|     |  |             |  |    +--AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
+|     |  |             +--|
+|     |  |                |  +---AT4G18960.1|AGAMOUS|AG|Length_252
+|     |  |                +--|
+|     |  |                   |     +--HanXRQChr05g0147261
+|     |  |                   |  +--|
+|     |  |                   |  |  +--HanXRQChr16g0519321
+|     |  |                   +--|
+|     |  |                      +--HanXRQChr01g0007431
+|     +--|
+|        |               +----HanXRQChr05g0163521
+|        |            +--|
+|        |            |  +-----HanXRQChr10g0291191
+|        |         +--|
+|        |         |  +-----HanXRQChr15g0474011
+|        +---------|
+|                  +------HanXRQChr09g0262151
+|
+|                      +---HanXRQChr16g0503081
+|             +--------|
+|             |        +--HanXRQChr09g0270841
+|          +--|
+|          |  |    +---HanXRQChr05g0163381
+|          |  +----|
+|          |       +---HanXRQChr15g0484901
++----------|
+           |  +--HanXRQChr13g0405061
+           +--|
+              +--HanXRQChr15g0495861
+
+Tree in newick format:
+
+(AT4G36920.1|APETALA2|AP2|Length_432:2.7151792361,(((HanXRQChr05g0156101:0.8850884726,(HanXRQChr03g0091451:0.8937980025,(HanXRQChr05g0150571:0.1172926623,HanXRQChr15g0483111:0.1714457489):0.6909982347):0.2224120946):0.4193068718,(((HanXRQChr16g0530971:0.4696327434,(AT3G54340.1|APETALA3|AP3|Length_232:0.3087360257,(HanXRQChr05g0151331:0.0843700494,((HanXRQChr16g0501741:0.0000010000,HanXRQChr16g0501381:0.0000010000):0.0539464297,HanXRQChr09g0269421:0.0389131914):0.0672168041):0.2443332740):0.1570767468):0.4598799140,(AT5G20240.1|PISTILLATA|PI|Length_208:0.3891174292,((HanXRQChr02g0040221:0.0050857205,HanXRQChr02g0045511:0.0000010000):0.0529799763,HanXRQChr12g0358781:0.0194954554):0.1554843020):0.2914584983):0.1281741951,HanXRQChr05g0149341:0.5587437381):0.1937394855):0.0879415962,((HanXRQChr10g0299591:0.7059093177,HanXRQChr01g0015681:0.5135441101):0.3649270819,(((((((HanXRQChr12g0375471:0.1372604180,HanXRQChr17g0538691:0.1589368276):0.4693902794,HanXRQChr17g0550551:0.6209240603):0.2137101188,(((HanXRQChr09g0270311:0.2871335280,(HanXRQChr16g0507561:0.0150031447,HanXRQChr05g0154261:0.0062453381):0.2612179737):0.0130785187,HanXRQChr04g0110101:0.2231736030):0.1607316977,((AT1G69120.1|APETALA1|AP1|Length_286:0.2927977705,(HanXRQChr12g0364981:0.0690153020,HanXRQChr08g0223681:0.0401509624):0.2209903778):0.1591144180,(HanXRQChr02g0043891:0.1671685994,(HanXRQChr07g0200001:0.0970633904,HanXRQChr14g0452461:0.0558164521):0.0501457276):0.2278070433):0.1013598456):0.2365803683):0.1398106164,((((((AT2G03710.1|SEPALLATA4|SEP4|Length_258:0.3186351021,HanXRQChr08g0223671:0.2891735568):0.1073083143,(AT5G15800.2|SEPALLATA1|SEP1|Length_262:0.0435024437,AT3G02310.1|SEPALLATA2|SEP2|Length_250:0.0964739226):0.2389397424):0.0278220763,(HanXRQChr07g0200321:0.1280304880,(HanXRQChr09g0265001:0.0368606602,HanXRQChr15g0489071:0.0521747087):0.0358710906):0.2065364003):0.0543290692,HanXRQChr02g0042981:0.3472057163):0.0808688604,(HanXRQChr00c0029g0571181:0.4158633054,(AT1G24260.2|SEPALLATA3|SEP3|Length_251:0.2000195135,(HanXRQChr12g0361321:0.0841145886,HanXRQChr06g0174721:0.1424664519):0.1267412789):0.0617365344):0.0899354778):0.2656852347,HanXRQChr12g0358711:0.4214857156):0.1168252214):0.1926489529,(((HanXRQChr12g0358721:0.2408585255,((HanXRQChr16g0523531:0.0931900137,HanXRQChr17g0560051:0.1567123138):0.0542167005,(HanXRQChr04g0122131:0.0696682026,HanXRQChr06g0169281:0.0816741410):0.1082552857):0.0785512871):0.3672789831,HanXRQChr09g0267081:0.7122531387):0.1259214151,HanXRQChr09g0273361:0.7204920819):0.1187153090):0.0706218919,((HanXRQChr05g0150661:0.4379082262,HanXRQChr09g0266391:0.2144792401):0.2194301780,(AT4G09960.4|SEEDSTICK|STK|Length_329:0.4090071975,((AT3G58780.4|SHATTERPROOF1|SHP1|Length_281:0.0536372540,AT2G42830.2|SHATTERPROOF2|SHP2|Length_248:0.1050961865):0.2442297563,(AT4G18960.1|AGAMOUS|AG|Length_252:0.2221533361,((HanXRQChr05g0147261:0.1682776620,HanXRQChr16g0519321:0.0026220685):0.0196154967,HanXRQChr01g0007431:0.1315676545):0.1252088929):0.0915647868):0.1395451065):0.0605708620):0.3845321053):0.0825366656,(((HanXRQChr05g0163521:0.2658618638,HanXRQChr10g0291191:0.2949481714):0.0459173315,HanXRQChr15g0474011:0.2852604218):0.0204113538,HanXRQChr09g0262151:0.3202969078):0.4662643772):0.0633386603):0.0964877906):0.0720157740,(((HanXRQChr16g0503081:0.2124608407,HanXRQChr09g0270841:0.1133993737):0.4228616699,(HanXRQChr05g0163381:0.2121027734,HanXRQChr15g0484901:0.1902030399):0.2546383365):0.1088388471,(HanXRQChr13g0405061:0.0686562364,HanXRQChr15g0495861:0.1577226381):0.1438570775):0.5213013023);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Helianthus_annuuss_MUSCLE_NJ.treefile -m "LG" --length 1091
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Helianthus_annuuss_MUSCLE.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Helianthus_annuuss_MUSCLE.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Apr  5 17:30:09 2026
+Total CPU time used: 0.30903 seconds (0h:0m:0s)
+Total wall-clock time used: 0.31481 seconds (0h:0m:0s)
+

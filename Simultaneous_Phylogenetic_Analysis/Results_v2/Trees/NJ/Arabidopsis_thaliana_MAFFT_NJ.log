@@ -1,0 +1,74 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Arabidopsis_thaliana_MAFFT.fa -m LG -n 0 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Arabidopsis_thaliana_MAFFT_NJ -redo
+Seed:    748734 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 12:25:03 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Arabidopsis_thaliana_MAFFT.fa ... Fasta format detected
+Reading fasta file: done in 0.00115418 secs using 94.27% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000571012 secs using 77.06% CPU
+Alignment has 12 sequences with 582 columns, 376 distinct patterns
+177 parsimony-informative, 118 singleton sites, 287 constant sites
+WARNING: Some sequence names are changed as follows:
+AT1G69120.1|APETALA1|AP1|Length=286 -> AT1G69120.1|APETALA1|AP1|Length_286
+AT4G36920.1|APETALA2|AP2|Length=432 -> AT4G36920.1|APETALA2|AP2|Length_432
+AT3G54340.1|APETALA3|AP3|Length=232 -> AT3G54340.1|APETALA3|AP3|Length_232
+AT5G20240.1|PISTILLATA|PI|Length=208 -> AT5G20240.1|PISTILLATA|PI|Length_208
+AT4G18960.1|AGAMOUS|AG|Length=252 -> AT4G18960.1|AGAMOUS|AG|Length_252
+AT4G09960.4|SEEDSTICK|STK|Length=329 -> AT4G09960.4|SEEDSTICK|STK|Length_329
+AT3G58780.4|SHATTERPROOF1|SHP1|Length=281 -> AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
+AT2G42830.2|SHATTERPROOF2|SHP2|Length=248 -> AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
+AT5G15800.2|SEPALLATA1|SEP1|Length=262 -> AT5G15800.2|SEPALLATA1|SEP1|Length_262
+AT3G02310.1|SEPALLATA2|SEP2|Length=250 -> AT3G02310.1|SEPALLATA2|SEP2|Length_250
+AT1G24260.2|SEPALLATA3|SEP3|Length=251 -> AT1G24260.2|SEPALLATA3|SEP3|Length_251
+AT2G03710.1|SEPALLATA4|SEP4|Length=258 -> AT2G03710.1|SEPALLATA4|SEP4|Length_258
+
+                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.50204e-05 secs using 86.55% CPU
+   1  AT1G69120.1|APETALA1|AP1|Length_286         56.01%    passed     57.55%
+   2  AT4G36920.1|APETALA2|AP2|Length_432         25.77%    failed      0.00%
+   3  AT3G54340.1|APETALA3|AP3|Length_232         60.14%    passed     47.37%
+   4  AT5G20240.1|PISTILLATA|PI|Length_208        64.26%    failed      4.66%
+   5  AT4G18960.1|AGAMOUS|AG|Length_252           56.70%    passed     81.26%
+   6  AT4G09960.4|SEEDSTICK|STK|Length_329        43.47%    passed      5.25%
+   7  AT3G58780.4|SHATTERPROOF1|SHP1|Length_281   51.72%    passed     69.63%
+   8  AT2G42830.2|SHATTERPROOF2|SHP2|Length_248   57.39%    passed     67.22%
+   9  AT5G15800.2|SEPALLATA1|SEP1|Length_262      54.98%    passed     55.41%
+  10  AT3G02310.1|SEPALLATA2|SEP2|Length_250      57.04%    passed     68.10%
+  11  AT1G24260.2|SEPALLATA3|SEP3|Length_251      56.87%    passed     84.48%
+  12  AT2G03710.1|SEPALLATA4|SEP4|Length_258      55.67%    passed     95.81%
+WARNING: 10 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                       53.34%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 3.69549e-05 secs using 81.18% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -6977.338
+Optimal log-likelihood: -6438.039
+Parameters optimization took 1 rounds (0.013 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -6438.039
+Total tree length: 7.472
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.022 sec (0h:0m:0s)
+Total wall-clock time used: 0.023 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Arabidopsis_thaliana_MAFFT_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Arabidopsis_thaliana_MAFFT_NJ.treefile
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Arabidopsis_thaliana_MAFFT_NJ.log
+
+Date and Time: Sun Apr  5 12:25:03 2026

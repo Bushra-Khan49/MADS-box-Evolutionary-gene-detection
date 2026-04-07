@@ -1,0 +1,133 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Helianthus_annuuss_MUSCLE.fa -m LG -n 0 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Helianthus_annuuss_MUSCLE_NJ -redo
+Seed:    87569 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 17:30:09 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Helianthus_annuuss_MUSCLE.fa ... Fasta format detected
+Reading fasta file: done in 0.00357294 secs using 84.8% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00158715 secs using 79.07% CPU
+Alignment has 70 sequences with 1091 columns, 635 distinct patterns
+282 parsimony-informative, 165 singleton sites, 644 constant sites
+WARNING: Some sequence names are changed as follows:
+AT4G36920.1|APETALA2|AP2|Length=432 -> AT4G36920.1|APETALA2|AP2|Length_432
+AT3G54340.1|APETALA3|AP3|Length=232 -> AT3G54340.1|APETALA3|AP3|Length_232
+AT5G20240.1|PISTILLATA|PI|Length=208 -> AT5G20240.1|PISTILLATA|PI|Length_208
+AT1G69120.1|APETALA1|AP1|Length=286 -> AT1G69120.1|APETALA1|AP1|Length_286
+AT2G03710.1|SEPALLATA4|SEP4|Length=258 -> AT2G03710.1|SEPALLATA4|SEP4|Length_258
+AT5G15800.2|SEPALLATA1|SEP1|Length=262 -> AT5G15800.2|SEPALLATA1|SEP1|Length_262
+AT3G02310.1|SEPALLATA2|SEP2|Length=250 -> AT3G02310.1|SEPALLATA2|SEP2|Length_250
+AT4G09960.4|SEEDSTICK|STK|Length=329 -> AT4G09960.4|SEEDSTICK|STK|Length_329
+AT1G24260.2|SEPALLATA3|SEP3|Length=251 -> AT1G24260.2|SEPALLATA3|SEP3|Length_251
+AT3G58780.4|SHATTERPROOF1|SHP1|Length=281 -> AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
+AT2G42830.2|SHATTERPROOF2|SHP2|Length=248 -> AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
+AT4G18960.1|AGAMOUS|AG|Length=252 -> AT4G18960.1|AGAMOUS|AG|Length_252
+
+                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.48634e-05 secs using 97.51% CPU
+   1  AT4G36920.1|APETALA2|AP2|Length_432         60.40%    failed      0.00%
+   2  HanXRQChr05g0156101                         59.95%    failed      0.39%
+   3  HanXRQChr03g0091451                         70.49%    passed     35.50%
+   4  HanXRQChr05g0150571                         67.64%    failed      0.62%
+   5  HanXRQChr15g0483111                         73.05%    passed     26.23%
+   6  HanXRQChr16g0530971                         79.65%    passed     13.09%
+   7  AT3G54340.1|APETALA3|AP3|Length_232         78.74%    passed     61.68%
+   8  HanXRQChr05g0151331                         78.46%    passed     89.04%
+   9  HanXRQChr16g0501741                         79.01%    passed     98.24%
+  10  HanXRQChr16g0501381                         79.01%    passed     98.24%
+  11  HanXRQChr09g0269421                         79.01%    passed     93.99%
+  12  HanXRQChr05g0149341                         76.99%    failed      0.55%
+  13  AT5G20240.1|PISTILLATA|PI|Length_208        80.93%    passed     13.35%
+  14  HanXRQChr02g0040221                         82.40%    passed     38.47%
+  15  HanXRQChr12g0358781                         82.03%    passed     68.88%
+  16  HanXRQChr02g0045511                         82.03%    passed     42.14%
+  17  HanXRQChr10g0299591                         74.70%    failed      0.32%
+  18  HanXRQChr12g0375471                         80.66%    passed     58.81%
+  19  HanXRQChr17g0538691                         80.57%    passed     21.94%
+  20  HanXRQChr16g0503081                         79.19%    passed     58.57%
+  21  HanXRQChr09g0270841                         79.10%    passed     44.69%
+  22  HanXRQChr05g0163381                         70.30%    passed      5.74%
+  23  HanXRQChr15g0484901                         78.64%    passed      7.93%
+  24  HanXRQChr13g0405061                         79.10%    passed     29.56%
+  25  HanXRQChr15g0495861                         79.47%    passed     26.38%
+  26  HanXRQChr01g0015681                         76.08%    passed     77.55%
+  27  HanXRQChr12g0358721                         81.12%    passed     64.39%
+  28  HanXRQChr16g0523531                         80.02%    passed     40.03%
+  29  HanXRQChr17g0560051                         80.20%    passed     31.11%
+  30  HanXRQChr04g0122131                         80.29%    passed     10.44%
+  31  HanXRQChr06g0169281                         81.21%    passed      6.29%
+  32  HanXRQChr09g0270311                         72.69%    passed     99.04%
+  33  HanXRQChr05g0150661                         79.10%    passed     53.64%
+  34  HanXRQChr09g0266391                         74.34%    passed     90.94%
+  35  AT1G69120.1|APETALA1|AP1|Length_286         76.54%    passed     63.90%
+  36  AT2G03710.1|SEPALLATA4|SEP4|Length_258      76.35%    passed     80.98%
+  37  AT5G15800.2|SEPALLATA1|SEP1|Length_262      75.99%    passed     25.32%
+  38  AT3G02310.1|SEPALLATA2|SEP2|Length_250      77.09%    passed     31.03%
+  39  AT4G09960.4|SEEDSTICK|STK|Length_329        69.84%    passed     14.54%
+  40  HanXRQChr02g0042981                         77.27%    passed     55.11%
+  41  HanXRQChr07g0200321                         76.81%    passed     97.26%
+  42  HanXRQChr09g0265001                         77.18%    passed     69.12%
+  43  HanXRQChr15g0489071                         77.09%    passed     94.98%
+  44  HanXRQChr17g0550551                         83.50%    passed     10.18%
+  45  HanXRQChr02g0043891                         76.17%    passed     10.81%
+  46  HanXRQChr07g0200001                         78.37%    passed     50.66%
+  47  HanXRQChr14g0452461                         78.83%    passed     30.49%
+  48  HanXRQChr00c0029g0571181                    76.81%    passed      8.01%
+  49  HanXRQChr12g0364981                         76.99%    passed     97.69%
+  50  HanXRQChr08g0223681                         77.27%    passed     99.68%
+  51  AT1G24260.2|SEPALLATA3|SEP3|Length_251      76.99%    passed     52.33%
+  52  HanXRQChr12g0361321                         77.27%    passed     86.86%
+  53  HanXRQChr06g0174721                         77.45%    passed     85.90%
+  54  HanXRQChr08g0223671                         84.78%    passed     49.25%
+  55  HanXRQChr04g0110101                         78.28%    passed     91.22%
+  56  HanXRQChr16g0507561                         78.37%    passed     40.45%
+  57  HanXRQChr05g0154261                         78.37%    passed     52.09%
+  58  AT3G58780.4|SHATTERPROOF1|SHP1|Length_281   74.24%    passed     34.01%
+  59  AT2G42830.2|SHATTERPROOF2|SHP2|Length_248   77.27%    passed     35.10%
+  60  AT4G18960.1|AGAMOUS|AG|Length_252           76.90%    passed     27.73%
+  61  HanXRQChr05g0147261                         75.71%    passed     57.56%
+  62  HanXRQChr16g0519321                         78.19%    passed     46.74%
+  63  HanXRQChr01g0007431                         73.05%    passed     48.20%
+  64  HanXRQChr12g0358711                         76.72%    passed     83.82%
+  65  HanXRQChr05g0163521                         77.91%    passed     77.87%
+  66  HanXRQChr10g0291191                         79.56%    passed     75.05%
+  67  HanXRQChr09g0273361                         81.21%    passed     46.62%
+  68  HanXRQChr09g0267081                         81.67%    passed     28.94%
+  69  HanXRQChr09g0262151                         81.76%    passed     44.11%
+  70  HanXRQChr15g0474011                         85.98%    passed     89.78%
+WARNING: 70 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                       77.43%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: HanXRQChr16g0501381 is identical to HanXRQChr16g0501741 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00023222 secs using 85.26% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.016 seconds
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -31687.412
+Optimal log-likelihood: -26849.822
+Parameters optimization took 1 rounds (0.284 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -26849.822
+Total tree length: 30.519
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 0.309 sec (0h:0m:0s)
+Total wall-clock time used: 0.313 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Helianthus_annuuss_MUSCLE_NJ.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Helianthus_annuuss_MUSCLE_NJ.treefile
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Helianthus_annuuss_MUSCLE_NJ.log
+
+Date and Time: Sun Apr  5 17:30:09 2026

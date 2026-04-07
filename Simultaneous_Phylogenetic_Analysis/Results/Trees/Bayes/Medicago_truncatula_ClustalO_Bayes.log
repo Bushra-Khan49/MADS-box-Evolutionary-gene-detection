@@ -1,0 +1,192 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Mac OS X 64-bit built May 30 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/scripts/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Medicago_truncatula_ClustalO.fa -fast -alrt 1000 -abayes -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Medicago_truncatula_ClustalO_Bayes -redo
+Seed:    926217 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr  5 07:39:16 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Medicago_truncatula_ClustalO.fa ... Fasta format detected
+Reading fasta file: done in 0.00153804 secs using 92.26% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000674009 secs using 78.19% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 39 sequences with 485 columns, 457 distinct patterns
+265 parsimony-informative, 131 singleton sites, 89 constant sites
+Analyzing sequences: done in 3.40939e-05 secs using 96.79% CPU
+WARNING: 22 sequences contain more than 50% gaps/ambiguity
+Checking for duplicate sequences: done in 0.000108004 secs using 82.4% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.01 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.00)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.534418 secs using 99.88% CPU
+Estimate model parameters (epsilon = 1.00)
+1. Initial log-likelihood: -15803.73
+Optimal log-likelihood: -15803.63
+Proportion of invariable sites: 0.03
+Gamma shape alpha: 1.10
+Parameters optimization took 1 rounds (0.17 sec)
+Time for fast ML tree search: 1.52 seconds
+
+NOTE: ModelFinder requires 28 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 485) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            16546.392    75  33242.783    33270.656    33556.595
+  2  LG+I          16363.765    76  32879.531    32908.217    33197.526
+  3  LG+G4         15818.376    76  31788.752    31817.439    32106.748
+  4  LG+I+G4       15803.629    77  31761.258    31790.771    32083.437
+  5  LG+R2         15945.293    77  32044.586    32074.100    32366.765
+  6  LG+R3         15826.455    79  31810.909    31842.119    32141.457
+  7  LG+R4         15797.077    81  31756.155    31789.118    32095.071
+  8  LG+R5         15785.636    83  31737.272    31772.045    32084.556
+  9  LG+R6         15783.128    85  31736.256    31772.898    32091.909
+ 14  LG+I+R2       15840.710    78  31837.420    31867.774    32163.783
+ 15  LG+I+R3       15758.394    80  31676.789    31708.868    32011.521
+ 16  LG+I+R4       15740.555    82  31645.110    31678.970    31988.210
+ 17  LG+I+R5       15739.375    84  31646.749    31682.449    31998.218
+ 38  LG+F+I+R4     15708.258    101 31618.516    31672.312    32041.115
+ 60  WAG+I+R4      15816.403    82  31796.805    31830.666    32139.905
+ 82  WAG+F+I+R4    15790.133    101 31782.265    31836.062    32204.864
+104  JTT+I+R4      15719.791    82  31603.581    31637.442    31946.682
+126  JTT+F+I+R4    15661.206    101 31524.411    31578.208    31947.010
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+148  Q.pfam+I+R4   15750.713    82  31665.426    31699.287    32008.526
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+170  Q.pfam+F+I+R4 15696.957    101 31595.914    31649.710    32018.513
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+192  Q.bird+I+R4   15830.294    82  31824.588    31858.449    32167.688
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+214  Q.bird+F+I+R4 15755.381    101 31712.761    31766.558    32135.360
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+236  Q.mammal+I+R4 15780.059    82  31724.119    31757.980    32067.219
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+258  Q.mammal+F+I+R4 15694.620    101 31591.239    31645.036    32013.838
+280  Q.insect+I+R4 15634.564    82  31433.127    31466.988    31776.227
+302  Q.insect+F+I+R4 15585.013    101 31372.027    31425.823    31794.626
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+324  Q.plant+I+R4  15711.273    82  31586.546    31620.407    31929.647
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+346  Q.plant+F+I+R4 15640.420    101 31482.840    31536.636    31905.439
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+368  Q.yeast+I+R4  15703.558    82  31571.115    31604.976    31914.215
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+390  Q.yeast+F+I+R4 15635.991    101 31473.981    31527.778    31896.580
+412  JTTDCMut+I+R4 15722.516    82  31609.033    31642.893    31952.133
+434  JTTDCMut+F+I+R4 15665.207    101 31532.413    31586.210    31955.012
+456  DCMut+I+R4    15879.454    82  31922.907    31956.768    32266.007
+478  DCMut+F+I+R4  15771.168    101 31744.336    31798.132    32166.935
+500  VT+I+R4       15770.907    82  31705.813    31739.674    32048.914
+522  VT+F+I+R4     15756.727    101 31715.453    31769.250    32138.052
+544  PMB+I+R4      15933.309    82  32030.618    32064.479    32373.718
+566  PMB+F+I+R4    15899.819    101 32001.637    32055.434    32424.236
+588  Blosum62+I+R4 15920.469    82  32004.937    32038.798    32348.037
+610  Blosum62+F+I+R4 15905.452    101 32012.904    32066.700    32435.503
+632  Dayhoff+I+R4  15879.418    82  31922.835    31956.696    32265.936
+654  Dayhoff+F+I+R4 15771.083    101 31744.166    31797.962    32166.765
+676  mtREV+I+R4    16387.019    82  32938.038    32971.899    33281.138
+698  mtREV+F+I+R4  15917.812    101 32037.624    32091.420    32460.223
+720  mtART+I+R4    16510.063    82  33184.126    33217.987    33527.227
+742  mtART+F+I+R4  15960.985    101 32123.971    32177.767    32546.570
+764  mtZOA+I+R4    16259.471    82  32682.942    32716.803    33026.043
+786  mtZOA+F+I+R4  15851.642    101 31905.284    31959.081    32327.883
+808  mtMet+I+R4    16337.396    82  32838.792    32872.653    33181.893
+830  mtMet+F+I+R4  15803.338    101 31808.675    31862.472    32231.274
+852  mtVer+I+R4    16401.145    82  32966.291    33000.151    33309.391
+874  mtVer+F+I+R4  15940.066    101 32082.133    32135.929    32504.732
+896  mtInv+I+R4    16482.508    82  33129.016    33162.877    33472.116
+918  mtInv+F+I+R4  15771.241    101 31744.482    31798.279    32167.081
+940  mtMAM+I+R4    16560.318    82  33284.636    33318.497    33627.736
+962  mtMAM+F+I+R4  16053.003    101 32308.005    32361.802    32730.604
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+984  FLAVI+I+R4    16207.047    82  32578.093    32611.954    32921.193
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+1006  FLAVI+F+I+R4  15980.393    101 32162.786    32216.582    32585.385
+1028  HIVb+I+R4     15936.819    82  32037.639    32071.500    32380.739
+1050  HIVb+F+I+R4   15825.599    101 31853.197    31906.994    32275.796
+1072  HIVw+I+R4     16447.039    82  33058.079    33091.939    33401.179
+1094  HIVw+F+I+R4   16170.380    101 32542.760    32596.557    32965.359
+1116  FLU+I+R4      15959.430    82  32082.861    32116.721    32425.961
+1138  FLU+F+I+R4    15904.444    101 32010.888    32064.685    32433.487
+1160  rtREV+I+R4    15835.334    82  31834.668    31868.529    32177.768
+1182  rtREV+F+I+R4  15748.255    101 31698.510    31752.307    32121.109
+1204  cpREV+I+R4    15915.350    82  31994.701    32028.561    32337.801
+1226  cpREV+F+I+R4  15925.799    101 32053.598    32107.394    32476.197
+Akaike Information Criterion:           Q.insect+F+I+R4
+Corrected Akaike Information Criterion: Q.insect+F+I+R4
+Bayesian Information Criterion:         Q.insect+I+R4
+Best-fit model: Q.insect+I+R4 chosen according to BIC
+
+All model information printed to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Medicago_truncatula_ClustalO_Bayes.model.gz
+CPU time for ModelFinder: 345.290 seconds (0h:5m:45s)
+Wall-clock time for ModelFinder: 345.735 seconds (0h:5m:45s)
+
+NOTE: 11 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -15634.564
+Optimal log-likelihood: -15634.550
+Proportion of invariable sites: 0.184
+Site proportion and rates:  (0.153,0.129) (0.260,0.476) (0.331,1.054) (0.256,1.984)
+Parameters optimization took 1 rounds (1.054 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.166321 secs using 99.67% CPU
+Computing ML distances took 0.166496 sec (of wall-clock time) 0.165905 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 7.70092e-05 secs using 132.5% CPU
+Constructing RapidNJ tree: done in 0.000170946 secs using 181.3% CPU
+Computing RapidNJ tree took 0.000296 sec (of wall-clock time) 0.000468 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -15637.371
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.288907 secs using 99.86% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -15633.366
+Optimizing NNI: done in 0.891407 secs using 99.9% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -15630.478
+Finish initializing candidate tree set (4)
+Current best tree score: -15630.478 / CPU time: 2.909
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -15630.478
+Optimal log-likelihood: -15630.474
+Proportion of invariable sites: 0.184
+Site proportion and rates:  (0.153,0.125) (0.260,0.469) (0.331,1.055) (0.256,1.993)
+Parameters optimization took 1 rounds (0.841 sec)
+BEST SCORE FOUND : -15630.474
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+0.498 sec.
+Total tree length: 36.851
+
+Total number of iterations: 2
+CPU time used for tree search: 2.905 sec (0h:0m:2s)
+Wall-clock time used for tree search: 2.909 sec (0h:0m:2s)
+Total CPU time used: 5.929 sec (0h:0m:5s)
+Total wall-clock time used: 5.748 sec (0h:0m:5s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Medicago_truncatula_ClustalO_Bayes.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Medicago_truncatula_ClustalO_Bayes.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Medicago_truncatula_ClustalO_Bayes.mldist
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Trees/Bayes/Medicago_truncatula_ClustalO_Bayes.log
+
+Date and Time: Sun Apr  5 07:45:08 2026
