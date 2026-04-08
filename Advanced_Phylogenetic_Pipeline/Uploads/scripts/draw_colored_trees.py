@@ -114,8 +114,8 @@ def make_pastel(hex_str, factor=0.6):
     b = int(b + (255 - b) * factor)
     return f"#{r:02x}{g:02x}{b:02x}"
 
-# ── Draw colored circular phylogenetic tree ───────────────────────────────────
-def draw_tree(species, nwk_path, species_ann):
+# ── Draw colored circular or rectangular phylogenetic tree ─────────────────────
+def draw_tree(species, nwk_path, species_ann, mode="c"):
     try:
         with open(nwk_path, 'r') as f:
             nwk_str = f.read()
@@ -132,22 +132,18 @@ def draw_tree(species, nwk_path, species_ann):
         return
 
     ts = TreeStyle()
-    ts.mode = "c"  # Circular tree
-    ts.force_topology = False  # DO NOT bend the tree! True phylogenetic branch lengths
+    ts.mode = mode  # 'c' for Circular, 'r' for Rectangular
+    ts.force_topology = False
     ts.show_leaf_name = False
-    ts.arc_start = -180
-    ts.arc_span = 360
+    if mode == "c":
+        ts.arc_start = -180
+        ts.arc_span = 360
     ts.layout_fn = layout
     
-    # Draw solid black lines connecting branch tips to the perfectly aligned circular names
+    # Draw solid black lines connecting branch tips to the perfectly aligned names
     ts.draw_guiding_lines = True
-    ts.guiding_lines_color = "#000000"
+    ts.guiding_lines_color = "#333333"
     ts.guiding_lines_type = 0 # solid
-
-    # Add Title
-    title = TextFace(f" {species.replace('_',' ')} — Circular MIKCc Subclade Tree", fsize=20, bold=True)
-    title.margin_bottom = 20
-    ts.title.add_face(title, column=0)
 
     from PIL import Image, ImageDraw, ImageFont
 
@@ -165,7 +161,7 @@ def draw_tree(species, nwk_path, species_ann):
                     break
 
         clade = "Unknown"
-        if raw and raw.startswith("AT"):
+        if raw and (raw.startswith("AT") or "|PACid" in raw):
             base = raw.split("|")[0] if "|" in raw else raw.split(".")[0]
             if base in AT_TO_CLADE:
                 clade = AT_TO_CLADE[base]
@@ -180,7 +176,7 @@ def draw_tree(species, nwk_path, species_ann):
     # 1.5. Dynamic Pass: Color unmapped AT genes based on nearest mapped neighbor
     known_leaves = [lf for lf in t.get_leaves() if lf.my_clade != "Unknown"]
     for leaf in t.get_leaves():
-        if leaf.my_clade == "Unknown" and leaf.name.startswith("AT") and known_leaves:
+        if leaf.my_clade == "Unknown" and (leaf.name.startswith("AT") or "|PACid" in leaf.name) and known_leaves:
             # Find closest reference
             best_dist = float('inf')
             best_c = "Unknown"
@@ -198,12 +194,11 @@ def draw_tree(species, nwk_path, species_ann):
         color = CLADE_COLORS.get(clade, "#BDC3C7")
         
         # Fake transparency for exactly AT genes
-        if raw.startswith("AT"):
+        if raw.startswith("AT") or "|PACid" in raw:
             display_color = make_pastel(color, factor=0.65) # 65% faded
         else:
             display_color = color
             
-        # DO NOT change the label name, keep it exactly as it appeared in the raw tree
         label = raw
 
         # Create colored node style
@@ -214,9 +209,7 @@ def draw_tree(species, nwk_path, species_ann):
         nstyle["hz_line_width"] = 1
         leaf.set_style(nstyle)
         
-        # Add label with colored background
-        # position "aligned" pushes all names to a perfect, even outer circle
-        face = TextFace(f" {label} ", fsize=7, bold=True)
+        face = TextFace(f" {label} ", fsize=8, bold=True)
         face.margin_top = 1
         face.margin_bottom = 1
         face.margin_left = 2
@@ -224,56 +217,66 @@ def draw_tree(species, nwk_path, species_ann):
         
         leaf.add_face(face, column=0, position="aligned")
 
-    out = os.path.join(OUT_DIR, f"{species}_circular_colored_tree.png")
-    # Huge resolution rendering (4000w pixels) for crystal clear zoom
+    # Output naming
+    mode_str = "Circular" if mode == "c" else "Standard"
+    display_species = species.replace('_',' ') if species != "MASTER_MIKCc_FULL" else "Master MIKCc Full"
+    filename = f"{display_species} - MAFFT - ML ({mode_str}).png"
+    out = os.path.join(OUT_DIR, filename)
+
+    # Huge resolution rendering
     t.render(out, w=4000, units="px", dpi=300, tree_style=ts)
     
-    # ── Post-process to add a perfectly bordered, aligned Legend using Pillow ──
+    # ── Post-process with Pillow ──
     try:
         img = Image.open(out)
+        # Expand canvas for title if needed, or just draw on top
         draw = ImageDraw.Draw(img)
         
-        # Legend sizing and positioning (Top Right Corner)
-        box_width = 800
-        box_height = 100 + (len(CLADE_COLORS) - 1) * 60
-        margin = 100
-        x0 = img.width - box_width - margin
-        y0 = margin
-        x1 = x0 + box_width
-        y1 = y0 + box_height
-        
-        # Draw boxed background
-        draw.rectangle([x0, y0, x1, y1], fill="white", outline="black", width=5)
-        
-        # Draw Title
-        # Using default font scaled up via ImageFont (or just draw text directly)
+        # 1. Load Fonts
         try:
-            # Attempt to use a larger default font if available or system font
-            font_title = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 40)
-            font_text = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 30)
+            font_title = ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial Bold.ttf", 100)
+            font_legend_title = ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial Bold.ttf", 60)
+            font_text = ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial.ttf", 50)
         except:
             font_title = ImageFont.load_default()
+            font_legend_title = ImageFont.load_default()
             font_text = ImageFont.load_default()
-            
-        draw.text((x0 + 40, y0 + 30), "Subclade Legend", fill="black", font=font_title)
+
+        # 2. Draw Large Centered Title
+        full_title = f"{display_species} — MAFFT | Maximum Likelihood (ML)"
+        # Using getbbox to get (left, top, right, bottom)
+        bbox = font_title.getbbox(full_title)
+        tw = bbox[2] - bbox[0]
+        th = bbox[3] - bbox[1]
+        draw.text(((img.width - tw) // 2, 80), full_title, fill="black", font=font_title)
+
+        # 3. Draw Legend in Bottom-Right
+        legend_items = [c for c in CLADE_COLORS.items() if c[0] != "Unknown"]
+        row_h = 70
+        box_w = 900
+        box_h = 100 + (len(legend_items) * row_h)
         
-        # Draw Color Swatches and Text
-        curr_y = y0 + 100
-        for c_name, hex_color in CLADE_COLORS.items():
-            if c_name == "Unknown": continue
-            
-            # Swatch box
-            draw.rectangle([x0 + 40, curr_y, x0 + 90, curr_y + 40], fill=hex_color, outline="black", width=2)
-            
+        lx0 = img.width - box_w - 100
+        ly0 = img.height - box_h - 100
+        lx1 = lx0 + box_w
+        ly1 = ly0 + box_h
+        
+        # Draw semi-transparent white box or solid white
+        draw.rectangle([lx0, ly0, lx1, ly1], fill="white", outline="black", width=6)
+        draw.text((lx0 + 40, ly0 + 30), "MIKCc Subclade Legend", fill="black", font=font_legend_title)
+        
+        curr_y = ly0 + 110
+        for c_name, hex_color in legend_items:
+            # Swatch
+            draw.rectangle([lx0 + 40, curr_y, lx0 + 100, curr_y + 40], fill=hex_color, outline="black", width=2)
             # Label
-            draw.text((x0 + 120, curr_y + 5), c_name, fill="black", font=font_text)
-            curr_y += 60
+            draw.text((lx0 + 130, curr_y - 5), c_name, fill="black", font=font_text)
+            curr_y += row_h
             
         img.save(out)
+        print(f"  Successfully rendered: {filename}")
     except Exception as img_e:
-        print(f"  Warning: Pillow legend drawing failed: {img_e}")
-
-    print(f"  Tree saved: {out}")
+        print(f"  Warning: Post-processing failed: {img_e}")
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 print("Loading annotations...")
@@ -293,6 +296,10 @@ for sp in SPECIES:
         sp_ann = {g: i for g, i in all_ann.items() if i["species"] == sp}
         
     print(f"  Annotated genes: {len(sp_ann)}")
-    draw_tree(sp, nwk, sp_ann)
+    # Draw both Circular and Standard
+    draw_tree(sp, nwk, sp_ann, mode="c")
+    draw_tree(sp, nwk, sp_ann, mode="r")
+
+print(f"\n✅ All images regenerated in: {OUT_DIR}")
 
 print(f"\n✅ All circular images saved to: {OUT_DIR}")
