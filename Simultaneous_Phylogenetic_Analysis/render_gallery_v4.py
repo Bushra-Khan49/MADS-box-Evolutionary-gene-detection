@@ -2,8 +2,8 @@ import os, re
 import ete3
 from PIL import Image, ImageDraw, ImageFont
 
-RESULTS_DIR = os.path.abspath("Results_v4")
-GALLERY_DIR = os.path.abspath("Results_v4/Gallery")
+RESULTS_DIR = os.path.abspath("Results/Trees/NJ")
+GALLERY_DIR = os.path.abspath("Results/Images")
 
 SPECIES_LIST = [
     "Amborella_trichopoda", "Cinnamomum_kanehirae", "Glycine_max",
@@ -86,6 +86,12 @@ def draw_tree(species, filepath, out_img):
     ts.draw_guiding_lines = True
     ts.guiding_lines_color = "#000000"
     ts.guiding_lines_type = 0
+    
+    # Unified layout synchronization (Perfected Centered Expansion)
+    ts.margin_top = 200
+    ts.margin_bottom = 200
+    ts.margin_left = 200
+    ts.margin_right = 200
 
     title_text = build_title(species, treefile_name)
     title = ete3.TextFace(title_text, fsize=20, bold=True)
@@ -152,12 +158,12 @@ def draw_tree(species, filepath, out_img):
         img = Image.open(out_img)
         draw = ImageDraw.Draw(img)
 
-        # Compact legend sizing
+        # Compact legend sizing (Shortened as requested)
         row_h = 45
-        box_width = 680
+        box_width = 450
         n_items = len([k for k in CLADE_COLORS if k != "Unknown"])
         box_height = 70 + n_items * row_h
-        margin = 80
+        margin = 60
 
         # Bottom-right positioning — clear of tree body
         x0 = img.width - box_width - margin
@@ -193,15 +199,20 @@ def draw_tree(species, filepath, out_img):
 
 if __name__ == "__main__":
     os.makedirs(GALLERY_DIR, exist_ok=True)
-    for sp in SPECIES_LIST:
-        print(f"Rendering {sp}...")
-        sp_dir = os.path.join(RESULTS_DIR, sp)
-        if not os.path.isdir(sp_dir): continue
-        out_d = os.path.join(GALLERY_DIR, sp)
-        os.makedirs(out_d, exist_ok=True)
-        for tf in os.listdir(sp_dir):
-            if tf.endswith(".treefile"):
-                fp = os.path.join(sp_dir, tf)
-                op = os.path.join(out_d, tf.replace(".treefile", ".png"))
-                draw_tree(sp, fp, op)
+    # The NJ folder contains all species trees directly
+    print(f"Checking for trees in: {RESULTS_DIR}")
+    for tf in os.listdir(RESULTS_DIR):
+        if tf.endswith(".treefile"):
+            # Deduce species from filename: e.g. Amborella_trichopoda_MAFFT_NJ.treefile
+            # We look for the first match in SPECIES_LIST
+            matched_sp = "Unknown"
+            for s in SPECIES_LIST:
+                if tf.startswith(s):
+                    matched_sp = s
+                    break
+            
+            fp = os.path.join(RESULTS_DIR, tf)
+            op = os.path.join(GALLERY_DIR, tf.replace(".treefile", ".png"))
+            print(f"Rendering {tf} (Species: {matched_sp})...")
+            draw_tree(matched_sp, fp, op)
     print("Gallery completely processed.")

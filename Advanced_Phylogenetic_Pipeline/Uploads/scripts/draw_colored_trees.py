@@ -140,6 +140,12 @@ def draw_tree(species, nwk_path, species_ann, mode="c"):
         ts.arc_span = 360
     ts.layout_fn = layout
     
+    # ── Perfected Centered Expansion (Maximized and Balanced) ──────────────────
+    ts.margin_top = 200
+    ts.margin_bottom = 200
+    ts.margin_left = 200
+    ts.margin_right = 200
+
     # Draw solid black lines connecting branch tips to the perfectly aligned names
     ts.draw_guiding_lines = True
     ts.guiding_lines_color = "#333333"
@@ -253,11 +259,11 @@ def draw_tree(species, nwk_path, species_ann, mode="c"):
         # 3. Draw Legend in Bottom-Right
         legend_items = [c for c in CLADE_COLORS.items() if c[0] != "Unknown"]
         row_h = 70
-        box_w = 900
+        box_w = 450
         box_h = 100 + (len(legend_items) * row_h)
         
-        lx0 = img.width - box_w - 100
-        ly0 = img.height - box_h - 100
+        lx0 = img.width - box_w - 60
+        ly0 = img.height - box_h - 60
         lx1 = lx0 + box_w
         ly1 = ly0 + box_h
         
@@ -268,9 +274,9 @@ def draw_tree(species, nwk_path, species_ann, mode="c"):
         curr_y = ly0 + 110
         for c_name, hex_color in legend_items:
             # Swatch
-            draw.rectangle([lx0 + 40, curr_y, lx0 + 100, curr_y + 40], fill=hex_color, outline="black", width=2)
+            draw.rectangle([lx0 + 20, curr_y, lx0 + 60, curr_y + 40], fill=hex_color, outline="black", width=2)
             # Label
-            draw.text((lx0 + 130, curr_y - 5), c_name, fill="black", font=font_text)
+            draw.text((lx0 + 80, curr_y - 5), c_name, fill="black", font=font_text)
             curr_y += row_h
             
         img.save(out)
@@ -296,9 +302,8 @@ for sp in SPECIES:
         sp_ann = {g: i for g, i in all_ann.items() if i["species"] == sp}
         
     print(f"  Annotated genes: {len(sp_ann)}")
-    # Draw both Circular and Standard
+    # Draw only Circular trees as requested
     draw_tree(sp, nwk, sp_ann, mode="c")
-    draw_tree(sp, nwk, sp_ann, mode="r")
 
 print(f"\n✅ All images regenerated in: {OUT_DIR}")
 

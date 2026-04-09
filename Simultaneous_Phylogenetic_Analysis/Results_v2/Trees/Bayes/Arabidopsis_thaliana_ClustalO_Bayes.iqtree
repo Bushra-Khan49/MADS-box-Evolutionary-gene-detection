@@ -1,8 +1,8 @@
 IQ-TREE 2.2.2.7 COVID-edition built May 30 2023
 
-Input file name: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Arabidopsis_thaliana_ClustalO.fa
+Input file name: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Arabidopsis_thaliana_ClustalO.fa
 Type of analysis: ModelFinder + tree reconstruction
-Random seed number: 732176
+Random seed number: 386282
 
 REFERENCES
 ----------
@@ -203,28 +203,28 @@ Numbers in parentheses are SH-aLRT support (%) / aBayes support
 |        +---------------------------------------------------AT4G36920.1|APETALA2|AP2|Length_432
 |     +--| (0/0.335)
 |     |  +-------AT5G20240.1|PISTILLATA|PI|Length_208
-|  +--| (92/0.997)
+|  +--| (90.6/0.997)
 |  |  +----------AT3G54340.1|APETALA3|AP3|Length_232
-+--| (94.7/0.999)
++--| (95.4/0.999)
 |  |        +--AT4G18960.1|AGAMOUS|AG|Length_252
-|  |     +--| (83.4/0.85)
+|  |     +--| (82.7/0.85)
 |  |     |  +--AT4G09960.4|SEEDSTICK|STK|Length_329
-|  +-----| (99.7/1)
+|  +-----| (99.8/1)
 |        |  +--AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
-|        +--| (62.1/0.639)
+|        +--| (60.3/0.639)
 |           +--AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
 |
 |        +--AT5G15800.2|SEPALLATA1|SEP1|Length_262
-|     +--| (97.2/1)
+|     +--| (96.1/1)
 |     |  +--AT3G02310.1|SEPALLATA2|SEP2|Length_250
-|  +--| (66.8/0.797)
+|  +--| (65.1/0.797)
 |  |  +--AT1G24260.2|SEPALLATA3|SEP3|Length_251
-+--| (94/0.996)
++--| (93.6/0.996)
    +--AT2G03710.1|SEPALLATA4|SEP4|Length_258
 
 Tree in newick format:
 
-(AT1G69120.1|APETALA1|AP1|Length_286:1.1369432493,(((AT4G36920.1|APETALA2|AP2|Length_432:8.6266151445,AT5G20240.1|PISTILLATA|PI|Length_208:1.4853803082)0/0.335:0.0662715773,AT3G54340.1|APETALA3|AP3|Length_232:1.9188402719)92/0.997:0.6062708588,((AT4G18960.1|AGAMOUS|AG|Length_252:0.3994777292,AT4G09960.4|SEEDSTICK|STK|Length_329:0.5959488026)83.4/0.85:0.2009480488,(AT3G58780.4|SHATTERPROOF1|SHP1|Length_281:0.0903304187,AT2G42830.2|SHATTERPROOF2|SHP2|Length_248:0.0957860840)62.1/0.639:0.1180363437)99.7/1:1.1026653050)94.7/0.999:0.6138427537,(((AT5G15800.2|SEPALLATA1|SEP1|Length_262:0.0305992773,AT3G02310.1|SEPALLATA2|SEP2|Length_250:0.1353550764)97.2/1:0.2719975131,AT1G24260.2|SEPALLATA3|SEP3|Length_251:0.5563425140)66.8/0.797:0.1255736538,AT2G03710.1|SEPALLATA4|SEP4|Length_258:0.6242214302)94/0.996:0.4667335041);
+(AT1G69120.1|APETALA1|AP1|Length_286:1.1369432493,(((AT4G36920.1|APETALA2|AP2|Length_432:8.6266151445,AT5G20240.1|PISTILLATA|PI|Length_208:1.4853803082)0/0.335:0.0662715773,AT3G54340.1|APETALA3|AP3|Length_232:1.9188402719)90.6/0.997:0.6062708588,((AT4G18960.1|AGAMOUS|AG|Length_252:0.3994777292,AT4G09960.4|SEEDSTICK|STK|Length_329:0.5959488026)82.7/0.85:0.2009480488,(AT3G58780.4|SHATTERPROOF1|SHP1|Length_281:0.0903304187,AT2G42830.2|SHATTERPROOF2|SHP2|Length_248:0.0957860840)60.3/0.639:0.1180363437)99.8/1:1.1026653050)95.4/0.999:0.6138427537,(((AT5G15800.2|SEPALLATA1|SEP1|Length_262:0.0305992773,AT3G02310.1|SEPALLATA2|SEP2|Length_250:0.1353550764)96.1/1:0.2719975131,AT1G24260.2|SEPALLATA3|SEP3|Length_251:0.5563425140)65.1/0.797:0.1255736538,AT2G03710.1|SEPALLATA4|SEP4|Length_258:0.6242214302)93.6/0.996:0.4667335041);
 
 ALISIM COMMAND
 --------------
@@ -234,18 +234,18 @@ To simulate an alignment of the same length as the original alignment, using the
 
 To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
 
-iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Arabidopsis_thaliana_ClustalO.fa --alisim mimicked_MSA
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Arabidopsis_thaliana_ClustalO.fa --alisim mimicked_MSA
 
 To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
 
-iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Arabidopsis_thaliana_ClustalO.fa --alisim mimicked_MSA --num-alignments 100
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Arabidopsis_thaliana_ClustalO.fa --alisim mimicked_MSA --num-alignments 100
 
 For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
 
 TIME STAMP
 ----------
 
-Date and time: Sun Apr  5 12:26:33 2026
-Total CPU time used: 0.760935 seconds (0h:0m:0s)
-Total wall-clock time used: 0.570664 seconds (0h:0m:0s)
+Date and time: Thu Apr  9 18:33:54 2026
+Total CPU time used: 0.7517 seconds (0h:0m:0s)
+Total wall-clock time used: 0.570614 seconds (0h:0m:0s)
 

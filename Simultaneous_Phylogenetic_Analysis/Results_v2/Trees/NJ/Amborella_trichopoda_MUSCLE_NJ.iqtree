@@ -1,8 +1,8 @@
 IQ-TREE 2.2.2.7 COVID-edition built May 30 2023
 
-Input file name: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Amborella_trichopoda_MUSCLE.fa
+Input file name: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Amborella_trichopoda_MUSCLE.fa
 Type of analysis: tree reconstruction
-Random seed number: 781243
+Random seed number: 854309
 
 REFERENCES
 ----------
@@ -18,11 +18,11 @@ https://doi.org/10.1093/molbev/msaa015
 SEQUENCE ALIGNMENT
 ------------------
 
-Input data: 28 sequences with 701 amino-acid sites
-Number of constant sites: 415 (= 59.2011% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 415 (= 59.2011% of all sites)
-Number of parsimony informative sites: 223
-Number of distinct site patterns: 405
+Input data: 16 sequences with 318 amino-acid sites
+Number of constant sites: 58 (= 18.239% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 58 (= 18.239% of all sites)
+Number of parsimony informative sites: 181
+Number of distinct site patterns: 304
 
 SUBSTITUTION PROCESS
 --------------------
@@ -36,98 +36,74 @@ Model of rate heterogeneity: Uniform
 STARTING TREE
 -------------
 
-Log-likelihood of the tree: -12562.5796 (s.e. 585.6220)
-Unconstrained log-likelihood (without tree): -3863.2571
-Number of free parameters (#branches + #model parameters): 53
-Akaike information criterion (AIC) score: 25231.1593
-Corrected Akaike information criterion (AICc) score: 25240.0063
-Bayesian information criterion (BIC) score: 25472.4422
+Log-likelihood of the tree: -6980.4521 (s.e. 245.6248)
+Unconstrained log-likelihood (without tree): -1809.9682
+Number of free parameters (#branches + #model parameters): 29
+Akaike information criterion (AIC) score: 14018.9042
+Corrected Akaike information criterion (AICc) score: 14024.9459
+Bayesian information criterion (BIC) score: 14128.0037
 
-Total tree length (sum of branch lengths): 16.9591
-Sum of internal branch lengths: 3.7098 (21.8751% of tree length)
+Total tree length (sum of branch lengths): 10.2487
+Sum of internal branch lengths: 2.2322 (21.7804% of tree length)
 
-NOTE: Tree is UNROOTED although outgroup taxon 'AT4G36920.1|APETALA2|AP2|Length_432' is drawn at root
+NOTE: Tree is UNROOTED although outgroup taxon 'evm_27.model.AmTr_v1.0_scaffold00095.150' is drawn at root
 
-+----------------------------------------------------------AT4G36920.1|APETALA2|AP2|Length_432
++-----------------------------------------------------------evm_27.model.AmTr_v1.0_scaffold00095.150
 |
-|                       +----------------------------------------evm_27.model.AmTr_v1.0_scaffold00095.150
-|                    +--|
-|                    |  +----------------evm_27.model.AmTr_v1.0_scaffold00127.17
-|                 +--|
-|                 |  |  +---------------------evm_27.model.AmTr_v1.0_scaffold00013.60
-|                 |  +--|
-|                 |     +-------------evm_27.model.AmTr_v1.0_scaffold00001.409
-|              +--|
-|              |  |        +------evm_27.model.AmTr_v1.0_scaffold00047.105
-|              |  +--------|
-|              |           +-------AT1G69120.1|APETALA1|AP1|Length_286
-|           +--|
-|           |  |            +------AT1G24260.2|SEPALLATA3|SEP3|Length_251
-|           |  |         +--|
-|           |  |         |  |  +--evm_27.model.AmTr_v1.0_scaffold00013.53
-|           |  |         |  +--|
-|           |  |         |     +--evm_27.model.AmTr_v1.0_scaffold00047.121
-|           |  |    +----|
-|           |  |    |    |  +----------AT2G03710.1|SEPALLATA4|SEP4|Length_258
-|           |  |    |    +--|
-|           |  |    |       |   +--AT5G15800.2|SEPALLATA1|SEP1|Length_262
-|           |  |    |       +---|
-|           |  |    |           +--AT3G02310.1|SEPALLATA2|SEP2|Length_250
-|           |  +----|
-|           |       +------evm_27.model.AmTr_v1.0_scaffold00001.413
-|        +--|
-|        |  |                 +--AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
-|        |  |           +-----|
-|        |  |           |     +--AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
-|        |  |        +--|
-|        |  |        |  |  +-----AT4G18960.1|AGAMOUS|AG|Length_252
-|        |  |        |  +--|
-|        |  |        |     |  +---evm_27.model.AmTr_v1.0_scaffold00071.203
-|        |  |        |     +--|
-|        |  |        |        +--evm_27.model.AmTr_v1.0_scaffold00021.296
-|        |  +--------|
-|        |           +------AT4G09960.4|SEEDSTICK|STK|Length_329
-|     +--|
-|     |  +--------------evm_27.model.AmTr_v1.0_scaffold00046.134
+|     +--------------------evm_27.model.AmTr_v1.0_scaffold00001.409
 |  +--|
-|  |  +-----------evm_27.model.AmTr_v1.0_scaffold00053.185
+|  |  |                                    +------evm_27.model.AmTr_v1.0_scaffold00001.225
+|  |  |                     +--------------|
+|  |  |                     |              +-----evm_27.model.AmTr_v1.0_scaffold00066.97
+|  |  |                  +--|
+|  |  |                  |  +-----------------evm_27.model.AmTr_v1.0_scaffold00089.36
+|  |  |            +-----|
+|  |  |            |     +------------evm_27.model.AmTr_v1.0_scaffold00001.461
+|  |  |         +--|
+|  |  |         |  +------------------------------evm_27.model.AmTr_v1.0_scaffold00013.60
+|  |  |      +--|
+|  |  |      |  +-------------------------evm_27.model.AmTr_v1.0_scaffold00127.17
+|  |  |   +--|
+|  |  |   |  +------------------evm_27.model.AmTr_v1.0_scaffold00053.185
+|  |  +---|
+|  |      +----------------evm_27.model.AmTr_v1.0_scaffold00046.134
 +--|
-|  |       +--------evm_27.model.AmTr_v1.0_scaffold00089.36
-|  |  +----|
-|  |  |    +---------AT5G20240.1|PISTILLATA|PI|Length_208
-|  +--|
-|     +---------evm_27.model.AmTr_v1.0_scaffold00001.461
+|  |              +---evm_27.model.AmTr_v1.0_scaffold00071.203
+|  +--------------|
+|                 +----evm_27.model.AmTr_v1.0_scaffold00021.296
 |
-|    +--------------AT3G54340.1|APETALA3|AP3|Length_232
-+----|
-     |     +--evm_27.model.AmTr_v1.0_scaffold00001.225
-     +-----|
-           +-----evm_27.model.AmTr_v1.0_scaffold00066.97
+|     +---------------evm_27.model.AmTr_v1.0_scaffold00047.105
++-----|
+      |   +---------evm_27.model.AmTr_v1.0_scaffold00001.413
+      +---|
+          |       +----evm_27.model.AmTr_v1.0_scaffold00013.53
+          +-------|
+                  +---evm_27.model.AmTr_v1.0_scaffold00047.121
 
 Tree in newick format:
 
-(AT4G36920.1|APETALA2|AP2|Length_432:2.5054820865,((((((((evm_27.model.AmTr_v1.0_scaffold00095.150:1.7139126825,evm_27.model.AmTr_v1.0_scaffold00127.17:0.7321098210):0.0398105257,(evm_27.model.AmTr_v1.0_scaffold00013.60:0.9260311731,evm_27.model.AmTr_v1.0_scaffold00001.409:0.5958422852):0.0519914901):0.0699974331,(evm_27.model.AmTr_v1.0_scaffold00047.105:0.3081816498,AT1G69120.1|APETALA1|AP1|Length_286:0.3626417291):0.3840749055):0.0484339612,(((AT1G24260.2|SEPALLATA3|SEP3|Length_251:0.3163870126,(evm_27.model.AmTr_v1.0_scaffold00013.53:0.1666434649,evm_27.model.AmTr_v1.0_scaffold00047.121:0.1433188861):0.0796820040):0.0290213392,(AT2G03710.1|SEPALLATA4|SEP4|Length_258:0.4712294837,(AT5G15800.2|SEPALLATA1|SEP1|Length_262:0.0548010305,AT3G02310.1|SEPALLATA2|SEP2|Length_250:0.0834546761):0.1973889767):0.0869475517):0.2406835953,evm_27.model.AmTr_v1.0_scaffold00001.413:0.3234490226):0.2169788944):0.1355857921,(((AT3G58780.4|SHATTERPROOF1|SHP1|Length_281:0.0578388780,AT2G42830.2|SHATTERPROOF2|SHP2|Length_248:0.1016451127):0.2644938205,(AT4G18960.1|AGAMOUS|AG|Length_252:0.2643238998,(evm_27.model.AmTr_v1.0_scaffold00071.203:0.1847742175,evm_27.model.AmTr_v1.0_scaffold00021.296:0.1212201271):0.0602100060):0.0339343206):0.0413670148,AT4G09960.4|SEEDSTICK|STK|Length_329:0.3178947554):0.4138287759):0.0507672967,evm_27.model.AmTr_v1.0_scaffold00046.134:0.6351456597):0.1658136272,evm_27.model.AmTr_v1.0_scaffold00053.185:0.5258462326):0.1592534531,((evm_27.model.AmTr_v1.0_scaffold00089.36:0.4133852548,AT5G20240.1|PISTILLATA|PI|Length_208:0.4447690265):0.2442492053,evm_27.model.AmTr_v1.0_scaffold00001.461:0.4339532690):0.1184739904):0.0663863423,(AT3G54340.1|APETALA3|AP3|Length_232:0.6477985299,(evm_27.model.AmTr_v1.0_scaffold00001.225:0.1347552044,evm_27.model.AmTr_v1.0_scaffold00066.97:0.2624562272):0.2729958306):0.2374488037);
+(evm_27.model.AmTr_v1.0_scaffold00095.150:1.7913769412,((evm_27.model.AmTr_v1.0_scaffold00001.409:0.6331788349,(((((((evm_27.model.AmTr_v1.0_scaffold00001.225:0.2128972185,evm_27.model.AmTr_v1.0_scaffold00066.97:0.1859171029):0.4670727601,evm_27.model.AmTr_v1.0_scaffold00089.36:0.5625201236):0.1134538122,evm_27.model.AmTr_v1.0_scaffold00001.461:0.4060509784):0.2063781165,evm_27.model.AmTr_v1.0_scaffold00013.60:0.9363987093):0.0829822386,evm_27.model.AmTr_v1.0_scaffold00127.17:0.7953745131):0.0198183453,evm_27.model.AmTr_v1.0_scaffold00053.185:0.5713377421):0.0620015379,evm_27.model.AmTr_v1.0_scaffold00046.134:0.5158525115):0.1408569472):0.0654810452,(evm_27.model.AmTr_v1.0_scaffold00071.203:0.1265842066,evm_27.model.AmTr_v1.0_scaffold00021.296:0.1767092868):0.4535922573):0.0328908261,(evm_27.model.AmTr_v1.0_scaffold00047.105:0.4993389530,(evm_27.model.AmTr_v1.0_scaffold00001.413:0.3029857949,(evm_27.model.AmTr_v1.0_scaffold00013.53:0.1712856628,evm_27.model.AmTr_v1.0_scaffold00047.121:0.1287212268):0.2602028476):0.1295503445):0.1979308933);
 
 ALISIM COMMAND
 --------------
 To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
 
---alisim simulated_MSA -t /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Amborella_trichopoda_MUSCLE_NJ.treefile -m "LG" --length 701
+--alisim simulated_MSA -t /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Amborella_trichopoda_MUSCLE_NJ.treefile -m "LG" --length 318
 
 To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
 
-iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Amborella_trichopoda_MUSCLE.fa --alisim mimicked_MSA
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Amborella_trichopoda_MUSCLE.fa --alisim mimicked_MSA
 
 To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
 
-iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Alignments/Amborella_trichopoda_MUSCLE.fa --alisim mimicked_MSA --num-alignments 100
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Amborella_trichopoda_MUSCLE.fa --alisim mimicked_MSA --num-alignments 100
 
 For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
 
 TIME STAMP
 ----------
 
-Date and time: Sun Apr  5 12:18:21 2026
-Total CPU time used: 0.071198 seconds (0h:0m:0s)
-Total wall-clock time used: 0.076411 seconds (0h:0m:0s)
+Date and time: Thu Apr  9 18:30:22 2026
+Total CPU time used: 0.02484 seconds (0h:0m:0s)
+Total wall-clock time used: 0.0276179 seconds (0h:0m:0s)
 

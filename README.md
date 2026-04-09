@@ -124,6 +124,10 @@ Angiosperms (Flowering plants)
 - Comparative insights into the evolution of **floral organ identity networks and genes** across major plant lineages.
 - Detection of **conserved and novel domain architectures** associated with functional specialization.
 
+## Data Sources & Notebooks
+
+- **MADS-box Phylogenetic Data (Google Colab)**: [Notebook Link](https://colab.research.google.com/drive/1CfAzNoKbsFE9PxtaFEIyFNVFZ4u5ZGUZ?authuser=0#scrollTo=cG2hhQg035Fd) - Primary data source for genomic collection and phylogenetic analysis mapping.
+
 ---
 
 ## References

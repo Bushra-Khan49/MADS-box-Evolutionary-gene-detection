@@ -71,7 +71,8 @@ AT_TO_CLADE = {
     "AT1G71692": "AGL12"
 }
 
-WORK_DIR = "/Users/bushrakhan/Desktop/NIPGR-data/NIPGR_WORK"
+# --- Updated Paths for the Current Project Workspace ---
+WORK_DIR = "/Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Uploads"
 NWK_DIR  = os.path.join(WORK_DIR, "Newick_Trees")
 ANN_FILE = os.path.join(WORK_DIR, "MIKCc_Subclade_Annotation_Table.tsv")
 OUT_DIR  = os.path.join(WORK_DIR, "Colored_Tree_Images")
@@ -138,6 +139,12 @@ def draw_tree(species, nwk_path, species_ann):
     ts.arc_start = -180
     ts.arc_span = 360
     ts.layout_fn = layout
+    
+    # --- Professional Layout & Margins ---
+    ts.margin_top = 200
+    ts.margin_bottom = 200
+    ts.margin_left = 200
+    ts.margin_right = 1100  # Large right margin to accommodate the legend without overlapping the tree
     
     # Draw solid black lines connecting branch tips to the perfectly aligned circular names
     ts.draw_guiding_lines = True
