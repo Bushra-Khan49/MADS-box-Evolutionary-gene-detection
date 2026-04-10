@@ -17,7 +17,6 @@ def render_tree(tree_path, output_image):
         return
 
     ts = TreeStyle()
-    ts.shape_heading_filter = False
     ts.show_leaf_name = False  # We add custom TextFaces
     ts.mode = "c"
     ts.arc_start = -180

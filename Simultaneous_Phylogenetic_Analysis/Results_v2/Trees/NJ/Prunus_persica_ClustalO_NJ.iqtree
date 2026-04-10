@@ -1,0 +1,150 @@
+IQ-TREE 2.2.2.7 COVID-edition built May 30 2023
+
+Input file name: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Prunus_persica_ClustalO.fa
+Type of analysis: tree reconstruction
+Random seed number: 932399
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 35 sequences with 540 amino-acid sites
+Number of constant sites: 123 (= 22.7778% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 123 (= 22.7778% of all sites)
+Number of parsimony informative sites: 259
+Number of distinct site patterns: 505
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+STARTING TREE
+-------------
+
+Log-likelihood of the tree: -16400.8365 (s.e. 648.8653)
+Unconstrained log-likelihood (without tree): -3341.3760
+Number of free parameters (#branches + #model parameters): 67
+Akaike information criterion (AIC) score: 32935.6730
+Corrected Akaike information criterion (AICc) score: 32954.9781
+Bayesian information criterion (BIC) score: 33223.2081
+
+Total tree length (sum of branch lengths): 19.5277
+Sum of internal branch lengths: 6.4010 (32.7793% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0019) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Prupe.2G151000.1.p' is drawn at root
+
++------Prupe.2G151000.1.p
+|
+|                    +-------Prupe.2G287500.1.p
+|              +-----|
+|              |     |  +----Prupe.2G151200.1.p
+|              |     +--|
+|              |        +-------Prupe.5G087500.1.p
+|           +--|
+|           |  +----------------Prupe.5G149400.1.p
+|        +--|
+|        |  |                  +-------Prupe.2G023100.1.p
+|        |  |           +------|
+|        |  |           |      +---------Prupe.7G055900.1.p
+|        |  |        +--|
+|        |  |        |  |                  +-------------Prupe.1G427500.1.p
+|        |  |        |  |               +--|
+|        |  |        |  |               |  +---------------------Prupe.1G276600.1.p
+|        |  |        |  +---------------|
+|        |  |        |                  +-----------Prupe.1G511300.1.p
+|        |  |     +--|
+|        |  |     |  +--------------------Prupe.1G548000.1.p
+|        |  |  +--|
+|        |  |  |  |             +---------Prupe.8G069300.1.p
+|        |  |  |  |          +--|
+|        |  |  |  |          |  +---Prupe.6G199000.1.p
+|        |  |  |  +----------|
+|        |  |  |             |               +--Prupe.1G531400.1.p
+|        |  |  |             |            +--|
+|        |  |  |             |            |  +--Prupe.1G531100.1.p
+|        |  |  |             |         +--|
+|        |  |  |             |         |  +--Prupe.1G531600.1.p
+|        |  |  |             +---------|
+|        |  |  |                       +--Prupe.1G531700.1.p
+|        |  +--|
+|        |     +------------------Prupe.4G113500.1.p
+|    +---|
+|    |   |                +---Prupe.8G073700.1.p
+|    |   |     +----------|
+|    |   |     |          +----Prupe.6G208900.1.p
+|    |   |  +--|
+|    |   |  |  |         +---Prupe.4G070500.1.p
+|    |   |  |  |      +--|
+|    |   |  |  |      |  +---Prupe.3G170600.1.p
+|    |   |  |  +------|
+|    |   |  |         +---Prupe.1G549600.1.p
+|    |   +**|
+|    |      |                 +-----Prupe.7G164100.1.p
+|    |      |        +--------|
+|    |      |        |        +--------Prupe.1G371300.1.p
+|    |      +--------|
+|    |               +-------------Prupe.1G489400.1.p
++----|
+|    |              +----Prupe.5G208500.1.p
+|    |           +--|
+|    |           |  +-----Prupe.1G290600.1.p
+|    |     +-----|
+|    |     |     +-------Prupe.3G249300.1.p
+|    |  +--|
+|    |  |  +----------------Prupe.3G307800.1.p
+|    +--|
+|       |         +----Prupe.5G208400.1.p
+|       |      +--|
+|       |      |  +--Prupe.3G249400.1.p
+|       |   +--|
+|       |   |  +------Prupe.1G223600.1.p
+|       +---|
+|           +-----Prupe.1G290500.1.p
+|
++---------Prupe.2G287000.1.p
+
+Tree in newick format:
+
+(Prupe.2G151000.1.p:0.3195691878,(((((Prupe.2G287500.1.p:0.3471824976,(Prupe.2G151200.1.p:0.2199971025,Prupe.5G087500.1.p:0.3795117606):0.0548270150):0.2762758774,Prupe.5G149400.1.p:0.7416830292):0.1180005018,(((((Prupe.2G023100.1.p:0.3752575365,Prupe.7G055900.1.p:0.4597443757):0.3321650777,((Prupe.1G427500.1.p:0.6318309222,Prupe.1G276600.1.p:0.9623004353):0.1534221482,Prupe.1G511300.1.p:0.5562235044):0.6974236161):0.0309552961,Prupe.1G548000.1.p:0.9157453669):0.0276261746,((Prupe.8G069300.1.p:0.4490374197,Prupe.6G199000.1.p:0.1905942154):0.0601495900,(((Prupe.1G531400.1.p:0.0691357704,Prupe.1G531100.1.p:0.1474160999):0.0419310446,Prupe.1G531600.1.p:0.0743047619):0.0488915848,Prupe.1G531700.1.p:0.0586771916):0.4570696578):0.5136795037):0.1468952534,Prupe.4G113500.1.p:0.8520405779):0.0756540672):0.0736447842,(((Prupe.8G073700.1.p:0.1934827551,Prupe.6G208900.1.p:0.2410941603):0.4892568947,((Prupe.4G070500.1.p:0.1926258758,Prupe.3G170600.1.p:0.1999223978):0.1389336533,Prupe.1G549600.1.p:0.2082747939):0.3206866814):0.1570649904,((Prupe.7G164100.1.p:0.2584399873,Prupe.1G371300.1.p:0.3910489941):0.4290816917,Prupe.1G489400.1.p:0.6331291415):0.4186949272):0.0000021736):0.1899867931,((((Prupe.5G208500.1.p:0.2355427106,Prupe.1G290600.1.p:0.2783397464):0.0569114467,Prupe.3G249300.1.p:0.3760362040):0.2654700849,Prupe.3G307800.1.p:0.7464072194):0.1409058532,(((Prupe.5G208400.1.p:0.2267760319,Prupe.3G249400.1.p:0.1567430492):0.0508862758,Prupe.1G223600.1.p:0.3155167932):0.1688746579,Prupe.1G290500.1.p:0.2843736128):0.1915446870):0.0508226871):0.2232974884,Prupe.2G287000.1.p:0.4386476155);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Prunus_persica_ClustalO_NJ.treefile -m "LG" --length 540
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Prunus_persica_ClustalO.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Prunus_persica_ClustalO.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Apr  9 22:08:05 2026
+Total CPU time used: 0.119707 seconds (0h:0m:0s)
+Total wall-clock time used: 0.136979 seconds (0h:0m:0s)
+
