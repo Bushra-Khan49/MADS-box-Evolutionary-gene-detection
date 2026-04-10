@@ -2,13 +2,16 @@ import os, re
 import ete3
 from PIL import Image, ImageDraw, ImageFont
 
-RESULTS_DIR = os.path.abspath("Results/Trees/NJ")
-GALLERY_DIR = os.path.abspath("Results/Images")
+RESULTS_DIRS = [
+    os.path.abspath("Results_v2/Trees/Bayes"),
+    os.path.abspath("Results_v2/Trees/NJ")
+]
+GALLERY_DIR = os.path.abspath("Results/Images_v4_HighRes")
 
 SPECIES_LIST = [
     "Amborella_trichopoda", "Cinnamomum_kanehirae", "Glycine_max",
     "Helianthus_annuuss", "Medicago_truncatula", "Nelumbo_nucifera",
-    "Nymphaea_colorata", "Oryza_sativa", "Prunus_persica"
+    "Nymphaea_colorata", "Oryza_sativa", "Prunus_persica", "Arabidopsis_thaliana"
 ]
 
 CLADE_COLORS = {
@@ -199,20 +202,29 @@ def draw_tree(species, filepath, out_img):
 
 if __name__ == "__main__":
     os.makedirs(GALLERY_DIR, exist_ok=True)
-    # The NJ folder contains all species trees directly
-    print(f"Checking for trees in: {RESULTS_DIR}")
-    for tf in os.listdir(RESULTS_DIR):
-        if tf.endswith(".treefile"):
-            # Deduce species from filename: e.g. Amborella_trichopoda_MAFFT_NJ.treefile
-            # We look for the first match in SPECIES_LIST
-            matched_sp = "Unknown"
-            for s in SPECIES_LIST:
-                if tf.startswith(s):
-                    matched_sp = s
-                    break
+    for results_dir in RESULTS_DIRS:
+        if not os.path.exists(results_dir):
+            print(f"Skipping missing directory: {results_dir}")
+            continue
             
-            fp = os.path.join(RESULTS_DIR, tf)
-            op = os.path.join(GALLERY_DIR, tf.replace(".treefile", ".png"))
-            print(f"Rendering {tf} (Species: {matched_sp})...")
-            draw_tree(matched_sp, fp, op)
+        print(f"Checking for trees in: {results_dir}")
+        for tf in os.listdir(results_dir):
+            if tf.endswith(".treefile"):
+                # Deduce species from filename
+                matched_sp = "Unknown"
+                for s in SPECIES_LIST:
+                    if tf.startswith(s):
+                        matched_sp = s
+                        break
+                
+                fp = os.path.join(results_dir, tf)
+                op = os.path.join(GALLERY_DIR, tf.replace(".treefile", ".png"))
+                
+                # Check if it already exists to avoid redundant long renders during testing
+                if os.path.exists(op):
+                    print(f"  -> Skipping {tf} (Already exists)")
+                    continue
+                    
+                print(f"Rendering {tf} (Species: {matched_sp})...")
+                draw_tree(matched_sp, fp, op)
     print("Gallery completely processed.")
