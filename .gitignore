@@ -1,0 +1,26 @@
+# Bioinformatics Intermediate Files
+*.iqtree
+*.log
+*.ckp.gz
+*.mldist
+*.model.gz
+*.bionj
+*.screen
+*.contree
+*.h3f
+*.h3i
+*.h3m
+*.h3p
+*.hmm
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Large Data Files (Keep results but ignore raw inputs if necessary)
+# *.fasta
+# *.faa
+
+# Build/Script outputs
+render_error.log
+test.png
