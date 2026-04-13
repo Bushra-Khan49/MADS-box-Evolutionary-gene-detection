@@ -4,7 +4,6 @@ import csv
 # ============================================================
 # Arabidopsis MIKCc gene → Subclade mapping
 # Based on literature (Parenicova et al. 2003, de Folter et al.)
-# and the color-coded groupings from your Google Slides
 # ============================================================
 AT_TO_CLADE = {
     # AP1/FUL/CAL Clade (A-class, floral meristem/organ identity) - RED
