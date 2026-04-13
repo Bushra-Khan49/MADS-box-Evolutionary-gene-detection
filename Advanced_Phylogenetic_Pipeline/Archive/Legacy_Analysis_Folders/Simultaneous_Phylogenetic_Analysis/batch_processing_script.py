@@ -16,7 +16,7 @@ SPECIES_LIST = [
     "Oryza_sativa",  # Oryza_sativa is used as a standard species name, user says 'please use scientific names instead of rice'
     "Prunus_persica"
 ]
-# Excluded Piper_auritum based on user instruction
+# Excluded Piper_auritum 
 
 def extract_domtblout_ids(domtblout_file):
     """Parses a domtblout file and returns a robust set of hitting gene IDs"""
@@ -115,7 +115,7 @@ def run_iqtree(msa_file, prefix, method):
 def process_species(species, at_ref_file):
     print(f"\n--- Phase 2: Processing {species} ---")
     
-    # As explicitly instructed: using the file produced in the earlier step
+    # Using the file produced in the earlier step
     species_cand_file = os.path.join(NIPGR_WORK_DIR, species, f"{species}_candidates.fa")
     if not os.path.exists(species_cand_file):
         print(f"  -> ERROR: {species_cand_file} not found. Ensure earlier steps completed successfully. Skipping.")
