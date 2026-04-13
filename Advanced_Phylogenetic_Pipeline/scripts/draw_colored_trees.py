@@ -1,12 +1,12 @@
 """
 Generate colored annotated circular phylogenetic tree images using ETE3.
-Reads Newick files and colors leaves by MIKCc subclade to match the reference slides.
+Reads Newick files and colors leaves by MIKCc subclade.
 """
 import os, csv, re
 os.environ['QT_QPA_PLATFORM'] = 'offscreen'
 from ete3 import Tree, TreeStyle, NodeStyle, TextFace, faces
 
-# ── Colors matching your Google Slides ────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
 CLADE_COLORS = {
     "AP1/FUL/CAL":   "#E74C3C",
     "SEP/AGL2-like": "#E67E22",
@@ -204,7 +204,7 @@ def draw_tree(species, nwk_path, species_ann):
         clade = leaf.my_clade
         color = CLADE_COLORS.get(clade, "#BDC3C7")
         
-        # Fake transparency for exactly AT genes
+        # Transparency for AT genes
         if raw.startswith("AT"):
             display_color = make_pastel(color, factor=0.65) # 65% faded
         else:
@@ -302,4 +302,4 @@ for sp in SPECIES:
     print(f"  Annotated genes: {len(sp_ann)}")
     draw_tree(sp, nwk, sp_ann)
 
-print(f"\n✅ All circular images saved to: {OUT_DIR}")
+print(f"\n All circular images saved to: {OUT_DIR}")
