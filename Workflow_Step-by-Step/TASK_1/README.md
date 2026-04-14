@@ -19,8 +19,8 @@ This task covers the genome-wide identification of MIKCc-type MADS-box genes in 
 | 1 | [1.Data_Collection.md](./1.Data_Collection.md) | Downloading TAIR10 proteome, genome, and annotations |
 | 2 | [2.Blast_workflow.md](./2.Blast_workflow.md) | BLASTP search for MADS-box candidates |
 | 3 | [3.HMMER_search.md](./3.HMMER_search.md) | Domain validation & Intersection for Anchor Set |
-| 4 | [4.Results_Interpretations.md](./4.Results_Interpretations.md) | Final candidate list and clade classification |
-| 5 | [5.Evolutionary_Conclusion.md](./5.Evolutionary_Conclusion.md) | Inferences on MADS-box duplication and function |
+| 4 | [4.Results_Interpretations.md](./4.Results_Interpretations.md) | Final candidate list (45 MIKCc genes) |
+| 5 | [5.Evolutionary_Conclusion.md](./5.Evolutionary_Conclusion.md) | Conclusion on the Arabidopsis Anchor Set |
 
 ---
 
@@ -36,10 +36,10 @@ This task covers the genome-wide identification of MIKCc-type MADS-box genes in 
 
 | Method | Initial Hits | Validated |
 |--------|-------------|-----------|
-| BLASTP (1e-5) | 107 | 107 |
-| HMMER (PF00319 + PF01486) | 107 | 107 |
+| BLASTP (1e-5) | 79 | 45 |
+| HMMER (PF00319 + PF01486) | 79 | 45 |
 
-**Total confirmed MIKCc-type MADS-box genes: 107**
+**Total confirmed MIKCc-type MADS-box genes: 45**
 
 ---
 
