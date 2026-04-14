@@ -26,9 +26,9 @@ def update_titles():
             
             # Mapping
             method_map = {
-                "NJ": "tree (NJ)",
-                "Bayes": "tree (Bayesian)",
-                "ML": "tree (Maximum Likelihood)"
+                "NJ": "Neighbour Joining (NJ)",
+                "Bayes": "Bayesian Inference (Bayes)",
+                "ML": "Maximum Likelihood (ML)"
             }
             algo_map = {
                 "ClustalO": "Clustal Omega",
