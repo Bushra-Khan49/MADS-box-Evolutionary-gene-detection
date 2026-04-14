@@ -36,8 +36,8 @@ This task covers the genome-wide identification of MIKCc-type MADS-box genes in 
 
 | Method | Initial Search Hits | Validated (MIKCc) |
 |--------|--------------------|-------------------|
-| **BLASTP (1e-5)** | 107 | 45 |
-| **HMMER (MADS / K)** | 107 / 79 | 45 |
+| **HMMER (PF00319 / PF01486)** | 109 / 45 | 45 |
+| **BLASTP (1e-5 Validation)** | 45 | 45 |
 
 **Total confirmed MIKCc-type MADS-box genes: 45**
 
