@@ -1,0 +1,203 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Nymphaea_colorata_MAFFT_Aligned.fa -m LG+F+G -B 1000 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML -nt AUTO -redo
+Seed:    302691 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr 14 07:14:10 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Nymphaea_colorata_MAFFT_Aligned.fa ... Fasta format detected
+Reading fasta file: done in 0.000772953 secs using 91.08% CPU
+Alignment most likely contains protein sequences
+Alignment has 67 sequences with 683 columns, 586 distinct patterns
+323 parsimony-informative, 164 singleton sites, 196 constant sites
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.6982e-05 secs using 233.4% CPU
+   1  Nycol.F00329.1.p   83.02%    passed     81.80%
+   2  Nycol.F00337.1.p   69.40%    passed     67.77%
+   3  Nycol.F00482.1.p   63.98%    passed     26.88%
+   4  Nycol.F00306.1.p   72.33%    passed      6.39%
+   5  Nycol.F00318.1.p   69.69%    passed     87.78%
+   6  Nycol.A00172.1.p   70.72%    passed     23.21%
+   7  Nycol.A03014.1.p   65.74%    passed     15.99%
+   8  Nycol.A00432.1.p   68.23%    passed     98.01%
+   9  Nycol.A01976.1.p   66.03%    passed     79.97%
+  10  Nycol.B01084.1.p   70.57%    passed     70.15%
+  11  Nycol.G00206.1.p   68.08%    passed     64.42%
+  12  Nycol.G00190.1.p   70.42%    passed     20.17%
+  13  Nycol.H00870.1.p   63.69%    passed     75.39%
+  14  Nycol.H00296.1.p   64.13%    passed     95.78%
+  15  Nycol.H00297.1.p   60.61%    passed     69.44%
+  16  Nycol.M00404.1.p   64.42%    passed     80.09%
+  17  Nycol.I00043.1.p   67.20%    passed     28.80%
+  18  Nycol.I00993.1.p   66.91%    passed     88.70%
+  19  Nycol.I01691.1.p   64.13%    passed     72.67%
+  20  Nycol.I01697.1.p   68.52%    passed     83.81%
+  21  Nycol.I01732.1.p   67.64%    passed     91.27%
+  22  Nycol.C02244.1.p   67.79%    passed     88.41%
+  23  AT1G22130.1        50.95%    passed     30.62%
+  24  AT1G24260.2        63.25%    passed     54.41%
+  25  AT1G26310.1        62.66%    passed     85.66%
+  26  AT1G31140.2        68.52%    passed     72.81%
+  27  AT1G59810.1        58.57%    failed      0.12%
+  28  AT1G69120.1        62.52%    passed     42.16%
+  29  AT1G69540.2        46.27%    passed     16.31%
+  30  AT1G71692.1        69.11%    passed     56.83%
+  31  AT1G77080.8        67.35%    passed     57.20%
+  32  AT1G77950.4        63.10%    passed     66.56%
+  33  AT1G77980.1        51.39%    passed     50.05%
+  34  AT2G03060.2        43.48%    failed      0.12%
+  35  AT2G03710.1        62.23%    passed     88.45%
+  36  AT2G14210.2        65.59%    passed     88.58%
+  37  AT2G22540.1        64.86%    passed     83.71%
+  38  AT2G22630.2        66.76%    passed     95.98%
+  39  AT2G42830.2        63.69%    passed     39.44%
+  40  AT2G45650.1        63.10%    passed     63.88%
+  41  AT2G45660.1        68.67%    passed     61.63%
+  42  AT3G02310.1        63.40%    passed     17.43%
+  43  AT3G30260.1        63.54%    passed     32.96%
+  44  AT3G54340.1        66.03%    passed     56.22%
+  45  AT3G57230.1        64.86%    passed     56.16%
+  46  AT3G57390.1        62.52%    passed     77.61%
+  47  AT3G58780.4        58.86%    passed     33.52%
+  48  AT3G61120.1        64.28%    passed     32.84%
+  49  AT4G09960.4        51.83%    passed     10.95%
+  50  AT4G11880.1        67.64%    passed     79.31%
+  51  AT4G18960.1        63.10%    passed     30.97%
+  52  AT4G22950.1        67.94%    passed     81.12%
+  53  AT4G24540.1        67.79%    passed      8.75%
+  54  AT4G37940.1        66.62%    passed     98.67%
+  55  AT5G10140.1        71.30%    passed      8.07%
+  56  AT5G13790.2        60.32%    passed     69.73%
+  57  AT5G15800.2        61.64%    passed     12.62%
+  58  AT5G20240.1        69.55%    passed     14.88%
+  59  AT5G23260.4        60.76%    passed      8.58%
+  60  AT5G51860.1        69.11%    passed     16.03%
+  61  AT5G51870.3        66.47%    passed     85.73%
+  62  AT5G60910.1        64.57%    passed     93.68%
+  63  AT5G62165.2        69.25%    passed     86.55%
+  64  AT5G65050.3        71.30%    passed     49.39%
+  65  AT5G65060.1        71.30%    passed     23.71%
+  66  AT5G65070.1        70.72%    passed     18.41%
+  67  AT5G65080.2        70.13%    passed     36.92%
+WARNING: 65 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              65.08%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 302691)...
+
+NOTE: 27 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+5 trees examined
+Threads: 1 / Time: 10.695 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -32414
+Threads: 2 / Time: 6.798 sec / Speedup: 1.573 / Efficiency: 79% / LogL: -32414
+Threads: 3 / Time: 4.724 sec / Speedup: 2.264 / Efficiency: 75% / LogL: -32414
+Threads: 4 / Time: 4.323 sec / Speedup: 2.474 / Efficiency: 62% / LogL: -32414
+Threads: 5 / Time: 4.325 sec / Speedup: 2.473 / Efficiency: 49% / LogL: -32414
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -28008.736
+2. Current log-likelihood: -26173.537
+3. Current log-likelihood: -26119.231
+4. Current log-likelihood: -26116.081
+5. Current log-likelihood: -26115.352
+6. Current log-likelihood: -26115.165
+Optimal log-likelihood: -26115.091
+Gamma shape alpha: 0.903
+Parameters optimization took 6 rounds (2.978 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.384991 secs using 392.2% CPU
+Computing ML distances took 0.385278 sec (of wall-clock time) 1.510160 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000197172 secs using 175% CPU
+Computing RapidNJ tree took 0.005355 sec (of wall-clock time) 0.003498 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -26096.321
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.871 second
+Computing log-likelihood of 98 initial trees ... 10.323 seconds
+Current best score: -26096.321
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -26078.531
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -26077.439
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -26070.837
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -26070.098
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -26068.311
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -26067.869
+Iteration 10 / LogL: -26068.194 / Time: 0h:1m:13s
+Iteration 20 / LogL: -26073.450 / Time: 0h:1m:38s
+Finish initializing candidate tree set (18)
+Current best tree score: -26067.869 / CPU time: 63.391
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -26070.507 / Time: 0h:2m:8s (0h:5m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -26067.335
+Iteration 40 / LogL: -26068.048 / Time: 0h:2m:31s (0h:6m:8s left)
+Iteration 50 / LogL: -26067.469 / Time: 0h:2m:55s (0h:5m:3s left)
+Log-likelihood cutoff on original alignment: -26114.576
+Iteration 60 / LogL: -26067.354 / Time: 0h:3m:17s (0h:4m:11s left)
+Iteration 70 / LogL: -26067.441 / Time: 0h:3m:40s (0h:3m:27s left)
+Iteration 80 / LogL: -26069.899 / Time: 0h:4m:5s (0h:2m:50s left)
+Iteration 90 / LogL: -26069.582 / Time: 0h:4m:31s (0h:2m:17s left)
+Iteration 100 / LogL: -26067.492 / Time: 0h:4m:55s (0h:1m:44s left)
+Log-likelihood cutoff on original alignment: -26114.576
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -26067.375 / Time: 0h:5m:18s (0h:4m:22s left)
+Iteration 120 / LogL: -26085.786 / Time: 0h:5m:41s (0h:3m:49s left)
+Iteration 130 / LogL: -26068.193 / Time: 0h:6m:8s (0h:3m:19s left)
+TREE SEARCH COMPLETED AFTER 136 ITERATIONS / Time: 0h:6m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -26067.335
+Optimal log-likelihood: -26067.334
+Gamma shape alpha: 0.887
+Parameters optimization took 1 rounds (0.292 sec)
+BEST SCORE FOUND : -26067.334
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML.splits.nex
+Total tree length: 57.862
+
+Total number of iterations: 136
+CPU time used for tree search: 998.815 sec (0h:16m:38s)
+Wall-clock time used for tree search: 348.857 sec (0h:5m:48s)
+Total CPU time used: 1071.202 sec (0h:17m:51s)
+Total wall-clock time used: 384.385 sec (0h:6m:24s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML.splits.nex...
+67 taxa and 416 splits.
+Consensus tree written to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML.contree
+Reading input trees file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML.contree
+Log-likelihood of consensus tree: -26067.978
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML.splits.nex
+  Consensus tree:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML.contree
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Nymphaea_colorata_MAFFT_ML.log
+
+Date and Time: Tue Apr 14 07:20:35 2026

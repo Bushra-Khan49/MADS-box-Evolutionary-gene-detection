@@ -1,0 +1,242 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Helianthus_annuuss_MAFFT_Aligned.fa -m LG -B 1000 -pre Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML -nt AUTO -redo
+Seed:    240223 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr 13 19:38:55 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Helianthus_annuuss_MAFFT_Aligned.fa ... Fasta format detected
+Reading fasta file: done in 0.00179887 secs using 80.22% CPU
+Alignment most likely contains protein sequences
+Alignment has 103 sequences with 768 columns, 700 distinct patterns
+382 parsimony-informative, 180 singleton sites, 206 constant sites
+                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000128984 secs using 248.1% CPU
+   1  HanXRQChr00c0029g0571181   67.06%    failed      2.74%
+   2  HanXRQChr10g0299591        64.06%    failed      0.69%
+   3  HanXRQChr10g0291191        70.96%    passed     89.75%
+   4  HanXRQChr16g0519321        69.01%    passed     36.95%
+   5  HanXRQChr16g0501741        70.18%    passed     97.54%
+   6  HanXRQChr16g0523531        71.61%    passed     68.02%
+   7  HanXRQChr16g0501381        70.18%    passed     97.54%
+   8  HanXRQChr16g0507561        69.27%    passed     75.48%
+   9  HanXRQChr16g0530971        71.09%    passed      7.65%
+  10  HanXRQChr16g0503081        70.44%    passed     85.94%
+  11  HanXRQChr07g0200001        69.27%    passed     74.84%
+  12  HanXRQChr07g0200321        67.06%    passed     89.01%
+  13  HanXRQChr04g0122131        72.01%    passed     28.49%
+  14  HanXRQChr04g0110101        69.14%    passed     98.36%
+  15  HanXRQChr09g0266391        63.54%    passed     84.12%
+  16  HanXRQChr09g0270311        61.20%    passed     99.09%
+  17  HanXRQChr09g0267081        73.96%    passed     22.40%
+  18  HanXRQChr09g0269421        70.18%    passed     92.64%
+  19  HanXRQChr09g0270841        70.31%    passed     80.88%
+  20  HanXRQChr09g0262151        74.09%    passed     72.11%
+  21  HanXRQChr09g0265001        67.58%    passed     56.04%
+  22  HanXRQChr09g0273361        73.31%    passed     66.07%
+  23  HanXRQChr05g0151331        69.40%    passed     87.10%
+  24  HanXRQChr05g0150661        70.31%    passed     61.04%
+  25  HanXRQChr05g0163521        68.62%    passed     92.90%
+  26  HanXRQChr05g0150571        54.04%    failed      0.24%
+  27  HanXRQChr05g0154261        69.27%    passed     82.90%
+  28  HanXRQChr05g0149341        67.32%    failed      1.28%
+  29  HanXRQChr05g0147261        65.49%    passed     56.41%
+  30  HanXRQChr05g0156101        43.10%    failed      0.06%
+  31  HanXRQChr05g0163381        57.81%    passed      7.15%
+  32  HanXRQChr13g0405061        70.31%    passed     67.93%
+  33  HanXRQChr12g0364981        67.32%    passed     97.71%
+  34  HanXRQChr12g0358711        66.93%    passed     73.27%
+  35  HanXRQChr12g0375471        72.53%    passed     76.97%
+  36  HanXRQChr12g0361321        67.71%    passed     84.02%
+  37  HanXRQChr12g0358781        74.48%    passed     67.18%
+  38  HanXRQChr12g0358721        73.18%    passed     83.73%
+  39  HanXRQChr14g0452461        69.92%    passed     50.23%
+  40  HanXRQChr01g0015681        66.02%    passed     91.05%
+  41  HanXRQChr01g0007431        61.72%    passed     45.10%
+  42  HanXRQChr17g0538691        72.40%    passed     42.57%
+  43  HanXRQChr17g0550551        76.56%    passed     17.43%
+  44  HanXRQChr17g0560051        71.88%    passed     54.51%
+  45  HanXRQChr06g0174721        67.97%    passed     79.12%
+  46  HanXRQChr06g0169281        73.31%    passed     15.44%
+  47  HanXRQChr03g0091451        58.07%    passed     16.83%
+  48  HanXRQChr15g0483111        61.72%    passed     17.66%
+  49  HanXRQChr15g0474011        80.08%    passed     95.57%
+  50  HanXRQChr15g0489071        67.45%    passed     88.10%
+  51  HanXRQChr15g0484901        69.66%    passed     18.91%
+  52  HanXRQChr15g0495861        70.83%    passed     65.73%
+  53  HanXRQChr02g0043891        66.15%    passed      7.77%
+  54  HanXRQChr02g0045511        74.48%    passed     46.62%
+  55  HanXRQChr02g0040221        75.00%    passed     42.83%
+  56  HanXRQChr02g0042981        67.71%    passed     51.70%
+  57  HanXRQChr08g0223671        78.39%    passed     57.52%
+  58  HanXRQChr08g0223681        67.71%    passed     99.49%
+  59  AT1G22130.1                56.38%    passed     34.79%
+  60  AT1G24260.2                67.32%    passed     53.00%
+  61  AT1G26310.1                66.80%    passed     89.20%
+  62  AT1G31140.2                72.01%    passed     75.27%
+  63  AT1G59810.1                63.15%    failed      0.06%
+  64  AT1G69120.1                66.67%    passed     52.03%
+  65  AT1G69540.2                52.21%    passed     20.01%
+  66  AT1G71692.1                72.53%    passed     70.67%
+  67  AT1G77080.8                70.96%    passed     47.20%
+  68  AT1G77950.4                67.19%    passed     63.22%
+  69  AT1G77980.1                56.77%    passed     50.88%
+  70  AT2G03060.2                49.74%    failed      0.29%
+  71  AT2G03710.1                66.41%    passed     83.86%
+  72  AT2G14210.2                69.40%    passed     86.40%
+  73  AT2G22540.1                68.75%    passed     74.40%
+  74  AT2G22630.2                70.44%    passed     95.33%
+  75  AT2G42830.2                67.71%    passed     45.92%
+  76  AT2G45650.1                67.19%    passed     78.14%
+  77  AT2G45660.1                72.14%    passed     60.65%
+  78  AT3G02310.1                67.45%    passed     21.33%
+  79  AT3G30260.1                67.58%    passed     27.59%
+  80  AT3G54340.1                69.79%    passed     57.97%
+  81  AT3G57230.1                68.75%    passed     57.02%
+  82  AT3G57390.1                66.67%    passed     65.78%
+  83  AT3G58780.4                63.41%    passed     41.00%
+  84  AT3G61120.1                68.23%    passed     31.40%
+  85  AT4G09960.4                57.16%    passed     14.41%
+  86  AT4G11880.1                71.22%    passed     74.54%
+  87  AT4G18960.1                67.19%    passed     32.77%
+  88  AT4G22950.1                71.48%    passed     75.59%
+  89  AT4G24540.1                71.35%    failed      4.64%
+  90  AT4G37940.1                70.31%    passed     96.31%
+  91  AT5G10140.1                74.48%    passed      8.43%
+  92  AT5G13790.2                64.71%    passed     55.48%
+  93  AT5G15800.2                65.89%    passed     14.34%
+  94  AT5G20240.1                72.92%    passed     15.07%
+  95  AT5G23260.4                65.10%    passed      7.78%
+  96  AT5G51860.1                72.53%    passed     19.56%
+  97  AT5G51870.3                70.18%    passed     82.01%
+  98  AT5G60910.1                68.49%    passed     89.82%
+  99  AT5G62165.2                72.66%    passed     80.71%
+ 100  AT5G65050.3                74.48%    passed     46.81%
+ 101  AT5G65060.1                74.48%    passed     19.74%
+ 102  AT5G65070.1                73.96%    passed     15.16%
+ 103  AT5G65080.2                73.44%    passed     35.03%
+WARNING: 101 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                      68.23%  8 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: HanXRQChr16g0501381 is identical to HanXRQChr16g0501741 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.068 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 240223)...
+
+NOTE: 14 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+10 trees examined
+Threads: 1 / Time: 10.779 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -53553
+Threads: 2 / Time: 10.248 sec / Speedup: 1.052 / Efficiency: 53% / LogL: -53553
+Threads: 3 / Time: 6.906 sec / Speedup: 1.561 / Efficiency: 52% / LogL: -53553
+Threads: 4 / Time: 6.349 sec / Speedup: 1.698 / Efficiency: 42% / LogL: -53553
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -43274.153
+Optimal log-likelihood: -38542.831
+Parameters optimization took 1 rounds (0.449 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.282581 secs using 286.2% CPU
+Computing ML distances took 0.283119 sec (of wall-clock time) 0.809297 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000155926 secs using 222.5% CPU
+Computing RapidNJ tree took 0.009158 sec (of wall-clock time) 0.007088 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -38528.562
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4.266 second
+Computing log-likelihood of 98 initial trees ... 11.052 seconds
+Current best score: -38528.562
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -38502.332
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -38493.563
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -38489.890
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -38489.664
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -38487.999
+Iteration 10 / LogL: -38490.185 / Time: 0h:1m:10s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -38485.620
+Iteration 20 / LogL: -38485.949 / Time: 0h:1m:30s
+Finish initializing candidate tree set (20)
+Current best tree score: -38485.620 / CPU time: 55.254
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -38484.176
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -38483.566
+Iteration 30 / LogL: -38485.264 / Time: 0h:1m:52s (0h:6m:3s left)
+Iteration 40 / LogL: -38483.606 / Time: 0h:2m:13s (0h:4m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -38482.934
+Iteration 50 / LogL: -38483.576 / Time: 0h:2m:34s (0h:4m:53s left)
+Log-likelihood cutoff on original alignment: -38538.556
+Iteration 60 / LogL: -38484.030 / Time: 0h:2m:56s (0h:4m:8s left)
+Iteration 70 / LogL: -38482.938 / Time: 0h:3m:17s (0h:3m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -38482.353
+Iteration 80 / LogL: -38485.627 / Time: 0h:3m:39s (0h:4m:29s left)
+Iteration 90 / LogL: -38485.286 / Time: 0h:3m:57s (0h:3m:51s left)
+Iteration 100 / LogL: -38483.037 / Time: 0h:4m:18s (0h:3m:20s left)
+Log-likelihood cutoff on original alignment: -38538.556
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -38487.871 / Time: 0h:4m:38s (0h:3m:50s left)
+Iteration 120 / LogL: -38482.580 / Time: 0h:4m:58s (0h:3m:20s left)
+Iteration 130 / LogL: -38484.566 / Time: 0h:5m:20s (0h:2m:53s left)
+Iteration 140 / LogL: -38482.378 / Time: 0h:5m:42s (0h:2m:27s left)
+Iteration 150 / LogL: -38486.419 / Time: 0h:6m:3s (0h:2m:1s left)
+Log-likelihood cutoff on original alignment: -38538.556
+Iteration 160 / LogL: -38483.034 / Time: 0h:6m:21s (0h:1m:35s left)
+Iteration 170 / LogL: -38486.792 / Time: 0h:6m:40s (0h:1m:11s left)
+TREE SEARCH COMPLETED AFTER 178 ITERATIONS / Time: 0h:6m:57s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -38482.353
+Optimal log-likelihood: -38482.352
+Parameters optimization took 1 rounds (0.150 sec)
+BEST SCORE FOUND : -38482.352
+Creating bootstrap support values...
+Split supports printed to NEXUS file Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML.splits.nex
+Total tree length: 41.605
+
+Total number of iterations: 178
+CPU time used for tree search: 698.265 sec (0h:11m:38s)
+Wall-clock time used for tree search: 381.754 sec (0h:6m:21s)
+Total CPU time used: 754.973 sec (0h:12m:34s)
+Total wall-clock time used: 417.715 sec (0h:6m:57s)
+
+Computing bootstrap consensus tree...
+Reading input file Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML.splits.nex...
+103 taxa and 502 splits.
+Consensus tree written to Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML.contree
+Reading input trees file Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML.contree
+Log-likelihood of consensus tree: -38483.118
+
+Analysis results written to: 
+  IQ-TREE report:                Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML.iqtree
+  Maximum-likelihood tree:       Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML.treefile
+  Likelihood distances:          Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML.splits.nex
+  Consensus tree:                Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML.contree
+  Screen log file:               Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Helianthus_annuuss_ML.log
+
+Date and Time: Mon Apr 13 19:45:53 2026
