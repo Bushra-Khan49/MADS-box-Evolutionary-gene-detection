@@ -141,16 +141,8 @@ Angiosperms (Flowering plants)
 - **Rodríguez-Pelayo et al. (2022).** Genomic insights into MADS-box gene evolution.
 - **Thangavel & Nayar (2018).** Computational identification of plant transcription factors.
 
-### NIPGR Laboratory Contributions (Prabhakaran Lab)
+### NIPGR Laboratory Contributions
 - **Soundararajan, P., et al. (2025).** Pangenome-wide identification and characterization of WOX gene family among *Brassica Triangle of U's* genomes. *Plant Gene*, 42, 100497.
 - **Soundararajan, P., et al. (2025).** Transcriptome-wide identification and expression analysis of expansin genes in *Adhatoda vasica*. *Plant Physiology Reports*.
-- **Agarwal, Y., et al. (2022).** Paradigm and Framework of WUS-CLV Feedback Loop in Stem Cell Niche for SAM Maintenance and Cell Identity Transition. *Agronomy*, 12(12), 3132.
-
-### Abinaya Manivannan — Relevant Publications
-- **Manivannan, A., et al. (2025).** Pangenome-wide identification and characterization of WOX gene family among *Brassica Triangle of U's* genomes. *Plant Gene*, 42, 100497.
-- **Manivannan, A., et al. (2025).** Transcriptome-wide identification and expression analysis of expansin genes in *Adhatoda vasica* morphotypes. *Plant Physiology Reports*.
-- **Manivannan, A., et al. (2025).** Global identification of metal ion transporters in chickpea (*Cicer arietinum*): characterization of CAX, CTR, MGT, MTP, NRAMP, OPT, and ZIP families. *NIPGR*.
-- **Manivannan, A., et al. (2021).** Genome-wide analysis of the MYB10 gene family in *Fragaria* and its association with fruit color. *Frontiers in Plant Science*.
 - **Manivannan, A., et al. (2019).** Transcriptome sequencing-assisted discovery and computational analysis of novel SNPs associated with flowering in *Raphanus sativus* inbred lines for marker-assisted backcross breeding. *Horticulture Research*.
 - **Manivannan, A., & Soundararajan, P. (2022).** Paradigm and Framework of WUS-CLV Feedback Loop in Stem Cell Niche for SAM Maintenance and Cell Identity Transition. *Agronomy*, 12(12), 3132.
-
