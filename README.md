@@ -141,7 +141,7 @@ Angiosperms (Flowering plants)
 - **Rodríguez-Pelayo et al. (2022).** Genomic insights into MADS-box gene evolution.
 - **Thangavel & Nayar (2018).** Computational identification of plant transcription factors.
 
-### NIPGR Laboratory Contributions
+### Laboratory Contributions
 - **Soundararajan, P., et al. (2025).** Pangenome-wide identification and characterization of WOX gene family among *Brassica Triangle of U's* genomes. *Plant Gene*, 42, 100497.
 - **Soundararajan, P., et al. (2025).** Transcriptome-wide identification and expression analysis of expansin genes in *Adhatoda vasica*. *Plant Physiology Reports*.
 - **Manivannan, A., et al. (2019).** Transcriptome sequencing-assisted discovery and computational analysis of novel SNPs associated with flowering in *Raphanus sativus* inbred lines for marker-assisted backcross breeding. *Horticulture Research*.
