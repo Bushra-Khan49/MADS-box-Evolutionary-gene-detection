@@ -144,5 +144,5 @@ Angiosperms (Flowering plants)
 ### Laboratory Contributions
 - **Soundararajan, P., et al. (2025).** Pangenome-wide identification and characterization of WOX gene family among *Brassica Triangle of U's* genomes. *Plant Gene*, 42, 100497.
 - **Soundararajan, P., et al. (2025).** Transcriptome-wide identification and expression analysis of expansin genes in *Adhatoda vasica*. *Plant Physiology Reports*.
-- **Manivannan, A., et al. (2019).** Transcriptome sequencing-assisted discovery and computational analysis of novel SNPs associated with flowering in *Raphanus sativus* inbred lines for marker-assisted backcross breeding. *Horticulture Research*.
-- **Manivannan, A., & Soundararajan, P. (2022).** Paradigm and Framework of WUS-CLV Feedback Loop in Stem Cell Niche for SAM Maintenance and Cell Identity Transition. *Agronomy*, 12(12), 3132.
+- **Manivannan, A., et al. (2021).** Genome-wide analysis of the MYB10 transcription factor gene family in *Fragaria* and its role in fruit color regulation. *Frontiers in Plant Science*.
+- **Manivannan, A., et al. (2025).** Global identification and characterization of metal ion transporter families (CAX, CTR, MGT, MTP, NRAMP, OPT, ZIP) in *Cicer arietinum*. *NIPGR*.
