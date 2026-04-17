@@ -1,0 +1,213 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Medicago_truncatula_ClustalO_Aligned.fa -m LG+F+G -B 1000 -pre /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML -nt AUTO -redo
+Seed:    797444 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr 14 06:20:39 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Medicago_truncatula_ClustalO_Aligned.fa ... Fasta format detected
+Reading fasta file: done in 0.000962973 secs using 89.2% CPU
+Alignment most likely contains protein sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 84 sequences with 655 columns, 580 distinct patterns
+375 parsimony-informative, 120 singleton sites, 160 constant sites
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.89437e-05 secs using 182.9% CPU
+   1  Medtr3g084980.1    62.75%    passed     81.58%
+   2  Medtr3g088615.1    72.37%    passed     43.63%
+   3  Medtr3g005530.1    65.95%    passed     84.49%
+   4  Medtr3g452380.3    62.75%    passed     86.34%
+   5  Medtr3g113030.1    65.04%    passed     82.35%
+   6  Medtr3g102570.1    51.45%    passed     33.18%
+   7  Medtr2g009890.1    57.56%    passed     98.98%
+   8  Medtr2g017865.1    60.31%    passed     37.36%
+   9  Medtr8g066260.1    63.36%    passed     90.34%
+  10  Medtr8g033220.1    64.89%    passed     32.85%
+  11  Medtr8g033270.1    61.68%    passed     77.12%
+  12  Medtr8g097090.1    63.05%    passed     18.94%
+  13  Medtr8g033250.1    65.80%    passed     45.42%
+  14  Medtr8g087860.1    62.75%    passed     47.37%
+  15  Medtr7g075850.1    61.83%    passed     90.57%
+  16  Medtr7g075870.1    67.48%    passed     81.20%
+  17  Medtr7g016630.1    60.92%    passed     64.40%
+  18  Medtr7g016600.1    61.98%    passed     76.74%
+  19  Medtr5g041650.1    38.63%    failed      1.24%
+  20  Medtr5g061740.1    49.47%    failed      0.00%
+  21  Medtr5g021270.2    64.58%    passed     12.78%
+  22  Medtr5g031000.1    63.51%    passed     81.32%
+  23  Medtr5g032520.1    65.34%    passed     75.39%
+  24  Medtr5g032150.1    65.19%    passed     62.17%
+  25  Medtr5g066180.1    65.65%    passed     60.62%
+  26  Medtr5g046790.1    67.79%    passed     96.33%
+  27  Medtr1g101970.1    71.15%    passed     93.33%
+  28  Medtr1g038300.1    64.58%    passed     50.95%
+  29  Medtr1g053070.1    61.98%    passed     96.99%
+  30  Medtr1g029670.1    72.52%    passed     18.15%
+  31  Medtr6g464720.1    61.83%    passed     81.79%
+  32  Medtr6g015975.1    61.83%    passed     94.04%
+  33  Medtr0003s0590.1   60.92%    passed     92.26%
+  34  Medtr4g102530.1    68.70%    passed     13.79%
+  35  Medtr4g093970.1    63.51%    passed     28.41%
+  36  Medtr4g084740.1    49.01%    failed      0.11%
+  37  Medtr4g036050.1    69.16%    passed     17.85%
+  38  Medtr4g109830.1    64.58%    passed     98.07%
+  39  Medtr4g109810.1    63.05%    passed     80.08%
+  40  AT1G22130.1        48.85%    passed     30.92%
+  41  AT1G24260.2        61.68%    passed     55.06%
+  42  AT1G26310.1        61.07%    passed     87.59%
+  43  AT1G31140.2        67.18%    passed     65.41%
+  44  AT1G59810.1        56.79%    failed      0.03%
+  45  AT1G69120.1        60.92%    passed     43.96%
+  46  AT1G69540.2        43.97%    passed     13.44%
+  47  AT1G71692.1        67.79%    passed     68.24%
+  48  AT1G77080.8        65.95%    passed     56.34%
+  49  AT1G77950.4        61.53%    passed     64.19%
+  50  AT1G77980.1        49.31%    passed     48.56%
+  51  AT2G03060.2        41.07%    failed      0.19%
+  52  AT2G03710.1        60.61%    passed     85.95%
+  53  AT2G14210.2        64.12%    passed     91.95%
+  54  AT2G22540.1        63.36%    passed     82.70%
+  55  AT2G22630.2        65.34%    passed     96.49%
+  56  AT2G42830.2        62.14%    passed     51.67%
+  57  AT2G45650.1        61.53%    passed     72.96%
+  58  AT2G45660.1        67.33%    passed     63.99%
+  59  AT3G02310.1        61.83%    passed     21.35%
+  60  AT3G30260.1        61.98%    passed     24.63%
+  61  AT3G54340.1        64.58%    passed     48.59%
+  62  AT3G57230.1        63.36%    passed     61.53%
+  63  AT3G57390.1        60.92%    passed     77.27%
+  64  AT3G58780.4        57.10%    passed     42.69%
+  65  AT3G61120.1        62.75%    passed     34.41%
+  66  AT4G09960.4        49.77%    passed      9.38%
+  67  AT4G11880.1        66.26%    passed     79.77%
+  68  AT4G18960.1        61.53%    passed     39.33%
+  69  AT4G22950.1        66.56%    passed     81.56%
+  70  AT4G24540.1        66.41%    passed      6.17%
+  71  AT4G37940.1        65.19%    passed     98.13%
+  72  AT5G10140.1        70.08%    passed      9.55%
+  73  AT5G13790.2        58.63%    passed     64.43%
+  74  AT5G15800.2        60.00%    passed     14.59%
+  75  AT5G20240.1        68.24%    passed     14.73%
+  76  AT5G23260.4        59.08%    passed      6.71%
+  77  AT5G51860.1        67.79%    passed     17.42%
+  78  AT5G51870.3        65.04%    passed     83.05%
+  79  AT5G60910.1        63.05%    passed     93.48%
+  80  AT5G62165.2        67.94%    passed     86.61%
+  81  AT5G65050.3        70.08%    passed     53.71%
+  82  AT5G65060.1        70.08%    passed     25.40%
+  83  AT5G65070.1        69.47%    passed     17.56%
+  84  AT5G65080.2        68.85%    passed     38.78%
+WARNING: 76 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              62.40%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.026 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 797444)...
+
+NOTE: 33 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 10.289 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -42009
+Threads: 2 / Time: 6.643 sec / Speedup: 1.549 / Efficiency: 77% / LogL: -42009
+Threads: 3 / Time: 4.565 sec / Speedup: 2.254 / Efficiency: 75% / LogL: -42009
+Threads: 4 / Time: 4.185 sec / Speedup: 2.458 / Efficiency: 61% / LogL: -42009
+Threads: 5 / Time: 4.340 sec / Speedup: 2.371 / Efficiency: 47% / LogL: -42009
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -34153.257
+2. Current log-likelihood: -32132.367
+3. Current log-likelihood: -32068.514
+4. Current log-likelihood: -32067.186
+Optimal log-likelihood: -32067.096
+Gamma shape alpha: 0.927
+Parameters optimization took 4 rounds (2.432 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.609877 secs using 388.8% CPU
+Computing ML distances took 0.610146 sec (of wall-clock time) 2.371474 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000215054 secs using 200% CPU
+Computing RapidNJ tree took 0.008577 sec (of wall-clock time) 0.004970 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -32044.525
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.377 second
+Computing log-likelihood of 98 initial trees ... 12.823 seconds
+Current best score: -32044.525
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -32016.190
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -32012.407
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -32011.738
+Iteration 10 / LogL: -32019.213 / Time: 0h:1m:16s
+Iteration 20 / LogL: -32018.199 / Time: 0h:1m:45s
+Finish initializing candidate tree set (17)
+Current best tree score: -32011.738 / CPU time: 71.456
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -32011.563
+Iteration 30 / LogL: -32012.014 / Time: 0h:2m:17s (0h:7m:50s left)
+Iteration 40 / LogL: -32013.981 / Time: 0h:2m:49s (0h:6m:26s left)
+Iteration 50 / LogL: -32016.185 / Time: 0h:3m:19s (0h:5m:20s left)
+Log-likelihood cutoff on original alignment: -32047.823
+Iteration 60 / LogL: -32014.149 / Time: 0h:3m:49s (0h:4m:28s left)
+Iteration 70 / LogL: -32013.340 / Time: 0h:4m:20s (0h:3m:42s left)
+Iteration 80 / LogL: -32012.034 / Time: 0h:4m:49s (0h:2m:59s left)
+Iteration 90 / LogL: -32011.798 / Time: 0h:5m:21s (0h:2m:20s left)
+Iteration 100 / LogL: -32012.472 / Time: 0h:5m:50s (0h:1m:42s left)
+Log-likelihood cutoff on original alignment: -32047.823
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -32012.322 / Time: 0h:6m:20s (0h:5m:14s left)
+Iteration 120 / LogL: -32014.042 / Time: 0h:6m:51s (0h:4m:36s left)
+Iteration 130 / LogL: -32012.393 / Time: 0h:7m:22s (0h:3m:59s left)
+TREE SEARCH COMPLETED AFTER 130 ITERATIONS / Time: 0h:7m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -32011.563
+Optimal log-likelihood: -32011.560
+Gamma shape alpha: 0.932
+Parameters optimization took 1 rounds (0.418 sec)
+BEST SCORE FOUND : -32011.560
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML.splits.nex
+Total tree length: 63.051
+
+Total number of iterations: 130
+CPU time used for tree search: 1180.223 sec (0h:19m:40s)
+Wall-clock time used for tree search: 408.056 sec (0h:6m:48s)
+Total CPU time used: 1251.013 sec (0h:20m:51s)
+Total wall-clock time used: 442.565 sec (0h:7m:22s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML.splits.nex...
+84 taxa and 415 splits.
+Consensus tree written to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML.contree
+Reading input trees file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML.contree
+Log-likelihood of consensus tree: -32011.845
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML.splits.nex
+  Consensus tree:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML.contree
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Medicago_truncatula_ClustalO_ML.log
+
+Date and Time: Tue Apr 14 06:28:03 2026

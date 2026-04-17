@@ -1,0 +1,182 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Alignments/Cinnamomum_kanehirae_MAFFT.fa -m LG+G -B 1000 -T AUTO --prefix /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT -redo
+Seed:    875046 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 10 05:01:20 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Alignments/Cinnamomum_kanehirae_MAFFT.fa ... Fasta format detected
+Reading fasta file: done in 0.000675917 secs using 90.1% CPU
+Alignment most likely contains protein sequences
+Alignment has 43 sequences with 796 columns, 671 distinct patterns
+275 parsimony-informative, 287 singleton sites, 234 constant sites
+WARNING: Some sequence names are changed as follows:
+AT1G69120.1|APETALA1|AP1|Length=286 -> AT1G69120.1|APETALA1|AP1|Length_286
+AT4G36920.1|APETALA2|AP2|Length=432 -> AT4G36920.1|APETALA2|AP2|Length_432
+AT3G54340.1|APETALA3|AP3|Length=232 -> AT3G54340.1|APETALA3|AP3|Length_232
+AT5G20240.1|PISTILLATA|PI|Length=208 -> AT5G20240.1|PISTILLATA|PI|Length_208
+AT4G18960.1|AGAMOUS|AG|Length=252 -> AT4G18960.1|AGAMOUS|AG|Length_252
+AT4G09960.4|SEEDSTICK|STK|Length=329 -> AT4G09960.4|SEEDSTICK|STK|Length_329
+AT3G58780.4|SHATTERPROOF1|SHP1|Length=281 -> AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
+AT2G42830.2|SHATTERPROOF2|SHP2|Length=248 -> AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
+AT5G15800.2|SEPALLATA1|SEP1|Length=262 -> AT5G15800.2|SEPALLATA1|SEP1|Length_262
+AT3G02310.1|SEPALLATA2|SEP2|Length=250 -> AT3G02310.1|SEPALLATA2|SEP2|Length_250
+AT1G24260.2|SEPALLATA3|SEP3|Length=251 -> AT1G24260.2|SEPALLATA3|SEP3|Length_251
+AT2G03710.1|SEPALLATA4|SEP4|Length=258 -> AT2G03710.1|SEPALLATA4|SEP4|Length_258
+
+                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.2016e-05 secs using 181.7% CPU
+   1  CKAN_01596700                               74.12%    passed     92.66%
+   2  CKAN_01533600                               53.64%    passed     68.04%
+   3  CKAN_02447300                               70.10%    failed      2.96%
+   4  CKAN_01942000                               81.91%    passed     15.41%
+   5  CKAN_01906900                               76.88%    passed     57.29%
+   6  CKAN_01942500                               72.36%    passed     68.53%
+   7  CKAN_01894500                               57.41%    failed      3.49%
+   8  CKAN_01821800                               66.96%    passed     94.18%
+   9  CKAN_01848800                               69.72%    passed     98.84%
+  10  CKAN_02317200                               55.90%    passed     72.34%
+  11  CKAN_02742500                               74.37%    passed     46.71%
+  12  CKAN_00565900                               71.73%    passed     94.65%
+  13  CKAN_00566000                               68.34%    passed     38.24%
+  14  CKAN_00958900                               69.85%    passed     99.62%
+  15  CKAN_00861800                               65.95%    failed      0.49%
+  16  CKAN_00958800                               72.99%    passed     67.51%
+  17  CKAN_01290200                               72.36%    passed     81.19%
+  18  CKAN_01352300                               74.87%    passed      5.14%
+  19  CKAN_00283400                               70.23%    passed     95.33%
+  20  CKAN_00109600                               68.59%    passed     93.55%
+  21  CKAN_02197200                               44.97%    failed      0.00%
+  22  CKAN_02109000                               73.49%    passed     96.07%
+  23  CKAN_02199500                               73.74%    passed     92.51%
+  24  CKAN_02189300                               71.98%    passed     39.95%
+  25  CKAN_02189800                               73.24%    passed     25.57%
+  26  CKAN_02117700                               75.75%    passed     34.62%
+  27  CKAN_02189500                               72.61%    passed     24.57%
+  28  CKAN_02562300                               71.98%    passed     66.80%
+  29  CKAN_01187700                               74.12%    passed     11.22%
+  30  CKAN_01046400                               70.35%    passed     42.41%
+  31  CKAN_01065400                               72.49%    passed     50.74%
+  32  AT1G69120.1|APETALA1|AP1|Length_286         67.84%    passed     63.72%
+  33  AT4G36920.1|APETALA2|AP2|Length_432         45.73%    failed      0.00%
+  34  AT3G54340.1|APETALA3|AP3|Length_232         70.85%    passed     42.03%
+  35  AT5G20240.1|PISTILLATA|PI|Length_208        73.87%    passed     11.87%
+  36  AT4G18960.1|AGAMOUS|AG|Length_252           68.34%    passed     34.04%
+  37  AT4G09960.4|SEEDSTICK|STK|Length_329        58.67%    passed     13.89%
+  38  AT3G58780.4|SHATTERPROOF1|SHP1|Length_281   64.70%    passed     30.94%
+  39  AT2G42830.2|SHATTERPROOF2|SHP2|Length_248   68.84%    passed     36.20%
+  40  AT5G15800.2|SEPALLATA1|SEP1|Length_262      67.09%    passed     31.44%
+  41  AT3G02310.1|SEPALLATA2|SEP2|Length_250      68.59%    passed     40.19%
+  42  AT1G24260.2|SEPALLATA3|SEP3|Length_251      68.47%    passed     70.06%
+  43  AT2G03710.1|SEPALLATA4|SEP4|Length_258      67.59%    passed     85.12%
+WARNING: 41 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                       68.69%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.012 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 875046)...
+
+NOTE: 21 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 11.038 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -21309
+Threads: 2 / Time: 7.927 sec / Speedup: 1.392 / Efficiency: 70% / LogL: -21309
+Threads: 3 / Time: 6.561 sec / Speedup: 1.682 / Efficiency: 56% / LogL: -21309
+Threads: 4 / Time: 5.021 sec / Speedup: 2.198 / Efficiency: 55% / LogL: -21309
+Threads: 5 / Time: 4.881 sec / Speedup: 2.262 / Efficiency: 45% / LogL: -21309
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -19555.478
+2. Current log-likelihood: -17927.708
+3. Current log-likelihood: -17895.122
+4. Current log-likelihood: -17892.626
+5. Current log-likelihood: -17891.984
+6. Current log-likelihood: -17891.878
+Optimal log-likelihood: -17891.741
+Gamma shape alpha: 0.955
+Parameters optimization took 6 rounds (4.228 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.215949 secs using 359.2% CPU
+Computing ML distances took 0.216215 sec (of wall-clock time) 0.775940 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000102043 secs using 214.6% CPU
+Computing RapidNJ tree took 0.005023 sec (of wall-clock time) 0.002172 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -17924.028
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.740 second
+Computing log-likelihood of 98 initial trees ... 15.504 seconds
+Current best score: -17891.741
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -17848.446
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -17844.188
+Iteration 10 / LogL: -17846.914 / Time: 0h:1m:40s
+Iteration 20 / LogL: -17848.124 / Time: 0h:2m:27s
+Finish initializing candidate tree set (19)
+Current best tree score: -17844.188 / CPU time: 105.790
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -17868.089 / Time: 0h:3m:5s (0h:8m:6s left)
+Iteration 40 / LogL: -17846.616 / Time: 0h:3m:45s (0h:6m:20s left)
+Iteration 50 / LogL: -17844.344 / Time: 0h:4m:29s (0h:5m:8s left)
+Log-likelihood cutoff on original alignment: -17894.703
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -17844.088
+Iteration 60 / LogL: -17845.805 / Time: 0h:5m:14s (0h:4m:5s left)
+Iteration 70 / LogL: -17845.832 / Time: 0h:5m:57s (0h:3m:6s left)
+Iteration 80 / LogL: -17844.119 / Time: 0h:6m:39s (0h:2m:11s left)
+Iteration 90 / LogL: -17844.267 / Time: 0h:7m:23s (0h:1m:19s left)
+Iteration 100 / LogL: -17844.353 / Time: 0h:8m:5s (0h:0m:29s left)
+Log-likelihood cutoff on original alignment: -17876.304
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 107 ITERATIONS / Time: 0h:8m:30s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -17844.088
+Optimal log-likelihood: -17844.086
+Gamma shape alpha: 0.925
+Parameters optimization took 1 rounds (0.264 sec)
+BEST SCORE FOUND : -17844.086
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT.splits.nex
+Total tree length: 42.519
+
+Total number of iterations: 107
+CPU time used for tree search: 796.470 sec (0h:13m:16s)
+Wall-clock time used for tree search: 468.033 sec (0h:7m:48s)
+Total CPU time used: 853.059 sec (0h:14m:13s)
+Total wall-clock time used: 510.369 sec (0h:8m:30s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT.splits.nex...
+43 taxa and 362 splits.
+Consensus tree written to /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT.contree
+Reading input trees file /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT.contree
+Log-likelihood of consensus tree: -17844.174
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT.iqtree
+  Maximum-likelihood tree:       /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT.treefile
+  Likelihood distances:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT.splits.nex
+  Consensus tree:                /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT.contree
+  Screen log file:               /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Cinnamomum_kanehirae_MAFFT.log
+
+Date and Time: Fri Apr 10 05:09:53 2026

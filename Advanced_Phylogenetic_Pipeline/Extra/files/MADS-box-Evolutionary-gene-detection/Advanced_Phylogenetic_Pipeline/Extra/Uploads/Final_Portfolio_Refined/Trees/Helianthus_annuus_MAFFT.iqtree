@@ -1,0 +1,392 @@
+IQ-TREE 2.3.6 built Jul 30 2024
+
+Input file name: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Alignments/Helianthus_annuus_MAFFT.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 195760
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 70 sequences with 693 amino-acid sites
+Number of constant sites: 160 (= 23.088% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 160 (= 23.088% of all sites)
+Number of parsimony informative sites: 320
+Number of distinct site patterns: 634
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.8594
+
+ Category  Relative_rate  Proportion
+  1         0.1081         0.2500
+  2         0.4300         0.2500
+  3         0.9721         0.2500
+  4         2.4898         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -25238.8596 (s.e. 1079.5677)
+Unconstrained log-likelihood (without tree): -4416.9329
+Number of free parameters (#branches + #model parameters): 138
+Akaike information criterion (AIC) score: 50753.7191
+Corrected Akaike information criterion (AICc) score: 50822.9682
+Bayesian information criterion (BIC) score: 51380.3813
+
+Total tree length (sum of branch lengths): 52.9183
+Sum of internal branch lengths: 21.1655 (39.9967% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0014) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'HanXRQChr00c0029g0571181' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----HanXRQChr00c0029g0571181
+|
+|                           +---------HanXRQChr10g0299591
+|                       +---| (99)
+|                       |   +-------HanXRQChr01g0015681
+|                    +--| (51)
+|                    |  |                  +--HanXRQChr16g0503081
+|                    |  |            +-----| (100)
+|                    |  |            |     +--HanXRQChr09g0270841
+|                    |  |         +--| (87)
+|                    |  |         |  |   +--HanXRQChr13g0405061
+|                    |  |         |  +---| (100)
+|                    |  |         |      +--HanXRQChr15g0495861
+|                    |  +---------| (100)
+|                    |            |  +--HanXRQChr05g0163381
+|                    |            +--| (99)
+|                    |               +--HanXRQChr15g0484901
+|                 +--| (47)
+|                 |  |      +---HanXRQChr10g0291191
+|                 |  +------| (100)
+|                 |         |     +---HanXRQChr09g0262151
+|                 |         |  +--| (64)
+|                 |         |  |  +----HanXRQChr15g0474011
+|                 |         +--| (64)
+|                 |            +--HanXRQChr05g0163521
+|              +--| (61)
+|              |  |                           +**HanXRQChr16g0501741
+|              |  |                        +--| (100)
+|              |  |                        |  +**HanXRQChr16g0501381
+|              |  |                     +--| (100)
+|              |  |                     |  +--HanXRQChr09g0269421
+|              |  |                  +--| (100)
+|              |  |                  |  +--HanXRQChr05g0151331
+|              |  |               +--| (99)
+|              |  |               |  +----AT3G54340.1|APETALA3|AP3|Length_232
+|              |  |        +------| (100)
+|              |  |        |      +-----HanXRQChr16g0530971
+|              |  |     +--| (98)
+|              |  |     |  |         +--HanXRQChr12g0358781
+|              |  |     |  |      +--| (100)
+|              |  |     |  |      |  |  +**HanXRQChr02g0045511
+|              |  |     |  |      |  +--| (100)
+|              |  |     |  |      |     +**HanXRQChr02g0040221
+|              |  |     |  +------| (100)
+|              |  |     |         +---AT5G20240.1|PISTILLATA|PI|Length_208
+|              |  |  +--| (93)
+|              |  |  |  +---------HanXRQChr05g0149341
+|              |  +--| (50)
+|              |     |                    +--HanXRQChr05g0150571
+|              |     |          +---------| (100)
+|              |     |          |         +--HanXRQChr15g0483111
+|              |     |       +--| (80)
+|              |     |       |  +-------------HanXRQChr03g0091451
+|              |     +-------| (99)
+|              |             +----------------HanXRQChr05g0156101
+|           +--| (64)
+|           |  |                  +**HanXRQChr16g0519321
+|           |  |               +--| (96)
+|           |  |               |  +--HanXRQChr01g0007431
+|           |  |            +--| (100)
+|           |  |            |  +--HanXRQChr05g0147261
+|           |  |         +--| (99)
+|           |  |         |  +--AT4G18960.1|AGAMOUS|AG|Length_252
+|           |  |      +--| (99)
+|           |  |      |  |  +--AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
+|           |  |      |  +--| (100)
+|           |  |      |     +--AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
+|           |  +------| (98)
+|           |         |     +--HanXRQChr09g0266391
+|           |         |  +--| (100)
+|           |         |  |  +----HanXRQChr05g0150661
+|           |         +--| (97)
+|           |            +--AT4G09960.4|SEEDSTICK|STK|Length_329
+|        +--| (98)
+|        |  |                     +--HanXRQChr16g0523531
+|        |  |                  +--| (94)
+|        |  |                  |  +--HanXRQChr17g0560051
+|        |  |               +--| (95)
+|        |  |               |  +---HanXRQChr12g0358721
+|        |  |        +------| (100)
+|        |  |        |      |  +--HanXRQChr04g0122131
+|        |  |        |      +--| (98)
+|        |  |        |         +--HanXRQChr06g0169281
+|        |  |     +--| (85)
+|        |  |     |  +---------------HanXRQChr09g0267081
+|        |  |  +--| (54)
+|        |  |  |  +-------------HanXRQChr09g0273361
+|        |  +**| (35)
+|        |     +-------------------------------------------------AT4G36920.1|APETALA2|AP2|Length_432
+|     +--| (71)
+|     |  |              +--HanXRQChr16g0507561
+|     |  |           +--| (100)
+|     |  |           |  +--HanXRQChr05g0154261
+|     |  |        +--| (87)
+|     |  |        |  +--HanXRQChr09g0270311
+|     |  |     +--| (96)
+|     |  |     |  +--HanXRQChr04g0110101
+|     |  |  +--| (99)
+|     |  |  |  |        +--HanXRQChr07g0200001
+|     |  |  |  |     +--| (98)
+|     |  |  |  |     |  +--HanXRQChr14g0452461
+|     |  |  |  |  +--| (100)
+|     |  |  |  |  |  +--HanXRQChr02g0043891
+|     |  |  |  +--| (94)
+|     |  |  |     |     +--HanXRQChr12g0364981
+|     |  |  |     |  +--| (100)
+|     |  |  |     |  |  +--HanXRQChr08g0223681
+|     |  |  |     +--| (100)
+|     |  |  |        +--AT1G69120.1|APETALA1|AP1|Length_286
+|     |  +--| (95)
+|     |     |             +--HanXRQChr12g0375471
+|     |     |   +---------| (100)
+|     |     |   |         +--HanXRQChr17g0538691
+|     |     +---| (98)
+|     |         +------------HanXRQChr17g0550551
+|  +--| (96)
+|  |  +-----HanXRQChr12g0358711
++--| (91)
+|  |        +--HanXRQChr07g0200321
+|  |     +--| (100)
+|  |     |  |  +--HanXRQChr09g0265001
+|  |     |  +--| (100)
+|  |     |     +--HanXRQChr15g0489071
+|  |  +--| (92)
+|  |  |  |  +--AT5G15800.2|SEPALLATA1|SEP1|Length_262
+|  |  |  +--| (100)
+|  |  |     +--AT3G02310.1|SEPALLATA2|SEP2|Length_250
+|  +--| (44)
+|     |  +--HanXRQChr02g0042981
+|     +--| (58)
+|        |  +---HanXRQChr08g0223671
+|        +--| (58)
+|           +---AT2G03710.1|SEPALLATA4|SEP4|Length_258
+|
+|     +--HanXRQChr12g0361321
+|  +--| (100)
+|  |  +--HanXRQChr06g0174721
++--| (97)
+   +--AT1G24260.2|SEPALLATA3|SEP3|Length_251
+
+Tree in newick format:
+
+(HanXRQChr00c0029g0571181:0.6299725375,(((((((((HanXRQChr10g0299591:1.1795616783,HanXRQChr01g0015681:0.8995779231)99:0.4465161831,(((HanXRQChr16g0503081:0.2835005440,HanXRQChr09g0270841:0.1854514617)100:0.7702921048,(HanXRQChr13g0405061:0.0697169424,HanXRQChr15g0495861:0.2398076118)100:0.4947939302)87:0.1484309464,(HanXRQChr05g0163381:0.2042391771,HanXRQChr15g0484901:0.2922851495)99:0.3971578858)100:1.1563446070)51:0.2535135706,(HanXRQChr10g0291191:0.4948972690,((HanXRQChr09g0262151:0.5516193563,HanXRQChr15g0474011:0.6083084111)64:0.1141944762,HanXRQChr05g0163521:0.3060428547)64:0.1008946573)100:0.7885965148)47:0.1819038996,((((((((HanXRQChr16g0501741:0.0000010000,HanXRQChr16g0501381:0.0000010000)100:0.0700484036,HanXRQChr09g0269421:0.0513904946)100:0.0775811038,HanXRQChr05g0151331:0.1307457150)100:0.4393030427,AT3G54340.1|APETALA3|AP3|Length_232:0.5565658766)99:0.3443130992,HanXRQChr16g0530971:0.7219162278)100:0.8341863249,((HanXRQChr12g0358781:0.0225237289,(HanXRQChr02g0045511:0.0000010000,HanXRQChr02g0040221:0.0000010000)100:0.0817654168)100:0.3384276308,AT5G20240.1|PISTILLATA|PI|Length_208:0.5246661361)100:0.8293289757)98:0.3014172777,HanXRQChr05g0149341:1.1469252012)93:0.2387789631,(((HanXRQChr05g0150571:0.1412698618,HanXRQChr15g0483111:0.2052372337)100:1.1720494240,HanXRQChr03g0091451:1.5682423302)80:0.2458668633,HanXRQChr05g0156101:1.9199965804)99:0.9481888185)50:0.1475659229)61:0.0974519738,(((((HanXRQChr16g0519321:0.0000021735,HanXRQChr01g0007431:0.1684175248)96:0.0422340552,HanXRQChr05g0147261:0.1706559647)100:0.1310434921,AT4G18960.1|AGAMOUS|AG|Length_252:0.2712235470)99:0.1438361084,(AT3G58780.4|SHATTERPROOF1|SHP1|Length_281:0.0628797606,AT2G42830.2|SHATTERPROOF2|SHP2|Length_248:0.1336595551)100:0.3243946217)99:0.1878781707,((HanXRQChr09g0266391:0.2971946980,HanXRQChr05g0150661:0.5886124478)100:0.2927988539,AT4G09960.4|SEEDSTICK|STK|Length_329:0.4406451133)97:0.1263363069)98:0.7914789803)64:0.1002294712,((((((HanXRQChr16g0523531:0.1095979445,HanXRQChr17g0560051:0.2530038890)94:0.0869387604,HanXRQChr12g0358721:0.4826524931)95:0.0424669374,(HanXRQChr04g0122131:0.0934941037,HanXRQChr06g0169281:0.1221197930)98:0.1242506510)100:0.8172408273,HanXRQChr09g0267081:1.7914858637)85:0.2772936892,HanXRQChr09g0273361:1.5622530209)54:0.1481820839,AT4G36920.1|APETALA2|AP2|Length_432:5.5918429100)35:0.0000023134)98:0.3228762867,(((((HanXRQChr16g0507561:0.0173823873,HanXRQChr05g0154261:0.0092066027)100:0.3353384566,HanXRQChr09g0270311:0.3464285755)87:0.0609159103,HanXRQChr04g0110101:0.3140841461)96:0.1668297788,(((HanXRQChr07g0200001:0.1315840604,HanXRQChr14g0452461:0.0618158989)98:0.1055159838,HanXRQChr02g0043891:0.1930050908)100:0.3743961619,((HanXRQChr12g0364981:0.1007454669,HanXRQChr08g0223681:0.0330343075)100:0.3410835576,AT1G69120.1|APETALA1|AP1|Length_286:0.2980267743)100:0.3447906618)94:0.1566008424)99:0.3953296320,((HanXRQChr12g0375471:0.2496777809,HanXRQChr17g0538691:0.1888481908)100:1.1419386780,HanXRQChr17g0550551:1.5296472049)98:0.4839767984)95:0.2531255287)71:0.1917051096,HanXRQChr12g0358711:0.7064566226)96:0.4185267531,(((HanXRQChr07g0200321:0.1277562420,(HanXRQChr09g0265001:0.0317170037,HanXRQChr15g0489071:0.0703491798)100:0.0749683403)100:0.2679458189,(AT5G15800.2|SEPALLATA1|SEP1|Length_262:0.0288996444,AT3G02310.1|SEPALLATA2|SEP2|Length_250:0.1321960211)100:0.3634586339)92:0.0582444364,(HanXRQChr02g0042981:0.4363373467,(HanXRQChr08g0223671:0.5127896107,AT2G03710.1|SEPALLATA4|SEP4|Length_258:0.4782926027)58:0.1176274037)58:0.1530523483)44:0.1284352100)91:0.1425375700,((HanXRQChr12g0361321:0.1015643369,HanXRQChr06g0174721:0.1808813221)100:0.1634747257,AT1G24260.2|SEPALLATA3|SEP3|Length_251:0.2459851584)97:0.0991516508);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -25240.505040
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----HanXRQChr00c0029g0571181
+|
+|                             +---------HanXRQChr10g0299591
+|                          +--| (99)
+|                          |  +------HanXRQChr01g0015681
+|                       +--| (51)
+|                       |  |                  +--HanXRQChr16g0503081
+|                       |  |            +-----| (100)
+|                       |  |            |     +--HanXRQChr09g0270841
+|                       |  |         +--| (87)
+|                       |  |         |  |   +--HanXRQChr13g0405061
+|                       |  |         |  +---| (100)
+|                       |  |         |      +--HanXRQChr15g0495861
+|                       |  +---------| (100)
+|                       |            |  +--HanXRQChr05g0163381
+|                       |            +--| (99)
+|                       |               +--HanXRQChr15g0484901
+|                    +--| (47)
+|                    |  |     +---HanXRQChr10g0291191
+|                    |  +-----| (100)
+|                    |        |     +---HanXRQChr09g0262151
+|                    |        |  +--| (64)
+|                    |        |  |  +----HanXRQChr15g0474011
+|                    |        +--| (64)
+|                    |           +--HanXRQChr05g0163521
+|                 +--| (61)
+|                 |  |                           +--HanXRQChr16g0501741
+|                 |  |                        +--| (100)
+|                 |  |                        |  +--HanXRQChr16g0501381
+|                 |  |                     +--| (100)
+|                 |  |                     |  +--HanXRQChr09g0269421
+|                 |  |                  +--| (100)
+|                 |  |                  |  +--HanXRQChr05g0151331
+|                 |  |               +--| (99)
+|                 |  |               |  +---AT3G54340.1|APETALA3|AP3|Length_232
+|                 |  |        +------| (100)
+|                 |  |        |      +-----HanXRQChr16g0530971
+|                 |  |     +--| (98)
+|                 |  |     |  |         +--HanXRQChr12g0358781
+|                 |  |     |  |      +--| (100)
+|                 |  |     |  |      |  |  +--HanXRQChr02g0045511
+|                 |  |     |  |      |  +--| (100)
+|                 |  |     |  |      |     +--HanXRQChr02g0040221
+|                 |  |     |  +------| (100)
+|                 |  |     |         +---AT5G20240.1|PISTILLATA|PI|Length_208
+|                 |  |  +--| (93)
+|                 |  |  |  +--------HanXRQChr05g0149341
+|                 |  +--| (50)
+|                 |     |                    +--HanXRQChr05g0150571
+|                 |     |          +---------| (100)
+|                 |     |          |         +--HanXRQChr15g0483111
+|                 |     |       +--| (80)
+|                 |     |       |  +------------HanXRQChr03g0091451
+|                 |     +-------| (99)
+|                 |             +---------------HanXRQChr05g0156101
+|              +--| (64)
+|              |  |                 +--HanXRQChr16g0519321
+|              |  |              +--| (96)
+|              |  |              |  +--HanXRQChr01g0007431
+|              |  |           +--| (100)
+|              |  |           |  +--HanXRQChr05g0147261
+|              |  |        +--| (99)
+|              |  |        |  +--AT4G18960.1|AGAMOUS|AG|Length_252
+|              |  |     +--| (99)
+|              |  |     |  |  +--AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
+|              |  |     |  +--| (100)
+|              |  |     |     +--AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
+|              |  +-----| (98)
+|              |        |     +--HanXRQChr09g0266391
+|              |        |  +--| (100)
+|              |        |  |  +----HanXRQChr05g0150661
+|              |        +--| (97)
+|              |           +--AT4G09960.4|SEEDSTICK|STK|Length_329
+|           +--| (98)
+|           |  |                     +--HanXRQChr16g0523531
+|           |  |                  +--| (94)
+|           |  |                  |  +--HanXRQChr17g0560051
+|           |  |               +--| (95)
+|           |  |               |  +---HanXRQChr12g0358721
+|           |  |        +------| (100)
+|           |  |        |      |  +--HanXRQChr04g0122131
+|           |  |        |      +--| (98)
+|           |  |        |         +--HanXRQChr06g0169281
+|           |  |     +--| (85)
+|           |  |     |  +--------------HanXRQChr09g0267081
+|           |  |  +--| (54)
+|           |  |  |  +------------HanXRQChr09g0273361
+|           |  +--| (35)
+|           |     +------------------------------------------------AT4G36920.1|APETALA2|AP2|Length_432
+|        +--| (71)
+|        |  |              +--HanXRQChr16g0507561
+|        |  |           +--| (100)
+|        |  |           |  +--HanXRQChr05g0154261
+|        |  |        +--| (87)
+|        |  |        |  +--HanXRQChr09g0270311
+|        |  |     +--| (96)
+|        |  |     |  +--HanXRQChr04g0110101
+|        |  |  +--| (99)
+|        |  |  |  |        +--HanXRQChr07g0200001
+|        |  |  |  |     +--| (98)
+|        |  |  |  |     |  +--HanXRQChr14g0452461
+|        |  |  |  |  +--| (100)
+|        |  |  |  |  |  +--HanXRQChr02g0043891
+|        |  |  |  +--| (94)
+|        |  |  |     |     +--HanXRQChr12g0364981
+|        |  |  |     |  +--| (100)
+|        |  |  |     |  |  +--HanXRQChr08g0223681
+|        |  |  |     +--| (100)
+|        |  |  |        +--AT1G69120.1|APETALA1|AP1|Length_286
+|        |  +--| (95)
+|        |     |             +--HanXRQChr12g0375471
+|        |     |   +---------| (100)
+|        |     |   |         +--HanXRQChr17g0538691
+|        |     +---| (98)
+|        |         +------------HanXRQChr17g0550551
+|     +--| (96)
+|     |  +-----HanXRQChr12g0358711
+|  +--| (51)
+|  |  |  +--HanXRQChr02g0042981
+|  |  +--| (58)
+|  |     |  +---HanXRQChr08g0223671
+|  |     +--| (58)
+|  |        +---AT2G03710.1|SEPALLATA4|SEP4|Length_258
++--| (91)
+|  |     +--HanXRQChr07g0200321
+|  |  +--| (100)
+|  |  |  |  +--HanXRQChr09g0265001
+|  |  |  +--| (100)
+|  |  |     +--HanXRQChr15g0489071
+|  +--| (92)
+|     |  +--AT5G15800.2|SEPALLATA1|SEP1|Length_262
+|     +--| (100)
+|        +--AT3G02310.1|SEPALLATA2|SEP2|Length_250
+|
+|     +--HanXRQChr12g0361321
+|  +--| (100)
+|  |  +--HanXRQChr06g0174721
++--| (97)
+   +--AT1G24260.2|SEPALLATA3|SEP3|Length_251
+
+
+Consensus tree in newick format: 
+
+(HanXRQChr00c0029g0571181:0.6287894527,((((((((((HanXRQChr10g0299591:1.1571997827,HanXRQChr01g0015681:0.8975981539)99:0.4389340063,(((HanXRQChr16g0503081:0.2791248728,HanXRQChr09g0270841:0.1845924103)100:0.7632751429,(HanXRQChr13g0405061:0.0686274025,HanXRQChr15g0495861:0.2376303840)100:0.4883065550)87:0.1476027373,(HanXRQChr05g0163381:0.2040150393,HanXRQChr15g0484901:0.2873540654)99:0.3923914439)100:1.1578761099)51:0.2497649834,(HanXRQChr10g0291191:0.4829176451,((HanXRQChr09g0262151:0.5486599143,HanXRQChr15g0474011:0.6052753172)64:0.1094380426,HanXRQChr05g0163521:0.3066848394)64:0.1040196147)100:0.7837996480)47:0.1789628683,((((((((HanXRQChr16g0501741:0.0000024105,HanXRQChr16g0501381:0.0000024105)100:0.0692085582,HanXRQChr09g0269421:0.0507666891)100:0.0752674854,HanXRQChr05g0151331:0.1304772978)100:0.4368342447,AT3G54340.1|APETALA3|AP3|Length_232:0.5511667390)99:0.3428279609,HanXRQChr16g0530971:0.7178037978)100:0.8305734087,((HanXRQChr12g0358781:0.0224774252,(HanXRQChr02g0045511:0.0000024105,HanXRQChr02g0040221:0.0000024105)100:0.0810452502)100:0.3353036380,AT5G20240.1|PISTILLATA|PI|Length_208:0.5213904894)100:0.8178192899)98:0.2948569376,HanXRQChr05g0149341:1.1389713187)93:0.2335886078,(((HanXRQChr05g0150571:0.1437413948,HanXRQChr15g0483111:0.2012889499)100:1.1717206069,HanXRQChr03g0091451:1.5556226089)80:0.2557409570,HanXRQChr05g0156101:1.8912897655)99:0.9525601391)50:0.1465193624)61:0.0998294625,(((((HanXRQChr16g0519321:0.0000027911,HanXRQChr01g0007431:0.1666906495)96:0.0419913871,HanXRQChr05g0147261:0.1687423662)100:0.1289470998,AT4G18960.1|AGAMOUS|AG|Length_252:0.2684770158)99:0.1465057203,(AT3G58780.4|SHATTERPROOF1|SHP1|Length_281:0.0628047462,AT2G42830.2|SHATTERPROOF2|SHP2|Length_248:0.1316700286)100:0.3161454627)99:0.1902994213,((HanXRQChr09g0266391:0.2955178228,HanXRQChr05g0150661:0.5825542871)100:0.2860390602,AT4G09960.4|SEEDSTICK|STK|Length_329:0.4411030053)97:0.1158965283)98:0.7804766716)64:0.1020438766,((((((HanXRQChr16g0523531:0.1078131923,HanXRQChr17g0560051:0.2498838037)94:0.0854343531,HanXRQChr12g0358721:0.4762502091)95:0.0424699077,(HanXRQChr04g0122131:0.0913212177,HanXRQChr06g0169281:0.1210489626)98:0.1225892069)100:0.8194334822,HanXRQChr09g0267081:1.7794007888)85:0.2731502965,HanXRQChr09g0273361:1.5443455627)54:0.1434299115,AT4G36920.1|APETALA2|AP2|Length_432:5.6176364897)35:0.0000027512)98:0.3286436188,(((((HanXRQChr16g0507561:0.0171588387,HanXRQChr05g0154261:0.0090553659)100:0.3304236125,HanXRQChr09g0270311:0.3400214459)87:0.0601854423,HanXRQChr04g0110101:0.3090469174)96:0.1745553272,(((HanXRQChr07g0200001:0.1288722447,HanXRQChr14g0452461:0.0624952224)98:0.1043279461,HanXRQChr02g0043891:0.1894230949)100:0.3682322880,((HanXRQChr12g0364981:0.1000292633,HanXRQChr08g0223681:0.0323202223)100:0.3374393880,AT1G69120.1|APETALA1|AP1|Length_286:0.2945264868)100:0.3440004609)94:0.1458528599)99:0.3943178060,((HanXRQChr12g0375471:0.2512606134,HanXRQChr17g0538691:0.1821679579)100:1.1484732836,HanXRQChr17g0550551:1.5170956580)98:0.4880994062)95:0.2484377317)71:0.1458380283,HanXRQChr12g0358711:0.7468359856)96:0.4432124410,(HanXRQChr02g0042981:0.4254183121,(HanXRQChr08g0223671:0.5037665334,AT2G03710.1|SEPALLATA4|SEP4|Length_258:0.4949188021)58:0.1113100466)58:0.0921433514)51:0.0881676818,((HanXRQChr07g0200321:0.1272227234,(HanXRQChr09g0265001:0.0311510429,HanXRQChr15g0489071:0.0699927007)100:0.0736916245)100:0.2614673061,(AT5G15800.2|SEPALLATA1|SEP1|Length_262:0.0309238850,AT3G02310.1|SEPALLATA2|SEP2|Length_250:0.1285636769)100:0.3612460037)92:0.0707106228)91:0.2155687855,((HanXRQChr12g0361321:0.1024922497,HanXRQChr06g0174721:0.1766377322)100:0.1630781764,AT1G24260.2|SEPALLATA3|SEP3|Length_251:0.2404915311)97:0.1039861114);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Helianthus_annuus_MAFFT.treefile -m "LG+G4{0.859369}" --length 693
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Alignments/Helianthus_annuus_MAFFT.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Alignments/Helianthus_annuus_MAFFT.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Apr 10 06:31:56 2026
+Total CPU time used: 1551.635087 seconds (0h:25m:51s)
+Total wall-clock time used: 563.126951 seconds (0h:9m:23s)
+
