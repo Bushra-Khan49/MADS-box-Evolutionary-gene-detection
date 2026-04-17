@@ -1,0 +1,21 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00319.MADS.hmm
+# target sequence database:        Arabidopsis_proteins.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SRF-TF  [M=48]
+Accession:   PF00319.23
+Description: SRF-type transcription factor (DNA-binding and dimerisation domain)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    3.2e-29  101.2   0.1    4.5e-29  100.8   0.1    1.2  1  AT1G69120.1       pacid=19652134 transcript=AT1G69120.1
+    1.1e-28   99.5   0.1    1.8e-28   98.9   0.1    1.4  1  AT5G20240.1       pacid=19648922 transcript=AT5G20240.1
+    1.4e-28   99.1   0.1    2.1e-28   98.5   0.1    1.3  1  AT3G54340.2       pacid=19642131 transcript=AT3G54340.2
+    2.1e-28   98.6   0.4    3.2e-28   98.0   0.4    1.2  1  AT4G09960.1       pacid=19634562 transcript=AT4G09960.1
+    2.6e-28   97.4   0.2    3.9e-28   96.8   0.2    1.2  1  AT2G03060.1       pacid=19643421 transcript=AT2G03060.1

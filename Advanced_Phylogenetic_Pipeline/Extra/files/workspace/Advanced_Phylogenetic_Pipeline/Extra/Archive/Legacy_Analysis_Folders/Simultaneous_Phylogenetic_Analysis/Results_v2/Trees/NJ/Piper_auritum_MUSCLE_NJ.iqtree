@@ -1,0 +1,91 @@
+IQ-TREE 2.2.2.7 COVID-edition built May 30 2023
+
+Input file name: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Piper_auritum_MUSCLE.fa
+Type of analysis: tree reconstruction
+Random seed number: 382596
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 7 sequences with 258 amino-acid sites
+Number of constant sites: 62 (= 24.031% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 62 (= 24.031% of all sites)
+Number of parsimony informative sites: 95
+Number of distinct site patterns: 230
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+STARTING TREE
+-------------
+
+Log-likelihood of the tree: -2639.4436 (s.e. 75.7050)
+Unconstrained log-likelihood (without tree): -1383.9085
+Number of free parameters (#branches + #model parameters): 11
+Akaike information criterion (AIC) score: 5300.8873
+Corrected Akaike information criterion (AICc) score: 5301.9605
+Bayesian information criterion (BIC) score: 5339.9698
+
+Total tree length (sum of branch lengths): 3.1722
+Sum of internal branch lengths: 1.0085 (31.7916% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'scaffold-MUNP-2011315-Piper_auritum' is drawn at root
+
++-------------------------------------------------scaffold-MUNP-2011315-Piper_auritum
+|
+|                                        +-----------------scaffold-MUNP-2001384-Piper_auritum
+|             +--------------------------|
+|             |                          +------------scaffold-MUNP-2001472-Piper_auritum
++-------------|
+|             |                                       +**scaffold-MUNP-2004874-Piper_auritum
+|             |                          +------------|
+|             |                          |            +**scaffold-MUNP-2004875-Piper_auritum
+|             +--------------------------|
+|                                        +--------------scaffold-MUNP-2011435-Piper_auritum
+|
++-----------------------------------scaffold-MUNP-2001867-Piper_auritum
+
+Tree in newick format:
+
+(scaffold-MUNP-2011315-Piper_auritum:0.7365268205,((scaffold-MUNP-2001384-Piper_auritum:0.2722602245,scaffold-MUNP-2001472-Piper_auritum:0.2005178775):0.3991955326,((scaffold-MUNP-2004874-Piper_auritum:0.0000010000,scaffold-MUNP-2004875-Piper_auritum:0.0000010000):0.2009704576,scaffold-MUNP-2011435-Piper_auritum:0.2240259551):0.4017998876):0.2074992406,scaffold-MUNP-2001867-Piper_auritum:0.5294110781);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results_v2/Trees/NJ/Piper_auritum_MUSCLE_NJ.treefile -m "LG" --length 258
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Piper_auritum_MUSCLE.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Simultaneous_Phylogenetic_Analysis/Results/Alignments/Piper_auritum_MUSCLE.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Apr  9 22:07:56 2026
+Total CPU time used: 0.012624 seconds (0h:0m:0s)
+Total wall-clock time used: 0.0149279 seconds (0h:0m:0s)
+

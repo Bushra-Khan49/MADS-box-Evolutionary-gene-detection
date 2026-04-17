@@ -1,0 +1,1424 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00319.MADS.hmm
+# target sequence database:        Osativa_323_v7.0.protein.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SRF-TF  [M=48]
+Accession:   PF00319.23
+Description: SRF-type transcription factor (DNA-binding and dimerisation domain)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    4.5e-28   97.9   0.1    6.9e-28   97.3   0.1    1.3  1  LOC_Os03g03100.1  pacid=33128447 transcript=LOC_Os03g03100.1 
+    1.3e-27   96.5   0.1    2.5e-27   95.6   0.1    1.5  1  LOC_Os10g39130.2  pacid=33101639 transcript=LOC_Os10g39130.2 
+    1.8e-27   96.0   0.1    2.6e-27   95.5   0.1    1.2  1  LOC_Os07g01820.6  pacid=33118724 transcript=LOC_Os07g01820.6 
+    2.4e-27   95.6   0.4    3.8e-27   95.0   0.4    1.3  1  LOC_Os02g45770.1  pacid=33135892 transcript=LOC_Os02g45770.1 
+    2.6e-27   95.5   0.4    3.9e-27   94.9   0.4    1.3  1  LOC_Os04g49150.1  pacid=33108838 transcript=LOC_Os04g49150.1 
+    2.8e-27   95.4   0.1    5.4e-27   94.5   0.1    1.5  1  LOC_Os10g39130.1  pacid=33101638 transcript=LOC_Os10g39130.1 
+    7.4e-27   94.0   0.1    1.2e-26   93.4   0.1    1.3  1  LOC_Os07g01820.4  pacid=33118722 transcript=LOC_Os07g01820.4 
+    8.7e-27   93.8   0.1    1.4e-26   93.2   0.1    1.3  1  LOC_Os07g01820.3  pacid=33118721 transcript=LOC_Os07g01820.3 
+    8.7e-27   93.8   0.1    1.4e-26   93.2   0.1    1.3  1  LOC_Os07g01820.2  pacid=33118720 transcript=LOC_Os07g01820.2 
+    8.8e-27   93.8   0.2    8.8e-27   93.8   0.2    1.3  1  LOC_Os06g23950.1  pacid=33149548 transcript=LOC_Os06g23950.1 
+    9.5e-27   93.7   0.2    1.3e-26   93.3   0.2    1.2  1  LOC_Os02g49840.3  pacid=33135824 transcript=LOC_Os02g49840.3 
+    9.9e-27   93.6   0.3    2.1e-26   92.6   0.3    1.6  1  LOC_Os07g41370.1  pacid=33114686 transcript=LOC_Os07g41370.1 
+      1e-26   93.6   0.1    1.6e-26   92.9   0.1    1.4  1  LOC_Os07g01820.1  pacid=33118719 transcript=LOC_Os07g01820.1 
+    1.4e-26   93.1   0.5    2.1e-26   92.6   0.2    1.4  1  LOC_Os04g38770.1  pacid=33109898 transcript=LOC_Os04g38770.1 
+    1.5e-26   93.0   0.2    2.7e-26   92.2   0.2    1.4  1  LOC_Os01g10504.2  pacid=33119055 transcript=LOC_Os01g10504.2 
+    1.5e-26   93.0   0.2    2.7e-26   92.2   0.2    1.4  1  LOC_Os01g10504.3  pacid=33119054 transcript=LOC_Os01g10504.3 
+    1.6e-26   92.9   0.2    2.9e-26   92.2   0.2    1.4  1  LOC_Os01g10504.1  pacid=33119053 transcript=LOC_Os01g10504.1 
+    1.9e-26   92.7   0.3    3.4e-26   91.9   0.3    1.5  1  LOC_Os09g32948.1  pacid=33141446 transcript=LOC_Os09g32948.1 
+    2.3e-26   92.5   0.3    3.5e-26   91.9   0.3    1.3  1  LOC_Os08g41950.2  pacid=33102863 transcript=LOC_Os08g41950.2 
+    2.9e-26   92.1   0.2    6.1e-26   91.1   0.2    1.6  1  LOC_Os02g49840.4  pacid=33135822 transcript=LOC_Os02g49840.4 
+    3.2e-26   92.0   0.3    5.7e-26   91.2   0.3    1.4  1  LOC_Os12g10540.1  pacid=33153307 transcript=LOC_Os12g10540.1 
+    3.2e-26   92.0   0.3    5.7e-26   91.2   0.3    1.4  1  LOC_Os12g10540.2  pacid=33153308 transcript=LOC_Os12g10540.2 
+    3.2e-26   92.0   0.3    5.7e-26   91.2   0.3    1.4  1  LOC_Os12g10540.3  pacid=33153306 transcript=LOC_Os12g10540.3 
+    3.2e-26   92.0   0.3    5.7e-26   91.2   0.3    1.4  1  LOC_Os12g10540.4  pacid=33153309 transcript=LOC_Os12g10540.4 
+    3.2e-26   92.0   0.3    5.5e-26   91.3   0.3    1.4  1  LOC_Os12g10540.5  pacid=33153310 transcript=LOC_Os12g10540.5 
+    3.3e-26   92.0   0.1    6.2e-26   91.1   0.1    1.5  1  LOC_Os08g41960.1  pacid=33105356 transcript=LOC_Os08g41960.1 
+    3.3e-26   91.9   0.2    6.2e-26   91.1   0.2    1.5  1  LOC_Os02g49840.1  pacid=33135821 transcript=LOC_Os02g49840.1 
+    3.5e-26   91.9   0.2    5.7e-26   91.2   0.2    1.4  1  LOC_Os02g49840.2  pacid=33135823 transcript=LOC_Os02g49840.2 
+    3.8e-26   91.7   0.1    6.2e-26   91.1   0.1    1.4  1  LOC_Os02g01355.1  pacid=33136811 transcript=LOC_Os02g01355.1 
+    4.1e-26   91.6   0.4    7.3e-26   90.9   0.4    1.4  1  LOC_Os01g66290.1  pacid=33120433 transcript=LOC_Os01g66290.1 
+    4.1e-26   91.6   0.4    7.3e-26   90.9   0.4    1.4  1  LOC_Os01g66290.2  pacid=33120434 transcript=LOC_Os01g66290.2 
+    4.9e-26   91.4   0.3    4.9e-26   91.4   0.3    1.8  1  LOC_Os08g41950.1  pacid=33102862 transcript=LOC_Os08g41950.1 
+    4.9e-26   91.4   0.3    8.3e-26   90.7   0.3    1.4  1  LOC_Os05g11414.1  pacid=33155515 transcript=LOC_Os05g11414.1 
+    6.9e-26   90.9   0.4    1.1e-25   90.2   0.4    1.4  1  LOC_Os03g54160.2  pacid=33129943 transcript=LOC_Os03g54160.2 
+    7.1e-26   90.9   0.2    1.4e-25   89.9   0.2    1.5  1  LOC_Os06g01890.1  pacid=33147010 transcript=LOC_Os06g01890.1 
+    7.2e-26   90.9   0.4    1.2e-25   90.2   0.4    1.4  1  LOC_Os03g54160.1  pacid=33129942 transcript=LOC_Os03g54160.1 
+    7.3e-26   90.8   0.1    1.4e-25   89.9   0.1    1.5  1  LOC_Os02g01365.1  pacid=33138640 transcript=LOC_Os02g01365.1 
+    7.7e-26   90.8   0.0    1.2e-25   90.2   0.0    1.3  1  LOC_Os08g38590.1  pacid=33102888 transcript=LOC_Os08g38590.1 
+    1.4e-25   90.0   0.0    2.5e-25   89.2   0.0    1.4  1  LOC_Os04g52410.1  pacid=33113036 transcript=LOC_Os04g52410.1 
+    1.5e-25   89.8   0.1    3.3e-25   88.8   0.1    1.6  1  LOC_Os03g54170.1  pacid=33127927 transcript=LOC_Os03g54170.1 
+    1.6e-25   89.8   0.2    2.4e-25   89.2   0.2    1.3  1  LOC_Os01g66030.2  pacid=33124264 transcript=LOC_Os01g66030.2 
+    1.8e-25   89.6   0.1    9.8e-24   84.0   0.0    2.2  2  LOC_Os12g10520.2  pacid=33150410 transcript=LOC_Os12g10520.2 
+    1.8e-25   89.6   0.1    9.9e-24   84.0   0.0    2.2  2  LOC_Os12g10520.1  pacid=33150409 transcript=LOC_Os12g10520.1 
+    1.9e-25   89.5   0.2    3.1e-25   88.8   0.2    1.3  1  LOC_Os02g52340.1  pacid=33134825 transcript=LOC_Os02g52340.1 
+    2.4e-25   89.2   0.2    3.7e-25   88.6   0.2    1.3  1  LOC_Os01g66030.1  pacid=33124263 transcript=LOC_Os01g66030.1 
+    2.5e-25   89.1   0.4    4.7e-25   88.3   0.4    1.5  1  LOC_Os06g06750.1  pacid=33149580 transcript=LOC_Os06g06750.1 
+    2.5e-25   89.1   0.0    4.1e-25   88.4   0.0    1.4  1  LOC_Os04g52410.2  pacid=33113035 transcript=LOC_Os04g52410.2 
+    2.5e-25   89.1   1.1    3.6e-25   88.6   0.1    1.8  1  LOC_Os02g36924.1  pacid=33138545 transcript=LOC_Os02g36924.1 
+    3.9e-25   88.5   0.1    6.6e-25   87.8   0.1    1.4  1  LOC_Os02g07430.1  pacid=33135740 transcript=LOC_Os02g07430.1 
+      5e-25   88.2   0.2      9e-25   87.4   0.2    1.4  1  LOC_Os09g02830.1  pacid=33142791 transcript=LOC_Os09g02830.1 
+    5.1e-25   88.1   0.2    7.8e-25   87.5   0.2    1.3  1  LOC_Os06g11330.1  pacid=33148253 transcript=LOC_Os06g11330.1 
+    5.5e-25   88.0   0.2      9e-25   87.4   0.2    1.4  1  LOC_Os01g74440.1  pacid=33121567 transcript=LOC_Os01g74440.1 
+    6.2e-25   87.9   0.2    9.4e-25   87.3   0.2    1.3  1  LOC_Os08g33488.1  pacid=33105388 transcript=LOC_Os08g33488.1 
+    8.8e-25   87.4   0.0    1.6e-24   86.6   0.0    1.5  1  LOC_Os04g23910.1  pacid=33107895 transcript=LOC_Os04g23910.1 
+    1.1e-24   87.1   0.1    1.7e-24   86.5   0.1    1.3  1  LOC_Os02g06860.1  pacid=33140095 transcript=LOC_Os02g06860.1 
+    1.1e-24   87.1   0.2    1.7e-24   86.5   0.2    1.3  1  LOC_Os03g08754.2  pacid=33131114 transcript=LOC_Os03g08754.2 
+    1.1e-24   87.1   0.2    1.7e-24   86.4   0.2    1.3  1  LOC_Os03g08754.1  pacid=33131113 transcript=LOC_Os03g08754.1 
+    1.2e-24   87.0   0.1    2.2e-24   86.1   0.1    1.5  1  LOC_Os06g49840.1  pacid=33145766 transcript=LOC_Os06g49840.1 
+    1.2e-24   87.0   0.1    2.2e-24   86.1   0.1    1.5  1  LOC_Os06g49840.2  pacid=33145767 transcript=LOC_Os06g49840.2 
+    2.4e-24   86.0   0.1    3.6e-24   85.4   0.1    1.3  1  LOC_Os01g69850.1  pacid=33121340 transcript=LOC_Os01g69850.1 
+    2.5e-24   85.9   0.2    4.1e-24   85.2   0.2    1.4  1  LOC_Os03g11614.1  pacid=33129283 transcript=LOC_Os03g11614.1 
+    2.7e-24   85.8   0.2      4e-24   85.3   0.2    1.3  1  LOC_Os06g30810.1  pacid=33146678 transcript=LOC_Os06g30810.1 
+    2.7e-24   85.8   0.0    4.6e-24   85.1   0.0    1.4  1  LOC_Os06g11970.1  pacid=33144614 transcript=LOC_Os06g11970.1 
+    2.8e-24   85.8   0.1    4.2e-24   85.2   0.1    1.3  1  LOC_Os05g11380.2  pacid=33156173 transcript=LOC_Os05g11380.2 
+    4.6e-24   85.1   0.1    7.1e-24   84.5   0.1    1.3  1  LOC_Os05g11380.1  pacid=33156172 transcript=LOC_Os05g11380.1 
+    5.9e-24   84.7   0.6    6.1e-23   81.5   0.0    2.3  2  LOC_Os12g31748.2  pacid=33151404 transcript=LOC_Os12g31748.2 
+    6.3e-24   84.7   0.9    5.6e-23   81.6   0.0    2.2  2  LOC_Os12g31748.1  pacid=33151405 transcript=LOC_Os12g31748.1 
+    8.8e-24   84.2   0.2    1.5e-23   83.4   0.2    1.4  1  LOC_Os06g45650.1  pacid=33147474 transcript=LOC_Os06g45650.1 
+    2.1e-23   83.0   0.1    3.4e-23   82.3   0.1    1.4  1  LOC_Os05g34940.3  pacid=33156105 transcript=LOC_Os05g34940.3 
+    2.6e-23   82.7   0.1    3.9e-23   82.1   0.1    1.3  1  LOC_Os05g34940.2  pacid=33156104 transcript=LOC_Os05g34940.2 
+    2.8e-23   82.6   0.1    4.1e-23   82.1   0.1    1.3  1  LOC_Os05g34940.1  pacid=33156103 transcript=LOC_Os05g34940.1 
+    3.1e-23   82.4   0.3    2.4e-22   79.6   0.0    2.3  2  LOC_Os08g02070.1  pacid=33106269 transcript=LOC_Os08g02070.1 
+    5.4e-23   81.7   0.1    8.4e-23   81.1   0.1    1.3  1  LOC_Os12g21850.1  pacid=33151746 transcript=LOC_Os12g21850.1 
+    2.5e-22   79.5   0.0    4.1e-22   78.8   0.0    1.4  1  LOC_Os01g52680.1  pacid=33120775 transcript=LOC_Os01g52680.1 
+    4.5e-21   75.5   0.1    6.1e-21   75.1   0.1    1.2  1  LOC_Os12g21880.1  pacid=33150817 transcript=LOC_Os12g21880.1 
+    5.7e-21   75.2   0.3    9.3e-21   74.5   0.3    1.4  1  LOC_Os06g22760.1  pacid=33147005 transcript=LOC_Os06g22760.1 
+    5.8e-20   72.0   0.1    9.4e-20   71.3   0.1    1.3  1  LOC_Os05g23780.1  pacid=33158793 transcript=LOC_Os05g23780.1 
+    2.9e-19   69.7   1.1    7.2e-19   68.5   0.5    1.9  2  LOC_Os06g30830.1  pacid=33144999 transcript=LOC_Os06g30830.1 
+    3.3e-18   66.3   0.2    3.3e-17   63.1   0.0    2.1  2  LOC_Os09g02780.1  pacid=33141055 transcript=LOC_Os09g02780.1 
+    3.6e-18   66.2   0.0    6.6e-18   65.4   0.0    1.5  1  LOC_Os11g43740.1  pacid=33163547 transcript=LOC_Os11g43740.1 
+    1.2e-17   64.5   0.0    1.9e-17   63.9   0.0    1.2  1  LOC_Os01g18440.1  pacid=33125437 transcript=LOC_Os01g18440.1 
+    1.2e-16   61.3   0.2    2.1e-16   60.6   0.2    1.3  1  LOC_Os03g38610.1  pacid=33131796 transcript=LOC_Os03g38610.1 
+    1.4e-15   57.9   0.0    2.8e-15   57.0   0.0    1.5  1  LOC_Os01g68560.1  pacid=33125490 transcript=LOC_Os01g68560.1 
+    2.6e-15   57.1   0.1      4e-15   56.5   0.1    1.3  1  LOC_Os03g14850.1  pacid=33132626 transcript=LOC_Os03g14850.1 
+    1.7e-14   54.4   0.2      3e-14   53.7   0.2    1.4  1  LOC_Os01g18420.1  pacid=33120120 transcript=LOC_Os01g18420.1 
+      3e-14   53.7   0.1    5.7e-14   52.8   0.1    1.4  1  LOC_Os04g31804.1  pacid=33107627 transcript=LOC_Os04g31804.1 
+    1.9e-13   51.1   0.0    1.9e-13   51.1   0.0    1.8  1  LOC_Os01g11510.1  pacid=33124622 transcript=LOC_Os01g11510.1 
+    8.4e-13   49.0   0.0    1.3e-12   48.5   0.0    1.3  1  LOC_Os01g67890.1  pacid=33121253 transcript=LOC_Os01g67890.1 
+    8.9e-13   49.0   0.2    1.6e-12   48.1   0.2    1.4  1  LOC_Os01g23760.1  pacid=33123492 transcript=LOC_Os01g23760.1 
+      3e-11   44.1   0.1    5.5e-11   43.2   0.1    1.4  1  LOC_Os03g37670.1  pacid=33133133 transcript=LOC_Os03g37670.1 
+    3.7e-11   43.8   0.1    7.5e-11   42.8   0.1    1.4  1  LOC_Os01g23770.1  pacid=33121235 transcript=LOC_Os01g23770.1 
+    5.1e-11   43.3   0.0    8.8e-11   42.6   0.0    1.4  1  LOC_Os07g04170.1  pacid=33114516 transcript=LOC_Os07g04170.1 
+    1.1e-07   32.6   0.3      2e-07   31.8   0.3    1.4  1  LOC_Os04g25870.1  pacid=33108449 transcript=LOC_Os04g25870.1 
+    2.5e-06   28.3   0.3    4.4e-06   27.5   0.3    1.4  1  LOC_Os04g24810.1  pacid=33112071 transcript=LOC_Os04g24810.1 
+    3.6e-06   27.8   0.0    6.4e-06   27.0   0.0    1.3  1  LOC_Os01g23780.1  pacid=33121393 transcript=LOC_Os01g23780.1 
+    4.1e-06   27.6   0.2    7.6e-06   26.8   0.2    1.3  1  LOC_Os01g23750.1  pacid=33120960 transcript=LOC_Os01g23750.1 
+    5.4e-05   24.0   0.0      9e-05   23.3   0.0    1.3  1  LOC_Os01g68420.1  pacid=33120012 transcript=LOC_Os01g68420.1 
+     0.0018   19.2   0.2      0.003   18.5   0.2    1.4  1  LOC_Os04g25930.1  pacid=33111578 transcript=LOC_Os04g25930.1 
+     0.0027   18.6   0.2     0.0046   17.9   0.2    1.4  1  LOC_Os04g24790.1  pacid=33110516 transcript=LOC_Os04g24790.1 
+     0.0028   18.5   0.2     0.0047   17.8   0.2    1.4  1  LOC_Os04g25920.1  pacid=33112902 transcript=LOC_Os04g25920.1 
+     0.0032   18.4   0.0     0.0046   17.9   0.0    1.2  1  LOC_Os08g07520.1  pacid=33103787 transcript=LOC_Os08g07520.1 
+     0.0032   18.3   0.3     0.0063   17.4   0.3    1.4  1  LOC_Os04g24800.1  pacid=33113211 transcript=LOC_Os04g24800.1 
+  ------ inclusion threshold ------
+      0.073   14.0   0.3       0.17   12.8   0.3    1.5  1  LOC_Os02g07340.1  pacid=33136471 transcript=LOC_Os02g07340.1 
+
+
+Domain annotation for each sequence (and alignments):
+>> LOC_Os03g03100.1  pacid=33128447 transcript=LOC_Os03g03100.1 locus=LOC_Os03g03100 ID=LOC_Os03g03100.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.3   0.1   1.4e-30   6.9e-28       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 97.3 bits;  conditional E-value: 1.4e-30
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+++RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfsp gkly+f
+  LOC_Os03g03100.1 10 RIENPTSRQVTFSKRRNGLLKKAFELSVLCDAEVALIVFSPRGKLYEF 57
+                      7*********************************************99 PP
+
+>> LOC_Os10g39130.2  pacid=33101639 transcript=LOC_Os10g39130.2 locus=LOC_Os10g39130 ID=LOC_Os10g39130.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.6   0.1   4.9e-30   2.5e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.6 bits;  conditional E-value: 4.9e-30
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+++RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfsp g+ly+f
+  LOC_Os10g39130.2 10 RIENPTSRQVTFSKRRNGLLKKAFELSVLCDAEVALIVFSPRGRLYEF 57
+                      7*********************************************99 PP
+
+>> LOC_Os07g01820.6  pacid=33118724 transcript=LOC_Os07g01820.6 locus=LOC_Os07g01820 ID=LOC_Os07g01820.6.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.5   0.1     5e-30   2.6e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.5 bits;  conditional E-value: 5e-30
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+aeva ivfsp+gkly++
+  LOC_Os07g01820.6 10 RIENKINRQVTFSKRRNGLLKKAHEISVLCDAEVAAIVFSPKGKLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os02g45770.1  pacid=33135892 transcript=LOC_Os02g45770.1 locus=LOC_Os02g45770 ID=LOC_Os02g45770.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.0   0.4   7.5e-30   3.8e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.0 bits;  conditional E-value: 7.5e-30
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtFsKRr+GL+KKA+ELs+LC+aeva+i+fs+ gkly+f
+  LOC_Os02g45770.1 10 RIENKINRQVTFSKRRNGLLKKAYELSVLCDAEVALIIFSSRGKLYEF 57
+                      7*********************************************99 PP
+
+>> LOC_Os04g49150.1  pacid=33108838 transcript=LOC_Os04g49150.1 locus=LOC_Os04g49150 ID=LOC_Os04g49150.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.9   0.4   7.7e-30   3.9e-27       1      48 []      15      62 ..      15      62 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.9 bits;  conditional E-value: 7.7e-30
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtFsKRr+GL+KKA+ELs+LC+aeva+i+fs+ gkly+f
+  LOC_Os04g49150.1 15 RIENKINRQVTFSKRRNGLLKKAYELSVLCDAEVALIIFSSRGKLYEF 62
+                      7*********************************************99 PP
+
+>> LOC_Os10g39130.1  pacid=33101638 transcript=LOC_Os10g39130.1 locus=LOC_Os10g39130 ID=LOC_Os10g39130.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.5   0.1   1.1e-29   5.4e-27       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.5 bits;  conditional E-value: 1.1e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+++RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfsp g+ly+f
+  LOC_Os10g39130.1 10 RIENPTSRQVTFSKRRNGLLKKAFELSVLCDAEVALIVFSPRGRLYEF 57
+                      7*********************************************99 PP
+
+>> LOC_Os07g01820.4  pacid=33118722 transcript=LOC_Os07g01820.4 locus=LOC_Os07g01820 ID=LOC_Os07g01820.4.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.4   0.1   2.3e-29   1.2e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 93.4 bits;  conditional E-value: 2.3e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+aeva ivfsp+gkly++
+  LOC_Os07g01820.4 10 RIENKINRQVTFSKRRNGLLKKAHEISVLCDAEVAAIVFSPKGKLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os07g01820.3  pacid=33118721 transcript=LOC_Os07g01820.3 locus=LOC_Os07g01820 ID=LOC_Os07g01820.3.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.2   0.1   2.7e-29   1.4e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 93.2 bits;  conditional E-value: 2.7e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+aeva ivfsp+gkly++
+  LOC_Os07g01820.3 10 RIENKINRQVTFSKRRNGLLKKAHEISVLCDAEVAAIVFSPKGKLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os07g01820.2  pacid=33118720 transcript=LOC_Os07g01820.2 locus=LOC_Os07g01820 ID=LOC_Os07g01820.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.2   0.1   2.7e-29   1.4e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 93.2 bits;  conditional E-value: 2.7e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+aeva ivfsp+gkly++
+  LOC_Os07g01820.2 10 RIENKINRQVTFSKRRNGLLKKAHEISVLCDAEVAAIVFSPKGKLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os06g23950.1  pacid=33149548 transcript=LOC_Os06g23950.1 locus=LOC_Os06g23950 ID=LOC_Os06g23950.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.8   0.2   1.7e-29   8.8e-27       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 93.8 bits;  conditional E-value: 1.7e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtFsKRr+GLfKKA+EL+iLC+a+v+v+vfs+tg+ly +
+  LOC_Os06g23950.1 10 RIENTTSRQVTFSKRRSGLFKKAKELAILCDAQVGVLVFSSTGRLYDY 57
+                      7*********************************************97 PP
+
+>> LOC_Os02g49840.3  pacid=33135824 transcript=LOC_Os02g49840.3 locus=LOC_Os02g49840 ID=LOC_Os02g49840.3.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.3   0.2   2.5e-29   1.3e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 93.3 bits;  conditional E-value: 2.5e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n+++RqvtFsKRr+GL+KKA+ELsiLC+aev+++vfs+tg+ly+f
+  LOC_Os02g49840.3 10 RIDNSTSRQVTFSKRRNGLLKKAKELSILCDAEVGLVVFSSTGRLYEF 57
+                      79********************************************99 PP
+
+>> LOC_Os07g41370.1  pacid=33114686 transcript=LOC_Os07g41370.1 locus=LOC_Os07g41370 ID=LOC_Os07g41370.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.6   0.3   4.2e-29   2.1e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.6 bits;  conditional E-value: 4.2e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+a+va+ivfs +gkly+f
+  LOC_Os07g41370.1 10 RIENKINRQVTFSKRRNGLLKKAHEISVLCDADVALIVFSTKGKLYEF 57
+                      7*********************************************99 PP
+
+>> LOC_Os07g01820.1  pacid=33118719 transcript=LOC_Os07g01820.1 locus=LOC_Os07g01820 ID=LOC_Os07g01820.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.9   0.1   3.2e-29   1.6e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.9 bits;  conditional E-value: 3.2e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+aeva ivfsp+gkly++
+  LOC_Os07g01820.1 10 RIENKINRQVTFSKRRNGLLKKAHEISVLCDAEVAAIVFSPKGKLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os04g38770.1  pacid=33109898 transcript=LOC_Os04g38770.1 locus=LOC_Os04g38770 ID=LOC_Os04g38770.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.6   0.2   4.1e-29   2.1e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.6 bits;  conditional E-value: 4.1e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n+++RqvtFsKRr+G+fKKA+EL+iLC+aev++++fs+tg+ly++
+  LOC_Os04g38770.1 10 RIDNSTSRQVTFSKRRNGIFKKAKELAILCDAEVGLVIFSSTGRLYEY 57
+                      79********************************************98 PP
+
+>> LOC_Os01g10504.2  pacid=33119055 transcript=LOC_Os01g10504.2 locus=LOC_Os01g10504 ID=LOC_Os01g10504.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.2   0.2   5.3e-29   2.7e-26       1      48 []      50      97 ..      50      97 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.2 bits;  conditional E-value: 5.3e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  LOC_Os01g10504.2 50 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSSRGRLYEY 97
+                      7*********************************************98 PP
+
+>> LOC_Os01g10504.3  pacid=33119054 transcript=LOC_Os01g10504.3 locus=LOC_Os01g10504 ID=LOC_Os01g10504.3.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.2   0.2   5.3e-29   2.7e-26       1      48 []      50      97 ..      50      97 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.2 bits;  conditional E-value: 5.3e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  LOC_Os01g10504.3 50 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSSRGRLYEY 97
+                      7*********************************************98 PP
+
+>> LOC_Os01g10504.1  pacid=33119053 transcript=LOC_Os01g10504.1 locus=LOC_Os01g10504 ID=LOC_Os01g10504.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.2   0.2   5.6e-29   2.9e-26       1      48 []      50      97 ..      50      97 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 92.2 bits;  conditional E-value: 5.6e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  LOC_Os01g10504.1 50 RIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSSRGRLYEY 97
+                      7*********************************************98 PP
+
+>> LOC_Os09g32948.1  pacid=33141446 transcript=LOC_Os09g32948.1 locus=LOC_Os09g32948 ID=LOC_Os09g32948.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.9   0.3   6.8e-29   3.4e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.9 bits;  conditional E-value: 6.8e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtF KRr+GL+KKA+ELs+LC+aeva+i+fs+ gkly+f
+  LOC_Os09g32948.1 10 RIENKINRQVTFAKRRNGLLKKAYELSVLCDAEVALIIFSNRGKLYEF 57
+                      7*********************************************99 PP
+
+>> LOC_Os08g41950.2  pacid=33102863 transcript=LOC_Os08g41950.2 locus=LOC_Os08g41950 ID=LOC_Os08g41950.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.9   0.3   6.8e-29   3.5e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.9 bits;  conditional E-value: 6.8e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtF KRr+GL+KKA+ELs+LC+aeva+i+fs+ gkly+f
+  LOC_Os08g41950.2 10 RIENKINRQVTFAKRRNGLLKKAYELSVLCDAEVALIIFSNRGKLYEF 57
+                      7*********************************************99 PP
+
+>> LOC_Os02g49840.4  pacid=33135822 transcript=LOC_Os02g49840.4 locus=LOC_Os02g49840 ID=LOC_Os02g49840.4.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.1   0.2   1.2e-28   6.1e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.1 bits;  conditional E-value: 1.2e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n+++RqvtFsKRr+GL+KKA+ELsiLC+aev+++vfs+tg+ly+f
+  LOC_Os02g49840.4 10 RIDNSTSRQVTFSKRRNGLLKKAKELSILCDAEVGLVVFSSTGRLYEF 57
+                      79********************************************99 PP
+
+>> LOC_Os12g10540.1  pacid=33153307 transcript=LOC_Os12g10540.1 locus=LOC_Os12g10540 ID=LOC_Os12g10540.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.2   0.3   1.1e-28   5.7e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.2 bits;  conditional E-value: 1.1e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  LOC_Os12g10540.1 10 RIENTTSRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSSRGRLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os12g10540.2  pacid=33153308 transcript=LOC_Os12g10540.2 locus=LOC_Os12g10540 ID=LOC_Os12g10540.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.2   0.3   1.1e-28   5.7e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.2 bits;  conditional E-value: 1.1e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  LOC_Os12g10540.2 10 RIENTTSRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSSRGRLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os12g10540.3  pacid=33153306 transcript=LOC_Os12g10540.3 locus=LOC_Os12g10540 ID=LOC_Os12g10540.3.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.2   0.3   1.1e-28   5.7e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.2 bits;  conditional E-value: 1.1e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  LOC_Os12g10540.3 10 RIENTTSRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSSRGRLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os12g10540.4  pacid=33153309 transcript=LOC_Os12g10540.4 locus=LOC_Os12g10540 ID=LOC_Os12g10540.4.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.2   0.3   1.1e-28   5.7e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.2 bits;  conditional E-value: 1.1e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  LOC_Os12g10540.4 10 RIENTTSRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSSRGRLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os12g10540.5  pacid=33153310 transcript=LOC_Os12g10540.5 locus=LOC_Os12g10540 ID=LOC_Os12g10540.5.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.3   0.3   1.1e-28   5.5e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.3 bits;  conditional E-value: 1.1e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  LOC_Os12g10540.5 10 RIENTTSRQVTFCKRRNGLLKKAYELSVLCDAEVALIVFSSRGRLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os08g41960.1  pacid=33105356 transcript=LOC_Os08g41960.1 locus=LOC_Os08g41960 ID=LOC_Os08g41960.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.1   0.1   1.2e-28   6.2e-26       1      48 []      17      64 ..      17      64 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.1 bits;  conditional E-value: 1.2e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ie++++Rqv FsKRr+GLfKKA+ELs+LC+a+va++vfsp+g+ly+f
+  LOC_Os08g41960.1 17 RIEDRTSRQVRFSKRRSGLFKKAYELSVLCDAQVALLVFSPAGRLYEF 64
+                      7*********************************************99 PP
+
+>> LOC_Os02g49840.1  pacid=33135821 transcript=LOC_Os02g49840.1 locus=LOC_Os02g49840 ID=LOC_Os02g49840.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.1   0.2   1.2e-28   6.2e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.1 bits;  conditional E-value: 1.2e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n+++RqvtFsKRr+GL+KKA+ELsiLC+aev+++vfs+tg+ly+f
+  LOC_Os02g49840.1 10 RIDNSTSRQVTFSKRRNGLLKKAKELSILCDAEVGLVVFSSTGRLYEF 57
+                      79********************************************99 PP
+
+>> LOC_Os02g49840.2  pacid=33135823 transcript=LOC_Os02g49840.2 locus=LOC_Os02g49840 ID=LOC_Os02g49840.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.2   0.2   1.1e-28   5.7e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.2 bits;  conditional E-value: 1.1e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n+++RqvtFsKRr+GL+KKA+ELsiLC+aev+++vfs+tg+ly+f
+  LOC_Os02g49840.2 10 RIDNSTSRQVTFSKRRNGLLKKAKELSILCDAEVGLVVFSSTGRLYEF 57
+                      79********************************************99 PP
+
+>> LOC_Os02g01355.1  pacid=33136811 transcript=LOC_Os02g01355.1 locus=LOC_Os02g01355 ID=LOC_Os02g01355.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.1   0.1   1.2e-28   6.2e-26       1      48 []      50      97 ..      50      97 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.1 bits;  conditional E-value: 1.2e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ie+ ++RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfsp g+ly+f
+  LOC_Os02g01355.1 50 RIEDATSRQVTFSKRRSGLLKKAFELSVLCDAEVALIVFSPRGRLYQF 97
+                      7*********************************************98 PP
+
+>> LOC_Os01g66290.1  pacid=33120433 transcript=LOC_Os01g66290.1 locus=LOC_Os01g66290 ID=LOC_Os01g66290.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.9   0.4   1.4e-28   7.3e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.9 bits;  conditional E-value: 1.4e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk++RqvtF+KRr+GL+KKA+EL+iLC+ae+a+ivfs+ g+ly+f
+  LOC_Os01g66290.1 10 RIENKTSRQVTFCKRRNGLLKKAYELAILCDAEIALIVFSSRGRLYEF 57
+                      7*********************************************99 PP
+
+>> LOC_Os01g66290.2  pacid=33120434 transcript=LOC_Os01g66290.2 locus=LOC_Os01g66290 ID=LOC_Os01g66290.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.9   0.4   1.4e-28   7.3e-26       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.9 bits;  conditional E-value: 1.4e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk++RqvtF+KRr+GL+KKA+EL+iLC+ae+a+ivfs+ g+ly+f
+  LOC_Os01g66290.2 10 RIENKTSRQVTFCKRRNGLLKKAYELAILCDAEIALIVFSSRGRLYEF 57
+                      7*********************************************99 PP
+
+>> LOC_Os08g41950.1  pacid=33102862 transcript=LOC_Os08g41950.1 locus=LOC_Os08g41950 ID=LOC_Os08g41950.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.4   0.3   9.6e-29   4.9e-26       1      48 []      36      83 ..      36      83 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.4 bits;  conditional E-value: 9.6e-29
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtF KRr+GL+KKA+ELs+LC+aeva+i+fs+ gkly+f
+  LOC_Os08g41950.1 36 RIENKINRQVTFAKRRNGLLKKAYELSVLCDAEVALIIFSNRGKLYEF 83
+                      7*********************************************99 PP
+
+>> LOC_Os05g11414.1  pacid=33155515 transcript=LOC_Os05g11414.1 locus=LOC_Os05g11414 ID=LOC_Os05g11414.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.7   0.3   1.6e-28   8.3e-26       1      48 []      52      99 ..      52      99 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.7 bits;  conditional E-value: 1.6e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtF+KRr+GL+KKA+ELs+LC+aeva++vfs+ g+ly++
+  LOC_Os05g11414.1 52 RIENTTNRQVTFCKRRSGLLKKAYELSVLCDAEVALVVFSSRGRLYEY 99
+                      7*********************************************98 PP
+
+>> LOC_Os03g54160.2  pacid=33129943 transcript=LOC_Os03g54160.2 locus=LOC_Os03g54160 ID=LOC_Os03g54160.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.2   0.4   2.2e-28   1.1e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.2 bits;  conditional E-value: 2.2e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+aeva+i+fs +gkly++
+  LOC_Os03g54160.2 10 RIENKINRQVTFSKRRSGLLKKANEISVLCDAEVALIIFSTKGKLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os06g01890.1  pacid=33147010 transcript=LOC_Os06g01890.1 locus=LOC_Os06g01890 ID=LOC_Os06g01890.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.9   0.2   2.8e-28   1.4e-25       1      48 []      19      66 ..      19      66 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 89.9 bits;  conditional E-value: 2.8e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ie+ ++RqvtFsKRrkGL+KKAsELs+LC+aeva++vfsp g++++f
+  LOC_Os06g01890.1 19 RIEDTTRRQVTFSKRRKGLLKKASELSVLCDAEVALLVFSPRGRFFHF 66
+                      7********************************************998 PP
+
+>> LOC_Os03g54160.1  pacid=33129942 transcript=LOC_Os03g54160.1 locus=LOC_Os03g54160 ID=LOC_Os03g54160.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.2   0.4   2.3e-28   1.2e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 90.2 bits;  conditional E-value: 2.3e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtFsKRr+GL+KKA+E+s+LC+aeva+i+fs +gkly++
+  LOC_Os03g54160.1 10 RIENKINRQVTFSKRRSGLLKKANEISVLCDAEVALIIFSTKGKLYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os02g01365.1  pacid=33138640 transcript=LOC_Os02g01365.1 locus=LOC_Os02g01365 ID=LOC_Os02g01365.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.9   0.1   2.8e-28   1.4e-25       1      48 []      50      97 ..      50      97 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.9 bits;  conditional E-value: 2.8e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ie+ ++RqvtFsKRr+GL+KKA ELs+LC+aeva+ivfsp g+ly+f
+  LOC_Os02g01365.1 50 RIEDATSRQVTFSKRRSGLLKKAFELSVLCDAEVALIVFSPRGRLYQF 97
+                      7*********************************************98 PP
+
+>> LOC_Os08g38590.1  pacid=33102888 transcript=LOC_Os08g38590.1 locus=LOC_Os08g38590 ID=LOC_Os08g38590.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.2   0.0   2.3e-28   1.2e-25       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 90.2 bits;  conditional E-value: 2.3e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtFsKRr+GL+KKA+ELs+LC+++va+++fsp+g+l +f
+  LOC_Os08g38590.1 10 RIENTTNRQVTFSKRRNGLIKKAYELSVLCDIDVALLMFSPSGRLSHF 57
+                      7*******************************************9877 PP
+
+>> LOC_Os04g52410.1  pacid=33113036 transcript=LOC_Os04g52410.1 locus=LOC_Os04g52410 ID=LOC_Os04g52410.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.2   0.0   4.8e-28   2.5e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 89.2 bits;  conditional E-value: 4.8e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      kIen+++RqvtFsKRr GL+KKA+EL+iLC+a+++vivfs tgk+y++
+  LOC_Os04g52410.1 10 KIENPTNRQVTFSKRRMGLLKKANELAILCDAQIGVIVFSGTGKMYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os03g54170.1  pacid=33127927 transcript=LOC_Os03g54170.1 locus=LOC_Os03g54170 ID=LOC_Os03g54170.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.8   0.1   6.5e-28   3.3e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.8 bits;  conditional E-value: 6.5e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtF KRr+GL+KKA+ELsiLC+aeva+++fs++g+ly+f
+  LOC_Os03g54170.1 10 RIENKISRQVTFAKRRNGLLKKAYELSILCDAEVALVLFSHAGRLYQF 57
+                      7*********************************************98 PP
+
+>> LOC_Os01g66030.2  pacid=33124264 transcript=LOC_Os01g66030.2 locus=LOC_Os01g66030 ID=LOC_Os01g66030.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.2   0.2   4.7e-28   2.4e-25       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 89.2 bits;  conditional E-value: 4.7e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+++RqvtFsKRr+G++KKA+E+s+LC+aev+v++fs++gkly +
+  LOC_Os01g66030.2 10 RIENSTNRQVTFSKRRSGILKKAREISVLCDAEVGVVIFSSAGKLYDY 57
+                      7*********************************************87 PP
+
+>> LOC_Os12g10520.2  pacid=33150410 transcript=LOC_Os12g10520.2 locus=LOC_Os12g10520 ID=LOC_Os12g10520.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.0   0.0   1.9e-26   9.8e-24       1      47 [.      10      56 ..      10      57 .. 0.98
+   2 ?    3.5   0.0      0.27   1.4e+02      10      25 ..     149     164 ..     146     166 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 84.0 bits;  conditional E-value: 1.9e-26
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47
+                      +Ien+  RqvtF+KRr GL+KKA+ELs+LC+a+v+vi+fs++gkl++
+  LOC_Os12g10520.2 10 RIENPVHRQVTFCKRRGGLLKKARELSVLCDADVGVIIFSSQGKLHE 56
+                      7********************************************97 PP
+
+  == domain 2  score: 3.5 bits;  conditional E-value: 0.27
+            SRF-TF  10 vtFsKRrkGLfKKAsE 25 
+                       + F + ++G++K A+E
+  LOC_Os12g10520.2 149 IQFLRNKEGILKEANE 164
+                       579999*********9 PP
+
+>> LOC_Os12g10520.1  pacid=33150409 transcript=LOC_Os12g10520.1 locus=LOC_Os12g10520 ID=LOC_Os12g10520.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.0   0.0   1.9e-26   9.9e-24       1      47 [.      10      56 ..      10      57 .. 0.98
+   2 ?    3.5   0.0      0.28   1.4e+02      10      25 ..     150     165 ..     147     167 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 84.0 bits;  conditional E-value: 1.9e-26
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47
+                      +Ien+  RqvtF+KRr GL+KKA+ELs+LC+a+v+vi+fs++gkl++
+  LOC_Os12g10520.1 10 RIENPVHRQVTFCKRRGGLLKKARELSVLCDADVGVIIFSSQGKLHE 56
+                      7********************************************97 PP
+
+  == domain 2  score: 3.5 bits;  conditional E-value: 0.28
+            SRF-TF  10 vtFsKRrkGLfKKAsE 25 
+                       + F + ++G++K A+E
+  LOC_Os12g10520.1 150 IQFLRNKEGILKEANE 165
+                       579999*********9 PP
+
+>> LOC_Os02g52340.1  pacid=33134825 transcript=LOC_Os02g52340.1 locus=LOC_Os02g52340 ID=LOC_Os02g52340.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.8   0.2   6.1e-28   3.1e-25       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 88.8 bits;  conditional E-value: 6.1e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ie+ +aRqvtFsKRr GLfKKA+ELs+LC+a+va+ivfs+tgkl +f
+  LOC_Os02g52340.1 10 RIESAAARQVTFSKRRRGLFKKAEELSVLCDADVALIVFSSTGKLSHF 57
+                      7*******************************************9877 PP
+
+>> LOC_Os01g66030.1  pacid=33124263 transcript=LOC_Os01g66030.1 locus=LOC_Os01g66030 ID=LOC_Os01g66030.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.6   0.2   7.2e-28   3.7e-25       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 88.6 bits;  conditional E-value: 7.2e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+++RqvtFsKRr+G++KKA+E+s+LC+aev+v++fs++gkly +
+  LOC_Os01g66030.1 10 RIENSTNRQVTFSKRRSGILKKAREISVLCDAEVGVVIFSSAGKLYDY 57
+                      7*********************************************87 PP
+
+>> LOC_Os06g06750.1  pacid=33149580 transcript=LOC_Os06g06750.1 locus=LOC_Os06g06750 ID=LOC_Os06g06750.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.3   0.4   9.2e-28   4.7e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.3 bits;  conditional E-value: 9.2e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtF KRr+GL+KKA+ELs+LC+aeva+i+fs  g+l++f
+  LOC_Os06g06750.1 10 RIENKISRQVTFAKRRNGLLKKAYELSVLCDAEVALIIFSTRGRLFEF 57
+                      7*********************************************98 PP
+
+>> LOC_Os04g52410.2  pacid=33113035 transcript=LOC_Os04g52410.2 locus=LOC_Os04g52410 ID=LOC_Os04g52410.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.4   0.0   8.1e-28   4.1e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.4 bits;  conditional E-value: 8.1e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      kIen+++RqvtFsKRr GL+KKA+EL+iLC+a+++vivfs tgk+y++
+  LOC_Os04g52410.2 10 KIENPTNRQVTFSKRRMGLLKKANELAILCDAQIGVIVFSGTGKMYEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os02g36924.1  pacid=33138545 transcript=LOC_Os02g36924.1 locus=LOC_Os02g36924 ID=LOC_Os02g36924.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.6   0.1     7e-28   3.6e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 88.6 bits;  conditional E-value: 7e-28
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n+++RqvtFsKRr+G+fKKA+EL+iLC+aev++++fs+tg+ly++
+  LOC_Os02g36924.1 10 RIDNSTSRQVTFSKRRNGIFKKAKELAILCDAEVGLMIFSSTGRLYEY 57
+                      79********************************************98 PP
+
+>> LOC_Os02g07430.1  pacid=33135740 transcript=LOC_Os02g07430.1 locus=LOC_Os02g07430 ID=LOC_Os02g07430.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.8   0.1   1.3e-27   6.6e-25       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.8 bits;  conditional E-value: 1.3e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++RqvtFsKRr GL+KKA+EL++LC+a v+v++fs+tgk++++
+  LOC_Os02g07430.1 10 RIENATNRQVTFSKRRGGLLKKANELAVLCDARVGVVIFSSTGKMFEY 57
+                      7*********************************************98 PP
+
+>> LOC_Os09g02830.1  pacid=33142791 transcript=LOC_Os09g02830.1 locus=LOC_Os09g02830 ID=LOC_Os09g02830.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.4   0.2   1.8e-27     9e-25       1      48 []      22      69 ..      22      69 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.4 bits;  conditional E-value: 1.8e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ie+++aRqv+FsKRr+G fKKAsELsiLC a+va +vfsp+gk y+f
+  LOC_Os09g02830.1 22 RIESEEARQVCFSKRRAGFFKKASELSILCSADVAAVVFSPAGKAYSF 69
+                      7**********************************************9 PP
+
+>> LOC_Os06g11330.1  pacid=33148253 transcript=LOC_Os06g11330.1 locus=LOC_Os06g11330 ID=LOC_Os06g11330.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.5   0.2   1.5e-27   7.8e-25       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 87.5 bits;  conditional E-value: 1.5e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ie+ +aRqvtFsKRr GLfKKA+EL++LC+a+va++vfs+tgkl +f
+  LOC_Os06g11330.1 10 RIESAAARQVTFSKRRRGLFKKAEELAVLCDADVALVVFSSTGKLSQF 57
+                      7********************************************887 PP
+
+>> LOC_Os01g74440.1  pacid=33121567 transcript=LOC_Os01g74440.1 locus=LOC_Os01g74440 ID=LOC_Os01g74440.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.4   0.2   1.8e-27     9e-25       1      48 []      24      71 ..      24      71 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 87.4 bits;  conditional E-value: 1.8e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ie+++aRqv+FsKRr+G fKKAsELsiLC a+va +vfsp+gk y+f
+  LOC_Os01g74440.1 24 RIESEEARQVCFSKRRAGFFKKASELSILCSADVAAVVFSPAGKAYSF 71
+                      7**********************************************9 PP
+
+>> LOC_Os08g33488.1  pacid=33105388 transcript=LOC_Os08g33488.1 locus=LOC_Os08g33488 ID=LOC_Os08g33488.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.3   0.2   1.8e-27   9.4e-25       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 87.3 bits;  conditional E-value: 1.8e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n ++RqvtFsKRr+GLfKKA+ELsiLC+aev+++vfs+t +ly f
+  LOC_Os08g33488.1 10 RIDNATSRQVTFSKRRSGLFKKARELSILCDAEVGLLVFSSTSRLYDF 57
+                      79********************************************98 PP
+
+>> LOC_Os04g23910.1  pacid=33107895 transcript=LOC_Os04g23910.1 locus=LOC_Os04g23910 ID=LOC_Os04g23910.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.6   0.0   3.1e-27   1.6e-24       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 86.6 bits;  conditional E-value: 3.1e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n  +RqvtFsKRr GL+KKA+EL+iLC+a+v++ivfs+tg+ly f
+  LOC_Os04g23910.1 10 RIDNTMNRQVTFSKRRGGLMKKARELAILCDADVGLIVFSCTGRLYDF 57
+                      79********************************************98 PP
+
+>> LOC_Os02g06860.1  pacid=33140095 transcript=LOC_Os02g06860.1 locus=LOC_Os02g06860 ID=LOC_Os02g06860.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.5   0.1   3.3e-27   1.7e-24       2      48 .]      32      78 ..      31      78 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 86.5 bits;  conditional E-value: 3.3e-27
+            SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      Ienk+aRqv+FsKRr+G fKKAsELs+LCga vav++fsp+g+++ f
+  LOC_Os02g06860.1 32 IENKEARQVCFSKRREGVFKKASELSVLCGARVAVVFFSPAGRPHCF 78
+                      9*******************************************976 PP
+
+>> LOC_Os03g08754.2  pacid=33131114 transcript=LOC_Os03g08754.2 locus=LOC_Os03g08754 ID=LOC_Os03g08754.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.5   0.2   3.4e-27   1.7e-24       1      48 []      29      76 ..      29      76 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 86.5 bits;  conditional E-value: 3.4e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n +aRqvtFsKRr GLfKKA+ELsiLC+aev+++vfs tgkl++f
+  LOC_Os03g08754.2 29 RIDNLAARQVTFSKRRRGLFKKAEELSILCDAEVGLVVFSATGKLFQF 76
+                      79999*****************************************98 PP
+
+>> LOC_Os03g08754.1  pacid=33131113 transcript=LOC_Os03g08754.1 locus=LOC_Os03g08754 ID=LOC_Os03g08754.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.4   0.2   3.4e-27   1.7e-24       1      48 []      29      76 ..      29      76 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 86.4 bits;  conditional E-value: 3.4e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n +aRqvtFsKRr GLfKKA+ELsiLC+aev+++vfs tgkl++f
+  LOC_Os03g08754.1 29 RIDNLAARQVTFSKRRRGLFKKAEELSILCDAEVGLVVFSATGKLFQF 76
+                      79999*****************************************98 PP
+
+>> LOC_Os06g49840.1  pacid=33145766 transcript=LOC_Os06g49840.1 locus=LOC_Os06g49840 ID=LOC_Os06g49840.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.1   0.1   4.3e-27   2.2e-24       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 86.1 bits;  conditional E-value: 4.3e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++Rqvt+sKRr+G++KKA+EL +LC+a+va+i+fs+tgk ++f
+  LOC_Os06g49840.1 10 RIENATNRQVTYSKRRTGIMKKARELTVLCDAQVAIIMFSSTGKYHEF 57
+                      7*********************************************98 PP
+
+>> LOC_Os06g49840.2  pacid=33145767 transcript=LOC_Os06g49840.2 locus=LOC_Os06g49840 ID=LOC_Os06g49840.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.1   0.1   4.3e-27   2.2e-24       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 86.1 bits;  conditional E-value: 4.3e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien ++Rqvt+sKRr+G++KKA+EL +LC+a+va+i+fs+tgk ++f
+  LOC_Os06g49840.2 10 RIENATNRQVTYSKRRTGIMKKARELTVLCDAQVAIIMFSSTGKYHEF 57
+                      7*********************************************98 PP
+
+>> LOC_Os01g69850.1  pacid=33121340 transcript=LOC_Os01g69850.1 locus=LOC_Os01g69850 ID=LOC_Os01g69850.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.4   0.1   7.1e-27   3.6e-24       1      48 []      66     113 ..      66     113 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 85.4 bits;  conditional E-value: 7.1e-27
+            SRF-TF   1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48 
+                       +Ie+k++Rqv FsKRr+GLfKKA EL+ LC++eva++vfsp gkly++
+  LOC_Os01g69850.1  66 RIEDKASRQVRFSKRRAGLFKKAFELALLCDVEVALLVFSPVGKLYEY 113
+                       7*********************************************98 PP
+
+>> LOC_Os03g11614.1  pacid=33129283 transcript=LOC_Os03g11614.1 locus=LOC_Os03g11614 ID=LOC_Os03g11614.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.2   0.2   8.1e-27   4.1e-24       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 85.2 bits;  conditional E-value: 8.1e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ienk +RqvtF KRr+GL+KKA+ELs LC+aeva+i+fs  g+l++f
+  LOC_Os03g11614.1 10 RIENKISRQVTFAKRRNGLLKKAYELSLLCDAEVALIIFSGRGRLFEF 57
+                      7*********************************************98 PP
+
+>> LOC_Os06g30810.1  pacid=33146678 transcript=LOC_Os06g30810.1 locus=LOC_Os06g30810 ID=LOC_Os06g30810.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.3   0.2   7.9e-27     4e-24       1      48 []      19      66 ..      19      66 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 85.3 bits;  conditional E-value: 7.9e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n+ +RqvtFsKRr+GLfKKAsELs+LCga vav+ fs++g++++f
+  LOC_Os06g30810.1 19 RIDNSGRRQVTFSKRRNGLFKKASELSTLCGASVAVVAFSSAGNVFAF 66
+                      79********************************************98 PP
+
+>> LOC_Os06g11970.1  pacid=33144614 transcript=LOC_Os06g11970.1 locus=LOC_Os06g11970 ID=LOC_Os06g11970.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.1   0.0   9.1e-27   4.6e-24       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 85.1 bits;  conditional E-value: 9.1e-27
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien  +RqvtFsKRr+GL+KKA+ELs+LC++++a+++fsp+g+l +f
+  LOC_Os06g11970.1 10 RIENIPNRQVTFSKRRNGLIKKAYELSVLCDIDIALLMFSPSGRLSHF 57
+                      7*******************************************9877 PP
+
+>> LOC_Os05g11380.2  pacid=33156173 transcript=LOC_Os05g11380.2 locus=LOC_Os05g11380 ID=LOC_Os05g11380.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.2   0.1   8.2e-27   4.2e-24       2      48 .]      36      82 ..      35      82 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 85.2 bits;  conditional E-value: 8.2e-27
+            SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      Ie+ + RqvtF+KR +GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  LOC_Os05g11380.2 36 IEDTADRQVTFCKRCNGLLKKAYELSMLCDAEVALIVFSSRGRLYEY 82
+                      9********************************************98 PP
+
+>> LOC_Os05g11380.1  pacid=33156172 transcript=LOC_Os05g11380.1 locus=LOC_Os05g11380 ID=LOC_Os05g11380.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.5   0.1   1.4e-26   7.1e-24       2      48 .]      36      82 ..      35      82 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 84.5 bits;  conditional E-value: 1.4e-26
+            SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      Ie+ + RqvtF+KR +GL+KKA+ELs+LC+aeva+ivfs+ g+ly++
+  LOC_Os05g11380.1 36 IEDTADRQVTFCKRCNGLLKKAYELSMLCDAEVALIVFSSRGRLYEY 82
+                      9********************************************98 PP
+
+>> LOC_Os12g31748.2  pacid=33151404 transcript=LOC_Os12g31748.2 locus=LOC_Os12g31748 ID=LOC_Os12g31748.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.5   0.0   1.2e-25   6.1e-23       1      48 []      10      57 ..      10      57 .. 0.98
+   2 ?    1.0   0.1       1.7   8.5e+02      19      29 ..     171     181 ..     167     184 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 81.5 bits;  conditional E-value: 1.2e-25
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+ +RqvtFsKRr GL+KKA+E+++LC+++va ivfs +g+l+++
+  LOC_Os12g31748.2 10 RIENEVSRQVTFSKRRPGLLKKAHEIAVLCDVDVAAIVFSAKGNLFHY 57
+                      7********************************************987 PP
+
+  == domain 2  score: 1.0 bits;  conditional E-value: 1.7
+            SRF-TF  19 LfKKAsELsiL 29 
+                       L KK  EL +L
+  LOC_Os12g31748.2 171 LEKKITELETL 181
+                       67*******99 PP
+
+>> LOC_Os12g31748.1  pacid=33151405 transcript=LOC_Os12g31748.1 locus=LOC_Os12g31748 ID=LOC_Os12g31748.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.6   0.0   1.1e-25   5.6e-23       1      48 []      10      57 ..      10      57 .. 0.98
+   2 ?    1.4   0.2       1.3   6.5e+02      19      29 ..     157     167 ..     141     170 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 81.6 bits;  conditional E-value: 1.1e-25
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+ +RqvtFsKRr GL+KKA+E+++LC+++va ivfs +g+l+++
+  LOC_Os12g31748.1 10 RIENEVSRQVTFSKRRPGLLKKAHEIAVLCDVDVAAIVFSAKGNLFHY 57
+                      7********************************************987 PP
+
+  == domain 2  score: 1.4 bits;  conditional E-value: 1.3
+            SRF-TF  19 LfKKAsELsiL 29 
+                       L KK  EL +L
+  LOC_Os12g31748.1 157 LEKKITELETL 167
+                       67*******99 PP
+
+>> LOC_Os06g45650.1  pacid=33147474 transcript=LOC_Os06g45650.1 locus=LOC_Os06g45650 ID=LOC_Os06g45650.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.4   0.2     3e-26   1.5e-23       1      48 []      10      57 ..      10      57 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 83.4 bits;  conditional E-value: 3e-26
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ie+ ++RqvtFsKRr+G +KKA+EL++LC+a+v+v+vfs++gkl+ f
+  LOC_Os06g45650.1 10 RIEDATRRQVTFSKRRAGFLKKANELAVLCDAQVGVVVFSDKGKLFDF 57
+                      7*********************************************98 PP
+
+>> LOC_Os05g34940.3  pacid=33156105 transcript=LOC_Os05g34940.3 locus=LOC_Os05g34940 ID=LOC_Os05g34940.3.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.3   0.1   6.6e-26   3.4e-23       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 82.3 bits;  conditional E-value: 6.6e-26
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+++RqvtFsKRr+G++KKA+E+ +LC+aev+v++fs++gkl  +
+  LOC_Os05g34940.3 10 RIENSTNRQVTFSKRRAGILKKAREIGVLCDAEVGVVIFSSAGKLSDY 57
+                      7*******************************************9766 PP
+
+>> LOC_Os05g34940.2  pacid=33156104 transcript=LOC_Os05g34940.2 locus=LOC_Os05g34940 ID=LOC_Os05g34940.2.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.1   0.1   7.6e-26   3.9e-23       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 82.1 bits;  conditional E-value: 7.6e-26
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+++RqvtFsKRr+G++KKA+E+ +LC+aev+v++fs++gkl  +
+  LOC_Os05g34940.2 10 RIENSTNRQVTFSKRRAGILKKAREIGVLCDAEVGVVIFSSAGKLSDY 57
+                      7*******************************************9765 PP
+
+>> LOC_Os05g34940.1  pacid=33156103 transcript=LOC_Os05g34940.1 locus=LOC_Os05g34940 ID=LOC_Os05g34940.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.1   0.1     8e-26   4.1e-23       1      48 []      10      57 ..      10      57 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 82.1 bits;  conditional E-value: 8e-26
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+++RqvtFsKRr+G++KKA+E+ +LC+aev+v++fs++gkl  +
+  LOC_Os05g34940.1 10 RIENSTNRQVTFSKRRAGILKKAREIGVLCDAEVGVVIFSSAGKLSDY 57
+                      7*******************************************9765 PP
+
+>> LOC_Os08g02070.1  pacid=33106269 transcript=LOC_Os08g02070.1 locus=LOC_Os08g02070 ID=LOC_Os08g02070.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.6   0.0   4.8e-25   2.4e-22       1      47 [.      10      56 ..      10      57 .. 0.98
+   2 ?    0.1   0.1       3.1   1.6e+03      14      26 ..     153     165 ..     149     166 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 79.6 bits;  conditional E-value: 4.8e-25
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklyt 47
+                      +Ien+  RqvtF+KRr+GL+KKA+ELsiLC a++++i+fs +gkly 
+  LOC_Os08g02070.1 10 RIENPVHRQVTFCKRRAGLLKKARELSILCEADIGIIIFSAHGKLYD 56
+                      7********************************************95 PP
+
+  == domain 2  score: 0.1 bits;  conditional E-value: 3.1
+            SRF-TF  14 KRrkGLfKKAsEL 26 
+                       K ++G++K A+E+
+  LOC_Os08g02070.1 153 KSKEGMLKAANEI 165
+                       6799*******96 PP
+
+>> LOC_Os12g21850.1  pacid=33151746 transcript=LOC_Os12g21850.1 locus=LOC_Os12g21850 ID=LOC_Os12g21850.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.1   0.1   1.6e-25   8.4e-23       1      48 []      19      66 ..      19      66 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 81.1 bits;  conditional E-value: 1.6e-25
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+nk++RqvtF+KRr GLfKKAsEL+ L+ga vav+vfsp++++y+f
+  LOC_Os12g21850.1 19 RIDNKERRQVTFTKRRGGLFKKASELALLTGASVAVVVFSPAKHVYAF 66
+                      79********************************************98 PP
+
+>> LOC_Os01g52680.1  pacid=33120775 transcript=LOC_Os01g52680.1 locus=LOC_Os01g52680 ID=LOC_Os01g52680.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.8   0.0   8.1e-25   4.1e-22       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 78.8 bits;  conditional E-value: 8.1e-25
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ien+++Rq tF KRr+GLfKKA+EL++LC+a+  +++fs +gkly+f
+  LOC_Os01g52680.1 10 RIENPTQRQSTFYKRRDGLFKKARELAVLCDADLLLLLFSASGKLYHF 57
+                      7*********************************************98 PP
+
+>> LOC_Os12g21880.1  pacid=33150817 transcript=LOC_Os12g21880.1 locus=LOC_Os12g21880 ID=LOC_Os12g21880.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.1   0.1   1.2e-23   6.1e-21       2      48 .]      14      60 ..      13      60 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 75.1 bits;  conditional E-value: 1.2e-23
+            SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      I+nk++RqvtF+KRr GLfKKAsEL+ L ga +av+vfs+t+  y+f
+  LOC_Os12g21880.1 14 IDNKERRQVTFTKRRGGLFKKASELALLAGASIAVVVFSETNLAYAF 60
+                      99*****************************************9998 PP
+
+>> LOC_Os06g22760.1  pacid=33147005 transcript=LOC_Os06g22760.1 locus=LOC_Os06g22760 ID=LOC_Os06g22760.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.5   0.3   1.8e-23   9.3e-21       1      48 []      10      57 ..      10      57 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 74.5 bits;  conditional E-value: 1.8e-23
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +I+n++aRqv+FsKRr   fKKAsEL + Cgaeva++v sp+gk+++f
+  LOC_Os06g22760.1 10 RIKNEEARQVCFSKRRPSVFKKASELYTVCGAEVAMLVKSPAGKFFSF 57
+                      7*********************************************99 PP
+
+>> LOC_Os05g23780.1  pacid=33158793 transcript=LOC_Os05g23780.1 locus=LOC_Os05g23780 ID=LOC_Os05g23780.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.3   0.1   1.8e-22   9.4e-20       1      48 []      17      64 ..      17      64 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 71.3 bits;  conditional E-value: 1.8e-22
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      +Ie+k+aR v+FsKRr++Lf KA ELs LC+a++a +v+sp+g+ ++f
+  LOC_Os05g23780.1 17 RIEKKDARDVCFSKRRQTLFNKAGELSLLCNANIAAVVISPAGRGFSF 64
+                      7*******************************************9998 PP
+
+>> LOC_Os06g30830.1  pacid=33144999 transcript=LOC_Os06g30830.1 locus=LOC_Os06g30830 ID=LOC_Os06g30830.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.5   0.5   1.4e-21   7.2e-19       2      48 .]      20      66 ..      19      66 .. 0.96
+   2 ?   -1.0   0.0       7.2   3.7e+03      40      46 ..     207     213 ..     206     214 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 68.5 bits;  conditional E-value: 1.4e-21
+            SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgklytf 48
+                      I+ k++RqvtFsKRr GLfKKAsE+s+L ga +a++ fs++g++++f
+  LOC_Os06g30830.1 20 IDGKEKRQVTFSKRRRGLFKKASEISTLSGASIAIVSFSKAGNVFAF 66
+                      67799****************************************98 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 7.2
+            SRF-TF  40 sptgkly 46 
+                       sptgkly
+  LOC_Os06g30830.1 207 SPTGKLY 213
+                       9*****9 PP
+
+>> LOC_Os09g02780.1  pacid=33141055 transcript=LOC_Os09g02780.1 locus=LOC_Os09g02780 ID=LOC_Os09g02780.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.1   0.0   6.5e-20   3.3e-17       2      44 ..       1      43 [.       1      47 [. 0.95
+   2 ?    0.9   0.0       1.8   9.1e+02      24      31 ..      82      89 ..      81      94 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 63.1 bits;  conditional E-value: 6.5e-20
+            SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgk 44
+                      +e+++aR+v+FsKRr+ LfK+AsELs+  +a+va +vfsp+g+
+  LOC_Os09g02780.1  1 MESEEARKVCFSKRRADLFKMASELSVHFNADVAAVVFSPAGN 43
+                      599*************************************986 PP
+
+  == domain 2  score: 0.9 bits;  conditional E-value: 1.8
+            SRF-TF 24 sELsiLCg 31
+                      +ELs LCg
+  LOC_Os09g02780.1 82 EELSRLCG 89
+                      7******8 PP
+
+>> LOC_Os11g43740.1  pacid=33163547 transcript=LOC_Os11g43740.1 locus=LOC_Os11g43740 ID=LOC_Os11g43740.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.4   0.0   1.3e-20   6.6e-18       1      46 [.      10      55 ..      10      57 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 65.4 bits;  conditional E-value: 1.3e-20
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptgkly 46
+                      k en+s R+vt+sKRr+G++KKA+ELsiLC++   +++fsp++k++
+  LOC_Os11g43740.1 10 KLENSSGRHVTYSKRRSGILKKAKELSILCDIPLILLMFSPNDKPT 55
+                      579****************************************985 PP
+
+>> LOC_Os01g18440.1  pacid=33125437 transcript=LOC_Os01g18440.1 locus=LOC_Os01g18440 ID=LOC_Os01g18440.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.9   0.0   3.7e-20   1.9e-17       1      41 [.      10      50 ..      10      55 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 63.9 bits;  conditional E-value: 3.7e-20
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                      +I n++ R++tF+KRr GL+KKAsEL++LC+++++++v+++
+  LOC_Os01g18440.1 10 RIANDATRRATFKKRRRGLLKKASELATLCDVDACLVVYGE 50
+                      79*************************************97 PP
+
+>> LOC_Os03g38610.1  pacid=33131796 transcript=LOC_Os03g38610.1 locus=LOC_Os03g38610 ID=LOC_Os03g38610.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.6   0.2   4.1e-19   2.1e-16       1      41 [.      10      50 ..      10      55 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 60.6 bits;  conditional E-value: 4.1e-19
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                      +I n+++R++tF+KR kGL+KKAsEL++LC+++ +++v+++
+  LOC_Os03g38610.1 10 RIINDAKRRATFKKRLKGLMKKASELATLCNVDTCLMVYGE 50
+                      799************************************86 PP
+
+>> LOC_Os01g68560.1  pacid=33125490 transcript=LOC_Os01g68560.1 locus=LOC_Os01g68560 ID=LOC_Os01g68560.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.0   0.0   5.4e-18   2.8e-15       2      43 ..      11      52 ..      10      57 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 57.0 bits;  conditional E-value: 5.4e-18
+            SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                      I n++ R +t++KR++GL+KKA EL++LC++ vav++ +p+g
+  LOC_Os01g68560.1 11 IANPQTRATTYKKRKAGLIKKAGELATLCDIPVAVVCAGPDG 52
+                      89**************************************98 PP
+
+>> LOC_Os03g14850.1  pacid=33132626 transcript=LOC_Os03g14850.1 locus=LOC_Os03g14850 ID=LOC_Os03g14850.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.5   0.1   7.8e-18     4e-15       4      43 ..      19      58 ..      16      65 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 56.5 bits;  conditional E-value: 7.8e-18
+            SRF-TF  4 nksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                      +k+ R ++FsKR +++f KA+EL+iLCg+ vav+++sp+ 
+  LOC_Os03g14850.1 19 DKKVRDACFSKRHTTIFNKANELAILCGVMVAVVFVSPNA 58
+                      8999*********************************974 PP
+
+>> LOC_Os01g18420.1  pacid=33120120 transcript=LOC_Os01g18420.1 locus=LOC_Os01g18420 ID=LOC_Os01g18420.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.7   0.2     6e-17     3e-14       2      41 ..      11      50 ..      10      55 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.7 bits;  conditional E-value: 6e-17
+            SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                      + ++s R+ tF+KRr GL+KKA EL+ LCg+ v+v+v+++
+  LOC_Os01g18420.1 11 VAKDSTRRLTFKKRRRGLIKKAGELASLCGIGVCVVVYGE 50
+                      6789**********************************95 PP
+
+>> LOC_Os04g31804.1  pacid=33107627 transcript=LOC_Os04g31804.1 locus=LOC_Os04g31804 ID=LOC_Os04g31804.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.8   0.1   1.1e-16   5.7e-14       1      43 [.      11      53 ..      11      56 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 52.8 bits;  conditional E-value: 1.1e-16
+            SRF-TF  1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsptg 43
+                      +Ie++ +R ++F KR +GL KK++EL++LC+a+v+++v s++g
+  LOC_Os04g31804.1 11 RIEDRVRRGICFRKRLAGLEKKVEELAVLCDAHVGFVVLSCSG 53
+                      7***************************************998 PP
+
+>> LOC_Os01g11510.1  pacid=33124622 transcript=LOC_Os01g11510.1 locus=LOC_Os01g11510 ID=LOC_Os01g11510.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.1   0.0   3.7e-16   1.9e-13       2      42 ..      13      53 ..      12      58 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 51.1 bits;  conditional E-value: 3.7e-16
+            SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                      +++++ R +tF KRr+GLfK As+LsiL+ga vav++ +++
+  LOC_Os01g11510.1 13 VDDERERDITFFKRRNGLFKCASDLSILTGASVAVVIEDQN 53
+                      689**********************************9876 PP
+
+>> LOC_Os01g67890.1  pacid=33121253 transcript=LOC_Os01g67890.1 locus=LOC_Os01g67890 ID=LOC_Os01g67890.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.5   0.0   2.5e-15   1.3e-12       2      42 ..     125     165 ..     124     174 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 48.5 bits;  conditional E-value: 2.5e-15
+            SRF-TF   2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfspt 42 
+                       Ien+++R++tF++Rr+GL +K+s++++LCg+e+ +i++ p+
+  LOC_Os01g67890.1 125 IENEKKRKATFKNRRDGLKQKVSQFATLCGVEALLICVAPA 165
+                       9************************************9873 PP
+
+>> LOC_Os01g23760.1  pacid=33123492 transcript=LOC_Os01g23760.1 locus=LOC_Os01g23760 ID=LOC_Os01g23760.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.1   0.2   3.2e-15   1.6e-12       2      41 ..      11      50 ..      10      51 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 48.1 bits;  conditional E-value: 3.2e-15
+            SRF-TF  2 IenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                      I  +++R +t+ KR++ L KKA+ELs+LCg+ va+++ +p
+  LOC_Os01g23760.1 11 IAHRQKRAATYAKRKESLRKKAEELSTLCGVRVAFVCAGP 50
+                      77899*******************************9876 PP
+
+>> LOC_Os03g37670.1  pacid=33133133 transcript=LOC_Os03g37670.1 locus=LOC_Os03g37670 ID=LOC_Os03g37670.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.2   0.1   1.1e-13   5.5e-11      12      41 ..       2      31 ..       1      35 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 43.2 bits;  conditional E-value: 1.1e-13
+            SRF-TF 12 FsKRrkGLfKKAsELsiLCgaevavivfsp 41
+                      F+KR+k L+KKAsELs+L g++++v+++ +
+  LOC_Os03g37670.1  2 FKKRQKSLMKKASELSTLYGVDACVVMYAE 31
+                      9**************************975 PP
+
+>> LOC_Os01g23770.1  pacid=33121235 transcript=LOC_Os01g23770.1 locus=LOC_Os01g23770 ID=LOC_Os01g23770.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8   0.1   1.5e-13   7.5e-11       6      36 ..      15      45 ..      11      46 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 1.5e-13
+            SRF-TF  6 saRqvtFsKRrkGLfKKAsELsiLCgaevav 36
+                      ++R +tF +R+++ +K+A+ELs+LC+a+vav
+  LOC_Os01g23770.1 15 KKRAATFARRKETVMKMAKELSVLCDAQVAV 45
+                      89***************************98 PP
+
+>> LOC_Os07g04170.1  pacid=33114516 transcript=LOC_Os07g04170.1 locus=LOC_Os07g04170 ID=LOC_Os07g04170.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.6   0.0   1.7e-13   8.8e-11       1      39 [.     144     182 ..     144     190 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 42.6 bits;  conditional E-value: 1.7e-13
+            SRF-TF   1 kIenksaRqvtFsKRrkGLfKKAsELsiLCgaevavivf 39 
+                       +Ie+++ R+ t sKRr+GLfK A++Ls L++a va+ + 
+  LOC_Os07g04170.1 144 YIEEDRDRSLTLSKRRDGLFKLANDLSLLTDASVAICLH 182
+                       69********************************97554 PP
+
+>> LOC_Os04g25870.1  pacid=33108449 transcript=LOC_Os04g25870.1 locus=LOC_Os04g25870 ID=LOC_Os04g25870.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.8   0.3   3.9e-10     2e-07       5      29 ..      14      38 ..      10      41 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 31.8 bits;  conditional E-value: 3.9e-10
+            SRF-TF  5 ksaRqvtFsKRrkGLfKKAsELsiL 29
+                      + +RqvtF+KR +GL KK+sE+++L
+  LOC_Os04g25870.1 14 DVKRQVTFKKRLNGLTKKVSEFATL 38
+                      579*********************9 PP
+
+>> LOC_Os04g24810.1  pacid=33112071 transcript=LOC_Os04g24810.1 locus=LOC_Os04g24810 ID=LOC_Os04g24810.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.5   0.3   8.7e-09   4.4e-06       5      29 ..      14      38 ..      10      41 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 27.5 bits;  conditional E-value: 8.7e-09
+            SRF-TF  5 ksaRqvtFsKRrkGLfKKAsELsiL 29
+                      + +R+vtF K  kGL+KK+sE+++L
+  LOC_Os04g24810.1 14 DVKRRVTFRKHLKGLMKKVSEFATL 38
+                      569*********************9 PP
+
+>> LOC_Os01g23780.1  pacid=33121393 transcript=LOC_Os01g23780.1 locus=LOC_Os01g23780 ID=LOC_Os01g23780.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   0.0   1.3e-08   6.4e-06      10      40 ..       7      37 ..       4      41 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 1.3e-08
+            SRF-TF 10 vtFsKRrkGLfKKAsELsiLCgaevavivfs 40
+                      +t+ K ++ L+  A+ELsiLCg++va+++ +
+  LOC_Os01g23780.1  7 ATYGKMQESLMEEARELSILCGVDVALLCAG 37
+                      6999999********************9875 PP
+
+>> LOC_Os01g23750.1  pacid=33120960 transcript=LOC_Os01g23750.1 locus=LOC_Os01g23750 ID=LOC_Os01g23750.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.8   0.2   1.5e-08   7.6e-06      15      38 ..       4      27 ..       3      32 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 26.8 bits;  conditional E-value: 1.5e-08
+            SRF-TF 15 RrkGLfKKAsELsiLCgaevaviv 38
+                      R+++ +K+A+ELs+LC++ va+++
+  LOC_Os01g23750.1  4 RKETVIKMAKELSVLCDVPVALVC 27
+                      9*********************98 PP
+
+>> LOC_Os01g68420.1  pacid=33120012 transcript=LOC_Os01g68420.1 locus=LOC_Os01g68420 ID=LOC_Os01g68420.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.3   0.0   1.8e-07     9e-05       7      38 ..      21      52 ..      19      62 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 23.3 bits;  conditional E-value: 1.8e-07
+            SRF-TF  7 aRqvtFsKRrkGLfKKAsELsiLCgaevaviv 38
+                      +R++    R++ L++KAs L++ C++ vavi+
+  LOC_Os01g68420.1 21 QRRAALEMRKERLVRKASSLATRCDVPVAVIC 52
+                      68899999**********************97 PP
+
+>> LOC_Os04g25930.1  pacid=33111578 transcript=LOC_Os04g25930.1 locus=LOC_Os04g25930 ID=LOC_Os04g25930.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.2   5.9e-06     0.003       6      29 ..      15      38 ..      10      41 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 5.9e-06
+            SRF-TF  6 saRqvtFsKRrkGLfKKAsELsiL 29
+                       + +vtF K  kGL KK+sE+++L
+  LOC_Os04g25930.1 15 VKQRVTFMKSLKGLTKKVSEFATL 38
+                      5789*******************9 PP
+
+>> LOC_Os04g24790.1  pacid=33110516 transcript=LOC_Os04g24790.1 locus=LOC_Os04g24790 ID=LOC_Os04g24790.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.2     9e-06    0.0046       6      29 ..      15      38 ..      10      41 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 9e-06
+            SRF-TF  6 saRqvtFsKRrkGLfKKAsELsiL 29
+                       + +vtF K  kGL KK+sE+++L
+  LOC_Os04g24790.1 15 VKQRVTFMKSLKGLTKKVSEFATL 38
+                      5789*******************9 PP
+
+>> LOC_Os04g25920.1  pacid=33112902 transcript=LOC_Os04g25920.1 locus=LOC_Os04g25920 ID=LOC_Os04g25920.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.2   9.3e-06    0.0047       6      29 ..      15      38 ..      10      41 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 9.3e-06
+            SRF-TF  6 saRqvtFsKRrkGLfKKAsELsiL 29
+                       + +vtF K  kGL KK+sE+++L
+  LOC_Os04g25920.1 15 VKQRVTFMKSLKGLTKKVSEFATL 38
+                      5789*******************9 PP
+
+>> LOC_Os08g07520.1  pacid=33103787 transcript=LOC_Os08g07520.1 locus=LOC_Os08g07520 ID=LOC_Os08g07520.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.0     9e-06    0.0046      10      42 ..      22      54 ..      15      58 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 9e-06
+            SRF-TF 10 vtFsKRrkGLfKKAsELsiLCgaevavivfspt 42
+                       tF +    L++ A EL+  Cga+v v+ + p+
+  LOC_Os08g07520.1 22 STFERLHGELVREAGELAASCGADVTVLAVPPA 54
+                      699999999*******************99876 PP
+
+>> LOC_Os04g24800.1  pacid=33113211 transcript=LOC_Os04g24800.1 locus=LOC_Os04g24800 ID=LOC_Os04g24800.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.4   0.3   1.2e-05    0.0063       7      29 ..      16      38 ..      13      41 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 17.4 bits;  conditional E-value: 1.2e-05
+            SRF-TF  7 aRqvtFsKRrkGLfKKAsELsiL 29
+                      + +vtF K  kGL KK+sE+++L
+  LOC_Os04g24800.1 16 KQRVTFMKSLKGLTKKVSEFATL 38
+                      679*******************9 PP
+
+>> LOC_Os02g07340.1  pacid=33136471 transcript=LOC_Os02g07340.1 locus=LOC_Os02g07340 ID=LOC_Os02g07340.1.MSUv7.0 annot-v
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.3   0.00034      0.17      17      39 ..     458     480 ..     456     486 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.00034
+            SRF-TF  17 kGLfKKAsELsiLCgaevavivf 39 
+                       kG++KK +EL+ LC +   v++f
+  LOC_Os02g07340.1 458 KGIYKKIDELCLLCMIRRSVVLF 480
+                       7*************999999988 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (48 nodes)
+Target sequences:                      52424  (19596263 residues searched)
+Passed MSV filter:                      1148  (0.0218984); expected 1048.5 (0.02)
+Passed bias filter:                     1042  (0.0198764); expected 1048.5 (0.02)
+Passed Vit filter:                       149  (0.00284221); expected 52.4 (0.001)
+Passed Fwd filter:                       103  (0.00196475); expected 0.5 (1e-05)
+Initial search space (Z):              52424  [actual number of targets]
+Domain search space  (domZ):             103  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.08
+# Mc/sec: 10610.84
+//
+[ok]

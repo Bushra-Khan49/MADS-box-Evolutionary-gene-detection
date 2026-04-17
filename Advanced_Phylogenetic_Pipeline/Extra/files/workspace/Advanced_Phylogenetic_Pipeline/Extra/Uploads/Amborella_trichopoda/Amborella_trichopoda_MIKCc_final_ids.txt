@@ -1,0 +1,16 @@
+evm_27.model.AmTr_v1.0_scaffold00001.225
+evm_27.model.AmTr_v1.0_scaffold00001.409
+evm_27.model.AmTr_v1.0_scaffold00001.413
+evm_27.model.AmTr_v1.0_scaffold00001.461
+evm_27.model.AmTr_v1.0_scaffold00013.53
+evm_27.model.AmTr_v1.0_scaffold00013.60
+evm_27.model.AmTr_v1.0_scaffold00021.296
+evm_27.model.AmTr_v1.0_scaffold00046.134
+evm_27.model.AmTr_v1.0_scaffold00047.105
+evm_27.model.AmTr_v1.0_scaffold00047.121
+evm_27.model.AmTr_v1.0_scaffold00053.185
+evm_27.model.AmTr_v1.0_scaffold00066.97
+evm_27.model.AmTr_v1.0_scaffold00071.203
+evm_27.model.AmTr_v1.0_scaffold00089.36
+evm_27.model.AmTr_v1.0_scaffold00095.150
+evm_27.model.AmTr_v1.0_scaffold00127.17

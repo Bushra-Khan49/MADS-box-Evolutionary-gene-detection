@@ -1,0 +1,377 @@
+IQ-TREE 2.3.6 built Jul 30 2024
+
+Input file name: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Amborella_trichopoda_MUSCLE_Aligned.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 227300
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 61 sequences with 883 amino-acid sites
+Number of constant sites: 432 (= 48.9241% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 432 (= 48.9241% of all sites)
+Number of parsimony informative sites: 248
+Number of distinct site patterns: 683
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0507
+  pi(R) = 0.0685
+  pi(N) = 0.0532
+  pi(D) = 0.0431
+  pi(C) = 0.0168
+  pi(Q) = 0.0675
+  pi(E) = 0.0910
+  pi(G) = 0.0507
+  pi(H) = 0.0251
+  pi(I) = 0.0528
+  pi(L) = 0.1068
+  pi(K) = 0.0767
+  pi(M) = 0.0309
+  pi(F) = 0.0276
+  pi(P) = 0.0270
+  pi(S) = 0.0831
+  pi(T) = 0.0450
+  pi(W) = 0.0088
+  pi(Y) = 0.0287
+  pi(V) = 0.0460
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.7836
+
+ Category  Relative_rate  Proportion
+  1         0.0921         0.2500
+  2         0.4005         0.2500
+  3         0.9523         0.2500
+  4         2.5552         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -24917.9795 (s.e. 1261.1089)
+Unconstrained log-likelihood (without tree): -5595.0364
+Number of free parameters (#branches + #model parameters): 139
+Akaike information criterion (AIC) score: 50113.9591
+Corrected Akaike information criterion (AICc) score: 50166.3413
+Bayesian information criterion (BIC) score: 50778.8413
+
+Total tree length (sum of branch lengths): 62.1933
+Sum of internal branch lengths: 21.7052 (34.8996% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0011) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'AT1G59810.1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----------------------------------------------------AT1G59810.1
+|
+|                                                         +-----AT1G69540.2
+|                                      +------------------| (100)
+|                                      |                  +---------AT2G03060.2
+|                             +--------| (98)
+|                             |        |               +--AT1G77980.1
+|                             |        |            +--| (99)
+|                             |        |            |  +--AT1G22130.1
+|                             |        +------------| (100)
+|                             |                     +--AT1G77950.4
+|                          +--| (38)
+|                          |  +---------------------------AT1G31140.2
+|                       +--| (40)
+|                       |  |           +--evm_27.model.AmTr_v1.0_scaffold00001.225
+|                       |  |        +--| (100)
+|                       |  |        |  +--evm_27.model.AmTr_v1.0_scaffold00066.97
+|                       |  |     +--| (99)
+|                       |  |     |  +-------------AT3G54340.1
+|                       |  |  +--| (97)
+|                       |  |  |  |   +------evm_27.model.AmTr_v1.0_scaffold00089.36
+|                       |  |  |  +---| (100)
+|                       |  |  |      +------AT5G20240.1
+|                       |  +--| (80)
+|                       |     |  +----------AT5G23260.4
+|                       |     +--| (79)
+|                       |        +---evm_27.model.AmTr_v1.0_scaffold00001.461
+|                    +--| (51)
+|                    |  |            +------evm_27.model.AmTr_v1.0_scaffold00053.185
+|                    |  |         +--| (88)
+|                    |  |         |  +------AT5G13790.2
+|                    |  |     +---| (78)
+|                    |  |     |   +----------AT3G57390.1
+|                    |  |  +**| (47)
+|                    |  |  |  |           +---evm_27.model.AmTr_v1.0_scaffold00127.17
+|                    |  |  |  |  +--------| (100)
+|                    |  |  |  |  |        |  +--AT2G22540.1
+|                    |  |  |  |  |        +--| (99)
+|                    |  |  |  |  |           +------AT4G24540.1
+|                    |  |  |  +--| (78)
+|                    |  |  |     |           +-----AT2G14210.2
+|                    |  |  |     |        +--| (91)
+|                    |  |  |     |        |  |  +--AT2G22630.2
+|                    |  |  |     |        |  +--| (100)
+|                    |  |  |     |        |     +--AT4G37940.1
+|                    |  |  |     |     +--| (85)
+|                    |  |  |     |     |  +--AT3G57230.1
+|                    |  |  |     +-----| (100)
+|                    |  |  |           +--evm_27.model.AmTr_v1.0_scaffold00046.134
+|                    |  +--| (48)
+|                    |     |                      +---AT5G65080.2
+|                    |     |                   +--| (100)
+|                    |     |                   |  +--AT5G65070.1
+|                    |     |                +--| (99)
+|                    |     |                |  |  +--AT1G77080.8
+|                    |     |                |  +--| (98)
+|                    |     |                |     |  +--AT5G65050.3
+|                    |     |                |     +--| (100)
+|                    |     |                |        +--AT5G65060.1
+|                    |     +----------------| (100)
+|                    |                      +--AT5G10140.1
+|                 +--| (49)
+|                 |  |                +--AT4G18960.1
+|                 |  |             +--| (85)
+|                 |  |             |  +--evm_27.model.AmTr_v1.0_scaffold00021.296
+|                 |  |          +--| (76)
+|                 |  |          |  +--evm_27.model.AmTr_v1.0_scaffold00071.203
+|                 |  |       +--| (66)
+|                 |  |       |  +--AT4G09960.4
+|                 |  +-------| (100)
+|                 |          |  +--AT2G42830.2
+|                 |          +--| (100)
+|                 |             +--AT3G58780.4
+|              +--| (52)
+|              |  |            +----------AT3G30260.1
+|              |  |         +--| (88)
+|              |  |         |  |     +--AT1G26310.1
+|              |  |         |  |  +--| (100)
+|              |  |         |  |  |  +--AT1G69120.1
+|              |  |         |  +--| (99)
+|              |  |         |     +----AT5G60910.1
+|              |  |     +---| (100)
+|              |  |     |   +---evm_27.model.AmTr_v1.0_scaffold00047.105
+|              |  |  +--| (97)
+|              |  |  |  |     +---AT1G24260.2
+|              |  |  |  |  +--| (100)
+|              |  |  |  |  |  |        +----AT2G03710.1
+|              |  |  |  |  |  |     +--| (87)
+|              |  |  |  |  |  |     |  |  +--AT3G02310.1
+|              |  |  |  |  |  |     |  +--| (100)
+|              |  |  |  |  |  |     |     +--AT5G15800.2
+|              |  |  |  |  |  |  +--| (85)
+|              |  |  |  |  |  |  |  +--evm_27.model.AmTr_v1.0_scaffold00047.121
+|              |  |  |  |  |  +--| (82)
+|              |  |  |  |  |     +--evm_27.model.AmTr_v1.0_scaffold00013.53
+|              |  |  |  +--| (96)
+|              |  |  |     |     +---AT3G61120.1
+|              |  |  |     |  +--| (100)
+|              |  |  |     |  |  +--AT2G45650.1
+|              |  |  |     +--| (100)
+|              |  |  |        +--evm_27.model.AmTr_v1.0_scaffold00001.413
+|              |  +--| (62)
+|              |     +-----------------------evm_27.model.AmTr_v1.0_scaffold00013.60
+|           +**| (28)
+|           |  +----------------AT1G71692.1
++-----------| (92)
+|           |           +--AT2G45660.1
+|           |        +--| (85)
+|           |        |  |    +--AT5G62165.2
+|           |        |  +----| (100)
+|           |        |       |    +----AT5G51860.1
+|           |        |       +----| (100)
+|           |        |            +---AT5G51870.3
+|           |     +--| (83)
+|           |     |  +--evm_27.model.AmTr_v1.0_scaffold00001.409
+|           +-----| (97)
+|                 |  +--AT4G11880.1
+|                 +--| (98)
+|                    +--AT4G22950.1
+|
++-------------------------------------evm_27.model.AmTr_v1.0_scaffold00095.150
+
+Tree in newick format:
+
+(AT1G59810.1:5.6423808586,(((((((((AT1G69540.2:0.6966058124,AT2G03060.2:1.0976439564)100:2.0214123930,((AT1G77980.1:0.1405976070,AT1G22130.1:0.2131948572)99:0.1629575048,AT1G77950.4:0.3627576649)100:1.3641723440)98:0.9681354069,AT1G31140.2:2.9571018607)38:0.2115798589,((((evm_27.model.AmTr_v1.0_scaffold00001.225:0.2532731840,evm_27.model.AmTr_v1.0_scaffold00066.97:0.2661113352)100:0.3532074153,AT3G54340.1:1.5517965914)99:0.3996931235,(evm_27.model.AmTr_v1.0_scaffold00089.36:0.8011565202,AT5G20240.1:0.8031930978)100:0.4633497915)97:0.1419759726,(AT5G23260.4:1.1576967355,evm_27.model.AmTr_v1.0_scaffold00001.461:0.5085477785)79:0.2718291976)80:0.4134087105)40:0.2097281312,((((evm_27.model.AmTr_v1.0_scaffold00053.185:0.8010440803,AT5G13790.2:0.7675159818)88:0.2987024051,AT3G57390.1:1.2411273159)78:0.4878195809,((evm_27.model.AmTr_v1.0_scaffold00127.17:0.4275306575,(AT2G22540.1:0.2806527078,AT4G24540.1:0.7937896862)99:0.1682000795)100:0.9726799330,(((AT2G14210.2:0.6912927913,(AT2G22630.2:0.2202323526,AT4G37940.1:0.1460100977)100:0.1721407043)91:0.0688413156,AT3G57230.1:0.3953134883)85:0.1239100511,evm_27.model.AmTr_v1.0_scaffold00046.134:0.2879289212)100:0.6596932991)78:0.1104898953)47:0.0000029734,(((AT5G65080.2:0.4348423440,AT5G65070.1:0.2204257650)100:0.1567949811,(AT1G77080.8:0.1485159862,(AT5G65050.3:0.1071962474,AT5G65060.1:0.0695530536)100:0.1282118046)98:0.0957781535)99:0.3254169555,AT5G10140.1:0.2283408172)100:1.7769650720)48:0.1259351429)51:0.1662565453,((((AT4G18960.1:0.3472903494,evm_27.model.AmTr_v1.0_scaffold00021.296:0.1262054981)85:0.0880248077,evm_27.model.AmTr_v1.0_scaffold00071.203:0.2002869400)76:0.1083146795,AT4G09960.4:0.3940499552)66:0.0836235842,(AT2G42830.2:0.0895682608,AT3G58780.4:0.0985971008)100:0.3385626533)100:0.9179562007)49:0.1160888657,((((AT3G30260.1:1.1523993048,((AT1G26310.1:0.2097053917,AT1G69120.1:0.0766021862)100:0.3816636240,AT5G60910.1:0.5955170184)99:0.0805403450)88:0.0945457605,evm_27.model.AmTr_v1.0_scaffold00047.105:0.4273272020)100:0.5202128894,((AT1G24260.2:0.4957801132,(((AT2G03710.1:0.6083088778,(AT3G02310.1:0.0930964257,AT5G15800.2:0.0510723681)100:0.2297851908)87:0.1598974972,evm_27.model.AmTr_v1.0_scaffold00047.121:0.1205800781)85:0.0887576643,evm_27.model.AmTr_v1.0_scaffold00013.53:0.1902806093)82:0.0248765131)100:0.3703137938,((AT3G61120.1:0.5048297872,AT2G45650.1:0.1192820985)100:0.3332737706,evm_27.model.AmTr_v1.0_scaffold00001.413:0.1075673165)100:0.3186111806)96:0.3186516741)97:0.3688002618,evm_27.model.AmTr_v1.0_scaffold00013.60:2.5360318462)62:0.0385136253)52:0.1830695736,AT1G71692.1:1.8038198937)28:0.0000025048,(((AT2G45660.1:0.3814888855,(AT5G62165.2:0.3198237476,(AT5G51860.1:0.5217370920,AT5G51870.3:0.4823744856)100:0.5644225383)100:0.5273266035)85:0.1269627971,evm_27.model.AmTr_v1.0_scaffold00001.409:0.3226092747)83:0.2018320352,(AT4G11880.1:0.1887465065,AT4G22950.1:0.1927269040)98:0.3940754782)97:0.6316348196)92:1.2755860830,evm_27.model.AmTr_v1.0_scaffold00095.150:4.0170165476);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -24917.979608
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------AT1G59810.1
+|
+|                                                         +-----AT1G69540.2
+|                                      +------------------| (100)
+|                                      |                  +---------AT2G03060.2
+|                             +--------| (98)
+|                             |        |               +--AT1G77980.1
+|                             |        |            +--| (99)
+|                             |        |            |  +--AT1G22130.1
+|                             |        +------------| (100)
+|                             |                     +--AT1G77950.4
+|                          +--| (38)
+|                          |  +---------------------------AT1G31140.2
+|                       +--| (40)
+|                       |  |           +--evm_27.model.AmTr_v1.0_scaffold00001.225
+|                       |  |        +--| (100)
+|                       |  |        |  +--evm_27.model.AmTr_v1.0_scaffold00066.97
+|                       |  |     +--| (99)
+|                       |  |     |  +-------------AT3G54340.1
+|                       |  |  +--| (97)
+|                       |  |  |  |   +------evm_27.model.AmTr_v1.0_scaffold00089.36
+|                       |  |  |  +---| (100)
+|                       |  |  |      +------AT5G20240.1
+|                       |  +--| (80)
+|                       |     |  +----------AT5G23260.4
+|                       |     +--| (79)
+|                       |        +---evm_27.model.AmTr_v1.0_scaffold00001.461
+|                    +--| (51)
+|                    |  |            +------evm_27.model.AmTr_v1.0_scaffold00053.185
+|                    |  |         +--| (88)
+|                    |  |         |  +------AT5G13790.2
+|                    |  |     +---| (78)
+|                    |  |     |   +----------AT3G57390.1
+|                    |  |  +--| (47)
+|                    |  |  |  |           +---evm_27.model.AmTr_v1.0_scaffold00127.17
+|                    |  |  |  |  +--------| (100)
+|                    |  |  |  |  |        |  +--AT2G22540.1
+|                    |  |  |  |  |        +--| (99)
+|                    |  |  |  |  |           +------AT4G24540.1
+|                    |  |  |  +--| (78)
+|                    |  |  |     |           +-----AT2G14210.2
+|                    |  |  |     |        +--| (91)
+|                    |  |  |     |        |  |  +--AT2G22630.2
+|                    |  |  |     |        |  +--| (100)
+|                    |  |  |     |        |     +--AT4G37940.1
+|                    |  |  |     |     +--| (85)
+|                    |  |  |     |     |  +--AT3G57230.1
+|                    |  |  |     +-----| (100)
+|                    |  |  |           +--evm_27.model.AmTr_v1.0_scaffold00046.134
+|                    |  +--| (48)
+|                    |     |                      +---AT5G65080.2
+|                    |     |                   +--| (100)
+|                    |     |                   |  +--AT5G65070.1
+|                    |     |                +--| (99)
+|                    |     |                |  |  +--AT1G77080.8
+|                    |     |                |  +--| (98)
+|                    |     |                |     |  +--AT5G65050.3
+|                    |     |                |     +--| (100)
+|                    |     |                |        +--AT5G65060.1
+|                    |     +----------------| (100)
+|                    |                      +--AT5G10140.1
+|                 +--| (49)
+|                 |  |                +--AT4G18960.1
+|                 |  |             +--| (85)
+|                 |  |             |  +--evm_27.model.AmTr_v1.0_scaffold00021.296
+|                 |  |          +--| (76)
+|                 |  |          |  +--evm_27.model.AmTr_v1.0_scaffold00071.203
+|                 |  |       +--| (66)
+|                 |  |       |  +--AT4G09960.4
+|                 |  +-------| (100)
+|                 |          |  +--AT2G42830.2
+|                 |          +--| (100)
+|                 |             +--AT3G58780.4
+|              +--| (52)
+|              |  |            +----------AT3G30260.1
+|              |  |         +--| (88)
+|              |  |         |  |     +--AT1G26310.1
+|              |  |         |  |  +--| (100)
+|              |  |         |  |  |  +--AT1G69120.1
+|              |  |         |  +--| (99)
+|              |  |         |     +----AT5G60910.1
+|              |  |     +---| (100)
+|              |  |     |   +---evm_27.model.AmTr_v1.0_scaffold00047.105
+|              |  |  +--| (97)
+|              |  |  |  |     +---AT1G24260.2
+|              |  |  |  |  +--| (100)
+|              |  |  |  |  |  |        +----AT2G03710.1
+|              |  |  |  |  |  |     +--| (87)
+|              |  |  |  |  |  |     |  |  +--AT3G02310.1
+|              |  |  |  |  |  |     |  +--| (100)
+|              |  |  |  |  |  |     |     +--AT5G15800.2
+|              |  |  |  |  |  |  +--| (85)
+|              |  |  |  |  |  |  |  +--evm_27.model.AmTr_v1.0_scaffold00047.121
+|              |  |  |  |  |  +--| (82)
+|              |  |  |  |  |     +--evm_27.model.AmTr_v1.0_scaffold00013.53
+|              |  |  |  +--| (96)
+|              |  |  |     |     +---AT3G61120.1
+|              |  |  |     |  +--| (100)
+|              |  |  |     |  |  +--AT2G45650.1
+|              |  |  |     +--| (100)
+|              |  |  |        +--evm_27.model.AmTr_v1.0_scaffold00001.413
+|              |  +--| (62)
+|              |     +-----------------------evm_27.model.AmTr_v1.0_scaffold00013.60
+|           +--| (28)
+|           |  +----------------AT1G71692.1
++-----------| (92)
+|           |           +--AT2G45660.1
+|           |        +--| (85)
+|           |        |  |    +--AT5G62165.2
+|           |        |  +----| (100)
+|           |        |       |    +----AT5G51860.1
+|           |        |       +----| (100)
+|           |        |            +---AT5G51870.3
+|           |     +--| (83)
+|           |     |  +--evm_27.model.AmTr_v1.0_scaffold00001.409
+|           +-----| (97)
+|                 |  +--AT4G11880.1
+|                 +--| (98)
+|                    +--AT4G22950.1
+|
++-------------------------------------evm_27.model.AmTr_v1.0_scaffold00095.150
+
+
+Consensus tree in newick format: 
+
+(AT1G59810.1:5.6414605222,(((((((((AT1G69540.2:0.6969715118,AT2G03060.2:1.0972354968)100:2.0209407498,((AT1G77980.1:0.1405809005,AT1G22130.1:0.2131836366)99:0.1628297321,AT1G77950.4:0.3628985937)100:1.3641590497)98:0.9677837237,AT1G31140.2:2.9564826503)38:0.2119881580,((((evm_27.model.AmTr_v1.0_scaffold00001.225:0.2532535198,evm_27.model.AmTr_v1.0_scaffold00066.97:0.2660904163)100:0.3531588431,AT3G54340.1:1.5516956056)99:0.3997089882,(evm_27.model.AmTr_v1.0_scaffold00089.36:0.8010655090,AT5G20240.1:0.8031411778)100:0.4632879004)97:0.1420472720,(AT5G23260.4:1.1575612004,evm_27.model.AmTr_v1.0_scaffold00001.461:0.5085059718)79:0.2717597960)80:0.4134924191)40:0.2097539389,((((evm_27.model.AmTr_v1.0_scaffold00053.185:0.8007163900,AT5G13790.2:0.7675381622)88:0.2986254336,AT3G57390.1:1.2411130631)78:0.4878813642,((evm_27.model.AmTr_v1.0_scaffold00127.17:0.4272557040,(AT2G22540.1:0.2805879420,AT4G24540.1:0.7937039168)99:0.1683690326)100:0.9727758330,(((AT2G14210.2:0.6912273918,(AT2G22630.2:0.2202074010,AT4G37940.1:0.1459884725)100:0.1721038586)91:0.0688402067,AT3G57230.1:0.3952418648)85:0.1238811930,evm_27.model.AmTr_v1.0_scaffold00046.134:0.2879160961)100:0.6599092856)78:0.1102444381)47:0.0000023246,(((AT5G65080.2:0.4347735841,AT5G65070.1:0.2204239665)100:0.1567844840,(AT1G77080.8:0.1485041713,(AT5G65050.3:0.1071882184,AT5G65060.1:0.0695420260)100:0.1281892966)98:0.0957538166)99:0.3243683711,AT5G10140.1:0.2297521330)100:1.7751451533)48:0.1258719904)51:0.1663060842,((((AT4G18960.1:0.3472664284,evm_27.model.AmTr_v1.0_scaffold00021.296:0.1261912571)85:0.0880206454,evm_27.model.AmTr_v1.0_scaffold00071.203:0.2002689075)76:0.1083211759,AT4G09960.4:0.3939976059)66:0.0836767446,(AT2G42830.2:0.0895151256,AT3G58780.4:0.0986211881)100:0.3384221021)100:0.9177914545)49:0.1157667252,((((AT3G30260.1:1.1523276279,((AT1G26310.1:0.2096737818,AT1G69120.1:0.0766145074)100:0.3816359715,AT5G60910.1:0.5954951035)99:0.0805418806)88:0.0944935167,evm_27.model.AmTr_v1.0_scaffold00047.105:0.4274402153)100:0.5201536965,((AT1G24260.2:0.4957555077,(((AT2G03710.1:0.6082852929,(AT3G02310.1:0.0930973321,AT5G15800.2:0.0510671888)100:0.2297762963)87:0.1598945906,evm_27.model.AmTr_v1.0_scaffold00047.121:0.1205807313)85:0.0887507576,evm_27.model.AmTr_v1.0_scaffold00013.53:0.1902768421)82:0.0248776139)100:0.3701945151,((AT3G61120.1:0.5048120048,AT2G45650.1:0.1192745861)100:0.3332569236,evm_27.model.AmTr_v1.0_scaffold00001.413:0.1075630162)100:0.3187486572)96:0.3185913336)97:0.3683370497,evm_27.model.AmTr_v1.0_scaffold00013.60:2.5355202570)62:0.0393303115)52:0.1831026408,AT1G71692.1:1.8037845397)28:0.0000025491,(((AT2G45660.1:0.3814470012,(AT5G62165.2:0.3198640798,(AT5G51860.1:0.5217414552,AT5G51870.3:0.4823222433)100:0.5643967346)100:0.5272935004)85:0.1269995271,evm_27.model.AmTr_v1.0_scaffold00001.409:0.3225891991)83:0.2016685987,(AT4G11880.1:0.1887500603,AT4G22950.1:0.1927063452)98:0.3943072475)97:0.6315455223)92:1.2762565973,evm_27.model.AmTr_v1.0_scaffold00095.150:4.0165729753);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Amborella_trichopoda_MUSCLE_ML.treefile -m "LG+F+G4{0.783625}" --length 883
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Amborella_trichopoda_MUSCLE_Aligned.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Amborella_trichopoda_MUSCLE_Aligned.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Apr 14 02:47:36 2026
+Total CPU time used: 1556.359153 seconds (0h:25m:56s)
+Total wall-clock time used: 546.4935322 seconds (0h:9m:6s)
+

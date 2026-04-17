@@ -1,0 +1,213 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Bushras-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Oryza_sativa_MAFFT_Aligned.fa -m LG -B 1000 -pre Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML -nt AUTO -redo
+Seed:    589457 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr 13 19:59:16 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Alignments_FullLength/Oryza_sativa_MAFFT_Aligned.fa ... Fasta format detected
+Reading fasta file: done in 0.0040462 secs using 37.71% CPU
+Alignment most likely contains protein sequences
+Alignment has 84 sequences with 966 columns, 748 distinct patterns
+346 parsimony-informative, 236 singleton sites, 384 constant sites
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000519037 secs using 52.6% CPU
+   1  LOC_Os10g39130.1   75.88%    passed     18.22%
+   2  LOC_Os08g41950.1   67.91%    passed     56.54%
+   3  LOC_Os08g41960.1   81.06%    passed     49.92%
+   4  LOC_Os08g33488.1   83.54%    passed     94.12%
+   5  LOC_Os08g02070.1   77.02%    passed     39.10%
+   6  LOC_Os04g31804.1   74.22%    failed      0.73%
+   7  LOC_Os04g23910.1   76.50%    passed     91.39%
+   8  LOC_Os04g49150.1   73.71%    passed     86.07%
+   9  LOC_Os04g52410.2   75.16%    passed     21.40%
+  10  LOC_Os07g41370.1   74.22%    passed     43.77%
+  11  LOC_Os07g01820.1   69.36%    passed     37.15%
+  12  LOC_Os01g10504.1   70.29%    passed      8.54%
+  13  LOC_Os01g66290.1   72.57%    failed      3.25%
+  14  LOC_Os01g52680.1   79.71%    passed     71.02%
+  15  LOC_Os01g66030.1   78.36%    passed     80.64%
+  16  LOC_Os03g54170.1   75.26%    passed     16.29%
+  17  LOC_Os03g11614.1   73.40%    passed     12.37%
+  18  LOC_Os03g54160.1   73.81%    passed     89.82%
+  19  LOC_Os03g08754.1   74.12%    passed      7.11%
+  20  LOC_Os02g52340.1   76.40%    passed     56.66%
+  21  LOC_Os02g07430.1   73.08%    passed     51.76%
+  22  LOC_Os02g49840.1   75.05%    passed     80.34%
+  23  LOC_Os02g45770.1   74.12%    passed     72.50%
+  24  LOC_Os02g01355.1   71.95%    passed      9.79%
+  25  LOC_Os02g36924.1   75.16%    passed     98.99%
+  26  LOC_Os02g01365.1   50.00%    failed      0.15%
+  27  LOC_Os09g32948.1   74.33%    passed     81.70%
+  28  LOC_Os06g49840.1   76.81%    passed     16.51%
+  29  LOC_Os06g01890.1   77.95%    passed     78.86%
+  30  LOC_Os06g45650.1   77.12%    passed     17.51%
+  31  LOC_Os06g11330.1   79.40%    passed     63.94%
+  32  LOC_Os06g06750.1   76.71%    passed     87.83%
+  33  LOC_Os12g10520.1   79.09%    passed     25.38%
+  34  LOC_Os12g31748.2   74.43%    passed     94.37%
+  35  LOC_Os12g10540.3   72.05%    failed      0.06%
+  36  LOC_Os05g11414.1   70.19%    passed     48.86%
+  37  LOC_Os05g34940.1   77.74%    passed     91.68%
+  38  LOC_Os05g11380.1   84.68%    passed     46.53%
+  39  LOC_Os11g43740.1   59.42%    failed      0.01%
+  40  AT1G22130.1        65.32%    passed     36.67%
+  41  AT1G24260.2        74.02%    passed     47.12%
+  42  AT1G26310.1        73.60%    passed     68.87%
+  43  AT1G31140.2        77.74%    passed     77.34%
+  44  AT1G59810.1        70.70%    failed      0.19%
+  45  AT1G69120.1        73.50%    passed     45.95%
+  46  AT1G69540.2        62.01%    passed     29.34%
+  47  AT1G71692.1        78.16%    passed     60.59%
+  48  AT1G77080.8        76.92%    passed     34.95%
+  49  AT1G77950.4        73.91%    passed     49.79%
+  50  AT1G77980.1        65.63%    passed     50.89%
+  51  AT2G03060.2        60.04%    failed      0.14%
+  52  AT2G03710.1        73.29%    passed     91.18%
+  53  AT2G14210.2        75.67%    passed     67.44%
+  54  AT2G22540.1        75.16%    passed     73.87%
+  55  AT2G22630.2        76.50%    passed     83.52%
+  56  AT2G42830.2        74.33%    passed     26.82%
+  57  AT2G45650.1        73.91%    passed     80.50%
+  58  AT2G45660.1        77.85%    passed     45.98%
+  59  AT3G02310.1        74.12%    passed     25.02%
+  60  AT3G30260.1        74.22%    passed     37.35%
+  61  AT3G54340.1        75.98%    passed     40.51%
+  62  AT3G57230.1        75.16%    passed     43.76%
+  63  AT3G57390.1        73.50%    passed     51.19%
+  64  AT3G58780.4        70.91%    passed     32.09%
+  65  AT3G61120.1        74.74%    passed     21.57%
+  66  AT4G09960.4        65.94%    passed     16.49%
+  67  AT4G11880.1        77.12%    passed     52.47%
+  68  AT4G18960.1        73.91%    passed     21.98%
+  69  AT4G22950.1        77.33%    passed     56.04%
+  70  AT4G24540.1        77.23%    failed      2.30%
+  71  AT4G37940.1        76.40%    passed     93.94%
+  72  AT5G10140.1        79.71%    passed      7.17%
+  73  AT5G13790.2        71.95%    passed     46.65%
+  74  AT5G15800.2        72.88%    passed     19.94%
+  75  AT5G20240.1        78.47%    passed     14.81%
+  76  AT5G23260.4        72.26%    passed      5.58%
+  77  AT5G51860.1        78.16%    passed     11.66%
+  78  AT5G51870.3        76.29%    passed     74.13%
+  79  AT5G60910.1        74.95%    passed     87.52%
+  80  AT5G62165.2        78.26%    passed     54.58%
+  81  AT5G65050.3        79.71%    passed     31.34%
+  82  AT5G65060.1        79.71%    passed     12.35%
+  83  AT5G65070.1        79.30%    passed      6.58%
+  84  AT5G65080.2        78.88%    passed     22.71%
+WARNING: 83 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              74.37%  8 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.040 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 589457)...
+
+NOTE: 12 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+11 trees examined
+Threads: 1 / Time: 10.559 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -44419
+Threads: 2 / Time: 7.764 sec / Speedup: 1.360 / Efficiency: 68% / LogL: -44419
+Threads: 3 / Time: 7.636 sec / Speedup: 1.383 / Efficiency: 46% / LogL: -44419
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -41796.505
+Optimal log-likelihood: -35825.691
+Parameters optimization took 1 rounds (0.933 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.208937 secs using 196.5% CPU
+Computing ML distances took 0.209193 sec (of wall-clock time) 0.410822 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000171185 secs using 117.4% CPU
+Computing RapidNJ tree took 0.005157 sec (of wall-clock time) 0.004020 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -35824.353
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.047 second
+Computing log-likelihood of 98 initial trees ... 9.455 seconds
+Current best score: -35824.353
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -35752.243
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -35751.739
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -35750.079
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -35748.673
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -35745.656
+Iteration 10 / LogL: -35766.557 / Time: 0h:1m:1s
+Iteration 20 / LogL: -35752.824 / Time: 0h:1m:22s
+Finish initializing candidate tree set (20)
+Current best tree score: -35745.656 / CPU time: 55.201
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -35742.475
+Iteration 30 / LogL: -35747.362 / Time: 0h:1m:42s (0h:5m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -35738.679
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -35738.504
+Iteration 40 / LogL: -35738.653 / Time: 0h:2m:3s (0h:5m:13s left)
+Iteration 50 / LogL: -35738.659 / Time: 0h:2m:22s (0h:4m:17s left)
+Log-likelihood cutoff on original alignment: -35787.382
+Iteration 60 / LogL: -35742.431 / Time: 0h:2m:41s (0h:3m:36s left)
+Iteration 70 / LogL: -35742.746 / Time: 0h:3m:1s (0h:3m:1s left)
+Iteration 80 / LogL: -35738.804 / Time: 0h:3m:21s (0h:2m:30s left)
+Iteration 90 / LogL: -35740.080 / Time: 0h:3m:39s (0h:2m:0s left)
+Iteration 100 / LogL: -35738.988 / Time: 0h:4m:0s (0h:1m:34s left)
+Log-likelihood cutoff on original alignment: -35787.382
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -35738.534 / Time: 0h:4m:20s (0h:3m:35s left)
+Iteration 120 / LogL: -35744.263 / Time: 0h:4m:43s (0h:3m:10s left)
+Iteration 130 / LogL: -35748.107 / Time: 0h:5m:3s (0h:2m:44s left)
+Iteration 140 / LogL: -35738.591 / Time: 0h:5m:23s (0h:2m:19s left)
+TREE SEARCH COMPLETED AFTER 140 ITERATIONS / Time: 0h:5m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -35738.504
+Optimal log-likelihood: -35738.503
+Parameters optimization took 1 rounds (0.162 sec)
+BEST SCORE FOUND : -35738.503
+Creating bootstrap support values...
+Split supports printed to NEXUS file Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML.splits.nex
+Total tree length: 40.606
+
+Total number of iterations: 140
+CPU time used for tree search: 408.715 sec (0h:6m:48s)
+Wall-clock time used for tree search: 295.618 sec (0h:4m:55s)
+Total CPU time used: 446.671 sec (0h:7m:26s)
+Total wall-clock time used: 323.657 sec (0h:5m:23s)
+
+Computing bootstrap consensus tree...
+Reading input file Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML.splits.nex...
+84 taxa and 524 splits.
+Consensus tree written to Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML.contree
+Reading input trees file Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML.contree
+Log-likelihood of consensus tree: -35738.504
+
+Analysis results written to: 
+  IQ-TREE report:                Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML.iqtree
+  Maximum-likelihood tree:       Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML.treefile
+  Likelihood distances:          Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML.splits.nex
+  Consensus tree:                Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML.contree
+  Screen log file:               Advanced_Phylogenetic_Pipeline/3.Phylogeny_Output/Trees_FullLength/Oryza_sativa_ML.log
+
+Date and Time: Mon Apr 13 20:04:40 2026

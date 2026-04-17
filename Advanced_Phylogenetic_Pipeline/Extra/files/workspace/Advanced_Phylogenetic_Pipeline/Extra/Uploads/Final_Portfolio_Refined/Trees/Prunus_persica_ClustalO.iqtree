@@ -1,0 +1,297 @@
+IQ-TREE 2.3.6 built Jul 30 2024
+
+Input file name: /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Alignments/Prunus_persica_ClustalO.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 628897
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 47 sequences with 724 amino-acid sites
+Number of constant sites: 217 (= 29.9724% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 217 (= 29.9724% of all sites)
+Number of parsimony informative sites: 304
+Number of distinct site patterns: 603
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.8380
+
+ Category  Relative_rate  Proportion
+  1         0.1036         0.2500
+  2         0.4220         0.2500
+  3         0.9670         0.2500
+  4         2.5074         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -20369.0243 (s.e. 840.3649)
+Unconstrained log-likelihood (without tree): -4527.7591
+Number of free parameters (#branches + #model parameters): 92
+Akaike information criterion (AIC) score: 40922.0487
+Corrected Akaike information criterion (AICc) score: 40949.1675
+Bayesian information criterion (BIC) score: 41343.8495
+
+Total tree length (sum of branch lengths): 49.7723
+Sum of internal branch lengths: 15.9402 (32.0262% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Prupe.2G151000.1.p' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Prupe.2G151000.1.p
+|
+|                  +--Prupe.2G287500.1.p
+|               +--| (43)
+|               |  +--Prupe.5G087500.1.p
+|           +---| (100)
+|           |   +--Prupe.2G151200.1.p
+|        +--| (42)
+|        |  +---------Prupe.1G548000.1.p
+|     +--| (98)
+|     |  |                +--Prupe.2G023100.1.p
+|     |  |           +----| (100)
+|     |  |           |    +---Prupe.7G055900.1.p
+|     |  |        +--| (60)
+|     |  |        |  |      +--Prupe.8G069300.1.p
+|     |  |        |  |  +---| (100)
+|     |  |        |  |  |   |  +--Prupe.6G199000.1.p
+|     |  |        |  |  |   +--| (94)
+|     |  |        |  |  |      |      +--Prupe.1G531400.1.p
+|     |  |        |  |  |      |   +--| (62)
+|     |  |        |  |  |      |   |  +--Prupe.1G531100.1.p
+|     |  |        |  |  |      +---| (100)
+|     |  |        |  |  |          |  +--Prupe.1G531600.1.p
+|     |  |        |  |  |          +--| (97)
+|     |  |        |  |  |             +--Prupe.1G531700.1.p
+|     |  |        |  +--| (55)
+|     |  |        |     |    +--Prupe.8G073700.1.p
+|     |  |        |     +----| (100)
+|     |  |        |          +--Prupe.6G208900.1.p
+|     |  |     +--| (10)
+|     |  |     |  |  +------Prupe.4G113500.1.p
+|     |  |     |  +--| (95)
+|     |  |     |     |        +--Prupe.7G164100.1.p
+|     |  |     |     |  +-----| (100)
+|     |  |     |     |  |     |  +--Prupe.1G371300.1.p
+|     |  |     |     |  |     +--| (99)
+|     |  |     |     |  |        +--AT3G54340.1|APETALA3|AP3|Length_232
+|     |  |     |     +--| (98)
+|     |  |     |        |   +--Prupe.1G489400.1.p
+|     |  |     |        +---| (100)
+|     |  |     |            +--AT5G20240.1|PISTILLATA|PI|Length_208
+|     |  |  +--| (36)
+|     |  |  |  |           +--Prupe.4G070500.1.p
+|     |  |  |  |        +--| (65)
+|     |  |  |  |        |  |  +---------------------------------------------AT4G36920.1|APETALA2|AP2|Length_432
+|     |  |  |  |        |  +--| (66)
+|     |  |  |  |        |     +**AT4G18960.1|AGAMOUS|AG|Length_252
+|     |  |  |  |     +--| (66)
+|     |  |  |  |     |  |  +--Prupe.3G170600.1.p
+|     |  |  |  |     |  +--| (98)
+|     |  |  |  |     |     |  +--AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
+|     |  |  |  |     |     +--| (100)
+|     |  |  |  |     |        +--AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
+|     |  |  |  |  +--| (88)
+|     |  |  |  |  |  |  +--Prupe.1G549600.1.p
+|     |  |  |  |  |  +--| (99)
+|     |  |  |  |  |     +--AT4G09960.4|SEEDSTICK|STK|Length_329
+|     |  |  |  +--| (70)
+|     |  |  |     |          +----Prupe.1G427500.1.p
+|     |  |  |     |       +--| (95)
+|     |  |  |     |       |  +---------Prupe.1G276600.1.p
+|     |  |  |     +-------| (100)
+|     |  |  |             +----Prupe.1G511300.1.p
+|     |  +--| (33)
+|     |     +---------Prupe.5G149400.1.p
+|  +--| (81)
+|  |  |        +--Prupe.5G208500.1.p
+|  |  |     +--| (91)
+|  |  |     |  |  +--Prupe.1G290600.1.p
+|  |  |     |  +--| (100)
+|  |  |     |     +--AT1G69120.1|APETALA1|AP1|Length_286
+|  |  |  +--| (100)
+|  |  |  |  +--Prupe.3G249300.1.p
+|  |  +--| (96)
+|  |     +-------Prupe.3G307800.1.p
++--| (100)
+|  |        +--Prupe.5G208400.1.p
+|  |     +--| (84)
+|  |     |  |     +--Prupe.3G249400.1.p
+|  |     |  |  +--| (100)
+|  |     |  |  |  |  +--AT5G15800.2|SEPALLATA1|SEP1|Length_262
+|  |     |  |  |  +--| (100)
+|  |     |  |  |     +--AT3G02310.1|SEPALLATA2|SEP2|Length_250
+|  |     |  +--| (87)
+|  |     |     |  +--Prupe.1G223600.1.p
+|  |     |     +--| (100)
+|  |     |        +--AT1G24260.2|SEPALLATA3|SEP3|Length_251
+|  |  +--| (81)
+|  |  |  +--AT2G03710.1|SEPALLATA4|SEP4|Length_258
+|  +--| (99)
+|     +--Prupe.1G290500.1.p
+|
++---Prupe.2G287000.1.p
+
+Tree in newick format:
+
+(Prupe.2G151000.1.p:0.3968460117,((((((Prupe.2G287500.1.p:0.6839384241,Prupe.5G087500.1.p:0.6239218069)43:0.0760145149,Prupe.2G151200.1.p:0.3112146351)100:0.8455211281,Prupe.1G548000.1.p:2.0137007715)42:0.1969183694,(((((Prupe.2G023100.1.p:0.6596886188,Prupe.7G055900.1.p:0.8447589207)100:1.0183761240,((Prupe.8G069300.1.p:0.6535235345,(Prupe.6G199000.1.p:0.2492412550,((Prupe.1G531400.1.p:0.0896372771,Prupe.1G531100.1.p:0.1850440646)62:0.0289186541,(Prupe.1G531600.1.p:0.0894351932,Prupe.1G531700.1.p:0.1313415125)97:0.0307712375)100:0.8592310226)94:0.2158049197)100:0.8210338228,(Prupe.8G073700.1.p:0.2199331241,Prupe.6G208900.1.p:0.4976006823)100:1.0267797390)55:0.1454425584)60:0.1923495247,(Prupe.4G113500.1.p:1.5092457011,((Prupe.7G164100.1.p:0.6471132562,(Prupe.1G371300.1.p:0.4549885523,AT3G54340.1|APETALA3|AP3|Length_232:0.6548546586)99:0.1608634433)100:1.1622009440,(Prupe.1G489400.1.p:0.5193287533,AT5G20240.1|PISTILLATA|PI|Length_208:0.4686576736)100:0.8424050329)98:0.3731533266)95:0.4436446182)10:0.0617354527,((((Prupe.4G070500.1.p:0.1753184658,(AT4G36920.1|APETALA2|AP2|Length_432:8.9450922358,AT4G18960.1|AGAMOUS|AG|Length_252:0.0000020590)66:0.2851195806)65:0.1041668294,(Prupe.3G170600.1.p:0.1747910476,(AT3G58780.4|SHATTERPROOF1|SHP1|Length_281:0.0669898714,AT2G42830.2|SHATTERPROOF2|SHP2|Length_248:0.1309317778)100:0.2527527327)98:0.1188754147)66:0.1341113876,(Prupe.1G549600.1.p:0.1515847482,AT4G09960.4|SEEDSTICK|STK|Length_329:0.2594769227)99:0.3057876578)88:0.5613783449,((Prupe.1G427500.1.p:0.9821890704,Prupe.1G276600.1.p:2.0865741459)95:0.2322428666,Prupe.1G511300.1.p:0.9597187493)100:1.6059826680)70:0.4476425566)36:0.1174503258,Prupe.5G149400.1.p:1.9357475895)33:0.0358202418)98:0.3462492811,(((Prupe.5G208500.1.p:0.4170976196,(Prupe.1G290600.1.p:0.2595199619,AT1G69120.1|APETALA1|AP1|Length_286:0.2921938063)100:0.2094573373)91:0.1163700228,Prupe.3G249300.1.p:0.6287420081)100:0.4342617075,Prupe.3G307800.1.p:1.5909409644)96:0.2877372795)81:0.1492595374,(((Prupe.5G208400.1.p:0.2912916708,((Prupe.3G249400.1.p:0.1301551118,(AT5G15800.2|SEPALLATA1|SEP1|Length_262:0.0583151460,AT3G02310.1|SEPALLATA2|SEP2|Length_250:0.1075154243)100:0.2420117722)100:0.1278964300,(Prupe.1G223600.1.p:0.1753851700,AT1G24260.2|SEPALLATA3|SEP3|Length_251:0.1579051532)100:0.3722303246)87:0.0888214658)84:0.1002416372,AT2G03710.1|SEPALLATA4|SEP4|Length_258:0.7165269064)81:0.0872186561,Prupe.1G290500.1.p:0.4436592589)99:0.3009038891)100:0.3750122942,Prupe.2G287000.1.p:0.7904884036);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -20369.599579
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Prupe.2G151000.1.p
+|
+|               +--Prupe.2G287500.1.p
+|           +---| (100)
+|           |   |  +--Prupe.2G151200.1.p
+|           |   +--| (55)
+|           |      +--Prupe.5G087500.1.p
+|        +--| (42)
+|        |  +---------Prupe.1G548000.1.p
+|     +--| (98)
+|     |  |                +--Prupe.2G023100.1.p
+|     |  |           +----| (100)
+|     |  |           |    +---Prupe.7G055900.1.p
+|     |  |        +--| (60)
+|     |  |        |  |      +--Prupe.8G069300.1.p
+|     |  |        |  |  +---| (100)
+|     |  |        |  |  |   |  +--Prupe.6G199000.1.p
+|     |  |        |  |  |   +--| (94)
+|     |  |        |  |  |      |      +--Prupe.1G531400.1.p
+|     |  |        |  |  |      |   +--| (62)
+|     |  |        |  |  |      |   |  +--Prupe.1G531100.1.p
+|     |  |        |  |  |      +---| (100)
+|     |  |        |  |  |          |  +--Prupe.1G531600.1.p
+|     |  |        |  |  |          +--| (97)
+|     |  |        |  |  |             +--Prupe.1G531700.1.p
+|     |  |        |  +--| (55)
+|     |  |        |     |    +--Prupe.8G073700.1.p
+|     |  |        |     +----| (100)
+|     |  |        |          +--Prupe.6G208900.1.p
+|     |  |     +--| (24)
+|     |  |     |  |           +--Prupe.4G070500.1.p
+|     |  |     |  |        +--| (65)
+|     |  |     |  |        |  |  +---------------------------------------------AT4G36920.1|APETALA2|AP2|Length_432
+|     |  |     |  |        |  +--| (66)
+|     |  |     |  |        |     +--AT4G18960.1|AGAMOUS|AG|Length_252
+|     |  |     |  |     +--| (66)
+|     |  |     |  |     |  |  +--Prupe.3G170600.1.p
+|     |  |     |  |     |  +--| (98)
+|     |  |     |  |     |     |  +--AT3G58780.4|SHATTERPROOF1|SHP1|Length_281
+|     |  |     |  |     |     +--| (100)
+|     |  |     |  |     |        +--AT2G42830.2|SHATTERPROOF2|SHP2|Length_248
+|     |  |     |  |  +--| (88)
+|     |  |     |  |  |  |  +--Prupe.1G549600.1.p
+|     |  |     |  |  |  +--| (99)
+|     |  |     |  |  |     +--AT4G09960.4|SEEDSTICK|STK|Length_329
+|     |  |     |  +--| (70)
+|     |  |     |     |          +----Prupe.1G427500.1.p
+|     |  |     |     |       +--| (95)
+|     |  |     |     |       |  +---------Prupe.1G276600.1.p
+|     |  |     |     +-------| (100)
+|     |  |     |             +---Prupe.1G511300.1.p
+|     |  |  +--| (36)
+|     |  |  |  |  +------Prupe.4G113500.1.p
+|     |  |  |  +--| (95)
+|     |  |  |     |        +--Prupe.7G164100.1.p
+|     |  |  |     |  +-----| (100)
+|     |  |  |     |  |     |  +--Prupe.1G371300.1.p
+|     |  |  |     |  |     +--| (99)
+|     |  |  |     |  |        +--AT3G54340.1|APETALA3|AP3|Length_232
+|     |  |  |     +--| (98)
+|     |  |  |        |   +--Prupe.1G489400.1.p
+|     |  |  |        +---| (100)
+|     |  |  |            +--AT5G20240.1|PISTILLATA|PI|Length_208
+|     |  +--| (33)
+|     |     +---------Prupe.5G149400.1.p
+|  +--| (81)
+|  |  |        +--Prupe.5G208500.1.p
+|  |  |     +--| (91)
+|  |  |     |  |  +--Prupe.1G290600.1.p
+|  |  |     |  +--| (100)
+|  |  |     |     +--AT1G69120.1|APETALA1|AP1|Length_286
+|  |  |  +--| (100)
+|  |  |  |  +--Prupe.3G249300.1.p
+|  |  +--| (96)
+|  |     +-------Prupe.3G307800.1.p
++--| (100)
+|  |        +--Prupe.5G208400.1.p
+|  |     +--| (84)
+|  |     |  |     +--Prupe.3G249400.1.p
+|  |     |  |  +--| (100)
+|  |     |  |  |  |  +--AT5G15800.2|SEPALLATA1|SEP1|Length_262
+|  |     |  |  |  +--| (100)
+|  |     |  |  |     +--AT3G02310.1|SEPALLATA2|SEP2|Length_250
+|  |     |  +--| (87)
+|  |     |     |  +--Prupe.1G223600.1.p
+|  |     |     +--| (100)
+|  |     |        +--AT1G24260.2|SEPALLATA3|SEP3|Length_251
+|  |  +--| (81)
+|  |  |  +--AT2G03710.1|SEPALLATA4|SEP4|Length_258
+|  +--| (99)
+|     +--Prupe.1G290500.1.p
+|
++---Prupe.2G287000.1.p
+
+
+Consensus tree in newick format: 
+
+(Prupe.2G151000.1.p:0.4023282847,(((((Prupe.2G287500.1.p:0.6862018731,(Prupe.2G151200.1.p:0.3629786952,Prupe.5G087500.1.p:0.6439130935)55:0.0217277853)100:0.8555943334,Prupe.1G548000.1.p:2.0419670611)42:0.1846646938,(((((Prupe.2G023100.1.p:0.6789876285,Prupe.7G055900.1.p:0.8299253961)100:1.0264112487,((Prupe.8G069300.1.p:0.6494608160,(Prupe.6G199000.1.p:0.2563995816,((Prupe.1G531400.1.p:0.0900726263,Prupe.1G531100.1.p:0.1859439335)62:0.0290649699,(Prupe.1G531600.1.p:0.0898745460,Prupe.1G531700.1.p:0.1319351671)97:0.0308976000)100:0.8570376801)94:0.2193384068)100:0.8356456289,(Prupe.8G073700.1.p:0.2231145828,Prupe.6G208900.1.p:0.4965932858)100:1.0002781435)55:0.1306800055)60:0.1906367031,((((Prupe.4G070500.1.p:0.1760492642,(AT4G36920.1|APETALA2|AP2|Length_432:8.9471410846,AT4G18960.1|AGAMOUS|AG|Length_252:0.0000028960)66:0.2860088141)65:0.1019695941,(Prupe.3G170600.1.p:0.1753019645,(AT3G58780.4|SHATTERPROOF1|SHP1|Length_281:0.0672264452,AT2G42830.2|SHATTERPROOF2|SHP2|Length_248:0.1316355523)100:0.2545401935)98:0.1228653565)66:0.1373361069,(Prupe.1G549600.1.p:0.1528198133,AT4G09960.4|SEEDSTICK|STK|Length_329:0.2595217796)99:0.3042601687)88:0.5833285030,((Prupe.1G427500.1.p:0.9897390895,Prupe.1G276600.1.p:2.0801646156)95:0.2337836902,Prupe.1G511300.1.p:0.9609101119)100:1.5614510393)70:0.4244516713)24:0.0981683858,(Prupe.4G113500.1.p:1.5085527322,((Prupe.7G164100.1.p:0.6559430934,(Prupe.1G371300.1.p:0.4573490520,AT3G54340.1|APETALA3|AP3|Length_232:0.6565828784)99:0.1539141259)100:1.1698707786,(Prupe.1G489400.1.p:0.5159218038,AT5G20240.1|PISTILLATA|PI|Length_208:0.4744563962)100:0.8280079628)98:0.3903164421)95:0.4355232476)36:0.1007931366,Prupe.5G149400.1.p:1.9383495266)33:0.0753775762)98:0.3125304226,(((Prupe.5G208500.1.p:0.4210065764,(Prupe.1G290600.1.p:0.2595921314,AT1G69120.1|APETALA1|AP1|Length_286:0.2948545272)100:0.2077296020)91:0.1186974926,Prupe.3G249300.1.p:0.6282506834)100:0.4401546869,Prupe.3G307800.1.p:1.5942423307)96:0.2739299930)81:0.1586693488,(((Prupe.5G208400.1.p:0.2924852704,((Prupe.3G249400.1.p:0.1309999941,(AT5G15800.2|SEPALLATA1|SEP1|Length_262:0.0586717980,AT3G02310.1|SEPALLATA2|SEP2|Length_250:0.1079120192)100:0.2424979366)100:0.1284747787,(Prupe.1G223600.1.p:0.1759437005,AT1G24260.2|SEPALLATA3|SEP3|Length_251:0.1585243568)100:0.3736889741)87:0.0891654127)84:0.1011375443,AT2G03710.1|SEPALLATA4|SEP4|Length_258:0.7180881914)81:0.0898202588,Prupe.1G290500.1.p:0.4423491086)99:0.2990273417)100:0.3725504649,Prupe.2G287000.1.p:0.7882852267);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Trees/Prunus_persica_ClustalO.treefile -m "LG+G4{0.837995}" --length 724
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Alignments/Prunus_persica_ClustalO.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/Advanced_Phylogenetic_Pipeline/Uploads/Final_Portfolio_Refined/Alignments/Prunus_persica_ClustalO.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Apr 10 06:22:25 2026
+Total CPU time used: 734.981585 seconds (0h:12m:14s)
+Total wall-clock time used: 274.1087852 seconds (0h:4m:34s)
+
