@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/master_render_trees.py", line 93, in <module>
-    render_tree(tree_path, output_image)
-  File "/Users/bushrakhan/Desktop/NIPGR-data/MADS-box-Evolutionary-gene-detection/master_render_trees.py", line 20, in render_tree
-    ts.shape_heading_filter = False
-  File "/Users/bushrakhan/Library/Python/3.9/lib/python/site-packages/ete3/treeview/main.py", line 558, in __setattr__
-    raise ValueError("[%s] option is not supported" %attr)
-ValueError: [shape_heading_filter] option is not supported
